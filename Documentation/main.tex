@@ -1,0 +1,134 @@
+\documentclass[11pt,a4paper,oldfontcommands]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage[dvips]{graphicx}
+\usepackage{xcolor}
+\usepackage{times}
+
+\usepackage[
+breaklinks=true,colorlinks=true,
+%linkcolor=blue,urlcolor=blue,citecolor=blue,% PDF VIEW
+linkcolor=black,urlcolor=black,citecolor=black,% PRINT
+bookmarks=true,bookmarksopenlevel=2]{hyperref}
+
+\usepackage{geometry}
+% PDF VIEW
+% \geometry{total={210mm,297mm},
+% left=25mm,right=25mm,%
+% bindingoffset=0mm, top=25mm,bottom=25mm}
+% PRINT
+\geometry{total={210mm,297mm},
+left=20mm,right=20mm,
+bindingoffset=10mm, top=25mm,bottom=25mm}
+
+\OnehalfSpacing
+%\linespread{1.3}
+
+%%% CHAPTER'S STYLE
+\chapterstyle{bianchi}
+%\chapterstyle{ger}
+%\chapterstyle{madsen}
+%\chapterstyle{ell}
+%%% STYLE OF SECTIONS, SUBSECTIONS, AND SUBSUBSECTIONS
+\setsecheadstyle{\Large\bfseries\sffamily\raggedright}
+\setsubsecheadstyle{\large\bfseries\sffamily\raggedright}
+\setsubsubsecheadstyle{\bfseries\sffamily\raggedright}
+
+
+%%% STYLE OF PAGES NUMBERING
+%\pagestyle{companion}\nouppercaseheads 
+%\pagestyle{headings}
+%\pagestyle{Ruled}
+\pagestyle{plain}
+\makepagestyle{plain}
+\makeevenfoot{plain}{\thepage}{}{}
+\makeoddfoot{plain}{}{}{\thepage}
+\makeevenhead{plain}{}{}{}
+\makeoddhead{plain}{}{}{}
+
+
+\maxsecnumdepth{subsection} % chapters, sections, and subsections are numbered
+\maxtocdepth{subsection} % chapters, sections, and subsections are in the Table of Contents
+
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+
+\begin{document}
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+%   TITLEPAGE
+%
+%   due to variety of titlepage schemes it is probably better to make titlepage manually
+%
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+\thispagestyle{empty}
+
+{%%%
+
+\centering
+\title{ \normalsize \textsc{}
+		\\ [2.0cm]
+		\hline \vspace{10pt} \\
+		\huge \textbf{CustomJS primer for Calculatorians\textsuperscript{\textregistered}} \vspace{5pt}
+		\textbf{\hline}{\hline} \\ [0.5cm]
+		\normalsize \today \vspace{100pt}\\}		
+		}
+
+\date{\today}
+
+\author{\LARGE Alvaro Diez \\
+		Not a PhD in Astrophysics\texttrademark \\
+		\large \textbf{Omni Calculator Project}}
+
+\maketitle
+%%%
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%
+
+\chapter{Before you start}
+
+\section{Do you need CustomJS?}
+\input{doYouNeed.tex}
+
+\section{CustomJS at Omni \small{[Built-in functions]}}
+\input{omniBuiltIn.tex}
+
+\section{Fundamentals of coding (in any language)}
+\input{fundamentals.tex}
+
+\section{Do's and Do not's \small{[a list of strong suggestions]}}
+\input{omniRecommends.tex}
+
+\chapter{Okay, so you are already coding...}
+
+\section{What can you do\small{[typical additions in customJS]}}
+\input{whatDo.tex}
+
+\section{Sh*t! Why is this not working! \small{[debugging for normies]}}
+\input{debug.tex}
+
+\section{Style Guide \small{[Do it for us, do it for yourself]}}
+\input{style.tex}
+
+
+\section{Okay, but how can I...? \small{[additional resource]}}
+
+
+\appendix
+
+\chapter{To infinity and beyond!}
+\section{A collection of helpful resources}
+\input{resources.tex}
+
+\bibliographystyle{unsrt}
+\bibliography{sample}
+
+\end{document}
+
