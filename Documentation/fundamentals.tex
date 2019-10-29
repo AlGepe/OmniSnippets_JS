@@ -9,11 +9,11 @@ For a computer to understand a program you need to follow a certain convention, 
 For us calculatorians javascript is the main language we will be using, but sometimes we might come across some \textit{HTML}, you need not worry about it, since it's recommended not to use it directly, but for completeness we will take a look at what it is and how it compares to javascript.
 \subsection{Javascript vs HTML}
 \label{sub:jsHtml}
-Picture this: You are happily looking at someone's calculator looking for inspiration when suddenly weird characters appear on the screen and threaten you with their 'totally not javascript' looks, or how you call it now:\texit{syntax}. They probably look like this: \texttt{<a href='http...'>}. Fear not! This a friendly characters that have been relegated to the darkest parts of BB, but that love showing up here and there to help you when you've already lost all hope or javascript is simply not having a good day. 
+Picture this: You are happily looking at someone's calculator looking for inspiration when suddenly weird characters appear on the screen and threaten you with their 'totally not javascript' looks, or how you call it now:\textit{syntax}. They probably look like this: \texttt{<a href='http...'>}. Fear not! This a friendly characters that have been relegated to the darkest parts of BB, but that love showing up here and there to help you when you've already lost all hope or javascript is simply not having a good day. 
 
 HTML's are not the same spices as Javascript, though. But they are the perfect companion for javascript and a loyal friend that help your javascript actually be used by people. Let me explain:
 
-Javascript is similar to general purpose programming languages like Python, C or Java\footnote{It's similar but DEFINITELY different} and hence it is used to perform calculations, run algorithms and make webpages dynamic. On the other hand HTML is closer to \latex, or markdown (what we use to write the text of the calculators) and it's main purpose is to display things and make them look pretty. When people talk about HTML they usually mention also CSS which is (for our level, anyway) just an ordered way to create and store visual styles and desgin rules that HTML will follow, kind of like a configuration file for CSS.
+Javascript is similar to general purpose programming languages like Python, C or Java\footnote{It's similar but DEFINITELY different} and hence it is used to perform calculations, run algorithms and make webpages dynamic. On the other hand HTML is closer to \LaTeX, or markdown (what we use to write the text of the calculators) and it's main purpose is to display things and make them look pretty. When people talk about HTML they usually mention also CSS which is (for our level, anyway) just an ordered way to create and store visual styles and desgin rules that HTML will follow, kind of like a configuration file for CSS.
 
 There are many more differences between Javascript and HTML, like for example the fact that Javascript is generally ran on the user's computer (which is important to keep in mind when we build complex calculators) while HTML is ran on our server and only the results are shown in the user's computer. 
 
@@ -32,7 +32,7 @@ I once told my father \textit{"Don't you worry when using a computer, you don't 
 
 \subsubsection{Variables - Primitives}
 \label{subsub:primitives}
-First of all we need to start with the idea of a variable. A variable is a reference, a name, a shorthand or nickname to refer to something in a much more clear and efficient way.  We do this in $Real Life\texttrademark$  when we talk to people. For example, you would never say: "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator \textit{on time}" and instead you would simply say \textbf{Bogna}, because it's simply quicker and conveys the same meaning.
+First of all we need to start with the idea of a variable. A variable is a reference, a name, a shorthand or nickname to refer to something in a much more clear and efficient way.  We do this in $Real Life$\texttrademark\xspace  when we talk to people. For example, you would never say: "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator \textit{on time}" and instead you would simply say \textbf{Bogna}, because it's simply quicker and conveys the same meaning.
 We can do the same thing in any programming language by defining variables and assigning them some values or properties. In Javascript all variables are defined in the same way:
 \begin{lstlisting}
         var Bogna = "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator on time"
@@ -41,11 +41,11 @@ We can do the same thing in any programming language by defining variables and a
 In Javascript all variabels can be defined in the same way \texttt{var nameOfVariable = [expresion]} but it's important to understand the basic types of variables that exist, becuase each behaves differently and have different properties. Most variables cannot be mixed together and they require some kind of 'translation' from one type to another. Javascript does a good job to automatically convert but sometimes you might find weird errors popping up due to incompatible types being mixed up.
 Here is a list of the most basic variable types:
 \begin{itemize}
-    \item \textb{int}: Integer number
-    \item \textb{floar}: Decimal number
-    \item \textb{char}: One letter or character
-    \item \textb{string}: List of characters or piece of text. Think about it as a sentence
-    \item \textb{bool}: Binary logical variable which can be set to True or False
+    \item \textbf{int}: Integer number
+    \item \textbf{float}: Decimal number
+    \item \textbf{char}: One letter or character
+    \item \textbf{string}: List of characters or piece of text. Think about it as a sentence
+    \item \textbf{bool}: Binary logical variable which can be set to True or False
 \end{itemize}
 
 You will always use \texttt{var} before the variable name to declare a variable (declaring means creating for us) independent of the type of variable but it's important to keep in mind what type we're working on. Specially important is when we want to operate with them since depending on the types we are mixing we will get different results, or even crash errors. Let's see more about this in the next subsection.  
