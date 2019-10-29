@@ -48,7 +48,7 @@ Here is a list of the most basic variable types:
     \item \textbf{bool}: Binary logical variable which can be set to True or False
 \end{itemize}
 
-You will always use \texttt{var} before the variable name to declare a variable (declaring means creating for us) independent of the type of variable but it's important to keep in mind what type we're working on. Specially important is when we want to operate with them since depending on the types we are mixing we will get different results, or even crash errors. Let's see more about this in the next subsection.  
+You will always use \texttt{var} before the variable name to declare a variable (declaring means creating for us) independent of the type of variable. When declaring a string you need to put quotes at the begining and at the end of the text, but it doesn't matter if you use sing ($'$) or double quotes ($"$). It's important to keep in mind what type we're working on. Specially important is when we want to operate with them since depending on the types we are mixing we will get different results, or even crash errors. Let's see more about this in the next subsection.  
 
 \large{\textbf{tl;dr}}
 Variables are a nickname for any expression we want and help us write less and same more. Variables can have many types and we mostly never care about them except when we do.
@@ -56,7 +56,24 @@ Variables are a nickname for any expression we want and help us write less and s
 \subsubsection{Operations}
 \label{subsub:operations}
 
-obv, isn't it? but it depends on the type of variable
+Operations are actions that you can perform with one or more variables to modify their value or create a new variable with some combination of the previous values. The most commonly used and notably simple are the mathematical operations such as \textbf{+},\textbf{-}, \textbf{*}(multiplication), \textbf{/}(division). Which should be self-evident. A more uncommon operator that is also very useful is the modulo operator (\textbf{\%}) which returns the remainder of the first variable devided by the second one. The usage is very simple: \texttt{remainder = numerator\%denominator}, and a practical example using number would be: \texttt{37\%5} which would return the value \texttt{2} since 37/5 = 7 with a remainder of 2, which is the output of the modulo function. 
+
+Just remember that this is not an extensive documentation for javascript, so if you ever need any functionality or operation that we haven't mentioned, ask Google before you give up and look for a workaround. Speaking of things that are by no means exhaustively covered in this document: let's talk about operation on strings.
+
+Strings are special variables in the sense that they act in many occasions as a single variable but can be also used as a collection of characters, kindof like a list of characters. The fact that the also carry information in natural language makes them more likely to be searched, splitted, slightly modified or even reformated. The gods of Javascript (yes, javascript is a revealed truth, not the creation of humans) though of these and gave us multiple operations that relate only to strings. The call them methods for reasons that will become apparent when we talk about objects in section \ref{subsub:array}.
+
+We will mention here the (subjectively) most useful ones but make sure to check the reference for a complete list of all the methods available and a description of what they do and how to call them (that is, use them). Here we will only mention the three that we\ref{It's just me making this decisions but I want to sound not like a dictator} feel are the most useful. That said, in Omni Calculators strings are mostly just concatenated using the + operator, so you might never use any of these three.
+
+\begin{itemize}
+    \item \texttt{search()} Searches a string for a specified substring and returns the position of the match
+    \item \texttt{replace()} Searches a string for a specified value and returns a new string where the specified values are replaced
+    \item \texttt{split()} Splits a string into an array of substrings
+    \item \texttt{length()} Returns the length of a string (number of characters)
+\end{itemize}
+
+\large{textbf{tl;dr}}
+Operations are sum (+), substract (-), multiply (*) and devide (/) but there are others we barely use. For strings no all this functions work but sum just add one string at the end of another. For all the string-specific operations, just look it up online (in the text above are some decent links). Just know that you can split, find characters, and other cool stuff.
+
 \subsubsection{Variables - Compounding like I have interest} 
 \label{subsub:array}
 Arrays, lists, dictionaries, objects...
