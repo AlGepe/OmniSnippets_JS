@@ -2,7 +2,7 @@
 + Darek
 + Jack
 Reina
-Natalia
++Natalia
 Farhan
 Magda
 + Mateusz

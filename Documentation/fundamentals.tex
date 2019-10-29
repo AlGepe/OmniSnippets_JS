@@ -30,88 +30,85 @@ And now into coding proper. Just a small side note before we dive into it: \text
 
 I once told my father \textit{"Don't you worry when using a computer, you don't know enough about it to break anything serious"} and exactly this philosophy applies to you: if youare reading this guide you probably don't have the knowledge to truly break anything. With that said, $don't be a dick$\texttrademark don't try to prove me wrong, don't do things that you are not sure about and if in doubt don't ask yourself "what would this do?", but rather "who can I ask about it?".  As long as you don't try to kill flies with bazookas\footnote{Spanish saying} you will be fine, and you should not worry at all.
 
-    \subsubsection{Variables - Primitives}
-    \label{subsub:primitives}
-    First of all we need to start with the idea of a variable. A variable is a reference, a name, a shorthand or nickname to refer to something in a much more clear and efficient way.  We do this in $Real Life\texttrademark$  when we talk to people. For example, you would never say: "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator \textit{on time}" and instead you would simply say \textbf{Bogna}, because it's simply quicker and conveys the same meaning.
-    We can do the same thing in any programming language by defining variables and assigning them some values or properties. In Javascript all variables are defined in the same way:
-    \begin{lstlisting}
+\subsubsection{Variables - Primitives}
+\label{subsub:primitives}
+First of all we need to start with the idea of a variable. A variable is a reference, a name, a shorthand or nickname to refer to something in a much more clear and efficient way.  We do this in $Real Life\texttrademark$  when we talk to people. For example, you would never say: "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator \textit{on time}" and instead you would simply say \textbf{Bogna}, because it's simply quicker and conveys the same meaning.
+We can do the same thing in any programming language by defining variables and assigning them some values or properties. In Javascript all variables are defined in the same way:
+\begin{lstlisting}
         var Bogna = "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator on time"
-    \end{lstlisting}
-
-    \medskip
-\begin{lstlisting}[caption=My Javascript Example]
-Name.prototype = {
-  methodName: function(params){
-    var doubleQuoteString = "some text";
-    var singleQuoteString = 'some more text';
-    // this is a comment
-    if(this.confirmed != null && typeof(this.confirmed) == Boolean && this.confirmed == true){
-      document.createElement('h3');
-      $('#system').append("This looks great");
-      return false;
-    } else {
-      throw new Error;
-    }
-  }
-}
 \end{lstlisting}
-int vs float. Number vs string. boolean
-    \subsubsection{Operations}
-    \label{subsub:operations}
+
+In Javascript all variabels can be defined in the same way \texttt{var nameOfVariable = [expresion]} but it's important to understand the basic types of variables that exist, becuase each behaves differently and have different properties. Most variables cannot be mixed together and they require some kind of 'translation' from one type to another. Javascript does a good job to automatically convert but sometimes you might find weird errors popping up due to incompatible types being mixed up.
+Here is a list of the most basic variable types:
+\begin{itemize}
+    \item \textb{int}: Integer number
+    \item \textb{floar}: Decimal number
+    \item \textb{char}: One letter or character
+    \item \textb{string}: List of characters or piece of text. Think about it as a sentence
+    \item \textb{bool}: Binary logical variable which can be set to True or False
+\end{itemize}
+
+You will always use \texttt{var} before the variable name to declare a variable (declaring means creating for us) independent of the type of variable but it's important to keep in mind what type we're working on. Specially important is when we want to operate with them since depending on the types we are mixing we will get different results, or even crash errors. Let's see more about this in the next subsection.  
+
+\large{\textbf{tl;dr}}
+Variables are a nickname for any expression we want and help us write less and same more. Variables can have many types and we mostly never care about them except when we do.
+
+\subsubsection{Operations}
+\label{subsub:operations}
 obv, isn't it? but it depends on the type of variable
-    \subsubsection{Variables - Compounding like I have interest} 
-    \label{subsub:array}
+\subsubsection{Variables - Compounding like I have interest} 
+\label{subsub:array}
 Arrays, lists, dictionaries, objects...
-    \subsubsection{Functions}
-    \label{subsub:functions}
+\subsubsection{Functions}
+\label{subsub:functions}
 Interactive variables
 
 \subsection{Order of execution and loops - Basics}
 \label{sub:execBasic}
 Bla bla bla up to down unless modifiers or functions.
-    \subsubsection{if (if-else)}
-    \label{subsub:if}
+\subsubsection{if (if-else)}
+\label{subsub:if}
 don't over use them
 
-    \subsubsection{for}
-    \label{subsub:for}
+\subsubsection{for}
+\label{subsub:for}
 the protytpe loop \ref{sub:whoAsk}
 
-    \subsubsection{while}
-    \label{sub:while}
+\subsubsection{while}
+\label{sub:while}
 for's brother
 
-    \subsubsection{break}
-    \label{subsub:break}
+\subsubsection{break}
+\label{subsub:break}
 DENIED!
 
-    \subsubsection{switch...case}
-    \label{subsub:switch}
+\subsubsection{switch...case}
+\label{subsub:switch}
 A fancy if, technically faster, only use for clarity
 
 \subsection{Order of execution and loops - Advanced}
 \label{sub:execAdv}
 Don't use, but they are cool, so maybe use?
-    \subsubsection{do-while}
-    \label{subsub:doWhile}
+\subsubsection{do-while}
+\label{subsub:doWhile}
 for's weird cousin
 
-    \subsubsection{labeled}
-    \label{subsub:labeled}
+\subsubsection{labeled}
+\label{subsub:labeled}
 Make it your own!
 
-    \subsubsection{continue}
-    \label{subsub:continue}
+\subsubsection{continue}
+\label{subsub:continue}
 if you need help: \href{http://letmegooglethat.com/?q=continue}{click here}
 
-    \subsubsection{for...in}
-    \label{subsub:forIn}
+\subsubsection{for...in}
+\label{subsub:forIn}
 for's weird cousing from Alabama
 
-    \subsubsection{for...of}
-    \label{subsub:forOf}
+\subsubsection{for...of}
+\label{subsub:forOf}
 for's weird-cousin-from-Alabama's normal son
-    
+
 \subsection{The laziness principle}
 \label{sub:lazy}
 If it takes more than 5min to do think if someone might have done it before and look for it (or ask politely)
