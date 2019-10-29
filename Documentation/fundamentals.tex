@@ -13,12 +13,48 @@ Picture this: You are happily looking at someone's calculator looking for inspir
 
 HTML's are not the same spices as Javascript, though. But they are the perfect companion for javascript and a loyal friend that help your javascript actually be used by people. Let me explain:
 
+Javascript is similar to general purpose programming languages like Python, C or Java\footnote{It's similar but DEFINITELY different} and hence it is used to perform calculations, run algorithms and make webpages dynamic. On the other hand HTML is closer to \latex, or markdown (what we use to write the text of the calculators) and it's main purpose is to display things and make them look pretty. When people talk about HTML they usually mention also CSS which is (for our level, anyway) just an ordered way to create and store visual styles and desgin rules that HTML will follow, kind of like a configuration file for CSS.
 
+There are many more differences between Javascript and HTML, like for example the fact that Javascript is generally ran on the user's computer (which is important to keep in mind when we build complex calculators) while HTML is ran on our server and only the results are shown in the user's computer. 
+
+Compatibility is also an important factor to take into account when using Javascript and HTML. HTML tends to be much more widely supported across all browsers (nothing is perfect, though), while Javascript does present significant compatibility concerns for those who program websites from the ground up, which is not us\footnote{Sorry Darek and Daniel \^\^ <3}. Luckily we have nice developers that deal with those problems for us and don't allow us to use incompatible functions, which can be a bit frustrating when making very complex calculators, but it ensures that every user that visit our webpage will get a very nice calculator that works as intended.
+
+\large{\textbf{tl;dr}}
+Javascript is for doing and HTML is for showing it to people.
+Javascript is run by the computer of the user, and our server does the HTML
 
 \subsection{Variables, functions, operations...}
 \label{sub:types}
+
+And now into coding proper. Just a small side note before we dive into it: \textit{\textbf{Don't Panic!}} Programming does seem like witchcraft but unlike witchcraft it (1) really actually works and (2) if you make a mistake you don't actually risk the fate of the universe or anyone's life.
+
+I once told my father \textit{"Don't you worry when using a computer, you don't know enough about it to break anything serious"} and exactly this philosophy applies to you: if youare reading this guide you probably don't have the knowledge to truly break anything. With that said, $don't be a dick$\texttrademark don't try to prove me wrong, don't do things that you are not sure about and if in doubt don't ask yourself "what would this do?", but rather "who can I ask about it?".  As long as you don't try to kill flies with bazookas\footnote{Spanish saying} you will be fine, and you should not worry at all.
+
     \subsubsection{Variables - Primitives}
     \label{subsub:primitives}
+    First of all we need to start with the idea of a variable. A variable is a reference, a name, a shorthand or nickname to refer to something in a much more clear and efficient way.  We do this in $Real Life\texttrademark$  when we talk to people. For example, you would never say: "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator \textit{on time}" and instead you would simply say \textbf{Bogna}, because it's simply quicker and conveys the same meaning.
+    We can do the same thing in any programming language by defining variables and assigning them some values or properties. In Javascript all variables are defined in the same way:
+    \begin{lstlisting}
+        var Bogna = "super enthusiastic, very demaning, tall, hard working, really nice boss/colleague, and the reason any of us finish a difficult calculator on time"
+    \end{lstlisting}
+
+    \medskip
+\begin{lstlisting}[caption=My Javascript Example]
+Name.prototype = {
+  methodName: function(params){
+    var doubleQuoteString = "some text";
+    var singleQuoteString = 'some more text';
+    // this is a comment
+    if(this.confirmed != null && typeof(this.confirmed) == Boolean && this.confirmed == true){
+      document.createElement('h3');
+      $('#system').append("This looks great");
+      return false;
+    } else {
+      throw new Error;
+    }
+  }
+}
+\end{lstlisting}
 int vs float. Number vs string. boolean
     \subsubsection{Operations}
     \label{subsub:operations}
