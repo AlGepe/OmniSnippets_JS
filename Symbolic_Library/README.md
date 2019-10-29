@@ -14,6 +14,8 @@ Allows for complex numbers
 
 Requires the usage of `reduceFraction`
 
+simplifies a function, deals with numbers as strings due to √ characther for symbolic calculations
+
 Returns a list `[numerator, denominator]`
 
 ## reduceFraction
