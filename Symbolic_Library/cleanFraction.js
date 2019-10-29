@@ -5,23 +5,22 @@ function cleanFraction(upper, lower){
       fraction = [],
       a,
       b;
-      //return [typeof upper, "test"];
   if(typeof upper != "number"){
     upNumbs = 1;
     a = parseInt(upper.split("√")[0]);
     b = parseInt(upper.split("√")[1]);
     if(!(b.isNaN)){upNumbs = b;}
-    if(-1*(a.isNaN)){upNumbs = upNumbs*a*a;}
+    if(!(isNaN(a))){upNumbs = upNumbs*a*a;}
   }
   if(typeof lower != "number"){
     lowNumbs = 1;
     a = parseInt(lower.split("√")[0]);
     b = parseInt(lower.split("√")[1]);
     if(!(b.isNaN)){lowNumbs = b;}
-    if(-1*(a.isNaN)){lowNumbs = lowNumbs*a*a;}
-    //return [a, "juan"];
-   // return [upper,lowNumbs];
+    if(!(isNaN(a))){lowNumbs = lowNumbs*a*a;}
+
   }
-  fraction = reduceFraction(upNumbs, lowNumbs);
+  fraction = reduce(upNumbs, lowNumbs);
   return [findRoot(fraction[0]), findRoot(fraction[1])];
 }
+
