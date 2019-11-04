@@ -7,6 +7,8 @@ A program is a text file that contains precise instructions understandable by a 
 For a computer to understand a program you need to follow a certain convention, which is often called the syntax, and that is specific to each programming language. Here we will only talk about the javascript syntax (and briefly html). Bare in mind that even if the syntax is language-dependent, most of the concepts are the same across different programming languages\footnote{This is almost always the case when we are talking about the most basic concepts such as the ones we will mention in this document}.
 
 For us calculatorians javascript is the main language we will be using, but sometimes we might come across some \textit{HTML}, you need not worry about it, since it's recommended not to use it directly, but for completeness we will take a look at what it is and how it compares to javascript.
+
+TALK ABOUT SYNTAX, IMPORTANCE OF SPACES, SEMICOLONS AND INDENTATION FOR EXECUTION
 \subsection{Javascript vs HTML}
 \label{sub:jsHtml}
 Picture this: You are happily looking at someone's calculator looking for inspiration when suddenly weird characters appear on the screen and threaten you with their 'totally not javascript' looks, or how you call it now:\textit{syntax}. They probably look like this: \texttt{<a href='http...'>}. Fear not! This a friendly characters that have been relegated to the darkest parts of BB, but that love showing up here and there to help you when you've already lost all hope or javascript is simply not having a good day. 
@@ -79,7 +81,18 @@ Operations are sum (+), substract (-), multiply (*) and devide (/) but there are
 \subsubsection{Variables - Compounding like I have interest} 
 \label{subsub:array}
 So this is all well and good, but what happens when you have to mange hundreds or thousands of variables that are very similar to each other, or very closely related? \xcancel{You\: give\: up.} You use compounded variables! (as I have taken the liberty of calling them for the sake of a pun)
+What we mean here by compounded variables is having one variable that represents a collection of variables. This will allow to organize and operate with these multiple variables in a much more organized and efficient manner. For accessing (reading) and working with each variable we will need to use loops, which you will learn more about in Section \ref{sub:execBasic}, in particular you will most commonly use \texttt{for} loop (Section \ref{subsub:for}) or a \texttt{while} loop (Section \ref{sub:while}), at least in the most basic cases. 
+There are several types of compounded variables, but here we will only take a look at two of them (again, (Google is your friend if you want to learn more): the \textbf{array} and the \textbf{dictionary}.
+The most intuitive to understand is the Dictionary, which technically is a Javascript object, but we don't need to know what that means for now. For us a dictionary is simply a collection of pairs of keys and values. Using the dictionary metaphor, the key would be the word and the value would be the definition. The dictionary is also a variables (I know it can get confusing but just look at the example) so it needs to be defined using the keyword \texttt{var}.
+Let's look at a example in which we set a dictionary with keys corresponding to the two letter abbreviation of a country and the value being the full name of that country; we have limited the number of countries in the example for simplicity and political reasons.
 
+\begin{lstlisting}
+    var countryDictionary = {ES: "Spain", PL:"Poland", HU:"Hungary", IN:"India", PH:"Philippines", UK:"United Kingdom"}; 
+\end{lstlisting}
+As you might have notice the syntax is very simple, the dictionary is defined between curly brackets ({}) and each key-value pair is defined as \texttt{key:value} (Notice that here our values are strings so the go in quotes). All key-value pairs, which are considered a single element of the dictionary, are separated by commas. 
+This type of variable is very useful for \textit{"translations"} and \textit{"conversion"} and it's what underlies the creation of an Omni \texttt{valueSelect} (see Section \ref{sub:vSelect}) and it's also closely related to the Omni \texttt{valueSetter} (Section \ref{sub:vSetter}). There is also another keyword you might want to do some research on Google about: Object Literals. But you seriously don't need it to make calculators, so unless you like to complicate your life in the name of knowledge, don't do it.
+
+Now we swiftly move onto \textbf{Arrays} probably the most useful of compounded variables for a calculatorian.
 many of you might have spent way too much time because you weren't taught about arrays and how to operate with them\footnote{I'm really sorry Julia, we could've save you so much time with the Pomodoro, hopefully this will still help you in the future}
 Arrays, lists, dictionaries, objects...
 \subsubsection{Functions}
