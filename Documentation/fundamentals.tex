@@ -94,10 +94,25 @@ Let's look at a example in which we set a dictionary with keys corresponding to 
 \begin{lstlisting}
     var countryDictionary = {ES: "Spain", PL:"Poland", HU:"Hungary", IN:"India", PH:"Philippines", UK:"United Kingdom"}; 
 \end{lstlisting}
-As you might have notice the syntax is very simple, the dictionary is defined between curly brackets ({}) and each key-value pair is defined as \texttt{key:value} (Notice that here our values are strings so the go in quotes). All key-value pairs, which are considered a single element of the dictionary, are separated by commas. 
+As you might have notice the syntax is very simple, the dictionary is defined between curly brackets ({}) and each key-value pair is defined as \texttt{key:value} (Notice that here our values are strings so the go in quotes). All key-value pairs, which are considered a single element of the dictionary, are separated by commas. In this example we have used values of type \texttt{string} but we could have used any other type including arrays (which we will see momentarily) or even dictionaries.
+
+To access any element of the dictionary you can simply type the name of the dictionary followed by the key corresponding to the value we are interested in, enclosed in brackets. Let me show you, for example, how to get \textit{"India"} using the dictionary from the example above: \texttt{countryDictionaty["IN"]}. If you can't wrap your head around it, you can think of \texttt{countryDictionary["IN"]} to the name of a variable that contains the string \texttt{"India"}.
+
 This type of variable is very useful for \textit{"translations"} and \textit{"conversion"} and it's what underlies the creation of an Omni \texttt{valueSelect} (see Section \ref{sub:vSelect}) and it's also closely related to the Omni \texttt{valueSetter} (Section \ref{sub:vSetter}). There is also another keyword you might want to do some research on Google about: Object Literals. But you seriously don't need it to make calculators, so unless you like to complicate your life in the name of knowledge, don't do it.
 
-Now we swiftly move onto \textbf{Arrays} probably the most useful of compounded variables for a calculatorian.
+Now we swiftly move onto \textbf{Arrays} probably the most useful of compounded variables for a calculatorian. You can think of them as a list of variables grouped together. If you are mathematically inclined you are better off thinking about them in terms of vectors or matrices, but if your head hurts from just reading those words, don't worry, ignore that advice.
+
+Let's see how an array is defined in Javascript. This, again is a type of variable as you can see in the example. 
+
+\begin{lstlisting}
+    var daysInMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+\end{lstlisting}
+
+As you can see we have made a list that contains the number of days in each month (in regular year). Once again the elements of the array could've been anything, from numbers to strings to dictionaries to even lists. To access each element you need to remember the position of said element in the list. This shouldn't be hard if you have made a list that makes sense. For example, in this case the months are ordered as they appear in the year from first to last (Jan, Feb, Mar,...). Now that we now the position I want to access (let's say March, third position in the list) we simply use it to obtain the value by calling \texttt{daysInMonth[2]} and we obtain the number of days in March.
+What? You are confused because I said \textbf{3th} position and wrote a \textbf{2}? You think is a typo? \textbf{NOPE!}\footnote{\href{https://www.youtube.com/watch?v=LJP1DphOWPs}{Chuck Testa}This is \textbf{VERY IMPORTANT} so pay attention and don't forget: javascript (like all sensible programming languages) starts counting the elements of a list at \textbf{0} (zero). So the first element is accessed by adding \texttt{[0]} to the name of the array. You will probably forget about this (cause we all have at some point) so at least try to remember that order in an array is something weird.
+
+
+
 many of you might have spent way too much time because you weren't taught about arrays and how to operate with them\footnote{I'm really sorry Julia, we could've save you so much time with the Pomodoro, hopefully this will still help you in the future}
 Arrays, lists, dictionaries, objects...
 \subsubsection{Functions}
