@@ -125,6 +125,28 @@ And we finish our basic collection of variables with NOT a variable. In technica
 To simplify the concept you can think of a function as a variable that holds instructions instead of data, it's an algorithm. Typically we will use the to transform some variable or its values into another variable following a precise set of instructions. Functions, you might be thinking, are not technically necessary, but neither are you at Omni. Sorry, in all seriousness the analogy is not so bad, just as Omni could technically still work without one of us, or maybe two, or even just with Mat, your code can also work without any functions. However, the moment the workload gets too complex or too large, it becomes so painful and slow to do the work that you cannot deliver in time. Besides, just like Omni strives to be the best company possible (and for that calculatorians are a REQUIREMENT), you should also strive to create the possible calculators and, guess what: in many cases that means using functions. So just $Don't Be a Dick$\texttrademark \vspace{2pt} and use functions :\_)
 
 Let's see now how to define/declare a function and how to later use it.
+\begin{lstlisting}
+function sumation(input1, input2){
+    var sum = input1 + input2;
+    return sum;
+}
+\end{lstlisting}
+This function \texttt{sumation} does what it says on the tin: performs the sum of two numbers given as input. The way to define a function is using the keyword \texttt{function} followed by the name of the function, followed by the inpute variables in parenthesis (each of them separated by commas). If your function doesn't take any input just leave the parenthesis empty like this \texttt{nameOfFunction()}. After the parenthesis comes the code to be executed between curly brackets. A key component of a function with an output is the \texttt{return} statement. Whatever comes after said keyword will be the output of your function. If your function doesn't have any output (strange in calculators but can happen) just don't use the \texttt{return} keyword. You must keep in mind, that the moment a \texttt{return} operation is performed inside of a function, the execution path leaves the function and nothing else gets executed afterwards. 
+
+Functions can call other functions inside of them, and there are examples of that in our repository. Just remember that when you define a function in a calculator you don't have access to the calculator variables using \texttt{ctx.getNumberValues('variable')} and you would have to pass that value to your function as a regular input. Don't worry if this doesn't make sense yet, it will once we talk about omni's internal functions (Section \ref{chap:omni}).
+
+To use a function you simply need to call using its name and providing the inputs required. 99.9\% of the time you will want to store the output of the function in a variable, so here is the example to do so, using the function defined above:
+\begin{lstlisting}
+var firstNumber = 5;
+var secondNumber = 2;
+var sumOfBoth = sumation(firstNumber, secondNumber);
+\end{lstlisting}
+
+The value of \texttt{sumOfBoth} will now be $7$ (5+2) since that is the output of the function. 
+
+Functions are useful for two main reasons. On the one hand, the let you organize the code in a more understandable way and make complex operations more readable. And on the other hand, the let you reuse code without having to rewrite it; once you have created a function, no matter how long it is, it will take you one line of code to run that code again anywhere you want.
+
+Another advantage, derived from reusability of code, is that you can actually search the internet for functions created by others that do exactly what you want to do. By simply copying and pasting them in your code, you will have all the functionality with non of the hassle. We have a library of useful function for Omni calculatorians in our \href{https://github.com/AlGepe/OmniSnippets_JS/tree/master}{Github repository}, feel free to search use and contribute. More on how to do that in section \ref{sec:gitRepo}.
 
 \subsection{Order of execution and loops - Basics}
 \label{sub:execBasic}
