@@ -1,4 +1,5 @@
-# Table of Content
+ Table of Content
+==============
 
 1. [Create Value Select](#vselect)
 
@@ -15,7 +16,8 @@
 
 Creates a new value select, the same as you can do on the BB by clicking and typing. 
 
-### Arguments
+Arguments
+===========
 
 #### `data`
 
