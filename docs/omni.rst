@@ -1,5 +1,4 @@
- Table of Content
-==============
+# Table of Content
 
 1. [Create Value Select](#vselect)
 
@@ -16,20 +15,19 @@
 
 Creates a new value select, the same as you can do on the BB by clicking and typing. 
 
-Arguments
-===========
+### Arguments
 
 #### `data`
 
 When you use the fuction `omni.createValueSelect` you should provide data to it as an [Object](https://www.w3schools.com/js/js_object_definition.asp) containing each pair of key-value in the value select. The _key_ should be a unique identifier and the value should be an object containing the name and value of each item in the value select:
 
-```javascript
-var yourValueSelect = omni.createValueSelect({
-  uniqueIdentifier1: { name: 'NameOfItem1', value: 'valueOfItem1' },  
-  uniqueIdentifier2: { name: 'NameOfItem2', value: 'valueOfItem2' },
-  // Add as many items as you need...
-});
-```
+.. code-black:: javascript
+    var yourValueSelect = omni.createValueSelect({
+         uniqueIdentifier1: { name: 'NameOfItem1', value: 'valueOfItem1' },  
+        uniqueIdentifier2: { name: 'NameOfItem2', value: 'valueOfItem2' },
+        // Add as many items as you need...
+    });
+
 
 
 | Name    | Type   | Description                               | Required |
@@ -41,29 +39,29 @@ var yourValueSelect = omni.createValueSelect({
 
 Let's look now at an example of how you would use `omni.createValueSelect` to create a value select with pairs of Country-Life expectancy:
 
-```javascript
-// New value select would be stored in the variable lifeExpectancySelect
-var lifeExpectancySelect = omni.createValueSelect({
-  PL: { name: 'Poland', value: '77.4' },
-  US: { name: 'United States', value: '79.68' }
-});
-```
+.. code-black:: javascript
+    // New value select would be stored in the variable lifeExpectancySelect
+    var lifeExpectancySelect = omni.createValueSelect({
+        PL: { name: 'Poland', value: '77.4' },
+        US: { name: 'United States', value: '79.68' }
+    });
+
 For completeness, this is how you would use it later on, find more details about `omni.onInit(callback)` check out the [dedicated section](#oninit)
-```javascript
+.. code-black:: javascript
 omni.onInit(function(ctx) {
-  // We bind it to the variable Life_expectancy_country for usage in the calculator
-  ctx.bindValueSelect(lifeExpectancySelect, 'Life_expectancy_country');
+    // We bind it to the variable Life_expectancy_country for usage in the calculator
+    ctx.bindValueSelect(lifeExpectancySelect, 'Life_expectancy_country');
 });
-```
+
 
 <a name=vsetter></a>
 ## omni.createValueSetter(variableName, data, options = {})
 
 This function creates a value setter in much the same way that you can do by using the Omni tool: https://bb.omnicalculator.com/#/tools.
 
-```javascript
-omni.createValueSetter('nameOfVariable', DATA, { defaultUid: $defaultValueSetterUid });
-```
+.. code-black:: javascript
+    omni.createValueSetter('nameOfVariable', DATA, { defaultUid: $defaultValueSetterUid });
+
 
 ### Argumenty
 
@@ -89,50 +87,50 @@ Dane value selecta wygenerowane przy pomocy narzędzia dostępnego na stronie
 
 Opcjonalne dodatkowe opcje. Obiekt zawierający następujące pola:
 
-|Arguement      | Name           | Type   | Description                                                                                                                                                                               | Required |
-| ------------- | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
-|`variableName` | `variableName` | string | Name of the variable to which you want to bind/assign the value setter                                                                                                   | Yeah | 
-|`data`         | `data`         | object | Data contained in the value setter as an object with pairs key-value                                                                                                     | Yeah | 
-|`options`      | `defaultUid`   | string | Identifier of the value setter.Added to the generated code if the values pasted into the generic contain a column named _default_ and one of its lines has the value `y` | Nope |     |
+    |Arguement      | Name           | Type   | Description                                                                                                                                                                               | Required |
+    | ------------- | -------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+    |`variableName` | `variableName` | string | Name of the variable to which you want to bind/assign the value setter                                                                                                   | Yeah | 
+    |`data`         | `data`         | object | Data contained in the value setter as an object with pairs key-value                                                                                                     | Yeah | 
+    |`options`      | `defaultUid`   | string | Identifier of the value setter.Added to the generated code if the values pasted into the generic contain a column named _default_ and one of its lines has the value `y` | Nope |     |
 
-<a name=def></a>
-## `omni.define(name, func)`
+    <a name=def></a>
+    ## `omni.define(name, func)`
 
-Tworzy nową funkcję, której możemy używać we wzorach definiowanych w panelu.
-Przykładowe użycie:
+    Tworzy nową funkcję, której możemy używać we wzorach definiowanych w panelu.
+    Przykładowe użycie:
 
-```javascript
+.. code-black:: javascript
 'use strict';
 
-// Przykładowa funkcja, która mnoży przez siebie dwie liczby. Po jej zdefiniowaniu
-// możemy dodać do panelu administracyjnego wzory w rodzaju: `a = pomnoz(b, c)`
-// Uwaga: funkcja ta ma charakter przykładowy, lepiej zamiast niej użyć po
-// prostu wzoru: `a = b * c`
-// --------------------------> funkcja dostaje tyle parametrów, ile zostało użytych w panelu
-omni.define('pomnoz', function(_liczba1, _liczba2) {
-  // ponieważ argumenty są obiektami biblioteki decimal.js, przekonwertuj je
-  // na zwykłe numery javascriptowe. Alternatywnie można korzystać z API
-  // opisanego na strone http://mikemcl.github.io/decimal.js/
-  // - jest to istotne zwłaszcza w przypadku, gdy zależy nam na precyzji
-  // obliczeń (konwersja na numery javascriptowe ją zmniejsza)
-  var liczba1 = _liczba1.toNumber();
-  var liczba2 = _liczba2.toNumber();
-  var result = liczba1 * liczba2;
-  return mathjs.bignumber(result);
-});
-```
+    // Przykładowa funkcja, która mnoży przez siebie dwie liczby. Po jej zdefiniowaniu
+    // możemy dodać do panelu administracyjnego wzory w rodzaju: `a = pomnoz(b, c)`
+    // Uwaga: funkcja ta ma charakter przykładowy, lepiej zamiast niej użyć po
+    // prostu wzoru: `a = b * c`
+    // --------------------------> funkcja dostaje tyle parametrów, ile zostało użytych w panelu
+    omni.define('pomnoz', function(_liczba1, _liczba2) {
+        // ponieważ argumenty są obiektami biblioteki decimal.js, przekonwertuj je
+        // na zwykłe numery javascriptowe. Alternatywnie można korzystać z API
+        // opisanego na strone http://mikemcl.github.io/decimal.js/
+        // - jest to istotne zwłaszcza w przypadku, gdy zależy nam na precyzji
+        // obliczeń (konwersja na numery javascriptowe ją zmniejsza)
+        var liczba1 = _liczba1.toNumber();
+        var liczba2 = _liczba2.toNumber();
+        var result = liczba1 * liczba2;
+        return mathjs.bignumber(result);
+    });
+
 
 Alternatywna implementacja używająca API biblioteki
 [decimal.js](http://mikemcl.github.io/decimal.js/) (np. gdy zależy nam na
 precyzji):
 
-```javascript
-'use strict';
+.. code-black:: javascript
+    'use strict';
 
-omni.define('pomnoz_alt', function(liczba1, liczba2) {
-  return liczba1.times(liczba2);
-});
-```
+    omni.define('pomnoz_alt', function(liczba1, liczba2) {
+        return liczba1.times(liczba2);
+    });
+
 
 ### Argumenty
 
@@ -163,7 +161,7 @@ wywołania `mathjs.bignumber(result)` pokazanego powyżej).
 Funkcja ta umożliwia zdefiniowanie akcji, które będą się wykonywać podczas
 inicjalizacji kalkulatora. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 // -----------> Zdefiniowana funkcja ("callback") jest wywoływana z jednym
 // -----------> argumentem (nazwanym tutaj "ctx") który daje nam dostęp
 // -----------> do kilku akcji opisanych poniżej
@@ -190,7 +188,7 @@ omni.onInit(function(ctx) {
   // jak definiować value select.
   ctx.bindValueSelect(lifeExpectancySelect, 'Life_expectancy_country');
 });
-```
+
 
 ### Argumenty
 
@@ -214,7 +212,7 @@ użycia. Możliwe jest również przypisanie value selecta od razu do więcej ni
 jednej zmiennej - poprzez wywołanie `bindValueSelect` z większą ilością
 argumetów, np.:
 
-```javascript
+.. code-black:: javascript
 omni.onInit(function(ctx) {
   ctx.bindValueSelect(
     jakisValueSelectZdefiniowanyWczesniej,
@@ -222,7 +220,7 @@ omni.onInit(function(ctx) {
     'zmiennaB'
   );
 });
-```
+
 
 ##### Argumenty
 
@@ -238,20 +236,20 @@ Podaj kod kraju użytkownika. Zwraca dwuliterowy kod wg
 wielkimi literami. Przykładowe wartości: _PL_, _US_, _GB_, _DE_. Jeśli nie można
 ustalić kraju zwracana jest wartość: `--`. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onInit(function(ctx) {
   // wyświetlenie komunikatu w konsoli developerskiej podczas inicjalizacji
   console.log('Kalkulator zainicjalizowany');
   // pobierz i wyświetl kod kraju użytkownika
   console.log('Kod kraju użytkownika: ' + ctx.getCountryCode());
 });
-```
+
 
 #### `setDefault(variable, value, unit)`
 
 Ustaw domyślną wartość zmiennej kalkulatora. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onInit(function(ctx) {
   // Ustaw domyślną wartość zmiennej `zmiennaA`
   ctx.setDefault('zmiennaA', '50');
@@ -259,7 +257,7 @@ omni.onInit(function(ctx) {
   // w centymetrach
   ctx.setDefault('zmiennaB', '100', 'cm');
 });
-```
+
 
 ##### Argumenty
 
@@ -280,7 +278,7 @@ obliczeń. Ma ona dwa warianty:
   kalkulatora (lub gdy którekolwiek pole ma ustawioną wartość domyślną).
   Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz wartość zmiennej `a`
   var a = ctx.getNumberValue('a');
@@ -295,7 +293,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
   }
 });
-```
+
 
 - `omni.onResult(requiredVariables, callback)` - funkcja podana jako _callback_
   wykona się tylko wtedy, gdy są uzupełnione wszystkie wartości podane jako
@@ -304,7 +302,7 @@ omni.onResult(function(ctx) {
   _requiredVariables_ (jako obiekty biblioteki
   [decimal.js](http://mikemcl.github.io/decimal.js/)). Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 // ------------> kod wewnątrz `omni.onResult` wykona się tylko wtedy, gdy
 // ------------> uzupełnione są zmienne `a` oraz `b`
 omni.onResult(['a', 'b'], function(ctx, _a, _b) {
@@ -323,7 +321,7 @@ omni.onResult(['a', 'b'], function(ctx, _a, _b) {
     ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
   }
 });
-```
+
 
 ### Funkcje dostępne wewnątrz kontekstu `omni.onResult`
 
@@ -331,7 +329,7 @@ omni.onResult(['a', 'b'], function(ctx, _a, _b) {
 
 Narysuj wykres pod kalkulatorem. Przykład użycia:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz wartości zmiennych
   var a = ctx.getNumberValue('a');
@@ -363,7 +361,7 @@ omni.onResult(function(ctx) {
     });
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -400,7 +398,7 @@ Umożliwia dodanie kodu HTML który zostanie wyrenderowany pod kalkulatorem.
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz wartość zmiennej `a`
   var a = ctx.getNumberValue('a');
@@ -409,7 +407,7 @@ omni.onResult(function(ctx) {
     ctx.addHtml('Wprowadziłeś następującą wartość a: <b>' + a + '</b>');
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -431,7 +429,7 @@ Umożliwia wyświetlenie tabeli pod kalulatorem.
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 // Wyświetl tabelę ze statycznymi danymi (cenami paliwa per kraj),
 // jeśli użytkownik wprowadził jakiekolwiek dane do kalkulatora
 
@@ -463,11 +461,11 @@ omni.onResult(function(ctx) {
 
   ctx.addTable(table, header);
 });
-```
+
 
 Przykład zastosowania 2:
 
-```javascript
+.. code-black:: javascript
 // Obsługa generowania tabliczki mnożenia. Użytkownik podaje, ile wierszy
 // i kolumn ma mieć tabliczka
 omni.onResult(['row_limit', 'column_limit'], function(
@@ -490,7 +488,7 @@ omni.onResult(['row_limit', 'column_limit'], function(
 
   ctx.addTable(table);
 });
-```
+
 
 ##### Argumenty
 
@@ -506,7 +504,7 @@ omni.onResult(['row_limit', 'column_limit'], function(
 
 Dodaj tekstowy komunikat pod kalkulatorem. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz wartość zmiennej `a`
   var a = ctx.getNumberValue('a');
@@ -515,7 +513,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -542,14 +540,14 @@ administracyjnym).
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var a = ctx.getNumberValue('a');
   if (a < 5) {
     ctx.addUnmetCondition('A powinno być większe niż 5');
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -569,7 +567,7 @@ przy liczeniu średnich (jeśli wszystkie pola kalkulatora to elementy średnich
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var values = ctx.getAllNumberValues();
   var nonEmptyValues = values.filter(function(value) {
@@ -583,7 +581,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('The average is ' + sumOfValues / nonEmptyValues.length);
   }
 });
-```
+
 
 #### `getAllValues()`
 
@@ -598,7 +596,7 @@ np. przy liczeniu średnich (jeśli wszystkie pola kalkulatora to elementy
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var values = ctx.getAllValues();
   var nonEmptyValues = values.filter(function(value) {
@@ -614,7 +612,7 @@ omni.onResult(function(ctx) {
     );
   }
 });
-```
+
 
 #### `getCurrencySymbol()`
 
@@ -622,11 +620,11 @@ Zwraca symbol waluty użytkownika wykryty na podstawie jego lokalizacji. W
 przypadku gdy nie można ustalić lokalizacji użytkownika (oraz zawsze w panelu
 administracyjnym) wyświetlany jest `$`. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   ctx.addTextInfo('Your currency symbol is ' + ctx.getCurrencySymbol());
 });
-```
+
 
 #### `getDisplayedValue(variable)`
 
@@ -635,7 +633,7 @@ ona wyświetlona w wierszu kalkulatora. W przypadku, gdy zmienna ta nie ma żadn
 wartości zwracane jest `null`. Przykładowym zastosowaniem może być wyświetlanie
 podsumowania w przepisie kulinarnym. Przykładowy kod:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz sformatowaną wartość zmiennej `a`
   var formattedA = ctx.getDisplayedValue('a');
@@ -644,7 +642,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('Sformatowana wartość a: ' + formattedA);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -657,14 +655,14 @@ omni.onResult(function(ctx) {
 Zwraca aktualną wartość zmiennej kalkulatora (lub `undefined` w przypadku, gdy
 jest ona pusta). Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var a = ctx.getNumberValue('a');
   if (a != null) {
     ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -677,7 +675,7 @@ omni.onResult(function(ctx) {
 Zwraca tablicę z wartościami wybranych zmiennych (lub `undefined` dla
 konkretnych zmiennych jeśli nie są one wypełnione). Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 // załóżmy, że mamy kalkulator w którym są zmienne `value_1`, `value_2`, `value_3`
 // z których chcielibyśmy obliczyć średnią arytmetyczną, oraz inne zmienne,
 // których nie możemy w tych obliczeniach użyć
@@ -695,7 +693,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('The average is ' + sumOfValues / nonEmptyValues.length);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -708,7 +706,7 @@ omni.onResult(function(ctx) {
 Pobierz _label_ zmiennej ustawiony w panelu administracyjnym. Przykład
 zastosowania:
 
-```javascript
+.. code-black:: javascript
 // załóżmy, że tworzymy kalkulator budżetu (poniższy kod aktualnie bazuje
 // na kodzie kalkulatora `budget`)
 //
@@ -744,7 +742,7 @@ omni.onResult(function(ctx) {
     });
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -760,7 +758,7 @@ zwróci nam `2+2` zamiast `4`. Funkcja ta zwróci nam tekst również wtedy, gdy
 jest możliwe obliczenie wartości wprowadzonej przez użytkownika, np. gdy
 wprowadził on `(2`. Przykład użycia:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   // pobierz tekst wpisany przez użytkownika jako wartość zmiennej `a`
   var rawA = ctx.getRawInput('a');
@@ -769,7 +767,7 @@ omni.onResult(function(ctx) {
     ctx.addTextInfo('Wprowadzona wartość w pole a: ' + rawA);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -782,14 +780,14 @@ omni.onResult(function(ctx) {
 Pobierz _slug_ aktualnie wybranej jednostki dla zmiennej. Jeśli zmienna nie ma
 ustawionego unit switchera zostanie zwrócona wartość `null`. Przykład użycia:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var unitOfA = ctx.getUnit('a');
   if (unitOfA != null) {
     ctx.addTextInfo('Aktualna jednostka zmiennej a: ' + unitOfA);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -804,7 +802,7 @@ jednostki dla zmiennej. Jeśli _Full name_ nie jest dostępny zwracany jest
 _Name_. Jeśli zmienna nie ma ustawionego unit switchera zostanie zwrócona
 wartość `null`. Przykład użycia:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var fullUnitNameOfA = ctx.getUnitFullNameFor('a');
   if (fullUnitNameOfA != null) {
@@ -813,7 +811,7 @@ omni.onResult(function(ctx) {
     );
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -827,14 +825,14 @@ Pobierz _Name_ (zdefiniowany w panelu administracyjnym) aktualnie wybranej
 jednostki dla zmiennej. Jeśli zmienna nie ma ustawionego unit switchera zostanie
 zwrócona wartość `null`. Przykład użycia:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var unitNameOfA = ctx.getUnitNameFor('a');
   if (unitNameOfA != null) {
     ctx.addTextInfo('Nazwa aktualnej jednostki zmiennej a: ' + unitNameOfA);
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -848,7 +846,7 @@ Zwraca aktualną wartość zmiennej kalkulatora jako obiekt biblioteki
 [decimal.js](http://mikemcl.github.io/decimal.js/) (lub `undefined` w przypadku,
 gdy jest ona pusta). Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   var a = ctx.getValue('a');
   if (a != null) {
@@ -858,7 +856,7 @@ omni.onResult(function(ctx) {
     );
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -872,7 +870,7 @@ Zwraca tablicę z wartościami wybranych zmiennych kalkulatora w postaci obiekt�
 biblioteki [decimal.js](http://mikemcl.github.io/decimal.js/) (lub `undefined`
 dla konkretnych zmiennych jeśli nie są one wypełnione). Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 // załóżmy, że mamy kalkulator w którym są zmienne `value_1`, `value_2`, `value_3`
 // z których chcielibyśmy obliczyć średnią arytmetyczną, oraz inne zmienne,
 // których nie możemy w tych obliczeniach użyć
@@ -893,7 +891,7 @@ omni.onResult(function(ctx) {
     );
   }
 });
-```
+
 
 ##### Argumenty
 
@@ -911,7 +909,7 @@ Ukryj wybrane zmienne.
 
 Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(['time_savings'], function(ctx, _timeSavings) {
   var timeSavings = _timeSavings.toNumber();
   // Pokaż zmienną "time_savings" w kalkulatorze tylko wtedy, gdy jej
@@ -922,14 +920,14 @@ omni.onResult(['time_savings'], function(ctx, _timeSavings) {
     ctx.hideVariables('time_savings');
   }
 });
-```
+
 
 Możliwe jest ukrycie więcej niż jednej zmiennej w jednym wywołaniu podając ich
 nazwy oddzielone przecinkiem, np.:
 
-```javascript
+.. code-black:: javascript
 ctx.hideVariables('a', 'b', 'c');
-```
+
 
 ##### Argumenty
 
@@ -946,14 +944,14 @@ tego pokazać dodatkowe dane. W przyszłości będziemy mogli jej użyć równie
 sprawdzenia, czy kalkulator jest uruchomiony na desktopie czy mobile lub w
 natywnej aplikacji. Przykład zastosowania:
 
-```javascript
+.. code-black:: javascript
 omni.onResult(function(ctx) {
   if (!ctx.runningOn('embed')) {
     // Kalkulator nie jest uruchomiony w embedzie. Mamy więcej miejsca i możemy
     // np. dodać dodatkową tabelę lub wykres
   }
 });
-```
+
 
 | Nazwa    | Typ    | Wymagane | Opis                                                                |
 | -------- | ------ | -------- | ------------------------------------------------------------------- |
@@ -970,9 +968,9 @@ Pokaż wybrane zmienne (cofnij działanie funkcji _hideVariables_).
 Możliwe jest ukrycie więcej niż jednej zmiennej w jednym wywołaniu podając ich
 nazwy oddzielone przecinkiem, np.:
 
-```javascript
-ctx.showVariables('a', 'b', 'c');
-```
+.. code-black:: javascript
+    ctx.showVariables('a', 'b', 'c');
+
 
 Zerknij do dokumentacji `hideVariables(...variables)` aby zobaczyć przykład
 zastosowania.
@@ -988,15 +986,15 @@ zastosowania.
 Sprawdza, czy użytkownik domyślnie używa jednostek imperialnych (ustalamy to na
 podstawie tego, czy znajduje się w USA). Przykład zastosowania:
 
-```javascript
-omni.onResult(function(ctx) {
-  // załóżmy, że w kalkulatorze jest zmienna length, oznaczająca długość w centymetrach
-  var length = ctx.getNumberValue('length');
-  if (ctx.usesImperialUnits()) {
-    // użytkownik używa jednostek imperialnych - pokaż wartość w calach
-    ctx.addTextInfo('Length: ' + length * 0.393701 + ' inches');
-  } else {
-    ctx.addTextInfo('Length: ' + length + ' cm');
-  }
-});
-```
+.. code-black:: javascript
+    omni.onResult(function(ctx) {
+        // załóżmy, że w kalkulatorze jest zmienna length, oznaczająca długość w centymetrach
+        var length = ctx.getNumberValue('length');
+        if (ctx.usesImperialUnits()) {
+            // użytkownik używa jednostek imperialnych - pokaż wartość w calach
+            ctx.addTextInfo('Length: ' + length * 0.393701 + ' inches');
+        } else {
+            ctx.addTextInfo('Length: ' + length + ' cm');
+        }
+    });
+
