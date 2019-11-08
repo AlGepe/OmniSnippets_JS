@@ -9,6 +9,6 @@ If you are looking for a practical explanation and practical usage guide, head t
 
 .. warning::
     
-    Whenever you edit customJS for your calculator you should add `'use strict';` at the very top of the code. Don't ask why, don't question it, just **follow instructions**. This bit of code has been omitted from most snippets of code in this documentation, but you **must remember** to put it.
+    Whenever you edit customJS for your calculator you should add ``'use strict';`` at the very top of the code. Don't ask why, don't question it, just **follow instructions**. This bit of code has been omitted from most snippets of code in this documentation, but you **must remember** to put it.
 
 
