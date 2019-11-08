@@ -3,6 +3,7 @@
     * NAME: Engine type
     * UID: Random
     * VALUES: CO2 emissions per km
+    * Submitted by Jack Bowater
 */ 
 var DATA = [{"name":"petrol 2000 or older","uid":"46","values":{"CO2":"177.4"}},
             {"name":"petrol 2001", "uid":"2014946910","values":{"CO2":"175.3"}},

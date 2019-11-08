@@ -12,12 +12,15 @@ Contents:
    :maxdepth: 2
    :glob:
 
-   history
-   authors
-   readme
-   test
-   installation
+   how2RTFM
+   customJS
+   codeBasics
    omni
+   stdCustomJS
+   c2c
+   repo
+   authors
+   contributing
    
 
 
