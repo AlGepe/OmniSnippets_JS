@@ -32,7 +32,8 @@ containing each pair of key-value in the value select. The *key* should
 be a unique identifier and the value should be an object containing the
 name and value of each item in the value select:
 
-.. code:: javascript
+.. code-block:: javascript
+    :linenos:
 
     var yourValueSelect = omni.createValueSelect({
       uniqueIdentifier1: { name: 'NameOfItem1', value: 'valueOfItem1' },  
@@ -55,7 +56,7 @@ Let's look now at an example of how you would use
 ``omni.createValueSelect`` to create a value select with pairs of
 Country-Life expectancy:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // New value select would be stored in the variable lifeExpectancySelect
     var lifeExpectancySelect = omni.createValueSelect({
@@ -67,7 +68,7 @@ For completeness, this is how you would use it later on, find more
 details about ``omni.onInit(callback)`` check out the `dedicated
 section <#oninit>`__
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onInit(function(ctx) {
       // We bind it to the variable Life_expectancy_country for usage in the calculator
@@ -80,7 +81,7 @@ omni.createValueSetter(variableName, data, options = {})
 This function creates a value setter in much the same way that you can
 do by using the Omni tool: https://bb.omnicalculator.com/#/tools.
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.createValueSetter('nameOfVariable', DATA, { defaultUid: $defaultValueSetterUid });
 
@@ -125,7 +126,7 @@ Opcjonalne dodatkowe opcje. Obiekt zawierający następujące pola:
 +--------------------+--------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----+
 | ``data``           | ``data``           | object   | Data contained in the value setter as an object with pairs key-value                                                                                                         | Yeah       |
 +--------------------+--------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----+
-| ``options``        | ``defaultUid``     | string   | Identifier of the value setter.Added to the generated code if the values pasted into the generic contain a column named *default* and one of its lines has the value ``y``   | Nope       |    |
+| ``options``        | ``defaultUid``     | string   | Identifier of the value setter.Added to the generated code-block if the values pasted into the generic contain a column named *default* and one of its lines has the value ``y``   | Nope       |    |
 +--------------------+--------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----+
 
 ``omni.define(name, func)``
@@ -135,7 +136,7 @@ Opcjonalne dodatkowe opcje. Obiekt zawierający następujące pola:
 panelu.
 | Przykładowe użycie:
 
-.. code:: javascript
+.. code-block:: javascript
 
     'use strict';
 
@@ -161,7 +162,7 @@ panelu.
 nam na
 | precyzji):
 
-.. code:: javascript
+.. code-block:: javascript
 
     'use strict';
 
@@ -210,7 +211,7 @@ użyciu
 podczas
 | inicjalizacji kalkulatora. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // -----------> Zdefiniowana funkcja ("callback") jest wywoływana z jednym
     // -----------> argumentem (nazwanym tutaj "ctx") który daje nam dostęp
@@ -273,7 +274,7 @@ więcej niż
 ilością
 | argumetów, np.:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onInit(function(ctx) {
       ctx.bindValueSelect(
@@ -304,7 +305,7 @@ alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__
 nie można
 | ustalić kraju zwracana jest wartość: ``--``. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onInit(function(ctx) {
       // wyświetlenie komunikatu w konsoli developerskiej podczas inicjalizacji
@@ -318,7 +319,7 @@ nie można
 
 Ustaw domyślną wartość zmiennej kalkulatora. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onInit(function(ctx) {
       // Ustaw domyślną wartość zmiennej `zmiennaA`
@@ -356,7 +357,7 @@ wykonaniu
    domyślną).
     Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz wartość zmiennej `a`
@@ -385,7 +386,7 @@ wykonaniu
     `decimal.js <http://mikemcl.github.io/decimal.js/>`__). Przykład
    zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // ------------> kod wewnątrz `omni.onResult` wykona się tylko wtedy, gdy
     // ------------> uzupełnione są zmienne `a` oraz `b`
@@ -414,7 +415,7 @@ Funkcje dostępne wewnątrz kontekstu ``omni.onResult``
 
 Narysuj wykres pod kalkulatorem. Przykład użycia:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz wartości zmiennych
@@ -501,7 +502,7 @@ kalkulatorem.
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz wartość zmiennej `a`
@@ -541,7 +542,7 @@ Umożliwia wyświetlenie tabeli pod kalulatorem.
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // Wyświetl tabelę ze statycznymi danymi (cenami paliwa per kraj),
     // jeśli użytkownik wprowadził jakiekolwiek dane do kalkulatora
@@ -577,7 +578,7 @@ Przykład zastosowania:
 
 Przykład zastosowania 2:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // Obsługa generowania tabliczki mnożenia. Użytkownik podaje, ile wierszy
     // i kolumn ma mieć tabliczka
@@ -624,7 +625,7 @@ Argumenty
 
 Dodaj tekstowy komunikat pod kalkulatorem. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz wartość zmiennej `a`
@@ -672,7 +673,7 @@ zachowuje
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var a = ctx.getNumberValue('a');
@@ -707,7 +708,7 @@ przydatna np.
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var values = ctx.getAllNumberValues();
@@ -743,7 +744,7 @@ elementy
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var values = ctx.getAllValues();
@@ -770,7 +771,7 @@ lokalizacji. W
 panelu
 | administracyjnym) wyświetlany jest ``$``. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       ctx.addTextInfo('Your currency symbol is ' + ctx.getCurrencySymbol());
@@ -787,7 +788,7 @@ ma żadnej
 wyświetlanie
 | podsumowania w przepisie kulinarnym. Przykładowy kod:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz sformatowaną wartość zmiennej `a`
@@ -814,7 +815,7 @@ Argumenty
 przypadku, gdy
 | jest ona pusta). Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var a = ctx.getNumberValue('a');
@@ -840,7 +841,7 @@ dla
 | konkretnych zmiennych jeśli nie są one wypełnione). Przykład
 zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // załóżmy, że mamy kalkulator w którym są zmienne `value_1`, `value_2`, `value_3`
     // z których chcielibyśmy obliczyć średnią arytmetyczną, oraz inne zmienne,
@@ -875,7 +876,7 @@ Argumenty
 | Pobierz *label* zmiennej ustawiony w panelu administracyjnym. Przykład
 | zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // załóżmy, że tworzymy kalkulator budżetu (poniższy kod aktualnie bazuje
     // na kodzie kalkulatora `budget`)
@@ -935,7 +936,7 @@ wtedy, gdy nie
 gdy
 | wprowadził on ``(2``. Przykład użycia:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // pobierz tekst wpisany przez użytkownika jako wartość zmiennej `a`
@@ -963,7 +964,7 @@ zmienna nie ma
 | ustawionego unit switchera zostanie zwrócona wartość ``null``.
 Przykład użycia:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var unitOfA = ctx.getUnit('a');
@@ -992,7 +993,7 @@ jest
 zwrócona
 | wartość ``null``. Przykład użycia:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var fullUnitNameOfA = ctx.getUnitFullNameFor('a');
@@ -1021,7 +1022,7 @@ wybranej
 switchera zostanie
 | zwrócona wartość ``null``. Przykład użycia:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var unitNameOfA = ctx.getUnitNameFor('a');
@@ -1047,7 +1048,7 @@ Argumenty
 ``undefined`` w przypadku,
 | gdy jest ona pusta). Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       var a = ctx.getValue('a');
@@ -1078,7 +1079,7 @@ obiektów
 | dla konkretnych zmiennych jeśli nie są one wypełnione). Przykład
 zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     // załóżmy, że mamy kalkulator w którym są zmienne `value_1`, `value_2`, `value_3`
     // z których chcielibyśmy obliczyć średnią arytmetyczną, oraz inne zmienne,
@@ -1123,7 +1124,7 @@ Ukryj wybrane zmienne.
 
 Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(['time_savings'], function(ctx, _timeSavings) {
       var timeSavings = _timeSavings.toNumber();
@@ -1140,7 +1141,7 @@ Przykład zastosowania:
 podając ich
 | nazwy oddzielone przecinkiem, np.:
 
-.. code:: javascript
+.. code-block:: javascript
 
     ctx.hideVariables('a', 'b', 'c');
 
@@ -1167,7 +1168,7 @@ również do
 lub w
 | natywnej aplikacji. Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       if (!ctx.runningOn('embed')) {
@@ -1197,7 +1198,7 @@ Pokaż wybrane zmienne (cofnij działanie funkcji *hideVariables*).
 podając ich
 | nazwy oddzielone przecinkiem, np.:
 
-.. code:: javascript
+.. code-block:: javascript
 
     ctx.showVariables('a', 'b', 'c');
 
@@ -1221,7 +1222,7 @@ Argumenty
 (ustalamy to na
 | podstawie tego, czy znajduje się w USA). Przykład zastosowania:
 
-.. code:: javascript
+.. code-block:: javascript
 
     omni.onResult(function(ctx) {
       // załóżmy, że w kalkulatorze jest zmienna length, oznaczająca długość w centymetrach
