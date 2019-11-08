@@ -1,4 +1,8 @@
-// Reduce a fraction to the smallest equivalent
+/*
+    * Simplififes fraction
+    * INPUT: to numbers in order (1: numerator, 2:denominator)
+    * OUTPUT: array of numbers in the same order
+*/
 function reduceFraction(numerator,denominator){
   var gcd = function gcd(a,b){
     return b ? gcd(b, a%b) : a;

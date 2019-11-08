@@ -1,3 +1,9 @@
+/*
+    * Returns biggest number whose square is a divisor of "number"
+    *
+    * INPUT: number (of which you want to find a perfect square divisor)
+    * OUTPUT: biggest perfect square divisor of input
+*/
 function findPerfectSquare(number) 
 {
   var start = Math.round(Math.sqrt(Math.abs(number/2))) + 10;

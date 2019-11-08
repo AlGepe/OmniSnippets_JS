@@ -1,4 +1,4 @@
-/ Simplifies fraction with(out) square roots
+// Simplifies fraction (Accepts strings with square roots)
 function cleanFraction(upper, lower){
   var upNumbs = upper*upper,
       lowNumbs = lower*lower,

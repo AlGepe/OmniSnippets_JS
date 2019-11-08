@@ -1,17 +1,16 @@
 /*
- * Symbolic root generator, allow_complex = true/false
- * findRoot requires findPerfectSquare, roundToPrecision
+ * Symbolic root generator (allows complex numbers)
+ * INPUT: number (complex or real), boolean (empty for real numbers, true for complex)
+ * OUTPUT: string (square root of number with sqrt symbol)
+ * REQUIRES: findPerfectSquare, roundToPrecision
  */
-function findRoot(number, allow_complex)
+function findRoot(number, allow_complex=false)
 {
     var i, prefix = 1, str = '√' + number;
     var cannot_find = true;
     var isComplex = false;
     var divisor;
 
-    if(allow_complex === undefined)  {
-        allow_complex = false;
-    }
     if(allow_complex && number < 0){
         number = Math.abs(number);
         isComplex = true;
