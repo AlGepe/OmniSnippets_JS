@@ -1,5 +1,11 @@
-.. role::
-    :class: strike
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
+
 .. _vSetter:
 
 omni.createValueSetter(variableName, data, options = {})
@@ -38,7 +44,8 @@ Arguments
 ``DATA``
 ^^^^^^^^
 
-Data is and :ref:`array<array>` of dictionaries :ref:`dictionary <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section <https://bb.omnicalculator.com/#/tools>` of the BB to create one from an excel spreadsheet. If you are :strike:`a masochist` interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
+Data is and :ref:`array<array>` of dictionaries :ref:`dictionary <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section<https://bb.omnicalculator.com/#/tools>`_ of the BB to create one from an excel spreadsheet. If you are |ss| a masochist |se| interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
+    
 +----------+----------+
 | Type     | Required |
 +==========+==========+
