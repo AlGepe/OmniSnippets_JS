@@ -2,7 +2,7 @@ Omni's customJS technical documentation
 =======================================
 
 .. toctree::
-   :maxdepth:3 
+   :maxdepth:2 
 
    intro
    vSelect

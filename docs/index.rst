@@ -9,7 +9,7 @@ Welcome to Omni's customJS primer for Calculatorians©
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
    :titlesonly:
 
     omni/index
