@@ -1,5 +1,6 @@
-Standard creation of customJS calculators
-=========================================
+.. _stdCJS:
+Standard usage of customJS
+==========================
 
 Basics
 ------

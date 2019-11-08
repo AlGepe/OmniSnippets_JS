@@ -1,3 +1,4 @@
+.. _cjs:
 Custom JS a first look
 ======================
 
