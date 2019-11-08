@@ -12,6 +12,7 @@ Syntax
 This is how you create a value select on customJS:
 
 .. code-block:: javascript
+
     var yourValueSelect = omni.createValueSelect(data);
 
 Arguments
@@ -22,10 +23,7 @@ Arguments
 
 When you use the function ``omni.createValueSelect`` you should provide data to it as a :ref:`Dictionary <dictionary>` of dictionaries. 
 
-The key of said dictionary should be a unique identifier (chose your own, make
-it sensible). The value of said key should be a dictionary
-containing the name displayed to the user (under key `name`) and the value
-associated with that name (under key `value`). It's recommended to make all values be a string. 
+The key of said dictionary should be a unique identifier (chose your own, make it sensible). The value of said key should be a dictionary containing the name displayed to the user (under key `name`) and the value associated with that name (under key `value`). 
 
 Let's look at at the syntax for defining `data`:
 
