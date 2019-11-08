@@ -1,6 +1,6 @@
 .. _vSelect:
-Value Select
-------------
+Create a Value Select
+---------------------
 
 A value select is a collection of values from which the user can pick. The user might be presented with a text related to the numerical value used in the calculator. This function allows for creating of a value select variable that can later be used for one or more calculator fields.
 

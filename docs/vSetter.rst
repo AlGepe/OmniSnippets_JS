@@ -8,7 +8,7 @@
 
 .. _vSetter:
 
-omni.createValueSetter(variableName, data, options = {})
+Create a Value Setter
 --------------------------------------------------------
 
 A value setter is a way to let the user select from a list of preset options.  Depending on user selection other variables will be assigned certain values as defined in the value setter. The variable to which the value setter has been assigned will be set to the `uid` of the selected option. This is what allows a value setter to behave like a value select [#f1]_ .
@@ -46,7 +46,7 @@ Arguments
 ``DATA``
 ^^^^^^^^
 
-Data is and :ref:`array<array>` of dictionaries :ref:`dictionary <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section<https://bb.omnicalculator.com/#/tools>`_ of the BB to create one from an excel spreadsheet. If you are |ss| a masochist |se| interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
+Data is and :ref:`array<array>` of dictionaries :ref:`dictionary <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section<https://bb.omnicalculator.com/#/tools>`__ of the BB to create one from an excel spreadsheet. If you are |ss| a masochist |se| interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
     
 +----------+----------+
 | Type     | Required |
@@ -76,10 +76,31 @@ Alternatively you can manually do it inside customJS by simply replacing `$defau
 
 
 
+Example
+~~~~~~~
+
+Let's take a look at an example[#f2] in which we create a value setter that will let the user select a colour and will assign the corresponding wavelength of light to the variable `rest_wavelength`. The default option has been set to `orange`.
+
+.. code-block:: javascript
+
+var colorDATA = [ {"name":"Red",   "uid":"10","values":{"rest_wavelength":720E-9}},
+                  {"name":"orange","uid":"11","values":{"rest_wavelength":610E-9}},
+                  {"name":"yellow","uid":"12","values":{"rest_wavelength":580E-9}},
+                  {"name":"green", "uid":"13","values":{"rest_wavelength":550E-9}},
+                  {"name":"blue",  "uid":"14","values":{"rest_wavelength":450E-9}},
+                  {"name":"violet","uid":"15","values":{"rest_wavelength":400E-9}},
+                  {"name":"Custom","uid":"0", "values":{}}
+                ];
+omni.createValueSetter('color', colorDATA, {defaultUid :"11"});
+
+This example also shows a feature of the value setter: the values of each
+option need to be the same, they can act of different variables of even be
+empty.
 
 
 .. rubric:: Footnotes
 
 
 .. [#f1] And why I personally think value selects are pointless, but I know you will all fight me so I won't say it.
+.. [#f2] Example taken from the `Exoplanet Discovery Calculator<https://bb.omnicalculator.com/#/calculators/1825>`__
 
