@@ -129,7 +129,7 @@ Opcjonalne dodatkowe opcje. Obiekt zawierający następujące pola:
 | ``options``        | ``defaultUid``     | string   | Identifier of the value setter.Added to the generated code-block if the values pasted into the generic contain a column named *default* and one of its lines has the value ``y``   | Nope       |    |
 +--------------------+--------------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+------------+----+
 
-``omni.define(name, func)``
+omni.define(name, func)``
 ---------------------------
 
 | Tworzy nową funkcję, której możemy używać we wzorach definiowanych w
@@ -204,7 +204,7 @@ użyciu
 | function   | Tak        |
 +------------+------------+
 
-``omni.onInit(callback)``
+omni.onInit(callback)``
 -------------------------
 
 | Funkcja ta umożliwia zdefiniowanie akcji, które będą się wykonywać
@@ -342,7 +342,7 @@ Argumenty
 | unit       | string              | Nie        | Jeśli podany, to wartość domyślna jest traktowana tak, jakby została wprowadzona w tej jednostce (o ile zmienna ma ustawiony odpowiedni unit swicher)   |
 +------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-``omni.onResult([requiredVariables], callback)``
+omni.onResult([requiredVariables], callback)
 ------------------------------------------------
 
 | Funkcja ta umożliwia zdefiniowanie akcji, które będą się wykonywać po
@@ -360,18 +360,18 @@ wykonaniu
 .. code-block:: javascript
 
     omni.onResult(function(ctx) {
-      // pobierz wartość zmiennej `a`
-      var a = ctx.getNumberValue('a');
-      // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
-      if (a != null) {
-        ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
-      }
-      // pobierz wartość zmiennej `b`
-      var b = ctx.getNumberValue('b');
-      // wyświetl komunikat, gdy wprowadzona wartość jest większa niż 5
-      if (b > 5) {
-        ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
-      }
+        // pobierz wartość zmiennej `a`
+        var a = ctx.getNumberValue('a');
+        // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
+        if (a != null) {
+            ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
+        }
+        // pobierz wartość zmiennej `b`
+        var b = ctx.getNumberValue('b');
+        // wyświetl komunikat, gdy wprowadzona wartość jest większa niż 5
+        if (b > 5) {
+            ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
+        }
     });
 
 -  ``omni.onResult(requiredVariables, callback)`` - funkcja podana jako
@@ -391,26 +391,26 @@ wykonaniu
     // ------------> kod wewnątrz `omni.onResult` wykona się tylko wtedy, gdy
     // ------------> uzupełnione są zmienne `a` oraz `b`
     omni.onResult(['a', 'b'], function(ctx, _a, _b) {
-      // -----------------------------> `_a` i `_b` to aktualne wartości
-      // -----------------------------> zmiennych `a` i `b` w postaci obiektów
-      // -----------------------------> decimal.js
-      //
-      // pobierz wartość zmiennej `a` jako numer
-      var a = _a.toNumber();
-      // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
-      ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
-      // pobierz wartość zmiennej `b` jako numer
-      var b = _b.toNumber('b');
-      // wyświetl komunikat, gdy wprowadzona wartość jest większa niż 5
-      if (b > 5) {
-        ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
-      }
+        // -----------------------------> `_a` i `_b` to aktualne wartości
+        // -----------------------------> zmiennych `a` i `b` w postaci obiektów
+        // -----------------------------> decimal.js
+        //
+        // pobierz wartość zmiennej `a` jako numer
+        var a = _a.toNumber();
+        // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
+        ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
+        // pobierz wartość zmiennej `b` jako numer
+        var b = _b.toNumber('b');
+        // wyświetl komunikat, gdy wprowadzona wartość jest większa niż 5
+        if (b > 5) {
+            ctx.addTextInfo('Wprowadziłeś wartość b większą niż 5');
+        }
     });
 
 Funkcje dostępne wewnątrz kontekstu ``omni.onResult``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })``
+``addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Narysuj wykres pod kalkulatorem. Przykład użycia:
