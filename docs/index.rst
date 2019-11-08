@@ -11,6 +11,7 @@ Contents:
 .. toctree::
    :maxdepth: 2
    :glob:
+   :titleonly:
 
    how2RTFM
    customJS
