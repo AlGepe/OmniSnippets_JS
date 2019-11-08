@@ -13,7 +13,8 @@ Contents:
    :glob:
    :titleonly:
 
-   how2RTFM
+    omni/index.rst
+..   how2RTFM
    customJS
    codeBasics
    omni/index.rst
