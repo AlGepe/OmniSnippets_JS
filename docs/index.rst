@@ -10,7 +10,7 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
-   :titleonly:
+   :titlesonly:
 
     omni/index
 ..   how2RTFM
