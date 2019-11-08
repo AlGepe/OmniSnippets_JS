@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
    :titleonly:
 
-    omni/index.rst
+    omni/index
 ..   how2RTFM
    customJS
    codeBasics
@@ -23,13 +23,3 @@ Contents:
    authors
    contributing
    
-
-
-
-.. Indices and tables
-.. ==================
-
-.. * :ref:`genindex`
-.. * :ref:`modindex`
-.. * :ref:`search`
-
