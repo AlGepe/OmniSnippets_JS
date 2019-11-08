@@ -1,8 +1,6 @@
 Omni's customJS technical documentation
 =======================================
 
-Contents of this Chapter:
-
 .. toctree::
    :maxdepth: 2
 

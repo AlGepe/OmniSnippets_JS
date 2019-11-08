@@ -15,7 +15,7 @@ Contents:
    how2RTFM
    customJS
    codeBasics
-   omni
+   omni/index.rst
    stdCustomJS
    c2c
    repo
