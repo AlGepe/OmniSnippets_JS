@@ -13,10 +13,11 @@ Omni's customJS functions
 #. :ref:`Initialising Calculator <onInit>`
 #. :ref:`When the calculator is running <onResult>`
 
-.. include:: ./vSelect.rst
-.. include:: ./vSetter.rst
-.. include:: ./omniDefine.rst
-.. include:: ./onInit.rst
-.. include:: ./onResult.rst
+
+.. include ./vSelect.rst
+.. include ./vSetter.rst
+.. include ./omniDefine.rst
+.. include ./onInit.rst
+.. include ./onResult.rst
 
 

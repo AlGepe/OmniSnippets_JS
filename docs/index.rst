@@ -16,6 +16,11 @@ Contents:
    customJS
    codeBasics
    omni
+   vSelect
+   vSetter
+   omniDefine
+   onInit
+   onResult
    stdCustomJS
    c2c
    repo
