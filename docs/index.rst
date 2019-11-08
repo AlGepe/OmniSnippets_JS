@@ -13,7 +13,7 @@ Contents:
    :titlesonly:
 
     omni/index
-..   how2RTFM
+   how2RTFM
    customJS
    codeBasics
    omni/index.rst
