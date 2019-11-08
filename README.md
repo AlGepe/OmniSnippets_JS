@@ -1,3 +1,3 @@
-# MARKDOWN
+# Documentation status (compilation)
 
-[![Documentation Status (Master)](https://readthedocs.org/projects/omni-documentation/badge/?version=master)](https://omni-documentation.readthedocs.io/en/master/?badge=master)
+[![Documentation Status (Documentation)](https://readthedocs.org/projects/omni-documentation/badge/?version=documentation)](https://omni-documentation.readthedocs.io/en/master/?badge=documentation)
