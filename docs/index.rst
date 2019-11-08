@@ -21,6 +21,7 @@ Contents:
 .. omniDefine
 .. onInit
 .. onResult
+
    stdCustomJS
    c2c
    repo
