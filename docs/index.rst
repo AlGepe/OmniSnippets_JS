@@ -17,7 +17,7 @@ Contents:
    readme
    test
    installation
-   omni
+   omni2
    
 
 
