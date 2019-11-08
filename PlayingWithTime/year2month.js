@@ -1,3 +1,9 @@
+/*
+    * Converts decimal part of a year to month string
+    *
+    * INPUT: number (year in decimal form)
+    * OUTPUT: string (3letter month correspoding to fractional year)
+*/
 function year2Month(year){
     var yearPlain = mathjs.floor(year),
         monthNumber = year - yearPlain;

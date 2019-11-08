@@ -1,3 +1,9 @@
+/*
+    * Converts decimal year to year quarter
+    *
+    * INPOUT: number (year in decimal form) 
+    * OUTPUT: string ([year] Q[quarter])
+*/
 function year2Qyear(yearNumber){
 
 var yearPlain = mathjs.floor(yearNumber);

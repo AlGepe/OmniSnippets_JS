@@ -1,3 +1,9 @@
+/*
+    * Converts time in seconds to formatted time
+    *
+    * INPOUT: number (time in seconds) 
+    * OUTPUT: string ([hours]:[minutes]:[seconds])
+*/
 function formatTime(time) //Time in seconds
 {
     var hours = mathjs.floor(time/3600);
