@@ -1,5 +1,5 @@
-Table of Content
-================
+Omni's customJS functions
+=========================
 
 #. :ref:`Create Value Select <vSelect>`
 
