@@ -8,6 +8,9 @@ You can also create a value select straight on BB by clicking and righting on th
 
 Syntax
 ~~~~~~
+
+This is how you create a value select on customJS:
+
 .. code-block:: javascript
     var yourValueSelect = omni.createValueSelect(data);
 

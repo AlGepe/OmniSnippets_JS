@@ -10,6 +10,10 @@ Basics of coding
 Variables
 ~~~~~~~~~
 
+.. _dictionary:
+Dictionaries
+^^^^^^^^^^^^
+
 Functions
 ~~~~~~~~~
 
