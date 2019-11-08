@@ -14,6 +14,10 @@ Variables
 Dictionaries
 ^^^^^^^^^^^^
 
+.. _array:
+Arrays
+~~~~~~
+
 Functions
 ~~~~~~~~~
 
