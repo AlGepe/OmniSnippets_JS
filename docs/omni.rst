@@ -1,17 +1,14 @@
 Omni's customJS technical documentation
 =======================================
 
-.. #. :ref:`Create Value Select <vSelect>`
-.. 
-.. **below needs reviewing**
-.. 
-.. #. :ref:`Create Value Select <vSetter>`
-.. 
-.. **below need doing**
-.. 
-.. #. :ref:`Define calculator function <omniDefine>`
-.. #. :ref:`Initialising Calculator <onInit>`
-.. #. :ref:`When the calculator is running <onResult>`
+.. toctree::
+   :maxdepth: 2
+
+    vSelect
+    vSetter
+    omniDefine
+    onInit
+    onResult
 
 To simplify the process of creating and editing a calculator in customJS, Omni provides a set of personalized instructions that act as a translation between the pure javascript and the calculatorian. 
 

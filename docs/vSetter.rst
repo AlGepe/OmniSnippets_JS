@@ -79,17 +79,17 @@ Alternatively you can manually do it inside customJS by simply replacing `$defau
 Example
 ~~~~~~~
 
-Let's take a look at an example[#f2] in which we create a value setter that will let the user select a colour and will assign the corresponding wavelength of light to the variable `rest_wavelength`. The default option has been set to `orange`.
+Let's take a look at an example [#f2] in which we create a value setter that will let the user select a colour and will assign the corresponding wavelength of light to the variable `rest_wavelength`. The default option has been set to `orange`.
 
 .. code-block:: javascript
 
-    var colorDATA = [ {"name":"Red",   "uid":"10","values":{"rest_wavelength":720E-9}},
-                    {"name":"orange","uid":"11","values":{"rest_wavelength":610E-9}},
-                    {"name":"yellow","uid":"12","values":{"rest_wavelength":580E-9}},
-                    {"name":"green", "uid":"13","values":{"rest_wavelength":550E-9}},
-                    {"name":"blue",  "uid":"14","values":{"rest_wavelength":450E-9}},
-                    {"name":"violet","uid":"15","values":{"rest_wavelength":400E-9}},
-                    {"name":"Custom","uid":"0", "values":{}}
+    var colorDATA = [{"name":"Red",   "uid":"10","values":{"rest_wavelength":720E-9}},
+                     {"name":"orange","uid":"11","values":{"rest_wavelength":610E-9}},
+                     {"name":"yellow","uid":"12","values":{"rest_wavelength":580E-9}},
+                     {"name":"green", "uid":"13","values":{"rest_wavelength":550E-9}},
+                     {"name":"blue",  "uid":"14","values":{"rest_wavelength":450E-9}},
+                     {"name":"violet","uid":"15","values":{"rest_wavelength":400E-9}},
+                     {"name":"Custom","uid":"0", "values":{}}
                     ];
     omni.createValueSetter('color', colorDATA, {defaultUid :"11"});
 

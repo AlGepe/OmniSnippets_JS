@@ -1,6 +1,6 @@
 .. _omniDefine:
-omni.define(name, func)
----------------------------
+Define custom calculator functions
+----------------------------------
 
 | Tworzy nową funkcję, której możemy używać we wzorach definiowanych w
 panelu.
