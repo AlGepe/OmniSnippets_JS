@@ -1,6 +1,6 @@
 .. _getallnum:
 
-getAllNumberValues()
+``getAllNumberValues()``
 ----------------------
 
 | Zwraca tablicę z aktualnymi wartościami wszystkich zmiennych
