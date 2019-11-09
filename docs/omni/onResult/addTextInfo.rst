@@ -1,6 +1,6 @@
 .. _addtxtinfo:
 
-``addTextInfo(text, options)``
+addTextInfo(text, options)
 ----------------------
 
 Dodaj tekstowy komunikat pod kalkulatorem. Przykład zastosowania:

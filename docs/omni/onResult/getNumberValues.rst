@@ -1,6 +1,6 @@
 .. _getnumvals:
 
-``getNumberValues(variables)``
+getNumberValues(variables)
 ------------------------------
 
 | Zwraca tablicę z wartościami wybranych zmiennych (lub ``undefined``

@@ -1,6 +1,6 @@
 .. _addumet:
 
-``addUnmetCondition(text)``
+addUnmetCondition(text)
 --------------------------
 
 | Dodaje komunikat błędu przy aktualnie sfokusowanym polu (kalkulator

@@ -70,18 +70,21 @@ Functions available only inside ``omni.onResult`` context
 .. toctree::
     :maxdepth: 1
 
-    addChart
-    addHtml
-    addTable
-    addTextInfo
     getNumberValue
     getNumberValues
     hideVariables
     showVariables
+    addHtml
+    addTextInfo
+    addChart
+    addTable
+    runningOn
+    getCurrencySymbol
+    usesImperialUnits
+
     getDisplayedValue
     getAllNumberValues
     getAllValues
-    getCurrencySymbol
     getLabel
     getRawInput
     getUnit
@@ -89,8 +92,6 @@ Functions available only inside ``omni.onResult`` context
     getUnitNameFor
     getValue
     getValues
-    runningOn
-    usesImperialUnits
     
 
     

@@ -1,6 +1,6 @@
 .. _getcurrsymbol:
 
-``getCurrencySymbol()``
+getCurrencySymbol()
 -----------------------
 
 | Zwraca symbol waluty użytkownika wykryty na podstawie jego

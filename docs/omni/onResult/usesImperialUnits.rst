@@ -1,6 +1,6 @@
 .. _usesimperial:
 
-``usesImperialUnits()``
+usesImperialUnits()
 -----------------------
 
 | Sprawdza, czy użytkownik domyślnie używa jednostek imperialnych

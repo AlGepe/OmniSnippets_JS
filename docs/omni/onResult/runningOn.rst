@@ -1,6 +1,6 @@
 .. _runon:
 
-``runningOn(platform)``
+runningOn(platform)
 -----------------------
 
 | Sprawdza, czy kod kalkulatora wykonuje się na określonej

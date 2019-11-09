@@ -1,6 +1,7 @@
 .. _addhtml:
-``addHtml(html, options)``
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+addHtml(html, options)
+----------------------
 
 Umożliwia dodanie kodu HTML który zostanie wyrenderowany pod
 kalkulatorem.

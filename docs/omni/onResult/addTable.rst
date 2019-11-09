@@ -1,6 +1,6 @@
 .. _addtable:
 
-``addTable(body, header, options)``
+addTable(body, header, options)
 -----------------------------------
 
 Umożliwia wyświetlenie tabeli pod kalulatorem.

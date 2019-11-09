@@ -1,6 +1,6 @@
 .. _showvars:
 
-``showVariables(...variables)``
+showVariables(...variables)
 -------------------------------
 
 Pokaż wybrane zmienne (cofnij działanie funkcji *hideVariables*).

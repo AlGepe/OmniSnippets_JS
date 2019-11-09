@@ -1,6 +1,6 @@
 .. _getnumval:
 
-``getNumberValue(variable)``
+getNumberValue(variable)
 ----------------------------
 
 | Zwraca aktualną wartość zmiennej kalkulatora (lub ``undefined`` w

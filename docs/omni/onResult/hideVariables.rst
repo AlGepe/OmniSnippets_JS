@@ -1,6 +1,6 @@
 .. _hidevars:
 
-``hideVariables(...variables)``
+hideVariables(...variables)
 -------------------------------
 
 Ukryj wybrane zmienne.
