@@ -2,14 +2,6 @@
 omni.onInit(callback)
 -------------------------
 
-.. toctree::
-    :maxdepth: 2
-
-    bindValueSelect
-    getCountryCode
-    setDefault
-
-
 | Funkcja ta umożliwia zdefiniowanie akcji, które będą się wykonywać
 podczas
 | inicjalizacji kalkulatora. Przykład zastosowania:
@@ -65,85 +57,11 @@ Otrzymuje
 Funkcje dostępne wewnątrz kontekstu ``omni.onInit``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``bindValueSelect(valueSelect, ...variables)``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. toctree::
+    :maxdepth: 2
 
-| Przypisz zdefiniowany wcześniej value select do zmiennej (lub
-zmiennych).
-| Zerkinij na dokumentację ``omni.createValueSelect(data)`` żeby
-zobaczyć przykład
-| użycia. Możliwe jest również przypisanie value selecta od razu do
-więcej niż
-| jednej zmiennej - poprzez wywołanie ``bindValueSelect`` z większą
-ilością
-| argumetów, np.:
+    bindValueSelect
+    getCountryCode
+    setDefault
 
-.. code-block:: javascript
-
-    omni.onInit(function(ctx) {
-      ctx.bindValueSelect(
-        jakisValueSelectZdefiniowanyWczesniej,
-        'zmiennaA',
-        'zmiennaB'
-      );
-    });
-
-Argumenty
-'''''''''
-.. Table
-+---------------+-----------------------------+------------+------------------------------------------------------------------------------------------+
-| Nazwa         | Typ                         | Wymagane   | Opis                                                                                     |
-+===============+=============================+============+==========================================================================================+
-| valueSelect   | ValueSelect                 | Tak        | Instancja value selecta stworzona przy pomocy funkcji ``omni.createValueSelect(data)``   |
-+---------------+-----------------------------+------------+------------------------------------------------------------------------------------------+
-| variables     | string (jeden lub więcej)   | Tak        | Nazwy zmiennych do których value select powinien zostać przypisany                       |
-+---------------+-----------------------------+------------+------------------------------------------------------------------------------------------+
-
-``getCountryCode()``
-^^^^^^^^^^^^^^^^^^^^
-
-| Podaj kod kraju użytkownika. Zwraca dwuliterowy kod wg
-| `standardu ISO 3166-1
-alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__
-| wielkimi literami. Przykładowe wartości: *PL*, *US*, *GB*, *DE*. Jeśli
-nie można
-| ustalić kraju zwracana jest wartość: ``--``. Przykład zastosowania:
-
-.. code-block:: javascript
-
-    omni.onInit(function(ctx) {
-      // wyświetlenie komunikatu w konsoli developerskiej podczas inicjalizacji
-      console.log('Kalkulator zainicjalizowany');
-      // pobierz i wyświetl kod kraju użytkownika
-      console.log('Kod kraju użytkownika: ' + ctx.getCountryCode());
-    });
-
-``setDefault(variable, value, unit)``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Ustaw domyślną wartość zmiennej kalkulatora. Przykład zastosowania:
-
-.. code-block:: javascript
-
-    omni.onInit(function(ctx) {
-      // Ustaw domyślną wartość zmiennej `zmiennaA`
-      ctx.setDefault('zmiennaA', '50');
-      // Ustaw domyślną wartość zmiennej `zmiennaB`. Traktuj tę wartość jako podaną
-      // w centymetrach
-      ctx.setDefault('zmiennaB', '100', 'cm');
-    });
-
-Argumenty
-'''''''''
-
-.. comment
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa      | Typ                 | Wymagane   | Opis                                                                                                                                                    |
-+============+=====================+============+=========================================================================================================================================================+
-| variable   | string              | Tak        | Nazwa zmiennej dla której chcemy ustawić domyślną wartość                                                                                               |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| value      | string lub number   | Tak        | Domyślna wartość zmiennej                                                                                                                               |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| unit       | string              | Nie        | Jeśli podany, to wartość domyślna jest traktowana tak, jakby została wprowadzona w tej jednostce (o ile zmienna ma ustawiony odpowiedni unit swicher)   |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
 
