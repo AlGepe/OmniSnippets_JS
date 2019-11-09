@@ -11,14 +11,14 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-    omni/index
-    how2RTFM
-    customJS
-    codeBasics
-    omni/index.rst
-    stdCustomJS
-    c2c
-    repo
-    authors
-    contributing
+   omni/index
+   how2RTFM
+   customJS
+   codeBasics
+   omni/index.rst
+   stdCustomJS
+   c2c
+   repo
+   authors
+   contributing
 
