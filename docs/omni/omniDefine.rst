@@ -2,75 +2,44 @@
 Define custom calculator functions
 ----------------------------------
 
-| Tworzy nową funkcję, której możemy używać we wzorach definiowanych w
-panelu.
-| Przykładowe użycie:
+Creates a custom function that can be used from the `Equations` tab on bb. It allows for any kind of manipulation of the variables, but it doesn't allow for two-way calculations i.e.: the variable calculated using this function cannot be later modified by the user.
+
+The function **must be a return function**.
 
 .. code-block:: javascript
 
-    'use strict';
-
-    // Przykładowa funkcja, która mnoży przez siebie dwie liczby. Po jej zdefiniowaniu
-    // możemy dodać do panelu administracyjnego wzory w rodzaju: `a = pomnoz(b, c)`
-    // Uwaga: funkcja ta ma charakter przykładowy, lepiej zamiast niej użyć po
-    // prostu wzoru: `a = b * c`
-    // --------------------------> funkcja dostaje tyle parametrów, ile zostało użytych w panelu
-    omni.define('pomnoz', function(_liczba1, _liczba2) {
-      // ponieważ argumenty są obiektami biblioteki decimal.js, przekonwertuj je
-      // na zwykłe numery javascriptowe. Alternatywnie można korzystać z API
-      // opisanego na strone http://mikemcl.github.io/decimal.js/
-      // - jest to istotne zwłaszcza w przypadku, gdy zależy nam na precyzji
-      // obliczeń (konwersja na numery javascriptowe ją zmniejsza)
-      var liczba1 = _liczba1.toNumber();
-      var liczba2 = _liczba2.toNumber();
-      var result = liczba1 * liczba2;
-      return mathjs.bignumber(result);
+    omni.define('name', function(argument1, argument2,...) {
+        // your code goes here
     });
 
-| Alternatywna implementacja używająca API biblioteki
-| `decimal.js <http://mikemcl.github.io/decimal.js/>`__ (np. gdy zależy
-nam na
-| precyzji):
-
-.. code-block:: javascript
-
-    'use strict';
-
-    omni.define('pomnoz_alt', function(liczba1, liczba2) {
-      return liczba1.times(liczba2);
-    });
-
-Argumenty
+Arguments
 ~~~~~~~~~
 
 ``name``
 ^^^^^^^^
 
-| Nazwa funkcji, której będzie można używać we wzorach wprowadzanych w
-panelu
-| administracyjnym
-.. Comment
-+----------+------------+
-| Typ      | Wymagane   |
-+==========+============+
-| string   | Tak        |
-+----------+------------+
+This is the name of your function as a string. This is the same name you will
+use to call the function from the `Equations` tab on BB.
+    
++--------+----------+
+| Type   | Required |
++========+==========+
+| string | YES      |
++--------+----------+
 
-``func``
-^^^^^^^^
+``function``
+^^^^^^^^^^^^
 
-| Funkcja, która przyjmuje tyle argumentów, ile zostało podanych podczas
-| wprowadzania wzoru w panelu administracyjnym. Argumenty te są
-obiektami
-| biblioteki `decimal.js <http://mikemcl.github.io/decimal.js/>`__. Tego
-typu
-| argument powinien również zostać zwrócony przez funkcję (np. przy
-użyciu
-| wywołania ``mathjs.bignumber(result)`` pokazanego powyżej).
-.. Comment
-+------------+------------+
-| Typ        | Wymagane   |
-+============+============+
-| function   | Tak        |
-+------------+------------+
+A function must be provided. It is the code that will be run everytime the calculator needs to compute the associated variable. This function can have any number of input arguments, including none. As mentioned before it **must be** a return type meaning it needs to have an output.
+    
++----------+----------+
+| Type     | Required |
++==========+==========+
+| function | YES      |
++----------+----------+
 
+Example
+~~~~~~~
+
+For a simple example, please refer to the `Factorial Calculator
+<https://bb.omnicalculator.com/#/calculators/395>`__
