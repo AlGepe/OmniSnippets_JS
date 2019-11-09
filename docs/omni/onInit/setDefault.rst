@@ -4,16 +4,15 @@ Set default value
 
 Allows to set a predetermined value for a variable. 
 
-When the calculator is loaded the variable chose will have the desired value
-before the user interacts with it. This is the customJS version of a function
-that's available by clicking and writing on BB inside the tab `Curren
-variable`.
+When the calculator is loaded the variable chose will have the desired value before the user interacts with it. This is the customJS version of an option available on BB inside the tab `Curren variable`.
 
-As always we do recommend using the customJS version for portability and easy
-re-usability. Remember that this function is only available inside the
-:ref:`omni.onInit<onInit>` context.
+As always, we do recommend using the customJS version for portability and easy re-usability. 
+
+.. warning::
+   This function is only available within the ``onInit`` context.  
 
 Here is the syntax for setting default values:
+
 .. code-block:: javascript
    :emphasize-lines: 5
 
@@ -32,7 +31,7 @@ Arguments
 varName
 ^^^^^^^^
 
-Name of the variable for which you want to set the default value. It must be input as a string and it must match the name (not the `Label`) of the variable as visible on the `Current variables` tab on BB.
+Name of the variable for which you want to set the default value. It must be input as a string and it must match the name (not the `Label`) of the variable on the `Current variables` tab on BB.
 
 value
 ^^^^^
@@ -44,7 +43,8 @@ units
 
 Units in which ``value`` was defined. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://bb.omnicalculator.com/#/unit-switchers>`__ in the BB.
 
-
+Summary
+^^^^^^^
     
 +----------+------------------+----------+-------------------------------+
 | Name     | Type             | Required | Description                   |
