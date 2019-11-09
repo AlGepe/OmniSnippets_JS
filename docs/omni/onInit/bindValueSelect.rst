@@ -5,7 +5,7 @@ Bind a Value Select
 If you have created a :ref:`Value Select<vSelect>` you need to bind it to a variable in the calculator for it to be shown to the user. To do that simply use the ``ctx.bindValueSelect`` function. 
 
 .. warning::
-    This function is only available within the :ref:`onInit<onInit>` context.
+    This function is only available within the ``onInit`` context.
 
 Here is the syntax you need to follow:
 
@@ -32,6 +32,7 @@ variable (string)
 ^^^^^^^^^^^^^^^^^
 
 Name of the variable (or variables) to which you wish to bind the value select.  They must be in string form and correspond to the name (not the `Label`) defined in the `Current variables` tab of BB.
+
 Summary
 ^^^^^^^
     
