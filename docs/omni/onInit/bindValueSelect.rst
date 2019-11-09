@@ -32,10 +32,10 @@ variable (string)
 
 Name of the variable (or variables) to which you wish to bind the value select.  The must be in string form and correspond to the name (not the `Label`) variables defined in the `Current variables` tab of BB.
     
-+---------------+----------------------+----------+---------------------------------------------------------------------------+
-| Name         | Type                  | Required | Description                                                               |       |
-+===============+======================+==========+===========================================================================+
-| valueSelect   | ValueSelect          | Yes      | value select variable previously created                                  |
-+---------------+----------------------+----------+---------------------------------------------------------------------------+
-| variables     | string (one or more) | Yes      | Name(s) of the variable(s) to which you want to associate the value select|
-+---------------+---------------------------+----------+----------------------------------------------------------------------+
++--------------+---------------------+----------+---------------------------------------------------------------------------+
+| Name        | Type                 | Required | Description                                                               |
++=============+======================+==========+===========================================================================+
+| valueSelect | ValueSelect          | Yes      | value select variable previously created                                  |
++-------------+----------------------+----------+---------------------------------------------------------------------------+
+| variables   | string (one or more) | Yes      | Name(s) of the variable(s) to which you want to associate the value select|
++-------------+----------------------+----------+---------------------------------------------------------------------------+
