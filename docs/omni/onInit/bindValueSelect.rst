@@ -31,10 +31,6 @@ variable (string)
 ^^^^^^^^^^^^^^^^^
 
 Name of the variable (or variables) to which you wish to bind the value select.  The must be in string form and correspond to the name (not the `Label`) variables defined in the `Current variables` tab of BB.
-
-
-
-
     
 +---------------+----------------------+----------+---------------------------------------------------------------------------+
 | Name         | Type                  | Required | Description                                                               |       |
