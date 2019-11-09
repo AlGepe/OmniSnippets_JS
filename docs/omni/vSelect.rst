@@ -2,9 +2,9 @@
 Create a Value Select
 ---------------------
 
-A value select is a collection of values from which the user can pick. The user might be presented with a text related to the numerical value used in the calculator. This function allows for creating of a value select variable that can later be used for one or more calculator fields.
+A value select is a collection of predefined values from which the user can pick. The user might be presented with a text related to the numerical value used in the calculations. This function allows for the creation of a value select variable that can later be used for one or more calculator fields.
 
-You can also create a value select straight on BB by clicking and righting on the corresponding fields. We recommend to use the customJS version for portability and added flexibility.
+You can also create a value select straight on BB by clicking and writing on the corresponding fields in the `Value Selects` tab. We recommend to use the customJS version for portability and added flexibility.
 
 Syntax
 ~~~~~~
@@ -23,9 +23,9 @@ Arguments
 
 When you use the function ``omni.createValueSelect`` you should provide data to it as a :ref:`Dictionary <dictionary>` of dictionaries. 
 
-The key of said dictionary should be a unique identifier (chose your own, make it sensible). The value of said key should be a dictionary containing the name displayed to the user (under key `name`) and the value associated with that name (under key `value`). 
+The key of said dictionary should be a unique identifier (chose your own, make it sensible). The value of said key should be a dictionary containing the name displayed to the user (under key ``name``) and the value associated with that name (under key ``value``) preferably as a string. 
 
-Let's look at at the syntax for defining `data`:
+Let's look at at the syntax for defining ``data``:
 
 .. code-block:: javascript
     :linenos:

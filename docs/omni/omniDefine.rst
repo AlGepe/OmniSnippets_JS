@@ -4,7 +4,9 @@ Define custom calculator functions
 
 Creates a custom function that can be used from the `Equations` tab on bb. It allows for any kind of manipulation of the variables, but it doesn't allow for two-way calculations i.e.: the variable calculated using this function cannot be later modified by the user.
 
-The function **must be a return function**.
+.. warning::
+    
+    The function **must be a return function**.
 
 .. code-block:: javascript
 
