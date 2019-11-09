@@ -5,7 +5,7 @@ Welcome to the technical documentation of Omni's customJS. This is the only tech
 
 
 .. toctree::
-   :maxdepth:2 
+   :maxdepth:1 
 
    intro
    vSelect
