@@ -11,7 +11,7 @@ Here is the syntax you need to follow:
 .. code-block:: javascript
 
     omni.onInit(function(ctx) {
-      ctx.bindValueSelect(aValueSelect, 'variable1', 'variable2');
+      ctx.bindValueSelect(myValueSelect, 'variable1', 'variable2');
     });
 
 Arguments
@@ -19,7 +19,7 @@ Arguments
 
 This function takes at least two arguments ``aValueSelect`` and ``variable1``.  If several variables share the same :ref:`value select <vSelect>` they can be added after the first one separated by commas as show in the snippet above.
 
-aValueSelect (value select)
+myValueSelect (value select)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This must be the name of a javascript variable containing a value select

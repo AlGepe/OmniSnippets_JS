@@ -13,7 +13,7 @@ This is how you create a value select on customJS:
 
 .. code-block:: javascript
 
-    var yourValueSelect = omni.createValueSelect(data);
+    var myValueSelect = omni.createValueSelect(data);
 
 Arguments
 ~~~~~~~~~

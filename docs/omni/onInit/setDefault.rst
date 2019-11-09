@@ -2,32 +2,57 @@
 Set default value
 -----------------
 
-``setDefault(variable, value, unit)``
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Allows to set a predetermined value for a variable. 
 
-Ustaw domyślną wartość zmiennej kalkulatora. Przykład zastosowania:
+When the calculator is loaded the variable chose will have the desired value
+before the user interacts with it. This is the customJS version of a function
+that's available by clicking and writing on BB inside the tab `Curren
+variable`.
 
+As always we do recommend using the customJS version for portability and easy
+re-usability. Remember that this function is only available inside the
+:ref:`omni.onInit<onInit>` context.
+
+Here is the syntax for setting default values:
 .. code-block:: javascript
+   :emphasize-lines: 5
 
     omni.onInit(function(ctx) {
-      // Ustaw domyślną wartość zmiennej `zmiennaA`
-      ctx.setDefault('zmiennaA', '50');
-      // Ustaw domyślną wartość zmiennej `zmiennaB`. Traktuj tę wartość jako podaną
-      // w centymetrach
-      ctx.setDefault('zmiennaB', '100', 'cm');
+        var varName = 'myVariable',
+            value = '50',
+            unit = 'cm';
+        ctx.setDefault(varName, value, unit);
+        // if you don't wish to set unit you can just use
+        // ctx.setDefault(varName, value);
     });
 
-Argumenty
-'''''''''
+Arguments
+~~~~~~~~~
+
+varName
+^^^^^^^^
+
+Name of the variable for which you want to set the default value. It must be input as a string and it must match the name (not the `Label`) of the variable as visible on the `Current variables` tab on BB.
+
+value
+^^^^^
+
+Numerical value that will be set for ``variable`` once the calculator is loaded. It can be input as a `number` or as a `string` and it will be converted internally to a number.
+
+units
+^^^^^
+
+Units in which ``value`` was defined. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://bb.omnicalculator.com/#/unit-switchers>`__ in the BB.
+
 
     
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa      | Typ                 | Wymagane   | Opis                                                                                                                                                    |
-+============+=====================+============+=========================================================================================================================================================+
-| variable   | string              | Tak        | Nazwa zmiennej dla której chcemy ustawić domyślną wartość                                                                                               |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| value      | string lub number   | Tak        | Domyślna wartość zmiennej                                                                                                                               |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-| unit       | string              | Nie        | Jeśli podany, to wartość domyślna jest traktowana tak, jakby została wprowadzona w tej jednostce (o ile zmienna ma ustawiony odpowiedni unit swicher)   |
-+------------+---------------------+------------+---------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------+------------------+----------+-------------------------------+
+| Name     | Type             | Required | Description                   |
++==========+==================+==========+===============================+
+| varName  | string           | Yes      | Name of the variable to edit  |
++----------+------------------+----------+-------------------------------+
+| value    | string or number | Yes      | Default value of the variable |
++----------+------------------+----------+-------------------------------+
+| unit     | string           | Nope     | Units of ``value``            |
++----------+------------------+----------+-------------------------------+
 
