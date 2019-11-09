@@ -15,8 +15,8 @@ The function **must be a return function**.
 Arguments
 ~~~~~~~~~
 
-``name``
-^^^^^^^^
+``name`` (string)
+^^^^^^^^^^^^^^^^^
 
 This is the name of your function as a string. This is the same name you will
 use to call the function from the `Equations` tab on BB.
