@@ -2,6 +2,14 @@
 omni.onInit(callback)
 -------------------------
 
+.. toctree::
+    :maxdepth: 2
+
+    bindValueSelect
+    getCountryCode
+    setDefault
+
+
 | Funkcja ta umożliwia zdefiniowanie akcji, które będą się wykonywać
 podczas
 | inicjalizacji kalkulatora. Przykład zastosowania:

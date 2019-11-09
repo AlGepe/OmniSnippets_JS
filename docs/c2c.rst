@@ -1,3 +1,4 @@
+.. _c2c:
 From Calculatorian to Calculatorian (tips and tricks)
 =====================================================
 
