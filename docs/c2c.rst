@@ -11,8 +11,12 @@ For an easier life
 Repository
 ~~~~~~~~~~
 
-Mistakes, if not an **if**, it's a **when**
+Mistakes, is not an **if**, it's a **when**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _ErrVarValues:
+Why TF do I get errors when using variable values?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Don't do unless in peril
 ------------------------
