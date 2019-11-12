@@ -15,6 +15,9 @@ A value setter is a way to let the user select from a list of preset options.  D
 
 Creates a value setter and assigns it to a variable. This binding can be overridden during execution (by calling ``createValueSetter`` again inside :ref:`omni.onResult<onResult>` function. Once a variable has be assigned a value setter the variable cannot be change back to the default number field, it will always be attached to a value setter.
 
+Syntax
+~~~~~~
+
 To create a value setter use:
 
 .. code-block:: javascript

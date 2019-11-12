@@ -8,6 +8,9 @@ Creates a custom function that can be used from the `Equations` tab on bb. It al
     
     The function **must be a return function**.
 
+Syntax
+~~~~~~
+
 .. code-block:: javascript
 
     omni.define('name', function(argument1, argument2,...) {

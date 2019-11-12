@@ -1,45 +1,43 @@
 .. _hidevars:
 
-hideVariables(...variables)
--------------------------------
+Hide Variables
+--------------
 
-Ukryj wybrane zmienne.
+This function allows to hide variables that are needed in the calculations of the calculator but should not be shown to the user.
 
-    | **UWAGA**: ta funkcja jest eksperymentalna i prowdopodobnie
-    zostanie zmieniona
-    | w przyszłości. Przed użyciem zastanów się, czy nie dałoby się
-    zastosować
-    | innego rozwiązania zamiast ukrywania zmiennych.
+It can be used to permanently hide extra variables or to hide/show variables dynamically depending on user input and variable status.
 
-Przykład zastosowania:
+To see uses beyond the obvious head to :ref:`Standard usage of customsJS<stdCJS>`.
 
-.. code-block:: javascript
+.. note::
 
-    omni.onResult(['time_savings'], function(ctx, _timeSavings) {
-      var timeSavings = _timeSavings.toNumber();
-      // Pokaż zmienną "time_savings" w kalkulatorze tylko wtedy, gdy jej
-      // wartość jest większa od 0
-      if (timeSavings > 0) {
-        ctx.showVariables('time_savings');
-      } else {
-        ctx.hideVariables('time_savings');
-      }
-    });
+    If you don't want your variable to be always hidden you need to add a ``ctx.showVariables(variables);`` to match every ``ctx.hideVariables(variables);`` instance.
 
-| Możliwe jest ukrycie więcej niż jednej zmiennej w jednym wywołaniu
-podając ich
-| nazwy oddzielone przecinkiem, np.:
+Syntax
+~~~~~~
 
 .. code-block:: javascript
 
     ctx.hideVariables('a', 'b', 'c');
 
-Argumenty
-'''''''''
+
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
+
+Arguments
+~~~~~~~~~
+
+variables
+^^^^^^^^^
+
+The function `hideVariables` takes at least one input in the form of a string containing the name (not `Label`) of the variable you want to hide. If you want to hide several variables at once you can concatenate several names by separating each string with a comma as shown above.
     
-+-------------+-----------------------------------------------------+------------+--------------------------------------+
-| Nazwa       | Typ                                                 | Wymagane   | Opis                                 |
-+=============+=====================================================+============+======================================+
-| variables   | string lub kolejne stringi oddzielone przecinkiem   | Tak        | Nazwy zmiennych które chcemy ukryć   |
-+-------------+-----------------------------------------------------+------------+--------------------------------------+
++-------------+-----------+----------+-----------------------------------------------------+
+| Name        | Type      | Required | Description                                         |
++=============+===========+==========+=====================================================+
+| variables   | string(s) | Yes      | Names of the variables to hide, separated by commas |
++-------------+-----------+----------+-----------------------------------------------------+
 

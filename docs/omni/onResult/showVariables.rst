@@ -1,34 +1,37 @@
 .. _showvars:
 
-showVariables(...variables)
--------------------------------
+Show Variables
+--------------
 
-Pokaż wybrane zmienne (cofnij działanie funkcji *hideVariables*).
+This function allows to show variables after they have been hidden using :ref:`hideVariables<hidevars>` function.
 
-    | **UWAGA**: ta funkcja jest eksperymentalna i prowdopodobnie
-    zostanie zmieniona
-    | w przyszłości. Przed użyciem zastanów się, czy nie dałoby się
-    zastosować
-    | innego rozwiązania zamiast ukrywania zmiennych.
+To see uses beyond the obvious head to :ref:`Standard usage of customsJS<stdCJS>`.
 
-| Możliwe jest ukrycie więcej niż jednej zmiennej w jednym wywołaniu
-podając ich
-| nazwy oddzielone przecinkiem, np.:
+Syntax
+~~~~~~
 
 .. code-block:: javascript
 
     ctx.showVariables('a', 'b', 'c');
 
-| Zerknij do dokumentacji ``hideVariables(...variables)`` aby zobaczyć
-przykład
-| zastosowania.
 
-Argumenty
-'''''''''
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
+
+Arguments
+~~~~~~~~~
+
+variables
+^^^^^^^^^
+
+The function `showVariables` takes at least one input in the form of a string containing the name (not `Label`) of the variable you want to show. If you want to show several variables at once you can concatenate several names by separating each string with a comma as shown above.
     
-+-------------+-----------------------------------------------------+------------+----------------------------------------+
-| Nazwa       | Typ                                                 | Wymagane   | Opis                                   |
-+=============+=====================================================+============+========================================+
-| variables   | string lub kolejne stringi oddzielone przecinkiem   | Tak        | Nazwy zmiennych które chcemy pokazać   |
-+-------------+-----------------------------------------------------+------------+----------------------------------------+
++-------------+-----------+----------+-----------------------------------------------------+
+| Name        | Type      | Required | Description                                         |
++=============+===========+==========+=====================================================+
+| variables   | string(s) | Yes      | Names of the variables to show, separated by commas |
++-------------+-----------+----------+-----------------------------------------------------+
 

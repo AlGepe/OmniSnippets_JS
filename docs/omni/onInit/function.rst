@@ -8,7 +8,10 @@ This function is a `void` type as it doesn't return anything, the main purpose o
 
 In theory, the function takes as input any ``callback``, but in practice we will always use ``ctx``. This function allows for some custom actions to be performed as we will see in the next section.
 
-Syntax declaration:
+Syntax
+~~~~~~
+
+To create a context of initialization:
 
 .. code-block:: javascript
 

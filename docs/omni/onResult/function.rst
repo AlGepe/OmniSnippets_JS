@@ -8,6 +8,9 @@ This is commonly the most used function and you will write 90% of your code insi
 
 before we do that let's take a look at the syntax since for ``onResult`` there are options available on declaration than we had for ``onInit``.
 
+Syntax
+~~~~~~
+
 First we will take a look at the most versatile version of the ``onResult`` context:
 
 .. code-block:: javascript
@@ -53,6 +56,32 @@ It is important to note that while ``requiedVariables`` needs to be an array of 
     be converted to a number. There is more information on this type of issues
     in section :ref:`Unexpected variable values<ErrVarValues>`
 
+Arguments
+~~~~~~~~~
+
+``callback``
+^^^^^^^^^^^^
+
+This argument is a function that always takes at least one input: ``ctx``. This input allows for custom calculator-specific operations and functions as we will see later.
+
+Optionally the function used for the ``callback`` can take more inputs related to the variables required (as explained just above). These other inputs are objects of the ``decimal.js`` library and are not required.
+
+required Variables (array of strings)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+An array of names of variables that need to be computed for the code inside the ``onResult`` context to be executed.
+    
+
+Summary
+'''''''
++-------------------+------------------+----------+-----------------------------------------+
+| Name              | Type             | Required | Description                             |
++===================+==================+==========+=========================================+
+| callback          | function         | YES      | function with at least ``ctx`` as input |
++-------------------+------------------+----------+-----------------------------------------+
+| requiredVAriables | array of strings | YES      | array with names of required Variables  |
++-------------------+------------------+----------+-----------------------------------------+
+
 Now that you know how to set up a context for executing pieces of code to react to user input, let's take a look at the available functions we, as calculatorians, have inside this context. 
 
 I would like to remind everyone that this is still a technical section, if you are looking for usage examples and ways to combine several of these functions we recommend checking out :ref:`Standard usage of customJS<stdCJS>`. If you are looking to use these functions to get different more advance behaviours we recommend the section: :ref:`From Calculatorian to Calculatorian<c2c>` where we have compiled several tips and tricks to make your calculators better and your life easier.
@@ -90,6 +119,4 @@ Functions available only inside ``omni.onResult`` context
     getUnitNameFor
     getValue
     getValues
-    
-
     
