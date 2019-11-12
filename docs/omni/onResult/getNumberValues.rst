@@ -1,41 +1,42 @@
 .. _getnumvals:
 
-getNumberValues(variables)
-------------------------------
+Get Numerical Values of several variables
+-----------------------------------------
 
-| Zwraca tablicę z wartościami wybranych zmiennych (lub ``undefined``
-dla
-| konkretnych zmiennych jeśli nie są one wypełnione). Przykład
-zastosowania:
+This function returns the numerical value of several values as an array of numbers.
+
+For most variables the numerical value and the displayed value is the same.  There are exceptions such as :ref:`Value Selects<vSelect>` and :ref:`Value Setters<vSetter>`.
+
+The function takes the variable names as an array of strings and returns and
+array of numbers with the corresponding numerical values in the same order.
+
+Syntax
+~~~~~~
 
 .. code-block:: javascript
 
-    // załóżmy, że mamy kalkulator w którym są zmienne `value_1`, `value_2`, `value_3`
-    // z których chcielibyśmy obliczyć średnią arytmetyczną, oraz inne zmienne,
-    // których nie możemy w tych obliczeniach użyć
+    var myVariables = ['variable1', 'variabel2', 'variable3'];
+    var myVarValues = ctx.getNumberValues(myVariables);
 
-    omni.onResult(function(ctx) {
-      var values = ctx.getNumberValues(['value_1', 'value_2', 'value_3']);
-      var nonEmptyValues = values.filter(function(value) {
-        return value !== undefined;
-      });
-      var sumOfValues = nonEmptyValues.reduce(function(a, b) {
-        return a + b;
-      }, 0);
+.. warning::
 
-      if (nonEmptyValues.length) {
-        ctx.addTextInfo('The average is ' + sumOfValues / nonEmptyValues.length);
-      }
-    });
+    This function only works inside a ``onResult`` context.
 
-Argumenty
-'''''''''
+
+If any of variables does not have a set value (e.g.: the field is still empty) the function returns ``undefined`` in the corresponding position(s). You can learn more about this type of variable in the section :ref:`Stranger variables you'll find in customJS<strangeVars>`
+
+If you want to filter your return array to get rid of any ``undefined`` value
+check the snippet :ref:`filtering arrays<filterArray>` for more information.
+
+Arguments
+~~~~~~~~~
+
+myVariables
+^^^^^^^^^^^
+Array of strings containing the names of the variables of which you want to obtain the numerical values.
     
-+-------------+--------------------+------------+------------------------------------------------------+
-| Nazwa       | Typ                | Wymagane   | Opis                                                 |
-+=============+====================+============+======================================================+
-| variables   | tablica stringów   | Tak        | Nazwy zmiennych dla których chcemy pobrać wartości   |
-+-------------+--------------------+------------+------------------------------------------------------+
-
-
-
++-------------+-----------------+----------+---------------------------------+
+| Name        | Type            | Required | Decription                      |
++=============+=================+==========+=================================+
+| myVariables | array of strings| Yes      | Names of the relevant variables |
++-------------+-----------------+----------+---------------------------------+
