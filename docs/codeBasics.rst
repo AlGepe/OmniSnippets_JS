@@ -45,5 +45,10 @@ for each
 do while
 ++++++++
 
+.. _strangeVars:
+Stranger variables you'll encounter in customJS
+----------------------------------------------------
+
+
 The coding mindset
 ------------------

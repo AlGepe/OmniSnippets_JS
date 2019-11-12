@@ -21,6 +21,15 @@ Syntax
     var myVariable = 'nameOfVariable';
     var myVarValue = ctx.getNumberValue(variable);
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
+If the variable does not have a value (e.g.: the field is still empty) the
+function returns ``undefined``. You can learn more about this type of variable
+in the section :ref:`Stranger variables you'll find in customJS<strangeVars>`
+
 Arguments
 ~~~~~~~~~
 
