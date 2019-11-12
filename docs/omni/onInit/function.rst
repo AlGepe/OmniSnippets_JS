@@ -33,7 +33,7 @@ This argument is always set to ``ctx`` as this allows for custom calculator-spec
 | function | YES      |
 +----------+----------+
 
-Functions available inside ``onInit`` context only 
+Functions available inside ``omni.onInit`` context only 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
