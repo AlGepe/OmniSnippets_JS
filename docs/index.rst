@@ -11,10 +11,10 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   how2RTFM
+   omni/index.rst
+.. how2RTFM
    customJS
    codeBasics
-   omni/index.rst
    stdCustomJS
    c2c
    repo

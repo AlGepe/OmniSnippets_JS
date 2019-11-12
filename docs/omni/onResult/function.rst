@@ -109,7 +109,7 @@ Functions available only inside ``omni.onResult`` context
     addTable
     runningOn
 
-    getDisplayedValue
+..  getDisplayedValue
     getAllNumberValues
     getAllValues
     getLabel
