@@ -66,7 +66,7 @@ This argument is a function that always takes at least one input: ``ctx``. This 
 
 Optionally the function used for the ``callback`` can take more inputs related to the variables required (as explained just above). These other inputs are objects of the ``decimal.js`` library and are not required.
 
-required Variables (array of strings)
+requiredVariables (array of strings)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 An array of names of variables that need to be computed for the code inside the ``onResult`` context to be executed.
@@ -79,7 +79,7 @@ Summary
 +===================+==================+==========+=========================================+
 | callback          | function         | YES      | function with at least ``ctx`` as input |
 +-------------------+------------------+----------+-----------------------------------------+
-| requiredVAriables | array of strings | YES      | array with names of required Variables  |
+| requiredVariables | array of strings | YES      | array with names of required Variables  |
 +-------------------+------------------+----------+-----------------------------------------+
 
 Now that you know how to set up a context for executing pieces of code to react to user input, let's take a look at the available functions we, as calculatorians, have inside this context. 

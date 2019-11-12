@@ -1,27 +1,36 @@
 .. _getnumval:
 
-getNumberValue(variable)
-----------------------------
+Get Numerical Value of a Variable
+---------------------------------
 
-| Zwraca aktualną wartość zmiennej kalkulatora (lub ``undefined`` w
-przypadku, gdy
-| jest ona pusta). Przykład zastosowania:
+This function returns the value of the desired variable as a number.
+
+For most variables the numerical value and the displayed value is the same.  There are exceptions such as :ref:`Value Selects<vSelect>` and :ref:`Value Setters<vSetter>`. For value selects the returned value will be the numerical value associated with the option currently chosen by the user. For value setters the numerical value is the ``uid`` associated to the chosen option.
+
+For how to use the ``uid`` to your advantage, go to :ref:`Advance uses of value setter<vSetterADV>`.
+
+If you want to obtain the values of several variables at the same time, you might find useful to use the function :ref:`getNumberValues<getnumvals>`.
+
+The value you obtain as a result of calling this function will typically help you set conditions on the behaviour of the calculator making it interactive as it will react to user inputs.
+
+Syntax
+~~~~~~
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      var a = ctx.getNumberValue('a');
-      if (a != null) {
-        ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
-      }
-    });
+    var myVariable = 'nameOfVariable';
+    var myVarValue = ctx.getNumberValue(variable);
 
-Argumenty
-'''''''''
+Arguments
+~~~~~~~~~
+
+variable
+^^^^^^^^
+Name of the variable of which you want to obtain the numerical value.
     
-+------------+----------+------------+---------------------------------------------------+
-| Nazwa      | Typ      | Wymagane   | Opis                                              |
-+============+==========+============+===================================================+
-| variable   | string   | Tak        | Nazwa zmiennej dla której chcemy pobrać wartość   |
-+------------+----------+------------+---------------------------------------------------+
++----------+--------+----------+-------------------------------+
+| Name     | Type   | Required | Decription                    |
++==========+========+==========+===============================+
+| variable | string | Yes      | Name of the relevant variable |
++----------+--------+----------+-------------------------------+
 
