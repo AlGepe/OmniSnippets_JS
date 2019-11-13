@@ -1,22 +1,27 @@
 .. _usesimperial:
 
-usesImperialUnits()
------------------------
+Check if imperial units are default
+-----------------------------------
 
-| Sprawdza, czy użytkownik domyślnie używa jednostek imperialnych
-(ustalamy to na
-| podstawie tego, czy znajduje się w USA). Przykład zastosowania:
+A function that returns a :ref:`boolean<bool>` informing about the default measurement system in the user's country.
+
+The function doesn't inform about the current choice of units but only about
+the default system of measurement (imperial vs metric).
+
+Syntax
+~~~~~~
+
+To check whether the user's country follows the imperial system of units or not
+and save the resulting boolean in a variable use:
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      // załóżmy, że w kalkulatorze jest zmienna length, oznaczająca długość w centymetrach
-      var length = ctx.getNumberValue('length');
-      if (ctx.usesImperialUnits()) {
-        // użytkownik używa jednostek imperialnych - pokaż wartość w calach
-        ctx.addTextInfo('Length: ' + length * 0.393701 + ' inches');
-      } else {
-        ctx.addTextInfo('Length: ' + length + ' cm');
-      }
-    });
+    var defaulImperial = ctx.usesImperialUnits();
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+.. pro-tip::
+
+    If you want to obtain the location of the user, the recomended function is :ref:`getCountryCode<getCC>` available inside :ref:`onInit<onInit>` context.

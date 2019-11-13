@@ -102,12 +102,12 @@ Functions available only inside ``omni.onResult`` context
     getNumberValue
     getNumberValues
     getCurrencySymbol
-    usesImperialUnits
-    addHtml
     addTextInfo
+    addHtml
     addChart
     addTable
     runningOn
+    usesImperialUnits
 
 ..  getDisplayedValue
     getAllNumberValues

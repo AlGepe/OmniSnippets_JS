@@ -10,6 +10,9 @@ Basics of coding
 Variables
 ~~~~~~~~~
 
+.. _bool:
+booleans whatevers xD
+
 .. _dictionary:
 Dictionaries
 ^^^^^^^^^^^^
