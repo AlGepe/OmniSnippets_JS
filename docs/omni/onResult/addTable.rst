@@ -68,6 +68,11 @@ Przykład zastosowania 2:
       ctx.addTable(table);
     });
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
 Argumenty
 '''''''''
     

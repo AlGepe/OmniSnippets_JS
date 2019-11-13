@@ -32,6 +32,11 @@ Przykład zastosowania:
       }
     });
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
 Argumenty
 '''''''''
     

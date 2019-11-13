@@ -38,6 +38,11 @@ Narysuj wykres pod kalkulatorem. Przykład użycia:
       }
     });
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
 Argumenty
 '''''''''
 

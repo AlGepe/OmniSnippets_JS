@@ -3,9 +3,9 @@
 Add custom conditions
 ---------------------
 
-The function displays a custom error message under the field in focus (the field you are entereing data in). The error message is always displayed in red.
+The function displays a custom error message under the field in focus (the field you are entering data in). The error message is always displayed in red.
 
-This function prodives some of the functionality that can be found on the `Conditions` tab on BB. It allows you to set a error message from inside customJS. It does not, however, stop the calculator from functioning like it would without the error message. Any behaviour you need to complement the error message needs to be manually coded.
+This function provides some of the functionality that can be found on the `Conditions` tab on BB. It allows you to set a error message from inside customJS. It does not, however, stop the calculator from functioning like it would without the error message. Any behaviour you need to complement the error message needs to be manually coded.
 
 We tend to favour customJS version of bb functionality for flexibility, but in this case the behaviour is different enough that you should just chose whatever suits your needs best.
 
@@ -16,7 +16,7 @@ Since the function only show the error message the syntax is very simple. If you
 
 .. code-block:: javascript
 
-    var text = 'A powinno być większe niż 5' 
+    var text = "Error message";
     ctx.addUnmetCondition(text);
 
 .. warning::

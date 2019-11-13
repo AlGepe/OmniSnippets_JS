@@ -1,31 +1,33 @@
 .. _runon:
 
-runningOn(platform)
------------------------
+Check if calculator is embedded
+-------------------------------
 
-| Sprawdza, czy kod kalkulatora wykonuje się na określonej
-*"platformie"*. Obecnie
-| możemy użyć tej funkcji do sprawdzenia, czy kalkulator jest pokazany w
-| *embedzie* czy na stronie https://www.omnicalculator.com i w
-zależności od
-| tego pokazać dodatkowe dane. W przyszłości będziemy mogli jej użyć
-również do
-| sprawdzenia, czy kalkulator jest uruchomiony na desktopie czy mobile
-lub w
-| natywnej aplikacji. Przykład zastosowania:
+A function that checks whether the code is being ran on a given `platform`. For now the function can only check against the platform ``embed``. It will return ``true`` when the calculator is being ran embedded in an external website and ``false`` if it's being ran inside of www.omnicalculator.com .
+
+When the calculator is embedded the available space is limited. ``runningOn`` can be used to prevent oversized images, charts or tables to cause problems in this environments.
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      if (!ctx.runningOn('embed')) {
-        // Kalkulator nie jest uruchomiony w embedzie. Mamy więcej miejsca i możemy
-        // np. dodać dodatkową tabelę lub wykres
-      }
-    });
+    var isEmbedded = ctx.runningOn('embed');
+
+
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+Arguments
+~~~~~~~~~
+
+platform ("embed")
+'''''''''''''''''
+
+A string containing the type of platform you to check. For now the function
+only supports ``"embeded"``.
     
-+------------+----------+------------+-------------------------------------------------------------------------+
-| Nazwa      | Typ      | Wymagane   | Opis                                                                    |
-+============+==========+============+=========================================================================+
-| platform   | string   | Tak        | Nazwa platformy. Obecnie obsługiwana jest wyłącznie wartość ``embed``   |
-+------------+----------+------------+-------------------------------------------------------------------------+
++----------+--------+----------+------------------------------------------------+
+| platform | Type   | Required | Description                                    |
++==========+========+==========+================================================+
+| platform | string | Yes      | Name of the platform. Only "embed" is supported|
++----------+--------+----------+------------------------------------------------+
 
