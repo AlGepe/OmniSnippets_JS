@@ -9,7 +9,7 @@ When the calculator is embedded the available space is limited. ``runningOn`` ca
 
 .. code-block:: javascript
 
-    var isEmbedded = ctx.runningOn('embed');
+    var isEmbedded = ctx.runningOn("embed");
 
 
 .. warning::
@@ -23,7 +23,7 @@ platform ("embed")
 '''''''''''''''''
 
 A string containing the type of platform you to check. For now the function
-only supports ``"embeded"``.
+only supports ``"embed"``.
     
 +----------+--------+----------+------------------------------------------------+
 | platform | Type   | Required | Description                                    |
