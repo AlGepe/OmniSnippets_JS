@@ -27,8 +27,9 @@ Functions
 (not so) basics of coding
 -------------------------
 
-Loops
-~~~~~
+.. _execOrder:
+Altering the flow of execution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 for
 ^^^
