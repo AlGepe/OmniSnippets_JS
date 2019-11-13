@@ -1,40 +1,59 @@
 .. _addtxtinfo:
 
-addTextInfo(text, options)
-----------------------
+Add text to the calculator
+--------------------------
 
-Dodaj tekstowy komunikat pod kalkulatorem. Przykład zastosowania:
+With this function you can add text to your calculator in between variables.
+
+It can be used as explanation for fields, variables... It can be used as a customized output or it can be used a way to complement the results and make them more understandable.
+
+This function is a simplified version of :ref:`addHtml<addHtml>` also available in the ``onResult`` context. Whenever possible ``addText`` is preferred to ``addHtml`` because it makes it easier to port the calculator to other platforms and languages.  
+
+Syntax
+~~~~~~
+
+The syntax for adding text is short:
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      // pobierz wartość zmiennej `a`
-      var a = ctx.getNumberValue('a');
-      // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
-      if (a != null) {
-        ctx.addTextInfo('Wprowadziłeś następującą wartość a: ' + a);
-      }
-    });
+    ctx.addTextInfo(text, options);
 
-Argumenty
-'''''''''
+To see more clearly how this function is used, let's look at an example where we want to display the text ``This is extra information`` right below the variable named ``thisVariable`` and we want the text to be locked with the variable so that they are shown/hidden together and we never show the user the text if the can't see the variable.
+
+For such behaviour the code would look like:
+
+.. code-block:: javascript
+
+    var myText = "This is extra information";
+    ctx.addTextInfo(myText, 
+        {afterVariable: "thisVariable", alwaysShown: false}
+        );
+
+Arguments
+~~~~~~~~~
     
-+-----------+----------+------------+------------------------------------------+
-| Nazwa     | Typ      | Wymagane   | Opis                                     |
-+===========+==========+============+==========================================+
-| text      | string   | Tak        | Tekst do wyświetlenia pod kalkulatorem   |
-+-----------+----------+------------+------------------------------------------+
-| options   | object   | Nie        | Opcje opisanie poniżej                   |
-+-----------+----------+------------+------------------------------------------+
++---------+--------+----------+------------------------------------+
+| Name    | Type   | Required | Description                        |
++=========+========+==========+====================================+
+| text    | string | Yes      | Text to be shown                   |
++---------+--------+----------+------------------------------------+
+| options | object | No       | location and behaviour of the text |
++---------+--------+----------+------------------------------------+
 
-Dostępne opcje
+Available options
+'''''''''''''''''
+
+There are two available options. The must be input to the function as a dictionary (object) with key names: ``afterVariable`` and ``alwaysShown``. You can specified none, one or both options.
+
+If options are not specified ``alwaysShown`` is set to ``true`` and the text will be displayed after the last variable i.e.: at the bottom of the calculator.
 
     
-+-----------------+-----------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa           | Typ       | Wymagane   | Opis                                                                                                                                                                                   |
-+=================+===========+============+========================================================================================================================================================================================+
-| afterVariable   | string    | Nie        | Nazwa zmiennej, pod którą ma się pojawić tekst. Jeśli nie podano to pojawi się on pod ostatnią zmienną.                                                                                |
-+-----------------+-----------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| alwaysShown     | boolean   | Nie        | Czy tekst ma się pojawić również, gdy zmienna podana jako ``afterVariable`` jest ukryta?. Domyślnie ma wartość ``true``. Podaj ``{ alwaysShown: false }`` aby zmienić to zachowanie.   |
-+-----------------+-----------+------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------------+------------+--------------------------------------------------------+
+| Key           | value type | Description                                            |
++===============+============+========================================================+
+| afterVariable | string     | Name of the variable below which the text will be shown|
++---------------+------------+--------------------------------------------------------+
+| alwaysShown   | boolean    | true: Text is always shown                             |
+|               |            | false: Text is hidden if variable is hidden            |
++---------------+------------+--------------------------------------------------------+
 
