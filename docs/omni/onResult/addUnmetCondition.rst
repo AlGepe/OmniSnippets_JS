@@ -19,6 +19,10 @@ Since the function only show the error message the syntax is very simple. If you
     var text = 'A powinno być większe niż 5' 
     ctx.addUnmetCondition(text);
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
 Arguments
 ~~~~~~~~~
 
