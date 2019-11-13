@@ -29,6 +29,11 @@ For such behaviour the code would look like:
         {afterVariable: "thisVariable", alwaysShown: false}
         );
 
+.. warning::
+
+    This function only works inside a ``onResult`` context.
+
+
 Arguments
 ~~~~~~~~~
     
