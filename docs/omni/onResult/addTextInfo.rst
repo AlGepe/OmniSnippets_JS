@@ -1,6 +1,6 @@
 .. _addtxtinfo:
 
-Add text to the calculator
+Add text in the calculator
 --------------------------
 
 With this function you can add text to your calculator in between variables.

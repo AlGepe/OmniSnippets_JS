@@ -104,6 +104,7 @@ Functions available only inside ``omni.onResult`` context
     getCurrencySymbol
     addTextInfo
     addHtml
+    addUnmetCondition
     addChart
     addTable
     runningOn
