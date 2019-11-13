@@ -58,7 +58,7 @@ If options are not specified ``alwaysShown`` is set to ``true`` and the text wil
 +===============+============+========================================================+
 | afterVariable | string     | Name of the variable below which the text will be shown|
 +---------------+------------+--------------------------------------------------------+
-| alwaysShown   | boolean    | true: Text is always shown                             |
-|               |            | false: Text is hidden if variable is hidden            |
+| alwaysShown   | boolean    | **false**: Text is hidden if variable is hidden //     |
+|               |            | **true**: Text is always shown                         |
 +---------------+------------+--------------------------------------------------------+
 
