@@ -6,6 +6,13 @@ addHtml(html, options)
 Umożliwia dodanie kodu HTML który zostanie wyrenderowany pod
 kalkulatorem.
 
+.. warning::
+
+    Avoid using this function when you can. If you simply want to add text use:
+    :ref:`addTextInfo<addtxtinfo>`. It is strongly recommended not to format
+    calculator messages using ``addHtml``.
+
+
     | **UWAGA:** jeśli to możliwe lepiej skorzystać z innych metod
     dodawania
     | informacji dla użytkownika (takich jak ``addTextInfo(text)`` lub
