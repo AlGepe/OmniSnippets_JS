@@ -24,7 +24,7 @@ Let's take a look at how to add an image in your calculator. For this example we
 
 .. note::
     
-    If you want to add a picture on top of the calculator create a dummy variable, place it at the top and hide it using :ref:`hideVariables<hideVariables>`. The place your image after the dummy variable.
+    If you want to add a picture on top of the calculator create a dummy variable, place it at the top and hide it using :ref:`hideVariables<hidevars>`. The place your image after the dummy variable.
 
 .. warning::
 
