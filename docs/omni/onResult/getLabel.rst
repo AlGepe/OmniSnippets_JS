@@ -1,55 +1,34 @@
 .. _getlabel:
 
-``getLabel(variable)``
-----------------------
+Get Label (displayed name)
+--------------------------
 
-| Pobierz *label* zmiennej ustawiony w panelu administracyjnym. Przykład
-| zastosowania:
+Function that let's you get the `Lable` of a variable. The `Label` is returned
+by the function as a string.
 
+The `Label` is the name of a variable as displayed to the user. 
+
+Syntax
+~~~~~~
+
+To obtain the `Label` associated with the variable ``nameOfVariable``, you would
+use the following snippet:
 .. code-block:: javascript
 
-    // załóżmy, że tworzymy kalkulator budżetu (poniższy kod aktualnie bazuje
-    // na kodzie kalkulatora `budget`)
-    //
-    // lista przykładowych zmiennych oznaczających kategorie wydatków
-    var MONTHLY_EXPENSES = [
-      'groceries',
-      'clothing',
-      'health',
-      'transportation',
-      'entertainment'
-    ];
+    var myVar = 'nameOfVariable';
+    var varLabel = ctx.getLabel(myVar);
 
-    omni.onResult(function(ctx) {
-      // Dla każdej zmiennej z tablicy MONTHLY_EXPENSES stwórz obiekt
-      // który będzie zawierał label zmiennej oraz jej obecną wartość.
-      // Label jest zapisywany jako `name`, ponieważ ten format jest wymagany
-      // przez funkcję używaną do rysowania wykresów.
-      var data = MONTHLY_EXPENSES.map(function(variable) {
-        return {
-          name: ctx.getLabel(variable),
-          value: ctx.getNumberValue(variable) || 0
-        };
-      });
-      // sprawdź, czy chociaż jedna zmienna ma wartość większą od 0
-      var shouldShowChart = data.some(function(item) {
-        return item.value > 0;
-      });
-      // jeśli chociaż jedna zmienna ma wartość większą od 0 to narysuj wykres
-      if (shouldShowChart) {
-        ctx.addChart({
-          type: 'pie',
-          data: data
-        });
-      }
-    });
+Arguments
+~~~~~~~~~
 
-Argumenty
-'''''''''
+myVar (string)
+'''''
+As input you should provide the name of the variable from which you'd like to
+get the `Label`.
     
-+------------+----------+------------+-------------------------------------------------+
-| Nazwa      | Typ      | Wymagane   | Opis                                            |
-+============+==========+============+=================================================+
-| variable   | string   | Tak        | Nazwa zmiennej dla której chcemy pobrać label   |
-+------------+----------+------------+-------------------------------------------------+
++-------+--------+----------+-------------------------------+
+| Name  | Type   | Required | Description                   |
++=======+========+==========+===============================+
+| myVar | string | Yes      | Name of the relevant variable |
++-------+--------+----------+-------------------------------+
 
