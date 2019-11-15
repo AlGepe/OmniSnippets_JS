@@ -3,7 +3,7 @@
 ``getRawInput(variable)``
 -------------------------
 
-Function that returns the raw input on the calculator field as a string. In stead of showing the value used for the calculation, it gives whatever characters the user input. This includes any number as well as special characters allowed in the calculator fields such as ``+``, ``-``, ``*``, ``/``, ``(``, ``)``, and ``e`` (`Euler's number <https://en.wikipedia.org/wiki/E_(mathematical_constant)>`__
+Function that returns the raw input on the calculator field as a string. In stead of showing the value used for the calculation, it gives whatever characters the user input. This includes any number as well as special characters allowed in the calculator fields such as ``+``, ``-``, ``*``, ``/``, ``(``, ``)``, and ``e`` (interpreted as `times ten to the power of` or as `Euler's number <https://en.wikipedia.org/wiki/E_(mathematical_constant)>`__ )
 
 Syntax
 ~~~~~~
@@ -14,6 +14,10 @@ To obtain the raw input of the user for the variable ``myVar`` and store it as a
 
     var varName = 'myVar';
     var rawString = ctx.getRawInput(varName);
+
+.. warning::
+
+    This function only works inside a ``onResult`` context.
 
 Arguments
 ~~~~~~~~~
