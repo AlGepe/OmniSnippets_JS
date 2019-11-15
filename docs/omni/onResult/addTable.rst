@@ -3,90 +3,74 @@
 addTable(body, header, options)
 -----------------------------------
 
-Umożliwia wyświetlenie tabeli pod kalulatorem.
+A function that allows you to include a graph in the calculator. It is recommended to display tables (and graphs) at the very end of the calculator, unless otherwise required. To create a graph you need to first (at least) create a 2D array containing the data. If you want to learn more about multidimensional arrays check out the :ref:`Arrays<arrays>` section.
 
-Przykład zastosowania:
-
-.. code-block:: javascript
-
-    // Wyświetl tabelę ze statycznymi danymi (cenami paliwa per kraj),
-    // jeśli użytkownik wprowadził jakiekolwiek dane do kalkulatora
-
-    omni.onResult(function(ctx) {
-      // nagłówek tabeli (opcjonalny) - zawiera nazwy kolumn
-      var header = ['Kraj', 'Cena paliwa'];
-      // zawartość tabeli - składa się z poszczególnych wierszy (poza nagłówkiem)
-      var table = [
-        ['US', '2.95'],
-        ['PL', '4.69'],
-        ['NO', '15.96'],
-        ['SE', '15.03'],
-        ['DK', '11.37'],
-        ['GB', '1.20'],
-        ['FI', '1.46'],
-        ['DE', '1.37'],
-        ['FR', '1.49'],
-        ['AT', '1.21'],
-        ['CH', '1.55'],
-        ['AU', '1.39'],
-        ['BE', '1.43'],
-        ['CA', '1.45'],
-        ['ES', '1.28'],
-        ['IE', '1.38'],
-        ['IT', '1.55'],
-        ['NL', '1.58'],
-        ['ZA', '14.19']
-      ];
-
-      ctx.addTable(table, header);
-    });
-
-Przykład zastosowania 2:
 
 .. code-block:: javascript
 
-    // Obsługa generowania tabliczki mnożenia. Użytkownik podaje, ile wierszy
-    // i kolumn ma mieć tabliczka
-    omni.onResult(['row_limit', 'column_limit'], function(
-      ctx,
-      _rowLimit,
-      _columnLimit
-    ) {
-      var rowLimit = _rowLimit.toNumber();
-      var columnLimit = _columnLimit.toNumber();
-      var table = [];
-      var row;
+    var header = ['Country', 'Fuel price'];
+    var table = [['US', '2.95'],
+                 ['PL', '4.69'],
+                 ['NO', '15.96'],
+                 ['SE', '15.03'],
+                 ['DK', '11.37'],
+                 ['GB', '1.20'],
+                 ['FI', '1.46'],
+                 ['DE', '1.37'],
+                 ['FR', '1.49'],
+                 ['AT', '1.21'],
+                 ['CH', '1.55'],
+                 ['AU', '1.39'],
+                 ['BE', '1.43'],
+                 ['CA', '1.45'],
+                 ['ES', '1.28'],
+                 ['IE', '1.38'],
+                 ['IT', '1.55'],
+                 ['NL', '1.58'],
+                 ['ZA', '14.19']
+                ];
+    ctx.addTable(table, header, 
+                {afterVariable: 'myVarible', alwaysShown: false}
+                );
 
-      for (var currentRow = 1; currentRow <= rowLimit; currentRow++) {
-        row = [];
-        for (var currentColumn = 1; currentColumn <= columnLimit; currentColumn++) {
-          row.push(currentRow * currentColumn);
-        }
-        table.push(row);
-      }
+.. note::
 
-      ctx.addTable(table);
-    });
+    To create and operate with multidimensional arrays dynamically (so that the data can be calculated in customJS) check out the section :ref:`Arrays: More data, less hassle<multidimArray>`
 
 .. warning::
 
     This function only works inside a ``onResult`` context.
 
 
-Argumenty
-'''''''''
-    
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa           | Typ                | Wymagane   | Opis                                                                                                                                                                                    |
-+=================+====================+============+=========================================================================================================================================================================================+
-| body            | tablica tablic     | Tak        | Dane do wyświetlenia w tabeli. Zobacz przykłady powyżej aby poznać jak dokładnie wygląda format.                                                                                        |
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| header          | tablica stringów   | Nie        | Nazwy kolumn wyświetlanych w nagłówku tabeli                                                                                                                                            |
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| options         | object             | Nie        | Dodatkowe opcje tabeli. Obecnie obsługiwane jest wyłącznie ``caption``, którego można użyć do ustawienia tytułu tabeli, np. ``{caption: 'Tytuł tabeli'}``.                              |
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| afterVariable   | string             | Nie        | Nazwa zmiennej, pod którą ma się pojawić tabela. Jeśli nie podano to pojawi się on pod ostatnią zmienną.                                                                                |
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| alwaysShown     | boolean            | Nie        | Czy tabela ma się pojawić również, gdy zmienna podana jako ``afterVariable`` jest ukryta?. Domyślnie ma wartość ``true``. Podaj ``{ alwaysShown: false }`` aby zmienić to zachowanie.   |
-+-----------------+--------------------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Arguments
+~~~~~~~~~
 
+You can use up to three inputs for this function the data you want to show in the table, the headers or names of the fields, and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
+
+    
++---------+------------------+----------+------------------------+
+| Name    | Type             | Required | Description            |
++=========+==================+==========+========================+
+| table   | 2D array         | Yes      | Data of the table      |
++---------+------------------+----------+------------------------+
+| header  | array of strings | No       | Name of field in table |
++---------+------------------+----------+------------------------+
+| options | dictionary       | No       | Location and behaviour |
++---------+------------------+----------+------------------------+
+
+Available options
+'''''''''''''''''
+
+There are two available options. They must be input to the function as a dictionary (object) with key names: ``afterVariable`` and ``alwaysShown``. You can specified none, one or both options.
+
+If options are not specified ``alwaysShown`` is set to ``true`` and the table will be displayed after the last variable i.e.: at the bottom of the calculator.
+
+    
++---------------+------------+-----------------------------------------------------------+
+| Key           | value type | Description                                               |
++===============+============+===========================================================+
+| afterVariable | string     | Name of the variable below which the table will be placed |
++---------------+------------+-----------------------------------------------------------+
+| alwaysShown   | boolean    | **false**: Text is hidden if variable is hidden //        |
+|               |            | **true**: Text is always shown                            |
++---------------+------------+-----------------------------------------------------------+

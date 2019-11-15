@@ -5,6 +5,10 @@ From Calculatorian to Calculatorian (tips and tricks)
 For creating better calculators
 -------------------------------
 
+.. _multidimArray:
+Arrays: More data, less hassle
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 For an easier life
 ------------------
 

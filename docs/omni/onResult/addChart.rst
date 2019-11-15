@@ -43,32 +43,40 @@ Narysuj wykres pod kalkulatorem. Przykład użycia:
     This function only works inside a ``onResult`` context.
 
 
-Argumenty
-'''''''''
+Arguments
+~~~~~~~~~
 
-``addChart`` przyjmuje jeden argument, którym jest obiekt z
-następującymi polami:
+You need two inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
+
     
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa           | Typ                | Wymagane   | Opis                                                                                                                                                                                      |
-+=================+====================+============+===========================================================================================================================================================================================+
-| data            | tablica            | Tak        | Tablica z danymi potrzebnymi do wyrenderowania wykresu. Dokładny format zależy od rodzaju wykresu. Zerknij poniżej aby zobaczyć listę przykładowych kalkulatorów z wykresami (**TODO**)   |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| labels          | tablica stringów   | Tak/Nie    | Lista labeli. Wymagana w sytuacji, gdy typ wykresu jest inny niż *pie*                                                                                                                    |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| stacks          | tablica obiektów   | Nie        |                                                                                                                                                                                           |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| title           | string             | Nie        | Opcjonalny tytuł wykresu                                                                                                                                                                  |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| type            | string             | Tak        | Typ wykresu. Zerknij poniżej na listę obsługowanych typów.                                                                                                                                |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| afterVariable   | string             | Nie        | Nazwa zmiennej, pod którą ma się pojawić wykres. Jeśli nie podano to pojawi się on pod ostatnią zmienną.                                                                                  |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| alwaysShown     | boolean            | Nie        | Czy wykres ma się pojawić również, gdy zmienna podana jako ``afterVariable`` jest ukryta?. Domyślnie ma wartość ``true``. Podaj ``{ alwaysShown: false }`` aby zmienić to zachowanie.     |
-+-----------------+--------------------+------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+------------+----------+------------------------+
+| Name    | Type       | Required | Description            |
++=========+============+==========+========================+
+| html    | string     | Yes      | HTML code              |
++---------+------------+----------+------------------------+
+| options | dictionary | No       | Location and behaviour |
++---------+------------+----------+------------------------+
 
-Obsługiwane typy wykresów
-'''''''''''''''''''''''''
+Available options
+'''''''''''''''''
+
+There are two available options. They must be input to the function as a dictionary (object) with key names: ``afterVariable`` and ``alwaysShown``. You can specified none, one or both options.
+
+If options are not specified ``alwaysShown`` is set to ``true`` and the text will be displayed after the last variable i.e.: at the bottom of the calculator.
+
+    
++---------------+------------+----------------------------------------------------------+
+| Key           | value type | Description                                              |
++===============+============+==========================================================+
+| afterVariable | string     | Name of the variable below which the html will be placed |
++---------------+------------+----------------------------------------------------------+
+| alwaysShown   | boolean    | **false**: Text is hidden if variable is hidden //       |
+|               |            | **true**: Text is always shown                           |
++---------------+------------+----------------------------------------------------------+
+
+
+Available chart types
+'''''''''''''''''''''
 
 -  area
 -  bar
