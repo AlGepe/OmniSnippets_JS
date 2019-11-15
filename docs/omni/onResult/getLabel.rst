@@ -13,10 +13,15 @@ Syntax
 
 To obtain the `Label` associated with the variable ``nameOfVariable``, you would
 use the following snippet:
+
 .. code-block:: javascript
 
     var myVar = 'nameOfVariable';
     var varLabel = ctx.getLabel(myVar);
+
+.. warning::
+
+    This function only works inside a ``onResult`` context.
 
 Arguments
 ~~~~~~~~~
