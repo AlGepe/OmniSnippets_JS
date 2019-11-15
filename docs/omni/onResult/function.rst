@@ -101,6 +101,9 @@ Functions available only inside ``omni.onResult`` context
     showVariables
     getNumberValue
     getNumberValues
+    getUnit
+    getUnitFullNameFor
+    getUnitNameFor
     getCurrencySymbol
     addTextInfo
     addHtml
@@ -115,9 +118,6 @@ Functions available only inside ``omni.onResult`` context
     getAllValues
     getLabel
     getRawInput
-    getUnit
-    getUnitFullNameFor
-    getUnitNameFor
     getValue
     getValues
     
