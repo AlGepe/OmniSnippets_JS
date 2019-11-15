@@ -37,13 +37,13 @@ Arguments
 You need to inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
 
     
-+---------+------------+----------+-------------------------------------+
-| Name    | Type       | Required | Description                         |
-+=========+============+==========+=====================================+
-| html    | string     | Yes      | HTML code you need for your purpose |
-+---------+------------+----------+-------------------------------------+
-| options | dictionary | No       | Location and behaviour              |
-+---------+------------+----------+-------------------------------------+
++---------+------------+----------+------------------------+
+| Name    | Type       | Required | Description            |
++=========+============+==========+========================+
+| html    | string     | Yes      | HTML code              |
++---------+------------+----------+------------------------+
+| options | dictionary | No       | Location and behaviour |
++---------+------------+----------+------------------------+
 
 Available options
 '''''''''''''''''
