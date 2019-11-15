@@ -43,7 +43,7 @@ Since the most abstract version of the syntax might not given away immediately h
 
 For this to work you need to have two variables in your calculator with names (not `Labels`) ``a`` and ``b``. As you can see in the snippet above the function now takes 3 inputs, our beloved ``ctx`` and two more variables (one per variable required for ``onResult`` to be triggered). These variables can take any name but we suggest following the convention of using the name of the variable with ``_`` (underscore) prepended. The variables are to follow the same order in the required variables part as in the input to the function.
 
-It is important to note that while ``requiedVariables`` needs to be an array of strings, both ``_a`` and ``_b`` are not string but rather objects of the `decimal.js <http://mikemcl.github.io/decimal.js/>` library. You can follow the link to learn more about this library but for now all you need to know is that to get the value of ``_a`` and storing in a variable ``numberValueOf_a`` you need the following syntax:
+It is important to note that while ``requiedVariables`` needs to be an array of strings, both ``_a`` and ``_b`` are not string but rather objects of the `decimal.js <http://mikemcl.github.io/decimal.js/>`__ library. You can follow the link to learn more about this library but for now all you need to know is that to get the value of ``_a`` and storing in a variable ``numberValueOf_a`` you need the following syntax:
 
 .. code-block:: javascript
 

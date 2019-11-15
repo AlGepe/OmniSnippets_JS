@@ -12,7 +12,7 @@ Contents:
    :maxdepth: 2
 
    omni/index.rst
-   how2RTFM
+.. how2RTFM
    customJS
    codeBasics
    stdCustomJS

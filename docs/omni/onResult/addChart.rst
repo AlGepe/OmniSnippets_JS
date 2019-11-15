@@ -1,5 +1,5 @@
 .. _addchart:
-addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })
+``addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })``
 --------------------------------------------------------------------
 
 Narysuj wykres pod kalkulatorem. Przykład użycia:

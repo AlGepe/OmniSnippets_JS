@@ -35,9 +35,9 @@ variables
 
 The function `hideVariables` takes at least one input in the form of a string containing the name (not `Label`) of the variable you want to hide. If you want to hide several variables at once you can concatenate several names by separating each string with a comma as shown above.
     
-+-------------+-----------+----------+-----------------------------------------------------+
-| Name        | Type      | Required | Description                                         |
-+=============+===========+==========+=====================================================+
-| variables   | string(s) | Yes      | Names of the variables to hide, separated by commas |
-+-------------+-----------+----------+-----------------------------------------------------+
++-------------+-----------+----------+---------------------------------------------------------+
+| Name        | Type      | Required | Description                                             |
++=============+===========+==========+=========================================================+
+| variables   | string(s) | Yes      | Name(s) of the variable(s) to hide, separated by commas |
++-------------+-----------+----------+---------------------------------------------------------+
 
