@@ -11,7 +11,9 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   omni/index.rst
+   omni/index
+   doYouNeed
+   fundamentals
 .. how2RTFM
    customJS
    codeBasics
