@@ -1,33 +1,30 @@
 .. _getdisp:
 
-``getDisplayedValue(variable)``
+Get Value displayed
 -------------------------------
 
-| Zwraca obecną wartość zmiennej w takiej postaci sformatowanej, tak
-jabky była
-| ona wyświetlona w wierszu kalkulatora. W przypadku, gdy zmienna ta nie
-ma żadnej
-| wartości zwracane jest ``null``. Przykładowym zastosowaniem może być
-wyświetlanie
-| podsumowania w przepisie kulinarnym. Przykładowy kod:
+Function that let's you optain the value displayed in the calculator as a string.
+
+Several syntax options are available for getting the values of one or more variables.
+
+Syntax
+~~~~~~
+
+For obtaining the value of the variable ``myVar`` and storing it in
+``dispMyVar`` just run this code:
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      // pobierz sformatowaną wartość zmiennej `a`
-      var formattedA = ctx.getDisplayedValue('a');
-      // wyświetl sformatowaną wartość zmiennej `a`, jeśli została wprowadzona
-      if (formattedA != null) {
-        ctx.addTextInfo('Sformatowana wartość a: ' + formattedA);
-      }
-    });
+    var varName = 'myVar';
+    var dispMyVar = ctx.getDisplayedValue(varName);
 
-Argumenty
+Arguments
 '''''''''
+The function only takes one input, a string with the name of the variable of which you want to get the value
     
-+------------+----------+------------+----------------------------------------------------------------+
-| Nazwa      | Typ      | Wymagane   | Opis                                                           |
-+============+==========+============+================================================================+
-| variable   | string   | Tak        | Nazwa zmiennej dla której chcemy pobrać sformatowaną wartość   |
-+------------+----------+------------+----------------------------------------------------------------+
++------------+----------+------------+-------------------------------+
+| Name       | Type     | Required   | Description                   |
++============+==========+============+===============================+
+| varName    | string   | Yes        | Name of the relevant variable |
++------------+----------+------------+-------------------------------+
 

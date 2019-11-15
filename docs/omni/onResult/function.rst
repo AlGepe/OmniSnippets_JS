@@ -113,7 +113,7 @@ Functions available only inside ``omni.onResult`` context
     runningOn
     usesImperialUnits
 
-..  getDisplayedValue
+    getDisplayedValue
     getAllNumberValues
     getAllValues
     getLabel
