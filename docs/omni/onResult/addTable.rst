@@ -3,7 +3,9 @@
 addTable(body, header, options)
 -----------------------------------
 
-A function that allows you to include a graph in the calculator. It is recommended to display tables (and graphs) at the very end of the calculator, unless otherwise required. To create a graph you need to first (at least) create a 2D array containing the data. If you want to learn more about multidimensional arrays check out the :ref:`Arrays<arrays>` section.
+A function that allows you to include a graph in the calculator. It is recommended to display tables (and graphs) at the very end of the calculator, unless otherwise required. 
+
+To create a graph you need to create at least one 2D array containing the data. If you want to learn more about arrays check out the :ref:`Arrays<array>` section.
 
 
 .. code-block:: javascript
