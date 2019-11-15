@@ -1,7 +1,7 @@
 .. _getunit:
 
-Get Unit Slug
--------------
+Get Unit of a Variable
+----------------------
 
 A collection of functions that return the unit currently being used in the calculator for a given variable.
 
