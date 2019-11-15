@@ -100,21 +100,18 @@ Functions available only inside ``omni.onResult`` context
     hideVariables
     showVariables
     getNumberValue
-    getUnit
-    getUnitFullNameFor
-    getUnitNameFor
-    getCurrencySymbol
-    addTextInfo
     addHtml
-    addUnmetCondition
+    addTextInfo
     addChart
+    addUnmetCondition
     addTable
-    runningOn
+    getUnit
+    getCurrencySymbol
+    getLabel
     usesImperialUnits
+    runningOn
     getDisplayedValue
     getValue
-
-    getLabel
     getRawInput
 ..  getNumberValues
 ..  getAllNumberValues
