@@ -43,7 +43,7 @@ Arguments
 For each syntax the input and output types are shown in the table. The input (if exists) represents the name(s) of the relevant variable(s) 
     
 +--------------+------------------+---------------------------+
-| syntax       | Input Type       | Output Type               |
+| Syntax       | Input Type       | Output Type               |
 +==============+==================+===========================+
 | getValue     | string           | object (decimal.js)       |
 +--------------+------------------+---------------------------+

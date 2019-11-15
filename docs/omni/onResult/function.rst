@@ -100,7 +100,6 @@ Functions available only inside ``omni.onResult`` context
     hideVariables
     showVariables
     getNumberValue
-    getNumberValues
     getUnit
     getUnitFullNameFor
     getUnitNameFor
@@ -112,12 +111,10 @@ Functions available only inside ``omni.onResult`` context
     addTable
     runningOn
     usesImperialUnits
-
     getDisplayedValue
-    getAllNumberValues
-    getAllValues
+    getValue
+
     getLabel
     getRawInput
-    getValue
-    getValues
-    
+    getNumberValues
+    getAllNumberValues

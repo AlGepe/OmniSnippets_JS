@@ -5,18 +5,19 @@ Get Value displayed
 
 Function that let's you optain the value displayed in the calculator as a string.
 
-Several syntax options are available for getting the values of one or more variables.
-
 Syntax
 ~~~~~~
 
-For obtaining the value of the variable ``myVar`` and storing it in
-``dispMyVar`` just run this code:
+For obtaining the value of the variable ``myVar`` and storing it in ``dispMyVar`` just run this code:
 
 .. code-block:: javascript
 
     var varName = 'myVar';
     var dispMyVar = ctx.getDisplayedValue(varName);
+
+.. warning::
+
+    This function only works inside a ``onResult`` context.
 
 Arguments
 '''''''''
