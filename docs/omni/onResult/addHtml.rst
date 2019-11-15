@@ -5,6 +5,9 @@ Add text and styling (HTML)
 
 A function that allows you to input raw html inside of your calculator. It supports any html syntax but the only recommended use is to to add pictures to you calculator.
 
+If you want to learn more about html and the available options you can check
+`w3School's  webpage <https://www.w3schools.com/html/>`__.
+
 .. warning::
 
     Avoid using this function when you can. If you simply want to add text use: :ref:`addTextInfo<addtxtinfo>`. It is strongly recommended not to format calculator messages using ``addHtml``. If you must format it, use simple html tags (``<i>``, ``<b>``,...)
