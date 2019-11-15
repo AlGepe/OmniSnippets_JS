@@ -13,8 +13,6 @@ In all cases the return type is a string containg the unit selected in the calcu
 
     If you are not sure what are the ``slug``, ``name`` and ``full name`` of a given unit, you can check it on the `Unit Switchers` section of BB
 
-For similar behaviour but slightly different output check the functions :ref:`getUnitFullNameFor<getunitFull>` and :ref:`getUnitNameFor<getunitname>`.
-
 Syntax
 ~~~~~~
 
