@@ -210,7 +210,7 @@ reducing the capabilities of the calculator since the main aim of it is
 not to solve a problem but to engage and entertain the user.
 
 There are countless examples of these calculators but have curated some
-of the (subjectively [1]_) best marketing calculators of all time:
+of the (subjectively [#f1]_) best marketing calculators of all time:
 
 -  `Chilled Drink Calculator`_ [id:1556]
 
@@ -218,7 +218,7 @@ of the (subjectively [1]_) best marketing calculators of all time:
 
 -  `Exoplanet Discovery Calculator`_ [id:1825]
 
-.. [1]
+.. [#f1]
    Possibly unrelated fact: all these examples were created by the
    author of this document
 

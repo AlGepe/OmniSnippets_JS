@@ -15,7 +15,7 @@ convention, which is often called the syntax, and that is specific to
 each programming language. Here we will only talk about the javascript
 syntax (and briefly html). Bare in mind that even if the syntax is
 language-dependent, most of the concepts are the same across different
-programming languages [1]_.
+programming languages [#f1]_.
 
 For us calculatorians javascript is the main language we will be using,
 but sometimes we might come across some *HTML*, you need not worry about
@@ -52,7 +52,7 @@ We will talk later about other good practices that you should follow to
 make your code easily understandable. But for now we should leave it
 here with the most basic of the syntax rules in Javascript.
 
-.. [1]
+.. [#f1]
    This is almost always the case when we are talking about the most
    basic concepts such as the ones we will mention in this document
 
