@@ -3,36 +3,62 @@
 Get Unit Slug
 -------------
 
-This function returns the `slug` of the units currently selected in the calculator for a certain variable. The `slug` is returned as a string. If the variable has no associated `Unit Switcher`, the function returns ``null``.
+A collection of functions that return the unit currently being used in the calculator for a given variable.
+
+There are three different syntaxes available, each of them returns a slightly differnt version of the unit being used. Available output options are: ``slug``, ``name``, and ``full name``.
+
+In all cases the return type is a string containg the unit selected in the calculator.
 
 .. note::
 
-    You can check the slug of each unit in the `Unit Switchers` section on BB.
+    If you are not sure what are the ``slug``, ``name`` and ``full name`` of a given unit, you can check it on the `Unit Switchers` section of BB
 
 For similar behaviour but slightly different output check the functions :ref:`getUnitFullNameFor<getunitFull>` and :ref:`getUnitNameFor<getunitname>`.
 
 Syntax
 ~~~~~~
 
-The syntax is very simple. Our variable is called ``myVariable`` and will store the slug in a javascript variable called ``unitSlug`` for later use.
-
-.. code-block:: javascript
-
-      var unitSlug = ctx.getUnit('myVariable');
-
 .. warning::
 
     This function only works inside a ``onResult`` context.
 
 
+To obtaint the ``slug`` of the variable called ``myVariable`` and store in a
+string named ``unitSlug`` the syntax is:
+
+.. code-block:: javascript
+
+    var varName = 'myVariable';
+    var unitSlug = ctx.getUnit(varName);
+
+To obtaint the ``name`` of the variable called ``myVariable`` and store in a
+string named ``unitName`` the syntax is:
+
+.. code-block:: javascript
+
+    var varName = 'myVariable';
+    var unitName = ctx.getUnitNameFor(varName);
+
+To obtaint the ``full name`` of the variable called ``myVariable`` and store in a
+string named ``unitFullName`` the syntax is:
+
+.. code-block:: javascript
+
+    var varName = 'myVariable';
+    var unitFullName = ctx.getUnitFullNameFor(varName);
+
+
 Arguments
 '''''''''
 
-This function only takes one argument, being a string with the name of the variable of which I want to obtain the units selected by the user.
+For all three forms of the function there is only one argument: a string with the name of the variable of which you want to obtain the units selected by the user.
     
-+------------+--------+----------+-------------------------------+
-| Name       | Type   | Required | Description                   |
-+============+========+==========+===============================+
-| myVariable | string | Yes      | Name of the relevant variable |
-+------------+--------+----------+-------------------------------+
-
++--------------------+------------+--------------------+
+| Syntax             | Input Type | Output Type        |
++====================+============+====================+
+| getUnit            | string     | string (slug)      |
++--------------------+------------+--------------------+
+| getUnitNameFor     | string     | string (name)      |
++--------------------+------------+--------------------+
+| getUnitFullNameFor | string     | string (full name) |
++--------------------+------------+--------------------+
