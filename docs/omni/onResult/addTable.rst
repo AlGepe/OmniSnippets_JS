@@ -1,7 +1,7 @@
 .. _addtable:
 
-addTable(body, header, options)
------------------------------------
+Add a table with data
+---------------------
 
 A function that allows you to include a graph in the calculator. It is recommended to display tables (and graphs) at the very end of the calculator, unless otherwise required. 
 
