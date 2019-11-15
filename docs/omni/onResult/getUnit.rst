@@ -1,7 +1,7 @@
 .. _getunit:
 
-Get Units of a variable
------------------------
+Get Unit Slug
+-------------
 
 This function returns the `slug` of the units currently selected in the calculator for a certain variable. The `slug` is returned as a string. If the variable has no associated `Unit Switcher`, the function returns ``null``.
 
@@ -9,11 +9,12 @@ This function returns the `slug` of the units currently selected in the calculat
 
     You can check the slugs for each unit in the `Unit Switchers` section on BB.
 
+For similar behaviour but slightly different output check the functions :ref:`getUnitFullNameFor<getunitFull>` and :ref:`getUnitNameFor<getunitname>`.
+
 Syntax
 ~~~~~~
 
-The syntax is very simple. Our variable is called ``myVariable`` and will store
-the slug in a javascript variable called ``unitSlug`` for later use.
+The syntax is very simple. Our variable is called ``myVariable`` and will store the slug in a javascript variable called ``unitSlug`` for later use.
 
 .. code-block:: javascript
 
