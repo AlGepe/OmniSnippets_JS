@@ -1,7 +1,7 @@
 .. _getnumval:
 
-Get Numerical Value of a Variable
----------------------------------
+Get Numerical Value(s) Variable(s)
+----------------------------------
 
 This function returns the value(s) of the desired variable(s) as number(s).
 
@@ -53,12 +53,12 @@ Arguments
 '''''''''
 For each syntax the input and output types are shown in the table. The input (if exists) represents the name(s) of the relevant variable(s) 
     
-+--------------------+------------------+---------------------------+
-| Syntax             | Input Type       | Output Type               |
-+====================+==================+===========================+
-| getNumberValue     | string           | number                    |
-+--------------------+------------------+---------------------------+
-| getNumberValues    | Array of strings | Array of numbers          |
-+--------------------+------------------+---------------------------+
-| getAllNumberValues | [None]           | Array of numbers          |
-+--------------------+------------------+---------------------------+
++--------------------+------------------+------------------+
+| Syntax             | Input Type       | Output Type      |
++====================+==================+==================+
+| getNumberValue     | string           | number           |
++--------------------+------------------+------------------+
+| getNumberValues    | Array of strings | Array of numbers |
++--------------------+------------------+------------------+
+| getAllNumberValues | [None]           | Array of numbers |
++--------------------+------------------+------------------+

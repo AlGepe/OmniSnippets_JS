@@ -116,5 +116,6 @@ Functions available only inside ``omni.onResult`` context
 
     getLabel
     getRawInput
-    getNumberValues
-    getAllNumberValues
+..  getNumberValues
+..  getAllNumberValues
+

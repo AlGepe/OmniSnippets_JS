@@ -3,7 +3,7 @@
 Get Value(s)
 ------------
 
-Function that let's you optain the value in the calculator as a ``decimal.js`` object. To convert to a number use ``toNumber()`` or better still use :ref:`getNumberValue<getnumval>` or any of its variants.
+Function that let's you obtain the value in the calculator as a ``decimal.js`` object. To convert to a number use ``toNumber()`` or better still use :ref:`getNumberValue<getnumval>` or any of its variants.
 
 Several syntax options are available for getting the values of one or more variables.
 

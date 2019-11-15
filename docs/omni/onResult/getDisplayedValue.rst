@@ -1,9 +1,9 @@
 .. _getdisp:
 
-Get Value displayed
--------------------------------
+Get Displayed Value
+-------------------
 
-Function that let's you optain the value displayed in the calculator as a string.
+Function that let's you obtain the value displayed in the calculator as a string.
 
 Syntax
 ~~~~~~
