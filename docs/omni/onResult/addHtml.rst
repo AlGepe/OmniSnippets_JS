@@ -8,7 +8,7 @@ A function that allows you to input raw html inside of your calculator. It suppo
 If you want to learn more about html and the available options you can check
 `w3School's  webpage <https://www.w3schools.com/html/>`__.
 
-.. warning::
+.. note::
 
     Avoid using this function when you can. If you simply want to add text use: :ref:`addTextInfo<addtxtinfo>`. It is strongly recommended not to format calculator messages using ``addHtml``. If you must format it, use simple html tags (``<i>``, ``<b>``,...)
 
@@ -25,7 +25,7 @@ Let's take a look at how to add an image in your calculator. For this example we
                 {afterVariable:'myVariable', alwaysShown: false}
                 );
 
-.. note::
+.. tip::
     
     If you want to add a picture on top of the calculator create a dummy variable, place it at the top and hide it using :ref:`hideVariables<hidevars>`. The place your image after the dummy variable.
 
