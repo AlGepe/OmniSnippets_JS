@@ -28,7 +28,6 @@ The key of said dictionary should be a unique identifier (chose your own, make i
 Let's look at at the syntax for defining ``data``:
 
 .. code-block:: javascript
-    :linenos:
 
     var data = {uniqueIdentifier1: { name: 'NameOfItem1', value: 'valueOfItem1' },
                 uniqueIdentifier2: { name: 'NameOfItem2', value: 'valueOfItem2' },
