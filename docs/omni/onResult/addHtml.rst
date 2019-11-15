@@ -1,68 +1,64 @@
 .. _addhtml:
 
-addHtml(html, options)
-----------------------
+Add text and styling (HTML)
+---------------------------
 
-Umożliwia dodanie kodu HTML który zostanie wyrenderowany pod
-kalkulatorem.
+A function that allows you to input raw html inside of your calculator. It supports any html syntax but the only recommended use is to to add pictures to you calculator.
 
 .. warning::
 
-    Avoid using this function when you can. If you simply want to add text use:
-    :ref:`addTextInfo<addtxtinfo>`. It is strongly recommended not to format
-    calculator messages using ``addHtml``.
+    Avoid using this function when you can. If you simply want to add text use: :ref:`addTextInfo<addtxtinfo>`. It is strongly recommended not to format calculator messages using ``addHtml``. If you must format it, use simple html tags (``<i>``, ``<b>``,...)
 
+Syntax
+~~~~~~
 
-    | **UWAGA:** jeśli to możliwe lepiej skorzystać z innych metod
-    dodawania
-    | informacji dla użytkownika (takich jak ``addTextInfo(text)`` lub
-    | ``addTable(body, header)``). Jeśli już musimy korzystać z
-    ``addHtml`` to lepiej
-    | ograniczyć się do kilku prostych tagów HTML (np. ``<p>``, ``<b>``,
-    ``<i>``, ``<img>``,
-    | ``<a>``). Jest to związane z tym, że w przyszłości chcielibyśmy
-    wspierać
-    | uruchamianie kalkulatorów poza przeglądarką internetową (np. w
-    natywnych
-    | aplikacjach mobilnych).
-
-Przykład zastosowania:
+Let's take a look at how to add an image in your calculator. For this example we will place it after the variable named ``myVariable`` and will appear and disappear together with the variable. We will also add some text before and after the picture.
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      // pobierz wartość zmiennej `a`
-      var a = ctx.getNumberValue('a');
-      // wyświetl komunikat, gdy jest wprowadzona jakakolwiek wartość zmiennej `a`
-      if (a != null) {
-        ctx.addHtml('Wprowadziłeś następującą wartość a: <b>' + a + '</b>');
-      }
-    });
+    ctx.addHtml("<center>Whatever text I want to put the image"+
+                +"<img width=80% alt='AltTxt of image' src=https://uploads-cdn.omnicalculator.com/images/nameOfImage.xxx></center>"+
+                +"Text after the image",
+                {afterVariable:'myVariable', alwaysShown: false}
+                );
+
+.. note::
+    
+    If you want to add a picture on top of the calculator create a dummy variable, place it at the top and hide it using :ref:`hideVariables<hideVariables>`. The place your image after the dummy variable.
 
 .. warning::
 
     This function only works inside a ``onResult`` context.
 
 
-Argumenty
-'''''''''
-    
-+-----------+----------+------------+-----------------------------------------------+
-| Nazwa     | Typ      | Wymagane   | Opis                                          |
-+===========+==========+============+===============================================+
-| html      | string   | Tak        | Kod HTML do wyrenderowania pod kalkulatorem   |
-+-----------+----------+------------+-----------------------------------------------+
-| options   | object   | Nie        | Opcje opisanie poniżej                        |
-+-----------+----------+------------+-----------------------------------------------+
+Arguments
+~~~~~~~~~
 
-Dostępne opcje
-              
+You need to inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
+
     
-+-----------------+-----------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Nazwa           | Typ       | Wymagane   | Opis                                                                                                                                                                                                |
-+=================+===========+============+=====================================================================================================================================================================================================+
-| afterVariable   | string    | Nie        | Nazwa zmiennej, pod którą ma się pojawić wyrenderowany HTML. Jeśli nie podano to pojawi się on pod ostatnią zmienną.                                                                                |
-+-----------------+-----------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| alwaysShown     | boolean   | Nie        | Czy wyrenderowany HTML ma się pojawić również, gdy zmienna podana jako ``afterVariable`` jest ukryta?. Domyślnie ma wartość ``true``. Podaj ``{ alwaysShown: false }`` aby zmienić to zachowanie.   |
-+-----------------+-----------+------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++---------+------------+----------+-------------------------------------+
+| Name    | Type       | Required | Description                         |
++=========+============+==========+=====================================+
+| html    | string     | Yes      | HTML code you need for your purpose |
++---------+------------+----------+-------------------------------------+
+| options | dictionary | No       | Location and behaviour              |
++---------+------------+----------+-------------------------------------+
+
+Available options
+'''''''''''''''''
+
+There are two available options. They must be input to the function as a dictionary (object) with key names: ``afterVariable`` and ``alwaysShown``. You can specified none, one or both options.
+
+If options are not specified ``alwaysShown`` is set to ``true`` and the text will be displayed after the last variable i.e.: at the bottom of the calculator.
+
+    
++---------------+------------+----------------------------------------------------------+
+| Key           | value type | Description                                              |
++===============+============+==========================================================+
+| afterVariable | string     | Name of the variable below which the html will be placed |
++---------------+------------+----------------------------------------------------------+
+| alwaysShown   | boolean    | **false**: Text is hidden if variable is hidden //       |
+|               |            | **true**: Text is always shown                           |
++---------------+------------+----------------------------------------------------------+
 
