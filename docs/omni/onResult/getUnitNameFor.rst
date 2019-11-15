@@ -7,7 +7,7 @@ This function returns the `Name` of the units currently selected in the calculat
 
 .. note::
 
-    You can check the names for each unit in the `Unit Switchers` section on BB.
+    You can check the name of each unit in the `Unit Switchers` section on BB.
 
 For similar behaviour but slightly different output check the functions :ref:`getUnitFullNameFor<getunitFull>` and :ref:`getUnit<getunit>`.
 

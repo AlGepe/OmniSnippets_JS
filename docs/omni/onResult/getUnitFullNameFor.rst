@@ -7,7 +7,7 @@ This function returns the `Full Name` of the units currently selected in the cal
 
 .. note::
 
-    You can check the full names for each unit in the `Unit Switchers` section on BB.
+    You can check the full name of each unit in the `Unit Switchers` section on BB.
 
 For similar behaviour but slightly different output check the functions :ref:`getUnit<getunit>` and :ref:`getUnitNameFor<getunitname>`.
 

@@ -7,7 +7,7 @@ This function returns the `slug` of the units currently selected in the calculat
 
 .. note::
 
-    You can check the slugs for each unit in the `Unit Switchers` section on BB.
+    You can check the slug of each unit in the `Unit Switchers` section on BB.
 
 For similar behaviour but slightly different output check the functions :ref:`getUnitFullNameFor<getunitFull>` and :ref:`getUnitNameFor<getunitname>`.
 
