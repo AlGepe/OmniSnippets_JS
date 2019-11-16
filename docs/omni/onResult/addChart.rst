@@ -72,20 +72,84 @@ This means that, even though you technically can, you should never display more 
 
     If you want to select specific colours for your data, you can fill in you array with empty entries moving your data to the desired position. Check our :ref:`Hacks for charts<chartTips>` section.
 
+Chart types and their peculiarities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Line Chart
 ''''''''''
+
 This is the most straight forward version of the chart. It doesn't support ``stack`` option.
 
-The input needs to be an array of arrays of numbers where the first item in the dataset is the array of value for the x-axis. The rest of the arrays in the list are the different values of the y-axis.
+The input needs to be an array of arrays of numbers. Each array of numbers represent one data point for each dataset to be represented. The first number in the array is the `x` value (rather label) for that point and can be a string. The rest of the values must be numbers representing the `y` value of said point.
 
-Area Chart
-''''''''''
+Here is an example of how ``chartData`` has to be created for this chart.
 
+.. code-block:: javascript
+
+    // the data represented are 4 point of the equation
+    // y = 2x + 1
+    var chartData = [[0, 1],
+                     [1, 3],
+                     [3, 7],
+                     [4, 9],
+                    ];
+
+This type of chart does not support stacking, so that field need not be included in the input of the function ``addChart``.
 
 Bar Chart
-'''''''''
+''''''''''
+This function takes a similar input to the ``line`` chart, but this type of chart also supports stacking.
 
+Here is an example of how ``chartData`` has to be created for this chart. And how to call the function ``addChart`` to stack two datasets one on top of the other
+
+.. code-block:: javascript
+
+    // the data represented are 4 point of the equations
+    // 1st: y = 2x + 1
+    // 2nd: y = 3x + 0
+    var chartData = [[0, 1,  0],
+                     [1, 3,  3],
+                     [3, 7,  9],
+                     [4, 9, 12],
+                    ];
+
+    // Now we call the function with this data
+    ctx.addChart({type: 'bar',
+                  data: chartData,
+                  labels: ['x', 'y1', 'y2'],
+                  title: "Chart of Bars",
+                  stacks: [{
+                            columns : [1, 2] ,
+                            sumLabel: "Sum of Bars"
+                           }],
+                  afterVariable: lastVar,
+                  alwaysShown: false
+                  });
+
+
+
+Area Chart
+'''''''''
+The ``area`` chart is a hybrid between the ``line`` and the ``bar`` charts. The syntax calling and options are the same as the bar chart and the only difference when calling ``addChart`` is the obvious substitution of ``bar`` to ``line``. 
 
 Pie Chart
 '''''''''
 
+The input needs to be an array of dictionaries where each of the items contain two key-value pairs. The necessary keys are ``name`` representing the label of that data point and ``value`` being the numerical value of said data point.
+
+Here is an example of how ``chartData`` has to be created for this chart.
+
+.. code-block:: javascript
+
+    var chartData = [{name :  ' Value A ' ,
+                      value: 32
+                     },
+                     {name :  ' Value B ' ,
+                      value: 15
+                     },
+                     {name :  ' C value ' ,
+                      value: 33
+                     }
+                    ];
+
+Unlike the rest of chart types, ``pie`` charts need not include labels. Stacks are also not supported.
