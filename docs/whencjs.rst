@@ -1,7 +1,11 @@
 .. _need:
+When to use customJS a quick guide
+----------------------------------
 
-You only need food, water and sleep
------------------------------------
+
+
+You only need food, water and sleep (Intro)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In the beginning there was Mateusz. He started making calculators at speeds never known to humankind before. But he couldn't make them perfect for he was only (partially) human. This meant prioritizing speed and throughput over quality and visuals. This was good in the pre-calculatorian times at Omni.
 
@@ -18,7 +22,7 @@ To assess better if your calculator could benefit from some customJS goodness, t
 .. _when2cjs:
 
 Do what you can because you must
---------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 We will now show you the functionalities that customJS provides and its (dis)advantages by looking at 3 different scenarios. One where customJS is not needed or useful, one where customJS is not needed but can add extra functionality (so customJS would be "desirable") and one where customJS is needed.
 
