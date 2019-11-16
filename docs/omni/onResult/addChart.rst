@@ -1,6 +1,6 @@
 .. _addchart:
-``addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })``
---------------------------------------------------------------------
+Add a Chart to the Calculator
+-----------------------------
 
 This function allows you to create and display a graph that dynamically shows multiple data points to the user. There are 4 different types of charts available for now:
 
