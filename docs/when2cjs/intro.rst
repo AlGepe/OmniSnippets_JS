@@ -4,15 +4,8 @@ A quick guide on customJS use cases
 
 In this section we will take a look at when and why we use customJS in our calculators. We will not explain how to this, that is reserved for other sections where we will take a look at the :ref:`Technical documentation of custom functions<omni>`, :ref:`Standard practices in customJS<stdCJS>`, :red:`Tips and Tricks<c2c>` from other calculatorians.
 
-Before we have a short introduction, let's take a look at the contents of this section in more detail.
 
-.. toctree::
-    :maxdepth: 3
-
-    when2cjs
-
-
-An now, a quick introduction:
+Before we take a look at the contents let's have a short introduction to explain why customJS has become a very useful skill
 
 .. _whycjs:
 Why do we use customJS more and more
@@ -29,3 +22,10 @@ It is for this reason that writting customJS has gone from a dark art to a truly
 That said, you shouldn't just use customJS for the sake of it. Omni calculators have to be as simple and easy to use as possible (without compromising functionality), so some times it is better to stick to the standard procedure than sacrifice user experience. 
 
 To assess better if your calculator could benefit from some customJS goodness, the best way is to look at some examples and understand what is possible, what is recommended and what is not recommended or just plain impossible to do; so let's do that!
+
+
+.. tectree::
+    :maxdepth: 3
+
+    when2cjs
+
