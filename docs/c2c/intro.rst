@@ -16,6 +16,10 @@ Improve your chart game
 For an easier life
 ------------------
 
+.. _bestpractices:
+How to be friends with other calculatorians
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 Repository
 ~~~~~~~~~~
 

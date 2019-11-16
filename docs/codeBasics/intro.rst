@@ -1,28 +1,23 @@
-Coding Basics for Calculatorians
-================================
+Programming, a very very brief overview
+=======================================
 
-What is coding
---------------
+    So you have evaluated the requirements of your calculator and you want to use customJS to make the best calculator ever created (or at least something cool). If you already know how a program works or have coded in any language before, you just got yourself a free upgrade to Section \ref{sec:suggestions}. 
 
-Basics of coding
-----------------
+    In this section we will briefly go over the very basics of programming with focus on javascript. We will go through the basics providing simple explanations when possible and pointing you to good technical documentations as we go. 
+    
+.. note::
+    This is not intended as a full course or any kind of rigorous learning material, so feel free to take an online course or get yourself a `decent javascript book<http://eloquentjavascript.net/>`__ if you really want to dive deeper.
 
-Variables
-~~~~~~~~~
+For the rest of you, Calculatorians, let's get started with the basics of programming.
 
-.. _bool:
-booleans whatevers xD
+.. toctree::
+    :maxdepth: 2
 
-.. _dictionary:
-Dictionaries
-^^^^^^^^^^^^
+    bigPicture
+    basics
+    notBasics
+    aim4Lazy
 
-.. _array:
-Arrays
-~~~~~~
-
-Functions
-~~~~~~~~~
 
 (not so) basics of coding
 -------------------------
