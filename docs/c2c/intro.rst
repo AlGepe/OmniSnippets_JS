@@ -23,13 +23,19 @@ How to be friends with other calculatorians
 Repository
 ~~~~~~~~~~
 
+.. _debug:
 Mistakes, is not an **if**, it's a **when**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------
+
+.. _strangeVars:
+Stranger values you'll encounter in customJS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. _ErrVarValues:
 Why TF do I get errors when using variable values?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. _specialops:
 Don't do unless in peril
 ------------------------
 

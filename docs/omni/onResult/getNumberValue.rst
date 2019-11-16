@@ -46,7 +46,7 @@ To get the numerical values of all variables in the calculator use:
     // returns an array of numbers
 
 
-If any of the variables don't have a value (e.g.: the field is still empty) the function returns ``undefined``. You can learn more about this type of variable in the section :ref:`Stranger variables you'll find in customJS<strangeVars>`
+If any of the variables don't have a value (e.g.: the field is still empty) the function returns ``undefined``. You can learn more about this type of variable in the section :ref:`Stranger values you'll find in customJS<strangeVals>`
 
 
 Arguments
