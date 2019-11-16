@@ -13,7 +13,7 @@ Introduction:
     :maxdepth: 2
 
     when2cjs/intro
-    codeBasic/intro
+    codeBasics/intro
 ..  doYouNeed
     fundamentals
 
