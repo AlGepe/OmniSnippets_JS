@@ -1,6 +1,6 @@
 .. _compulsory:
 CustomJS is compulsory
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 And now we get to the interesting part of this section: the calculators for which you must use customJS. These fall in one of three categories:
 
@@ -11,7 +11,7 @@ And now we get to the interesting part of this section: the calculators for whic
 
 .. _preset:
 Presets
-'''''''
+~~~~~~~
 
 An example of a calculator that requires pre-sets is the `Chocolate calculator <https://www.omnicalculator.com/food/chocolate>`__. In this calculator there are predefined values that are not variables and are only shown in a table. These values can only be edited using customJS and are the main output of the calculator, making it compulsory to use customJS. Another, less standard example of a calculator using customJS as a way to offer pre-sets is the `Bike Size Calculator <https://www.omnicalculator.com/all/bike-size>`__ where \textit{type of bike} changes slightly the behaviour of the calculator. As a third and final example we have the most standard of all, which is the `Screen Size Calculator <https://www.omnicalculator.com/all/screen-size>`__ the screen size is controlled by a simple ``omni.valueSetter``. 
 
@@ -19,7 +19,7 @@ We haven't yet talked about them, but the customJS function commonly used in thi
 
 .. _weird:
 Weird formulas
-''''''''''''''
+~~~~~~~~~~~~~~
 
 These calculators are those for which the calculation requires formulas or procedures that cannot be implemented via the `Equations` tab on the calculator editor. The simplest example of such a calculator is the `Factorial Calculator <https://www.omnicalculator.com/all/factorial>`__ that requires the input to be integer before it can output the result. Other examples along the same lines are:
 
@@ -30,7 +30,7 @@ You can clearly see a common theme where the calculation processes requires some
 
 .. _multiple:
 Multiple personality disorder
-'''''''''''''''''''''''''''''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Some times when you make a calculator you want to add different options and behaviours so that you effectively have many calculator in one and the user simply changes between them by selecting from a drop-down menu. This kind of multiple personalty calculators are not always the best options but we all know that SEO works in mysterious ways, so at times is the best option, just make sure to confirm before you build.
 

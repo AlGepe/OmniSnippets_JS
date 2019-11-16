@@ -1,6 +1,7 @@
 .. _marketingcalc:
 When freedom is subjugated to the marketing needs
-'''''''''''''''''''''''''''''''''''''''''''''''''
+-------------------------------------------------
+
 There are times in life when one needs must surrender its own needs and desires for a greater good. For calculatorians this time has been given the name of **Marketing Calculators** . And just as a good soldier must follow orders even against their own interest, a calculatorian must follow the guidance of the Marketing Team when the time comes. 
 
 In all seriousness, though, marketing calculators are a special breeding for which many of the ordinary rules and guidelines bust be ignored or at least relegated to a secondary role. Marketing calculators have different goals than regular calculators and therefore their requirements are different. One of these differences is the fact that customJS is a must. 

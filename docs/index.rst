@@ -7,6 +7,7 @@ Welcome to Omni's customJS primer for Calculatorians©
 ======================================================
 
 Introduction:
+-------------
 
 .. toctree::
     :maxdepth: 2
@@ -18,6 +19,7 @@ Introduction:
 
 
 Omni functions (technical):
+---------------------------
 
 .. toctree::
     :maxdepth: 2

@@ -1,6 +1,6 @@
 .. _cjs:
-When to use customJS a quick guide
-==================================
+A quick guide on customJS use cases
+===================================
 
 .. toctree::
     :maxdepth: 2
