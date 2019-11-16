@@ -34,7 +34,7 @@ The argument of this function is by far the most complicated. It is a dictionary
 +---------------+----------------------------+----------+----------------------------------------------------------+
 | Key           | valueType                  | Required | Description                                              |
 +===============+============================+==========+==========================================================+
-| data          | Dependant on ``type``      | Yes      | Data to be represented                                  |
+| data          | Dependant on ``type``      | Yes      | Data to be represented                                   |
 +---------------+----------------------------+----------+----------------------------------------------------------+
 | labels        | Array of strings           | Yes      | Labels for each of the datasets represented              |
 +---------------+----------------------------+----------+----------------------------------------------------------+
@@ -50,27 +50,33 @@ The argument of this function is by far the most complicated. It is a dictionary
 |               |                            |          |  **true**: Text is always shown                          |
 +---------------+----------------------------+----------+----------------------------------------------------------+
 
+.. note::
+    
+    The data for the x-axis in all but ``pie`` charts is taken as a string, not as a number. The values will always appear equally distributed. All y-values are represented in order of input from left to right regardless of their associated x-values.
+
+
 Colours of the datasets
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Omni calculator doesn't support explicitly choosing colours for each of the
-datasets. The colours are assigned automatically from first to last dataset in
-following the order they are given in the input. The following chart represents
-the relation between position and colour.
+Omni calculator doesn't support explicitly choosing colours for each of the datasets. The colours are assigned automatically from first to last dataset following their order in the input. The following chart represents the relation between position and colour.
 
 .. figure:: OmniColors.png
-   :scale: 75%
+   :scale: 50%
    :alt: list of colours available for Omni charts
 
     Colour assigned to each position of data
+
+This means that, even though you technically can, you should never display more than 11 datasets in one Omni chart. 
+
+.. tip::
+
+    If you want to select specific colours for your data, you can fill in you array with empty entries moving your data to the desired position. Check our :ref:`Hacks for charts<chartTips>` section.
 
 Line Chart
 ''''''''''
 This is the most straight forward version of the chart. It doesn't support ``stack`` option.
 
-The input needs to be an array of arrays of numbers where the first item in the
-dataset is the array of value for the x-axis. The rest of the arrays in the
-list are the different values of the y-axis.
+The input needs to be an array of arrays of numbers where the first item in the dataset is the array of value for the x-axis. The rest of the arrays in the list are the different values of the y-axis.
 
 Area Chart
 ''''''''''

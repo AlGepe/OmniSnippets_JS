@@ -9,6 +9,10 @@ For creating better calculators
 Arrays: More data, less hassle
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. _chartTips:
+Improve your chart game
+~~~~~~~~~~~~~~~~~~~~~~~
+
 For an easier life
 ------------------
 
