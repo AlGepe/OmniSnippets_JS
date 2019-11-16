@@ -61,8 +61,9 @@ Colours of the datasets
 Omni calculator doesn't support explicitly choosing colours for each of the datasets. The colours are assigned automatically from first to last dataset following their order in the input. The following chart represents the relation between position and colour.
 
 .. figure:: OmniColors.png
-   :scale: 50%
+   :scale: 80%
    :alt: list of colours available for Omni charts
+   :align: center
 
     Colour assigned to each position of data
 
@@ -103,8 +104,9 @@ Here is an example of how ``chartData`` has to be created for this chart.
                   });
 
 .. figure:: OmniLine.png
-    :scale: 50%
+    :scale: 80%
     :alt: Line graph
+    :align: center
 
     Line chart resulting from the data defined above
 
@@ -142,8 +144,9 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
 
 
 .. figure:: OmniBar.png
-    :scale: 50%
+    :scale: 80%
     :alt: Bar graph
+    :align: center
 
     Bar chart resulting from the data defined above
 
@@ -177,8 +180,9 @@ Here is the respective example:
                   });
 
 .. figure:: OmniArea.png
-    :scale: 50%
+    :scale: 80%
     :alt: Area graph
+    :align: center
 
     Area chart resulting from the data defined above
 
@@ -210,8 +214,9 @@ Here is an example of how ``chartData`` has to be created for this chart.
               });
 
 .. figure:: OmniPie.png
-    :scale: 50%
+    :scale: 80%
     :alt: Pie graph
+    :align: center
 
     Pie chart resulting from the data defined above
 
