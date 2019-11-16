@@ -16,7 +16,7 @@ Welcome to the technical documentation of Omni's customJS. This is the only tech
    onResult/function
 
 Introduction
-============
+------------
 
 To simplify the process of creating and editing a calculator in customJS, Omni provides a set of personalized instructions that act as a translation between the pure javascript and the calculatorian. 
 

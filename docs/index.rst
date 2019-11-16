@@ -13,9 +13,9 @@ Introduction:
     :maxdepth: 2
 
     when2cjs/intro
+    extras/intro
 ..  doYouNeed
     fundamentals
-..  extras/intro
 
 
 Omni functions (technical):
