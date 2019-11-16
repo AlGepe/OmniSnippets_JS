@@ -12,9 +12,9 @@ Introduction:
     :maxdepth: 2
 
     whencjs
-    doYouNeed
+..  doYouNeed
     fundamentals
-.. how2RTFM
+..  how2RTFM
 
 
 Omni functions (technical):
