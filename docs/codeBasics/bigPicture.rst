@@ -1,3 +1,11 @@
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
+
 .. _bigpicture:
 Programming vs Witchcraft, how to tell them apart
 =================================================

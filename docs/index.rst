@@ -1,11 +1,3 @@
-.. |ss| raw:: html
-
-   <strike>
-
-.. |se| raw:: html
-
-   </strike>
-
 
 Welcome to Omni's customJS primer for Calculatorians©
 ======================================================
