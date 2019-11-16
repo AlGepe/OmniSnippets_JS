@@ -6,14 +6,22 @@
 Welcome to Omni's customJS primer for Calculatorians©
 ======================================================
 
-Contents:
+Introduction:
+
+.. toctree::
+   :maxdepth: 2
+
+   doYouNeed
+   fundamentals
+.. how2RTFM
+
+
+Omni functions (technical):
 
 .. toctree::
    :maxdepth: 2
 
    omni/index
-   doYouNeed
-   fundamentals
 .. how2RTFM
    customJS
    codeBasics

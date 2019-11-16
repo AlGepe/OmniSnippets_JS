@@ -137,10 +137,10 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
                   stacks: [{
                             columns : [1, 2] ,
                             sumLabel: "Sum of Bars"
-                           }],
+                          }],
                   afterVariable: lastVar,
                   alwaysShown: false
-                  });
+                });
 
 
 .. figure:: OmniBar.png
@@ -176,7 +176,7 @@ Here is the respective example:
                   stacks: [{
                             columns : [1, 2] ,
                             sumLabel: "Sum of Bars"
-                           }],
+                          }],
                   });
 
 .. figure:: OmniArea.png
@@ -204,14 +204,13 @@ Here is an example of how ``chartData`` has to be created for this chart.
                      },
                      {name :  ' C value ' ,
                       value: 33
-                     }
-                    ];
+                    }];
     ctx.addChart({type: 'pie',
                   data: chartData,
                   title: "Pie chart",
                   afterVariable: "",
                   alwaysShown: false
-              });
+                });
 
 .. figure:: OmniPie.png
     :scale: 80%
