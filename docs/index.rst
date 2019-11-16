@@ -11,10 +11,10 @@ Introduction:
 .. toctree::
     :maxdepth: 2
 
-    whencjs
+    when2cjs/intro
 ..  doYouNeed
     fundamentals
-..  how2RTFM
+..  extras/intro
 
 
 Omni functions (technical):
@@ -22,12 +22,12 @@ Omni functions (technical):
 .. toctree::
     :maxdepth: 2
 
-    omni/index
+    omni/intro
 ..  how2RTFM
     customJS
-    codeBasics
-    stdCustomJS
-    c2c
+    codeBasic/intros
+    stdCustomJS/intro
+    c2c/intro
     repo
     authors
     contributing

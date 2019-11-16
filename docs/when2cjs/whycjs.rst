@@ -1,11 +1,6 @@
-.. _need:
-When to use customJS a quick guide
-----------------------------------
-
-
-
-You only need food, water and sleep (Intro)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. _whycjs:
+Why do we use customJS more and more
+------------------------------------
 
 In the beginning there was Mateusz. He started making calculators at speeds never known to humankind before. But he couldn't make them perfect for he was only (partially) human. This meant prioritizing speed and throughput over quality and visuals. This was good in the pre-calculatorian times at Omni.
 
@@ -18,20 +13,4 @@ It is for this reason that writting customJS has gone from a dark art to a truly
 That said, you shouldn't just use customJS for the sake of it. Omni calculators have to be as simple and easy to use as possible (without compromising functionality), so some times it is better to stick to the standard procedure than sacrifice user experience. 
 
 To assess better if your calculator could benefit from some customJS goodness, the best way is to look at some examples and understand what is possible, what is recommended and what is not recommended or just plain impossible to do; so let's do that!
-
-.. _when2cjs:
-
-Do what you can because you must
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-We will now show you the functionalities that customJS provides and its (dis)advantages by looking at 3 different scenarios. One where customJS is not needed or useful, one where customJS is not needed but can add extra functionality (so customJS would be "desirable") and one where customJS is needed.
-
-.. toctree::
-    :maxdepth: 1
-
-    uneeded
-    desireable
-    compulsory
-    marketing
-
 
