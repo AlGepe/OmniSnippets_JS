@@ -202,5 +202,17 @@ Here is an example of how ``chartData`` has to be created for this chart.
                       value: 33
                      }
                     ];
+    ctx.addChart({type: 'pie',
+                  data: chartData,
+                  title: "Pie chart",
+                  afterVariable: "",
+                  alwaysShown: false
+              });
+
+.. figure:: OmniPie.png
+    :scale: 50%
+    :alt: Pie graph
+
+    Pie chart resulting from the data defined above
 
 Unlike the rest of chart types, ``pie`` charts need not include labels. Stacks are also not supported.
