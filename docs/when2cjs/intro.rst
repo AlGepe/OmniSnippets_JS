@@ -24,7 +24,7 @@ That said, you shouldn't just use customJS for the sake of it. Omni calculators 
 To assess better if your calculator could benefit from some customJS goodness, the best way is to look at some examples and understand what is possible, what is recommended and what is not recommended or just plain impossible to do; so let's do that!
 
 
-.. tectree::
+.. toctree::
     :maxdepth: 3
 
     when2cjs
