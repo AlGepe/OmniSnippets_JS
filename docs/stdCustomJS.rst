@@ -5,6 +5,10 @@ Standard usage of customJS
 Basics
 ------
 
+.. _tables:
+Adding Tables
+~~~~~~~~~~~~~
+
 Advanced
 --------
 

@@ -2,84 +2,65 @@
 ``addChart({ afterVariable, alwaysShown, data, labels, stacks, title, type })``
 --------------------------------------------------------------------
 
-Narysuj wykres pod kalkulatorem. Przykład użycia:
+This function allows you to create and display a graph that dynamically shows multiple data points to the user. There are 4 different types of charts available for now:
+
+#. **'line'** - Data represented as dots joined by a straight line
+#. **'area'** - Similar to 'line' but withot dots and the area below filled in. Allows to stack datasets on top of each other.
+#. **'bar'**  - Bar chart with the ability to stack multiple datasets.
+#. **'pie'**  - Pie chart where each data point represents a fraction of the total area of a circle
 
 .. code-block:: javascript
 
-    omni.onResult(function(ctx) {
-      // pobierz wartości zmiennych
-      var a = ctx.getNumberValue('a');
-      var b = ctx.getNumberValue('b');
-      var c = ctx.getNumberValue('c');
-
-      // narysuj wykres tylko gdy co najmniej jedna z pobranych zmiennych
-      // jest większa niż 0
-      if (a > 0 || b > 0 || c > 0) {
-        // przygotuj dane do wyrenderowania wykresu
-        var chartData = [
-          {
-            name: 'Wartość A',
-            value: a
-          },
-          {
-            name: 'Wartość B',
-            value: b
-          },
-          {
-            name: 'Wartość C',
-            value: c
-          }
-        ];
-
-        ctx.addChart({
-          type: 'pie',
-          data: chartData
-        });
-      }
-    });
+	ctx.addChart({type: chartType,
+				  data: chartData,
+				  labels: dataLabels,
+				  title: chartTitle,
+				  stacks: stackVars,
+				  afterVariable: myVar,
+				  alwaysShown: aBool
+				});
 
 .. warning::
 
     This function only works inside a ``onResult`` context.
 
+As you can see the input seems a bit complex, that is because of the 4 different options available. Each value 
 
 Arguments
 ~~~~~~~~~
 
-You need two inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
-
+The argument of this function is by far the most complicated. It is a dictionary with key-value pairs described in the table below. However, each value can be a complicated type itseld and, on top of that, not all types of charts support all the pairs. If you want to learn more about each specific type, check the below.
     
-+---------+------------+----------+------------------------+
-| Name    | Type       | Required | Description            |
-+=========+============+==========+========================+
-| html    | string     | Yes      | HTML code              |
-+---------+------------+----------+------------------------+
-| options | dictionary | No       | Location and behaviour |
-+---------+------------+----------+------------------------+
++---------------+----------------------------+----------+----------------------------------------------------------+
+| Key           | valueType                  | Required | Description                                              |
++===============+============================+==========+==========================================================+
+| data          | Dependant on ``type``      | Yes      | Data to be respresented                                  |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| labels        | Array of strings           | Yes      | Labels for each of the datasets represented              |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| type          | string                     | Yes      | Allowed options are ``pie``, ``bar``, ``area``, ``line`` |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| title         | string                     | No       | Title of the chart                                       |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| stacks        | dictionary                 | No       | Difines which variables are stacks on top of each other  |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| afterVariable | string                     | No       | Location and behaviour                                   |
++---------------+----------------------------+----------+----------------------------------------------------------+
+| alwaysShown   | boolean                    | No       | **false**: Text is hidden if variable is hidden //       |
+|               |                            |          |  **true**: Text is always shown                          |
++---------------+----------------------------+----------+----------------------------------------------------------+
 
-Available options
-'''''''''''''''''
+Line Chart
+''''''''''
 
-There are two available options. They must be input to the function as a dictionary (object) with key names: ``afterVariable`` and ``alwaysShown``. You can specified none, one or both options.
-
-If options are not specified ``alwaysShown`` is set to ``true`` and the text will be displayed after the last variable i.e.: at the bottom of the calculator.
-
-    
-+---------------+------------+----------------------------------------------------------+
-| Key           | value type | Description                                              |
-+===============+============+==========================================================+
-| afterVariable | string     | Name of the variable below which the html will be placed |
-+---------------+------------+----------------------------------------------------------+
-| alwaysShown   | boolean    | **false**: Text is hidden if variable is hidden //       |
-|               |            | **true**: Text is always shown                           |
-+---------------+------------+----------------------------------------------------------+
+Area Chart
+''''''''''
 
 
-Available chart types
-'''''''''''''''''''''
+Bar Chart
+'''''''''
 
--  area
--  bar
--  line
--  pie
+
+Pie Chart
+'''''''''
 

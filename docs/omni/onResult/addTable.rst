@@ -43,6 +43,7 @@ To create a graph you need to create at least one 2D array containing the data. 
 
     This function only works inside a ``onResult`` context.
 
+An example of a table used in a calculator and how it looks is the `Investment Calculator <https://bb.omnicalculator.com/#/calculators/186>`__. We will go over practical examples and usages on section :ref:`Adding Tables<tables>`. 
 
 Arguments
 ~~~~~~~~~
