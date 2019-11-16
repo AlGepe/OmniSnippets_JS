@@ -2,7 +2,7 @@ About this Documentation
 ========================
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     authors
 ..  contributing
