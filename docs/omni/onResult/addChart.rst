@@ -46,8 +46,8 @@ The argument of this function is by far the most complicated. It is a dictionary
 +---------------+----------------------------+----------+----------------------------------------------------------+
 | afterVariable | string                     | No       | Location and behaviour                                   |
 +---------------+----------------------------+----------+----------------------------------------------------------+
-| alwaysShown   | boolean                    | No       | **false**: Text is hidden if variable is hidden //       |
-|               |                            |          |  **true**: Text is always shown                          |
+| alwaysShown   | boolean                    | No       | **false** : Text is hidden if variable is hidden //       |
+|               |                            |          |  **true** : Text is always shown                          |
 +---------------+----------------------------+----------+----------------------------------------------------------+
 
 .. note::
@@ -86,15 +86,29 @@ Here is an example of how ``chartData`` has to be created for this chart.
 
 .. code-block:: javascript
 
-    // the data represented are 4 point of the equation
-    // y = 2x + 1
-    var chartData = [[0, 1],
-                     [1, 3],
-                     [3, 7],
-                     [4, 9],
+    // the data represented are 4 point of the equations
+    // 1st: y = 2x + 1
+    // 2nd: y = 3x + 0
+    var chartData = [[0, 1,  0],
+                     [1, 3,  3],
+                     [3, 7,  9],
+                     [4, 9, 12],
                     ];
 
-This type of chart does not support stacking, so that field need not be included in the input of the function ``addChart``.
+    // Now we call the function with this data
+    ctx.addChart({type: 'line',
+                  data: chartData,
+                  labels: ['x', 'y1', 'y2'],
+                  title: "Line Chart",
+                  });
+
+.. figure:: OmniLine.png
+    :scale: 50%
+    :alt: Line graph
+
+    Line chart resulting from the data defined above
+
+This type of chart does support stacking but it is not recommend to be used. That field need not be included in the input of the function ``addChart``.
 
 Bar Chart
 ''''''''''
@@ -117,7 +131,7 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
     ctx.addChart({type: 'bar',
                   data: chartData,
                   labels: ['x', 'y1', 'y2'],
-                  title: "Chart of Bars",
+                  title: "Bar Chart",
                   stacks: [{
                             columns : [1, 2] ,
                             sumLabel: "Sum of Bars"
@@ -127,10 +141,47 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
                   });
 
 
+.. figure:: OmniBar.png
+    :scale: 50%
+    :alt: Bar graph
+
+    Bar chart resulting from the data defined above
 
 Area Chart
 '''''''''
+
 The ``area`` chart is a hybrid between the ``line`` and the ``bar`` charts. The syntax calling and options are the same as the bar chart and the only difference when calling ``addChart`` is the obvious substitution of ``bar`` to ``line``. 
+
+Here is the respective example:
+
+.. code-block:: javascript
+
+    // the data represented are 4 point of the equations
+    // 1st: y = 2x + 1
+    // 2nd: y = 3x + 0
+    var chartData = [[0, 1,  0],
+                     [1, 3,  3],
+                     [3, 7,  9],
+                     [4, 9, 12],
+                    ];
+
+    // Now we call the function with this data
+    ctx.addChart({type: 'area',
+                  data: chartData,
+                  labels: ['x', 'y1', 'y2'],
+                  title: "Area Chart",
+                  stacks: [{
+                            columns : [1, 2] ,
+                            sumLabel: "Sum of Bars"
+                           }],
+                  });
+
+.. figure:: OmniArea.png
+    :scale: 50%
+    :alt: Area graph
+
+    Area chart resulting from the data defined above
+
 
 Pie Chart
 '''''''''
