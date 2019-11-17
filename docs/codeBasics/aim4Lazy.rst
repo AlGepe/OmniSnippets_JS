@@ -8,19 +8,19 @@ As a Spanish person I feel perfectly qualified to talk about laziness.
 ????The coding mindset
 ----------------------
 
-.. note:: note
+.. note::
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. warning:: warning
+.. warning:: 
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. versionadded:: versionAdded
+.. versionadded:: 1.0
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. versionchanged:: versionChanged
+.. versionchanged:: 1.0
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
@@ -28,15 +28,15 @@ As a Spanish person I feel perfectly qualified to talk about laziness.
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. rubric:: version
+.. rubric:: RUBRIC
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. deprecated:: version
+.. deprecated:: 1.0
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
-.. hlist:: 
+.. hlist::
     :columns: 3
 
     * A list of
@@ -48,9 +48,18 @@ As a Spanish person I feel perfectly qualified to talk about laziness.
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
 .. sectionauthor:: Guido van Rossum <guido@python.org>
+
+
 .. codeauthor:: Guido van Rossum <guido@python.org>
 
-.. deprecated:: version
+.. code-block:: javascript
+    :linenos:
+
+    var pepe = juan - sussy;
+
+
+
+.. deprecated:: 9.2
     
     This is a paragraph I am too lazy to look for one so I guess I will just spend more time and effort writing one from scratch for no reason.
 
