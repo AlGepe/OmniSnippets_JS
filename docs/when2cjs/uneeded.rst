@@ -11,14 +11,13 @@ In cases like this, one should just **make a simple calculator**. To take the ca
 
 With all this said, **nothing is black or white**. A pie chart *could* help the user visualise what a given percentage means. Whether or not it is worth your time is something we don't a strict rule for. This is an example where we believe customJS is not worth your time, however for `Percentage Calculator <https://www.omnicalculator.com/all/percentage>`__ we thought it could be useful.
 
-More Examples of unneeded CustomJS
-''''''''''''''''''''''''''''''''''
+.. rubric:: Examples of unneeded CustomJS
 
 #. `Simple Percentage <https://www.omnicalculator.com/all/percentage-app>`__
 #. `Percentage Increase Calculator <https://www.omnicalculator.com/math/percentage-increase>`__
 #. `Percentage of a Percentage Calculator <https://www.omnicalculator.com/math/percentage-of-percentage>`__
 
-.. rubric:: Pie de pagina
+.. rubric:: Footnotes
 
 .. [#f1] Ironically this calculator was never published.
 

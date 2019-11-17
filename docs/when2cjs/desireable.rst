@@ -11,8 +11,6 @@ A picture and some added text with the equation take this calculator **from "dec
 
 This is by far the simplest example of customJS usage, but exemplifies very well the benefits of adding some customJS in the right places. Note that this calculator **does not need customJS** for its calculations, and neither do any of the examples.
 
-More Examples of desireable CustomJS
-''''''''''''''''''''''''''''''''''''
+.. rubric:: Examples of desireable customJS
 
 #. `Pythogorean Theorem <https://www.omnicalculator.com/math/pythagorean-theorem>`__
-`Calcualtor Name <url>`__
