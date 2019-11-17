@@ -1,7 +1,7 @@
 .. _lazy:
 
-You're a programmer (sort of), strive to be lazy
-================================================
+A programmer strives to be lazy (and you should, too)
+=====================================================
 
 As a Spanish person I feel perfectly qualified to talk about laziness.
 

@@ -1,6 +1,6 @@
 .. _marketingcalc:
-When freedom is subjugated to the marketing needs
--------------------------------------------------
+*Le* Marketing (surrender your freedom for a greater good)
+----------------------------------------------------------
 
 There are times in life when one needs must surrender its own needs and desires for a greater good. For calculatorians this time has been given the name of **Marketing Calculators** . And just as a good soldier must follow orders even against their own interest, a calculatorian must follow the guidance of the Marketing Team when the time comes. 
 
