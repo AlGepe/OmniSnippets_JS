@@ -18,6 +18,6 @@ All these calculators tend to use customJs for some or all the reasons listed ab
 
 .. rubric:: tl;dr
 
-Calculators should be entertaining and simple, they should include customJS and EVERYTHING is overridden by whatever the Farhan, Reina or Natalia say at the time of building the calculator.
+Marketing calculators should be entertaining and simple to use. They should include customJS and *EVERYTHING* is overridden by whatever the Farhan, Reina or Natalia say at the time of building the calculator.
 
 .. [#f12] Possibly unrelated fact: all these examples were created by the author of this document}
