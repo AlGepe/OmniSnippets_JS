@@ -7,7 +7,7 @@ Let’s start with the basics, customJS is one of the many **options available f
 In this section we will take a look at **when and why we use customJS** in our calculators. We will not explain how to this, that is reserved for other sections where we will take a look at the :ref:`Technical documentation of custom functions<omni>`, :ref:`Standard practices in customJS<stdCJS>`, :ref:`Tips and Tricks<c2c>` from other calculatorians.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     whycjs
     when2cjs
