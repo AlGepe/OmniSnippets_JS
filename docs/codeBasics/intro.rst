@@ -1,7 +1,7 @@
 Programming, a very very brief overview
 =======================================
 
-    So you have evaluated the requirements of your calculator and you want to use customJS to make the best calculator ever created (or at least something cool). If you already know how a program works or have coded in any language before, you just got yourself a free upgrade to Section \ref{sec:suggestions}. 
+So you have evaluated the requirements of your calculator and you want to use customJS to make the best calculator ever created (or at least something cool). If you already know how a program works or have coded in any language before, you just got yourself a free upgrade to :ref:`Omni's Technical Documentation<omni>`. 
 
     In this section we will briefly go over the very basics of programming with focus on javascript. We will go through the basics providing simple explanations when possible and pointing you to good technical documentations as we go. 
     

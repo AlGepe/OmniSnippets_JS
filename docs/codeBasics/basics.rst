@@ -2,6 +2,7 @@
 Basics of coding
 ================
 
+.. _variables:
 Variables
 ---------
 
@@ -34,6 +35,7 @@ Dictionaries
 Arrays
 ^^^^^^
 
+.. _functions:
 Functions
 ~~~~~~~~~
 
