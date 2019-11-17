@@ -20,4 +20,4 @@ This calculators exemplify the main features you want to get from customJS. The 
 
 Marketing calculators should be entertaining and simple to use. They should include customJS and *EVERYTHING* is overridden by whatever the Farhan, Reina or Natalia say at the time of building the calculator.
 
-.. [#f12] Possibly unrelated fact: all these examples were created by the author of this document}
+.. [#f12] Possibly unrelated fact: all these examples were created by the author of this document
