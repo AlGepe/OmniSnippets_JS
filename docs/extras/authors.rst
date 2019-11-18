@@ -1,9 +1,6 @@
 Authors
 ========
 
-Created by:
------------
-
 - **Alvaro Diez** *Not an Astrophysicist™*
 .. - **Dominik Czernia** *Mr. customJS wizzard himseld*
   Proofread by:
