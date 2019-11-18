@@ -8,6 +8,12 @@ This function is a `void` type as it doesn't return anything, the main purpose o
 
 In theory, the function takes as input any ``callback``, but in practice we will always use ``ctx``. This function allows for some custom actions to be performed as we will see in the next section.
 
+.. warning::
+    
+    Any variables defined inside the ``onInit`` context are not visible outside of it. If you want you variables to be shared between ``onInit`` and ``onResult`` you need to declare them outside of these contexts.
+..  Learn more about scopes in the aptly named :ref:`Scope of a variable<scope>` section
+
+
 Syntax
 ~~~~~~
 
