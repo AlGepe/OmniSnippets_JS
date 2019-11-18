@@ -1,6 +1,6 @@
 .. _onResult:
-On Calculations (context)
--------------------------
+On Result (context)
+-------------------
 
 In this section we will look at the ``onResult`` context function and all the options that are available inside of it. This context-function is analogous to the :ref:`onInit<onInit>` context-function. The main difference is that this context relates to instance when the calculator computes any variable (visible or not) and therefore provides an interactive way to modify the behavior of the calculator depending on the input of the user.
 

@@ -1,7 +1,7 @@
 .. _addhtml:
 
-Add text and styling (HTML)
----------------------------
+Add images and styling (HTML)
+-----------------------------
 
 A function that allows you to input raw html inside of your calculator. It supports any html syntax but the only recommended use is to to add pictures to you calculator.
 
