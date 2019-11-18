@@ -2,6 +2,7 @@
 Standard usage of customJS
 ==========================
 
+.. _basicCJS:
 Basics
 ------
 
@@ -13,15 +14,11 @@ Basics
     vSetterCustom
     graphChart
     dynamicImg
+    dynamicTable
+    mathFunctions
 
 
-.. _tables:
-Dynamic table under calculator
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Available Math functions
-~~~~~~~~~~~~~~~~~~~~~~~~
-
+.. _advCJS:
 Advanced
 --------
 
