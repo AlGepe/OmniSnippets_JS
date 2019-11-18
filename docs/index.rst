@@ -21,13 +21,8 @@ Omni functions (technical):
     :maxdepth: 2
 
     omni/intro
-..  how2RTFM
-    customJS
     stdCustomJS/intro
-    c2c/intro
-    repo
-    authors
-    contributing
+..  c2c/intro
 
 
 Extra resources
@@ -37,6 +32,9 @@ Extra resources
     :maxdepth: 2
 
     extras/intro
+..  how2RTFM
+    authors
+    contributing
 
 .. Indices and tables
 .. ------------------
