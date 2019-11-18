@@ -2,11 +2,11 @@
 On Result (context)
 -------------------
 
-In this section we will look at the ``onResult`` context function and all the options that are available inside of it. This context-function is analogous to the :ref:`onInit<onInit>` context-function. The main difference is that this context relates to instance when the calculator computes any variable (visible or not) and therefore provides an interactive way to modify the behavior of the calculator depending on the input of the user.
+In this section we will look at the ``onResult`` context function and all the options that are available inside of it. This context-function is analogous to the :ref:`onInit<onInit>` context-function. The main difference is that this context relates to instance when the calculator computes any variable (visible or not) and therefore provides an interactive way to modify the behaviour of the calculator depending on the input of the user.
 
-This is commonly the most used function and you will write 90% of your code inside of it. It wil become more clear when you take a look at all the :ref:`available functions inside onResult<onResultFunc>`.  
+This is commonly the most used function and you will write 90% of your code inside of it. It will become more clear when you take a look at all the :ref:`available functions inside onResult<onResultFunc>`.  
 
-before we do that let's take a look at the syntax since for ``onResult`` there are options available on declaration than we had for ``onInit``.
+Before we do that let's take a look at the syntax since for ``onResult`` there are options available on declaration than we had for ``onInit``.
 
 Syntax
 ~~~~~~
@@ -86,7 +86,7 @@ Now that you know how to set up a context for executing pieces of code to react 
 
 I would like to remind everyone that this is still a technical section, if you are looking for usage examples and ways to combine several of these functions we recommend checking out :ref:`Standard usage of customJS<stdCJS>`. If you are looking to use these functions to get different more advance behaviours we recommend the section: :ref:`From Calculatorian to Calculatorian<c2c>` where we have compiled several tips and tricks to make your calculators better and your life easier.
 
-For now, here is a list of the avilable functions inside the ``onResult`` context:
+For now, here is a list of the available functions inside the ``onResult`` context:
 
 
 
