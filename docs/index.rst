@@ -21,6 +21,12 @@ Omni functions (technical):
     :maxdepth: 2
 
     omni/intro
+
+Practical help and examples
+---------------------------
+
+.. toctree::
+    :maxdepth: 2
     stdCustomJS/intro
 ..  c2c/intro
 
