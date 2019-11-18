@@ -11,6 +11,7 @@ Basics
 
     dynamicMessage
     dynamicSH
+    customResults
     vSetterCustom
     graphChart
     dynamicImg
