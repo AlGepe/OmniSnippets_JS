@@ -20,4 +20,4 @@ Javascript is run by the computer of the user, and our server does the HTML
 
 .. [#f1] It's similar but DEFINITELY different
 
-.. [#f2] The ever friedly: Darek and Daniel. D&D also make the BB.
+.. [#f2] The ever-friendly: Darek and Daniel. D&D also make the BB.
