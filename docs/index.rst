@@ -27,8 +27,9 @@ Practical help and examples
 
 .. toctree::
     :maxdepth: 2
+
     stdCustomJS/intro
-..  c2c/intro
+    c2c/intro
 
 
 Extra resources
