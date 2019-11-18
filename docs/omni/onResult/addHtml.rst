@@ -37,7 +37,7 @@ Let's take a look at how to add an image in your calculator. For this example we
 Arguments
 ~~~~~~~~~
 
-You need to inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
+You need two inputs for this function the html code you want to be executed (as a single string), and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
 
     
 +---------+------------+----------+------------------------+
