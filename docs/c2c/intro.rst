@@ -27,9 +27,18 @@ Quotes around keys => plsNope
 Repository
 ~~~~~~~~~~
 
-.. _debug:
+.. _mistakes:
 Mistakes, is not an **if**, it's a **when**
 -------------------------------------------
+
+.. _debug:
+Debug procedure
+~~~~~~~~~~~~~~~
+
+.. _testing:
+Testing precedure
+~~~~~~~~~~~~~~~~~
+
 
 .. _strangeVars:
 Stranger values you'll encounter in customJS

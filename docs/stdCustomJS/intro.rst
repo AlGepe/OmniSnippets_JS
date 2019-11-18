@@ -16,6 +16,7 @@ Basics
     dynamicImg
     dynamicTable
     mathFunctions
+    customUnmet
 
 
 .. _advCJS:
