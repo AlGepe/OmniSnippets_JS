@@ -5,6 +5,9 @@ Custom Message in Calculator
 This is an example in which we will show a custom text message in the calculator, like in the example shown below:
 
 .. figure:: dynamicMsgMain.png
+    :scale: 70%
+    :alt: Custom Message in calculator
+    :align: center
 
 The messages can be static (always the same) or dynamic, and they can be located anywhere in the calculator.
 
