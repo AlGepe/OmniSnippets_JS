@@ -8,7 +8,7 @@ Dynamic Images in Calculators
 
 .. code-block:: javascript
     :linenos:
-
+    
     'use strict';
     /* 
         Create value setter and bind it
