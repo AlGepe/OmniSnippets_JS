@@ -9,12 +9,11 @@ Basics
 .. toctree::
     :maxdepth: 1
 
-    dynamicMessage
+    customMsg
     dynamicSH
-    customResults
     vSetterCustom
-    graphChart
     dynamicImg
+    graphChart
     dynamicTable
     mathFunctions
     customUnmet
