@@ -9,7 +9,7 @@ It can also be used to **give the user extra options** or functionality in certa
 In our example the calculator performs two different operations with completely different set of variables, the user selects between behaviours with a value setter and the variables are shown/hidden as required.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Show/Hide Variables <https://bb.omnicalculator.com/#/calculators/1942>`__ on BB
 
 .. code-block:: javascript
     :linenos:
@@ -40,7 +40,7 @@ In our example the calculator performs two different operations with completely 
     });
 
 .. tip::
-    Remember that you can use numbers as booleans. Zero (0) represents ``false`` and anyother number represents ``true``.
+    Remember that you can use numbers as booleans. Zero (0) represents ``false`` and any other number represents ``true``.
 
 What we have done in this example is take one calculator and effectively **divide it in two** independent versions. When possible try to reuse variables from one mode on the other.
 

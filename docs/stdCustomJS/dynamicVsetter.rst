@@ -1,5 +1,5 @@
 .. _dynamicVsetter:
-Dynamically changing vSetters
+Dynamically changing vSetters on runtime
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. seealso::
