@@ -19,7 +19,7 @@ For out **first example** we will look at the simplest version: the static messa
 Static messages
 ---------------
 
-In this example we will make a custom message for our calculator. It will appear after the variable named ``extra``. The message will always been shown no matter what happened with the variable ``extra``.
+In this example we will make a custom message for our calculator. It will appear after the variable named ``c``. The message will always been shown no matter what happened with the variable ``c``.
 
 .. code-block:: javascript
     :linenos:
@@ -27,7 +27,7 @@ In this example we will make a custom message for our calculator. It will appear
     'use strict';
     omni.onResult(function(ctx){
     ctx.addTextInfo('The fields "A" and "other A" are idenpendent of each other', 
-                    {afterVariable: 'select'}
+                    {afterVariable: 'c'}
                    );
     });
 

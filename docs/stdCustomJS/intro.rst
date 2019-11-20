@@ -4,12 +4,12 @@ Standard usage of customJS
 
 Welcome to the compilation of use cases and examples of how to use customJS to get what you want. If the :ref:`technical documentation of Omni's customJS functions<omni>` was boring, don't worry, I fell asleep writing it a couple times.
 
-Now we can start having fun (hopefully `Type 1 fun<http://goeast.ems.com/three-types-of-fun/>`__) and take a more relax look at how to actually use all those commands.
+Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-types-of-fun/>`__) and take a more relax look at how to actually use all those commands.
 
 For each of the examples/usages we have also built a **sample calculator**. This are very simple calculator just to showcase the behaviour. Feel free to copy their code into your calculator or play around with them but **DO NOT SAVE ANY CHANGES**.
 
 .. note:: 
-    Most of these examples have been taking from the `Trello card<https://trello.com/c/KaB6WmHJ/214-javascript-simple-code>`__ where we have examples of calculators with customJS.
+    Most of these examples have been taking from the `Trello card <https://trello.com/c/KaB6WmHJ/214-javascript-simple-code>`__ where we have examples of calculators with customJS.
 
 
 The standard usages of customJS have been divided in three sections: Basics, Advanced and one section dedicated to advanced uses of value setters. The justification for this last section is that |ss| I do what I want |se| value setters are quite complex objects and they can be used in many useful ways, also having a section just for them makes it easy to find stuff around.
