@@ -1,7 +1,7 @@
 /*
     * Converts time in seconds to formatted time
     *
-    * INPOUT: number (time in seconds) 
+    * INPUT: number (time in seconds) 
     * OUTPUT: string ([hours]:[minutes]:[seconds])
 */
 function formatTime(time) //Time in seconds
