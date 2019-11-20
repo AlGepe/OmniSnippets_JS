@@ -18,7 +18,7 @@ The code is as follows:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines:24-28, 6...12
+    :emphasize-lines: 24-28
 
     'use strict';
     /*
