@@ -8,6 +8,9 @@ It can also be used to **give the user extra options** or functionality in certa
 
 In our example the calculator performs two different operations with completely different set of variables, the user selects between behaviours with a value setter and the variables are shown/hidden as required.
 
+.. seealso::
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB
+
 .. code-block:: javascript
     :linenos:
 

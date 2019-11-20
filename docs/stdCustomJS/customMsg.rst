@@ -10,6 +10,8 @@ The messages can be static (always the same) or dynamic, and they can be located
 
 For out **first example** we will look at the simplest version: the static message that is always shown.
 
+.. seealso::
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB
 
 Static messages
 ---------------
@@ -21,7 +23,9 @@ In this example we will make a custom message for our calculator. It will appear
 
     'use strict';
     omni.onResult(function(ctx){
-    ctx.addTextInfo('The fields "A" and "other A" are idenpendent of each other', {afterVariable: 'select'});
+    ctx.addTextInfo('The fields "A" and "other A" are idenpendent of each other', 
+                    {afterVariable: 'select'}
+                   );
     });
 
 .. note::
@@ -46,9 +50,9 @@ Any result that requires some kind of knowledge to be understood should include 
 
     'use strict';
     omni.onResult(function(ctx){
-        var valueC = ctx.getNumberValue('c')+ctx.getNumberValue('otherC'),
+        var sumA = ctx.getNumberValue('a')+ctx.getNumberValue('other_a'),
             commonTxt = "Given your results you should";
-        if(valueC !== undefined && valueC > 0 && !isNaN(valueC)){
+        if(sumA === undefined || isNaN(sumA)){}else if(sumA > 0){
             ctx.addTextInfo(commonTxt+" party a bit more, but NOT during office hours.");
         }else{
             ctx.addTextInfo(commonTxt+" go see a REAL doctor. No, youtube doesn't count.");
