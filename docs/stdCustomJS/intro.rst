@@ -1,3 +1,11 @@
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
+
 .. _stdCJS:
 Standard usage of customJS
 ==========================
