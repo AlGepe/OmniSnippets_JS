@@ -15,6 +15,7 @@ function getNameFromVSetter(thisUid, vSetter){
                 return vSetter[i].name;
             }
         }
+    }else{
         name = "There is no element with UID: "+thisUid+" in your Value Setter";
         for(var i = 0; i < vSetter.length;i++){
             if(vSetter[i].uid == thisUid){
