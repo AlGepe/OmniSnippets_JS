@@ -8,7 +8,7 @@ Dynamic Images in Calculators
 
 .. code-block:: javascript
     :linenos:
-    
+
     'use strict';
     /* 
         Create value setter and bind it
@@ -41,21 +41,21 @@ Dynamic Images in Calculators
         var htmlStart = "<img src=",
             htmlEnd = ">";
         if(result < 0){
-            ctx.addHtml(htmlStart
-                        +"https://i.pinimg.com/564x/54/0a/5a/540a5aa165567d940a66caf0146056e5.jpg"
-                        +htmlEnd
+            ctx.addHtml(htmlStart+
+                        "https://i.pinimg.com/564x/54/0a/5a/540a5aa165567d940a66caf0146056e5.jpg"+
+                        htmlEnd
                         );
         }
         else if(result > 0){
-            ctx.addHtml(htmlStart
-                        +"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX75s4Qpi7z9kaoVghqN14m1_K4_pcmwliWZxR9s8XPLca-Yqf&s"
-                        +htmlEnd
+            ctx.addHtml(htmlStart+
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX75s4Qpi7z9kaoVghqN14m1_K4_pcmwliWZxR9s8XPLca-Yqf&s"+
+                        htmlEnd
                         );
         }
         else if(result === 0){
-            ctx.addHtml(htmlStart
-                        +"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEkkpJBlufQpc73ZdGTwnNiSlUSclsB7eQBoIvzHowRVp6QexY-A&s"
-                        +htmlEnd
+            ctx.addHtml(htmlStart+
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEkkpJBlufQpc73ZdGTwnNiSlUSclsB7eQBoIvzHowRVp6QexY-A&s"+
+                        htmlEnd
                         );
         }
     });
