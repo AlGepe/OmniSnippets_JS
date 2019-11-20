@@ -8,7 +8,6 @@ Dynamic Images in Calculators
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines:
 
     'use strict';
     /* 
