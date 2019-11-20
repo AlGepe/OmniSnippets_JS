@@ -27,6 +27,10 @@ Quotes around keys => plsNope
 Repository
 ~~~~~~~~~~
 
+.. _customUid:
+Custom uid in Value Setter (howto)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. _mistakes:
 Mistakes, is not an **if**, it's a **when**
 -------------------------------------------

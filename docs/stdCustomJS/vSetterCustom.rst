@@ -18,7 +18,7 @@ The code is as follows:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 24-28
+    :emphasize-lines: 23-27
 
     'use strict';
     /*
@@ -33,7 +33,7 @@ The code is as follows:
                     {"name":"Proxima Centauri","uid":"7","values":{"m_star":2.428569e+29,"r_star":107276940,"distance":39734940000000000}},
                     {"name":"Gamma Cephei","uid":"8","values":{"m_star":2.80449e+30,"r_star":3429801000,"distance":425731500000000000}},
                     {"name":"Sun","uid":"9","values":{"m_star":1.989e+30,"r_star":695700000}},
-                    {"name":"Custom","uid":"0","values":{}} // This is the custom option
+                    {"name":"Enter your own","uid":"0","values":{}} // This is the custom option
                 ];
     omni.createValueSetter('star',starDATA, {defaultUid:"1"});
 
@@ -52,7 +52,11 @@ The code is as follows:
         ctx.addTextInfo("The distance to the star is: "+ctx.getNumberValue('distance'));
     });
 
-.. note::
-    We have used custom values of the ``uid`` in the Value Setter for ease of use. The custom option has value ``0`` (false as a *boolean*)
+The most relevant lines of the code have been highlighted; the rest of the code is included to provide context. We have added the three lines of text on the calculator so that you can check yourself what is the value of each variable at all times.
 
-We have added the three lines of text on the calculator so that you can check yourself what is the value of each variable at all times. 
+.. note::
+    We have used custom values of the ``uid`` in the Value Setter for ease of use. To learn how to do this check :ref:`Custom Uid in Value Setters <customUid>` The custom option has value ``0`` (false as a *boolean*)
+
+If the user modifies the values of the variables after selecting a preset, the displayed selection for the value setter will show **Custom**. To avoid confusion, we always name the personalised option *Custom* as well. However, if the user changes values of variables not set by the current selection of the value select, the name displayed will not change. In our example, since the user can only modify the variables when their values are not set by the Value Select, it will always show **Enter your own**. 
+
+.. rubric:: This is a comment, shouldn't be published::  **This needs better explanations**
