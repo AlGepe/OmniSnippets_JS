@@ -4,10 +4,15 @@ Dynamic Images in Calculators
 
 There are two main places to show images: at the top and at the bottom of the calculator. We have also included different ways to dynamically change the images according to different parameters.
 
-.. figure:: dynamicImg.png, dynamicMsgMain.png
+.. figure:: dynamicImg.png
     :scale: 70%
     :alt: Custom Image on calculator
-    :align: center
+    :align: right
+
+.. figure:: dynamicImg.png
+    :scale: 70%
+    :alt: Custom Image on calculator
+    :align: left
 
 .. rubric:: Methods
 
