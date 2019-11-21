@@ -117,6 +117,7 @@ Name Method
     Check out the resulting calculator at `Dynamic Image (Name Method) <https://bb.omnicalculator.com/#/calculators/1951>`__ on BB
 
 Another way to dynamically change the picture you want to show is to updload the pictures to the server with names related to the value for which they will be shown. 
+
 .. code-block:: javascript
     :linenos:
 
