@@ -6,9 +6,9 @@ There are two main places to show images: at the top and at the bottom of the ca
 
 .. rubric:: Methods
 
-#. `Array method <array-method>`_
+#. `Array method <#array-method>`__
 #. `If...else method <#if-else-method>`__
-#. :ref:`Name method <#name-method>`
+#. `Name method <#name-method>`__
 
 Array method
 ------------
