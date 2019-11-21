@@ -4,6 +4,11 @@ Dynamic Images in Calculators
 
 There are two main places to show images: at the top and at the bottom of the calculator. We have also included different ways to dynamically change the images according to different parameters.
 
+.. figure:: dynamicImg.png dynamicMsgMain.png
+    :scale: 70%
+    :alt: Custom Image on calculator
+    :align: center
+
 .. rubric:: Methods
 
 #. `Array method <#array-method>`__
@@ -155,7 +160,7 @@ Say we care about the value of the variable named ``myVar`` the code code to sho
 This is a very similar trick to the **array method** where we trade code lines for a little bit of planning ahead when uploading the images to the server.
 
 .. warning:: 
-    Just like the *array method** this method requires you to be able to predict all the possible values of the relevant variable.
+    Just like the *array method* this method requires you to be able to predict all the possible values of the relevant variable.
 
 .. rubric:: Fotnotes
 
