@@ -7,12 +7,7 @@ There are two main places to show images: at the top and at the bottom of the ca
 .. figure:: dynamicImg.png
     :scale: 70%
     :alt: Custom Image on calculator
-    :align: right
-
-.. figure:: dynamicImg.png
-    :scale: 70%
-    :alt: Custom Image on calculator
-    :align: left
+    :align: center
 
 .. rubric:: Methods
 
