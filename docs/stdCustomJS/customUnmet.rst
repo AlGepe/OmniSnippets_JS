@@ -34,7 +34,7 @@ Let's take a look at an example of how to do this and then go over the key point
 
 The equation present in the calculator is ``c = a/b``, so we're basically checking that ``b`` is not zero. Our ``onResult`` function will only be triggered once ``b`` has a value. 
 
-.. note:: 
+.. seealso:: 
     Following the convention explained in :ref:`Dynamically hide/show variables <dynamicSH>` we first hide all the variables and only show them when necessary.
 
 The function ``addUnmetCondition`` takes any string input so we can take advantage of that to make **customized error messages** that help the user understand better where the mistake was made and correct it. The second message is not standard procedure, is only there to examplify that there can be more than one error message on the same condition and how you can create **dynamic text** in them.

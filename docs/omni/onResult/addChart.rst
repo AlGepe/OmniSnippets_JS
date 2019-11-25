@@ -11,14 +11,14 @@ This function allows you to create and display a graph that dynamically shows mu
 
 .. code-block:: javascript
 
-	ctx.addChart({type: chartType,
-				  data: chartData,
-				  labels: dataLabels,
-				  title: chartTitle,
-				  stacks: stackVars,
-				  afterVariable: myVar,
-				  alwaysShown: aBool
-				});
+    ctx.addChart({type: chartType,
+                  data: chartData,
+                  labels: dataLabels,
+                  title: chartTitle,
+                  stacks: stackVars,
+                  afterVariable: myVar,
+                  alwaysShown: aBool
+                });
 
 .. warning::
 
