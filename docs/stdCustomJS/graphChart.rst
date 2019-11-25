@@ -7,7 +7,7 @@ We are now going to take a look at some examples as to how you would go about sh
 Creating data from user input
 -----------------------------
 
-We have seen in previous sections that that data must be input as an array of array. In the example shown, the array was created by hand which is time consuming and unrealistic (unless you are omniscient and omnipotent in which case idk why you are reading this anyway). 
+We have seen in previous sections that that data must be input as an array of array. In the example shown, the array was created by hand which is time consuming and unrealistic (unless you are omniscient and omnipotent in which case **idk** why you are reading this anyway). 
 
 When making a calculator the data normally has to be... calculated (surprising, right?) based on the input given by the user.
 
@@ -66,7 +66,7 @@ There are also ways to allow any input values while keeping the number of points
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points) <https://bb.omnicalculator.com/#/calculators/1968>`__ on BB
 
-    
+Let's look at the code now:
 
 .. code-block:: javascript
     :linenos:
