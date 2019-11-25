@@ -70,7 +70,7 @@ Let's look at the code now:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines:9,10
+    :emphasize-lines: 9,10
 
     'use strict';
     omni.onResult(['a','b','offset','n'],function (ctx){
