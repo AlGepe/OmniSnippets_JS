@@ -17,6 +17,7 @@ We will plot in a chart the values of the function ``f(x) = xⁿ + offset`` from
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (create data) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB
 
 Let's look that the example code now:
+
 .. code-block::
     :linenos:
     :emphasize-lines: 9-13
@@ -63,7 +64,7 @@ To prevent users from creating charts with too many points there are several str
 There are also ways to allow any input values while keeping the number of points in the graph under control. We will show here the simplest way to define a constant number of steps that will be independent of the input parameters.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points)<https://bb.omnicalculator.com/#/calculators/1968>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points) <https://bb.omnicalculator.com/#/calculators/1968>`__ on BB
 
 .. code-block::
     :linenos:
@@ -115,3 +116,7 @@ Custom labels (x-axis)
 
 .. tip::
     If you are unsure about what type of chart suits your data better and people can't decide either, you can always set a value select to let the user decide. 
+
+.. rubric:: Footnotes
+
+.. [#f1] The relationship is not necessarily linear. Tested on an Intel i5-3320M CPU @ 2.60GHz processor from 2012.
