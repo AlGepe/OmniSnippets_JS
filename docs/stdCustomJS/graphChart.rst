@@ -49,7 +49,7 @@ This is the simplest version of a graph, the important lines are highlighted and
 A couple problems you might encounter with this code if you where to copy-paste it directly is that the number of points computed depends on the difference between ``a`` and ``b``. We will see how to fix that in the next section.
 
 .. tip::
-    For operations more complicated it might be wise to create a function to perform the operations. It will make the code cleaner and easier to understand.
+    For operations more complicated it might be wise to create a function to perform the operations. It will make the code cleaner and easier to understand. You might also want to look up the `map method for arrays <https://www.w3schools.com/jsref/jsref_map.asp>`__
 
 
 Limit data size (Avoid computational slow-downs)
