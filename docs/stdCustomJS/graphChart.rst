@@ -18,7 +18,7 @@ We will plot in a chart the values of the function ``f(x) = xⁿ + offset`` from
 
 Let's look that the example code now:
 
-.. code-block:: javscript
+.. code-block:: javascript
     :linenos:
     :emphasize-lines: 9-13
 
