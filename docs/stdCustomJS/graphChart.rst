@@ -66,6 +66,8 @@ There are also ways to allow any input values while keeping the number of points
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points) <https://bb.omnicalculator.com/#/calculators/1968>`__ on BB
 
+    
+
 .. code-block:: javascript
     :linenos:
     :emphasize-lines:9,10
