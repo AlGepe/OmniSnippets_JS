@@ -1,6 +1,6 @@
 .. _graphChart:
-Graphs and charts under calculator
-==================================
+Graphs and charts (Basics)
+==========================
 
 We are now going to take a look at some examples as to how you would go about showing data in a chart. Since we have already covered the most basic examples when we took a look at :ref:`addChart<addchart>` function, we will now look at practical tips to use it efficiently in a Real World™ scenario.
 
@@ -103,21 +103,29 @@ The relevant lines have been highlighted, in them we first define an iteration s
 User defined chart type
 -----------------------
 
+Another useful think in certain calculators could be letting the user decide what type of chart they prefer. This only works for  ``line``, ``area`` and ``bar`` charts, since ``pie`` charts use a different data format.
+
+It is important to make sure the data will be well represented no matter what type of chart the user chooses. On way to do this is to create a value select and change the format of the data accordingly.
+
+e will 
+
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph <https://bb.omnicalculator.com/#/calculators/1953>`__ on BB
 
 Custom labels (x-axis)
 ----------------------
 
+We will now look at a little special |ss| problem |se| feature of our charts: the x-axis. Our charts do not process the data on the x-axis. The data on the x-axis is treated as a label only and the data on the y-axis is assumed to be equally spaced. 
+
+This is generally a handicap, but it can be turned around as we can use strings as x-data.
+
+In the follow example we will take a look at this issue and how you would go about using strings as x-data to your advantage.
+
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph <https://bb.omnicalculator.com/#/calculators/1953>`__ on BB
 
-
-
-
-
 .. tip::
-    If you are unsure about what type of chart suits your data better and people can't decide either, you can always set a value select to let the user decide. 
+    If you are unsure about what type of chart suits your data better and people can't decide either, you can always set a value select to let the user decide. Simply set a Value Select for them to chose and react to the value as you need.
 
 .. rubric:: Footnotes
 

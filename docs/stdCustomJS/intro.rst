@@ -42,8 +42,8 @@ Here we have the examples of the most basic options from customJS that are not j
     dynamicImg
     graphChart
     dynamicTable
-    mathFunctions
     customUnmet
+..  mathFunctions
 
 
 .. _advCJS:
