@@ -240,6 +240,7 @@ In the follow example we will take a look at this issue and how you would go abo
                 });
     });
 
+This options can come in handy when trying to display time on the x-axis. You can use the functions in our repositoty to `Play with time <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code/PlayingWithTime>`__ formats and make your chart easier to understad. For example, instead of showing the years as a decimal number you can display also the name of the month.
 
 .. rubric:: Footnotes
 
