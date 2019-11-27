@@ -78,7 +78,7 @@ Let's look at the code now:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 9,10
+    :emphasize-lines: 9, 10
 
     'use strict';
     omni.onResult(['a','b','offset','n'],function (ctx){
@@ -113,11 +113,14 @@ A word on user defined chart type
 
 Another useful think in certain calculators could be letting the user decide what type of chart they prefer. This only works for  ``line``, ``area`` and ``bar`` charts, since ``pie`` charts use a different data format.
 
+.. seealso::
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (chart types) <https://bb.omnicalculator.com/#/calculators/1969>`__ on BB
+
 Let's take a look at an example:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 
+    :emphasize-lines: 3-12, 28-31
 
     'use strict';
 
@@ -155,9 +158,12 @@ Let's take a look at an example:
                     });
     });
 
+As you can see in the example above, the user is given a value select so that he can chose which chart is best for the data. We have taken into account that ``pie`` option will give out an error and decided to show a message instead of letting the calculator crash.
 
 .. warning::
-    If you let the user select the type of chart, make sure the data will be in the correct format. In the example we have left the option ``pie`` in the value select, but you don't need to.
+    If you let the user select the type of chart, make sure the data will be in the correct format. In the example we have left the option ``pie`` in the value select for educational purposes, but you don't need to.
+
+Remember that this is just an example, you should feel free to create your own conditions an behaviours. Each chart can represent different variations of the data or use different colors.
 
 .. tip:: 
     It is better to give less options to the user than to show error messages.  In this example, the best procedure will be to disable the option ``pie`` on the value select.
@@ -167,18 +173,73 @@ Custom labels (x-axis)
 
 We will now look at a little special |ss| problem |se| feature of our charts: the x-axis. Our charts do not process the data on the x-axis. The data on the x-axis is treated as a label only and the data on the y-axis is assumed to be equally spaced. 
 
-This is generally a handicap, but it can be turned around as we can use strings as x-data.
-
-In the follow example we will take a look at this issue and how you would go about using strings as x-data to your advantage.
+This is generally a handicap, but it can be turned around by using strings as x-data.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph <https://bb.omnicalculator.com/#/calculators/1953>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (X-axis) <https://bb.omnicalculator.com/#/calculators/1970>`__ on BB
+
+In the follow example we will take a look at this issue and how you would go about using strings as x-data to your advantage. This time we have decide to show the snippets of the only part that changes with respect to the rest of the chart examples; this is the creation of data.
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines:
+    :emphasize-lines: 2-6, 42-46
 
-    
+    'use strict';
+    var numberWord = ['zero', 'one', 'two', 'three', 'four', 'five', 
+                'six', 'seven', 'eight', 'nine', 'ten', 
+                'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen',
+                'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'
+                ];
+    var aB = omni.createValueSelect({
+        y: {"name":"line","value":"0"},
+        yN:{"name":"area","value":"1"},
+        nY:{"name":"bar" ,"value":"2"},  
+    });
+    var xAxisVS = omni.createValueSelect({
+        y: {"name":"X-Value","value":"1"},
+        yN:{"name":"Fake","value":"0"},
+    });
+    omni.onInit(function(ctx){
+        ctx.bindValueSelect(aB, 'chartType');
+        ctx.setDefault('chartType', "0");
+        ctx.bindValueSelect(xAxisVS, 'xAxis');
+        ctx.setDefault('xAxis', "0");
+    });
+
+    omni.onResult(['a','b','offset','n'],function(ctx){
+    var chartData = [],
+        n = ctx.getNumberValue('n'),
+        a = ctx.getNumberValue('a'),
+        b = ctx.getNumberValue('b'),
+        offset = ctx.getNumberValue('offset'),
+        iterStep = mathjs.abs(a-b)/19,
+        chartType = ctx.getNumberValue('chartType'),
+        xAxis = ctx.getNumberValue('xAxis'),
+        i=0,
+        chartName = ['line', 'area', 'bar', 'pie'];
+    if(xAxis){ //x-value
+        for(i = a; i <= b; i++){ //~100 points
+            chartData.push([mathjs.format(i,2), // x
+                            mathjs.pow(i, n)+offset // y
+                            ]);
+        }
+    }
+    else{//Words 
+        for(i = a; i <= b; i++){ //~100 points
+            chartData.push([numberWord[i], // x
+                            mathjs.pow(i, n)+offset //y
+                            ]);
+        }
+    }
+    ctx.addChart({type: chartName[chartType],
+                  labels: ['x', 'y1'],
+                  data: chartData,
+                  title: "Chart",
+                  afterVariable: "",
+                  alwaysShown: false
+                });
+    });
+
 
 .. rubric:: Footnotes
 
