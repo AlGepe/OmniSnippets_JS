@@ -13,7 +13,7 @@ For our example we will use the same example equation as for the :ref:`chart exa
 
 .. code-block:: javascript
     :linenos:
-    :emphsize-lines: 13-15
+    :emphasize-lines: 13-15
     
     'use strict';
 
