@@ -13,8 +13,29 @@ For our example we will use the same example equation as for the :ref:`chart exa
 
 .. code-block:: javascript
     :linenos:
-    :emphsize-lines:
+    :emphsize-lines: 13-15
     
-    
-    
+    'use strict';
 
+    omni.onResult(['a','b','offset','n'],function(ctx){
+    var tableData = [],
+        n = ctx.getNumberValue('n'),
+        a = ctx.getNumberValue('a'),
+        b = ctx.getNumberValue('b'),
+        offset = ctx.getNumberValue('offset'),
+        runningSum = 0,
+        header = ['x','f(x)', 'sum'];
+        for(var i = a; i <= b; i++){
+        runningSum += mathjs.pow(i, n)+offset;
+        tableData.push([i, // x
+                        mathjs.pow(i, n)+offset, // f(x)
+                        runningSum // sum
+                        ]);
+        }
+    ctx.addTextInfo('Table of Values');
+    ctx.addTable(tableData, header);
+    });
+    
+As you can see this is a very simple procedure once you understand how to dynamically create data in an array, just like we did in the :ref:`Dynamic Charts<graphChart>` section. Just remember that tables should have a header input as an array of strings.
+
+The headers can be created statically (like in the example) or dynamically to adapt to user input.
