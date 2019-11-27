@@ -1,3 +1,11 @@
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
+
 .. _graphChart:
 Graphs and charts (Basics)
 ==========================
@@ -98,19 +106,61 @@ Let's look at the code now:
 The relevant lines have been highlighted, in them we first define an iteration step, based on number of steps we want, and then we use that iteration step in out ``for`` loop. Adding the *"or equal"* part of the condition in the loop and using ``nSteps-1`` guarantees we will have exactly the number of points we want.
 
 .. note:: 
-    In this calculator ``nStep`` can be changed by the user in *Advanced Mode* only so that we can easily interact with it. In most calculator this number will be hard-set by the calculatorian in the code.
+    In this calculator ``nStep`` can be changed by the user in *Advanced Mode* only so that we can easily interact with it. In most calculators this number will be hard-set by the calculatorian in the code.
 
-User defined chart type
------------------------
+A word on user defined chart type
+---------------------------------
 
 Another useful think in certain calculators could be letting the user decide what type of chart they prefer. This only works for  ``line``, ``area`` and ``bar`` charts, since ``pie`` charts use a different data format.
 
-It is important to make sure the data will be well represented no matter what type of chart the user chooses. On way to do this is to create a value select and change the format of the data accordingly.
+Let's take a look at an example:
 
-e will 
+.. code-block:: javascript
+    :linenos:
+    :emphasize-lines: 
 
-.. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph <https://bb.omnicalculator.com/#/calculators/1953>`__ on BB
+    'use strict';
+
+    var aB = omni.createValueSelect({
+        y: {"name":"line","value":"0"},
+        yN:{"name":"area","value":"1"},
+        nY:{"name":"bar" ,"value":"2"},  
+        n: {"name":"pie" ,"value":"4"}
+    });
+    omni.onInit(function(ctx){
+        ctx.bindValueSelect(aB, 'chartType');
+        ctx.setDefault('chartType', "0");
+    });
+
+    omni.onResult(['a','b','offset','n'],function(ctx){
+        var chartData = [],
+            n = ctx.getNumberValue('n'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b'),
+            offset = ctx.getNumberValue('offset'),
+            iterStep = mathjs.abs(a-b)/99,
+            chartType = ctx.getNumberValue('chartType'),
+            chartName = ['line', 'area', 'bar', 'pie'];
+        for(var i = a; i <= b; i += iterStep){
+            chartData.push([mathjs.format(i,2), // x
+                            mathjs.pow(i, n)+offset // y
+                          ]);
+        }
+        ctx.addChart({type: chartName[chartType],
+                      labels: ['x', 'y1'],
+                      data: chartData,
+                      title: "Chart",
+                      afterVariable: "",
+                      alwaysShown: false 
+                    });
+    });
+
+
+.. warning::
+    If you let the user select the type of chart, make sure the data will be in the correct format. In the example we have left the option ``pie`` in the value select, but you don't need to.
+
+.. tip:: 
+    It is better to give less options to the user than to show error messages.  In this example, the best procedure will be to disable the option ``pie`` on the value select.
 
 Custom labels (x-axis)
 ----------------------
@@ -124,8 +174,11 @@ In the follow example we will take a look at this issue and how you would go abo
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph <https://bb.omnicalculator.com/#/calculators/1953>`__ on BB
 
-.. tip::
-    If you are unsure about what type of chart suits your data better and people can't decide either, you can always set a value select to let the user decide. Simply set a Value Select for them to chose and react to the value as you need.
+.. code-block:: javascript
+    :linenos:
+    :emphasize-lines:
+
+    
 
 .. rubric:: Footnotes
 

@@ -122,7 +122,7 @@ text) it becomes more and more useful.
 Name Method
 -----------
 
-This method is very similar to the *Array method** in concept. The main difference is that in this method you need to do a bit more prep-work when uploading the pictures and in return you get a simpler code to write.
+This method is very similar to the *Array method* in concept. The main difference is that in this method you need to do a bit more prep-work when uploading the pictures and in return you get a simpler code to write.
 
 .. seealso::
     Check out the resulting calculator at `Dynamic Image (Name Method) <https://bb.omnicalculator.com/#/calculators/1951>`__ on BB
