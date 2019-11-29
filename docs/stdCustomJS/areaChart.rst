@@ -70,19 +70,6 @@ You can see here that the data is created inside a *for* loop in lines 12 to 17.
 .. tip::
     For operations more complicated it might be wise to create a function to perform the operations. It will make the code cleaner and easier to understand. You might also want to look up the :ref:`Advances uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
 
-Making a area chart
--------------------
-
-
-
-
-Making a bar chart
-------------------
-
-
-Making a pie chart
-------------------
-
 .. rubric:: Footnotes
 
 .. [#f1] The first position in an array is the position "**0**" (zero)
