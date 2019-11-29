@@ -9,7 +9,7 @@ Omni calculators only allow for numerical input [#f1]_, which simplifies the wor
 We will take a look at the factorial calculator to understand how we can check for interger only input, and show an error message if that would not be the case.
 
 .. seealso::
-    We can created a copy of the Factorial calculator for anyone to check out with any risks. Find it as the `Integer only Example <https://bb.omnicalculator.com/#/calculators/1975>`__ on BB
+    We can created a copy of the Factorial calculator for anyone to check out with any risks. Find it as the `Variable Requirements <https://bb.omnicalculator.com/#/calculators/1975>`__ on BB
 
 .. code-block:: javascript
     :linenos:

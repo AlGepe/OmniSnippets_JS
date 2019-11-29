@@ -60,6 +60,7 @@ Colours of the datasets
 
 Omni calculator doesn't support explicitly choosing colours for each of the datasets. The colours are assigned automatically from first to last dataset following their order in the input. The following chart represents the relation between position and colour.
 
+.. colorChart::
 .. figure:: OmniColors.png
    :scale: 80%
    :alt: list of colours available for Omni charts

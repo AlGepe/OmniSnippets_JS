@@ -39,8 +39,11 @@ Here we have the examples of the most basic options from customJS that are not j
     customMsg
     dynamicSH
     vSetterCustom
+    lineChart
+    areaChart
+    barChart
+    pieChart
     dynamicImg
-    graphChart
     dynamicTable
     customUnmet
 ..  mathFunctions
@@ -58,6 +61,7 @@ This are usages of customJS that go further to create effectively new functional
     varRequirement
     magicRows
     formatNumbers
+    graphChart
 
 .. _vSetterADV:
 Advance uses of value setter
