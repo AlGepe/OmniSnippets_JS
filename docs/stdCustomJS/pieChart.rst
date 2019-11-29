@@ -26,7 +26,7 @@ Our goal here is to create a pie chart that will showcase two different function
 We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **9** and **6** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (pie) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (pie) <https://bb.omnicalculator.com/#/calculators/1992>`__ on BB
 
 Code and comments
 -----------------
@@ -39,50 +39,21 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['a','b','offset','n'],function(ctx){
-    var chartData = [],
-        n1 = ctx.getNumberValue('n1'),
-        n2 = ctx.getNumberValue('n2'),
-        offset1 = ctx.getNumberValue('offset1'),
-        offset2 = ctx.getNumberValue('offset2'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b');
-    for(var i = a; i <= b; i++){
-        chartData.push([mathjs.format(i,2), // x-value
-                        ,,,,,               // blank data to match colors
-                        mathjs.pow(i, n2)+offset2, // yellow y-value
-                        ,,
-                        mathjs.pow(i, n1)+offset1 // first y-value
-                        ]);
-    }
-    ctx.addChart({type: 'line',
-                  labels: ['x',,,,,, 'y2',,, 'y1'],
-                  data: chartData,
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
-                });
+    omni.onResult(['tots'],function(ctx){
+        var chartData = [{name : 'Allegedly A', value: ctx.getNumberValue('a')},
+                         {name : 'Might be B' , value: ctx.getNumberValue('b')},
+                         {name : 'Perhaps C'  , value: ctx.getNumberValue('c')},
+                         {name : 'Maybe D'    , value: ctx.getNumberValue('d')}
+                         // {},{name:''},{name:'',value:''}
+                        ]; 
+        ctx.addChart({type: 'pie',
+                        data: chartData,
+                        title: "Chart",
+                        afterVariable: "",
+                        alwaysShown: false
+                    });
     });
-
-You can see here that the data is created inside a *for* loop in lines 12 to 17. Pay attention also to the empty spaces between data that allow us to get exactly the colour we want. Note that the labels need to match the position of the data in the array.
-
-
-.. tip::
-    For operations more complicated it might be wise to create a function to perform the operations. It will make the code cleaner and easier to understand. You might also want to look up the :ref:`Advances uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
-
-Making a area chart
--------------------
-
-
-
-
-Making a bar chart
-------------------
-
-
-Making a pie chart
-------------------
-
+    
 .. rubric:: Footnotes
 
 .. [#f1] The first position in an array is the position "**0**" (zero)
