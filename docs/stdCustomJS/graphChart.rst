@@ -10,6 +10,8 @@
 Graphs and charts (Basics)
 ==========================
 
+Red for negative values (bar chart)
+-----------------------------------
 
 
 Limit data size (Avoid computational slow-downs)

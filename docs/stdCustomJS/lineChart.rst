@@ -28,7 +28,7 @@ Our goal here is to create a line chart that will showcase two different functio
 We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **10** and **7** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (line) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (line) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB
 
 Code and comments
 -----------------
@@ -42,6 +42,7 @@ Let's look that the example code now:
     'use strict';
 
     omni.onResult(['a','b','offset1','n1','n2','offset2'],function(ctx){
+
     var chartData = [],
         n1 = ctx.getNumberValue('n1'),
         n2 = ctx.getNumberValue('n2'),

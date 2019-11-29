@@ -26,7 +26,7 @@ Our goal here is to create a area chart that will showcase two different functio
 We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **9** and **6** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (area) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB
 
 Code and comments
 -----------------
