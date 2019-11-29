@@ -1,4 +1,4 @@
-.. graphChartBasics::
+.. lineChart::
 How to create a line chart
 ==========================
 
@@ -6,18 +6,16 @@ We are now going to take a look at how to create a ``line`` chart, but this time
 
 When making a calculator the data normally has to be... calculated (surprising, right?) based on the input given by the user. Behind this calculation there is always a **function that depends on some parameters**, normally it's either *x* or *time*, but could be anything.
 
+To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' will be an array with the values we want to display.
+
 Practical example
 -----------------
 
 We first define the example function: ``f(x) = xⁿ + offset``. We will display the data from ``x = a`` to ``x = b``. The user will input two different values for ``n`` and ``offset`` giving us the chance to show several datasets in one graph.
 
-To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' will be an array with the values we want to display.
+Our goal here is to create a line chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
 
-
-Our goal here is to create a line chart that will showcase two different functions following the form we showed above. The user will define ``n`` and ``offset`` for each of our functions. 
-
-
-.. colorChart::
+.. lineChartIMG::
 .. figure:: lineChart.png
    :scale: 80%
    :alt: Example of line chart
@@ -37,7 +35,7 @@ Let's look that the example code now:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 9-13
+    :emphasize-lines: 13-18, 20, 21
 
     'use strict';
 
@@ -68,14 +66,14 @@ Let's look that the example code now:
     });
 
 
-You can see here that the data is created inside a *for* loop in lines 12 to 17. Pay attention also to the empty spaces between data that allow us to get exactly the colour we want. 
+You can see here that the data is created inside a *for* loop in lines 13-18. Pay attention also to the **empty spaces between data** that allow us to get exactly the colour we want. 
 
 .. warning::
-The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
+    The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
 
 
 .. tip::
-    For operations more complicated it might be wise to create a function to perform the operations. It will make the code cleaner and easier to understand. You might also want to look up the :ref:`Advances uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
+    For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
 
 .. rubric:: Footnotes
 
