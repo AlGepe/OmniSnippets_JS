@@ -38,11 +38,11 @@ Let's look that the example code now:
     'use strict';
 
     omni.onResult(['tots'],function(ctx){
-        var chartData = [{name: 'Allegedly A', value: ctx.getNumberValue('a')},
-                         {},{},{},{name:''},{},{},
-                         {name: 'Might be B' , value: ctx.getNumberValue('b')},
-                         {name: 'Perhaps C'  , value: ctx.getNumberValue('c')},
-                         {name: 'Maybe D'    , value: ctx.getNumberValue('d')},
+        var chartData = [{name: 'A-llegedly', value: ctx.getNumberValue('a')},
+                         //{},{},{},{name:''},{},{},
+                         {name: 'Might B' , value: ctx.getNumberValue('b')},
+                         {name: 'C-mingly'  , value: ctx.getNumberValue('c')},
+                         {name: 'D-niably'    , value: ctx.getNumberValue('d')},
                         ]; 
         ctx.addChart({type: 'pie',
                       data: chartData,
