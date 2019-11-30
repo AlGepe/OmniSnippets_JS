@@ -23,7 +23,7 @@ Our goal here is to create a bar chart that will show two different functions to
 
    Example of a bar chart with two user defined functions
 
-We have chosen the following colours for this chart: **blue** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
+We have chosen the following colours for this chart: **red2** (for ``n1`` and ``offset1``) and **blue** (for ``n2`` and ``offset2``) which corresponds to positions **11** and **1** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
 
 .. warning::
     The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
@@ -43,29 +43,28 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['a','b','offset','n'],function(ctx){
-    var chartData = [],
-        n1 = ctx.getNumberValue('n1'),
-        n2 = ctx.getNumberValue('n2'),
-        offset1 = ctx.getNumberValue('offset1'),
-        offset2 = ctx.getNumberValue('offset2'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b');
-    for(var i = a; i <= b; i++){
-        chartData.push([mathjs.format(i,2), // x-value
-                        ,,,,,               // blank data to match colors
-                        mathjs.pow(i, n2)+offset2, // yellow y-value
-                        ,,
-                        mathjs.pow(i, n1)+offset1 // first y-value
+    omni.onResult(['a','b','offset1','n1','n2','offset2'],function(ctx){
+        var chartData = [],
+            n1 = ctx.getNumberValue('n1'),
+            n2 = ctx.getNumberValue('n2'),
+            offset1 = ctx.getNumberValue('offset1'),
+            offset2 = ctx.getNumberValue('offset2'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b');
+        for(var i = a; i <= b; i++){
+            chartData.push([mathjs.format(i,2), // x-value
+                            mathjs.pow(i, n2)+offset2, // yellow y-value
+                            ,,,,,,,,,				  // black data to match color
+                            mathjs.pow(i, n1)+offset1 // first y-value
                         ]);
-    }
-    ctx.addChart({type: 'bar',
-                  labels: ['x',,,,,, 'y2',,, 'y1'],
-                  data: chartData,
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
-                });
+        }
+        ctx.addChart({type: 'bar',
+                        labels: ['x', 'y2',,,,,,,,,, 'y1'],
+                        data: chartData,
+                        title: "Chart",
+                        afterVariable: "",
+                        alwaysShown: false
+                    });
     });
 
 As you can see, there is little to now difference between making a basic ``bar`` chart and making a ``line`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
