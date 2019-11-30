@@ -136,7 +136,7 @@ The code for this example is rather long due to the setup process, so it will
 be omitted from the documentation. Instead, we will show you an image of what
 it would would like when using non-standard numerical values:
 
-.. xAxis::
+.. _xAxis:
 .. figure:: xAxis.png
     :scale: 80%
     :alt: Alternative values on X-axis

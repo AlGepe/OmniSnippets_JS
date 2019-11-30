@@ -1,4 +1,4 @@
-.. areaChart::
+.. _areaChart:
 How to create an area chart
 ===========================
 
@@ -15,7 +15,7 @@ We first define the example function: ``f(x) = xⁿ + offset``. We will display 
 
 Our goal here is to create a area chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
 
-.. areaChartIMG::
+.. _areaChartIMG:
 .. figure:: areaChart.png
    :scale: 80%
    :alt: Example of area chart
@@ -55,7 +55,6 @@ Let's look that the example code now:
                         mathjs.pow(i, n2)+offset2  // orange y-value
                     ]);
     }
-    
     ctx.addChart({type: 'area',
                     labels: ['x',, 'y2',,,,,, 'y1'],
                     data: chartData,
