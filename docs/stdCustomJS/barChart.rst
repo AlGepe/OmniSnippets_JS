@@ -1,4 +1,4 @@
-.. barChart::
+.. _barChart:
 How to create a bar chart
 =========================
 
@@ -15,7 +15,7 @@ We first define the example function: ``f(x) = xⁿ + offset``. We will display 
 
 Our goal here is to create a bar chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
 
-.. barChartIMG::
+.. _barChartIMG:
 .. figure:: barChart.png
    :scale: 80%
    :alt: Example of bar chart

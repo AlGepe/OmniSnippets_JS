@@ -1,4 +1,4 @@
-.. lineChart::
+.. _lineChart:
 How to create a line chart
 ==========================
 
@@ -15,7 +15,7 @@ We first define the example function: ``f(x) = xⁿ + offset``. We will display 
 
 Our goal here is to create a line chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
 
-.. lineChartIMG::
+.. _lineChartIMG:
 .. figure:: lineChart.png
    :scale: 80%
    :alt: Example of line chart

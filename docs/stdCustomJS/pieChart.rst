@@ -1,4 +1,4 @@
-.. pieChart::
+.. _pieChart:
 Hot to create a pie Chart
 =========================
 
@@ -15,7 +15,7 @@ For creating the data we will use a ``for`` loop and we will use the method ``pu
 
 Our goal here is to create a pie chart that will showcase two different functions following the form we showed above. The user will define ``n`` and ``offset`` for each of our functions. 
 
-.. colorChart::
+.. _pieChart:
 .. figure:: pieChart.png
    :scale: 80%
    :alt: list of colours available for Omni charts

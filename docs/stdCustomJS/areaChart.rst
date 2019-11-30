@@ -24,6 +24,9 @@ Our goal here is to create a area chart that will show two different functions t
    Example of a area chart with two user defined functions
 
 We have chosen the following colours for this chart: **blue2** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
+.. warning::
+    The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
+
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB
@@ -64,11 +67,12 @@ Let's look that the example code now:
                 });
     });
 
-
-
+As you can see, there is little to now difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
 
 .. warning::
-    The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
+    **WARNING**: *Stacking* option only works in very specific and simple scenarios. Before you use it we recommenc you check the section :ref:`Stacking is (mostly) broken<brokenStacking>`.
+
+The area chart is a very useful alternative to the ``bar`` chart for continuous values. It is also a very good way to show percentages over time as a kind of time-dependant ``pie`` chart.
 
 .. tip::
     For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
