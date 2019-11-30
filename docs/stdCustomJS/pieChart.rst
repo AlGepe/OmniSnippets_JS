@@ -35,7 +35,7 @@ Let's look that the example code now:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 9-13
+    :emphasize-lines: 4-9
 
     'use strict';
 
