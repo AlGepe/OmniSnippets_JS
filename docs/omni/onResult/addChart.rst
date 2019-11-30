@@ -180,6 +180,7 @@ Here is the respective example:
                           }],
                   });
 
+.. colorChart::                  
 .. figure:: OmniArea.png
     :scale: 80%
     :alt: Area graph

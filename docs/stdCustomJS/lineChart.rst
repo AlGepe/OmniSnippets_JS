@@ -51,9 +51,9 @@ Let's look that the example code now:
     for(var i = a; i <= b; i++){
         chartData.push([mathjs.format(i,2), // x-value
                         ,,,,,,              // blank data to match colors
-                        mathjs.pow(i, n2)+offset2, // yellow y-value
+                        mathjs.pow(i, n2)+offset2, // yellow2 y-value
                         ,,						  // black data to match color
-                        mathjs.pow(i, n1)+offset1 // first y-value
+                        mathjs.pow(i, n1)+offset1 // red y-value
                     ]);
     }
     ctx.addChart({type: 'line',

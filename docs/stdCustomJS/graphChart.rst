@@ -117,7 +117,7 @@ As you can see in the example above, the user is given a value select so that he
 .. warning::
     If you let the user select the type of chart, make sure the data will be in the correct format. In the example we have left the option ``pie`` in the value select for educational purposes, but you don't need to.
 
-Remember that this is just an example, you should feel free to create your own conditions an behaviours. Each chart can represent different variations of the data or use different colors.
+Remember that this is just an example, you should feel free to create your own conditions an behaviours. Each chart can represent different variations of the data or use different colours.
 
 .. tip:: 
     It is better to give less options to the user than to show error messages.  In this example, the best procedure will be to disable the option ``pie`` on the value select.
@@ -132,70 +132,22 @@ This is generally a handicap, but it can be turned around by using strings as x-
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (X-axis) <https://bb.omnicalculator.com/#/calculators/1970>`__ on BB
 
-In the follow example we will take a look at this issue and how you would go about using strings as x-data to your advantage. This time we have decide to show the snippets of the only part that changes with respect to the rest of the chart examples; this is the creation of data.
+The code for this example is rather long due to the setup process, so it will
+be omitted from the documentation. Instead, we will show you an image of what
+it would would like when using non-standard numerical values:
 
-.. code-block:: javascript
-    :linenos:
-    :emphasize-lines: 2-6, 42-46
+.. xAxis::
+.. figure:: xAxis.png
+    :scale: 80%
+    :alt: Alternative values on X-axis
+    :align: center
 
-    'use strict';
-    var numberWord = ['zero', 'one', 'two', 'three', 'four', 'five', 
-                'six', 'seven', 'eight', 'nine', 'ten', 
-                'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen',
-                'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'
-                ];
-    var aB = omni.createValueSelect({
-        y: {"name":"line","value":"0"},
-        yN:{"name":"area","value":"1"},
-        nY:{"name":"bar" ,"value":"2"},  
-    });
-    var xAxisVS = omni.createValueSelect({
-        y: {"name":"X-Value","value":"1"},
-        yN:{"name":"Fake","value":"0"},
-    });
-    omni.onInit(function(ctx){
-        ctx.bindValueSelect(aB, 'chartType');
-        ctx.setDefault('chartType', "0");
-        ctx.bindValueSelect(xAxisVS, 'xAxis');
-        ctx.setDefault('xAxis', "0");
-    });
+    Example of custom values for the x-axis
 
-    omni.onResult(['a','b','offset','n'],function(ctx){
-    var chartData = [],
-        n = ctx.getNumberValue('n'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b'),
-        offset = ctx.getNumberValue('offset'),
-        iterStep = mathjs.abs(a-b)/19,
-        chartType = ctx.getNumberValue('chartType'),
-        xAxis = ctx.getNumberValue('xAxis'),
-        i=0,
-        chartName = ['line', 'area', 'bar', 'pie'];
-    if(xAxis){ //x-value
-        for(i = a; i <= b; i++){ //~100 points
-            chartData.push([mathjs.format(i,2), // x
-                            mathjs.pow(i, n)+offset // y
-                            ]);
-        }
-    }
-    else{//Words 
-        for(i = a; i <= b; i++){ //~100 points
-            chartData.push([numberWord[i], // x
-                            mathjs.pow(i, n)+offset //y
-                            ]);
-        }
-    }
-    ctx.addChart({type: chartName[chartType],
-                  labels: ['x', 'y1'],
-                  data: chartData,
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
-                });
-    });
+This options can come in handy when trying to display time on the x-axis. You can use the functions in our repository to `Play with time <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code/PlayingWithTime>`__ formats and make your chart easier to understand. For example, instead of showing the years as a decimal number you can display also the name of the month.
 
-This options can come in handy when trying to display time on the x-axis. You can use the functions in our repositoty to `Play with time <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code/PlayingWithTime>`__ formats and make your chart easier to understad. For example, instead of showing the years as a decimal number you can display also the name of the month.
-
+Stack is broken (mostly) so make your own
+-----------------------------------------
 .. rubric:: Footnotes
 
 .. [#f1] The relationship is not necessarily linear. Tested on an Intel i5-3320M CPU @ 2.60GHz processor from 2012.

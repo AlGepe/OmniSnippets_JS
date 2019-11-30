@@ -23,7 +23,7 @@ Our goal here is to create a area chart that will show two different functions t
 
    Example of a area chart with two user defined functions
 
-We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **10** and **7** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section.
+We have chosen the following colours for this chart: **blue2** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB
@@ -39,30 +39,32 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['a','b','offset','n'],function(ctx){
+    omni.onResult(['a','b','offset1','n1','n2', 'offset2'],function(ctx){
     var chartData = [],
-        n1 = ctx.getNumberValue('n1'),
+        n1 = ctx.getNumberValue('n1'),        
         n2 = ctx.getNumberValue('n2'),
         offset1 = ctx.getNumberValue('offset1'),
         offset2 = ctx.getNumberValue('offset2'),
         a = ctx.getNumberValue('a'),
         b = ctx.getNumberValue('b');
-    for(var i = a; i <= b; i++){
-        chartData.push([mathjs.format(i,2), // x-value
-                        ,,,,,               // blank data to match colors
-                        mathjs.pow(i, n2)+offset2, // yellow y-value
-                        ,,
-                        mathjs.pow(i, n1)+offset1 // first y-value
-                        ]);
+    for(var i = a; i <= b; i+=0.5){
+        chartData.push([mathjs.round(i,2), // x-value
+                        ,              // blank data to match colors
+                        mathjs.pow(i, n1)+offset1, // blue2 y-value
+                        ,,,,,	 				   // black data to match color
+                        mathjs.pow(i, n2)+offset2  // orange y-value
+                    ]);
     }
+    
     ctx.addChart({type: 'area',
-                  labels: ['x',,,,,, 'y2',,, 'y1'],
-                  data: chartData,
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
+                    labels: ['x',, 'y2',,,,,, 'y1'],
+                    data: chartData,
+                    title: "Chart",
+                    afterVariable: "",
+                    alwaysShown: false
                 });
     });
+
 
 
 
