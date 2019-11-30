@@ -23,7 +23,10 @@ Our goal here is to create a bar chart that will show two different functions to
 
    Example of a bar chart with two user defined functions
 
-We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **10** and **7** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section.
+We have chosen the following colours for this chart: **blue** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
+
+.. warning::
+    The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
 
 
 .. seealso::
@@ -65,8 +68,12 @@ Let's look that the example code now:
                 });
     });
 
+As you can see, there is little to now difference between making a basic ``bar`` chart and making a ``line`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
+
 .. warning::
-    The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
+    **WARNING**: *Stacking* option only works in very specific and simple scenarios. Before you use it we recommenc you check the section :ref:`Stacking is (mostly) broken<brokenStacking>`.
+
+The ``bar`` chart is ideal for situations in which data is presented in chunks (a.k.a. discrete data). Financial calculators make the most use out of it to show monthly payments/earnings or any other kind of data where we are interested in the total value over a period of time rather than instantaneous values.
 
 .. tip::
     For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.

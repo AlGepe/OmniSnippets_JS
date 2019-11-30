@@ -24,6 +24,7 @@ Our goal here is to create a area chart that will show two different functions t
    Example of a area chart with two user defined functions
 
 We have chosen the following colours for this chart: **blue2** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
+
 .. warning::
     The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
 

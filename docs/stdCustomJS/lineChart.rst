@@ -71,6 +71,7 @@ You can see here that the data is created inside a *for* loop in lines 13-18. Pa
 .. warning::
     The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
 
+There is little to now difference between making a basic ``line`` chart and making a ``bar`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
 
 .. tip::
     For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.

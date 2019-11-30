@@ -150,8 +150,10 @@ it would would like when using non-standard numerical values:
 
 This options can come in handy when trying to display time on the x-axis. You can use the functions in our repository to `Play with time <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code/PlayingWithTime>`__ formats and make your chart easier to understand. For example, instead of showing the years as a decimal number you can display also the name of the month.
 
+.. _brokenStacking:
 Stack is broken (mostly) so make your own
 -----------------------------------------
+
 .. rubric:: Footnotes
 
 .. [#f1] The relationship is not necessarily linear. Tested on an Intel i5-3320M CPU @ 2.60GHz processor from 2012.
