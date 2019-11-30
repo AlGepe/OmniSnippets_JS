@@ -81,7 +81,7 @@ Let's take a look at an example:
     var aB = omni.createValueSelect({
         y: {"name":"line","value":"0"},
         yN:{"name":"area","value":"1"},
-        nY:{"name":"bar" ,"value":"2"},  
+        nY:{"name":"bar" ,"value":"2"},
         n: {"name":"pie" ,"value":"4"}
     });
     omni.onInit(function(ctx){
@@ -101,15 +101,19 @@ Let's take a look at an example:
         for(var i = a; i <= b; i += iterStep){
             chartData.push([mathjs.format(i,2), // x
                             mathjs.pow(i, n)+offset // y
-                          ]);
+                            ]);
+            }
+        if(chartType == 4){
+            ctx.addHtml('The <strike>CAKE</strike> pie is a lie');
+        }else{
+            ctx.addChart({type: chartName[chartType],
+                        labels: ['x', 'y1'],
+                        data: chartData,
+                        title: "Chart",
+                        afterVariable: "",
+                        alwaysShown: false
+                        });
         }
-        ctx.addChart({type: chartName[chartType],
-                      labels: ['x', 'y1'],
-                      data: chartData,
-                      title: "Chart",
-                      afterVariable: "",
-                      alwaysShown: false 
-                    });
     });
 
 As you can see in the example above, the user is given a value select so that he can chose which chart is best for the data. We have taken into account that ``pie`` option will give out an error and decided to show a message instead of letting the calculator crash.
