@@ -9,13 +9,11 @@ When making a calculator the data normally has to be... calculated (surprising, 
 Practical example
 -----------------
 
-We first need to look at our example function: ``f(x) = xⁿ + offset``. We will display the data from ``x = a`` to ``x = b``. The user will input two different values for ``n`` and ``offset`` giving us the chance to show several datasets in one graph. For ``bar`` and ``area`` charts we will also show the differences between stacking and not stacking datasets.
+The pie chart is a very different chart to ``bar``, ``area`` and ``line`` charts both in terms of the type of data it requires and in the way it displays such information. Pie charts don't show change over time (or any other variable) they simply represent graphically the proportionality between different variables. 
 
-For creating the data we will use a ``for`` loop and we will use the method ``push`` which adds a new entry at the end of an array. Our '*entry*' will be an array with the values we want to display.
+For our example we have 4 variables, whose value is set by the use directly. We then represent them in a pie chart where the total area of the circle (a.k.a.  circle) is the sum of all the variables. The area of each variable is proportional to its value.
 
-Our goal here is to create a pie chart that will showcase two different functions following the form we showed above. The user will define ``n`` and ``offset`` for each of our functions. 
-
-.. _pieChart:
+.. _pieChartIMG:
 .. figure:: pieChart.png
    :scale: 80%
    :alt: list of colours available for Omni charts
@@ -23,7 +21,7 @@ Our goal here is to create a pie chart that will showcase two different function
 
    Example of a pie chart with two user defined functions
 
-We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **9** and **6** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section
+Unfortunatelly we don't really get to chose colors in a ``pie`` chart, eventhough the possibility is technically there. We will see more after the example code.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (pie) <https://bb.omnicalculator.com/#/calculators/1992>`__ on BB
@@ -40,20 +38,28 @@ Let's look that the example code now:
     'use strict';
 
     omni.onResult(['tots'],function(ctx){
-        var chartData = [{name : 'Allegedly A', value: ctx.getNumberValue('a')},
-                         {name : 'Might be B' , value: ctx.getNumberValue('b')},
-                         {name : 'Perhaps C'  , value: ctx.getNumberValue('c')},
-                         {name : 'Maybe D'    , value: ctx.getNumberValue('d')}
-                         // {},{name:''},{name:'',value:''}
+        var chartData = [{name: 'Allegedly A', value: ctx.getNumberValue('a')},
+                         {},{},{},{name:''},{},{},
+                         {name: 'Might be B' , value: ctx.getNumberValue('b')},
+                         {name: 'Perhaps C'  , value: ctx.getNumberValue('c')},
+                         {name: 'Maybe D'    , value: ctx.getNumberValue('d')},
                         ]; 
         ctx.addChart({type: 'pie',
-                        data: chartData,
-                        title: "Chart",
-                        afterVariable: "",
-                        alwaysShown: false
+                      data: chartData,
+                      title: "Chart",
+                      afterVariable: "",
+                      alwaysShown: false
                     });
     });
     
-.. rubric:: Footnotes
+We have mentioned before the inability to select colours in a ``pie`` chart.  The reason for it is that when we create empty data, an entry gets added to the legend. So we have to chose between a legend that doesn't make sense or a fixed order of colours. We **do recommend** to settle for the later.
 
-.. [#f1] The first position in an array is the position "**0**" (zero)
+You can **see the effect** of empty values on both the legend and the colours
+of the chart by uncommenting line *5* in the calculator. Here is a preview:
+
+.. figure:: pieChartLegend.png
+   :scale: 80%
+   :alt: legend with custom colours
+   :align: center
+
+   Example of using custom colours on a pie chart
