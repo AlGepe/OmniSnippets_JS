@@ -46,7 +46,7 @@ Here we have the examples of the most basic options from customJS that are not j
     dynamicImg
     dynamicTable
     customUnmet
-..  mathFunctions
+..  eqMath
 
 
 .. _advCJS:
