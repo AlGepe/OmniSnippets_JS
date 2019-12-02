@@ -35,6 +35,7 @@ Rounding (output=> number)
 If we want to round our number but retain it's type, we can use ``mathjs.round``. For our example it would look like this:
 
 .. code-block:: javascript
+    
     var roundedNumber = mathjs.round(3.14159265, 4);
 
 where the second number specifies the number of decimal places we want. Other alternatives are ``mathjs.floor``, ``mathjs.ceil``, ``mathjs.fix``. You can learn more about them in the `math.js official documentation page <https://mathjs.org/docs/reference/functions#arithmetic-functions>`__
@@ -45,6 +46,7 @@ Formatting (output =>string)
 A similar behaviour can be achieve using the function ``mathjs.format`` with the only difference being that the output is now a string. Again the example would look like:
 
 .. code-block:: javascript
+    
     var roundedString = mathjs.format(3.14159265, 4);
 
 You can learn more about this function and its different options in the `math.js official documentation <https://mathjs.org/docs/reference/functions/format.html>`__
@@ -59,6 +61,7 @@ There are two main variants of padding: ``padStart`` and ``padEnd``. The both wo
 Let's look at the example:
 
 .. code-block:: javascript
+
     var numberAsString = '3.141592';
     ctx.addTextInfo(numberAsString.padStart(10, '0'));
 
