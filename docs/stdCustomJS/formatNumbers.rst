@@ -88,7 +88,7 @@ Here is the code:
     }
 
 Don't be afraid of the incomprehensible characters in succession. That is
-simple a **Re**gular **Ex**pression, which is a very powerful (and confusing at
+simple a **Re**\ gular **Ex**\ pression, which is a very powerful (and confusing at
 first) ways to define rules for pattern matching.
 
 To use it in your calculator simply paste this function either at the top or at
