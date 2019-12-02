@@ -71,7 +71,38 @@ This code will produce a message in the calculator showing: ``003.141592``
 
 .. seealso::
     Learn more about padding methods on the `Mozilla web docs <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart>`__ 
-
 Dot/Comma formatting
 --------------------
 
+For our last example we will take a look at how to format very long numbers so that instead of a continuous line of digits you will get block for 3 digits deparated by a character of your choice. In most of the world this separator tends to be the dot (``.``), while in the USA and other countries the comma (``,``) is used. A country-agnostic option could be to simple separate every 3 digits by a space, it is up to you.
+
+The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a function that takes two inputs: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator.
+
+Here is the code:
+
+.. code-block:: javascript
+
+    function numberWithCommas(x, separator) {
+        if(separator == undefined){separator = ',';}
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
+    }
+
+Don't be afraid of the incomprehensible characters in succession. That is
+simple a **Re**gular **Ex**pression, which is a very powerful (and confusing at
+first) ways to define rules for pattern matching.
+
+To use it in your calculator simply paste this function either at the top or at
+the bottom. When you need to format a number, simply call the function with the
+necessary parameters.
+
+To format the number stored in the variable ``number2Format`` using a space as
+separator you would use:
+
+.. code-block:: javascript
+    
+    numberWithCommas(number2Format, " ");
+
+Beware that the output is always a **string**, so always perform this action when you have finished all your arithmetic operations.  
+
+.. warning::
+    This function will also format the value after the decimal point. To avoid this you can simply use ``mathjs.round`` before hand to reduce to number of decimal places to three or less.

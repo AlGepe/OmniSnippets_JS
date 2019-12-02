@@ -26,9 +26,12 @@ How to be friends with other calculatorians
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Names of variables: camelCasing, no spaces, no numbers(at the begining), no hyphens
+
 dot notation vs bracket notation
+
 Quotes around keys => plsNope
 
+.. _ repository:
 Repository
 ~~~~~~~~~~
 
