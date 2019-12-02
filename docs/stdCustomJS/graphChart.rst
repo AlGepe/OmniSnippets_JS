@@ -151,10 +151,12 @@ it would would like when using non-standard numerical values:
 
 This options can come in handy when trying to display time on the x-axis. You can use the functions in our repository to `Play with time <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code/PlayingWithTime>`__ formats and make your chart easier to understand. For example, instead of showing the years as a decimal number you can display also the name of the month.
 
-Red for negative values (bar chart)
------------------------------------
+Red for negative values
+-----------------------
 
-A useful trick for ``bar`` charts, specially in finance, is to show negative values in red. For that, all we need to do is define the order in which the data is placed on the array according to its value. 
+A useful trick for charts is to show different parts of the data in different colours. It could show important or special parts of the data and can help with the visualisation since none of the charts show clearly what is the origin of coordinates.
+
+One way to apply this, specially useful in finance, is to show negative values in red. For that, all we need to do is define the order in which the data is placed on the array according to its value. 
 
 .. _redNegIMG:
 .. figure:: redNeg.png
@@ -216,14 +218,20 @@ One of the downsides of this method are the fact that the bars are half as wide 
 This can be performed with any type of chart (except ``pie``). It has been exemplified in a ``bar`` chart since this is the best fit.
 
 .. _brokenStacking:
-Stack is broken (mostly) so make your own
------------------------------------------
+Stack a.k.a. playing Jenga in customJS
+--------------------------------------
+
+.. rubric:: 
+    NOT BROKEN, JUST THE SAME AS WITH PIE CHART => SIMILAR COLOURS || BROKEN
+    LEGEND (pick your poison)
 
 Let's get this out of the way: **Stacking actually works but only in a very limited number of cases**. Is this limitation that makes it effectively broken for most intents and purposes.
 
 Allow me to explain. *Stacking* is an option available in customJS charts that allows you to stack one dataset on top of another. This is very useful when you have several datasets that are general added together (like different types of revenue over time).
 
-This work only for datasets stored concurrently in the array of data and works only in one direction.  
+This work only for datasets stored concurrently in the array of data and works only in one direction. == **TRUE** ==
+
+Breaks when summing 
 
 
 
