@@ -2,7 +2,7 @@
 Magic Rows (Advanced show/hide)
 ===============================
 
-Now is time to take a look at the **Magic Rows**. This is the name we have given to having many fields that (_magically_) appear as you fill in the previous one.
+Now is time to take a look at the **Magic Rows**. This is the name we have given to having many fields that (*magically*) appear as you fill in the previous one.
 
 The idea behind the magic rows is that we allow the user to input a fairly big ammount of data, but keep the calculator simple and short on first load, showing fields only as the user needs them.
 
@@ -56,18 +56,31 @@ We have compiled a short list to showcase some implementations of **magic rows**
 .. warning::
     This are real calculator that are published and publicaly available to anyone only. Make sure you don't do any changes and **never save** if you modify anything. Our suggestion is that you copy the code or clone the calculator before you start tinkering.
 
-BAC (Marysia [#f1]_)
-~~~~~~~~~~~~~~~~~~~~
-
-.. seealso::
-    Check it out at `Magic Rows <https://bb.omnicalculator.com/#/calculators/260>`__ on BB
-
 Average (Mateusz's example)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This is **OG** calculator of the magic rows. It has up to 30 different input values. By default the calculator will only show 8 fields, but will display more as the user fills in bottom on.
+
+This calculator only hides variables once, so even if the user deleted all the values, it will not hide any of the fields that it dynamically showed.
 
 .. seealso::
     Check it out at `Average <https://bb.omnicalculator.com/#/calculators/265>`__ on BB
 
+To avoid problems with ``undefined`` values, the calculator checks the value of each variable during operation and only takes into account numerical values.
+
+BAC (Marysia [#f1]_)
+~~~~~~~~~~~~~~~~~~~~
+
+In this case the variables behave in a very similar manner to the *Average* example. The can be shown but they don't automatically get hidden.
+
+The in this one is messy and not the best example to copy [#f2]_ but it exemplifies how to create magic rows with default values present.
+
+.. seealso::
+    Check it out at `Magic Rows <https://bb.omnicalculator.com/#/calculators/260>`__ on BB
+
+To allow for easy processing of the data and graphical representation, in this calculator all the hidden variables have a default value 0 (zero). The new fields only appear as the previous variable gets a value different than zero.
+
 .. rubric:: Footnote
 
-.. [#f1] With help from Alvaro
+.. [#f1] With some help from Alvaro
+.. [#f2] Full blame to Alvaro here
