@@ -15,6 +15,11 @@ Improve your chart game
 
 For an easier life
 ------------------
+Ternary operator to define versions of strings in one command
+
+Use sqrt(x^2) instead of abs(2)
+
+
 
 .. _bestpractices:
 How to be friends with other calculatorians
@@ -42,6 +47,7 @@ Debug procedure
 .. _testing:
 Testing precedure
 ~~~~~~~~~~~~~~~~~
+
 
 
 .. _strangeVars:
