@@ -10,6 +10,11 @@
 Graphs and charts (Extra)
 ==========================
 
+It is now time to take a look at some more advanced ways to use the ``addChart`` function. In this section we will cover a couple common ways to get more functionality out of charts as well as tackle some issues that can arise when using them.  
+
+.. toctree::
+    graphChart.rst
+
 Limit data size (Avoid computational slow-downs)
 ------------------------------------------------
 
