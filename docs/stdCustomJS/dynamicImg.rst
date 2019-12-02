@@ -53,7 +53,7 @@ This method is ideal for value selects and value setters with custom ``uid``.  I
         ctx.hideVariables('top');
         var imgs = ["summer.png",
                     "xmas.jpg",
-                    "summerChristmas.jpg"
+                    "xmasSummer.jpg"
                     ];
         ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_"+
                     imgs[ctx.getNumberValue('selection')]+">",
@@ -91,27 +91,17 @@ We have included a couple tricks so that you write less text when using this met
         // Image at the bottom - based on result
         var result = ctx.getNumberValue('a');
         var htmlStart = "<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_",
-            htmlEnd   = ">";
-        if(result < 0){
-            ctx.addHtml(htmlStart+
-                        "positive.png"+
-                        htmlEnd
-                    );
+            htmlEnd = ">";
+        if(result > 0){
+            ctx.addHtml(htmlStart+ "positive.png"+ htmlEnd);
         }
-        else if(result > 0){
-            ctx.addHtml(htmlStart+
-                        "negative.jpg"+
-                        htmlEnd
-                    );
+        else if(result < 0){
+            ctx.addHtml(htmlStart+ "negative.jpg"+ htmlEnd);
         }
         else if(result === 0){
-            ctx.addHtml(htmlStart+
-                        "neutral.jpeg"+
-                        htmlEnd
-                    );
+            ctx.addHtml(htmlStart+ "neutral.jpeg"+ htmlEnd);
         }
     });
-
 
 This is a more flexible method since it allows for more convoluted conditions and relations between the value of the relevant variable and the output image.
 
