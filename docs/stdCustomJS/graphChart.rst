@@ -138,7 +138,7 @@ it would would like when using non-standard numerical values:
 
 .. _xAxis:
 .. figure:: xAxis.png
-    :scale: 80%
+    :scale: 70%
     :alt: Alternative values on X-axis
     :align: center
 
@@ -153,7 +153,7 @@ A useful trick for ``bar`` charts, specially in finance, is to show negative val
 
 .. _redNegIMG:
 .. figure:: redNeg.png
-   :scale: 80%
+   :scale: 70%
    :alt: Example of multicolour bar chart
    :align: center
 
