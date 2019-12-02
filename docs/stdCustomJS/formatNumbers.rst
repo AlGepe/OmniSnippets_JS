@@ -17,6 +17,8 @@ A *string* is a variable representing text, that means that it can be concatenat
 
 A *number* is a variable representing a numerical value. It cannot be concatenated but it can be added, subtracted, multiplied... We cannot change its appearance, all we can do is change it's value (and precision).
 
+.. tip::
+    If in doubt, you can always use ``typeof`` in customJS to check which type of variable you are working with.
 We have to keep this in mind because once a *number* has been formatted as a *string*, you cannot perform arithmetic operations on it unless you convert it back to a *number*. 
 
 For this reason we will specify clearly in each example what type of output
