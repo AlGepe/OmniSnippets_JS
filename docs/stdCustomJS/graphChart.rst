@@ -225,15 +225,138 @@ Stack a.k.a. playing Jenga in customJS
     NOT BROKEN, JUST THE SAME AS WITH PIE CHART => SIMILAR COLOURS || BROKEN
     LEGEND (pick your poison)
 
-Let's get this out of the way: **Stacking actually works but only in a very limited number of cases**. Is this limitation that makes it effectively broken for most intents and purposes.
+When it comes to the ``stacks`` option, it is finicky at best. It is very similar to playing *Jenga* you can technically do anything, and there are tons of possibilities on what you can do... But realistically you're going to take the piece that is loose and put it on top in the safest way possible 
 
-Allow me to explain. *Stacking* is an option available in customJS charts that allows you to stack one dataset on top of another. This is very useful when you have several datasets that are general added together (like different types of revenue over time).
+With *stacking* you face the same situation, you will only use it in a very specific situation. Stacking requires at least 2 datasets. What this option does is take the first dataset and using it as the 0-level for the second dataset effectively showing the sum of both. In other words: *it stacks the data sets on top of each other*.
 
-This work only for datasets stored concurrently in the array of data and works only in one direction. == **TRUE** ==
+The problems can appear when we want to do something fancy instead of *stacking* 2 variables places in the first two positions in the array. Allow me to explain by taking a look at some scenarios:
 
-Breaks when summing 
+.. rubric:: Consecutive data stacked on top of each other (Works)
+
+Let's look at a fully working example first:
+
+.. code-block:: javascript
+    :linenos:
+
+    'use strict';
+
+    omni.onResult(['a','b','offset1'],function(ctx){
+    var chartData = [],
+        offset1 = ctx.getNumberValue('offset1'),
+        a = ctx.getNumberValue('a'),
+        b = ctx.getNumberValue('b'),
+        onePoint =[],
+        y1, y2, y3,
+        nSteps = 50,
+        iterStep = mathjs.abs(a-b)/(nSteps-1);
+    for(var i = a; i <= b; i += iterStep){  
+        y1 = mathjs.round(mathjs.sin(i)+offset1, 2);
+        y2 = mathjs.round(mathjs.cos(i)*i/5+offset1, 2);
+        y3 = mathjs.round(mathjs.tan(mathjs.sin(i+2))+offset1, 2);
+        onePoint = [mathjs.format(i,2), y1, y2, y3];
+        chartData.push(onePoint);
+    }
+    ctx.addChart({type: 'area',
+                  labels: ['x','y1','y2','y3'],
+                  data: chartData,
+                  stacks: [{columns : [1,2,3] ,sumLabel: "Sum of Bars"}],
+                  title: "Chart",
+                  afterVariable: "",
+                  alwaysShown: false
+                });
+    });
+
+In this example the dataset ``y3`` is stack on top of ``y2`` which is also stack on top of ``y1``. The scenario works without a problem and the only concern here should be order of datasets.  
+
+The stacking order is given by the position in the ``chartData`` array and not in the ``column`` options. Also note that if the sum of the stacking variables is 0 (zero) you will still see data from the first dataset, but not from the second one.
+
+.. rubric:: Data stacked with contrasting colours (Doesn't work)
+
+We will show only the part of the code that differs from the previous example:
+
+.. code-block:: javascript
+    :lineno-start: 15
+    
+    [..]
+        onePoint = [mathjs.format(i,2), y1,,,,,, y2,,, y3];
+        chartData.push(onePoint);
+    }
+    ctx.addChart({type: 'area',
+                  labels: ['x','y1',,,,,,'y2',,,'y3'],
+                  data: chartData,
+                  stacks: [{columns : [1,7,10] ,sumLabel: "Sum of Bars"}],
+                    [..]
+
+This is an example of what you might try at first if you want to have stacked
+datasets in totally different colours. However, having empty data causes an
+error. 
+
+This is a tricky error since the data is shown without at problem, but the
+chart crashes the calculator the moment you try to hover the mouse over it.
+
+This fatal error makes this trick unusable
+
+A workaround would be to fill the rest of the positions in the array with
+meaningless data, with the value 0 (zero) for example. To do that you'd use
+code like this:
+
+.. code-block:: javascript
+    :lineno-start: 15
+    
+    [..]
+        onePoint = [mathjs.format(i,2), y1,0,0,0,0,0, y2,0,0, y3];
+        chartData.push(onePoint);
+    }
+    ctx.addChart({type: 'area',
+                  labels: ['x','y1',' ',' ',' ',' ',' ','y2',' ',' ','y3'],
+                  data: chartData,
+                  stacks: [{columns : [1,7,10] ,sumLabel: "Sum of Bars"}],
+                    [..]
+
+However, just like with the :ref:`pie Chart<pieChart>` the legend will show all
+the empty colour options and hovering your mouse will bring up a list of mostly
+0-value data. 
 
 
+.. rubric:: The workaround that works (around)
+
+Here is an example of how you can make your own stacked charts without using
+the ``stacks`` option.
+
+.. code-block:: javascript
+    :linenos:
+
+    'use strict';
+
+    omni.onResult(['a','b','offset1'],function(ctx){
+    var chartData = [],
+        offset1 = ctx.getNumberValue('offset1'),
+        a = ctx.getNumberValue('a'),
+        b = ctx.getNumberValue('b'),
+        onePoint =[],
+        y1, y2, y3,
+        nSteps = 50,
+        iterStep = mathjs.abs(a-b)/(nSteps-1);
+    for(var i = a; i <= b; i += iterStep){  
+      y3 = mathjs.round(mathjs.tan(mathjs.sin(i+2))+offset1, 2)/3;
+      y2 = mathjs.round(mathjs.cos(i)*i/5+offset1, 2);
+      onePoint = [mathjs.format(i,2),, y2, y3];
+      onePoint = [mathjs.format(i,2),,y2,,,,,,y2+y3,,, y3];
+      chartData.push(onePoint);
+    }
+    ctx.addChart({type: 'area',
+                  labels: ['x',,'y2',,,,,,'y2+y3',,,'y3'],
+                  data: chartData,
+                  title: "Chart",
+                  afterVariable: "",
+                  alwaysShown: false
+                });
+    });
+
+Using this trick we have been able to combine ``y2`` in blue and ``y3`` in dark red to create ``y2+y3`` in orange. The only downside being that for a ``bar`` chart this trick doesn't really stack the datasets but rather create a new bar that is the sum of both. I guess nothing is perfect in this world
+
+.. tip::
+    If you want to do stacking in a ``line`` chart use this trick.
 
 .. rubric:: Footnotes
 
