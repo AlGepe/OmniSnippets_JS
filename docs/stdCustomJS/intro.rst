@@ -62,6 +62,7 @@ This are usages of customJS that go further to create effectively new functional
     magicRows
     formatNumbers
     graphChart
+    stackChart
 
 .. _vSetterADV:
 Advance uses of value setter
