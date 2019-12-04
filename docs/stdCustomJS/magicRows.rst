@@ -25,26 +25,35 @@ Here is the code used in the calculator:
     
     'use strict';
     // Configuration
-    var startNumber = 0,
+    var firstNumber = 0,
         nVariables = 10,
-        endNumber = startNumber+nVariables-2,
+        defaultShown = 2,
+        endNumber = firstNumber+nVariables-1,
         prefix = 'a';
 
     omni.onResult([], function(ctx){ 
-        for(var i = endNumber; i >= startNumber;i--){
-            if(ctx.getNumberValue(prefix+i) === undefined &&
-                ctx.getNumberValue(prefix+(i+1)) === undefined)
+        var i,
+            stopHiding = false,
+            displayed = defaultShown;
+        // Hide all variables you might hide (standard protocol)
+        for(i = firstNumber+defaultShown; i <= endNumber;i++){
+            ctx.hideVariables(prefix+i);
+        }
+        // Show if any previous value is not undefined
+        for(i = endNumber; i >= firstNumber+defaultShown;i--){
+            if(ctx.getNumberValue(prefix+(i-1)) !== undefined || stopHiding)
             {
-                ctx.hideVariables(prefix+(i+1));
-            }else{
-                ctx.showVariables(prefix+(i+1));
-                break;
+                displayed++; 
+                ctx.showVariables(prefix+(i));
+                stopHiding = true;
             }
         }
-        ctx.addHtml("Number of `magic variables` displayed: "+(i-startNumber+2));
+        ctx.addHtml("Number of `magic variables` displayed: "+(displayed));
     });
 
 This version of the **magic rows** is basically a drop-in addition to your calculator. If you want exactly this behaviour you can simply copy and paste the code into your calculator and just change the configuration values according to your needs.
+
+This code is also compliant with the official recommendation of hiding all variables at the begining and later show them according to your needs.
 
 Feel free to edit the code to get a different behaviour. If you're not sure what is possible or how to do it, let's explore some Real World™ examples.
 

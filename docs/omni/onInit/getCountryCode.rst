@@ -17,3 +17,6 @@ Usage example:
     });
 
 In this example the return value of the function has been stored in a variable that's created outside of the ``onInit`` function. This way we ensure the variable doesn't go out of scope so that we could use it later in our code.
+
+.. note::
+    Location detection is not run while in BB so in the example above ``country`` will be ``undefined`` until you open the calculator on the omnicalculator page.
