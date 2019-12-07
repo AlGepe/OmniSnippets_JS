@@ -73,8 +73,9 @@ Value Setters are very powerful objects, and as such, they pack a ton of possibi
 .. toctree::
     :maxdepth: 1
 
+    vSetterOrSelect
     dynamicVsetter
     nestedVsetter
     customVsetter
 
-.. [#f1] Is that a nice click-bait, or is it no? ;)
+.. [#f1] That is a nice click-bait, is it not? ;)

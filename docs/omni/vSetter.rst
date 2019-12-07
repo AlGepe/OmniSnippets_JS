@@ -84,7 +84,7 @@ Let's take a look at an example [#f2]_ in which we create a value setter that wi
 
 .. code-block:: javascript
 
-    var colorDATA = [{"name":"Red",   "uid":"10","values":{"rest_wavelength":720E-9}},
+    var colorVS = [{"name":"Red",   "uid":"10","values":{"rest_wavelength":720E-9}},
                      {"name":"orange","uid":"11","values":{"rest_wavelength":610E-9}},
                      {"name":"yellow","uid":"12","values":{"rest_wavelength":580E-9}},
                      {"name":"green", "uid":"13","values":{"rest_wavelength":550E-9}},
@@ -92,7 +92,7 @@ Let's take a look at an example [#f2]_ in which we create a value setter that wi
                      {"name":"violet","uid":"15","values":{"rest_wavelength":400E-9}},
                      {"name":"Custom","uid":"0", "values":{}}
                     ];
-    omni.createValueSetter('color', colorDATA, {defaultUid :"11"});
+    omni.createValueSetter('color', colorVS, {defaultUid :"11"});
 
 This example also shows a feature of the value setter: the values of each option don't need to be the same, they can act of different variables of even be empty.  
 
