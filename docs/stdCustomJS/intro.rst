@@ -65,8 +65,8 @@ This are usages of customJS that go further to create effectively new functional
     stackChart
 
 .. _vSetterADV:
-Advance uses of value setter
-----------------------------
+Value Setter/Select
+-------------------
 
 Value Setters are very powerful objects, and as such, they pack a ton of possibilities. In these examples we will see how to make the most out of the value setter to simplify our customJS and make the life of our visitors easier.
 
