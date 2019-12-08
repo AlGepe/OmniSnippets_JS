@@ -41,8 +41,8 @@ Let's look that the example code now:
         var chartData = [{name: 'A-llegedly', value: ctx.getNumberValue('a')},
                          //{},{},{},{name:''},{},{},
                          {name: 'Might B' , value: ctx.getNumberValue('b')},
-                         {name: 'C-mingly'  , value: ctx.getNumberValue('c')},
-                         {name: 'D-niably'    , value: ctx.getNumberValue('d')},
+                         {name: 'C-mingly', value: ctx.getNumberValue('c')},
+                         {name: 'D-niably', value: ctx.getNumberValue('d')},
                         ]; 
         ctx.addChart({type: 'pie',
                       data: chartData,
