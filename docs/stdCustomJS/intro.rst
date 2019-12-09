@@ -76,6 +76,7 @@ Value Setters are very powerful objects, and as such, they pack a ton of possibi
     vSetterOrSelect
     dynamicVsetter
     nestedVsetter
+    hideShowVS
 ..  customVsetter
 
 
