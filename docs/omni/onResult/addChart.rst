@@ -11,14 +11,14 @@ This function allows you to create and display a graph that dynamically shows mu
 
 .. code-block:: javascript
 
-	ctx.addChart({type: chartType,
-				  data: chartData,
-				  labels: dataLabels,
-				  title: chartTitle,
-				  stacks: stackVars,
-				  afterVariable: myVar,
-				  alwaysShown: aBool
-				});
+    ctx.addChart({type: chartType,
+                  data: chartData,
+                  labels: dataLabels,
+                  title: chartTitle,
+                  stacks: stackVars,
+                  afterVariable: myVar,
+                  alwaysShown: aBool
+                });
 
 .. warning::
 
@@ -60,6 +60,7 @@ Colours of the datasets
 
 Omni calculator doesn't support explicitly choosing colours for each of the datasets. The colours are assigned automatically from first to last dataset following their order in the input. The following chart represents the relation between position and colour.
 
+.. _colorChart:
 .. figure:: OmniColors.png
    :scale: 80%
    :alt: list of colours available for Omni charts
@@ -103,6 +104,7 @@ Here is an example of how ``chartData`` has to be created for this chart.
                   title: "Line Chart",
                   });
 
+.. _omniChartLine:
 .. figure:: OmniLine.png
     :scale: 80%
     :alt: Line graph
@@ -142,7 +144,7 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
                   alwaysShown: false
                 });
 
-
+.. _omniChartBar:
 .. figure:: OmniBar.png
     :scale: 80%
     :alt: Bar graph
@@ -179,6 +181,7 @@ Here is the respective example:
                           }],
                   });
 
+.. _omniChartArea:                  
 .. figure:: OmniArea.png
     :scale: 80%
     :alt: Area graph
@@ -212,6 +215,7 @@ Here is an example of how ``chartData`` has to be created for this chart.
                   alwaysShown: false
                 });
 
+.. _omniChartPie:
 .. figure:: OmniPie.png
     :scale: 80%
     :alt: Pie graph

@@ -39,5 +39,7 @@ Arrays
 Functions
 ~~~~~~~~~
 
+.. warning:: scope
+
 Methods
 ~~~~~~~

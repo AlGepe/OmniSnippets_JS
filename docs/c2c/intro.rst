@@ -5,37 +5,71 @@ From Calculatorian to Calculatorian (tips and tricks)
 For creating better calculators
 -------------------------------
 
-.. _multidimArray:
-Arrays: More data, less hassle
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    .. _multidimArray:
+    Arrays: More data, less hassle
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _chartTips:
-Improve your chart game
-~~~~~~~~~~~~~~~~~~~~~~~
+    .. _chartTips:
+    Improve your chart game
+    ~~~~~~~~~~~~~~~~~~~~~~~
+
+    .. _customUid:
+    Better usage of Valus Setters
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 For an easier life
 ------------------
 
-.. _bestpractices:
-How to be friends with other calculatorians
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Use sqrt(x^2) instead of abs(2)
 
-Repository
-~~~~~~~~~~
+    .. _bestpractices:
+    How to be friends with other calculatorians
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. _debug:
+Names of variables: camelCasing, no spaces, no numbers(at the begining), no hyphens
+
+dot notation vs bracket notation
+
+Quotes around keys => plsNope
+
+    .. _ repository:
+    Repository
+    ~~~~~~~~~~
+
+    .. _betterConditions:
+    Improving your working conditions (if, while...)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Ternary operator to define versions of strings in one command
+
+implicit conditions: (a || b)
+
+isNaN vs Number.isNaN vs == null/undefined/NaN (mention)
+
+
+.. _mistakes:
 Mistakes, is not an **if**, it's a **when**
 -------------------------------------------
 
-.. _strangeVars:
-Stranger values you'll encounter in customJS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    .. _debug:
+    Debug procedure
+    ~~~~~~~~~~~~~~~
 
-.. _ErrVarValues:
-Why TF do I get errors when using variable values?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    .. _testing:
+    Testing precedure
+    ~~~~~~~~~~~~~~~~~
 
-.. _specialops:
+
+    .. _strangeVars:
+    Stranger values you'll encounter in customJS
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    .. _ErrVarValues:
+    Why TF do I get errors when using variable values?
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+isNaN vs Number.isNaN vs == null/undefined/NaN (explanation)
+stranger values + conditions == Magic (good or bad is your choice)
+
+.. _specialOps:
 Don't do unless in peril
 ------------------------
 
