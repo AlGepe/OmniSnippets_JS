@@ -12,8 +12,8 @@ The image can be positioned anywhere in the calculator by setting the correct
 your image to appear on top of the calculator, and for that we have a special
 section. 
 
-We have also made a small list of **html tags** that are useful (or compulsory)
-when adding an image and the bottom of this page. 
+We have also made a small list of **html attributes** that are useful (or compulsory)
+when adding an image (at the bottom of this page). 
 
 For now, let's start with the most simple example of how to include an image to
 your calculator anywhere, or almost anywhere.
@@ -21,10 +21,10 @@ your calculator anywhere, or almost anywhere.
 Code and example (Image anywhere)
 ---------------------------------
 
-Let's start first with the most simple example possible: showing an image somewhere (anywhere in the calculator). Typically you would want to do this to separate different sections of the calculator, to show some results in a graphical way or to explain with a picture what some of the variables mean.
+Let's start first with the most simple example possible: **showing an image somewhere** (anywhere in the calculator). Typically you would want to do this to separate different sections of the calculator, to show some results in a graphical way or to explain with a picture what some of the variables mean.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Images (Basic Top) <https://bb.omnicalculator.com/#/calculators/2034>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Images (Basic) <https://bb.omnicalculator.com/#/calculators/2034>`__ on BB
 
 Here is the code you need for you images to be shown on top of the calculator:
 
@@ -50,7 +50,7 @@ To show the image after a certain variable, simply uncomment line *5* on the exa
 Code and example (Image on top)
 ---------------------------------
 
-You might still be wondering how to place an image on top, since we only have the option to place pictures **after** a variable. Don't fret! There is a simple trick, that makes use of the :ref:`hide/show variables<dynamicSH>` function available inside the context ``onResult``.
+You might still be wondering how to place an image on top, since we only have the option to place pictures **after** a variable. **Don't fret!** There is a simple trick, that makes use of the :ref:`hide/show variables<dynamicSH>` function available inside the context ``onResult``.
 
 
 .. seealso::
@@ -71,6 +71,23 @@ Here is the code you need for you images to be shown on top of the calculator:
                    ); 
     });
 
-As you can see the code for showing an image on top almost the same as to have an image in any other place in the calculator. The only trick is to place a *ghost* variable on top, hide it and set the image to appear after it.
+As you can see the code for showing an image on top almost the same as to have an image in any other place in the calculator. The only trick is to place a *ghost* variable on top, **hide it and set the image to appear after it**.
 
-Thighs kind of image placement is very useful in calculators that might benefit from a graphical representation, like maths and geometry calculators.  
+This kind of image placement is very useful in calculators that might benefit from a graphical representation, like maths and geometry calculators.  
+
+Useful Html attributes for images
+---------------------------------
+
+When using ``addHtml`` to insert an image in your calculator you need to use the ``img`` tag. To define the properties of the image you can use certain attributes inside that tag. Here is a short list of the most common ones, ``src`` and ``alt`` are **compulsory** so don't forget about them.
+
+#. ``src`` : Location of the file (URL) **Compulsory**
+#. ``alt`` : Alternative text for the picture **Compulsory**
+#. ``width`` : Width of the image, preferably as a percentage. The height is
+   adjusted automatically.
+#. ``align`` : Position of the image, options are: ``left``, ``right``, ``middle``, ``top`` and ``bottom``
+
+Here is an example of the code of an image that uses all the attributes:
+
+.. code-block:: html
+    <img alt='decription of the img' width='75%' align='middle' src='https://uploads-cdn.omnicalculator.com/images/Al_docs_Summer.png'>
+

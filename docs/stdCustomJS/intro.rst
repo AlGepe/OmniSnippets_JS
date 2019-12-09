@@ -38,7 +38,6 @@ Here we have the examples of the most basic options from customJS that are not j
 
     customMsg
     dynamicSH
-    vSetterCustom
     lineChart
     areaChart
     barChart
@@ -46,7 +45,9 @@ Here we have the examples of the most basic options from customJS that are not j
     imgBasic
     dynamicTable
     customUnmet
+
 ..  eqMath
+..  vSetterCustom
 
 
 .. _advCJS:
@@ -65,6 +66,7 @@ This are usages of customJS that go further to create effectively new functional
     graphChart
     stackChart
 
+
 .. _vSetterADV:
 Value Setter/Select
 -------------------
@@ -75,9 +77,9 @@ Value Setters are very powerful objects, and as such, they pack a ton of possibi
     :maxdepth: 1
 
     vSetterOrSelect
+    hideShowVS
     dynamicVsetter
     nestedVsetter
-    hideShowVS
 ..  customVsetter
 
 

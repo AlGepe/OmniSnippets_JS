@@ -6,7 +6,7 @@ We are now going to take a look at how to create a ``line`` chart, but this time
 
 When making a calculator the data normally has to be... calculated (surprising, right?) based on the input given by the user. Behind this calculation there is always a **function that depends on some parameters**, normally it's either *x* or *time*, but could be anything.
 
-To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' will be an array with the values we want to display.
+To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' represents a point and is an array with the values we want to display.
 
 Practical example
 -----------------
@@ -71,7 +71,7 @@ You can see here that the data is created inside a *for* loop in lines 13-18. Pa
 .. warning::
     The position of the labels need to match the position of the data in the array, otherwise the data will not be shown.
 
-There is little to now difference between making a basic ``line`` chart and making a ``bar`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
+There is little to not difference between making a basic ``line`` chart and making a ``bar`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
 
 .. tip::
     For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.

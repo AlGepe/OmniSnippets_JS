@@ -2,11 +2,11 @@
 Dynamic Show show/hide variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We will show you how to show and hide variables dynamically. This is used in situation where the variable my have many different behaviour with some variables associated to certain calculation but not to others.
+We will explain how to show and hide variables dynamically. This is used in situation where the calculator my have many **different behaviours** with some variables associated to certain calculation but not to others.
 
-It can also be used to **give the user extra options** or functionality in certain scenarios. You can see a standard example of this when we talk about :ref:`Value setter with custom options<vSetterCustom>`
+It can also be used to **give the user extra options** or functionality in certain scenarios. You can see a standard example of this when we talk about :ref:`Value setter with custom options<hideShowVS>`
 
-In our example the calculator performs two different operations with completely different set of variables, the user selects between behaviours with a value setter and the variables are shown/hidden as required.
+In our example the calculator performs two different operations with completely different sets of variables, the **user selects between behaviours with a value select** and the variables are shown/hidden as required.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Show/Hide Variables <https://bb.omnicalculator.com/#/calculators/1942>`__ on BB
@@ -42,7 +42,7 @@ In our example the calculator performs two different operations with completely 
 .. tip::
     Remember that you can use numbers as booleans. Zero (0) represents ``false`` and any other number represents ``true``.
 
-What we have done in this example is take one calculator and effectively **divide it in two** independent versions. When possible try to reuse variables from one mode on the other.
+What we have done in this example is take one calculator and effectively **divide it in two** independent versions. When possible try to reuse variables from one mode to the other.
 
 One of the coolest uses of hide/show functionality are :ref:`Magic
 Rows<magicRows>`, which despite the name don't really use magic, but are still

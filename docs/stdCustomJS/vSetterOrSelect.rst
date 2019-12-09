@@ -2,29 +2,29 @@
 Creating a value Select/Setter (Basics)
 =======================================
 
-Value setters and value selects are very similar creatures in the sense that they both let you create a text alias for a numerical value. The advantage of this is to present the user with a set list of possibilities that are intuitive. 
+Value setters and value selects are very similar creatures in the sense that they **both let you create a text alias for a numerical value**. The advantage of this is to present the user with a set list of possibilities that are easy to understand.
 
 Value selects and value setters are also great for letting the user choose between different behaviours in the same calculator as we have discussed in :ref:`Multiple Personality Disorder Calculators <multiple>`
 
-Let's now take a quick look at the basic way to create a value setter/select, how to assign them to one (or many variables) and set default values.
+Let's now take a quick look at the **basic way to create a value setter/select**, how to assign them to one (or many variables) and set default values.
 
 .. _vSelectBasic:
 Creating a value select
 -----------------------
 
-A value select is the most simple of the two (value select/setter) and it simply is basically a conversion table between the value (``number``) of a variable and the displayed value in the calculator (``string`` or text).
+A value select is the most simple of the two (value select/setter) and it simply is basically a **conversion table** between the value (``number``) of a variable and the displayed value in the calculator (``string`` or text).
 
-To create a value select you can use the interface on BB (*plx don't*) or define it in customJS (*plx do dis*).
+To create a value select you can use the interface on BB (*plx don't*) or define it in customJS (*plx do*).
 
 .. warning::
     Though it is possible, it strongly recommended not to create value selects using the bb interface, instead opting for the customJS version. This improves readibility of the code and helps copying calculators/features as well as editing.
 
-Since the BB interface is not recommended, and also meant to be intuitive we will only explain how to create a value select using customJS. For that we need to call the function :ref:`omni.createValueSelect <vSelect>`. We have already seen the technical aspects of that function so we will jump right into a practical example.
+Since the **BB interface is not recommended**, and also meant to be intuitive we will only explain how to create a value select using customJS. For that we need to call the function :ref:`omni.createValueSelect <vSelect>`. We have already seen the technical aspects of that function so we will **jump right into a practical example**.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://bb.omnicalculator.com/#/calculators/2036>`__ on BB
 
-In this example we will create a very useful *yes / no* value select. This type of value select comes in very handy for selecting between 2 options and you can reuse this code simply changing the *value* under key ``name``:
+In this example we will create a very useful *yes / no* value select. This type of value select comes in very handy for **selecting between 2 options** and you can reuse this code simply changing the *value* under key ``name``:
 
 .. code-block:: javascript
     :linenos:
@@ -37,7 +37,7 @@ In this example we will create a very useful *yes / no* value select. This type 
 .. tip::
     We have used values ``0`` (zero) and ``1`` because when used as booleans ``0`` evaluates as ``false`` and ``1`` (or any other number) evaluates as ``true``. Learn more about this tricks in :ref:`Improving your conditions <betterConditions>`.
 
-Note that this code needs not run inside ``onInit`` context. However, we are still not done, we have create the value select but it is in a limbo since it's not assigned (binded) to any variable in the calculator. To do this step you simply use the function :ref:`omni.bindValueSelect <bindVselect>` like this:
+Note that this **code does not need to be run inside ``onInit`` context**. However, we are still not done, we have create the value select but it is in a limbo since **it's not assigned (binded) to any variable** in the calculator. To do this step you simply use the function :ref:`omni.bindValueSelect <bindVselect>` like this:
 
 .. code-block:: javascript
     :lineno-start: 5
@@ -57,18 +57,18 @@ We still haven't set a default value for the value select so it will appear as `
 Creating a value setter
 -----------------------
 
-Creating a value select can be done completely outside of any context by calling :ref:`omni.createValueSetter <vSetter>`. This function also assigns the value setter to a calculator variable so there's one less step to do.
+Creating a value select can be done completely outside of any context by calling :ref:`omni.createValueSetter <vSetter>`. This function also assigns the value setter to a calculator variable so there's **one less step to do**.
 
-Though both value setters and value selects can be created in one command, we tend to use two commands (first create the data, then assign it to a variable in the calculator) for improved readability.
+Though both value setters and value selects can be created in one command, we tend to **use two commands** (first create the data, then assign it to a variable in the calculator) for **improved readability**.
 
-A value setter is different to a value select in that is also controls the value of other variables, not just the one it's been binded to.
+A value setter is different to a value select in that is also **controls the value of other variables**, not just the one it's been binded to.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter <https://bb.omnicalculator.com/#/calculators/2035>`__ on BB
 
 This feature makes the value setter a sort of *superset* of value select. The main use-case for value setters is situations in which the displayed option (the one the users sees) has an impact on the value of many variables. 
 
-We will now see an example of just this behaviour taken from the `Exoplanet Calculator <https://www.omnicalculator.com/physics/exoplanet>`__. In the example the user selects a star by name. This option changes the values of the Star radius (``r_star``), Star Mass (``m_star``) and Distance to the star (``distance``) to reflect the values of the selected start.
+We will now see an example of just this behaviour taken from the `Exoplanet Calculator <https://www.omnicalculator.com/physics/exoplanet>`__. In the example the user **selects a star by name**. This option changes the values of the Star radius (``r_star``), Star Mass (``m_star``) and Distance to the star (``distance``) to reflect the values of the selected start.
 
 .. code-block:: javascript
     :linenos:
@@ -102,7 +102,7 @@ The command ``omni.createValueSetter`` allows for defining a default value, howe
 Setting default values for value Select/Setter
 ----------------------------------------------
 
-Setting default values for value selects and value setters is exactly the same as for any other variable. It can be done in BB through the variable editor, or via customJS. In case you had a doubt, the recommended way is using customJS [#f1]_ but this time is not a strong recommendation.
+Setting default values for value selects and value setters is **exactly the same as for any other variable**. It can be done in BB through the variable editor, or via customJS. In case you had a doubt, the recommended way is using customJS [#f1]_ but this time is not a strong recommendation.
 
 To set a default value in customJS simply use ``ctx.setDefault`` inside an ``onInit`` context. The value to which the variable is set should match one of the values assigned to the key ``value`` (for a value select) or to the key ``uid`` (for a value setter).
 
@@ -118,9 +118,9 @@ Let's see how we would set the default values of our variables to ``No`` for the
 Setting a default value is one of the many situation in which having sensible values for ``value`` (value select) or ``uid`` (value setter) pays off even if the user will never see them.
 
 .. warning::
-    Setting the value of a value setter/select (default or inside the calculator) to a number not existing as ``value`` (value select) or as ``uid`` (value setter) will cause the option displayed to turn to ``Custom``. The same happens if any of the value in a value setter don't match the declared options.
+    Setting the value of a value setter/select (default or inside the calculator) to a number not existing as ``value`` (value select) or as ``uid`` (value setter) will cause the option displayed to turn to ``Custom``. The same happens if any of the values of the variables in a value setter don't match the declared options.
 
-Value selects offer little more functionality than what we have seen here, but value setters due to their flexibility offer many more ways to use them. Since they are organized in this documentations according to their complexity and usability, it can be tricky to find all of the example. Here is a list of where to find these other uses
+Value selects offer little more functionality than what we have seen here. On the other hand, value setters, due to their flexibility, offer many more ways to use them. Since they are organized in this documentations according to their complexity and usability, it can be tricky to find all of the example. Here is a list of where to find these other uses
 
 #. :ref:`Adding *Custom* option with pop-up variable to a value setter <hideShowVS>`
 #. :ref:`Different value setters in one variable <dynamicVsetter>`

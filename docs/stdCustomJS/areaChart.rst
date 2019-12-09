@@ -6,7 +6,7 @@ We are now going to take a look at how to create a ``area`` chart, but this time
 
 When making a calculator the data normally has to be... calculated (surprising, right?) based on the input given by the user. Behind this calculation there is always a **function that depends on some parameters**, normally it's either *x* or *time*, but could be anything.
 
-To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' will be an array with the values we want to display.
+To create the data we will use a ``for`` loop and we will use the method ``push`` which **adds a new entry at the end of an array**. Our '*entry*' represents a point and is an array with the values we want to display.
 
 Practical example
 -----------------
@@ -68,7 +68,7 @@ Let's look that the example code now:
                 });
     });
 
-As you can see, there is little to now difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
+As you can see, there is little to not difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
 
 .. warning::
     **WARNING**: *Stacking* option only works in very specific and simple scenarios. Before you use it we recommenc you check the section :ref:`Stacking a.k.a. playing Jenga<brokenStacking>`.

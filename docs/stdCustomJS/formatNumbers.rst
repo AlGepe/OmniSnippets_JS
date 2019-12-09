@@ -13,13 +13,13 @@ Technically there are infinite ways to format numbers according to our needs.  T
 
 Before we get into the meat of the subject, we need to remember the differences between a *string* and a *number* when talking about types of variables. 
 
-A *string* is a variable representing text, that means that it can be concatenated but not added up since it does not represent any mathematical concept or value.
+A *string* is a variable **representing text**, that means that it can be concatenated but not added up since it does not represent any mathematical concept or value.
 
-A *number* is a variable representing a numerical value. It cannot be concatenated but it can be added, subtracted, multiplied... We cannot change its appearance, all we can do is change it's value (and precision).
+A *number* is a variable **representing a numerical value**. It cannot be concatenated but it can be added, subtracted, multiplied... We cannot change its appearance, all we can do is change it's value (and precision).
 
 .. tip::
     If in doubt, you can always use ``typeof`` in customJS to check which type of variable you are working with.
-We have to keep this in mind because once a *number* has been formatted as a *string*, you cannot perform arithmetic operations on it unless you convert it back to a *number*. 
+We have to keep this in mind because once a *number* has been formatted as a *string*, you **cannot perform arithmetic operations on it** unless you convert it back to a *number*. 
 
 For this reason we will specify clearly in each example what type of output
 they produce.
@@ -27,7 +27,7 @@ they produce.
 Rounding
 --------
 
-Rounding is the process of reducing the significant figures in a number while retaining as much precision as possible. In customJS this can be done in many different ways.
+Rounding is the process of **reducing the significant figures** in a number while retaining as much precision as possible. In customJS this can be done in many different ways.
 
 Let's take a look a them by rounding the number ``3.14159265`` to 4 decimal places; it should result in ``3.1416``
 
@@ -51,14 +51,17 @@ A similar behaviour can be achieve using the function ``mathjs.format`` with the
     
     var roundedString = mathjs.format(3.14159265, 4);
 
+.. note:: 
+    ``mathjs.format`` truncates the number without modifying the value of any of its digits.
+
 You can learn more about this function and its different options in the `math.js official documentation <https://mathjs.org/docs/reference/functions/format.html>`__
 
 Padding
 -------
 
-The next formatting trick involves having a constant number of digits irrespective of the value and precision of the number. As you can imagine, this can only be achieved by using *string* as the output format.
+The next formatting trick involves having a **constant number of digits irrespective of the value** and precision of the number. As you can imagine, this can only be achieved by using *string* as the output format.
 
-There are two main variants of padding: ``padStart`` and ``padEnd``. The both work in the same way. They are called as a method from the string you want to pad and you need to input the total length of the final array and the padding character/string.
+There are two main variants of padding: ``padStart`` and ``padEnd``. The both work in a similar way. They are called as a method from the string you want to pad and you need to input the **total length of the final array** and the padding character/string.
 
 Let's look at the example:
 
@@ -74,9 +77,9 @@ This code will produce a message in the calculator showing: ``003.141592``
 Dot/Comma formatting
 --------------------
 
-For our last example we will take a look at how to format very long numbers so that instead of a continuous line of digits you will get block for 3 digits deparated by a character of your choice. In most of the world this separator tends to be the dot (``.``), while in the USA and other countries the comma (``,``) is used. A country-agnostic option could be to simple separate every 3 digits by a space, it is up to you.
+For our last example we will take a look at how to **format very long numbers** so that instead of a continuous line of digits you will get block for 3 digits separated by a character of your choice. In most of the world this separator tends to be the dot (``.``), while in the USA and other countries the comma (``,``) is used. A **country-agnostic** option could be to simple separate every 3 digits by a space, it is up to you.
 
-The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a function that takes two inputs: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator.
+The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a **function that takes two inputs**: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator
 
 Here is the code:
 
@@ -87,20 +90,15 @@ Here is the code:
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
     }
 
-Don't be afraid of the incomprehensible characters in succession. That is
-simple a **Re**\ gular **Ex**\ pression, which is a very powerful (and confusing at
-first) ways to define rules for pattern matching.
+Don't be afraid of the incomprehensible characters in succession. That is simple a **Re**\ gular **Ex**\ pression, which is a very powerful (and confusing at first) ways to define rules for pattern matching.
 
-To use it in your calculator simply paste this function either at the top or at
-the bottom. When you need to format a number, simply call the function with the
-necessary parameters.
+To use it in your calculator simply paste this function either at the top or at the bottom. When you need to format a number, simply **call the function with the necessary parameters**.
 
-To format the number stored in the variable ``number2Format`` using a space as
-separator you would use:
+To format the number stored in the variable ``number2Format`` using a space as separator you would use:
 
 .. code-block:: javascript
     
-    numberWithCommas(number2Format, " ");
+    numberWithCommas(number2Format, ' ');
 
 Beware that the output is always a **string**, so always perform this action when you have finished all your arithmetic operations.  
 

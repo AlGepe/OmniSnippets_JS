@@ -2,13 +2,13 @@
 Adding custom option to Value Setter (user input)
 =================================================
 
-The value setter is a powerful tool that allows us calculatorians to hide the true values of variables behind understandable words. However, this reduces flexibility and limits the options for input [#f1]_.
+The value setter is a powerful tool that allows us, calculatorians, to **hide the true values of variables** behind understandable words. However, this reduces flexibility and limits the options for input [#f1]_.
 
-There is a way to keep the flexibility for those users that want **mo powa babeh**, without sacrificing the user experience of those tha want the simplest possible calculator.
+There is a way to keep the flexibility for those users that want **mo powa babeh**, without sacrificing the experience of those users that want the simplest possible calculator.
 
-You can include a *Custom* or *Select your own* option in your value setter and set a condition inside ``onResult`` context so that the variables affected by that value setter will be shown as the user selects that option.
+You can include a *Custom* or *Select your own* option in your value setter and set a condition inside ``onResult`` context so that **the variables affected by that value setter will be shown** as the user selects that option.
 
-We will use the same example as in the :ref:`Value Setter Basics<vSetterBasic>` section with the different stars. This time the user will have the option to select his own parameters and (**warning**: marketing BS ahead) effectively creating their own star!
+We will use the same example as in the :ref:`Value Setter Basics<vSetterBasic>` section with the different stars. This time the user will have the option to select his own parameters and (**warning**: marketing *BS* ahead) effectively creating their own star!
 
 
 .. seealso::
@@ -52,12 +52,12 @@ Here is the code needed to create said behaviour:
         {"name": "Enter your own", "uid": "0", "values": {}},
     ];
 
-As you can see, the only necessary steps are to create a new entry with a different ``uid`` and no values attached. This last part is crucial since allows the user to input any number anywhere without the selection in the vlaue setter changing.
+As you can see, the only necessary steps are to create a new entry with a different ``uid`` and no values attached. This last part is crucial since **allows the user to input any number anywhere** without the selection in the value setter changing.
 
 .. note::
-    Once again we have used the trick of defining the special behaviour under ``uid = 0`` so that the condition inside the ``if`` on line *10* is as simple as possible.:w
-    
-Because the custom option has no values assigned to it and the actual variables are no shown unless the user selects ``Enter your own`` we are guaranteed that the value setter will never fall into an undefined ``uid``.  
+    Once again we have used the trick of defining the special behaviour under ``uid = 0`` so that the condition inside the ``if`` on line *10* is as simple as possible.
+
+Because the custom option has **no values assigned** to it and the actual variables are no shown unless the user selects ``Enter your own`` we are guaranteed that the value setter will never fall into an undefined ``uid``.
 
 .. rubric:: Footnotes
 
