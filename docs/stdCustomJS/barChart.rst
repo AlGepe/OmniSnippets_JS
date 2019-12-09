@@ -79,4 +79,4 @@ The ``bar`` chart is ideal for situations in which data is presented in chunks (
 
 .. rubric:: Footnotes
 
-.. [#f1] The first position in an array is the position "**0**" (zero)
+.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value

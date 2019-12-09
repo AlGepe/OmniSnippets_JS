@@ -78,4 +78,4 @@ There is little to not difference between making a basic ``line`` chart and maki
 
 .. rubric:: Footnotes
 
-.. [#f1] The first position in an array is the position "**0**" (zero) and it's occupied by the *x* value of the data.
+.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value
