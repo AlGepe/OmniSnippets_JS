@@ -18,18 +18,11 @@ Here is how to nest value setters so that one's options depends on the other's s
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines: 4-10
+    :emphasize-lines: 5-9, 12-14
 
     'use strict';
-    var tempVSArray = [];
 
-    var drinksVS = [{name:"Water", uid:"1", values:{"alcohol":0}},
-                    {name:"Soft drinks", uid:"2", values:{"alcohol":0}},
-                    {name:"Juices / Iced tea", uid:"3", values:{"alcohol":0}},
-                    {name:"Wine", uid:"4", values:{"alcohol":13.5}},
-                    {name:"Beer", uid:"5", values:{"alcohol":6}},
-                    {name:"Spirit", uid:"6", values:{"alcohol":40}},
-                   ];
+    var tempVSArray = [];
 
     omni.onInit(function(ctx){
         omni.createValueSetter('drinks', drinksVS);
@@ -38,11 +31,18 @@ Here is how to nest value setters so that one's options depends on the other's s
     });
 
     omni.onResult([],function(ctx){
-        var drinks = (ctx.getNumberValue('drinks') || 1);
+        var drinks = ctx.getNumberValue('drinks');
         omni.createValueSetter('temperature', tempVSArray[drinks]);
         ctx.addTextInfo(drinks);
     });
 
+    var drinksVS = [{name:"Water", uid:"1", values:{"alcohol":0}},
+                    {name:"Soft drinks", uid:"2", values:{"alcohol":0}},
+                    {name:"Juices / Iced tea", uid:"3", values:{"alcohol":0}},
+                    {name:"Wine", uid:"4", values:{"alcohol":13.5}},
+                    {name:"Beer", uid:"5", values:{"alcohol":6}},
+                    {name:"Spirit", uid:"6", values:{"alcohol":40}},
+                   ];
 
     var tempWaterVS = [{name:"Warm (22°C/72°F)", uid:"1653661260", values:{"T":295.15}},
                    {name:"Optimal for hydration (16°C/61°F)", uid:"97225713", values:{"T": 289.15}},

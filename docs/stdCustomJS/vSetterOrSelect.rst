@@ -8,6 +8,7 @@ Value selects and value setters are also great for letting the user choose betwe
 
 Let's now take a quick look at the basic way to create a value setter/select, how to assign them to one (or many variables) and set default values.
 
+.. _vSelectBasic:
 Creating a value select
 -----------------------
 
@@ -52,6 +53,7 @@ After this code the calculator will display the variable ``yesNoVariable`` with 
 
 We still haven't set a default value for the value select so it will appear as ``Custom``. Setting a default value is the same as with any other variable, we go into more detail in :ref:`Setting defaults<setDefaultVS>` at the end of this page.
 
+.. _vSetterBasic:
 Creating a value setter
 -----------------------
 
