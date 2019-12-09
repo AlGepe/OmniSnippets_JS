@@ -62,7 +62,7 @@ Though both value setters and value selects can be created in one command, we te
 A value setter is different to a value select in that is also controls the value of other variables, not just the one it's been binded to.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://bb.omnicalculator.com/#/calculators/2035>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter <https://bb.omnicalculator.com/#/calculators/2035>`__ on BB
 
 This feature makes the value setter a sort of *superset* of value select. The main use-case for value setters is situations in which the displayed option (the one the users sees) has an impact on the value of many variables. 
 
@@ -84,7 +84,6 @@ We will now see an example of just this behaviour taken from the `Exoplanet Calc
         {"name": "Proxima Centauri", "uid": "209", "values": {"m_star": 2.42857E+29, "r_star": 107276940.0, "distance": 3.97349E+16}},
         {"name": "Gamma Cephei", "uid": "210", "values": {"m_star": 2.80449E+30, "r_star": 3429801000.0, "distance": 4.25732E+17}},
         {"name": "Sun", "uid": "211", "values": {"m_star": 1.989E+30, "r_star": 695700000.0,}},
-        {"name": "Enter your own", "uid": "299", "values": {}}
     ];
     omni.createValueSetter('star', starVS);
 
