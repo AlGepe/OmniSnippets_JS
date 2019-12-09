@@ -43,7 +43,7 @@ Here we have the examples of the most basic options from customJS that are not j
     areaChart
     barChart
     pieChart
-    dynamicImg
+    imgBasic
     dynamicTable
     customUnmet
 ..  eqMath
@@ -59,8 +59,9 @@ This are usages of customJS that go further to create effectively new functional
     :maxdepth: 1
 
     varRequirement
-    magicRows
     formatNumbers
+    magicRows
+    dynamicImg
     graphChart
     stackChart
 
