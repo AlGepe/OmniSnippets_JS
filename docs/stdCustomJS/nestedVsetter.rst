@@ -13,7 +13,7 @@ Let's take a look at an example from the `Chill Drinks Calculator
 
 Here is how to nest value setters so that one's options depends on the other's selected option:
 
-.. block-code:: javascript
+.. code-block:: javascript
     :linenos:
     :emphasize-line: 1-8
 
@@ -71,7 +71,7 @@ Here is how to nest value setters so that one's options depends on the other's s
 
 I know what you are thinking, but don't worry. It might be long, but is definitely not hard [#f1]_. It's mostly just a bunch of data, the important lines ar highlighted and at the top.
 
-The trick behind this is :ref:`changing a value setter during "runtime" <dynamicVsetter>`_, here we simply add a condition to the change based on the user selection on another valuse setter.
+The trick behind this is :ref:changing a value setter during calculation <dynamicVsetter>`_, here we simply add a condition to the change based on the user selection on another valuse setter.
 .. warning::
     The use case is the same as in the Chill Drink calculator but the code has been modified to be more (yes!) readable and comply with the style guidelines
 
