@@ -6,7 +6,7 @@ We have mentioned (probably too many times) the wonders or possibilities of valu
 
 Nesting is a facy word to say that you can make one value setter change the options shown in another. It is true that you could just create many variables each with one value setter and show/hide them according to the values in another value setter... but that would be annoying.
 
-Instead, what you can do is simply create many  javascript variables each with different data (different options to show the user) and create/assign this data to a calculator variable inside the `onResult` context.
+Instead, what you can do is simply create many  javascript variables each with different data (different options to show the user) and create/assign this data to a calculator variable inside the ``onResult`` context.
 
 Let's take a look at an example from the `Chill Drinks Calculator
 <https://bb.omnicalculator.com/#/calculators/1556>`__. Here all value setters are dependant on the drink selected by the user. For our example we will focus only on the *drink-temperature* connection.
