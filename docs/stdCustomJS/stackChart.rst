@@ -142,3 +142,16 @@ Using this trick we have been able to combine ``y2`` in blue and ``y3`` in dark 
 
 .. tip::
     If you want to do stacking in a ``line`` chart use this trick.
+
+An open playground (Jenga provided)
+-----------------------------------
+
+As a fan of jenga yourself (don't try to say otherwise, **you are**) I'm sure
+you're eager to play Jenga in customJS. Don't worry, we have you covered.
+
+Here is the calculator for stacking and playing with *Jenga*, feel free to test
+your own combinations.
+
+.. seealso::
+    Jenga/Stack calculator is available as `Charts (Jenga)
+    <https://bb.omnicalculator.com/#/calculators/1999>`__ in BB.
