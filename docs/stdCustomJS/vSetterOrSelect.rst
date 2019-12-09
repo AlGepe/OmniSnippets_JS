@@ -125,6 +125,7 @@ Value selects offer little more functionality than what we have seen here, but v
 #. :ref:`Adding *Custom* option with pop-up variable to a value setter <hideShowVS>`
 #. :ref:`Different value setters in one variable <dynamicVsetter>`
 #. :ref:`Nesting value setters <nestedVsetter>`
+
 .. #. `Custom *uid* in value setters<customVsetter>`
 
 
