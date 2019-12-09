@@ -15,7 +15,7 @@ Here is how to nest value setters so that one's options depends on the other's s
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-line: 1-8
+    :emphasize-lines: 1-8
 
     var tempVSArray = [0, tempWaterVS, tempBeerVS, tempSoftVS,
                        tempJuiceVS, tempWineVS, tempSpiritVS
