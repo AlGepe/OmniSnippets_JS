@@ -17,8 +17,46 @@ Here is the code for you to check:
 
 .. code-block:: javascript
     :linenos:
-    :emphasize-lines:
+    :emphasize-lines: 9-18
 
+    'use strict';
+    var tempVSArray = [];
+
+    omni.onInit(function(ctx) {
+        ctx.setDefault ('temperature', 97225713);
+    });
+
+    omni.onResult(['selection'], function (ctx, _selection) {
+        var selection = _selection.toNumber ();
+        if (selection > 0) {
+            omni.createValueSetter ('temperature', tempVSArray[0]);
+        } else if (selection < 0) {
+            omni.createValueSetter ('temperature', tempVSArray[1]);
+        } else {
+            omni.createValueSetter ('temperature', tempVSArray[2]);
+        }
+            ctx.addTextInfo ("Selection value is: "+selection);
+    });
+
+    var tempWaterVS = [{name:"Warm (22°C/72°F)", uid:"1653661260", values:{"T":295.15}},
+                        {name:"Optimal for hydration (16°C/61°F)", uid:"97225713", values:{"T": 289.15}},
+                        {name:"Refreshing (6°C/43°F)", uid:"3718031684", values:{"T": 279.15}},
+                        {name:"Very cold (2°C/36°F)", uid:"2262390379", values:{"T": 275.15}},
+                        {name:"Custom", uid:"2817909060", values:{"T": 280.15}}
+                        ];
+    var tempBeerVS = [{name:"Optimal for Stout (13°C/55°F)", uid:"97225713", values:{"T": 286.15}},
+                        {name:"Optimal for Ale (10°C/50°F)", uid:"3718531684", values:{"T": 283.15}},
+                        {name:"Optimal for Lager (6°C/43°F)", uid:"2262390379", values:{"T": 279.15}},
+                        {name:"Very cold (3°C/37.4°F)", uid:"1653661260", values:{"T": 276.15}},
+                        {name:"Custom", uid:"2817909060", values:{"T": 280.15}}
+                    ];
+    var tempSoftVS = [{name:"Optimal for taste", uid:"1653661260", values:{"T": 287.15}},
+                        {name:"Optimal (4.5°C/40°F)", uid:"3718531684", values:{"T": 277.65}},
+                        {name:"Very cold (2°C/36°F)", uid:"2262390379", values:{"T": 275.15}},
+                        {name:"Custom", uid:"2817909060", values:{"T": 280.15}}
+                    ];
+
+    var tempVSArray = [tempWaterVS, tempBeerVS, tempSoftVS];
     
 This is by no means the only way to get this behaviour, but is probably the most straight forward way to do and for regular-sized arrays it should not have any significant performance overhead.
 
