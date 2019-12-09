@@ -1,7 +1,7 @@
 .. _addumet:
 
-Add custom conditions
----------------------
+Add custom conditions (Error Message)
+-------------------------------------
 
 The function displays a custom error message under the field in focus (the field you are entering data in). The error message is always displayed in red.
 
