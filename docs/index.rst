@@ -50,6 +50,7 @@ Work in Progress
     :maxdepth: 2
 
     extras/intro
+
 ..  how2RTFM
     authors
     contributing
