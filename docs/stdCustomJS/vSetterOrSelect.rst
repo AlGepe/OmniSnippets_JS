@@ -20,6 +20,9 @@ To create a value select you can use the interface on BB (*plx don't*) or define
 
 Since the BB interface is not recommended, and also meant to be intuitive we will only explain how to create a value select using customJS. For that we need to call the function :ref:`omni.createValueSelect <vSelect>`. We have already seen the technical aspects of that function so we will jump right into a practical example.
 
+.. seealso::
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://bb.omnicalculator.com/#/calculators/2036>`__ on BB
+
 In this example we will create a very useful *yes / no* value select. This type of value select comes in very handy for selecting between 2 options and you can reuse this code simply changing the *value* under key ``name``:
 
 .. code-block:: javascript
@@ -58,6 +61,9 @@ Though both value setters and value selects can be created in one command, we te
 
 A value setter is different to a value select in that is also controls the value of other variables, not just the one it's been binded to.
 
+.. seealso::
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://bb.omnicalculator.com/#/calculators/2035>`__ on BB
+
 This feature makes the value setter a sort of *superset* of value select. The main use-case for value setters is situations in which the displayed option (the one the users sees) has an impact on the value of many variables. 
 
 We will now see an example of just this behaviour taken from the `Exoplanet Calculator <https://www.omnicalculator.com/physics/exoplanet>`__. In the example the user selects a star by name. This option changes the values of the Star radius (``r_star``), Star Mass (``m_star``) and Distance to the star (``distance``) to reflect the values of the selected start.
@@ -65,9 +71,22 @@ We will now see an example of just this behaviour taken from the `Exoplanet Calc
 .. code-block:: javascript
     :linenos:
 
-    // CODENEEDS TO BE INSERTED HERE
-    var planetVS = 
-    omni.createValueSetter('planet', planetVS);
+    var starVS = [
+        {"name": "51 Pegasi", "uid": "200", "values": {"m_star": 2.20779E+30, "r_star": 860580900.0, "distance": 4.73035E+17}},
+        {"name": "Kepler 452", "uid": "201", "values": {"m_star": 2.06259E+30, "r_star": 772227000.0, "distance": 1.73131E+19}},
+        {"name": "Kepler 442b", "uid": "202", "values": {"m_star": 1.23318E+30, "r_star": 417420000.0, "distance": 1.14096E+19}},
+        {"name": "Kepler 62", "uid": "203", "values": {"m_star": 1.37241E+30, "r_star": 445248000.0, "distance": 9.36609E+18}},
+        {"name": "GSC 02620-00648 ( TrES-4)", "uid": "204", "values": {"m_star": 2.34702E+30, "r_star": 1252260000.0, "distance": 1.77015E+21}},
+        {"name": "Kepler-1520", "uid": "205", "values": {"m_star": 1.51164E+30, "r_star": 493947000.0, "distance": 2.17596E+19}},
+        {"name": "HR2562", "uid": "206", "values": {"m_star": 2.5857E+30, "r_star": 832613760.0, "distance": 1.03771E+18}},
+        {"name": "Gliese 436", "uid": "207", "values": {"m_star": 8.1549E+29, "r_star": 292194000.0, "distance": 3.0085E+17}},
+        {"name": "PSR B1257+12", "uid": "208", "values": {"m_star": 2.7846E+30, "r_star": 973980000.0, "distance": 2.1911E+19}},
+        {"name": "Proxima Centauri", "uid": "209", "values": {"m_star": 2.42857E+29, "r_star": 107276940.0, "distance": 3.97349E+16}},
+        {"name": "Gamma Cephei", "uid": "210", "values": {"m_star": 2.80449E+30, "r_star": 3429801000.0, "distance": 4.25732E+17}},
+        {"name": "Sun", "uid": "211", "values": {"m_star": 1.989E+30, "r_star": 695700000.0,}},
+        {"name": "Enter your own", "uid": "299", "values": {}}
+    ];
+    omni.createValueSetter('star', starVS);
 
 It is easy to see how convenient this is for the user, who can now select different stars without ever needing to know the actual values of ``distance``, ``m_star`` and ``r_star``.
 
@@ -92,7 +111,7 @@ Let's see how we would set the default values of our variables to ``No`` for the
 
     omni.onInit(function(ctx){
         ctx.setDefault(yesNoVariable, '0');
-        ctx.setDefault(planet, '200');
+        ctx.setDefault(star, '200');
     });
 
 Setting a default value is one of the many situation in which having sensible values for ``value`` (value select) or ``uid`` (value setter) pays off even if the user will never see them.
