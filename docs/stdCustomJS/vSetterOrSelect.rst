@@ -102,9 +102,9 @@ Setting a default value is one of the many situation in which having sensible va
 
 Value selects offer little more functionality than what we have seen here, but value setters due to their flexibility offer many more ways to use them. Since they are organized in this documentations according to their complexity and usability, it can be tricky to find all of the example. Here is a list of where to find these other uses
 
-#. `Adding *Custom* option with pop-up variable to a value setter <hideShowVS>`
-#. `Different value setters in one variable <dynamicVsetter>`
-#. `Nesting value setters <nestedVsetter>`
+#. :ref:`Adding *Custom* option with pop-up variable to a value setter <hideShowVS>`
+#. :ref:`Different value setters in one variable <dynamicVsetter>`
+#. :ref:`Nesting value setters <nestedVsetter>`
 .. #. `Custom *uid* in value setters<customVsetter>`
 
 
