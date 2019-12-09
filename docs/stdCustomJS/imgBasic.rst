@@ -24,7 +24,7 @@ Code and example (Image anywhere)
 Let's start first with the most simple example possible: showing an image somewhere (anywhere in the calculator). Typically you would want to do this to separate different sections of the calculator, to show some results in a graphical way or to explain with a picture what some of the variables mean.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Images (Basic Top) <https://bb.omnicalculator.com/#/calculators/2022>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Images (Basic Top) <https://bb.omnicalculator.com/#/calculators/2034>`__ on BB
 
 Here is the code you need for you images to be shown on top of the calculator:
 
