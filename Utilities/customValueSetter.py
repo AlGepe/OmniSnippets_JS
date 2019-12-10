@@ -82,7 +82,7 @@ def convert2ValueSetter(valueSetterRead, varName):
     start = 0
     hasValues = False
     for option in valueSetterData:
-        vSetterText += tab*' '+'{ '+ valueSetterHeader[0]+ ' : "' +option[0]+ '",  uid : '
+        vSetterText += tab*' '+'{ '+ valueSetterHeader[0]+ ' : "' +str(int(option[0]))+ '",  uid : '
         if valueSetterHeader[1] == 'uid':
             vSetterText += '"'+str(option[1])+'",  values : {'
             start = 2
