@@ -4,7 +4,7 @@ Nesting Value Setters
 
 We have mentioned (probably too many times) the wonders or possibilities of value setters, and this is one of the advantages: **the ability to nest them**.
 
-Nesting is a fancy word to say that you can make one value setter change the options shown in another. It is true that you could just create many variables each with one value setter and show/hide them according to the values in another value setter... but that **would be a `PITA <https://www.urbandictionary.com/define.php?term=pita>`__**.
+Nesting is a fancy word to say that you can make one value setter change the options shown in another. It is true that you could just create many variables each with one value setter and show/hide them according to the values in another value setter... but that **would be a** `PITA <https://www.urbandictionary.com/define.php?term=pita>`__.
 
 Instead, what you can do is simply create many javascript variables each with different data (different options to show the user) and **create/assign this data to a calculator variable** inside the ``onResult`` context.
 

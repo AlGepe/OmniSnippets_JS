@@ -40,13 +40,11 @@ In our example the calculator performs two different operations with completely 
     });
 
 .. tip::
-    Remember that you can use numbers as booleans. Zero (0) represents ``false`` and any other number represents ``true``.
+    Remember that you can use numbers as booleans. ``0`` (zero) represents ``false`` and any other number represents ``true``.
 
 What we have done in this example is take one calculator and effectively **divide it in two** independent versions. When possible try to reuse variables from one mode to the other.
 
-One of the coolest uses of hide/show functionality are :ref:`Magic
-Rows<magicRows>`, which despite the name don't really use magic, but are still
-**dope AF**.
+One of the coolest uses of hide/show functionality are :ref:`Magic Rows<magicRows>`, which despite the name don't really use magic, but are still **dope AF**.
 
 .. note::
 

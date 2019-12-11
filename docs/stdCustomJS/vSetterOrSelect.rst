@@ -37,7 +37,7 @@ In this example we will create a very useful *yes / no* value select. This type 
 .. tip::
     We have used values ``0`` (zero) and ``1`` because when used as booleans ``0`` evaluates as ``false`` and ``1`` (or any other number) evaluates as ``true``. Learn more about this tricks in :ref:`Improving your conditions <betterConditions>`.
 
-Note that this **code does not need to be run inside ``onInit`` context**. However, we are still not done, we have create the value select but it is in a limbo since **it's not assigned (binded) to any variable** in the calculator. To do this step you simply use the function :ref:`omni.bindValueSelect <bindVselect>` like this:
+Note that this **code does not need to be run inside** ``onInit`` context. However, we are still not done, we have create the value select but it is in a limbo since **it's not assigned (binded) to any variable** in the calculator. To do this step you simply use the function :ref:`omni.bindValueSelect <bindVselect>` like this:
 
 .. code-block:: javascript
     :lineno-start: 5
@@ -122,7 +122,7 @@ Setting a default value is one of the many situation in which having sensible va
 
 Value selects offer little more functionality than what we have seen here. On the other hand, value setters, due to their flexibility, offer many more ways to use them. Since they are organized in this documentations according to their complexity and usability, it can be tricky to find all of the example. Here is a list of where to find these other uses
 
-#. :ref:`Adding *Custom* option with pop-up variable to a value setter <hideShowVS>`
+#. :ref:`Adding "Custom" option with appearing variable <hideShowVS>`
 #. :ref:`Different value setters in one variable <dynamicVsetter>`
 #. :ref:`Nesting value setters <nestedVsetter>`
 
