@@ -68,7 +68,7 @@ We have compiled a short list to showcase some implementations of **magic rows**
 Average (Mateusz's example)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This is **OG** calculator of the magic rows. It has up to 30 different input values. By default the calculator will only show 8 fields, but will display more as the user fills in bottom on.
+This is the **OG** magic rows calculator. It has up to 30 different input values. By default the calculator will only show 8 fields, but will display more as the user fills in bottom on.
 
 This calculator only hides variables once, so even if the user deleted all the values, **it will not hide any of the fields** that it dynamically showed.
 
@@ -88,6 +88,10 @@ The code in this one is messy and not the best example to copy [#f2]_ but it exe
     Check it out at `Magic Rows <https://bb.omnicalculator.com/#/calculators/260>`__ on BB
 
 To allow for easy processing of the data and graphical representation, in this calculator **all the hidden variables have a default value 0 (zero)**. The new fields only appear as the previous variable gets a value different than zero.
+
+    .. Square footage (Steve's magic blocks)
+    .. ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    .. waiting for release
 
 .. rubric:: Footnote
 
