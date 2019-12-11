@@ -17,7 +17,7 @@ Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-
 For each of the examples/usages we have also built a **sample calculator**. This are very simple calculator just to showcase the behaviour. Feel free to copy their code into your calculator or play around with them but **DO NOT SAVE ANY CHANGES**.
 
 .. note:: 
-    Most of these examples have been taking from the `Trello card <https://trello.com/c/KaB6WmHJ/214-javascript-simple-code>`__ where we have examples of calculators with customJS.
+    Most of these examples have been taken from the `Trello card <https://trello.com/c/KaB6WmHJ/214-javascript-simple-code>`__ where we have examples of calculators with customJS.
 
 
 The standard usages of customJS have been divided in three sections: Basics, Advanced and one section dedicated to advanced uses of value setters. The justification for this last section is that |ss| I do what I want |se| value setters are quite complex objects and they can be used in many useful ways, also having a section just for them makes it easy to find stuff around.
@@ -54,7 +54,7 @@ Here we have the examples of the most basic options from customJS that are not j
 Advanced
 --------
 
-This are usages of customJS that go further to create effectively new functionality. Each function is still used for what it was intended but with some clever tricks we can squeeze a bit more functionality out of them. Some even require usage of strange javascript functions.
+This are usages of customJS that go further, and effectively create new functionalities. Each function is still used for what it was intended but with some clever tricks we can get new features from them. Some even require usage of strange javascript functions but in general they are just a combination of those used in the **Basics** section.
 
 .. toctree::
     :maxdepth: 1

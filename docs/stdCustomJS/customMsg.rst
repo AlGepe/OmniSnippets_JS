@@ -2,7 +2,8 @@
 Custom Message in Calculator
 =============================
 
-This is an example in which we will show a custom text message in the calculator, like in the example shown below:
+In this example we will show a custom text message in the calculator. The
+result will look something like this:
 
 .. figure:: dynamicMsgMain.png
     :scale: 70%
@@ -19,7 +20,7 @@ For our **first example** we will look at the simplest version: the static messa
 Static messages
 ---------------
 
-In this example we will make a custom message for our calculator. It will appear after the variable named ``c``. The message will always been shown no matter what happened with the variable ``c``.
+In this example we will make a custom message for our calculator. It will appear after the variable named ``c``. The message will always been shown no matter what happens with the variable ``c``.
 
 .. code-block:: javascript
     :linenos:
@@ -36,7 +37,7 @@ In this example we will make a custom message for our calculator. It will appear
 
 This kind of message is typically used as a second title for the calculator, mostly when the variable above switches between different behaviours in the calculator. It can also be used as an alternative to **Text row before** to separate variables in a calculator without creating different blocks of calculator.
 
-It could also be a way to convey and describe better the results in terms that would be understandable by everyone, but for those kinds of situation we typically use dynamic messages like the ones below.
+It could also be a way to convey and **describe better the results** in terms that would be understandable by everyone. For those kinds of situation we typically use dynamic messages like the ones below.
 
 
 Dynamic messages
@@ -50,10 +51,11 @@ Any result that requires some kind of knowledge to be understood should include 
     :linenos:
 
     'use strict';
-    omni.onResult(function(ctx){
-        var sumA = ctx.getNumberValue('a')+ctx.getNumberValue('other_a'),
-            commonTxt = "Given your results you should";
-        if(sumA === undefined || isNaN(sumA)){}else if(sumA > 0){
+    omni.onResult(['a', 'other_a'], function(ctx, _a, _other_a){
+    var sumA = _a.toNumber()+_other_a.toNumber();
+    var commonTxt = "Given your results you should";
+
+    if (sumA > 0) {
             ctx.addTextInfo(commonTxt+" party a bit more, but NOT during office hours.");
         }else{
             ctx.addTextInfo(commonTxt+" go see a REAL doctor. No, youtube doesn't count.");
