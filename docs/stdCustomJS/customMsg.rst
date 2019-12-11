@@ -52,10 +52,10 @@ Any result that requires some kind of knowledge to be understood should include 
 
     'use strict';
     omni.onResult(['a', 'other_a'], function(ctx, _a, _other_a){
-    var sumA = _a.toNumber()+_other_a.toNumber();
-    var commonTxt = "Given your results you should";
+        var sumA = _a.toNumber()+_other_a.toNumber();
+        var commonTxt = "Given your results you should";
 
-    if (sumA > 0) {
+        if (sumA > 0) {
             ctx.addTextInfo(commonTxt+" party a bit more, but NOT during office hours.");
         }else{
             ctx.addTextInfo(commonTxt+" go see a REAL doctor. No, youtube doesn't count.");
