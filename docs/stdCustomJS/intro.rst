@@ -34,7 +34,7 @@ Basics
 Here we have the examples of the most basic options from customJS that are not just calling the function. As you improve your customJS game you will be coming to this section less and less as you will end up memorising them without trying.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3 
 
     customMsg
     dynamicSH
