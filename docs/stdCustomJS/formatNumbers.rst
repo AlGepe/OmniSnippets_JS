@@ -90,7 +90,7 @@ Here is the code:
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
     }
 
-Don't be afraid of the incomprehensible characters in succession. That is simple a **Re**\ gular **Ex**\ pression, which is a very powerful (and confusing at first) ways to define rules for pattern matching.
+Don't be afraid of the incomprehensible characters in succession. That is simple a **Re**\ gular **Ex**\ pression (regex), which is a very powerful (and confusing at first) ways to define rules for pattern matching.
 
 To use it in your calculator simply paste this function either at the top or at the bottom. When you need to format a number, simply **call the function with the necessary parameters**.
 
