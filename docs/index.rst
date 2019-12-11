@@ -7,9 +7,9 @@ Introduction:
 A short introduction to what customJS is, what it does and why we use it. This is a non-technical read.
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
-    when4cjs/intro
+    when2cjs/intro
     codeBasics/intro
 
 ..  doYouNeed
@@ -22,7 +22,7 @@ Omni functions (technical):
 A technical overview of all the options available in customJS. It is not meant as a user guide but rather as a reference for when in doubt about the behaviour and input/output variables of a certain function.
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
     omni/intro
 
@@ -34,11 +34,11 @@ User guide for customJS. *Standard usage of customJS* is a copy+extension of the
 .. *From calculatorian to Calcualtorian* is a collection of tips, tricks and general comments to help you and other calculatorians make better calculators, faster and with less effort. It is a ever-evolving collection of helpful hacks and workflow improvements to which every calculatorian can contribute.
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
     stdCustomJS/intro
 
-..  c4c/intro
+..  c2c/intro
 
 
 Extra resources
@@ -47,11 +47,11 @@ Extra resources
 Work in Progress
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
     extras/intro
 
-..  how4RTFM
+..  how2RTFM
     authors
     contributing
 
