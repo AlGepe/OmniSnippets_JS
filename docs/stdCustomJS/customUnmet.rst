@@ -47,4 +47,4 @@ To avoid the confusion for the user, we have hidden the variable ``c`` whenever 
 
 .. rubric:: Footnotes
 
-.. [#f1] Remember that the symbol ``!`` means ``not``. ``!false`` is the same as *not false* which is ``true``.
+.. [#f1] Remember that the symbol ``!`` means **not**. ``!false`` is the same as *not false* which is ``true``.
