@@ -32,6 +32,7 @@ In our example the calculator performs two different operations with completely 
     */
     omni.onResult(function(ctx){
         ctx.hideVariables('a','b','c','other_a','other_b','other_c');
+
         if(ctx.getNumberValue('extra')){ //extra != 0
             ctx.showVariables('a','b','c');
         }else{
@@ -48,4 +49,4 @@ One of the coolest uses of hide/show functionality are :ref:`Magic Rows<magicRow
 
 .. note::
 
-    To guarantee proper behaviour, start by hiding all variables that might be hidden at some point and then have them be shown as the conditions required are met. It also helps with readibility
+    To guarantee proper behaviour, **start by hiding all variables** that might be hidden at some point and then have them be shown as the conditions required are met. It also helps with readibility

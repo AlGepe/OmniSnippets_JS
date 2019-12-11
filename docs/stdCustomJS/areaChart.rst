@@ -44,28 +44,30 @@ Let's look that the example code now:
     'use strict';
 
     omni.onResult(['a','b','offset1','n1','n2', 'offset2'],function(ctx){
-    var chartData = [],
-        n1 = ctx.getNumberValue('n1'),        
-        n2 = ctx.getNumberValue('n2'),
-        offset1 = ctx.getNumberValue('offset1'),
-        offset2 = ctx.getNumberValue('offset2'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b');
-    for(var i = a; i <= b; i+=0.5){
-        chartData.push([mathjs.round(i,2), // x-value
-                        ,              // blank data to match colors
-                        mathjs.pow(i, n1)+offset1, // blue2 y-value
-                        ,,,,,         // black data to match color
-                        mathjs.pow(i, n2)+offset2  // orange y-value
-                    ]);
-    }
-    ctx.addChart({type: 'area',
-                    labels: ['x',, 'y2',,,,,, 'y1'],
-                    data: chartData,
-                    title: "Chart",
-                    afterVariable: "",
-                    alwaysShown: false
-                });
+
+        var chartData = [],
+            n1 = ctx.getNumberValue('n1'),        
+            n2 = ctx.getNumberValue('n2'),
+            offset1 = ctx.getNumberValue('offset1'),
+            offset2 = ctx.getNumberValue('offset2'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b');
+
+        for(var i = a; i <= b; i+=0.5){
+            chartData.push([mathjs.round(i,2), // x-value
+                            ,              // blank data to match colors
+                            mathjs.pow(i, n1)+offset1, // blue2 y-value
+                            ,,,,,         // black data to match color
+                            mathjs.pow(i, n2)+offset2  // orange y-value
+                           ]);
+        }
+        ctx.addChart({type: 'area',
+                      labels: ['x',, 'y2',,,,,, 'y1'],
+                      data: chartData,
+                      title: "Chart",
+                      afterVariable: "",
+                      alwaysShown: false
+                    });
     });
 
 As you can see, there is little to not difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.

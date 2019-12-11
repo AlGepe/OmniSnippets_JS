@@ -41,28 +41,29 @@ Let's look that the example code now:
 
     omni.onResult(['a','b','offset1','n1','n2','offset2'],function(ctx){
 
-    var chartData = [],
-        n1 = ctx.getNumberValue('n1'),
-        n2 = ctx.getNumberValue('n2'),
-        offset1 = ctx.getNumberValue('offset1'),
-        offset2 = ctx.getNumberValue('offset2'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b');
-    for(var i = a; i <= b; i++){
-        chartData.push([mathjs.format(i,2), // x-value
-                        ,,,,,,              // blank data to match colors
-                        mathjs.pow(i, n2)+offset2, // yellow2 y-value
-                        ,,                 // black data to match color
-                        mathjs.pow(i, n1)+offset1 // red y-value
-                    ]);
-    }
-    ctx.addChart({type: 'line',
+        var chartData = [],
+            n1 = ctx.getNumberValue('n1'),
+            n2 = ctx.getNumberValue('n2'),
+            offset1 = ctx.getNumberValue('offset1'),
+            offset2 = ctx.getNumberValue('offset2'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b');
+
+        for(var i = a; i <= b; i++){
+            chartData.push([mathjs.format(i,2), // x-value
+                            ,,,,,,              // blank data to match colors
+                            mathjs.pow(i, n2)+offset2, // yellow2 y-value
+                            ,,                 // black data to match color
+                            mathjs.pow(i, n1)+offset1 // red y-value
+                           ]);
+        }
+        ctx.addChart({type: 'line',
                     labels: ['x',,,,,,, 'y2',,, 'y1'],
                     data: chartData,
                     title: "Chart",
                     afterVariable: "",
                     alwaysShown: false
-                });
+                    });
     });
 
 
