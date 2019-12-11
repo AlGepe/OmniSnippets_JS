@@ -19,7 +19,7 @@ For our example we have 4 variables, whose value is set by the user directly. We
    :alt: list of colours available for Omni charts
    :align: center
 
-   Example of a pie chart with two user defined functions
+   Example of a pie chart with 4 user defined values
 
 Unfortunatelly we don't really get to chose colors in a ``pie`` chart, eventhough the possibility is technically there. We will see more after the example code.
 
