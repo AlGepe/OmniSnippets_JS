@@ -1,36 +1,14 @@
-+ Daniel
-
-+ Darek
-
-+ Jack
-
-Reina
-
-+Natalia
-
-Farhan
-
 Magda
-
-+ Mateusz
 
 Kasia
 
-+ Bogna
-
-+ Dominik
-
-Wojtek
-
-Marysia
+Wojtek Sas
 
 Dominika
 
 Ola
 
 Rita
-
-Steve
 
 Tomek
 
@@ -46,4 +24,33 @@ Julia
 
 Jasmine
 
-Alvaro
+Miroslav
+
+Wojtek Z
+
+Eliza
+
++ Daniel
+
++ Darek
+
++ Jack
+
++ Reina
+
++ Natalia
+
++ Farhan
+
++ Mateusz
+
++ Bogna
+
++ Steve
+
++ Alvaro
+
++ Marysia
+
++ Dominik
+

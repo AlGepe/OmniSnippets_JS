@@ -20,8 +20,8 @@ Let's take a look at how to add an image in your calculator. For this example we
 .. code-block:: javascript
 
     ctx.addHtml("<center>Whatever text I want to put the image"+
-                +"<img width=80% alt='AltTxt of image' src=https://uploads-cdn.omnicalculator.com/images/nameOfImage.xxx></center>"+
-                +"Text after the image",
+                "<img width=80% alt='AltTxt of image' src=https://uploads-cdn.omnicalculator.com/images/nameOfImage.xxx></center>"+
+                "Text after the image",
                 {afterVariable:'myVariable', alwaysShown: false}
                 );
 
