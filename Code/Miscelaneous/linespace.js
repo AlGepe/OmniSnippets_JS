@@ -22,9 +22,5 @@ function linespace(nPoints, initValue, endValue){
     for (var i=initValue; i <= endValue; i += stepSize){
         myArray.push(i);
     }
-  if (myArray[0] < myArray[1]){
-    return myArray.reverse();
-  }else{
-    return myArray;
-  }
+    return (myArray[0] < myArray[1]) ? myArray.reverse() : myArray;
 }
