@@ -10,7 +10,7 @@
 Programming vs Witchcraft, how to tell them apart
 =================================================
 
-A program is a text file [#f1]_ that contains precise instructions understandable by a computer. The computer will perform these instructions in order as they are written (from top to bottom).
+A program is a text file [#f1]_ that contains precise instructions understandable by a computer. The computer will perform these instructions in the order as they are written (from top to bottom).
 
 For a computer to understand a program you need to follow a certain convention, which is often called the **syntax**. The syntax is specific to each programming language, but here we will only talk about the javascript syntax (and maybe html if you ask nicely). Bare in mind that even if the syntax is language-dependent, most of the **concepts are the same across different programming languages** [#f2]_.
 
