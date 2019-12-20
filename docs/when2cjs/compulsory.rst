@@ -13,7 +13,7 @@ And now we get to the interesting part of this section: the calculators for whic
 Presets
 ~~~~~~~
 
-This set of calculators are those who **simplify the input** by gathering multiple variables under one input field. In this examples the user is presented with a drop-down many with a fixed list of options. Upon selection, other variables are internally set to the corresponding values **without the user having to deal with technical parameters**. All this is accomplished using *Value Select* and *Value Setter* customJS variables.
+This set of calculators are those who **simplify the input** by gathering multiple variables under one input field. In these examples the user is presented with a drop-down many with a fixed list of options. Upon selection, other variables are internally set to the corresponding values **without the user having to deal with technical parameters**. All this is accomplished using *Value Select* and *Value Setter* customJS variables.
 
 .. seealso::
 
