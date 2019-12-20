@@ -47,4 +47,4 @@ Example
 ~~~~~~~
 
 For a simple example, please refer to the `Factorial Calculator
-<https://bb.omnicalculator.com/#/calculators/395>`__
+<https://bb.omnicalculator.com/#/calculators/395>`__.
