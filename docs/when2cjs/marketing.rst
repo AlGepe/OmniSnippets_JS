@@ -6,7 +6,7 @@ There are times in life when one must surrender its own needs and desires for a 
 
 In all seriousness, though, marketing calculators are a special breed of calculators. Marketing calculators have different goals than regular calculators and therefore the **regular rules and guidelines don't really apply** here.
 
-In marketing calculators customJS is mostly use for **improving the user experience and fun-factor** of the calculator. Occasionally it might even reduce the capabilities of the calculator since the main aim of it is not to solve a problem but to engage and entertain the user. 
+In marketing calculators customJS is mostly used for **improving the user experience and fun-factor** of the calculator. Occasionally it might even reduce the capabilities of the calculator since the main aim of it is not to solve a problem but to engage and entertain the user. 
 
 There are countless examples of these calculators but have curated some of the (subjectively [#f12]_) best marketing calculators of all time:
 
