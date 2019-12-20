@@ -2,7 +2,7 @@
 *Le* Marketing (surrender your freedom for a greater good)
 ----------------------------------------------------------
 
-There are times in life when one must surrender its own needs and desires for a greater good. For calculatorians this time has been given the name of **Marketing Calculators** . And just as a good soldier must follow orders even against their own interest, calculatorians must follow the guidance of the Marketing Team when the time comes. 
+There are times in life when one must surrender its own needs and desires for a greater good. For calculatorians this time has been given the name of **Marketing Calculators**. And just as a good soldier must follow orders even against their own interest, calculatorians must follow the guidance of the Marketing Team when the time comes. 
 
 In all seriousness, though, marketing calculators are a special breed of calculators. Marketing calculators have different goals than regular calculators and therefore the **regular rules and guidelines don't really apply** here.
 
