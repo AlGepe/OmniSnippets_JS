@@ -19,7 +19,7 @@ This set of calculators are those who **simplify the input** by gathering multip
 
     You can learn more about :ref:`Value Setter <vSetter>` in the corresponding section. 
     
-    For now it's enough to know it gives the user the option to changes the values of multiple variables at the same time via predefined tables.
+    For now it's enough to know it gives the user the option to change the values of multiple variables at the same time via predefined tables.
 
 Here are some examples of calculators that require presets:
 
