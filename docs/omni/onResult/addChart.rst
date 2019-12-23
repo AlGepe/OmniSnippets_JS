@@ -29,7 +29,7 @@ Each value of the key-value pair on the input is of a different type, so we need
 Arguments
 ~~~~~~~~~
 
-The argument of this function is by far the most complicated. It is a dictionary with key-value pairs described in the table below. However, each value can be a complicated type itseld and, on top of that, not all types of charts support all the pairs. If you want to learn more about each specific type, check the below.
+The argument of this function is by far the most complicated. It is a dictionary with key-value pairs described in the table below. However, each value can be a complicated type itself and, on top of that, not all types of charts support all the pairs. If you want to learn more about each specific type, check the below.
     
 +---------------+----------------------------+----------+----------------------------------------------------------+
 | Key           | valueType                  | Required | Description                                              |
