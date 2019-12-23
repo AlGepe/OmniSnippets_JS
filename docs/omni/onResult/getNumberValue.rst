@@ -49,7 +49,7 @@ To get the numerical values of all variables in the calculator use:
 If any of the variables don't have a value (e.g.: the field is still empty) the function returns ``undefined``. You can learn more about this type of variable in the section :ref:`Stranger values you'll find in customJS<strangeVals>`
 
 .. note::
-    All the versions of this function have similar behaviour to the ``toNumber()`` method. The difference being that ``getNumberValue`` works for all variable but only inside ``onResult`` while ``toNumber()`` works both in ``onResult`` contexts and inside ``omni.define`` functions but only for variables that have been passed as an argument.
+    All the versions of this function have similar behaviour to the ``toNumber()`` method. The difference being that ``getNumberValue`` works for all variables but only inside ``onResult`` while ``toNumber()`` works both in ``onResult`` contexts and inside ``omni.define`` functions but only for variables that have been passed as an argument.
 
 
 Arguments
