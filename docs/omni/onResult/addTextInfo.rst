@@ -5,7 +5,7 @@ Add text in the calculator
 
 With this function you can add text to your calculator in between variables.
 
-It can be used as explanation for fields, variables... It can be used as a customized output or it can be used a way to complement the results and make them more understandable.
+It can be used as explanation for fields, variables... It can be used as a customized output or it can be used as a way to complement the results and make them more understandable.
 
 This function is a simplified version of :ref:`addHtml<addHtml>` also available in the ``onResult`` context. Whenever possible ``addText`` is preferred to ``addHtml`` because it makes it easier to port the calculator to other platforms and languages.  
 
