@@ -37,7 +37,7 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['tots'],function(ctx){
+    omni.onResult(['tots'], function(ctx){
         var chartData = [{name: 'A-llegedly', value: ctx.getNumberValue('a')},
                          //{},{},{},{name:''},{},{},
                          {name: 'Might B' , value: ctx.getNumberValue('b')},
