@@ -30,7 +30,7 @@ We have chosen the following colours for this chart: **blue2** (for ``n1`` and `
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB.
 
 Code and comments
 -----------------
@@ -82,4 +82,4 @@ The area chart is a very useful alternative to the ``bar`` chart for continuous 
 
 .. rubric:: Footnotes
 
-.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value
+.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value.
