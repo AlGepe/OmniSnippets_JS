@@ -2,7 +2,7 @@
 How to create an area chart
 ===========================
 
-We are now going to take a look at how to create a ``area`` chart, but this time we will not use statically created values like in the section :ref:`addChart<addChart>`.
+We are now going to take a look at how to create an ``area`` chart, but this time we will not use statically created values like in the section :ref:`addChart<addChart>`.
 
 When making a calculator the data normally has to be... calculated (surprising, right?) based on the input given by the user. Behind this calculation there is always a **function that depends on some parameters**, normally it's either *x* or *time*, but could be anything.
 
@@ -13,7 +13,7 @@ Practical example
 
 We first define the example function: ``f(x) = xⁿ + offset``. We will display the data from ``x = a`` to ``x = b``. The user will input two different values for ``n`` and ``offset`` giving us the chance to show several datasets in one graph.
 
-Our goal here is to create a area chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
+Our goal here is to create an area chart that will show two different functions together. The user will define ``n`` and ``offset`` for each of our functions. 
 
 .. _areaChartIMG:
 .. figure:: areaChart.png
@@ -21,7 +21,7 @@ Our goal here is to create a area chart that will show two different functions t
    :alt: Example of area chart
    :align: center
 
-   Example of a area chart with two user defined functions
+   Example of an area chart with two user defined functions
 
 We have chosen the following colours for this chart: **blue2** (for ``n1`` and ``offset1``) and **orange** (for ``n2`` and ``offset2``) which corresponds to positions **2** and **8** in the array of data [#f1]_ as shown in the :ref:`color coding in charts <colorChart>` picture we showed in a previous section.
 
