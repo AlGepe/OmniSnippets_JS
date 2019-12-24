@@ -70,7 +70,7 @@ Let's look that the example code now:
                     });
     });
 
-As you can see, there is little to not difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
+As you can see, there is little to no difference between making a basic ``area`` chart and making a ``line`` or ``bar`` chart. We have purposely not activated the option to *stack* the data as this option is very prone ot errors.
 
 .. warning::
     **WARNING**: *Stacking* option only works in very specific and simple scenarios. Before you use it we recommend you check the section :ref:`Stacking a.k.a. playing Jenga<brokenStacking>`.
