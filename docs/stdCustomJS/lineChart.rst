@@ -50,7 +50,7 @@ Let's look that the example code now:
             b = ctx.getNumberValue('b');
 
         for (var i = a; i <= b; i++){
-            chartData.push([mathjs.format(i,2), // x-value
+            chartData.push([mathjs.format(i, 2), // x-value
                             ,,,,,,              // blank data to match colors
                             mathjs.pow(i, n2) + offset2, // yellow2 y-value
                             ,,                 // black data to match color
