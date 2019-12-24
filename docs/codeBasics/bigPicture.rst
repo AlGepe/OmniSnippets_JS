@@ -28,7 +28,7 @@ Instead use this flexibility to **write code that's easy to understand** at firs
 
 .. seealso::
     
-    If you want to learn more about the recommendations and conventions take a look at the section on :ref:`Programing best practices<bestpractices>`
+    If you want to learn more about the recommendations and conventions take a look at the section on :ref:`Programming best practices<bestpractices>`
 
 
 .. rubric:: footnotes
