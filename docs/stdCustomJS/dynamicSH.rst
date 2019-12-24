@@ -33,9 +33,9 @@ In our example the calculator performs two different operations with completely 
     omni.onResult(function(ctx){
         ctx.hideVariables('a','b','c','other_a','other_b','other_c');
 
-        if(ctx.getNumberValue('extra')){ //extra != 0
+        if (ctx.getNumberValue('extra')){ //extra != 0
             ctx.showVariables('a','b','c');
-        }else{
+        } else {
             ctx.showVariables('other_a','other_b','other_c');
         }
     });
