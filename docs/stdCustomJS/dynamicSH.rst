@@ -49,4 +49,4 @@ One of the coolest uses of hide/show functionality are :ref:`Magic Rows<magicRow
 
 .. note::
 
-    To guarantee proper behaviour, **start by hiding all variables** that might be hidden at some point and then have them be shown as the conditions required are met. It also helps with readibility
+    To guarantee proper behaviour, **start by hiding all variables** that might be hidden at some point and then have them be shown as the conditions required are met. It also helps with readability
