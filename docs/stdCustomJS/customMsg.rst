@@ -27,13 +27,13 @@ In this example we will make a custom message for our calculator. It will appear
 
     'use strict';
     omni.onResult(function(ctx){
-    ctx.addTextInfo('The fields "A" and "other A" are idenpendent of each other', 
+    ctx.addTextInfo('The fields "A" and "other A" are independent of each other', 
                     {afterVariable: 'c'}
                    );
     });
 
 .. note::
-	For the message to be shown at all times we need to trigger ``onResult`` from the beginig. We can do that by setting default values on our variables.
+	For the message to be shown at all times we need to trigger ``onResult`` from the beginning. We can do that by setting default values on our variables.
 
 This kind of message is typically used as a second title for the calculator, mostly when the variable above switches between different behaviours in the calculator. It can also be used as an alternative to **Text row before** to separate variables in a calculator without creating different blocks of calculator.
 
