@@ -54,7 +54,7 @@ Here we have the examples of the most basic options from customJS that are not j
 Advanced
 --------
 
-This are usages of customJS that go further, and effectively create new functionalities. Each function is still used for what it was intended but with some clever tricks we can get new features from them. Some even require usage of strange javascript functions but in general they are just a combination of those used in the **Basics** section.
+These are usages of customJS that go further, and effectively create new functionalities. Each function is still used for what it was intended but with some clever tricks we can get new features from them. Some even require usage of strange javascript functions but in general they are just a combination of those used in the **Basics** section.
 
 .. toctree::
     :maxdepth: 1
