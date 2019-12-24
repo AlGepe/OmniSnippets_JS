@@ -21,7 +21,7 @@ For our example we have 4 variables, whose value is set by the user directly. We
 
    Example of a pie chart with 4 user defined values
 
-Unfortunatelly we don't really get to chose colors in a ``pie`` chart, eventhough the possibility is technically there. We will see more after the example code.
+Unfortunately we don't really get to chose colors in a ``pie`` chart, even though the possibility is technically there. We will see more after the example code.
 
 .. seealso::
     We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (pie) <https://bb.omnicalculator.com/#/calculators/1992>`__ on BB
