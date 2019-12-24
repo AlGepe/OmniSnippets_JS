@@ -90,5 +90,5 @@ Here is an example of the code of an image that uses all the attributes:
 
 .. code-block:: HTML
 
-    <img alt='decription of the img' width='75%' align='middle' src='https://uploads-cdn.omnicalculator.com/images/Al_docs_Summer.png'>
+    <img alt='description of the img' width='75%' align='middle' src='https://uploads-cdn.omnicalculator.com/images/Al_docs_Summer.png'>
 
