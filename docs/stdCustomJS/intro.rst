@@ -25,7 +25,7 @@ The standard usages of customJS have been divided in three sections: Basics, Adv
 If you are looking for unexpected uses of Omni's customJS functions and *hacks*
 to work around the implicit limitations of the current system, then head to
 :ref:`From Calculatorian to Calculatorian <c2c>` where we will also teach you
-way to write better code and do more by working less [#f1]_.
+ways to write better code and do more by working less [#f1]_.
 
 .. _basicCJS:
 Basics
