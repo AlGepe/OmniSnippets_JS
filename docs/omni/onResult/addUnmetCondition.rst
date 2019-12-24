@@ -42,6 +42,6 @@ A string containing the error message you want the user to see. Since the positi
 
     If you are planning to use this function make sure to set the conditions
     you want correctly and manage the error in a way that the user is not
-    confused by it. A typical way to handle and error is to hiden the variable
+    confused by it. A typical way to handle and error is to hidden the variable
     that will have a strange value such as ``NaN`` or ``Infinity``.
 
