@@ -2,7 +2,7 @@
 Dynamic Show show/hide variables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We will explain how to show and hide variables dynamically. This is used in situation where the calculator my have many **different behaviours** with some variables associated to certain calculation but not to others.
+We will explain how to show and hide variables dynamically. This is used in situations where the calculator my have many **different behaviours** with some variables associated to certain calculation but not to others.
 
 It can also be used to **give the user extra options** or functionality in certain scenarios. You can see a standard example of this when we talk about :ref:`Value setter with custom options<hideShowVS>`
 
