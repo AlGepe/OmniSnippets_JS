@@ -30,7 +30,7 @@ We have chosen the following colours for this chart: **red2** (for ``n1`` and ``
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (bar) <https://bb.omnicalculator.com/#/calculators/1993>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (bar) <https://bb.omnicalculator.com/#/calculators/1993>`__ on BB.
 
 Code and comments
 -----------------
@@ -81,4 +81,4 @@ The ``bar`` chart is ideal for situations in which data is presented in chunks (
 
 .. rubric:: Footnotes
 
-.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value
+.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value.
