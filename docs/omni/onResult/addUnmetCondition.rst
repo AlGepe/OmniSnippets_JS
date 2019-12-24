@@ -12,7 +12,7 @@ We tend to favour customJS version of bb functionality for flexibility, but in t
 Syntax:
 ~~~~~~~
 
-Since the function only show the error message the syntax is very simple. If you plan on implementing this function remember to set up proper conditions. Using statements like ``if``, ``else``, ``switch``... You can learn more about them in the section about :ref:`javascript statements<execOrder>`.
+Since the function only shows an error message the syntax is very simple. If you plan on implementing this function remember to set up proper conditions. Using statements like ``if``, ``else``, ``switch``... You can learn more about them in the section about :ref:`javascript statements<execOrder>`.
 
 .. code-block:: javascript
 
