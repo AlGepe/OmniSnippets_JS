@@ -43,7 +43,7 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['a','b','offset1','n1','n2','offset2'],function(ctx){
+    omni.onResult(['a','b','offset1','n1','n2','offset2'], function(ctx){
 
         var chartData = [],
             n1 = ctx.getNumberValue('n1'),
@@ -53,11 +53,11 @@ Let's look that the example code now:
             a = ctx.getNumberValue('a'),
             b = ctx.getNumberValue('b');
 
-        for(var i = a; i <= b; i++){
-            chartData.push([mathjs.format(i,2), // x-value
-                            mathjs.pow(i, n2)+offset2, // blue y-value
+        for (var i = a; i <= b; i++){
+            chartData.push([mathjs.format(i, 2), // x-value
+                            mathjs.pow(i, n2) + offset2, // blue y-value
                             ,,,,,,,,,      // black data to match color
-                            mathjs.pow(i, n1)+offset1 // red2 y-value
+                            mathjs.pow(i, n1) + offset1 // red2 y-value
                            ]);
         }
         ctx.addChart({type: 'bar',
