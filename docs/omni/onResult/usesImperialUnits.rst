@@ -7,7 +7,7 @@ A function that returns a :ref:`boolean<bool>` informing about the default measu
 
 .. note::
 
-    If you want to obtain the location of the user, the recomended function is :ref:`getCountryCode<getCC>` available inside :ref:`onInit<onInit>` context.
+    If you want to obtain the location of the user, the recommended function is :ref:`getCountryCode<getCC>` available inside :ref:`onInit<onInit>` context.
 
 The function doesn't inform about the current choice of units but only about
 the default system of measurement (imperial vs metric).
@@ -20,7 +20,7 @@ and save the resulting boolean in a variable use:
 
 .. code-block:: javascript
 
-    var defaulImperial = ctx.usesImperialUnits();
+    var defaultImperial = ctx.usesImperialUnits();
 
 .. warning::
 
