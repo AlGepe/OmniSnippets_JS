@@ -2,7 +2,7 @@
 Dynamic table under calculator
 ==============================
 
-Another useful addition to your calculator is a table. This is specially interesting for finance calculators since they tend to manage big amounts of data over different periods of time.
+Another useful addition to your calculator is a table. This is especially interesting for finance calculators since they tend to manage big amounts of data over different periods of time.
 
 To create a table, the data needs to be arranged in a **similar way to that of a chart**. We will show you here how to dynamically create this data so that it will be reactive to the user's input.
 
