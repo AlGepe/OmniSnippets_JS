@@ -12,7 +12,7 @@ Standard usage of customJS
 
 Welcome to the compilation of use cases and examples of how to use customJS to get what you want. If the :ref:`technical documentation of Omni's customJS functions<omni>` was boring, don't worry, I fell asleep writing it a couple times.
 
-Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-types-of-fun/>`__) and take a more relax look at how to actually use all those commands.
+Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-types-of-fun/>`__) and take a more relaxed look at how to actually use all those commands.
 
 For each of the examples/usages we have also built a **sample calculator**. This are very simple calculator just to showcase the behaviour. Feel free to copy their code into your calculator or play around with them but **DO NOT SAVE ANY CHANGES**.
 
