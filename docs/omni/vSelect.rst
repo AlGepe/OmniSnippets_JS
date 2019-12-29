@@ -32,7 +32,7 @@ Let's look at at the syntax for defining ``data``:
     var data = {uniqueIdentifier1: { name: 'NameOfItem1', value: 'valueOfItem1' },
                 uniqueIdentifier2: { name: 'NameOfItem2', value: 'valueOfItem2' },
                 // Add as many items as you need...
-                });
+                };
 
 +-------------+----------+---------------------------------------------+------------+
 | Name        | Type     | Description                                 | Required   |
