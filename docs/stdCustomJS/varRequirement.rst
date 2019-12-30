@@ -42,4 +42,4 @@ This example makes use of the `modulo operator
 
 .. rubric:: Footnotes
 
-.. [#f1] Also mathematical symbols like ``/``, ``+``, ``-`` and ``*`` and the letter ``e`` as Euler's number
+.. [#f1] Also mathematical symbols like ``/``, ``+``, ``-`` and ``*`` and the letter ``e`` as Euler's number.
