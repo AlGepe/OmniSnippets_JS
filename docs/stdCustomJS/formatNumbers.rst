@@ -86,7 +86,7 @@ Here is the code:
 .. code-block:: javascript
 
     function numberWithCommas(x, separator) {
-        if(separator == undefined){separator = ',';}
+        if (separator == undefined) { separator = ','; }
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, separator);
     }
 
