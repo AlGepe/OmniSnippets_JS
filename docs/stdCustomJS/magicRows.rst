@@ -28,27 +28,27 @@ Here is the code used in the calculator:
     var firstNumber = 0,
         nVariables = 10,
         defaultShown = 2,
-        endNumber = firstNumber+nVariables-1,
+        endNumber = firstNumber + nVariables - 1,
         prefix = 'a';
 
-    omni.onResult([], function(ctx){ 
+    omni.onResult([], function(ctx) { 
         var i,
             stopHiding = false,
             displayed = defaultShown;
         // Hide all variables you might hide (standard protocol)
-        for(i = firstNumber+defaultShown; i <= endNumber;i++){
-            ctx.hideVariables(prefix+i);
+        for (i = firstNumber+defaultShown; i <= endNumber; i++) {
+            ctx.hideVariables(prefix + i);
         }
         // Show if any previous value is not undefined
-        for(i = endNumber; i >= firstNumber+defaultShown;i--){
-            if(ctx.getNumberValue(prefix+(i-1)) !== undefined || stopHiding)
+        for (i = endNumber; i >= firstNumber + defaultShown; i--) {
+            if (ctx.getNumberValue(prefix + (i - 1)) !== undefined || stopHiding)
             {
                 displayed++; 
-                ctx.showVariables(prefix+(i));
+                ctx.showVariables(prefix + (i));
                 stopHiding = true;
             }
         }
-        ctx.addHtml("Number of `magic variables` displayed: "+(displayed));
+        ctx.addHtml("Number of `magic variables` displayed: " + (displayed));
     });
 
 This version of the magic rows is basically a **drop-in addition to your calculator**. If you want exactly this behaviour you can simply copy and paste the code into your calculator and just change the configuration values according to your needs.
