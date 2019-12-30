@@ -36,17 +36,17 @@ Let's look at the code now:
     :emphasize-lines: 9, 10
 
     'use strict';
-    omni.onResult(['a','b','offset','n'],function (ctx){
+    omni.onResult(['a','b','offset','n'],function (ctx) {
         var chartData = [],
             n = ctx.getNumberValue('n'),
             a = ctx.getNumberValue('a'),
             b = ctx.getNumberValue('b'),
             offset = ctx.getNumberValue('offset'),
             nSteps = ctx.getNumberValue( 'nSteps'),
-            iterStep = mathjs.abs(a-b)/(nSteps-1);
-        for(var i = a; i <= b; i += iterStep){
+            iterStep = mathjs.abs(a - b)/(nSteps - 1);
+        for (var i = a; i <= b; i += iterStep) {
             chartData.push([mathjs.format(i,2), // x-value
-                            mathjs.pow(i, n)+offset // y-value
+                            mathjs.pow(i, n) + offset // y-value
                           ]);
         }
         ctx.addChart({type: 'line', 
@@ -58,7 +58,7 @@ Let's look at the code now:
                     });
     });
 
-The relevant lines have been highlighted, in them we first **define an iteration step**, based on number of steps we want, and then we use that iteration step in our ``for`` loop. Adding the *"or equal"* part of the condition in the loop and using ``nSteps-1`` guarantees we will have exactly the number of points we want.
+The relevant lines have been highlighted, in them we first **define an iteration step**, based on number of steps we want, and then we use that iteration step in our ``for`` loop. Adding the *"or equal"* part of the condition in the loop and using ``nSteps - 1`` guarantees we will have exactly the number of points we want.
 
 .. note:: 
     In this calculator ``nStep`` can be changed by the user in *Advanced Mode* only so that we can easily interact with it. In most calculators this number will be hard-set by the calculatorian in the code.
@@ -85,28 +85,28 @@ Let's take a look at an example:
         nY:{"name":"bar" ,"value":"2"},
         n: {"name":"pie" ,"value":"4"}
     });
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         ctx.bindValueSelect(aB, 'chartType');
         ctx.setDefault('chartType', "0");
     });
 
-    omni.onResult(['a','b','offset','n'],function(ctx){
+    omni.onResult(['a','b','offset','n'],function(ctx) {
         var chartData = [],
             n = ctx.getNumberValue('n'),
             a = ctx.getNumberValue('a'),
             b = ctx.getNumberValue('b'),
             offset = ctx.getNumberValue('offset'),
-            iterStep = mathjs.abs(a-b)/99,
+            iterStep = mathjs.abs(a - b)/99,
             chartType = ctx.getNumberValue('chartType'),
             chartName = ['line', 'area', 'bar', 'pie'];
-        for(var i = a; i <= b; i += iterStep){
-            chartData.push([mathjs.format(i,2), // x
-                            mathjs.pow(i, n)+offset // y
+        for (var i = a; i <= b; i += iterStep) {
+            chartData.push([mathjs.format(i, 2), // x
+                            mathjs.pow(i, n) + offset // y
                             ]);
             }
-        if(chartType == 4){
+        if (chartType == 4) {
             ctx.addHtml('The <strike>CAKE</strike> pie is a lie');
-        }else{
+        } else {
             ctx.addChart({type: chartName[chartType],
                         labels: ['x', 'y1'],
                         data: chartData,
@@ -177,36 +177,36 @@ Let's see the code:
 
     'use strict';
 
-    omni.onResult(['a','b','offset1'],function(ctx){
-    var chartData = [],
-        n1 = ctx.getNumberValue('n1'),
-        n2 = ctx.getNumberValue('n2'),
-        offset1 = ctx.getNumberValue('offset1'),
-        offset2 = ctx.getNumberValue('offset2'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b'),
-        onePoint =[],
-        yValue,
-        nSteps = 10,
-        iterStep = mathjs.abs(a-b)/(nSteps-1);
+    omni.onResult(['a','b','offset1'],function(ctx) {
+        var chartData = [],
+            n1 = ctx.getNumberValue('n1'),
+            n2 = ctx.getNumberValue('n2'),
+            offset1 = ctx.getNumberValue('offset1'),
+            offset2 = ctx.getNumberValue('offset2'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b'),
+            onePoint =[],
+            yValue,
+            nSteps = 10,
+            iterStep = mathjs.abs(a - b)/(nSteps - 1);
 
-    for(var i = a; i <= b; i += iterStep){  
-        yValue = mathjs.round(mathjs.cos(i)*i+offset1, 2);
-        if(yValue >= 0){ 
-            onePoint = [mathjs.format(i,2), yValue];
+        for (var i = a; i <= b; i += iterStep) {
+            yValue = mathjs.round(mathjs.cos(i) * i + offset1, 2);
+            if (yValue >= 0) { 
+              onePoint = [mathjs.format(i, 2), yValue];
+            }
+            else {
+              onePoint = [mathjs.format(i, 2),,,,,,,,,, yValue]; 
+            }
+            chartData.push(onePoint);
         }
-        else{
-            onePoint = [mathjs.format(i,2),,,,,,,,,, yValue]; 
-        }
-        chartData.push(onePoint);
-    }
         ctx.addChart({type: 'bar',
                       labels: ['x', 'Positive',,,,,,,,, 'Negative'],
                       data: chartData,
                       title: "Chart",
                       afterVariable: "",
                       alwaysShown: false 
-                    });
+                     });
     });
 
 You can see here that the value of the function is stored in a **different position in the array** depending on its value. This corresponds to a different colour.
