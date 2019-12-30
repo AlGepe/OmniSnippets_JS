@@ -22,7 +22,7 @@ To react to user input we need to setup conditions on which and where we set the
 Array method
 ------------
 
-This method is typically used to show images at the top of the calculator. For it to be applicable we need to ((be able to predict all the possible values** of the variable controlling which image we will show.
+This method is typically used to show images at the top of the calculator. For it to be applicable we need to **be able to predict all the possible values** of the variable controlling which image we will show.
 
 .. seealso::
     Check out the resulting calculator at `Dynamic Image (Array) <https://bb.omnicalculator.com/#/calculators/1945>`__ on BB.
