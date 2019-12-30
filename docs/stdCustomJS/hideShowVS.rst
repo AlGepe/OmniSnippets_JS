@@ -12,7 +12,7 @@ We will use the same example as in the :ref:`Value Setter Basics<vSetterBasic>` 
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Custom Option) <https://bb.omnicalculator.com/#/calculators/2039>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Custom Option) <https://bb.omnicalculator.com/#/calculators/2039>`__ on BB.
 
 Here is the code needed to create said behaviour:
 
@@ -52,7 +52,7 @@ Here is the code needed to create said behaviour:
         {"name": "Enter your own", "uid": "0", "values": {}},
     ];
 
-As you can see, the only necessary steps are to create a new entry with a different ``uid`` and no values attached. This last part is crucial since **allows the user to input any number anywhere** without the selection in the value setter changing.
+As you can see, the only necessary steps are to create a new entry with a different ``uid`` and no values attached. This last part is crucial since it **allows the user to input any number anywhere** without the selection in the value setter changing.
 
 .. note::
     Once again we have used the trick of defining the special behaviour under ``uid = 0`` so that the condition inside the ``if`` on line *10* is as simple as possible.
