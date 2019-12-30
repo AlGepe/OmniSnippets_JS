@@ -56,7 +56,7 @@ And this is how you would write the customJS to take advantage of ``stacks``:
                 });
     });
 
-In this example the dataset ``y3`` is stack on top of ``y2`` which is also stack on top of ``y1``. The scenario works without a problem and the only concern here should be **order of datasets**.
+In this example the dataset ``y3`` is stacked on top of ``y2`` which is also stacked on top of ``y1``. The scenario works without a problem and the only concern here should be the **order of datasets**.
 
 The stacking order is given by the position in the ``chartData`` array and not in the ``column`` options. Also note that if the sum of the stacking variables is 0 (zero) you will **still see data from the first dataset**, but not from the second one.
 
