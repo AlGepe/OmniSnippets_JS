@@ -7,7 +7,7 @@ We will now take a look at how to operate with numbers to change their appearanc
 Technically there are infinite ways to format numbers according to our needs.  To keep this documentation finite and relevant, we have chosen a couple of typical scenarios you might find useful when making a calculator.
 
 .. seealso::
-    We have created a calculator showcasing this techniques. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB
+    We have created a calculator showcasing this techniques. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB.
 
 .. rubric:: Word of caution: String vs Number types
 
@@ -29,7 +29,7 @@ Rounding
 
 Rounding is the process of **reducing the significant figures** in a number while retaining as much precision as possible. In customJS this can be done in many different ways.
 
-Let's take a look a them by rounding the number ``3.14159265`` to 4 decimal places; it should result in ``3.1416``
+Let's take a look a them by rounding the number ``3.14159265`` to 4 decimal places; it should result in ``3.1416``.
 
 Rounding (output=> number)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -40,7 +40,7 @@ If we want to round our number but retain it's type, we can use ``mathjs.round``
     
     var roundedNumber = mathjs.round(3.14159265, 4);
 
-where the second number specifies the number of decimal places we want. Other alternatives are ``mathjs.floor``, ``mathjs.ceil``, ``mathjs.fix``. You can learn more about them in the `math.js official documentation page <https://mathjs.org/docs/reference/functions#arithmetic-functions>`__
+where the second number specifies the number of decimal places we want. Other alternatives are ``mathjs.floor``, ``mathjs.ceil``, ``mathjs.fix``. You can learn more about them in the `math.js official documentation page <https://mathjs.org/docs/reference/functions#arithmetic-functions>`__.
 
 Formatting (output =>string)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,7 +54,7 @@ A similar behaviour can be achieve using the function ``mathjs.format`` with the
 .. note:: 
     ``mathjs.format`` truncates the number without modifying the value of any of its digits.
 
-You can learn more about this function and its different options in the `math.js official documentation <https://mathjs.org/docs/reference/functions/format.html>`__
+You can learn more about this function and its different options in the `math.js official documentation <https://mathjs.org/docs/reference/functions/format.html>`__.
 
 Padding
 -------
@@ -73,13 +73,13 @@ Let's look at the example:
 This code will produce a message in the calculator showing: ``003.141592``
 
 .. seealso::
-    Learn more about padding methods on the `Mozilla web docs <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart>`__ 
+    Learn more about padding methods on the `Mozilla web docs <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart>`__.
 Dot/Comma formatting
 --------------------
 
 For our last example we will take a look at how to **format very long numbers** so that instead of a continuous line of digits you will get block for 3 digits separated by a character of your choice. At Omni we use the comma (``,`` as a thousands separator and the dot (``.``) as the decimal separator. Unless you have a **VERY STRONG** reason to do otherwise, you should always follow this convention.
 
-The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a **function that takes two inputs**: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator
+The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a **function that takes two inputs**: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator.
 
 Here is the code:
 
