@@ -110,7 +110,7 @@ Let's see how we would set the default values of our variables to ``No`` for the
 
 .. code-block:: javascript
 
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         ctx.setDefault(yesNoVariable, '0');
         ctx.setDefault(star, '200');
     });
