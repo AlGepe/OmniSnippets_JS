@@ -23,13 +23,13 @@ Here is how to nest value setters so that one's options depends on the other's s
 
     var tempVSArray = [];
 
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         omni.createValueSetter('drinks', drinksVS);
         ctx.setDefault('drinks', 1);
         ctx.setDefault('temperature', 97225713); //optional
     });
 
-    omni.onResult([],function(ctx){
+    omni.onResult([], function(ctx) {
         var drinks = ctx.getNumberValue('drinks');
         omni.createValueSetter('temperature', tempVSArray[drinks]);
         ctx.addTextInfo(drinks);
