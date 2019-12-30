@@ -35,7 +35,7 @@ Here is the code for you to check:
         } else {
             omni.createValueSetter ('temperature', tempVSArray[2]);
         }
-            ctx.addTextInfo ("Selection value is: "+selection);
+        ctx.addTextInfo ("Selection value is: " + selection);
     });
 
     var tempWaterVS = [{name:"Warm (22°C/72°F)", uid:"1653661260", values:{"T":295.15}},
