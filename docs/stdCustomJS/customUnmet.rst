@@ -18,16 +18,16 @@ Let's take a look at an example of how to do this and then go over the key point
 
     'use strict';
 
-    omni.onResult(['b'],function(ctx){
+    omni.onResult(['b'], function(ctx) {
         ctx.hideVariables('c');
 
-        if(!ctx.getNumberValue('b')){
+        if (!ctx.getNumberValue('b')) {
             ctx.addUnmetCondition("Division by zero is mathematica 'undefined'");
-            ctx.addUnmetCondition("Value of "+ctx.getLabel('c')+
-                                  " is "+ctx.getNumberValue('c')+
+            ctx.addUnmetCondition("Value of " + ctx.getLabel('c') +
+                                  " is " + ctx.getNumberValue('c') +
                                   " which is not a valid result."
                                  );
-        }else{
+        } else {
             ctx.showVariables('c');
         }
     });
