@@ -77,7 +77,7 @@ This code will produce a message in the calculator showing: ``003.141592``
 Dot/Comma formatting
 --------------------
 
-For our last example we will take a look at how to **format very long numbers** so that instead of a continuous line of digits you will get block for 3 digits separated by a character of your choice. At Omni we use the comma (``,`` as a thousands separator and the dot (``.``) as the decimal separator. Unless you have a **VERY STRONG** reason to do oterwise, you should always follow this convention.
+For our last example we will take a look at how to **format very long numbers** so that instead of a continuous line of digits you will get block for 3 digits separated by a character of your choice. At Omni we use the comma (``,`` as a thousands separator and the dot (``.``) as the decimal separator. Unless you have a **VERY STRONG** reason to do otherwise, you should always follow this convention.
 
 The code to do that is available in the :ref:`customJS library<repository>`. It is supplied in the form of a **function that takes two inputs**: the number to be formatted and the separator character. If you don't supply a separator, the function defaults to using ``,`` as the separator
 
