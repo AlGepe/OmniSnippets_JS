@@ -41,22 +41,22 @@ This method is ideal for value selects and value setters with custom ``uid``.  I
         n:{"name":"Summer", "value":"1"},
         nY:{"name":"Summer Christmas", "value":"2"}
     });
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         ctx.bindValueSelect(aB, 'selection');
         ctx.setDefault('selection', 1);
     });
     /* 
         Let the magic start
     */
-    omni.onResult(function(ctx){
+    omni.onResult(function(ctx) {
         // Image on top - based on Value Select
         ctx.hideVariables('top');
         var imgs = ["summer.png",
                     "xmas.jpg",
                     "xmasSummer.jpg"
                     ];
-        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_"+
-                    imgs[ctx.getNumberValue('selection')]+">",
+        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_" +
+                    imgs[ctx.getNumberValue('selection')] + ">",
                     {afterVariable: 'top'}
                     ); 
     });
@@ -87,19 +87,19 @@ We have included a couple tricks so that **you write less text when using this m
     :linenos:
 
     'use strict';
-    omni.onResult(function(ctx){
+    omni.onResult(function(ctx) {
         // Image at the bottom - based on result
         var result = ctx.getNumberValue('a');
         var htmlStart = "<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_",
             htmlEnd = ">";
-        if(result > 0){
-            ctx.addHtml(htmlStart+ "positive.png"+ htmlEnd);
+        if (result > 0){
+            ctx.addHtml(htmlStart+ "positive.png" + htmlEnd);
         }
-        else if(result < 0){
-            ctx.addHtml(htmlStart+ "negative.jpg"+ htmlEnd);
+        else if (result < 0){
+            ctx.addHtml(htmlStart+ "negative.jpg" + htmlEnd);
         }
-        else if(result === 0){
-            ctx.addHtml(htmlStart+ "neutral.jpeg"+ htmlEnd);
+        else if (result === 0){
+            ctx.addHtml(htmlStart+ "neutral.jpeg" + htmlEnd);
         }
     });
 
@@ -131,18 +131,18 @@ In particular your preparation will consist in anticipating what images will be 
         n:{"name":"Summer", "value":"1"},
         nY:{"name":"Summer Christmas", "value":"2"}
     });
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         ctx.bindValueSelect(aB, 'selection');
         ctx.setDefault('selection', 1);
     });
     /* 
         Let the magic start
     */
-    omni.onResult(function(ctx){
+    omni.onResult(function(ctx) {
         // Image on top - based on Value Select
         ctx.hideVariables('top'); 
-        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_header"+
-                    ctx.getNumberValue('selection')+
+        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_docs_header" +
+                    ctx.getNumberValue('selection') +
                     ".jpg>",
                     {afterVariable: 'top'}
                     ); 
