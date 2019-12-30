@@ -61,7 +61,7 @@ Padding
 
 The next formatting trick involves having a **constant number of digits irrespective of the value** and precision of the number. As you can imagine, this can only be achieved by using *string* as the output format.
 
-There are two main variants of padding: ``padStart`` and ``padEnd``. The both work in a similar way. They are called as a method from the string you want to pad and you need to input the **total length of the final array** and the padding character/string.
+There are two main variants of padding: ``padStart`` and ``padEnd``. They both work in a similar way. They are called as a method from the string you want to pad and you need to input the **total length of the final array** and the padding character/string.
 
 Let's look at the example:
 
