@@ -21,19 +21,19 @@ Here is the code needed to create said behaviour:
 
     'use strict';
 
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         omni.createValueSetter('star', starVS);
         ctx.setDefault('star', 200);
     });
 
-    omni.onResult([], function(ctx){
+    omni.onResult([], function(ctx) {
         ctx.hideVariables('m_star', 'r_star', 'distance');
-        if (!ctx.getNumberValue('star')){
+        if (!ctx.getNumberValue('star')) {
             ctx.showVariables('m_star', 'r_star', 'distance');
         }
-        ctx.addTextInfo("The value of 'm_star' is: "+ctx.getNumberValue('m_star'));
-        ctx.addTextInfo("The value of 'r_star' is: "+ctx.getNumberValue('r_star'));
-        ctx.addTextInfo("The value of 'distance' is: "+ctx.getNumberValue('distance'));
+        ctx.addTextInfo("The value of 'm_star' is: " + ctx.getNumberValue('m_star'));
+        ctx.addTextInfo("The value of 'r_star' is: " + ctx.getNumberValue('r_star'));
+        ctx.addTextInfo("The value of 'distance' is: " + ctx.getNumberValue('distance'));
     });
 
     var starVS = [
