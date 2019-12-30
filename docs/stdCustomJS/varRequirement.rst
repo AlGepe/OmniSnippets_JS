@@ -38,7 +38,7 @@ We will take a look at the factorial calculator to understand how we can check f
 In this instance the trick is to **create a function** that would return a boolean (true or false) variable. This function will be used to evaluate if the variable complies with the conditions we want to impose. Then it is a matter of simply using this function inside ``onResult`` and reacting to the result accordingly.
 
 This example makes use of the `modulo operator
-<https://www.w3schools.com/js/js_arithmetic.asp>`__ also known as reminder. We can use this same operator to only allow multiples of 2, 3,... or any number we want. Alternatively we can set any condition as long as we are able to create a function that evaluates it and return ``true`` or ``false`` as desired.  
+<https://www.w3schools.com/js/js_arithmetic.asp>`__ also known as remainder. We can use this same operator to only allow multiples of 2, 3,... or any number we want. Alternatively we can set any condition as long as we are able to create a function that evaluates it and return ``true`` or ``false`` as desired.  
 
 .. rubric:: Footnotes
 
