@@ -30,7 +30,7 @@ We have chosen the following colours for this chart: **red2** (for ``n1`` and ``
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (bar) <https://bb.omnicalculator.com/#/calculators/1993>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (bar) <https://bb.omnicalculator.com/#/calculators/1993>`__ on BB.
 
 Code and comments
 -----------------
@@ -43,7 +43,7 @@ Let's look that the example code now:
 
     'use strict';
 
-    omni.onResult(['a','b','offset1','n1','n2','offset2'],function(ctx){
+    omni.onResult(['a','b','offset1','n1','n2','offset2'], function(ctx){
 
         var chartData = [],
             n1 = ctx.getNumberValue('n1'),
@@ -53,11 +53,11 @@ Let's look that the example code now:
             a = ctx.getNumberValue('a'),
             b = ctx.getNumberValue('b');
 
-        for(var i = a; i <= b; i++){
-            chartData.push([mathjs.format(i,2), // x-value
-                            mathjs.pow(i, n2)+offset2, // blue y-value
+        for (var i = a; i <= b; i++){
+            chartData.push([mathjs.format(i, 2), // x-value
+                            mathjs.pow(i, n2) + offset2, // blue y-value
                             ,,,,,,,,,      // black data to match color
-                            mathjs.pow(i, n1)+offset1 // red2 y-value
+                            mathjs.pow(i, n1) + offset1 // red2 y-value
                            ]);
         }
         ctx.addChart({type: 'bar',
@@ -69,7 +69,7 @@ Let's look that the example code now:
                     });
     });
 
-As you can see, there is little to not difference between making a basic ``bar`` chart and making a ``line`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
+As you can see, there is little to no difference between making a basic ``bar`` chart and making a ``line`` or ``area`` chart. We have purposely not activated the option to *stack* the data as this option is very prone to errors.
 
 .. warning::
     **WARNING**: *Stacking* option only works in very specific and simple scenarios. Before you use it we recommend you check the section :ref:`Stacking a.k.a. playing Jenga<brokenStacking>`.
@@ -81,4 +81,4 @@ The ``bar`` chart is ideal for situations in which data is presented in chunks (
 
 .. rubric:: Footnotes
 
-.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value
+.. [#f1] The first position in an array is the position "**0**" (zero) and corresponds to the x-value.

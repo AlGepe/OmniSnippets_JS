@@ -30,33 +30,33 @@ And this is how you would write the customJS to take advantage of ``stacks``:
 
     'use strict';
 
-    omni.onResult(['a','b','offset1'],function(ctx){
-    var chartData = [],
-        offset1 = ctx.getNumberValue('offset1'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b'),
-        onePoint =[],
-        y1, y2, y3,
-        nSteps = 50,
-        iterStep = mathjs.abs(a-b)/(nSteps-1);
-    for(var i = a; i <= b; i += iterStep){  
-        y1 = mathjs.round(mathjs.sin(i)+offset1, 2);
-        y2 = mathjs.round(mathjs.cos(i)*i/5+offset1, 2);
-        y3 = mathjs.round(mathjs.tan(mathjs.sin(i+2))+offset1, 2);
-        onePoint = [mathjs.format(i,2), y1, y2, y3];
-        chartData.push(onePoint);
-    }
-    ctx.addChart({type: 'area',
-                  labels: ['x','y1','y2','y3'],
-                  data: chartData,
-                  stacks: [{columns : [1,2,3] ,sumLabel: "Sum of Bars"}],
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
-                });
+    omni.onResult(['a', 'b', 'offset1'], function(ctx) {
+        var chartData = [],
+            offset1 = ctx.getNumberValue('offset1'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b'),
+            onePoint =[],
+            y1, y2, y3,
+            nSteps = 50,
+            iterStep = mathjs.abs(a - b)/(nSteps - 1);
+        for (var i = a; i <= b; i += iterStep) {
+            y1 = mathjs.round(mathjs.sin(i) + offset1, 2);
+            y2 = mathjs.round(mathjs.cos(i) * i/5 + offset1, 2);
+            y3 = mathjs.round(mathjs.tan(mathjs.sin(i + 2)) + offset1, 2);
+            onePoint = [mathjs.format(i, 2), y1, y2, y3];
+            chartData.push(onePoint);
+        }
+        ctx.addChart({type: 'area',
+                    labels: ['x', 'y1', 'y2', 'y3'],
+                    data: chartData,
+                    stacks: [{columns : [1, 2, 3], sumLabel: "Sum of Bars"}],
+                    title: "Chart",
+                    afterVariable: "",
+                    alwaysShown: false
+                    });
     });
 
-In this example the dataset ``y3`` is stack on top of ``y2`` which is also stack on top of ``y1``. The scenario works without a problem and the only concern here should be **order of datasets**.
+In this example the dataset ``y3`` is stacked on top of ``y2`` which is also stacked on top of ``y1``. The scenario works without a problem and the only concern here should be the **order of datasets**.
 
 The stacking order is given by the position in the ``chartData`` array and not in the ``column`` options. Also note that if the sum of the stacking variables is 0 (zero) you will **still see data from the first dataset**, but not from the second one.
 
@@ -69,13 +69,13 @@ We will show only the part of the code that differs from the previous example:
     :lineno-start: 15
     
     [..]
-        onePoint = [mathjs.format(i,2), y1,,,,,, y2,,, y3];
+        onePoint = [mathjs.format(i, 2), y1,,,,,, y2,,, y3];
         chartData.push(onePoint);
     }
     ctx.addChart({type: 'area',
-                  labels: ['x','y1',,,,,,'y2',,,'y3'],
+                  labels: ['x', 'y1',,,,,, 'y2',,, 'y3'],
                   data: chartData,
-                  stacks: [{columns : [1,7,10] ,sumLabel: "Sum of Bars"}],
+                  stacks: [{columns : [1, 7, 10], sumLabel: "Sum of Bars"}],
                     [..]
 
 This is an example of what you might **try at first if you want to have stacked datasets in totally different colours**. However, having empty data causes an error. 
@@ -87,17 +87,16 @@ This fatal error makes this trick **unusable**.
 A **workaround would be to fill the rest** of the positions in the array with meaningless data, with the value 0 (zero) for example. To do that you'd use code like this:
 
 .. code-block:: javascript
-
     :lineno-start: 15
     
     [..]
-        onePoint = [mathjs.format(i,2), y1,0,0,0,0,0, y2,0,0, y3];
+        onePoint = [mathjs.format(i, 2), y1,0,0,0,0,0, y2,0,0, y3];
         chartData.push(onePoint);
     }
     ctx.addChart({type: 'area',
-                  labels: ['x','y1',' ',' ',' ',' ',' ','y2',' ',' ','y3'],
+                  labels: ['x', 'y1', ' ', ' ', ' ', ' ', ' ', 'y2', ' ', ' ', 'y3'],
                   data: chartData,
-                  stacks: [{columns : [1,7,10] ,sumLabel: "Sum of Bars"}],
+                  stacks: [{columns : [1, 7, 10], sumLabel: "Sum of Bars"}],
                     [..]
 
 However, just like with the :ref:`pie Chart<pieChart>` the legend will show all the empty colour options and hovering your mouse will bring up a list of mostly 0-value data. 
@@ -113,32 +112,32 @@ Here is an example of how you can make your own stacked charts without using the
 
     'use strict';
 
-    omni.onResult(['a','b','offset1'],function(ctx){
-    var chartData = [],
-        offset1 = ctx.getNumberValue('offset1'),
-        a = ctx.getNumberValue('a'),
-        b = ctx.getNumberValue('b'),
-        onePoint =[],
-        y1, y2, y3,
-        nSteps = 50,
-        iterStep = mathjs.abs(a-b)/(nSteps-1);
-    for(var i = a; i <= b; i += iterStep){  
-      y3 = mathjs.round(mathjs.tan(mathjs.sin(i+2))+offset1, 2)/3;
-      y2 = mathjs.round(mathjs.cos(i)*i/5+offset1, 2);
-      onePoint = [mathjs.format(i,2),, y2, y3];
-      onePoint = [mathjs.format(i,2),,y2,,,,,,y2+y3,,, y3];
-      chartData.push(onePoint);
-    }
-    ctx.addChart({type: 'area',
-                  labels: ['x',,'y2',,,,,,'y2+y3',,,'y3'],
-                  data: chartData,
-                  title: "Chart",
-                  afterVariable: "",
-                  alwaysShown: false
-                });
+    omni.onResult(['a', 'b', 'offset1'], function(ctx) {
+        var chartData = [],
+            offset1 = ctx.getNumberValue('offset1'),
+            a = ctx.getNumberValue('a'),
+            b = ctx.getNumberValue('b'),
+            onePoint = [],
+            y1, y2, y3,
+            nSteps = 50,
+            iterStep = mathjs.abs(a - b)/(nSteps - 1);
+        for (var i = a; i <= b; i += iterStep) {
+            y3 = mathjs.round(mathjs.tan(mathjs.sin(i + 2)) + offset1, 2)/3;
+            y2 = mathjs.round(mathjs.cos(i) * i/5 + offset1, 2);
+            onePoint = [mathjs.format(i, 2),, y2, y3];
+            onePoint = [mathjs.format(i, 2),,y2,,,,,,y2 + y3,,, y3];
+            chartData.push(onePoint);
+        }
+        ctx.addChart({type: 'area',
+                    labels: ['x',,'y2',,,,,,'y2 + y3',,,'y3'],
+                    data: chartData,
+                    title: "Chart",
+                    afterVariable: "",
+                    alwaysShown: false
+                    });
     });
 
-Using this trick we have been able to combine ``y2`` in blue and ``y3`` in dark red to create ``y2+y3`` in orange. The only downside being that for a ``bar`` chart this trick **doesn't really stack the datasets but rather create a new bar that is the sum of both**. I guess nothing is perfect in this world.
+Using this trick we have been able to combine ``y2`` in blue and ``y3`` in dark red to create ``y2 + y3`` in orange. The only downside being that for a ``bar`` chart this trick **doesn't really stack the datasets but rather create a new bar that is the sum of both**. I guess nothing is perfect in this world.
 
 .. tip::
     If you want to do stacking in a ``line`` chart use this trick.

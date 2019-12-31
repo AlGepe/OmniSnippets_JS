@@ -35,7 +35,7 @@ use to call the function from the `Equations` tab on BB.
 ``function``
 ^^^^^^^^^^^^
 
-A function must be provided. It is the code that will be run everytime the calculator needs to compute the associated variable. This function can have any number of input arguments, including none. As mentioned before it **must be** a return type meaning it needs to have an output.
+A function must be provided. It is the code that will be run every time the calculator needs to compute the associated variable. This function can have any number of input arguments, including none. As mentioned before it **must be** a return type meaning it needs to have an output.
     
 +----------+----------+
 | Type     | Required |
@@ -47,4 +47,4 @@ Example
 ~~~~~~~
 
 For a simple example, please refer to the `Factorial Calculator
-<https://bb.omnicalculator.com/#/calculators/395>`__
+<https://bb.omnicalculator.com/#/calculators/395>`__.

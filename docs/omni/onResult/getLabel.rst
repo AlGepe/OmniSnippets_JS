@@ -3,7 +3,7 @@
 Get Label (displayed name)
 --------------------------
 
-Function that let's you get the `Lable` of a variable. The `Label` is returned
+Function that let's you get the `Label` of a variable. The `Label` is returned
 by the function as a string.
 
 The `Label` is the name of a variable as displayed to the user. 

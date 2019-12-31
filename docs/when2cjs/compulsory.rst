@@ -13,13 +13,13 @@ And now we get to the interesting part of this section: the calculators for whic
 Presets
 ~~~~~~~
 
-This set of calculators are those who **simplify the input** by gathering multiple variables under one input field. In this examples the user is presented with a drop-down many with a fixed list of options. Upon selection, other variables are internally set to the corresponding values **without the user having to deal with technical parameters**. All this is accomplished using *Value Select* and *Value Setter* customJS variables.
+This set of calculators are those who **simplify the input** by gathering multiple variables under one input field. In these examples the user is presented with a drop-down many with a fixed list of options. Upon selection, other variables are internally set to the corresponding values **without the user having to deal with technical parameters**. All this is accomplished using *Value Select* and *Value Setter* customJS variables.
 
 .. seealso::
 
     You can learn more about :ref:`Value Setter <vSetter>` in the corresponding section. 
     
-    For now it's enough to know it gives the user the option to changes the values of multiple variables at the same time via predefined tables.
+    For now it's enough to know it gives the user the option to change the values of multiple variables at the same time via predefined tables.
 
 Here are some examples of calculators that require presets:
 

@@ -48,7 +48,7 @@ An example of a table used in a calculator and how it looks is the `Investment C
 Arguments
 ~~~~~~~~~
 
-You can use up to three inputs for this function the data you want to show in the table, the headers or names of the fields, and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
+You can use up to three inputs for this function. The data you want to show in the table, the headers or names of the fields, and the options. The options are the same as in the function :ref:`addText<addtxtinfo>` but we will detail them below.
 
     
 +---------+------------------+----------+------------------------+

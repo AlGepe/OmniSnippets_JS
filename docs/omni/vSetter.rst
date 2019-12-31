@@ -47,7 +47,7 @@ A string containing the name of the variable to which the value setter will be a
 ``DATA``
 ^^^^^^^^
 
-Data is and :ref:`array<array>` of :ref:`dictionaries <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section <https://bb.omnicalculator.com/#/tools>`__ of the BB to create one from an excel spreadsheet. If you are |ss| a masochist |se| interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
+Data is an :ref:`array<array>` of :ref:`dictionaries <dictionary>`, but don't worry cause you can just simply use the tool available in the `Tool section <https://bb.omnicalculator.com/#/tools>`__ of the BB to create one from an excel spreadsheet. If you are |ss| a masochist |se| interested in creating your value setter by hand, check out the :ref:`Advance uses of value setter<vSetterADV>` section.
     
 +----------+----------+
 | Type     | Required |

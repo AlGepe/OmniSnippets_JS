@@ -12,7 +12,7 @@ Standard usage of customJS
 
 Welcome to the compilation of use cases and examples of how to use customJS to get what you want. If the :ref:`technical documentation of Omni's customJS functions<omni>` was boring, don't worry, I fell asleep writing it a couple times.
 
-Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-types-of-fun/>`__) and take a more relax look at how to actually use all those commands.
+Now we can start having fun (hopefully `Type 1 fun <http://goeast.ems.com/three-types-of-fun/>`__) and take a more relaxed look at how to actually use all those commands.
 
 For each of the examples/usages we have also built a **sample calculator**. This are very simple calculator just to showcase the behaviour. Feel free to copy their code into your calculator or play around with them but **DO NOT SAVE ANY CHANGES**.
 
@@ -25,7 +25,7 @@ The standard usages of customJS have been divided in three sections: Basics, Adv
 If you are looking for unexpected uses of Omni's customJS functions and *hacks*
 to work around the implicit limitations of the current system, then head to
 :ref:`From Calculatorian to Calculatorian <c2c>` where we will also teach you
-way to write better code and do more by working less [#f1]_.
+ways to write better code and do more by working less [#f1]_.
 
 .. _basicCJS:
 Basics
@@ -54,7 +54,7 @@ Here we have the examples of the most basic options from customJS that are not j
 Advanced
 --------
 
-This are usages of customJS that go further, and effectively create new functionalities. Each function is still used for what it was intended but with some clever tricks we can get new features from them. Some even require usage of strange javascript functions but in general they are just a combination of those used in the **Basics** section.
+These are usages of customJS that go further, and effectively create new functionalities. Each function is still used for what it was intended but with some clever tricks we can get new features from them. Some even require usage of strange javascript functions but in general they are just a combination of those used in the **Basics** section.
 
 .. toctree::
     :maxdepth: 1

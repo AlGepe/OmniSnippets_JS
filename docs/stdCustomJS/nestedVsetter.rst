@@ -11,7 +11,7 @@ Instead, what you can do is simply create many javascript variables each with di
 Let's take a look at an example from the `Chill Drinks Calculator <https://bb.omnicalculator.com/#/calculators/1556>`__. Here all value setters are dependant on the drink selected by the user. For our example we will focus only on the *drink-temperature* connection.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Nested) <https://bb.omnicalculator.com/#/calculators/2037>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Nested) <https://bb.omnicalculator.com/#/calculators/2037>`__ on BB.
 
 Here is how to nest value setters so that one's options depends on the other's selected option:
 
@@ -23,13 +23,13 @@ Here is how to nest value setters so that one's options depends on the other's s
 
     var tempVSArray = [];
 
-    omni.onInit(function(ctx){
+    omni.onInit(function(ctx) {
         omni.createValueSetter('drinks', drinksVS);
         ctx.setDefault('drinks', 1);
         ctx.setDefault('temperature', 97225713); //optional
     });
 
-    omni.onResult([],function(ctx){
+    omni.onResult([], function(ctx) {
         var drinks = ctx.getNumberValue('drinks');
         omni.createValueSetter('temperature', tempVSArray[drinks]);
         ctx.addTextInfo(drinks);
@@ -77,7 +77,7 @@ Here is how to nest value setters so that one's options depends on the other's s
 I know what you are thinking, but don't worry. It might be long, but is definitely not hard [#f1]_. It's mostly **just a bunch of data**, the important lines are highlighted and at the top.
 
 .. tip::
-    To prevent the secondaty value setters to jump to ``Custom`` option make sure that they all have the same ``uid`` values
+    To prevent the secondary value setters to jump to ``Custom`` option make sure that they all have the same ``uid`` values.
 
 The only important part to keep in mind is that if you are using an array to select between your value setters, **you must declare it after you have created your value setters**.
 
@@ -88,4 +88,4 @@ The trick behind this is :ref:`changing a value setter during calculation<dynami
 
 .. rubric:: Footnotes
 
-.. [#f1] That's what she said
+.. [#f1] That's what she said.

@@ -4,7 +4,7 @@ Set default value
 
 Allows to set a predetermined value for a variable. 
 
-When the calculator is loaded the variable chose will have the desired value before the user interacts with it. This is the customJS version of an option available on BB inside the tab `Curren variable`.
+When the calculator is loaded the variable chosen will have the desired value before the user interacts with it. This is the customJS version of an option available on BB inside the tab `Current variable`.
 
 As always, we do recommend using the customJS version for portability and easy re-usability. 
 

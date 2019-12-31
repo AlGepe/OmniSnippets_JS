@@ -12,7 +12,7 @@ We tend to favour customJS version of bb functionality for flexibility, but in t
 Syntax:
 ~~~~~~~
 
-Since the function only show the error message the syntax is very simple. If you plan on implementing this function remember to set up proper conditions. Using statements like ``if``, ``else``, ``switch``... You can learn more about them in the section about :ref:`javascript statements<execOrder>`.
+Since the function only shows an error message the syntax is very simple. If you plan on implementing this function remember to set up proper conditions. Using statements like ``if``, ``else``, ``switch``... You can learn more about them in the section about :ref:`javascript statements<execOrder>`.
 
 .. code-block:: javascript
 
@@ -42,6 +42,6 @@ A string containing the error message you want the user to see. Since the positi
 
     If you are planning to use this function make sure to set the conditions
     you want correctly and manage the error in a way that the user is not
-    confused by it. A typical way to handle and error is to hiden the variable
+    confused by it. A typical way to handle and error is to hidden the variable
     that will have a strange value such as ``NaN`` or ``Infinity``.
 

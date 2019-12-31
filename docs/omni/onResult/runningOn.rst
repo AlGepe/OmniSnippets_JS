@@ -3,9 +3,9 @@
 Check if calculator is embedded
 -------------------------------
 
-A function that checks whether the code is being ran on a given `platform`. For now the function can only check against the platform ``embed``. It will return ``true`` when the calculator is being ran embedded in an external website and ``false`` if it's being ran inside of www.omnicalculator.com .
+A function that checks whether the code is running on a given `platform`. For now the function can only check against the platform ``embed``. It will return ``true`` when the calculator is running embedded in an external website and ``false`` if it's running inside of www.omnicalculator.com.
 
-When the calculator is embedded the available space is limited. ``runningOn`` can be used to prevent oversized images, charts or tables to cause problems in this environments.
+When the calculator is embedded the available space is limited. ``runningOn`` can be used to prevent oversized images, charts or tables to cause problems in these environments.
 
 .. code-block:: javascript
 

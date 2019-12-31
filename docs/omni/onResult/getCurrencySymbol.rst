@@ -7,7 +7,7 @@ Function that returns the UNICODE currency symbol of the user's current location
 
 .. note::
 
-    If you want to obtain the location of the user, the recomended function is :ref:`getCountryCode<getCC>` available inside :ref:`onInit<onInit>` context.
+    If you want to obtain the location of the user, the recommended function is :ref:`getCountryCode<getCC>` available inside :ref:`onInit<onInit>` context.
 
 
 Syntax
