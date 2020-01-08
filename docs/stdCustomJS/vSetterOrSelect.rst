@@ -43,7 +43,7 @@ Note that this **code does not need to be run inside** ``onInit`` context. Howev
     :lineno-start: 5
 
     omni.onInit(function(ctx){
-        omni.bindValueSelect(yesNoVs, 'yesNoVariable');
+        ctx.bindValueSelect(yesNoVs, 'yesNoVariable');
     });
 
 After this code the calculator will display the variable ``yesNoVariable`` with a drop down menu containing 2 options named ``No`` and ``Yes``
