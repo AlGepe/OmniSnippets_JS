@@ -45,6 +45,8 @@ implicit conditions: (a || b)
 
 isNaN vs Number.isNaN vs == null/undefined/NaN (mention)
 
+numbers/strings/functions as booleans
+
 
 .. _mistakes:
 Mistakes, is not an **if**, it's a **when**
