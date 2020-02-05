@@ -4,7 +4,7 @@ Simple Variables
 
 Coding is just a way to tell the computer what to do. For that it is very important to have shortcuts to refer to things, so that we don't have to define them constantly.
 
-We do this all the time in natural language. For example, when we say **house** or **red** we know we're talking about a building where people live or about the color of blood [#f2]_.
+We do this all the time in natural language. For example, when we say **house** or **red** we know we're talking about a building where people live or about the color of blood [#f1]_.
 
 Variables are a way to create this aliases for different data, so that we don't have to write it all again everytime we want to use it. In this section we will look at the most basic variable types and how they differ from each other. 
 
@@ -19,6 +19,7 @@ A word on variables in javascript
 We are going to take a look at different types of variables in javascript. However, you must keep in mind that in general you don't explicitly have to state the type of variable when declaring it. 
 
 This is both comfortable (less writing/thinking) if everything goes according to plan, but it's important to keep in mind what type of variable you're working with to avoid error. We will mention this briefly at the end.
+
 .. _bool:
 Booleans
 --------
@@ -67,5 +68,4 @@ On operating across types
 
 .. rubric:: Footnotes
 
-.. [#f1] Like most of the terminology here this is not the standard jargon.
-.. [#f2] Except for members of the Royal Family and horseshow crabs, obviously.
+.. [#f1] Except for members of the Royal Family and horseshow crabs, obviously.
