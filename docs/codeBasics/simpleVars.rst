@@ -2,11 +2,11 @@
 Simple Variables
 ================
 
-Coding is just a way to tell the computer what to do. For that it is very important to have shortcuts to refer to things, so that we don't have to define them constantly.
+Coding is just a way to tell the computer what to do. For that it is very important to have short cuts to refer to things, so that we don't have to define them constantly.
 
-We do this all the time in natural language. For example, when we say **house** or **red** we know we're talking about a building where people live or about the color of blood [#f1]_.
+We do this all the time in natural language. For example, when we say **house** or **red** we know we're talking about a building where people live or about the colour of blood [#f1]_.
 
-Variables are a way to create this aliases for different data, so that we don't have to write it all again everytime we want to use it. In this section we will look at the most basic variable types and how they differ from each other. 
+Variables are a way to create this aliases for different data, so that we don't have to write it all again every time we want to use it. In this section we will look at the most basic variable types and how they differ from each other. 
 
 .. note::
    To declare (create) a variable in javascript you should type: ``var variableName = [things]`` Where ``variableName`` is the "alias" or name of the variable and ``[things]`` are the things you want to refer to when calling ``variableName``.
@@ -42,6 +42,8 @@ This last features allows for a program to compare two variables you have previo
 .. warning::
    Booleans are very simple variables on the surface but once you start playing with them things can get messy/fun. Check the documentation or section :ref:`Improving your working conditions<betterConditions>` for more information about it.
 
+As a very simple introduction to booleans as results of comparisons we will say that the comparison comparison between variables compares the values of those variables. The user must be very careful when dealing with variables of different types as one might get unintended results. Check the link in the warning box if you want to learn more about those situations.
+
 Reference
 ^^^^^^^^^
 For more information visit `Mozilla's Javascript documentation on Booleans <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean>`__
@@ -50,10 +52,48 @@ For more information visit `Mozilla's Javascript documentation on Booleans <http
 Strings
 -------
 
-Strings are the next type of variable we will focus on. This is the type of variable
+Strings are the next type of variable we will focus on. This is the type of variable that can store text. Strings can hold from a single character to a text of any reasonable length. One thing to note is that the computer cannot understand what the text means, but it can operate with it. 
+
+A string is a type of variable that allows for many native operations such as finding words of characters inside of it, dividing its contents into new, smaller, strings... Almost anything you can wish to do with text.
+
+To declare a string you need to tell the computer that whatever you are writing has to be interpreted as a piece of text information and not as a command to execute; to do so you simple encapsulate your text in single quotes *'* or double quotes *"*. Let's see an example:
+
+.. code-block:: javscript
+   
+   var myString = "This is a joke and it's funny"
+
+Anything from the first double quote to the second one is taken as part of the text stored in the variable ``myString``. The choice of either single or double quotes is there so that you can include single or double quotes on your string. 
+
+If we were to use single quotes in the example above, the computer would understand that the string is ``'This is a joke and it'`` and take the rest of the sentence as another command [#f2]_. On the other hand we can use include double quotes in our string if we declare it using single quotes: 
+.. code-block:: javascript
+
+   var myQuote = 'She said: "It's not so hard".'
+
+.. note::
+   By convention it is recommended to use single quotes when declaring strings, unless you need to use them in the text
+
+Reference
+^^^^^^^^^
+To learn more about strings and their internal operations, please check `Mozilla's Javascript documentation on Strings <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String>`__ . On the left, you have a list of all the operations you can perform with them under **Methods**
 
 Numbers
 -------
+
+The third type of variable we will look at are *Numbers*. The name makes it very obvious what they represent. Numbers are always decimal in javascript, and can be operated using mathematical functions and standard mathematical operators such as ``+``, ``-``, ``*``, ``/``...
+
+To declare a numerical value is as simple as one can imagine:
+
+.. code-block:: javascript
+
+   var myNumber = 9.34
+
+As it is the case with other variables, you can declare a numerical variable using an expression:
+
+.. code-block:: javscript
+
+   var myOtherNumber = 8.45 + 3/56
+
+In javascript there is no straightforward distinction between number types which means we don't need to think about the need for precision when declaring a new variable. We deal mostly with numbers in our calculators so it is useful to understand what you can and cannot do with them (see the References)
 
 Integers
 ^^^^^^^^
@@ -62,10 +102,25 @@ Technically speaking, every number in javascript is of the same type (double pre
 
 You can, however, check if a number is an integer using the simple function ``Number.isInteger()`` that returns a boolean accordingly.
 
+Reference
+^^^^^^^^^
+
+To learn more about numbers and how to operate efficiently with them check the `Mozilla's Javascript documentation on Strings <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number>`__
 
 On operating across types
 -------------------------
 
+Javascript's need for acceptance is very patent in the way it always complies with your commands instead of warning you or throwing error messages at you when you're doing things that are conflictive. This is both a blessing and a curse since for perfect human beings it saves times and for real ones it just hides basic mistakes so that it takes hundreds of years and thousands of ``console.log`` statements to find.
+
+A place where this is important (and also relevant for the topic of this section) is in converting variable types from and to others depending on the operations we perform with them. For example, when multiplying a boolean and a number javascript automatically changes the boolean to a ``0`` (false) or a ``1`` (true); when summing a number and a string the value of the number gets converted to text and both strings are concatenated; etc...
+
+There are way too many scenarios to cover in this basic introduction, so we advice the novice use to double check operations between variables as well as to read the documentation cited in references. 
+
+But do not be discouraged, these are quirky aspects of javascript that you learn to live with soon enough and even take advantage of them in many situation... It just takes practice [#f3]_
+
 .. rubric:: Footnotes
 
 .. [#f1] Except for members of the Royal Family and horseshow crabs, obviously.
+.. [#f2] Which it would not understand and therefor show an error.
+.. [#f3] The word practice in the context my refer to making lots of mistakes, getting desperate or simply spending more time getting intimate with our beloved cJS section on BB
+
