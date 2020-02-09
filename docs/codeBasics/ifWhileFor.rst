@@ -6,6 +6,7 @@ We will take a look in this section at the three most basic ways to control the 
 
 We will take a look at three different statements that will help us implement these behaviours. They can be combined, nested and modified to adapt to our needs and to increase the complexity of our program's behaviour without increasing the complexity of each individual statement. Most of these statements are almost self-explanatory or at least they will become once you know what they do and you start using them in your code.
 
+.. _if:
 if ... else
 -----------
 
@@ -26,6 +27,7 @@ You can add more options than the simple **a or b** in the example by adding ano
 .. warning::
    It is recommended to ALWAYS have an ``else`` statement in your if, even if it's not necessary, to avoid unexpected problems.
 
+.. _for:
 for
 ---
 
@@ -62,6 +64,7 @@ One of the most common uses of a ``for`` loop is to operate with arrays. Here we
 
 You can see that in this snippet we have taken advantage of the changing value in ``i`` to address all the values inside ``myArray`` with a single command. To guarantee that we don't go out of bounds when addressing the array while still addressing every number we start the counter variable at 0 (zero) and use ``Array.length`` to set the maximum allowed value of ``i``. Notice that the condition is ``<`` (less than) to account for the fact that positions in an array start at 0 (zero).
 
+.. _while:
 while
 -----
 
