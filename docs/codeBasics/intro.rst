@@ -17,7 +17,7 @@ In this section we will briefly go over the very basics of programming with focu
     bigPicture
     jsVShtml
     basics
-..  notBasics
+    notBasics
     aim4Lazy
 
 
