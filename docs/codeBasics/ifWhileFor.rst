@@ -41,15 +41,15 @@ The simplest way to use it is the following:
 
 As you can see, right after the ``for`` keyword are the "*settings*" of the ``for`` loop. These "settings" have three parts: initialisation of the control variable, declaration of the condition of execution, and the increment statement. 
 
-The initialisation creates or initialises one or many variables that will be used by the for loop to control the number of iterations performed, typically called a counter.
+The initialisation creates or initialises one or many variables that will be used by the ``for`` loop to control the number of iterations performed, typically called a counter.
 
 The condition of execution is an expression that evaluates to a boolean. The code inside the loop will be executed as long as the condition evaluates to ``true``. Most of the times the expression will simply make sure that the counter will be smaller (or equal) to the maximum number of iterations you want to be performed.
 
-The increment statement is the final command that will be executed by the for loop after every iteration. This is typically used to increment the counter so that you can accurately keep track of the number of iterations performed inside the loop. In the example, the expression ``i++`` increments the value of ``i`` by one unit.
+The increment statement is the final command that will be executed by the ``for`` loop after every iteration. This is typically used to increment the counter so that you can accurately keep track of the number of iterations performed inside the loop. In the example, the expression ``i++`` increments the value of ``i`` by one unit.
 
-The counter (in our case ``i``) is just a regular variable that is used to keep track of the number of iterations. This variable can be used inside the for loop as a regular variable and will keep changing value according to the increment statement.
+The counter (in our case ``i``) is just a regular variable that is used to keep track of the number of iterations. This variable can be used inside the ``for`` loop as a regular variable and will keep changing value according to the increment statement.
 
-.. rubric::
+.. rubric:: Practical example
 
 One of the most common uses of a ``for`` loop is to operate with arrays. Here we will present and example in which we will take an array and add 3 to all of its components.
 
@@ -60,7 +60,34 @@ One of the most common uses of a ``for`` loop is to operate with arrays. Here we
       myArray[i] += 3;
    }
 
+You can see that in this snippet we have taken advantage of the changing value in ``i`` to address all the values inside ``myArray`` with a single command. To guarantee that we don't go out of bounds when addressing the array while still addressing every number we start the counter variable at 0 (zero) and use ``Array.length`` to set the maximum allowed value of ``i``. Notice that the condition is ``<`` (less than) to account for the fact that positions in an array start at 0 (zero).
+
 while
 -----
 
+We have covered the two most basic execution control statements; with those two you should be able to do everything you'd want to do, thought maybe in not the most efficient way. That's what the ``while`` loop exists (a.k.a. ``do while`` loop). It is a very similar loop to the ``for`` but designed in a way that makes it more usable for those situations in which you want to both iterate multiple times and check conditions at the same time. 
+
+The ``while`` loop is simpler to declare than the ``for`` since it only requires you to set a condition. **While** the condition is ``true`` the code inside the ``while`` loop will be executed. Let's take a look at the declaration of this loop before talking about the situations in which is comes in handy.
+
+.. code-bock:: javascript
+
+   // Assuming myArray is an array of numbers
+   var i = 0;
+   while (myArray[i] < 99) {
+      i++;
+   }
+   
+With this simple loop we can find the first instance in the array where a number is bigger than 99. Since the  ``while`` loop will stop the moment ``myArray[i]`` is bigger or equal to 99, the final value of ``i`` after the loop will be the position of the first number bigger or equal than 99 in the array. 
+
+This is a situation in which both the ``for`` and ``while`` loop are similarly suited, but there are many situation in which one of the two is much better suited and reduces greatly the amount of code to write and the conceptual complexity of the commands.
+
+.. warning::
+   ``while`` loops only run the code that is inside them. Since there is no increment statement you must make sure to include some way for the condition to change slightly from iteration to iteration or you run the risk of the loop never excuting or the program getting stuck inside of it in an **infinite loop**.
+
+References
+----------
+
+For a more complete and in-depth explanation on loops and execution control statements, please check documentation such as: `Mozilla's own MDN <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`__
+
+.. rubric:: Footnotes
 .. [#f1] Execptions DO apply
