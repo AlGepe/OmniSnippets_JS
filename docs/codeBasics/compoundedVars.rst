@@ -37,7 +37,8 @@ To access the actual values of the array you simply keep adding numbers correspo
 
 .. code-block:: javascript
 
-   myArrayOfArrays[0][2]; // will return the value of the third position on the first array in a 2D array
+   myArrayOfArrays[0][2]; 
+   // will return the value of the third position on the first array in a 2D array
 
 Arrays can get conceptually very complicated very quickly but are also very useful in many many scenarios. So here more than ever we encourage you to check out the `Mozilla JS documentation <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`__ and in particular the methods and operations you can perform with arrays. A prime example would be ``Array.push`` which adds a new entry at the end of the array.
 
@@ -96,7 +97,8 @@ Let's take a look at an example in which we want to store the prices of some ite
 
 .. code-block:: javascript
 
-   var pricesDictionary = {tv: 899, toaster: 99, soundSystem: 78, laptop: 2599, myDignity: 57, newspaper: 10};
+   var pricesDictionary = {tv: 899, toaster: 99, soundSystem: 78, 
+                           laptop: 2599, myDignity: 57, newspaper: 10};
 
 As we mentioned before a dictionary is composed of pairs of ``key: value`` separated by commas. In our example the keys are *tv, toaster, soundSystem...* and the values are *899, 89, 78*... respectively.
 
