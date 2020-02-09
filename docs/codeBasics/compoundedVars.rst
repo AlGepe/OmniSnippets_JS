@@ -121,5 +121,12 @@ Finally we arraive at **methods** which are like functions that are included in 
 
 We can think of methods as default operations that we can perform with certain types of objects or variables without the need to create or declare any functions [#f2]_. For us it is only necessary to know 2 things: (1) what methods are available for each object/variable and (2) how to use them to our advantage.
 
+To answer the first point, you simply need to find a list of the available methods for you variable/object online. You can use the MDN reference page we have been directing you to, or simply google "*available methods [type] js*" and you are sure to find plenty of results. Just remember to substitute *[type]* with the type of variable/object you are concerned about (string, number, array...)
+
+To use that method simply call it using the dot notation we learnt before. Beware that not all methods can be used using exactly the same notation, so take a look a examples online to make sure you understand the syntaxis of the call.
+
+.. tip::
+   If you are creating an object you can also make your own methods for that object. You have more information on this and a nice example on `Mozilla's documentation page <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions>`__
+
 .. [#f1] Again, this is not the official word but it's very close and easy to understand.
 .. [#f2] At least **WE** don't have to create them because they have already been declared inside JS when the specified what a certain object/variable type is and what it can and cannot do.
