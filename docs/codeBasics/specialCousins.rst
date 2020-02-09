@@ -28,6 +28,19 @@ This is a modification of the :ref:`if <if>` loop. Instead of checking whether a
 This is very useful when dealing with variable controlled by a :ref:`value setter <vSetter>` or :ref:`value Select <vSelect>` where there is only so many value the variable can take.
 
 .. code-block:: javascript
+   switch (variableOrExpression) {
+   case 1:
+      // code to be executed if variableOrExpression ==1 
+      break; // not necessary but recommended
+   case 2:
+      // code to be executed if variableOrExpression == 2
+      break; // not necessary but recommended
+   default:
+      // code to be executed if variableOrExpression was neither 2 nor 1
+   }
+
+.. note::
+   It is not compulsory but highly recommended to add a ``break`` statement at the end of ever ``case``. It is also highly encouraged to add a ``default`` option to avoid unforeseen problems.
 
 break
 -----
@@ -111,6 +124,13 @@ This is how you use ``continue`` with a label.
    }
 
 This is an example of the ``continue`` statement used without a label and inside a loop. In this case, the statement ``break`` is never reached.
+
+References
+----------
+
+As with all other technical information about javscript, we recommend you to check out the official documentations. We suggest you check out `Loops and Iterations section<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`__ for all but the switch statement. 
+
+If you are interested in learning more about the ``switch ... case`` statementm, you can visit the corresponding `page on the MDN site<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch?`__
 
 .. rubric:: Footnotes
 .. [#f1] There are ways to implement this behaviour using only a while loop.
