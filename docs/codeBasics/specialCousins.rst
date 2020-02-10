@@ -78,7 +78,7 @@ It might also help your code be more readable.
 for ... of
 ----------
 
-Similar to `for ... in`, it helps you run through all the element in an iterable type (for us just Arrays). 
+Similar to ``for ... in``, it helps you run through all the element in an iterable type (for us just ``Arrays``). 
 
 .. code-block:: javascript
 

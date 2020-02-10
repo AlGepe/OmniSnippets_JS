@@ -25,8 +25,25 @@ The most important thing you should realise as a programmer is what kind of work
 
 In short, if you find yourself doing the same thing (or very similar tasks) more than 5 times, **STOP!** Take a deep breath and think how this task could be automated, re-written or substituted by something else so that you **don't actually spend your time doing computer-work**. As a side effect of this, even if it takes you the same amount of time, your code will be much cleaner, easier to understand and elegant.
 
+Examples of things that can be a better alternative to writing the same commands multiple times are: 
+
+   * **Functions**, if you're performing the same actions on different variables.
+   * **Arrays/Dictionaries**, if you're creating many variables that go through similar processes/actions.
+   * **Loops (``for``, ``while``...)**, if you want to repeat an action a number of times
+   * **Copy code from someone**, if you're doing a common but not straight-forward task
+
+There are more complicated scenarios in which you can re-think your code to be shorter and more efficient, but we can't cover all them here. A good trick is to Google what you want to do if you notice it is a very repetitive task. Most likely you will find your answer and find a new trick to add to your coding weaponry.
+
 Your strengths, spend time doing this
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Now that you know what you shouldn't do, it's time to flip the coin and see what you **should** do. Playing to your strengths means spending some time just thinking (maybe drafting on paper) about your whole program before you start writing it. It might seem like a waste of time (it could be, see next section to prevent that) but as long as your sensible and proportional it will bring you better and faster results.
+
+Abstract thinking is what differentiate humans from any other object or being we know. You should put this great power to good use. When coding this means planning your code so that it is as efficient, clean, readable and reusable as you can. Your goals should be to write as little code as possible, that runs as fast as possible and make it in such a way that a new person can understand it as soon as possible. [#f1]_
+
+First thing you should do when you are tackling a new coding challenge is to organize the main structure of your code in the best way. *The best way* here means fewer lines of code, most understandable way and, if possible, using reusable code. If I may be so bold, here is a recommendation on how to organise the code for a big JS project (something like a marketing calculator).
+
+
 .. Breaking down the problem into smaller and smaller parts => plan so you don't rewrite
 
 Time learning vs time doing, what to do when
@@ -45,3 +62,5 @@ As a Spanish person I feel perfectly qualified to talk about laziness. And as a 
 
 In all seriousness, thought, it is important that we distinguish between being lazy and being ineffective or inefficient. We have talked about the advantages of being *"lazy"* and what it means. So we will talk now about the things you should avoid to do in the name of laziness so that you future self and all your colleagues will thank you for it.
 
+.. rubric:: Footnotes
+.. [#f1] Thanks to my careful wording it is indeed **possible** to do so.
