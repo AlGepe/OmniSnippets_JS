@@ -64,11 +64,17 @@ There are, however, situations in which going through all this laborious process
 Time learning vs time doing, what to do when
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. Hacks/quick fixes, when and when not
+So far we have assumed that the program you are writing is long enough and that the skills you need to learn to make your code more efficient are ones that you will be using again in the future. Those are valid assumption that hold true most of the time, but not always. If those assumptions are wrong, then it might not be worth it to spend the time and effort in learning a new skill or organising your code better. The big question is, then, how do you know when it is worth it to invest time in learning or improving and when is it just better to do the less efficient thing?
 
-.. When to learn, when to get help and when to just get it done
+The short answer, as it always is, is that **it depends**. It depends both on your current programming level, it depends on how big and difficult your problem is and it depends on how reusable that knowledge will be in the future. But, even though I cannot tell you the correct answer in every situation, we can still try to lay out the decision-making process for you to take the best possible action.
 
+We shall begin with the most clear cases, the extremes on both ends. On the one hand we have marketing calculators, which **require that you spend some time planning them** before you start coding due to their complexity and special requirements for ease of use and engaging behaviour. On the other hand we have very basic calculators to which you simply want to add a picture, hide/show a couple variables, add a value setter... In these simple situations it is counter-productive to spend time planning since there's very few different ways to do what you need to do.
 
+When it comes to learning new skills we should not focus on the size of our program but rather on the usefulness of said new skill. The time you invest in learning something new should be proportional to the number of times that new knowledge/skill will come in handy. It also depends on your current programming level, since at the beginning you need to invest more time in learning new things.
+
+The actual equivalence between time and size of project or time and usefulness it's something that cannot really be taught but only learnt through experience. The process can be sped up at the beginning by asking people with more experience. So feel free to ask someone you know has more skill and time spent coding to help you decide whether you should spend the time to learn the proper way to do it or simply do the *hacky* thing and be done quickly.
+
+So in summary, doing something quickly and suboptimally should **NEVER** be your first choice, but given the right circumstances it might the be the least bad solution. In most situations, though, learning and doing the preparation/planning work before actually committing to writing your program will be better for you now, for your colleagues and for your future self.
 
 Lazy code vs sloppy code
 ------------------------
@@ -77,7 +83,14 @@ As a Spanish person I feel perfectly qualified to talk about laziness. And as a 
 
 In all seriousness, thought, it is important that we distinguish between being lazy and being ineffective or inefficient. We have talked about the advantages of being *"lazy"* and what it means. So we will talk now about the things you should avoid to do in the name of laziness so that you future self and all your colleagues will thank you for it.
 
-.. rubric:: Footnotes
-.. [#f1] Thanks to my careful wording it is indeed **possible** to do so.
+The type of laziness we are encouraging here is the long term kind of laziness. It might be counter-intuitive that sometimes to be lazy you need to **do more work** than you would otherwise do, but the time invested today will mean much much less time needed tomorrow for the same task. This is very clearly visible when we talk about learning new skills, and somewhat visible when we talk about planning and organising long and complicated calculators.
 
+The important thing to remember when coding for a calculator is that no matter how obscure or complete you think your calculator is, it will eventually be checked, used and modified by other people (this includes future you). When that time comes, any time invested in making your code more sensible, more flexible, more understandable and well organised will pay back greatly. 
+
+We don't need to take any particular example (though `Sig Fig Calculator<https://bb.omnicalculator.com/#/calculators/392>`__ is a great one) for everyone to picture calculator code that was sloppy, cryptic and did not make much sense. When you encounter such code you often need to spend many hours just to understand what the calculator is doing and why. When we encounter the opposite, a well coded calculator with proper structure and style [#f3]_ , reading code can be almost as quick as reading instructions written in plain English. This second type of calculator is the one that saves time in the long run, makes you feel proud and makes everyone love you. So aim to be that kind of programmer, aim to be the lazy programmer, not the sloppy one.
+
+.. rubric:: Footnotes
+
+.. [#f1] Thanks to my careful wording it is indeed **possible** to do so.
 .. [#f2] The last point is obviously optional but highly encouraged as it will make you more likeable and people will forgive any mistakes you might have made in the previous steps.
+.. [#f3] We have a style guide to help everyone at Omni have a similar way of writing code. Check it out in the :ref:`How to be friends with other calculatorians <bestpractices>` section.
