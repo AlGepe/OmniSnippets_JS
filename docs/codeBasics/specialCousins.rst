@@ -129,9 +129,9 @@ This is an example of the ``continue`` statement used without a label and inside
 References
 ----------
 
-As with all other technical information about javscript, we recommend you to check out the official documentations. We suggest you check out `Loops and Iterations section<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`__ for all but the switch statement. 
+As with all other technical information about javscript, we recommend you to check out the official documentations. We suggest you check out `Loops and Iterations section <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`__ for all but the switch statement. 
 
-If you are interested in learning more about the ``switch ... case`` statementm, you can visit the corresponding `page on the MDN site<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch?`__
+If you are interested in learning more about the ``switch ... case`` statementm, you can visit the corresponding `page on the MDN site <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch?`__
 
 .. rubric:: Footnotes
 .. [#f1] There are ways to implement this behaviour using only a while loop.
