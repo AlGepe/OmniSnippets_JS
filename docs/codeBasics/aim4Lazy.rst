@@ -43,6 +43,21 @@ Abstract thinking is what differentiate humans from any other object or being we
 
 First thing you should do when you are tackling a new coding challenge is to organize the main structure of your code in the best way. *The best way* here means fewer lines of code, most understandable way and, if possible, using reusable code. If I may be so bold, here is a recommendation on how to organise the code for a big JS project (something like a marketing calculator).
 
+#. Find what the requirements of your code are (e.g.: what are the inputs/outputs?)
+#. Divide the problem into smaller tasks. Don't think coding yet.
+#. Make a dependency tree with all the tasks to be performed
+#. Group those tasks that are similar enough that can be done with one function/loop
+#. Start translating your tree into code. Try to reuse your code as much as possible (make functions, loops...)
+#. Feel the pain of making mistakes, testing, finding mistakes, fixing them, making more...
+#. Once you're done fixing all the issues with your code and our BB, publish
+#. Enjoy the smug feeling of being a better coder, and all the praises of anyone that touches your calculator again.
+#. Buy everyone a drink to celebrate (maybe?) [#f2]_
+
+You should feel free to come up with your own action plan, something that works for you and helps you make better code with less effort and time invested
+
+It might seem like unnecessary steps to take when you just want to get a calculator ready and published, but it generally pays off in the long run. Specially if you're working on a large project and you are risking having to jump through a lot of hurdles you imposed on yourself simply because you didn't plan your code properly and now is to late to re-do it all over.
+
+There are, however, situations in which going through all this laborious process might indeed not be worth it. It is all about finding the balance between spending an eternity in making the best calculator humanly possible and delivering your work quickly and efficiently. This fine line we have to walk as calculatorians is exactly what we will explore in the next section.
 
 .. Breaking down the problem into smaller and smaller parts => plan so you don't rewrite
 
@@ -64,3 +79,4 @@ In all seriousness, thought, it is important that we distinguish between being l
 
 .. rubric:: Footnotes
 .. [#f1] Thanks to my careful wording it is indeed **possible** to do so.
+.. [#f2] The last point is obviously optional but highly encouraged as it will make you more likeable and people will forgive any mistakes you might have made in the previous steps.
