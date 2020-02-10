@@ -68,7 +68,7 @@ You can see that in this snippet we have taken advantage of the changing value i
 while
 -----
 
-We have covered the two most basic execution control statements; with those two you should be able to do everything you'd want to do, thought maybe in not the most efficient way. That's what the ``while`` loop exists (a.k.a. ``do while`` loop). It is a very similar loop to the ``for`` but designed in a way that makes it more usable for those situations in which you want to both iterate multiple times and check conditions at the same time. 
+We have covered the two most basic execution control statements; with those two you should be able to do everything you'd want to do, thought maybe in not the most efficient way. That's what the ``while`` loop exists. It is a very similar loop to the ``for`` but designed in a way that makes it more usable for those situations in which you want to both iterate multiple times and check conditions at the same time. 
 
 The ``while`` loop is simpler to declare than the ``for`` since it only requires you to set a condition. **While** the condition is ``true`` the code inside the ``while`` loop will be executed. Let's take a look at the declaration of this loop before talking about the situations in which is comes in handy.
 

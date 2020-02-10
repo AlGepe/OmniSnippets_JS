@@ -20,6 +20,9 @@ We are going to take a look at different types of variables in javascript. Howev
 
 This is both comfortable (less writing/thinking) if everything goes according to plan, but it's important to keep in mind what type of variable you're working with to avoid error. We will mention this briefly at the end.
 
+.. note::
+   If in doubt you can always use ``typeof(variableName)`` to find out the type of ``variableName``.
+
 .. _bool:
 Booleans
 --------
@@ -54,20 +57,21 @@ Strings
 
 Strings are the next type of variable we will focus on. This is the type of variable that can store text. Strings can hold from a single character to a text of any reasonable length. One thing to note is that the computer cannot understand what the text means, but it can operate with it. 
 
-A string is a type of variable that allows for many native operations such as finding words of characters inside of it, dividing its contents into new, smaller, strings... Almost anything you can wish to do with text.
+A string is a type of variable that allows for many native operations such as finding words of characters inside of it, dividing its contents into new, smaller strings... Almost anything you can wish to do with text.
 
 To declare a string you need to tell the computer that whatever you are writing has to be interpreted as a piece of text information and not as a command to execute; to do so you simple encapsulate your text in single quotes *'* or double quotes *"*. Let's see an example:
 
-.. code-block:: javscript
+.. code-block:: javascript
    
    var myString = "This is a joke and it's funny"
 
 Anything from the first double quote to the second one is taken as part of the text stored in the variable ``myString``. The choice of either single or double quotes is there so that you can include single or double quotes on your string. 
 
-If we were to use single quotes in the example above, the computer would understand that the string is ``'This is a joke and it'`` and take the rest of the sentence as another command [#f2]_. On the other hand we can use include double quotes in our string if we declare it using single quotes: 
+If we were to use single quotes in the example above, the computer would understand that the string is ``'This is a joke and it'`` and take the rest of the sentence as another command [#f2]_. On the other hand we can include double quotes in our string if we declare it using single quotes: 
+
 .. code-block:: javascript
 
-   var myQuote = 'She said: "It's not so hard".'
+   var myQuote = 'She said: "It is not so hard".'
 
 .. note::
    By convention it is recommended to use single quotes when declaring strings, unless you need to use them in the text
@@ -91,10 +95,9 @@ As it is the case with other variables, you can declare a numerical variable usi
 
 .. code-block:: javscript
 
-   var myOtherNumber = 8.45 + 3/56
+   var myOtherNumber = 8.45 + 3 / 56
 
-In javascript there is no straightforward distinction between number types which means we don't need to think about the need for precision when declaring a new variable. We deal mostly with numbers in our calculators so it is useful to understand what you can and cannot do with them (see the References)
-
+Here the computer will perform the mathematical operations and store the final result as the value of ``myOtherNumber``.
 Integers
 ^^^^^^^^
 
@@ -110,7 +113,7 @@ To learn more about numbers and how to operate efficiently with them check the `
 On operating across types
 -------------------------
 
-Javascript's need for acceptance is very patent in the way it always complies with your commands instead of warning you or throwing error messages at you when you're doing things that are conflictive. This is both a blessing and a curse since for perfect human beings it saves times and for real ones it just hides basic mistakes so that it takes hundreds of years and thousands of ``console.log`` statements to find.
+Javascript's need for acceptance is very patent in the way it always complies with your commands instead of warning you or throwing error messages at you when you're doing things that are conflictive. This is both a blessing and a curse since for perfect human beings it saves times. For real-life ones, however, it just hides basic mistakes so that it takes hundreds of years and thousands of ``console.log`` statements to find.
 
 A place where this is important (and also relevant for the topic of this section) is in converting variable types from and to others depending on the operations we perform with them. For example, when multiplying a boolean and a number javascript automatically changes the boolean to a ``0`` (false) or a ``1`` (true); when summing a number and a string the value of the number gets converted to text and both strings are concatenated; etc...
 
@@ -120,7 +123,7 @@ But do not be discouraged, these are quirky aspects of javascript that you learn
 
 .. rubric:: Footnotes
 
-.. [#f1] Except for members of the Royal Family and horseshow crabs, obviously.
-.. [#f2] Which it would not understand and therefor show an error.
+.. [#f1] Except for members of the Royal Family and horseshoe crabs, obviously.
+.. [#f2] Which it would not understand and therefore show an error.
 .. [#f3] The word practice in the context my refer to making lots of mistakes, getting desperate or simply spending more time getting intimate with our beloved cJS section on BB
 
