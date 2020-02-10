@@ -28,6 +28,7 @@ This is a modification of the :ref:`if <if>` loop. Instead of checking whether a
 This is very useful when dealing with variable controlled by a :ref:`value setter <vSetter>` or :ref:`value Select <vSelect>` where there is only so many value the variable can take.
 
 .. code-block:: javascript
+   
    switch (variableOrExpression) {
    case 1:
       // code to be executed if variableOrExpression ==1 
