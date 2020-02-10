@@ -29,7 +29,7 @@ Examples of things that can be a better alternative to writing the same commands
 
    * **Functions**, if you're performing the same actions on different variables.
    * **Arrays/Dictionaries**, if you're creating many variables that go through similar processes/actions.
-   * **Loops (``for``, ``while``...)**, if you want to repeat an action a number of times
+   * **Loops (** ``for`` **,** ``while`` **...)**, if you want to repeat an action a number of times
    * **Copy code from someone**, if you're doing a common but not straight-forward task
 
 There are more complicated scenarios in which you can re-think your code to be shorter and more efficient, but we can't cover all them here. A good trick is to Google what you want to do if you notice it is a very repetitive task. Most likely you will find your answer and find a new trick to add to your coding weaponry.
@@ -79,4 +79,5 @@ In all seriousness, thought, it is important that we distinguish between being l
 
 .. rubric:: Footnotes
 .. [#f1] Thanks to my careful wording it is indeed **possible** to do so.
+
 .. [#f2] The last point is obviously optional but highly encouraged as it will make you more likeable and people will forgive any mistakes you might have made in the previous steps.
