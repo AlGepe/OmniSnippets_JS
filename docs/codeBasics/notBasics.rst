@@ -10,7 +10,7 @@ For the advanced section we will talk about special version of those behaviours 
 .. toctree:: Basics of coding
    :maxdepth: 1
 
-   ifWhileFor
+   compoundedVars
    specialCousins
 
 ..  _execOrder:

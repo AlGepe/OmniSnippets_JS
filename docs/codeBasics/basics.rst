@@ -12,7 +12,7 @@ We have divided this containers into two different sections of increasing comple
    :maxdepth: 2
 
    simpleVars
-   compoundedVars
+   ifWhileFor
 
 .. rubric:: Footnote
 
