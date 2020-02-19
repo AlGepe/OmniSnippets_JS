@@ -72,7 +72,7 @@ This means that, even though you technically can, you should never display more 
 
 .. tip::
 
-    If you want to select specific colours for your data, you can fill in you array with empty entries moving your data to the desired position. Check our :ref:`Hacks for charts<chartTips>` section.
+    If you want to select specific colours for your data, you can fill in you array with empty entries moving your data to the desired position. Check the detailed section for :ref:`Line Charts<lineChart>`, :ref:`Area Charts<areaChart>`, :ref:`Bar Charts<barChart>`, and :ref:`Pie Charts<pieChart>` to see a practical example for each type of chart.
 
 Chart types and their peculiarities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
