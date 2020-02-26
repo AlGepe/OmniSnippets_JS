@@ -73,7 +73,7 @@ In this instance the example is so basic that there is little to no advantage in
 .. warning::
    You can use multiple ``return`` statements inside a function but once the computer reachers a ``return`` statement it returns the corresponding value and exists said function immediately, no more code is executed inside of that function.
 
-One thing to not is the **scope** of variables. Variables created inside a function cannot be accessed from outside of it, they *"dissappear"* once the function ends. If you want to use a variable inside multiple functions you can declare it outside of all the functions so that it will always be available and accessible. This variables are called global variables and you should be careful when using them since they might have been modified my a function without you realising it. When possible, the advice is to avoid global variables.
+One thing to note is the **scope** of variables. Variables created inside a function cannot be accessed from outside of it, they *"dissappear"* once the function ends. If you want to use a variable inside multiple functions you can declare it outside of all the functions so that it will always be available and accessible. This variables are called global variables and you should be careful when using them since they might have been modified my a function without you realising it. When possible, the advice is to avoid global variables.
 
 .. _object:
 Objects
