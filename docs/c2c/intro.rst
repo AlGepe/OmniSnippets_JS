@@ -4,9 +4,9 @@ From Calculatorian to Calculatorian (tips and tricks)
 
 This is the fun and applicable section of the documentation, finally! 
 
-In this section we will have a collection of tips, tricks, guidelines, common issues (and how to solve them)... It's the sections were calculatorians we get together to help each other directly (writing here) or indirectly by reporting problems, coming up with solutions or simply doing our job.
+In this section we will have a collection of tips, tricks, guidelines, common issues (and how to solve them)... Anything that we as calculatorians have find helpful and useful.
 
-We will try to group every topic into one of three categories: Problem solving, tips/tricks, and general advice/guidelines. To keep it manageable and interesting for everyone, there will be a new topic published every week. Most of the topics will be focused on helping new recruits navigate the jungle that is BB.
+We will try to group every topic into one of three categories: **Problem solving, tips/tricks, and general advice/guidelines**. To keep it manageable and interesting for everyone, there will be a new topic published every week.
 
 Problem solving
 ---------------
