@@ -11,7 +11,7 @@ We will try to group every topic into one of three categories: **Problem solving
 Problem solving
 ---------------
 
-As the name implies, we have a collection of the most common problems that happen to all of us. We will explain (to some degree) why they happen, and how to solve and/or avoid them in the future. Feel free to suggest any new topic to be added to the list.
+This section is meant to solve the problems you will find. You can expect to find here BB and customJS quirks, systematic approaches to finding/solving problems, how to minimize the damage when we make a mistake...
 
 .. toctree::
    :maxdepth: 1
@@ -31,7 +31,7 @@ As the name implies, we have a collection of the most common problems that happe
 Tips and tricks
 ---------------
 
-This section won't necessarily solve your problems but it will help you become a more advanced calculatorian while preventing problems from happening both now and in the future. This is the section that will help you personally and improve you customJS wizardry.
+Here we will collect all those clever *hacks* and tricks that make our lives easier when creating a calculator. Everything you need to know to work less and produce more.
 
 .. toctree::
    :maxdepth: 1
@@ -54,7 +54,7 @@ This section won't necessarily solve your problems but it will help you become a
 General advice and guidelines
 -----------------------------
 
-In an ideal world everyone's code will be bulletproof and future proof while being easily understandable at a glance. In the real world we all have different ideas of what that means and more important things to do. This is the wishful section in which we set standard practices that should make everyone else's life much better. This are not hard rules, nobody will be executed for not following them to the letter. However, following them will get us all a little bit closer to that ideal world we talked about before.
+This is the section dedicated to everyone else, including future-you. This is where we keep the company-wide guidelines and suggestions. This is the tedious work that no one likes to do, but everyone wishes the rest did. Please, try to follow it. :)
 
 .. toctree::
    :maxdepth: 1
