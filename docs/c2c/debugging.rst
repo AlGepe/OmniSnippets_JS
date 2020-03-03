@@ -27,7 +27,7 @@ Once you have identified the suspects, we need to **interrogate them**. In our c
 The idea here is to sprinkle some of these to get the values of the suspicious variables in order to figure out what's going on. 
 
 .. tip::
-   You can use ``typeof([variable])`` to see what is the variable type of `[variable]`. Wrong variable types can cause unexpected problems when operating with them or testing conditions.
+   You can use ``typeof([variable])`` to see what is the variable type of ``[variable]``. Wrong variable types can cause unexpected problems when operating with them or testing conditions.
 
 Once you find where the mistake was made, you can rectify it. If the problem still persists it just means that you caught another error that wasn't showing up yet. That's good news, you're getting closer to the final fix, just repeat the procedure until your calculator learns who's the boss and starts obeying your commands.
 
