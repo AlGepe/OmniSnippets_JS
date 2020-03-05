@@ -41,7 +41,7 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 ..   template
 ..   clearFieldAfterSelect
 ..   calculateButton
-..   setValueFromJS
+..   setValueFromJSHack
 ..   repository
 ..   structureData
 ..   dotsOnChart

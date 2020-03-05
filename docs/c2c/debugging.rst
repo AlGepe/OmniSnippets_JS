@@ -26,7 +26,7 @@ You might not be able to fix the issue right again, but you can keep investigati
 Once you find where the mistake was made, you can rectify it. If the problem still persists it just means that you caught another error that wasn't showing up yet. That's good news, you're getting closer to the final fix, just repeat the procedure until your calculator learns who's the boss and starts obeying your commands.
 
 .. _debugConsole:
-The calculator vanished like a ghost (console.log the sh** out of your code)
+The calculator disappeared (``console.log`` the sh** out of your code)
 ----------------------------------------------------------------------------
 
 Sometimes, however, the whole calculator disappears rendering our ctx-based methods ineffective. Sometimes it might display an error message and other not even that. Either way the procedure is always the same.
