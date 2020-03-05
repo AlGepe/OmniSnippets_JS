@@ -2,56 +2,34 @@
 Standard debugging procedure (step by step)
 ===========================================
 
-Welcome to what I expect will be the most visited section of the documentation: **How to solve your own problems**. We all have and will encounter errors when we're dealing with customJS, it's unavoidable. Luckily for us, almost every problem we will find can easily be solved following a systematic approach.
+We all encounter errors when dealing with customJS, it's unavoidable. Luckily for us, almost every problem we will find can easily be solved following a systematic approach.
 
-The real issue when we encounter a problem with our code is to find where is the mistake is the actual mistake in our code. It's tricky, because error messages and unexpected behaviours can arise far from the source of the problem. To conduct our investigation, we want to follow the execution of our code step by step to find why is there a problem in the first place and to solve it.
+When we stumble upon an error in our code, we want to locate where that error is coming from so that we can fix it. If you are already a pro [#f1]_ you can play with the developer tools built into your browser and set breakpoints or even run your code one step at a time. For the rest of us there's an easier way.
 
-If you are already a pro [#f1]_ you can play with the developer tools built into your browser and set breakpoints or even run your code one step at a time. This requires much more knowledge than the rest of us (mere mortals) have, so let's see what our options.
-
-There are 3 basic strategies to follow, all fairly similar. They are also match three types of errors that we typically encounter when creating a new calculator. In order of difficulty and knowledge required they are:
-
-#. :ref:`My calculator doesn't obey me -> use ctx methods<debugCtx>`
-#. :ref:`I got an error message -> lmgtfy + experience + check editor + console.log<debugMsg>`
-#. :ref:`My calculator disappeared, no message -> console.log all the things!<debugConsole>`
+We will take a look at a basic and an advanced way to solve your issues (with the code, we're not psychologists here). The philosophy behind both approaches is similar so the level corresponds to the knowledge required to perform the steps.
 
 .. _debugCtx:
-My calculator misbehaves (the power of ``ctx``)
------------------------------------------------
+Basic approach: the power of ``ctx``
+------------------------------------
 
-So here is the setup: You have *"done everything right"* but the calculator is acting up and not obeying. You've looked at the code and it all looks perfect... News flash! You've made a mistake somewhere, we just need to find it.
+We've all been there, you've coded everything *correctly* and like a bratty teenager the calculator refuses to obey. The variable isn't hiding, the html text is not showing as it should... It means that we've made a mistake somewhere and we need to fix it. 
 
 First thing you need to do is **locate the suspect**. That would be the part of your code that is not being executed, anywhere you declare of modify any variable involved in the problem... You should be able to tell roughly where is the code that's causing the problem.
 
 Once you have identified the suspects, we need to **interrogate them**. In our case we want to know what are their values and properties. To do this we can use ``ctx`` methods, namely :ref:`ctx.addHtml<addhtml>` and :ref:`ctx.addTextInfo>addtxtinfo>`.
 
-The idea here is to sprinkle some of these to get the values of the suspicious variables in order to figure out what's going on. 
+You might not be able to fix the issue right again, but you can keep investigating and interrogating new suspects until you find a fixable point.
 
 .. tip::
    You can use ``typeof([variable])`` to see what is the variable type of ``[variable]``. Wrong variable types can cause unexpected problems when operating with them or testing conditions.
 
 Once you find where the mistake was made, you can rectify it. If the problem still persists it just means that you caught another error that wasn't showing up yet. That's good news, you're getting closer to the final fix, just repeat the procedure until your calculator learns who's the boss and starts obeying your commands.
 
-.. _debugMsg:
-Calculator replaced by a message (Use your knowledge)
------------------------------------------------------
-
-This one is scary. You are happily testing or extending your calculator and suddenly it disappears leaving a red rectangle with some text. *Don't Panic!* The text is an error message, a hint to help you solve the mystery. Most of the times it will not show the whole error message, just the beginning, so let's solve that first.
-
-There are 2 easy ways to get the full message. One is to triple click on the message to select it, copy (Ctr+C) and then paste somewhere else, where it will be fully displayed. Alternatively, you can also bring up the developer tools of your browser (typically pressing F12) and searching for the *"Console"* where the message is fully displayed. 
-
-If you chose to use the developer options, you might also get an extra hint pointing to a specific file. If that file is named XXXXX it means the error actually popped up inside customJS. Lucky day! Just like with any treasure hunt, any extra tip you get it's a good tip. 
-
-.. warning::
-   Calculator variables are only created when you save the calculator. So if you get a message saying something about an inexistent variable, double check you have created it and then try saving the calculator.
-
-Now that you've gathered all the clues, you are ready to tackle the problem. If you cannot understand what the message it's about, simply as a fellow calculatorian or the never-resting god of knowledge: Google. Once you put that knowledge together with extra information like what things you changed before the error popped or what variables could raise such errors (this comes mostly with experience) you will probably be able to figure out what went wrong.
-
-If you still cannot strike gold, it might be time to try the next method down the list. This does not mean that you somehow failed your quest or that you're bad a customJS; not at all. Sometimes just the hints are not informative enough to find where the error originates and that's fine, that's why we have the next strategy.
-
 .. _debugConsole:
 The calculator vanished like a ghost (console.log the sh** out of your code)
 ----------------------------------------------------------------------------
 
+Sometimes, however, the whole calculator disappears rendering our ctx-based methods ineffective.
 An now we get into the *big boy/girl* tools. We will be using the developer console for our quest. The scenario is one most of us have run into at some point. You do something and the calculator disappears completely leave nothing behind. No message, no visible variables... Nothing. Sometimes it might even crash the webpage altogether. *Don't Panic!* This things happen, you haven't broken anything permanently.
 
 The first step to take is to either reload the calculator or the whole page depending what broke. If after refreshing the page keeps crashing, ask for help. If the page stays and the calculator shows up as if nothing happened, try to recreate the error to understand what happened. If it crashes immediately you are ready for the next step.
