@@ -29,27 +29,19 @@ Once you find where the mistake was made, you can rectify it. If the problem sti
 The calculator vanished like a ghost (console.log the sh** out of your code)
 ----------------------------------------------------------------------------
 
-Sometimes, however, the whole calculator disappears rendering our ctx-based methods ineffective.
-An now we get into the *big boy/girl* tools. We will be using the developer console for our quest. The scenario is one most of us have run into at some point. You do something and the calculator disappears completely leave nothing behind. No message, no visible variables... Nothing. Sometimes it might even crash the webpage altogether. *Don't Panic!* This things happen, you haven't broken anything permanently.
-
-The first step to take is to either reload the calculator or the whole page depending what broke. If after refreshing the page keeps crashing, ask for help. If the page stays and the calculator shows up as if nothing happened, try to recreate the error to understand what happened. If it crashes immediately you are ready for the next step.
+Sometimes, however, the whole calculator disappears rendering our ctx-based methods ineffective. Sometimes it might display an error message and other not even that. Either way the procedure is always the same.
 
 .. note:: 
-   You can reload the calculator by hitting the refresh icon below all the variables, refreshing the page or sometimes even adding a blank space to your customJS.
+   After a Javscript error like the ones mentined here you will need to restart the calculator. Simply reload the page (be careful you might lose your changes) or simply modify a character on the customJS text editor (adding/removing a space will do).
 
-The idea is the same as the first strategy we discussed, only this time we will not use ``ctx.addHtml`` for obvious reasons. Instead we will use ``console.log([variable])``. The difference is that ``console.log`` outputs to the developer console, which is accessible even if the calculator has crashed. Simply bring up the developer tools (generally by pressing F12) and find a tab called ``Console``. This is a sort of log of what is happening in the webpage.
+First open the developer options on your browser (typically by pressing F12). Then navigate to the "Console" and look for error messages (generally highlighted in red). Once you find the error message try to make sense of it. You might know what's wrong right away or you might need to consult Google first, but most of the times you'll get some good information about what went wrong.
 
-If your calculator has crashed, chances are you will see some red messages on the console; that's our first clue. If that's not enough to find out what is wrong in the code, you just repeat the first strategy using ``console.log``. The output will appear in the console giving you more information as to what could've gone wrong. 
+If, however, you are still clueless about what is actually wrong (happens more often than you'd think) we need to try a different approach. We can recreate the ``ctx`` trick to see the state of variables. This you would need to use ``console.log([variable])`` to check the state of ``[variable]`` so that you it gets displayed on the developer console instead of in the calculator. Search for the source of your problem and you should be golden. 
 
-If you don't see any output, it means that part of the code did not run. That is more good news since it tells you for sure that the error is in a part of the code that was ran previously, we're narrowing our options! Keep doing that until you find the mistake in the code, fix it and you're done!
+.. tip::
+   In the developer console you can interact with objects and structured variables by clicking them. This can give you very useful information if you know what to look for.
 
-There are a couple things that might help you leverage all the power of ``console.log``. Here is a quick and non-exhaustive list of tricks to use when you output to the console.
-
-#. Output objects and structured variables and interact with them in the console.
-#. Add text-only output before of after to identify which variable is displayed.
-#. Use text-only output to check which parts of the code are run when.
-#. Use text-only output to check what conditions are fulfilled in ``if`` and ``while`` statements.
-#. Output expressions to check what is their actual result. Very useful for tricky conditions.
+If you decide to use more than one ``console.log`` statement (and you should for complex code) try labelling each output by adding a string output as another ``console.log`` just before the main ones. You can also use the ``+`` symbol to concatenate strings if you're only interested in the value of a variable.
 
 .. warning::
    **NEVER** publish a calculator with console output on the code. Not only does it look bad, but you will suffer the rage of the developers... Trust me, you don't want to know what evil thoughts go through the minds of those who created BB.
@@ -57,9 +49,11 @@ There are a couple things that might help you leverage all the power of ``consol
 The ace up your sleeve (temporary delete code)
 ----------------------------------------------
 
-Sometimes you don't really know where the mistake is coming from. Is in this moments when having an ace up your sleeve will really help. The trick here is to comment chunks of code that are independent of each other until the error disappears. If there is no error any more, you know the problem is inside the commented part of the text. You can uncomment more and more of it until you figure out the exact source of your problems.
+There are days when you don't seem to be able to find out where the problem is. Or maybe you just can't be bother adding ``ctx`` or ``console.log`` statements. In these situations, there is another way. A more rudimentary way to find out where the source of your error is can be to simply start deleting code.
 
-This method can be used as your only strategy but it really shines when used in combination with some of the techniques above. The only drawback of this trick is that sometimes you cannot simply comment out a whole bunch of code without messing up other parts of it that depends on the commented part.
+Deleting code is down right painful, and also terribly stupid if you plan on rewriting it later, so you can get the same effect by commenting parts of it. Use ``//`` for commenting line by line and use ``/* [code] */`` to comment blocks of code. Simply comment any parts of your code that seem suspicious and see if the error is gone. If it is, the source is in the piece you just commented. You can repeat this process until you find the command that is causing all the troubles.
+
+Remember to leave uncommented the essential parts so that the untouched code can still be executed. Sometimes it's necessary to replace a big chunk of code you just commented with a simple dummy statement to avoid incompatibilities.
 
 .. warning::
    Be careful when commenting code not to introduce new errors. The idea is find the mistake not to create new ones trying to make your mutilated code to work.
@@ -70,9 +64,9 @@ A clear example of this are user defined functions. In this cases the trick is t
 When all hope is lost (summoning the oracle)
 --------------------------------------------
 
-If after trying all the above strategies you still haven't succeeded -I can't stress this enough- *Don't Panic!*. It's time to summon the power of the oracle, the hive-mind of the **#calculatorians** channel. Legend has it that this channel contains the collective knowledge of all past an present calculatorians. It is a forum for helping and sharing each other (amongst other things) so feel free to post your troubles and ask for help. 
+If after trying all the above strategies you still haven't succeeded -I can't stress this enough- *Don't Panic!*. It's time to summon the power of the oracle, the hive-mind of the **#calculatorians** channel. Legend has it that this channel contains the collective knowledge of all past an present calculatorians.
 
-We are all willing to help, so the best idea is to post directly on the channel. If you need to talk with one person directly for some reason try starting with Dominik or Alvaro as they have enough experience and customJS-skills to solve your problem or point you in the right direction. Just remember: there's no shame in having problems or asking for help; we've all been n00bs and the only way anyone improves is by asking questions.
+We are all willing to help, so the best idea is to post directly on the channel. If you need to talk with one person directly for some reason try starting with Dominik or Alvaro as they have enough experience and customJS-skills to solve your problem or point you in the right direction. Just remember: there's no shame in having problems or asking for help; we've all been n00bs and the only way to improve is by asking questions.
 
 We will soon have a quick guide on how to ask better questions when you need help. For the time being just make sure you clearly know what you want to do, explain the problem properly and give as much information as possible regarding what you have tried and what unwanted behaviour you get.
 
