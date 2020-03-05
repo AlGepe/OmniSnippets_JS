@@ -78,7 +78,5 @@ A word on prevention
 
 The best defence is a good offence. For calculatorians this means a few simple things. Plan before you right your code. Go one step at a time. And save your progress so that you always have a working version to go back to. If you follow this simple principles you will still get problems, that's unavoidable, but they will be fewer and easier to solve. It's, once again, all about :ref:`dat sick mindset, dude<damindset>`
 
-
-
-
+.. rubric:: Footnotes
 .. [#f1] Yes, I'm looking at you Steve ;)
