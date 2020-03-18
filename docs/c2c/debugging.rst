@@ -14,9 +14,17 @@ Basic approach: the power of ``ctx``
 
 We've all been there, you've coded everything *correctly* and like a bratty teenager the calculator refuses to obey. The variable isn't hiding, the html text is not showing as it should... It means that we've made a mistake somewhere and we need to fix it. 
 
+.. _debugCtx:
+.. figure:: addTxt.png
+   :scale: 100%
+   :alt: Using ctx methods to debug
+   :align: center
+
+   Example of using ``ctx`` statements for debugging.
+
 First thing you need to do is **locate the suspect**. That would be the part of your code that is not being executed, anywhere you declare of modify any variable involved in the problem... You should be able to tell roughly where is the code that's causing the problem.
 
-Once you have identified the suspects, we need to **interrogate them**. In our case we want to know what are their values and properties. To do this we can use ``ctx`` methods, namely :ref:`ctx.addHtml<addhtml>` and :ref:`ctx.addTextInfo>addtxtinfo>`.
+Once you have identified the suspects, we need to **interrogate them**. In our case we want to know what are their values and properties. To do this we can use ``ctx`` methods, namely :ref:`ctx.addHtml<addhtml>` and :ref:`ctx.addTextInfo<addtxtinfo>`.
 
 You might not be able to fix the issue right again, but you can keep investigating and interrogating new suspects until you find a fixable point.
 
@@ -36,12 +44,28 @@ Sometimes, however, the whole calculator disappears rendering our ctx-based meth
 
 First open the developer options on your browser (typically by pressing F12). Then navigate to the "Console" and look for error messages (generally highlighted in red). Once you find the error message try to make sense of it. You might know what's wrong right away or you might need to consult Google first, but most of the times you'll get some good information about what went wrong.
 
+.. _debugConsole:
+.. figure:: console.png
+   :scale: 100%
+   :alt: Developer console shows full error messages
+   :align: center
+
+   Developer console showing full error message when the calculator disappears.
+
 If, however, you are still clueless about what is actually wrong (happens more often than you'd think) we need to try a different approach. We can recreate the ``ctx`` trick to see the state of variables. This you would need to use ``console.log([variable])`` to check the state of ``[variable]`` so that you it gets displayed on the developer console instead of in the calculator. Search for the source of your problem and you should be golden. 
 
 .. tip::
    In the developer console you can interact with objects and structured variables by clicking them. This can give you very useful information if you know what to look for.
 
 If you decide to use more than one ``console.log`` statement (and you should for complex code) try labelling each output by adding a string output as another ``console.log`` just before the main ones. You can also use the ``+`` symbol to concatenate strings if you're only interested in the value of a variable.
+
+.. _debugConsoleLog:
+.. figure:: consoleLog.png
+   :scale: 100%
+   :alt: Using console log to debug
+   :align: center
+
+   Using ``console.log`` statements for debugging.
 
 .. warning::
    **NEVER** publish a calculator with console output on the code. Not only does it look bad, but you will suffer the rage of the developers... Trust me, you don't want to know what evil thoughts go through the minds of those who created BB.
