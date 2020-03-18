@@ -1,3 +1,11 @@
+.. |ss| raw:: html
+
+   <strike>
+
+.. |se| raw:: html
+
+   </strike>
+
 .. _jsHtml:
 Javascript vs HTML
 ==================
@@ -20,4 +28,4 @@ Javascript is run by the computer of the user, and our server does the HTML
 
 .. [#f1] It's similar but DEFINITELY different
 
-.. [#f2] The ever-friendly: Darek and Daniel. D&D also make the BB.
+.. [#f2] The ever-friendly: Darek and Daniel and |ss| Dave |se| Wojtek. D&D&D also make the BB.

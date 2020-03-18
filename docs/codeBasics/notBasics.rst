@@ -1,27 +1,37 @@
-(not so) basics of coding
-=========================
+Basics of coding [advanced version]
+===================================
 
-.. _execOrder:
-Altering the flow of execution
-------------------------------
+We have already seen the different types of data and structures that we can use to organize ourselves and make a much more efficient code. However, we have not seen yet how to automate repetitive tasks or how to modify the behaviour or our code depending on certain conditions. That is what we will do in this section. 
 
-The basic loops and conditions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Again, we have divided the section into a more basic and a more advanced one, based on the simplicity of each statement and the amount of times we typically use them in our calculators. In the basic section we will see how to automate certain repetitive tasks, how to react to conditions and variable values to implement different behaviours, and finally we will see a less common but equally useful why to combine them.
 
-for
-^^^
+For the advanced section we will talk about special version of those behaviours that might save you time and make your life easier if very concrete scenarios.
 
-if
-^^
+.. toctree:: Basics of coding
+   :maxdepth: 1
 
-while
-^^^^^
+   compoundedVars
+   specialCousins
 
-A bunch of more words that might or might not mean stuff
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..  _execOrder:
+      The basic loops and conditions
+      ------------------------------
 
-for each
-++++++++
+      if
+      ^^
 
-do while
-++++++++
+      for
+      ^^^
+
+      while
+      ^^^^^
+
+      .. _advExec:
+      Advanced version: A bunch of more words that might or might not mean stuff
+      --------------------------------------------------------
+
+      for each
+      ++++++++
+
+      do while
+      ++++++++

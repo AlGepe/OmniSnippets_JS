@@ -37,8 +37,7 @@ User guide for customJS. *Standard usage of customJS* is a copy+extension of the
     :maxdepth: 2
 
     stdCustomJS/intro
-
-..  c2c/intro
+    c2c/intro
 
 
 Extra resources
@@ -50,6 +49,7 @@ Work in Progress
     :maxdepth: 2
 
     extras/intro
+    repository/intro
 
 ..  how2RTFM
     authors
