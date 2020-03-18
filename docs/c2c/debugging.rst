@@ -24,7 +24,7 @@ We've all been there, you've coded everything *correctly* and like a bratty teen
 
 First thing you need to do is **locate the suspect**. That would be the part of your code that is not being executed, anywhere you declare of modify any variable involved in the problem... You should be able to tell roughly where is the code that's causing the problem.
 
-Once you have identified the suspects, we need to **interrogate them**. In our case we want to know what are their values and properties. To do this we can use ``ctx`` methods, namely :ref:`ctx.addHtml<addhtml>` and :ref:`ctx.addTextInfo>addtxtinfo>`.
+Once you have identified the suspects, we need to **interrogate them**. In our case we want to know what are their values and properties. To do this we can use ``ctx`` methods, namely :ref:`ctx.addHtml<addhtml>` and :ref:`ctx.addTextInfo<addtxtinfo>`.
 
 You might not be able to fix the issue right again, but you can keep investigating and interrogating new suspects until you find a fixable point.
 
