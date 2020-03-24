@@ -17,12 +17,12 @@ This section is meant to solve the problems you will find. You can expect to fin
    :maxdepth: 1
 
    debugging
+   howToAskForHelp
+  saveCrashedCalculator
 ..   variableTypes
 ..   debuggingDev
 ..   omniFunctionInputs
 ..   strangerConditions
-..   saveCrashedCalculator
-..   howToAskForHelp
 ..   orderOfExecution
 ..   scope
 
