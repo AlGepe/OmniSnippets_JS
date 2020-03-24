@@ -16,7 +16,7 @@ We are going to see a way to recover all your changes after that fatal page cras
 .. rubric:: Enter the developer Console
 
 .. _devConsole:
-.. figure:: imgs/devConsole.png
+.. figure:: imgs/devConsole.jpg
    :scale: 50%
    :alt: Screenshot of developer tools in Chrome 80
    :align: center
@@ -29,7 +29,7 @@ This is a powerful tool that helps real developers test, debug and improve their
 .. rubric:: Navigate throught the folders
 
 .. _devConsole:
-.. figure:: imgs/fileOnConsole.png
+.. figure:: imgs/fileOnConsole.jpg
    :scale: 50%
    :alt: Find the file in the developer tools
    :align: center
