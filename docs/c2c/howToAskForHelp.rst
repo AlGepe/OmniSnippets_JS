@@ -1,3 +1,4 @@
+.. _howToHelp:
 How to ask for help
 ===================
 

@@ -92,9 +92,8 @@ If after trying all the above strategies you still haven't succeeded -I can't st
 
 We are all willing to help, so the best idea is to post directly on the channel. If you need to talk with one person directly for some reason try starting with Dominik or Alvaro as they have enough experience and customJS-skills to solve your problem or point you in the right direction. Just remember: there's no shame in having problems or asking for help; we've all been n00bs and the only way to improve is by asking questions.
 
-We will soon have a quick guide on how to ask better questions when you need help. For the time being just make sure you clearly know what you want to do, explain the problem properly and give as much information as possible regarding what you have tried and what unwanted behaviour you get.
 
-.. If you want to ask questions, please read our guide and how and when to do that before posting. I know it sounds passive aggressive and you might be thinking I'm a Dick, but the reality is that a well asked question is easier to understand and answer meaning it saves everyone time. Oh, and my name is not Richard.
+If you want to ask questions, please :ref:`read our guide<howToHelp>` and how and when to do that before posting. I know it sounds passive aggressive and you might be thinking I'm a Dick, but the reality is that a well asked question is easier to understand and answer meaning it saves everyone time. Oh, and my name is not Richard.
 
 .. _debugAvoid:
 A word on prevention

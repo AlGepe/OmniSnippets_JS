@@ -52,7 +52,7 @@ numbers/strings/functions as booleans
 Mistakes, is not an **if**, it's a **when**
 -------------------------------------------
 
-    .. _debug:
+    .. _debugOld:
     Debug procedure
     ~~~~~~~~~~~~~~~
 
