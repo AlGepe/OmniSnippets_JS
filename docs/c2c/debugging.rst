@@ -15,7 +15,7 @@ Basic approach: the power of ``ctx``
 We've all been there, you've coded everything *correctly* and like a bratty teenager the calculator refuses to obey. The variable isn't hiding, the html text is not showing as it should... It means that we've made a mistake somewhere and we need to fix it. 
 
 .. _debugCtx:
-.. figure:: addTxt.png
+.. figure:: imgs/addTxt.png
    :scale: 100%
    :alt: Using ctx methods to debug
    :align: center
@@ -45,7 +45,7 @@ Sometimes, however, the whole calculator disappears rendering our ctx-based meth
 First open the developer options on your browser (typically by pressing F12). Then navigate to the "Console" and look for error messages (generally highlighted in red). Once you find the error message try to make sense of it. You might know what's wrong right away or you might need to consult Google first, but most of the times you'll get some good information about what went wrong.
 
 .. _debugConsole:
-.. figure:: console.png
+.. figure:: imgs/console.png
    :scale: 100%
    :alt: Developer console shows full error messages
    :align: center
@@ -60,7 +60,7 @@ If, however, you are still clueless about what is actually wrong (happens more o
 If you decide to use more than one ``console.log`` statement (and you should for complex code) try labelling each output by adding a string output as another ``console.log`` just before the main ones. You can also use the ``+`` symbol to concatenate strings if you're only interested in the value of a variable.
 
 .. _debugConsoleLog:
-.. figure:: consoleLog.png
+.. figure:: imgs/consoleLog.png
    :scale: 100%
    :alt: Using console log to debug
    :align: center
