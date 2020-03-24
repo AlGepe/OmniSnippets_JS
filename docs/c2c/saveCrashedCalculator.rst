@@ -8,7 +8,7 @@ Probably the most common example is when you are editing an existing ``for`` loo
 .. note::
   This trick works even when the whole webpage has crashed due to malfunctioning code.
 
-Obviously prevention is your best friend, you should save after every major change to your code. However, we ain't perfect and we _sometimes_ forget to save. So I'm here to tell you that if this happens to you ever again: _Don't Panic!_
+Obviously prevention is your best friend, you should save after every major change to your code. However, we ain't perfect and we __sometimes__ forget to save. So I'm here to tell you that if this happens to you ever again: __Don't Panic!__
 
 We are going to see a way to recover all your changes after that fatal page crash in 3 simple steps.
 
@@ -36,7 +36,7 @@ This is a powerful tool that helps real developers test, debug and improve their
 
 We need to find the file that stores the last version of the code that was ran by the browser the one that includes all of our changes, including the mistake.
 
-Navigate to the tab called **"Sources"** you will see a folder structure on the left of the developer tools. Look for a group named _"www.omnicalculator.com"_. Double clicking it should show the subfolders, find the one named _"customjs"_ and double click on it. Now you should see a file name exactly like the ``slug`` of your calculator, double click again to open it.
+Navigate to the tab called **"Sources"** you will see a folder structure on the left of the developer tools. Look for a group named __"www.omnicalculator.com"__. Double clicking it should show the subfolders, find the one named __"customjs"__ and double click on it. Now you should see a file name exactly like the ``slug`` of your calculator, double click again to open it.
 
 The customJS code that you wrote before the calculator crashed should appear inside the developer tools. You might think you're done but there's a very crucial step you still need to take.
 
