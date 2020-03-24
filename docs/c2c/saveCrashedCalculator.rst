@@ -10,14 +10,14 @@ Probably the most common example is when you are editing an existing ``for`` loo
 
 Obviously prevention is your best friend, you should save after every major change to your code. However, we ain't perfect and we _sometimes_ forget to save. So I'm here to tell you that if this happens to you ever again: _Don't Panic!_
 
-We are going to see a way to recover all your changes after that fatal page crash in 4 simple steps.
+We are going to see a way to recover all your changes after that fatal page crash in 3 simple steps.
 
 
 .. rubric:: Enter the developer Console
 
 .. _devConsole:
 .. figure:: imgs/devConsole.jpg
-   :scale: 50%
+   :scale: 100%
    :alt: Screenshot of developer tools in Chrome 80
    :align: center
 
@@ -30,7 +30,7 @@ This is a powerful tool that helps real developers test, debug and improve their
 
 .. _devConsole:
 .. figure:: imgs/fileOnConsole.jpg
-   :scale: 50%
+   :scale: 100%
    :alt: Find the file in the developer tools
    :align: center
 
