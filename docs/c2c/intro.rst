@@ -19,12 +19,12 @@ This section is meant to solve the problems you will find. You can expect to fin
    debugging
    howToAskForHelp
    saveCrashedCalculator
+   scope
 ..   variableTypes
 ..   debuggingDev
 ..   omniFunctionInputs
 ..   strangerConditions
 ..   orderOfExecution
-..   scope
 
 
 

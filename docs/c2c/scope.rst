@@ -11,6 +11,7 @@ The scope of a variable is the range in which it exists and can be used. The sco
 
 
 .. code-block:: javascript
+
   function summation (a, b) {
     var sum = a + b;
     return sum;
@@ -23,6 +24,7 @@ In this example the variable ``sum`` has been defined inside the function ``summ
 Contrast this to the following case:
 
 .. code-block:: javascript
+
   var sum = 0;
   function summation (a, b) {
     sum = a + b;
@@ -45,6 +47,7 @@ In a basic calculator, you don't need to worry about the scope of a variable, si
 One advantage of having limited scopes in variables that you might have already used is calculating a value inside a loop and using it later somewhere else. Let's take a look at an example using a ``for`` loop.
 
 .. code-block:: javascript
+
   var sum = 0;
   for (var i = 0; i < N; i++) {
     sum += i;
@@ -64,6 +67,7 @@ Picture this: You want to know what country the user comes from (using ``ctx.get
 You might be tempted to do something like this:
 
 .. code-block:: javascript
+
   omni.onInit (function (ctx) {
     var country = ctx.getCountryCode();
   });
@@ -83,6 +87,7 @@ This will not work and will tell you something along the lines of "``country`` i
 To fix this unwanted behaviour, we simply define ``country`` outside of any context, making it a *global variable*.
 
 .. code-block:: javascript
+
   var country = '';
   omni.onInit (function (ctx) {
     country = ctx.getCountryCode();
