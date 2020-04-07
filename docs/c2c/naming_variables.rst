@@ -71,7 +71,7 @@ Sometimes you need to create a variable in customJS to hold some data that will 
 
 In such cases we should chose a name for the data variable that clearly states which variable it is related to. The best way to do so is by using the name of the variable and appending extra information to it. The convention we are proposing here is to add ``_`` and a descriptor of the type of variable at the end.
 
-For example, if we have a value select to be associated to the variable ``price_of_gas_`` we would name the value setter variable ``price_of_gas_VSelect``. As we read the name of said variable it becomes obvious to which calculator variable it is related, what it contains, and in what format the information is stored. 
+For example, if we have a value select to be associated to the variable ``price_of_gas`` we would name the value setter variable ``price_of_gas_VSelect``. As we read the name of said variable it becomes obvious to which calculator variable it is related, what it contains, and in what format the information is stored. 
 
 .. note::
   When you create variable for the sole purpose of storing data that will be related to a calculator variable, name the data variable exactly like the variable in the calculator and append ``_`` and the type of variable. Use ``_VSetter`` for both value setters and ``_VSelect`` for value selects.
