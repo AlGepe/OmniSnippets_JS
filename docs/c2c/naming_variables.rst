@@ -18,7 +18,7 @@ For those who are wondering or want a reminder, here is a short list:
 
 Now that we know what are the guidelines for naming variables, let's take a look at how to apply them to our calculators.
 
-Calcualtor Variables
+Calculator Variables
 --------------------
 
 The way our Beloved Belligerent (BB) converts variable names to labels in the calculator make it very convenient to use the underscore ``_`` notation for separating different words in one variable name. So we will write ``price_of_gas`` as opposed to the camelCasing alternative ``priceOfGas``. 
@@ -38,6 +38,8 @@ When in customJS we will find the need to create javascript variables. Some of t
 We should name those variables related to the calculator variables the same as the ones in the calculator. It will be immediately obvious what variable in the calculator corresponds to which in the code making it easier for anyone to quickly understand and debug someone else's code when needed.
 
 The second rule is to use cameCasing for javascript-only variables. camelCasing is a way of writing that gets rid of spaces in a sentence or collection of words by capitalising every letter that comes after a space. By using such visually different convention, one can tell at a glance if a variable might have a calculator counterpart or not.
+
+For example, a calculator variable could be named ``price_of_gas`` but a similar variable that is only used inside customJS would be named ``priceOfGas``. 
 
 .. note::
   In customJS, name variables exactly the same as you did in the calculator. If you create extra variables in your code, use camelCasing for better distinction at a glance.

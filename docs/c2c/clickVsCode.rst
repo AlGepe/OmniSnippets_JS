@@ -27,9 +27,9 @@ When there is no option
 
 Most of the functionality offered in customJS does not appear in the click-base interface, and it is pretty obvious that the decision has been made for you. However, there is one function that might seem to be duplicated but, in fact, it isn't. That is the error message.
 
-We have the ``ctx.addUnmetCondition`` available in customJS and it ressambles very much that of the *Conditions* tab. Nevertheless, there is a key difference between them that makes them non-equivalent. Your conditions on the click-based interface stop the calculator from computing any values, therefore avoiding bad behaviours in the calculator. The customJS version is limited to just showin the user an error message, but it does not stop any calcualtions from happening.
+We have the ``ctx.addUnmetCondition`` available in customJS and it resembles very much that of the *Conditions* tab. Nevertheless, there is a key difference between them that makes them non-equivalent. Your conditions on the click-based interface stop the calculator from computing any values, therefore avoiding bad behaviours in the calculator. The customJS version is limited to just showing the user an error message, but it does not stop any calculations from happening.
 
-Knowing this, you should use the customJS version for **warning** the user about strange results, unreasonable input or innacurate values. The click-based version should be used for preventing the user from doing stupid things and breaking the calcualtor.
+Knowing this, you should use the customJS version for **warning** the user about strange results, unreasonable input or innacurate values. The click-based version should be used for preventing the user from doing stupid things and breaking the calculator.
 
 .. tip:: 
   There is a way to create fancy customJS-based conditions. It requires to use both the click-based interface and the customJS editor. You can learn more about it in :ref:`Add custom conditions (Error Message)<addumet>`.
