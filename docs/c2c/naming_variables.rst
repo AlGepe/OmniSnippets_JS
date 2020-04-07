@@ -11,7 +11,7 @@ Naming variables is crucial to have a clean and understandable code. When chosin
 
     Please don't follow Drake's advice
 
-In this section we will take a look at the principles of naming variables as well as a proposal for standarising the way we do so at Omni. As much as this is a guide, this is also a conversation starter to arrive at a commonly agreed naming scheme for all of our calculators. In an ideal world we will all follow the final version of these guidelines.[#f2]_
+In this section we will take a look at the principles of naming variables as well as a proposal for standarising the way we do so at Omni. As much as this is a guide, this is also a conversation starter to arrive at a commonly agreed naming scheme for all of our calculators. In an ideal world we will all follow the final version of these guidelines. [#f2]_
 
 
 General rules for names in any program
@@ -41,7 +41,7 @@ Calculator Variables
 
 The way our Beloved Belligerent (BB) converts variable names to labels in the calculator make it very convenient to use the underscore ``_`` notation for separating different words in one variable name. So we will write ``price_of_gas`` as opposed to the camelCasing alternative ``priceOfGas``. 
 
-If we do so, then the label for that variable will automatically be set to *Price of gas* reducing the editing needed for each variable.[#f1]_
+If we do so, then the label for that variable will automatically be set to *Price of gas* reducing the editing needed for each variable. [#f1]_
 
 .. note:: 
   For calculator variables use only lowercase letters and separate each word with an underscore ``_``.
