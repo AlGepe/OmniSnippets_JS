@@ -9,7 +9,7 @@ Naming variables is crucial to have a clean and understandable code. When chosin
     :alt: variable name meme drake
     :align: center
 
- Please don't follow Drake's advice
+    Please don't follow Drake's advice
 
 In this section we will take a look at the principles of naming variables as well as a proposal for standarising the way we do so at Omni. As much as this is a guide, this is also a conversation starter to arrive at a commonly agreed naming scheme for all of our calculators. In an ideal world we will all follow the final version of these guidelines.[#f2]_
 

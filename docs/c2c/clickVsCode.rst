@@ -14,6 +14,14 @@ First of all, if you are strongly partial to either method, by all means use it!
 
 If your calculator has little or no customJS, then use the click-based solution, since it probably be faster and you don't gain anything from writing customJS. However, if your calculator **relies heavily** on the usage of customJS, then try your best to set default values and create value selects as parts of the code.
 
+.. _clickVsCode:                  
+.. figure:: clickVsCode.png
+    :scale: 80%
+    :alt: creating value select code vs click
+    :align: center
+
+    Comparison between click-based and code-based versions of creating a value select
+
 Placing as much of the configuration of the calculator inside customJS keeps everything more organised, easier to tweak and change, and will be greatly appreciated by anyone that looks at your calculator after the fact (that includes future, you as well).
 
 This is still a very subjective rule in the sense that you will have to decide what constitutes a "*customJS-loaded*" calculator. As a reference point I think we can agree that if all you are doing in customJS is hiding variables, you can consider the calculator to NOT be customJS-heavy.
