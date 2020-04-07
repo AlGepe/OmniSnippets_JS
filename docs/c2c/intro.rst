@@ -59,8 +59,8 @@ This is the section dedicated to everyone else, including future-you. This is wh
 .. toctree::
    :maxdepth: 1
 
-..   naming_variables
+   naming_variables
+   clickVsCode
 ..   codeOrganization
 ..   comments
-..   clickVsCode
 
