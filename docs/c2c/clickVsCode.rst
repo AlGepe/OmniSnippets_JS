@@ -16,7 +16,7 @@ If your calculator has little or no customJS, then use the click-based solution,
 
 .. _clickVsCode:                  
 .. figure:: imgs/clickVsCode.png
-    :scale: 80%
+    :scale: 60%
     :alt: creating value select code vs click
     :align: center
 

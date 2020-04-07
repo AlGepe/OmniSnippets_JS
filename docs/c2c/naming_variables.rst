@@ -5,7 +5,7 @@ Naming variables is crucial to have a clean and understandable code. When chosin
 
 .. _varNameDrake:                  
 .. figure:: imgs/varNameX.png
-    :scale: 70%
+    :scale: 50%
     :alt: variable name meme drake
     :align: center
 
@@ -21,7 +21,7 @@ Before we start with the specifics of our customJS code, it is important to reme
 
 .. _varNameDecision:                  
 .. figure:: imgs/varName.jpg
-    :scale: 70%
+    :scale: 50%
     :alt: Choosing variable name meme
     :align: center
 
@@ -84,8 +84,8 @@ A word on authoritarianism
 At Omni we have never supported any kind of authoritarian regime, and naming conventions are no exception. As much as some would like to have strict rules with punishments for those not complying, we prefer to fight on the side of freedom. 
 
 .. _varNameMeaningful:                  
-.. figure:: varNameMeaningful.jpg
-    :scale: 70%
+.. figure:: imgs/varNameMeaningful.jpg
+    :scale: 50%
     :alt: Choosing meaningful name meme
     :align: center
 
