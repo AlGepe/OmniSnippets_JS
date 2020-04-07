@@ -48,8 +48,8 @@ Work in Progress
 .. toctree::
     :maxdepth: 2
 
-    extras/intro
     repository/intro
+    extras/intro
 
 ..  how2RTFM
     authors
