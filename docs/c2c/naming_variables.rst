@@ -4,7 +4,7 @@ Naming Variables: a proposal for a common standard
 Naming variables is crucial to have a clean and understandable code. When chosing a name for your variable you are technically free to use any characters you want, but a well chosen name will save you time and headaches. 
 
 .. _varNameDrake:                  
-.. figure:: varNameX.png
+.. figure:: imgs/varNameX.png
     :scale: 70%
     :alt: variable name meme drake
     :align: center
@@ -20,7 +20,7 @@ General rules for names in any program
 Before we start with the specifics of our customJS code, it is important to remember what we should strive for. A variable name should fulfil a series of requirements. Those requirements are almost self-evident after you've seen enough code written by someone else. 
 
 .. _varNameDecision:                  
-.. figure:: varName.jpg
+.. figure:: imgs/varName.jpg
     :scale: 70%
     :alt: Choosing variable name meme
     :align: center

@@ -15,7 +15,7 @@ First of all, if you are strongly partial to either method, by all means use it!
 If your calculator has little or no customJS, then use the click-based solution, since it probably be faster and you don't gain anything from writing customJS. However, if your calculator **relies heavily** on the usage of customJS, then try your best to set default values and create value selects as parts of the code.
 
 .. _clickVsCode:                  
-.. figure:: clickVsCode.png
+.. figure:: imgs/clickVsCode.png
     :scale: 80%
     :alt: creating value select code vs click
     :align: center
