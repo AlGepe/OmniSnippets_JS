@@ -1,11 +1,29 @@
 Naming Variables: a proposal for a common standard
 ==================================================
 
+Naming variables is crucial to have a clean and understandable code. When chosing a name for your variable you are technically free to use any characters you want, but a well chosen name will save you time and headaches. 
+
+.. _varNameDrake:                  
+.. figure:: varNameX.png
+    :scale: 70%
+    :alt: variable name meme drake
+    :align: center
+
+ Please don't follow Drake's advice
+
+In this section we will take a look at the principles of naming variables as well as a proposal for standarising the way we do so at Omni. As much as this is a guide, this is also a conversation starter to arrive at a commonly agreed naming scheme for all of our calculators. In an ideal world we will all follow the final version of these guidelines.[#f2]_
+
 
 General rules for names in any program
 --------------------------------------
 
 Before we start with the specifics of our customJS code, it is important to remember what we should strive for. A variable name should fulfil a series of requirements. Those requirements are almost self-evident after you've seen enough code written by someone else. 
+
+.. _varNameDecision:                  
+.. figure:: varName.jpg
+    :scale: 70%
+    :alt: Choosing variable name meme
+    :align: center
 
 For those who are wondering or want a reminder, here is a short list:
 
@@ -65,10 +83,17 @@ A word on authoritarianism
 
 At Omni we have never supported any kind of authoritarian regime, and naming conventions are no exception. As much as some would like to have strict rules with punishments for those not complying, we prefer to fight on the side of freedom. 
 
+.. _varNameMeaningful:                  
+.. figure:: varNameMeaningful.jpg
+    :scale: 70%
+    :alt: Choosing meaningful name meme
+    :align: center
+
 So, even if the rules above seems like a very strict system, you should feel free to do differently if you so wish. Treat each point as a strong suggestion rather. If you ever feel like you have a better system, go use it! We beg you to, at least, stay consistent with your own rules within the same calculator and we are very grateful that you kept the names of variables simple, yet descriptive so that we don't need to spend 30min deciphering each of your *"clever"* acronyms and abbreviations.
 
 .. rubric:: tl;dr
 In short: know the rules, do what you want, but please, please, try to be mindful of others. We all thank you for that.
 
 .. rubric:: Footnote
+.. [#f2] Then again, in an ideal world we would all communicate telepathically and I wouldn't have to write this. ¯\_(ツ)_/¯
 .. [#f1] #marginalGains
