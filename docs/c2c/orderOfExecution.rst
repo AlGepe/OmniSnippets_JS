@@ -14,6 +14,14 @@ Blocks of code
 We will make a first major distinction of your code between *regular javascript* and *omni-specific* javascript. Anything that starts with the keyword ``omni`` or that is inside a function that starts like that will be considered 
 *omni-specific* and the rest is regular javascript.
 
+.. _omniVsRegular:                  
+.. figure:: imgs/omniVsRegular.png
+    :scale: 50%
+    :alt: Omni vs regular js
+    :align: center
+
+    Highlighted text is the **omni-specific** code
+
 *Omni-specific* code is what connects our customJS with the calculator the user sees and interacts with. Among these functions we find ``onInit``, ``onResult`` and ``define`` and ``createValueSetter``. Due to their importance we will consider them individually when talking about the order in which the code is executed.
 
 Loading the calculator
