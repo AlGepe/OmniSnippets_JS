@@ -74,6 +74,15 @@ If we set Values Selects/Setters as conditions for triggering ``omni.define`` or
 
 More importantly, Value Setters can change the values of many variables at once. The result is that if more of those affected variables triggers ``omni.onResult`` we will end up executing the same code many times (one per triggering variable associated with the Value Setter) with one user input. This will make our code unnecessarily slow and might cause our computations to take an unreasonable amount of time to complete.
 
+.. _vSetterMultiTrigger:                  
+.. figure:: imgs/vSetterMultiTrigger.png
+    :scale: 75%
+    :alt: value setter triggers multiple times
+    :align: center
+
+     Console output from selecting a value setter option affecting 3 variables.
+
+
 .. You can learn more about :ref:`how Value Setters work<_vSetterBEhaviour>` 
 
 We will talk more about how Value Setters work in the future but for now all you need to know is that they become undefined, then change the values of all the affected variables and finally they are assigned the corresponding value (its ``uid``) after all the variable values have been set.
