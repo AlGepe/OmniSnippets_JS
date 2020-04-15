@@ -16,7 +16,7 @@ We will make a first major distinction of your code between *regular javascript*
 
 .. _omniVsRegular:                  
 .. figure:: imgs/omniVsRegular.png
-    :scale: 50%
+    :scale: 35%
     :alt: Omni vs regular js
     :align: center
 
@@ -76,7 +76,7 @@ More importantly, Value Setters can change the values of many variables at once.
 
 .. _vSetterMultiTrigger:                  
 .. figure:: imgs/vSetterMultiTrigger.png
-    :scale: 75%
+    :scale: 35%
     :alt: value setter triggers multiple times
     :align: center
 
