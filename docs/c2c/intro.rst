@@ -20,11 +20,11 @@ This section is meant to solve the problems you will find. You can expect to fin
    howToAskForHelp
    saveCrashedCalculator
    scope
+   orderOfExecution
 ..   variableTypes
 ..   debuggingDev
 ..   omniFunctionInputs
 ..   strangerConditions
-..   orderOfExecution
 
 
 
@@ -60,7 +60,7 @@ This is the section dedicated to everyone else, including future-you. This is wh
    :maxdepth: 1
 
    naming_variables
-   clickVsCode
+..   clickVsCode
 ..   codeOrganization
 ..   comments
 
