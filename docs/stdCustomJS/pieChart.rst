@@ -1,5 +1,5 @@
 .. _pieChart:
-Hot to create a pie Chart
+How to create a pie Chart
 =========================
 
 In this section we will show you how to create a **Pie Chart**. We already created a simple example in :ref:`addChart<addchart>`, but now we will take a look at how real data is created and displayed from input values.

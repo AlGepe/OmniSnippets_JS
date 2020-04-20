@@ -36,7 +36,8 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 .. toctree::
    :maxdepth: 1
 
-..   vSetterUid
+   vSetterUid
+   howVSettersWork (undefined, value changing...)
 ..   howToTest
 ..   template
 ..   clearFieldAfterSelect
@@ -48,7 +49,6 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 ..   betterConditions
 ..   avoidInfiniteLoops
 ..   tipsForHPC (reducing onResult triggers vSetter)
-..   howVSettersWork (undefined, value changing...)
 
 
 General advice and guidelines
