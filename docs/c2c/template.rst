@@ -63,8 +63,8 @@ In the calculator we have included a picture and a line chart. The line chart ma
 Just like we did with the show/hide ``onResult``, it is often convenient to separate *Error messages* from the main execution of the calculator. It helps your code be more clear and readable.
 
 
-Extras available for development
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. rubric:: Extras available for development
+
 
 The calculator also includes a simple value select and a simple value setter. Their main purpose is to be used as templates to copy and modify to your needs.
 
@@ -83,7 +83,8 @@ To use the template is very simple. The first thing you need to do is to **CLONE
 Once you have clones it, you can work on it as you like, it is yours. Modify, change, delete, add functions and code as you need or want. All the features, orders, naming schemes and behaviours are proposed ones, you don't need to use them if you don't want them. 
 
 
-.. rubric:: tl;dr
+tl;dr
+~~~~~
 
 When you want to create a new calcualtor with a lot of cJS, the Template Calcualtor presents a very good starting point. It contains a suggested organization and several examples of the most common used functions. **Clone it first** and modify it to your heart's desire afterwards. 
 
