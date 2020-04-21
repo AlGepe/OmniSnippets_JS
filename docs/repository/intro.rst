@@ -2,6 +2,12 @@
 Repository and usage
 ====================
 
+The repository is collection of useful functions and data available for anyone that needs it. It is built by calculatorians for calculatorians so feel free to contribute.
+
+These functions are ones that we commonly use in different calculators. From changing the color of a chart, to combining several chart-formatted arrays into one, to converting time in seconds to a human-readable format, anything that is useful should end up here.
+
+By collecting all these functios in one place we eliminate the need to re-do what has already been done and we open up new possibilities for those that are not very confident with javascript. It is a collaborative effort from which we all benefit, so do contribute with your code, requests and suggestions!
+
 How to use it
 -------------
 
@@ -15,8 +21,7 @@ How to contribute to the repo
 
 So you have created a function that you think other people will find useful, awesome! To add it to the repository you have 2 main options: DIY or get someone to do it for you. If you know how Github works and you want to submit your own function, feel free to do so. 
 
-If you don't want to deal with all the hassle, that's fine too. Simply send the function to Alvaro or Dominik and they will make sure it gets added to the repository and to this section of the documentation. Credit will be properly given to whoever created, edited and/or submitted each function. Thank you very much to all of you!
-
+If you don't want to deal with all the hassle, that's fine too. Simply send the function to Alvaro, Dominik or Steve and they will make sure it gets added to the repository and to this section of the documentation. Credit will be properly given to whoever created, edited and/or submitted each function. Thank you very much to all of you!
 
 The functions
 -------------
@@ -26,21 +31,51 @@ Where is a complete list of all the functions currently available on the Github 
 Miscellaneous
 ~~~~~~~~~~~~~
 
-Everything else.
+These are the functions that don't fall into any of the other categories.
+
+.. toctree::
+   :maxdepth: 1
+
+ ..numberWithCommas
+ ..linespace
+ ..getNameFromVSetter
+ ..
+
 
 Playing with time
 ~~~~~~~~~~~~~~~~~~
 
-Functions to format and operate with time
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Here are some functions to help you manage time variables easily. Mostly time formatting.
+
+.. toctree::
+   :maxdepth: 1
+
+ ..sec2time
+ ..year2month
+ ..year2Quarters
+ ..
 
 Symbolic library
 ~~~~~~~~~~~~~~~~
 
 Functions designed to perform symbolic mathematical operations. Useful for step by step explanations.
 
+.. toctree::
+   :maxdepth: 1
+
+ ..cleanFraction
+ ..findPerfectSquare
+ ..findRoot
+ ..reduceFraction
+ ..roundToPrecision
 
 Value Selects and Value Setters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Collection of useful information formatted as value select or value setter. This are drop-in additions to your calculator that provide you company-wide reference values and statistical data.
+
+.. toctree::
+   :maxdepth: 1
+
+ ..EngineEmissions
+ ..canSize

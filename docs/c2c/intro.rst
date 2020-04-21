@@ -36,10 +36,10 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 .. toctree::
    :maxdepth: 1
 
-   vSetterUid
-   howVSettersWork (undefined, value changing...)
+   template
+..   vSetterUid
+..   howVSettersWork (undefined, value changing...)
 ..   howToTest
-..   template
 ..   clearFieldAfterSelect
 ..   calculateButton
 ..   setValueFromJSHack
