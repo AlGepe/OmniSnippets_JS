@@ -37,6 +37,7 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    :maxdepth: 1
 
    template
+   ../repository/intro.rst
 ..   vSetterUid
 ..   howVSettersWork (undefined, value changing...)
 ..   howToTest
