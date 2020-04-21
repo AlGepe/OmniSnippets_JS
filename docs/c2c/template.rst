@@ -7,7 +7,7 @@ To avoid all that hassle, we have created the **Template Calculator**, a calcula
 
 Let's see what this template contains and how to use it efficiently, so that we can work less while doing more.
 
-.. note:
+.. note::
   You can find the template calculator on BB as the `[docs] Template big calculator <https://bb.omnicalculator.com/#/calculators/2050>`__ Clone it and start using it!
 
 What is in the template
@@ -19,7 +19,7 @@ The first thing you will find is a block of comments at the top indicating the p
 
 After that, the calculator starts with the compulsory ``'use strict';`` statement. Then we can see a common structure in which a block of comment describes what is (or should) appear right below it. Each block comment has a number assigned to it. 
 
-The number might seem random, but for those experienced in the ways of cJS, they will know is the :ref:`Order of Execution`<orderOfExecution>`. It indicates in which order that code is executed. So 3 will be executed before 4 and 7 will come after 6... I think you get it.
+The number might seem random, but for those experienced in the ways of cJS, they will know is the :ref:`Order of Execution<orderOfExecution>`. It indicates in which order that code is executed. So 3 will be executed before 4 and 7 will come after 6... I think you get it.
 
 The calculator has 7 distinct parts that we will explain briefly here.
 
@@ -54,7 +54,7 @@ If you have a lot of variables to hide/show during the interaction with the calc
 
 .. rubric:: 7 - omni.onResult *[Main]*
 
-The meat and potatoes[#f1]_ of the calculator. For big calculators everything meaningful will happen here. For smaller calculator *EVERYTHING* can be included into this single ``onResult`` context.
+The meat and potatoes [#f1]_ of the calculator. For big calculators everything meaningful will happen here. For smaller calculator *EVERYTHING* can be included into this single ``onResult`` context.
 
 In the calculator we have included a picture and a line chart. The line chart makes use of an external function (see point 2) to compute the values we want to be shown. Using extra functions to perform computations outside of the main loop helps with readability in complex mathematical expressions.
 
