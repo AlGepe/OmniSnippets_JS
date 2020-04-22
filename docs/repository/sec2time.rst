@@ -16,13 +16,17 @@ The functions and its parameters
 Here is the javascript code of the function, ready to be copied and pasted in your calculator: 
 
 .. code-block:: javascript
-  function sec2time(timeInSeconds) {
-    var pad = function(num, size) { return ('000' + num).slice(size * -1); },
-    time = parseFloat(timeInSeconds).toFixed(3),
-    hours = Math.floor(time / 60 / 60),
-    minutes = Math.floor(time / 60) % 60,
-    seconds = Math.floor(time - minutes * 60),
-    milliseconds = time.slice(-3);
 
-    return pad(hours, 2) + ':' + pad(minutes, 2) + ':' + pad(seconds, 2) + ',' + pad(milliseconds, 3);
-  }
+    function sec2time(timeInSeconds) {
+      var pad = function(num, size) { return ('000' + num).slice(size * -1); },
+      time = parseFloat(timeInSeconds).toFixed(3),
+      hours = Math.floor(time / 60 / 60),
+      minutes = Math.floor(time / 60) % 60,
+      seconds = Math.floor(time - minutes * 60),
+      milliseconds = time.slice(-3);
+
+      return pad(hours, 2) + ':' + pad(minutes, 2) + ':' + pad(seconds, 2) + ',' + pad(milliseconds, 3);
+    }
+
+.. note::
+  You can find the function on GitHub as: `sec2time<https://github.com/AlGepe/OmniSnippets_JS/blob/master/Code/PlayingWithTime/sec2time.js>`__

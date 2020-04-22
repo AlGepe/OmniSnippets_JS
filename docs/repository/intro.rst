@@ -26,7 +26,7 @@ If you don't want to deal with all the hassle, that's fine too. Simply send the 
 The functions
 -------------
 
-Where is a complete list of all the functions currently available on the Github repository. Each function has its own dedicated page where you can see the code and read a quick explanation of how to use it. The code has been organized in sections matching the folders in the repository for easy access. Enjoy!
+Each function has its own dedicated page where you can see the code and read a quick explanation of how to use it. The code has been organized in sections matching the folders in the repository for easy access. Enjoy!
 
 Miscellaneous
 ~~~~~~~~~~~~~
@@ -53,7 +53,7 @@ Here are some functions to help you manage time variables easily. Mostly time fo
    sec2time
 ..   year2month
 ..   year2Quarters
-.
+
 
 Symbolic library
 ~~~~~~~~~~~~~~~~
