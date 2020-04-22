@@ -39,7 +39,7 @@ These are the functions that don't fall into any of the other categories.
  ..numberWithCommas
  ..linespace
  ..getNameFromVSetter
- ..
+ 
 
 
 Playing with time
@@ -50,10 +50,10 @@ Here are some functions to help you manage time variables easily. Mostly time fo
 .. toctree::
    :maxdepth: 1
 
- ..sec2time
- ..year2month
- ..year2Quarters
- ..
+   sec2time
+..   year2month
+..   year2Quarters
+.
 
 Symbolic library
 ~~~~~~~~~~~~~~~~
