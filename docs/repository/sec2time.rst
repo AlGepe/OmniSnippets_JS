@@ -30,4 +30,4 @@ Here is the javascript code of the function, ready to be copied and pasted in yo
     }
 
 .. note::
-  You can find the function on GitHub as: `sec2time<https://github.com/AlGepe/OmniSnippets_JS/blob/master/Code/PlayingWithTime/sec2time.js>`__
+  You can find the function on GitHub as: `sec2time <https://github.com/AlGepe/OmniSnippets_JS/blob/master/Code/PlayingWithTime/sec2time.js>`__
