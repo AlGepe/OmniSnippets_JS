@@ -17,6 +17,12 @@ The template is a working calculator that has no real function. It includes most
 
 The first thing you will find is a block of comments at the top indicating the preferred style of commenting as well as containing a description of the calculator and useful links (namely to all the sample calculators and the documentation).
 
+.. _templateImg:
+.. figure:: imgs/template.png
+   :scale: 35%
+   :alt: template
+   :align: center
+
 After that, the calculator starts with the compulsory ``'use strict';`` statement. Then we can see a common structure in which a block of comment describes what is (or should) appear right below it. Each block comment has a number assigned to it. 
 
 The number might seem random, but for those experienced in the ways of cJS, they will know is the :ref:`Order of Execution<orderOfExecution>`. It indicates in which order that code is executed. So 3 will be executed before 4 and 7 will come after 6... I think you get it.
@@ -32,21 +38,9 @@ According to the order of execution, these are the sections of the Template calc
 
 This is where you place any *configurarion* variables that should be visible for any other function and must not disappear or be reset. We explained how this works in :ref:`The life and death of a variable<scope>`.
 
-.. rubric:: 2 - Extra functions
-
-Any pure javascript function that you need to create for your calculator is placed here. It will be created at the beginning so that it is always available to be used by the calculator. Following a strong naming scheme allows for these functions to be written near the bottom of the code so that they don't clutter the main actions.
-
-.. rubric:: 3 - Data variables
-
-All the static data you need for your calculator comes here. If you use good :ref:`variable names`<naming_variables>` their content and role should be obvious to any reader and therefore we can get away with placing it at the very bottom of the calculator code.
-
 .. rubric::  4 - omni.onInit
 
 The code placed here will be run once. Here is where you initialise your calculator with things like ``bindValueSelect``, ``setDefault`` and perform any operations necessary before the user can interact with the calculator.
-
-.. rubric:: 5 - omni.define
-
-Any custom functions that we need will go here, between ``omni.onResult`` and javascript functions due to their importances. Once again, good naming practices guarantee that we don't need to read the code inside of them to know what they do.
 
 .. rubri:: 6 - omni.onResult  *[Show/Hide]*
 
@@ -61,6 +55,18 @@ In the calculator we have included a picture and a line chart. The line chart ma
 .. rubric:: 8 - omni.onResult *[Error messages]*
 
 Just like we did with the show/hide ``onResult``, it is often convenient to separate *Error messages* from the main execution of the calculator. It helps your code be more clear and readable.
+
+.. rubric:: 5 - omni.define
+
+Any custom functions that we need will go here, between ``omni.onResult`` and javascript functions due to their importances. Once again, good naming practices guarantee that we don't need to read the code inside of them to know what they do.
+
+.. rubric:: 2 - Extra functions
+
+Any pure javascript function that you need to create for your calculator is placed here. It will be created at the beginning so that it is always available to be used by the calculator. Following a strong naming scheme allows for these functions to be written near the bottom of the code so that they don't clutter the main actions.
+
+.. rubric:: 3 - Data variables
+
+All the static data you need for your calculator comes here. If you use good :ref:`variable names`<naming_variables>` their content and role should be obvious to any reader and therefore we can get away with placing it at the very bottom of the calculator code.
 
 
 .. rubric:: Extras available for development
@@ -78,6 +84,12 @@ Feel free to tune them to your needs or ignore them if they don't seem convenien
 How to use the template
 -----------------------
 
+.. _cloneImg:
+.. figure:: imgs/clone.png
+   :scale: 100%
+   :alt: template
+   :align: center
+
 To use the template is very simple. The first thing you need to do is to **CLONE THE CALCUALTOR**. Never work on the original version as you could create inconveniences for the next calculatorian that wants to use it.
 
 Once you have clones it, you can work on it as you like, it is yours. Modify, change, delete, add functions and code as you need or want. All the features, orders, naming schemes and behaviours are proposed ones, you don't need to use them if you don't want them. 
@@ -86,7 +98,7 @@ Once you have clones it, you can work on it as you like, it is yours. Modify, ch
 tl;dr
 ~~~~~
 
-When you want to create a new calcualtor with a lot of cJS, the Template Calcualtor presents a very good starting point. It contains a suggested organization and several examples of the most common used functions. **Clone it first** and modify it to your heart's desire afterwards. 
+When you want to create a new calcualtor with a lot of cJS, the Template Calcualtor is a good starting point. It contains a suggested organization and several examples of the most common functions. **Clone it first** and modify it to your heart's desire afterwards. 
 
 
 .. rubric:: Footnote
