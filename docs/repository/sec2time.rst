@@ -11,7 +11,7 @@ The functions and its parameters
 --------------------------------
 
 * \ **Input**: ``timeInSeconds`` must be a variable of type number representing the second elapsed.
-* - **Output**: The functions returns a string with format HH:mm:ss,m\ :sub:`s`\ m\ :sub:`s`\ m\ :sub:`s`\. For 1-digit values a zero is added at the begining.  
+* \ **Output**: The functions returns a string with format HH:mm:ss,m\ :sub:`s`\ m\ :sub:`s`\ m\ :sub:`s`\. For 1-digit values a zero is added at the begining.  
 
 
 Here is the javascript code of the function, ready to be copied and pasted in your calculator: 
