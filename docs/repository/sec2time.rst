@@ -1,8 +1,9 @@
 .. _sec2time:
+.. |ms| replace:: m\ :sub:`s`\
 Convert Seconds to formatted time
 =================================
 
-Here we have a function that allows us to convert time in second (as a decimal number) into a human-friendly time format. By default the format is HH : mm : ss
+Here we have a function that allows us to convert time in second (as a decimal number) into a human-friendly time format. By default the format is HH:mm:ss,|ms||ms||ms|
 
 You can use the function by simply pasting the code below into your calculator, no other function is required to use ``sec2time``.
 
@@ -10,7 +11,7 @@ The functions and its parameters
 --------------------------------
 
 * **Input**: ``timeInSeconds`` must be a variable of type number representing the second elapsed.
-* **Output**: The functions returns a string with format ``HH:mm:ss:``. For 1-digit values a zero is added at the begining.  
+* **Output**: The functions returns a string with format ``HH:mm:ss:|ms|ms|ms|``. For 1-digit values a zero is added at the begining.  
 
 
 Here is the javascript code of the function, ready to be copied and pasted in your calculator: 
