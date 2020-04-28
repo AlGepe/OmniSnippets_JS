@@ -38,13 +38,13 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 
    template
    ../repository/intro.rst
+   dating
 ..   vSetterUid
 ..   howVSettersWork (undefined, value changing...)
 ..   howToTest
 ..   clearFieldAfterSelect
 ..   calculateButton
 ..   setValueFromJSHack
-..   repository
 ..   structureData
 ..   dotsOnChart
 ..   betterConditions
