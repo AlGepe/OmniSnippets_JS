@@ -4,9 +4,7 @@ Dating by yourself (or how to play with time in customJS)
 
 Just like in love life, in a programmer's life dates are never easy to manage. When it comes our human ways to measure time, they are all very unscientific and convoluted. Not only do we have different time zones (which are a problem in and of itself) but we also have strange conversions between units of time that unintuitive at best.
 
-For example, you would think that a year is 365 days. However, every 4 year we have a leap year with 366 days, so the average is actually 365.25 days in a year. This problem also affects weeks, and technically days. Months are another big mess where we have months of 30 days and also months of 31 days... and that's ignoring little February who cannot decide if it has 28 or 29 days.
-
-To deal with all of these computers keep track of time using the SI system (that is, in seconds) and using the 1st January 1970 as the reference point from which we start counting our dates. The idea is that after we have a standardised number, we can build our functions and conversions so that we can format this time according to our needs. This way of measuring time is called UNIX time or Epoch time (and many other less common names). You can learn more about it here. [#f1]_
+To deal with all of these computers keep track of time using the SI system (that is, in seconds) and using the 1st January 1970 as the reference point from which we start counting our dates. The idea is that after we have a standardised number, we can build our functions and conversions so that we can format this time according to our needs. This way of measuring time is called UNIX time or Epoch time. You can learn more about it `here <https://www.omnicalculator.com/conversion/unix-time>`__ . [#f1]_
 
 Luckily for us, we don't need to create from scratch the aforementioned functions and conversions. We can make use of what others created, and that's what we're gonna talk about.
 
@@ -20,16 +18,14 @@ Javascript has its on class to manage time and dates called ``Date``. By using o
 
 The class date requires an input parameter being the Unix time corresponding to the date of interest **in miliseconds**. There are many ways to create and initialise and object of the class ``Date``, by far the most commonly used is: ``var date = new Date()`` where we set the time of the variable ``date`` to **now**, meaning the time at which the code was ran.
 
-Once we have an object like that we can obtain the corresponding month, year, day... in human readable format by using the built in *get* methods such as ``getMonth()``, ``getYeat()``... allowing for easy manipulation of dates.
-
-A ``Date`` object has also built in methods to add, subtract and manipulate time in many different units, not just seconds. However, the most important thing you need to know when using dates in your calculators is how Omni Calculators understand dates and how to format them correctly.
+Once we have an object like that we can obtain the corresponding month, year, day... in human readable format by using the built in *get* methods such as ``getMonth()``, ``getYeat()``... as well as methods for performing mathematical operations on dates.
 
 Dates in Omnicalculators
 ------------------------
 
-Dates in our beloved customJS and Omni Calculators is treated very similarly as it is in any other computer-based technology. However, given that we have 3 different options for the user to input time dates into the calculator, we need to be mindful of their differences. 
+Dates in our beloved customJS and Omni Calculators are treated very similarly as it is in any other computer-based technology. However, given that we have 3 different options for the user to input time dates into the calculator, we need to be mindful of their differences. 
 
-The available types of time in our calculators are ``date``, ``date/time``, ``time``. They can be selected when editing variables under the option **Field type**, where ``default`` means it is not a date or time. Each of them have a similar behaviour but use different base units.
+You can select the type of date variable in the calculator under the option **Field type**. Each of them have a similar behaviour but use different base units.
 
 * ``date`` - It presents the user with a selectable calendar date without specifying the time in the day. The **base unit is days**.
 * ``date/time`` - It presents the user with a selectable calendar date with the ability to specify the time in the day. The **base unit is seconds**.
@@ -42,8 +38,6 @@ The implications of having one base unit or another are just to do with the valu
 
 Useful tricks to format time
 ----------------------------
-
-Finally, there are a few useful tricks that will make dealing with dates much easier. Not all of them will be useful in every calculator that includes dates, but almost every time you deal with date you will find at least one of them useful.
 
 Global variables
 ~~~~~~~~~~~~~~~~
@@ -80,5 +74,5 @@ A great example is the :ref:`sec2time<sec2time>` function in our own repository.
 
 .. rubric:: Footnotes
 
-[#f1]_ Shameless plug, I know ;)
-[#f2]_ It is generally a good idea to give credit to the original creator by mentioning him/her in the comments of your code
+.. [#f1] Shameless plug, I know ;)
+.. [#f2] It is generally a good idea to give credit to the original creator by mentioning him/her in the comments of your code
