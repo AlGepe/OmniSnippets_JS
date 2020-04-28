@@ -53,16 +53,7 @@ Reusing someone else's work
 
 Dealing with time variables and date conversions is one of the most common problem in the coding world. If you search online you will surely find someone else's code that does exactly what you need to do. You can simply copy and past it in your calculator [#f2]_ . 
 
-The Omni-Repository is also a great place to search for such functions. If you can't find any, build your own and submit it!
-
-Date format: USA vs the world
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-A really annoying issue we all have to deal with is Unite States' own date format. Most of the time our calculators will deal with the proper formatting. However, if you need to show a date as an ``addHtml`` text or in a chart, we recommend creating your own formatting functions or using someone else's to avoid constant translation. 
-
-A great example is the :ref:`sec2time<sec2time>` function in our own repository. We can a simple ``if`` and input the ``countryCode`` of the user to make sure that we deal with different time formats. 
-
-
+The :ref:`Omni-Repository<repo>` is also a great place to search for such functions. If you can't find any, build your own and submit it!
 
 .. rubric:: tl;dr
 
