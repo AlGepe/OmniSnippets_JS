@@ -25,6 +25,12 @@ Dates in Omnicalculators
 
 Dates in our beloved customJS and Omni Calculators are treated very similarly as it is in any other computer-based technology. However, given that we have 3 different options for the user to input time dates into the calculator, we need to be mindful of their differences. 
 
+.. _fieldType:                  
+.. figure:: imgs/dateField.png
+    :scale: 40%
+    :alt: Field type on BB
+    :align: center
+
 You can select the type of date variable in the calculator under the option **Field type**. Each of them have a similar behaviour but use different base units.
 
 * ``date`` - It presents the user with a selectable calendar date without specifying the time in the day. The **base unit is days**.
