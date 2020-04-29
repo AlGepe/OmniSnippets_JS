@@ -20,8 +20,8 @@ The class date requires an input parameter being the Unix time corresponding to 
 
 Once we have an object like that we can obtain the corresponding month, year, day... in human readable format by using the built in *get* methods such as ``getMonth()``, ``getYeat()``... as well as methods for performing mathematical operations on dates.
 
-Dates in Omnicalculators
-------------------------
+Dates in Omni Calculators
+-------------------------
 
 Dates in our beloved customJS and Omni Calculators are treated very similarly as it is in any other computer-based technology. However, given that we have 3 different options for the user to input time dates into the calculator, we need to be mindful of their differences. 
 
