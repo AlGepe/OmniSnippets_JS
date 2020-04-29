@@ -60,7 +60,7 @@ Dealing with time variables and date conversions is one of the most common probl
 The :ref:`Omni-Repository<repo>` is also a great place to search for such functions. If you can't find any, build your own and submit it!
 
 tl;dr
----
+-----
 
 * Computers store dates as time elaps since a fixed date.
 * You can use javascript's build in ``Date`` objects to painless manipulate time and dates
