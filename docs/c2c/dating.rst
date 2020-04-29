@@ -48,9 +48,7 @@ Useful tricks to format time
 Global variables
 ~~~~~~~~~~~~~~~~
 
-When you are dealing with dates and times it is often needed to perform standard conversions constantly. You might be operating in milliseconds internally but what to show the user the values in days; or maybe you receive the inputs in years and need to conver to days to operate... 
-
-Whatever your use case, we recommend creating a global variable with the conversion values you will use, so that you can simplify your conversions and make your code more readable. Not to mention avoid problems remembering which units you converted to/from.
+When you are dealing with dates and times it is often needed to perform standard conversions constantly. We recommend creating a global variable with the conversion values. Your code will be more readable, your conversions easier to make and you will avoid numerical mistakes.
 
 We recomend using clear names that explain the conversion factor, here are some examples: ``secInDay``, ``dayInYear``, ``hoursInMonth``,...
 
