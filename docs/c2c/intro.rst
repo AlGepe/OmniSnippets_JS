@@ -21,9 +21,9 @@ This section is meant to solve the problems you will find. You can expect to fin
    saveCrashedCalculator
    scope
    orderOfExecution
+   omniFunctionInputs
 ..   variableTypes
 ..   debuggingDev
-..   omniFunctionInputs
 ..   strangerConditions
 
 
