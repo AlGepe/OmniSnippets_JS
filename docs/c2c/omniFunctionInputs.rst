@@ -16,11 +16,13 @@ Its usage can cause problems since a variable without a value will return ``unde
 We can prevent erroneous behaviour by checking for the value of potentially ``undefined`` variables using ``if`` statements. Sometimes, however it is possible to use javascript implicit conditions to set a default value for our variables. Here is an example in which, if the variable ``'age'`` in our calculator has no associated value yet, the corresponding javascript variable ``age`` will not be ``undefined`` but ``0`` (zero).
 
 .. code-block:: javscript
+
   var age = ctx.getNumberValue('age') || 0;
 
 We will talk another day about :ref:`implicit conditions in javascript<implicitConditions>`. For now you just need to know that this line of code is the same as writing: 
 
 .. code-block:: javascript
+
   var age;
   if (ctx.getNumberValue('age') {
     age = ctx.getNumberValue('age');
