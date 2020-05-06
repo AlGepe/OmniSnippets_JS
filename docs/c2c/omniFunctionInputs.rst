@@ -15,7 +15,7 @@ Its usage can cause problems since a variable without a value will return ``unde
 
 We can prevent erroneous behaviour by checking for the value of potentially ``undefined`` variables using ``if`` statements. Sometimes, however it is possible to use javascript implicit conditions to set a default value for our variables. Here is an example in which, if the variable ``'age'`` in our calculator has no associated value yet, the corresponding javascript variable ``age`` will not be ``undefined`` but ``0`` (zero).
 
-.. code-block:: javscript
+.. code-block:: javascript
 
   var age = ctx.getNumberValue('age') || 0;
 
@@ -48,7 +48,7 @@ In contrast to ``ctx.getNumberValue`` the ``toNumber()`` method requires that th
 
 When using it in your ``omni.define`` function, you simply pass the calculator variable (use the name you gave it in the equations tab) as an input to your omni function. Before using this variable as a number you must call ``toNumber()`` on them. Here is an example:
 
-.. code-block:: javscript
+.. code-block:: javascript
 
   omni.define('totalMuniez', function (money_earned, money_won) {
     money_earned = money_earned.toNumber();
