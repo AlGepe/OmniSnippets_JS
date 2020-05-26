@@ -70,7 +70,7 @@ The general syntax of the ternary (also called conditional) operator is: ``condi
 Stealthy conditions (Implicit conditions to avoid errors)
 ---------------------------------------------------------
 
-But what if the ternary operator is still too long or too redundant? Then we are in luck thanks to javascripts implicit conditions. Let's take a look at the common situation in which we want to know the value of a variable inside of :ref:`onResult<onResult>` and make sure it is not ``undefined`` but we don't want it as a trigger.
+But what if the ternary operator is still too long or too redundant? Then we are in luck thanks to javascript's implicit conditions. Let's take a look at the common situation in which we want to know the value of a variable inside of :ref:`onResult<onResult>` and make sure it is not ``undefined`` but we don't want it as a trigger.
 
 Maybe the calculations can be carrier out if the variable is ``undefined`` by simply assuming it has a value (for example `0`). Typically you could use ``if`` statements like this:
 
@@ -101,7 +101,7 @@ But it gets long very easily [#f1]_ and it seems wasteful to call ``getNumberVal
     var dummy = ctx.getNumberValue('dummy') || 0;
   });
 
-We are using here the _"OR"_ operator (``||``) to replicate the behaviour of the code samples above. We can also use the "AND" operator (``&&``) in the fashion. This operation is not limited to binary options, we could even concatenate several expressions for multiple options.
+We are using here the "OR" operator (``||``) to replicate the behaviour of the code samples above. We can also use the "AND" operator (``&&``) in the fashion. This operation is not limited to binary options, we could even concatenate several expressions for multiple options.
 
 Here is a short explanation of the behaviour of `Logical Operators <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators>`__ :
 
@@ -116,7 +116,7 @@ Here is a short explanation of the behaviour of `Logical Operators <https://deve
 +---------------------------+--------------------------------------------------------+
 
 .. warning::
-  A **nullish** is an expression that evaluates to ``null`` or ``undefined``. The ``??`` `Nullish coalescing operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator>`__ is a fairly new addition to javascript as the best way to set default values. However, our BB doesn't like it and complains a lot about it (even though it still executes it correctly) so only use it if you totally know what you are doing.
+  A **nullish** is an expression equivalent to ``null`` or ``undefined``. The ``??`` operator `Nullish coalescing operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator>`__ is a fairly new addition to javascript as the best way to set default values. However, our BB doesn't like it and complains a lot about it (even though it still executes it correctly) so only use it if you totally know what you are doing.
 
 
 This expressions can be combined but, as we said before, at that point you're probably better off using plain old ``if`` statements.
