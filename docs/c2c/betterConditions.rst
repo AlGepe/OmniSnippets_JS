@@ -103,7 +103,7 @@ But it gets long very easily [#f1]_ and it seems wasteful to call ``getNumberVal
 
 We are using here the _"OR"_ operator (``||``) to replicate the behaviour of the code samples above. We can also use the "AND" operator (``&&``) in the fashion. This operation is not limited to binary options, we could even concatenate several expressions for multiple options.
 
-Here is a short explanation of their behaviour:
+Here is a short explanation of the behaviour of `Logical Operators <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators>`__ :
 
 +---------------------------+--------------------------------------------------------+
 | Syntax                    | Returns                                                | 
@@ -116,7 +116,7 @@ Here is a short explanation of their behaviour:
 +---------------------------+--------------------------------------------------------+
 
 .. warning::
-  A **nullish** is an expression that evaluates to ``null`` or ``undefined``. The ``??`` operator is fairly new addition to javascript as the best way to set default values. However, our BB doesn't like it and complains a lot about it (even though it still executes it correctly) so only use it if you totally know what you are doing.
+  A **nullish** is an expression that evaluates to ``null`` or ``undefined``. The ``??`` `Nullish coalescing operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator>`__ is a fairly new addition to javascript as the best way to set default values. However, our BB doesn't like it and complains a lot about it (even though it still executes it correctly) so only use it if you totally know what you are doing.
 
 
 This expressions can be combined but, as we said before, at that point you're probably better off using plain old ``if`` statements.
