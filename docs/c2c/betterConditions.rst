@@ -65,14 +65,14 @@ As you can see it is more simple and faster to understand. Ternary operators wor
 The general syntax of the ternary (also called conditional) operator is: ``condition ? exprIfTrue : exprIfFalse``. You can also have the expressions be ternary operators, but at that point you should probably use ``if`` instead.
 
 .. note::
-  You can learn more about the `Ternary operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator>__` on Mozilla's JS Documentation.
+  You can learn more about the `Ternary operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator>`__ on Mozilla's JS Documentation.
 
 Stealthy conditions (Implicit conditions to avoid errors)
 ---------------------------------------------------------
 
 But what if the ternary operator is still too long or too redundant? Then we are in luck thanks to javascript's implicit conditions. Let's take a look at the common situation in which we want to know the value of a variable inside of :ref:`onResult<onResult>` and make sure it is not ``undefined`` but we don't want it as a trigger.
 
-Maybe the calculations can be carrier out if the variable is ``undefined`` by simply assuming it has a value (for example `0`). Typically you could use ``if`` statements like this:
+Maybe the calculations can be carried out if the variable is ``undefined`` by simply assuming it has a value (for example `0`). Typically you could use ``if`` statements like this:
 
 .. code-block:: javascript
 
