@@ -39,6 +39,7 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    template
    ../repository/intro.rst
    dating
+   betterConditions
 ..   vSetterUid
 ..   howVSettersWork (undefined, value changing...)
 ..   howToTest
@@ -47,7 +48,6 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
 ..   setValueFromJSHack
 ..   structureData
 ..   dotsOnChart
-..   betterConditions
 ..   avoidInfiniteLoops
 ..   tipsForHPC (reducing onResult triggers vSetter)
 
