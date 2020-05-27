@@ -78,7 +78,7 @@ Maybe the calculations can be carried out if the variable is ``undefined`` by si
 
   omni.onResult ([], function (ctx) {
     var dummy;
-    if (ctx.getNumberValue('dummy') === undefined) {
+    if (ctx.getNumberValue('dummy') == false) { // 'dummy' is zero, undefined, empty string...
       dummy = 0;
     } else { // optional, just for completeness
       dummy = ctx.getNumberValue('dummy');
