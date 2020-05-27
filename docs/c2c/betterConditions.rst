@@ -48,7 +48,7 @@ Let's take a look at an example. We want to know if we are dealing with a car (4
 .. code-block:: javascript
 
   var wheels;
-  if (isCar) {
+  if (isCar) { // isCar is a boolean or a falsy/truthy value.
     wheels = 4;
   } else {
     wheels = 2;
