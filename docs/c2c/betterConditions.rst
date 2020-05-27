@@ -30,7 +30,7 @@ Numbers, strings and other types can be used as Booleans to help us simplify con
 
 This is a very basic example but we can already see the advantage between using ``if (variable)`` and ``if (variable != 0)``. The only downside is that if the variable (``showChart`` in the example) is an empty string, ``undefined`` or any other value that evaluates to ``false``, we will be triggering the same behaviour as if it was ``0``. This behaviour might or might not be desired depending on the situation, so be mindful of it.
 
-All the values that evaluate as ``false`` are called *"falsy"* in javascript jargon; those who evaluate to ``true`` are called *"falsy"*. You can learn more about them on the `Falsy article <https://developer.mozilla.org/en-US/docs/Glossary/Falsy>`__ and `Truthy article <https://developer.mozilla.org/en-US/docs/Glossary/Truthy>`__ , respectively.
+All the values that evaluate as ``false`` are called *"falsy"* in javascript jargon; those who evaluate to ``true`` are called *"truthy"*. You can learn more about them on the `Falsy article <https://developer.mozilla.org/en-US/docs/Glossary/Falsy>`__ and `Truthy article <https://developer.mozilla.org/en-US/docs/Glossary/Truthy>`__ , respectively.
 
 .. tip::
   Falsy and Truthy values can also be combined with the "NOT" (``!``) operator. ``(!number)`` is the same as ``if (number == 0)``.
