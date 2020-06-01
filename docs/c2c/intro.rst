@@ -40,7 +40,8 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    ../repository/intro.rst
    dating
    betterConditions
-..   vSetterUid
+   shrinkingVS
+   nestedVSetterExtra
 ..   howVSettersWork (undefined, value changing...)
 ..   howToTest
 ..   clearFieldAfterSelect
