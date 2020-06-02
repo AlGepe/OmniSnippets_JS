@@ -69,49 +69,49 @@ This option is not limited to two total levels, you can keep nesting forever. Ju
 .. code-block:: javascript
   :linenos:
 
-omni.onResult([], function (ctx) {
-  var category = ctx.getNumberValue('category') || 0;
-  omni.createValueSetter('category', categoryEmptyArrayVS[category]);
-  omni.createValueSetter('option', categoryArrayVS[category]);
-});
+  omni.onResult([], function (ctx) {
+    var category = ctx.getNumberValue('category') || 0;
+    omni.createValueSetter('category', categoryEmptyArrayVS[category]);
+    omni.createValueSetter('option', categoryArrayVS[category]);
+  });
 
-//Level 0 VS
-//Set all default values here, even if it's normally controlled by the nested VS
-var Type_Color_empty_VS = [{name:'Color', uid:'0', values: {}},
-                           {name:'Shape', uid:'1', values: {'option':0,'value':3}},
-                           {name:'Size', uid:'2', values: {'option':0,'value':0}}
+  //Level 0 VS
+  //Set all default values here, even if it's normally controlled by the nested VS
+  var Type_Color_empty_VS = [{name:'Color', uid:'0', values: {}},
+                            {name:'Shape', uid:'1', values: {'option':0,'value':3}},
+                            {name:'Size', uid:'2', values: {'option':0,'value':0}}
+                            ];
+
+  var Type_Shape_empty_VS = [{name:'Color', uid:'0', values: {'option':0,'value':650}},
+                            {name:'Shape', uid:'1', values: {}},
+                            {name:'Size', uid:'2', values: {'option':0,'value':0}}
+                            ];
+
+  var Type_Size_empty_VS = [{name:'Color', uid:'0', values: {'option':0,'value':650}},
+                            {name:'Shape', uid:'1', values: {'option':0,'value':3}},
+                            {name:'Size', uid:'2', values: {}}
                           ];
 
-var Type_Shape_empty_VS = [{name:'Color', uid:'0', values: {'option':0,'value':650}},
-                           {name:'Shape', uid:'1', values: {}},
-                           {name:'Size', uid:'2', values: {'option':0,'value':0}}
-                          ];
+  categoryEmptyArrayVS = [Type_Color_empty_VS, Type_Shape_empty_VS, Type_Size_empty_VS];
 
-var Type_Size_empty_VS = [{name:'Color', uid:'0', values: {'option':0,'value':650}},
-                          {name:'Shape', uid:'1', values: {'option':0,'value':3}},
-                          {name:'Size', uid:'2', values: {}}
-                         ];
+  //Level 1 VS
+  var Color_VS = [{name:'Red', uid:'0', values: {'value':650}},
+                  {name:'Orange', uid:'1', values: {'value':600}},
+                  {name:'Yellow', uid:'2', values: {'value':570}}
+                ];
 
-categoryEmptyArrayVS = [Type_Color_empty_VS, Type_Shape_empty_VS, Type_Size_empty_VS];
+  var Shape_VS = [{name:'Triangle', uid:'0', values: {'value':3}},
+                  {name:'Square', uid:'1', values: {'value':4}}
+                ];
 
-//Level 1 VS
-var Color_VS = [{name:'Red', uid:'0', values: {'value':650}},
-                {name:'Orange', uid:'1', values: {'value':600}},
-                {name:'Yellow', uid:'2', values: {'value':570}}
-               ];
+  var Size_VS = [{name:'X small', uid:'0', values: {'value':0}},
+                {name:'Small', uid:'1', values: {'value':1}},
+                {name:'Medium', uid:'2', values: {'value':2}},
+                {name:'Large', uid: '3', values: {'value':3}},
+                {name: 'XLarge', uid: '4', values: {'value':4}}
+                ];
 
-var Shape_VS = [{name:'Triangle', uid:'0', values: {'value':3}},
-                {name:'Square', uid:'1', values: {'value':4}}
-               ];
-
-var Size_VS = [{name:'X small', uid:'0', values: {'value':0}},
-               {name:'Small', uid:'1', values: {'value':1}},
-               {name:'Medium', uid:'2', values: {'value':2}},
-               {name:'Large', uid: '3', values: {'value':3}},
-               {name: 'XLarge', uid: '4', values: {'value':4}}
-              ];
-
-categoryArrayVS = [Color_VS, Shape_VS, Size_VS];
+  categoryArrayVS = [Color_VS, Shape_VS, Size_VS];
 
 
 As you can see, we need one value setter variable for each option in the *Level 0* value setter. This can get pretty big pretty fast [#f1]_. If you are planning to use this trick using value setters with a big number of options, it would be useful to create the value setter variables automatically every time ``onResult`` is triggered.
