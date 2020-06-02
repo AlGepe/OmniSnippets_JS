@@ -10,6 +10,7 @@ Changing value setters during runtime is nothing new, we have already covered it
 
 
 What we have here are a three different ways use this principle to achieve more useful behaviours. We will start with the more niche use case and then move on those that improve the user experience of things we already know how to do.
+
 Clear field for custom option
 -----------------------------
 
@@ -22,7 +23,7 @@ To achieve this, you just need to do a small *switcheroo thingy*, the customJS e
 Here is the how to do it: 
 
 .. code-block:: javascript
-    :linenos:
+  :linenos:
 
   omni.onResult([], function (ctx) {
     ctx.hideVariables('sides');
@@ -64,7 +65,7 @@ var tempVSArray = [];
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Dynamic) <https://bb.omnicalculator.com/#/calculators/2038>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Nested with Default Values) <https://bb.omnicalculator.com/#/calculators/2593>`__ on BB.
     
 
 

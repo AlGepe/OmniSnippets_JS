@@ -1,7 +1,7 @@
 .. _shrinkingVS:
 
-Dynamic Value Setters
----------------------
+Dynamically changing  VSetters
+------------------------------
 
 In the rare occasion that you might wanted to have a value setter with options dynamically changing, this is your section. This was created in collaboration with Jack [#f1]_ as a proof of concept, but it's not something you will probably want to do everyday.
 
@@ -10,6 +10,7 @@ In the example, we have a value setter that only lists those options that have n
 Here is the ``onResult`` code:
 
 .. code-block:: javascript
+
   omni.onResult(['relevantVar'], function (ctx, relevantVar) {
     relevantVar = relevantVar.toNumber();
     ctx.hideVariables('m_planet'); 
