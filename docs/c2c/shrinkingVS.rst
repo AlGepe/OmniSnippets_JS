@@ -64,3 +64,6 @@ These two functions can also be handy for other applications, which is why they 
   We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamically shrinking VSetter <https://bb.omnicalculator.com/#/calculators/2296>`__ on BB.
   
 
+.. rubric:: Footnotes
+
+.. [#f1] It never got implemented into a calculator, but we prooved it can be done!
