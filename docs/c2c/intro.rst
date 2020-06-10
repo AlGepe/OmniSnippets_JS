@@ -22,6 +22,7 @@ This section is meant to solve the problems you will find. You can expect to fin
    scope
    orderOfExecution
    omniFunctionInputs
+   equationEditor
 ..   variableTypes
 ..   debuggingDev
 ..   strangerConditions
