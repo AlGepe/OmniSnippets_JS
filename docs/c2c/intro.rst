@@ -22,8 +22,6 @@ This section is meant to solve the problems you will find. You can expect to fin
    scope
    orderOfExecution
    omniFunctionInputs
-   equationEditor
-..   equationEditor2
 ..   variableTypes
 ..   debuggingDev
 ..   strangerConditions
@@ -44,6 +42,8 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    betterConditions
    shrinkingVS
    nestedVSetterExtra
+   equationEditor
+   equationEditor2
 ..   howVSettersWork (undefined, value changing...)
 ..   howToTest
 ..   clearFieldAfterSelect
