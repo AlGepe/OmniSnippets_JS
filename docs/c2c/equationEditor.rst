@@ -1,4 +1,5 @@
 .. _equationEditor:
+
 Equation editor: Explained - Part 1
 ===================================
 
@@ -45,13 +46,6 @@ Here ``[expr_true]`` and ``[expr_false]`` can be any expression we want: numbers
 The usage of ``if_else`` invariably causes the variable assigned to the result (``variable1`` as written above) to be output-only, due to the inability of the engine to revert an *if ... else* statement.
 
 Technically, there is a third custom function available to us, called ``source_only`` that works in pretty much the same way as ``one_way``. Just like the rest of the information about custom functions available in equations, this information was given by Daniel [#f2]_ who describe ``source_only`` as *"the same as one_way and I don't remember the exact use case - it seems legacy"*.
-
-
-Ensuring multi-directional solutions: Systems of equations
-----------------------------------------------------------
-
-[Trick/Hack] Defining two-way custom function
----------------------------------------------
 
 
 
