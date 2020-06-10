@@ -1,9 +1,9 @@
 .. _equationEditor2:
 
-Equation editor: Explained - Part 2
+Equation editor - Part 2
 ===================================
 
-We have looked at the :ref:`basics of the equation editor<equationEditor>`__ in a previous issue, so now it is the time to look a bit deeper. In this section we will see how we can get the most out of our equations to get the most functional calculators possible. 
+We have looked at the :ref:`basics of the equation editor<equationEditor>` in a previous issue, so now it is the time to look a bit deeper. In this section we will see how we can get the most out of our equations to get the most functional calculators possible. 
 
 Ensuring multi-directional solutions: Systems of equations
 ----------------------------------------------------------
@@ -14,15 +14,15 @@ Our engine cannot do symbolic calculations, so a **variable will get a value if,
 
 The equations in this calculator can be reduced to: 
 
-1. `R = k * M`
-1. `g = k' * M / R^2`
+#. `R = k * M`
+#. `g = k' * M / R^2`
 
 where `k` and `k'` are fixed constants. From this simplification one can easily see that either `R`, `M`, or `g` alone are to obtain the other two values. However, implemented like this, if the user inputs `g` nothing else gets computed. The engine put `R` in terms of a placeholder `M` to solve the equations. 
 
 To fix an issue like this, we simply need to re-write the equations so that, for any input, there will always be at least one equation with only one unknown. Here is an example:
 
-1. `R = k * M`
-1. `g = k' * M / {k*M}^2`
+#. `R = k * M`
+#. `g = k' * M / {k*M}^2`
 
 Now, when the user inputs `g` there is only one unknown in the second equation, so `M` can be computed, which allows `R` to be computed as well. The same thing happens for any other input, just in different order.
 
@@ -34,13 +34,13 @@ However, this is not a silver bullet, at least not in such a simple form. If we 
 
 In its most common form, a system of equations is presented as:
 
-1. `a1*x + b1*y = c1`
-1. `a2*x + b2*y = c2`
+#. `a1*x + b1*y = c1`
+#. `a2*x + b2*y = c2`
 
 So even if we get all the coefficients, we already know that the calculator will not be able to solve for `x` and `y`. Fine! You might say. Let's re-write them! And so you use substitution to arrive at:
 
-1. `a2*x + b2*( (c1 - a1*x)/b1)= c2`
-1. `(a1*(c2 - b2*y)/a2)+ b1*y = c1`
+#. `a2*x + b2*( (c1 - a1*x)/b1)= c2`
+#. `(a1*(c2 - b2*y)/a2)+ b1*y = c1`
 
 Which our calculator can use to find the values of `x` and `y`. However, this will not find simultaneously the values of `a1` and `b2`; for that we would need the first set of equations. None of these can actually solve simultaneously `a1` and `c1`, for example. So we would need a new set of equations, meaning we are at 6 equations for a simple system of two independent equations.
 
@@ -63,5 +63,5 @@ The takeaway from this sections is that computers are not as smart as they seem.
 .. rubric:: tl;dr
 The functions `erf` and `erfinv` have the special characteristic that they can be defined in cJS and keep variables reversible (they work as input and output). However, they only allow one input parameter. Use them as a trick to get out of a difficult situation, but don't plan your calculator around them.
 
-.. rubric:: Footnotesu
+.. rubric:: Footnotes
 .. [#f1] As long as we use sensible inputs that don't cause of the type `1/0`, `0x = 0`...

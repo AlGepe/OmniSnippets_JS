@@ -1,6 +1,6 @@
 .. _equationEditor:
 
-Equation editor: Explained - Part 1
+Equation editor - Part 1
 ===================================
 
 In this documentation we have talked extensively about using customJS in our calculators. However, we haven't talked about the quickest way to create calculators: **the equation editor**. This equation editor is also what sets Omni calculators apart from other online calculators, since it allows any variable to be compute from the others.
