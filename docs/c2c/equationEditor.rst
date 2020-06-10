@@ -47,7 +47,10 @@ The usage of ``if_else`` invariably causes the variable assigned to the result (
 
 Technically, there is a third custom function available to us, called ``source_only`` that works in pretty much the same way as ``one_way``. Just like the rest of the information about custom functions available in equations, this information was given by Daniel [#f2]_ who describe ``source_only`` as *"the same as one_way and I don't remember the exact use case - it seems legacy"*.
 
+Additionally there is also the posibility of creating an entirely custom function by using :ref:`omni.define<omniDefine>` in customJS. This also creates an *output-only* variable, so whenever possible avoid using it.
 
+.. note::
+  We have created a calculator to illustrate the usage of custom equation-functions. You can find it on BB as `[docs] custom equations <https://bb.omnicalculator.com/#/calculators/2655>`__
 
 .. rubric:: Footnotes
 
