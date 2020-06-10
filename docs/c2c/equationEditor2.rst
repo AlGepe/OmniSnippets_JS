@@ -1,0 +1,67 @@
+.. _equationEditor2:
+
+Equation editor: Explained - Part 2
+===================================
+
+We have looked at the :ref:`basics of the equation editor<equationEditor>`__ in a previous issue, so now it is the time to look a bit deeper. In this section we will see how we can get the most out of our equations to get the most functional calculators possible. 
+
+Ensuring multi-directional solutions: Systems of equations
+----------------------------------------------------------
+
+If you have enough experience creating complicated calculators, you might have noticed that **not all variables get computed as you would expect**. This is due to a limitation in the interconnection between different equations in the editor. In fact, equations cannot be combined to calculate the value of a variable that couldn't be computed with one unique equation.
+
+Our engine cannot do symbolic calculations, so a **variable will get a value if, and only if, it is the only unknown in the equation**. Let's take a look at a practical example using the recently updated "Schwarzschild radius calculator".
+
+The equations in this calculator can be reduced to: 
+
+1. `R = k * M`
+1. `g = k' * M / R^2`
+
+where `k` and `k'` are fixed constants. From this simplification one can easily see that either `R`, `M`, or `g` alone are to obtain the other two values. However, implemented like this, if the user inputs `g` nothing else gets computed. The engine put `R` in terms of a placeholder `M` to solve the equations. 
+
+To fix an issue like this, we simply need to re-write the equations so that, for any input, there will always be at least one equation with only one unknown. Here is an example:
+
+1. `R = k * M`
+1. `g = k' * M / {k*M}^2`
+
+Now, when the user inputs `g` there is only one unknown in the second equation, so `M` can be computed, which allows `R` to be computed as well. The same thing happens for any other input, just in different order.
+
+.. seealso::
+  The most clear example of this lack of interconnection between equations is to compare the published version of the `Schwarzschild radius calculator <https://www.omnicalculator.com/physics/schwarzschild-radius>`__ with the `"limited" version of that same calculator <https://bb.omnicalculator.com/#/calculators/2617>`__ made for demonstration purposes. Pay close attention to how the 'Gravitational field' can (not) change the values of the other variables depending on the implementation.
+
+
+However, this is not a silver bullet, at least not in such a simple form. If we take a look at a calculator that can solve any system of equations [#f1]_  we can see how achieving the omni-solving potential promised by Matt and his disciples (read: developers) can be more effort than we would hope for.
+
+In its most common form, a system of equations is presented as:
+
+1. `a1*x + b1*y = c1`
+1. `a2*x + b2*y = c2`
+
+So even if we get all the coefficients, we already know that the calculator will not be able to solve for `x` and `y`. Fine! You might say. Let's re-write them! And so you use substitution to arrive at:
+
+1. `a2*x + b2*( (c1 - a1*x)/b1)= c2`
+1. `(a1*(c2 - b2*y)/a2)+ b1*y = c1`
+
+Which our calculator can use to find the values of `x` and `y`. However, this will not find simultaneously the values of `a1` and `b2`; for that we would need the first set of equations. None of these can actually solve simultaneously `a1` and `c1`, for example. So we would need a new set of equations, meaning we are at 6 equations for a simple system of two independent equations.
+
+.. note::
+  At this point it is important to take a step back and ask ourselves if we really want to have a "solve-any-variable" calculator, or if there are some calculations about which we don't care. 
+
+In most cases it will not be needed to go to such lengths to add functionality, since we might not even want it. In the previous case, for example, if `x` and `y` are known but `a1` and `b1` are not, the user should probably recognise that the easiest solution is to rename the unknowns to the standard `x`, `y` and re-write the problem in a way that makes more sense.
+
+.. seealso::
+  This example can be found in calculator form as the `Systems of Equations calculator <https://bb.omnicalculator.com/#/calculators/2654>`__ in BB.
+
+
+.. rubric:: tl;dr
+
+The takeaway from this sections is that computers are not as smart as they seem. We can help them by doing some of the math, and adding more equations helps our calculators get smarter. Just don't do work to get a functionality that should never be used.  
+
+[Trick/Hack] Defining two-way custom function
+---------------------------------------------
+
+.. rubric:: tl;dr
+The functions `erf` and `erfinv` have the special characteristic that they can be defined in cJS and keep variables reversible (they work as input and output). However, they only allow one input parameter. Use them as a trick to get out of a difficult situation, but don't plan your calculator around them.
+
+.. rubric:: Footnotesu
+.. [#f1] As long as we use sensible inputs that don't cause of the type `1/0`, `0x = 0`...
