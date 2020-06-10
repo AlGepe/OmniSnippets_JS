@@ -44,7 +44,7 @@ So even if we get all the coefficients, we already know that the calculator will
 
 Which our calculator can use to find the values of `x` and `y`. However, this will not find simultaneously the values of `a1` and `b2`; for that we would need the first set of equations. None of these can actually solve simultaneously `a1` and `c1`, for example. So we would need a new set of equations, meaning we are at 6 equations for a simple system of two independent equations.
 
-.. note::
+.. tip::
   At this point it is important to take a step back and ask ourselves if we really want to have a "solve-any-variable" calculator, or if there are some calculations about which we don't care. 
 
 In most cases it will not be needed to go to such lengths to add functionality, since we might not even want it. In the previous case, for example, if `x` and `y` are known but `a1` and `b1` are not, the user should probably recognise that the easiest solution is to rename the unknowns to the standard `x`, `y` and re-write the problem in a way that makes more sense.
