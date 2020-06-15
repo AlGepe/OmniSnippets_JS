@@ -60,18 +60,18 @@ The takeaway from this sections is that computers are not as smart as they seem.
 [Trick/Hack] Defining two-way custom function
 ---------------------------------------------
 
-As great as defining our own functions is, doing that limits the usability of our calculator. This is because custom functions make variables "output-only" which... sub-optimal. There are workarounds that use value selects and selectively hiding/showing variables can restore some of that functionality, but we all wish there was a better way.
+As great as defining our own functions is, doing that limits the usability of our calculator. This is because **custom functions make variables "output-only"** which... sub-optimal. There are workarounds that use value selects and selectively hiding/showing variables can restore some of that functionality, but we all wish there was a better way.
 
 And there is! ...kind of. There is one special function called ``erf`` that keeps the **input-output behaviour of variables**. To do this, it has an inverse function ``erfinv`` that allows the engine to calculate the input from the output and the output from the input as required.
 
 However, it too has some limitations, so let's see a list of important things to know about this pair:
 
-* Definition: ``a = erf(b)`` where ``a`` and ``b`` are variables.
-* [Optional] Defining the inverse function ``b = erfinv(a)`` for the same ``a`` and ``b`` as above. 
-* To ensure proper behaviour, ``erf`` and ``erfinv`` should be implemented using ``omni.define`` in such a way that ``erf(erfinv(a)) == a``.
-* Names **MUST BE** only ``erf`` and ``erfinv`` as any other function names will not enable "two-way" calculations.
+* **Definition**: ``a = erf(b)`` where ``a`` and ``b`` are variables.
+* **[Optional]** Defining the inverse function ``b = erfinv(a)`` for the same ``a`` and ``b`` as above. 
+* **When implementing** ``erf`` and ``erfinv`` using ``omni.define`` make sure that ``erf(erfinv(a)) == a``.
+* Names **MUST BE** only ``erf`` and ``erfinv`` other names will not enable "two-way" calculations.
 * Both ``erf`` and ``erfinv`` must have **one and only one** input.
-* Like other ``omni.define`` functions the return type must be a number or a ``decimaljs`` object.
+* Like other ``omni.define`` functions the **return type** must be a number or a ``decimaljs`` object.
 
 Let's look at a very simple example, where we can convert the ``pow`` function into a "two-way" function as long as we fix the exponent. We will take the simplest root of defining only one equation:
 
