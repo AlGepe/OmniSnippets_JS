@@ -62,17 +62,41 @@ The takeaway from this sections is that computers are not as smart as they seem.
 
 As great as defining our own functions is, doing that limits the usability of our calculator. This is because custom functions make variables "output-only" which... sub-optimal. There are workarounds that use value selects and selectively hiding/showing variables can restore some of that functionality, but we all wish there was a better way.
 
-And there is! ...kind of. There is one special function called ``erf`` that keeps the *input-output behaviour of variables*. To do this, it has an inverse function ``erfinv`` that allows the engine to calculate the input from the output and the output from the input as required.
+And there is! ...kind of. There is one special function called ``erf`` that keeps the **input-output behaviour of variables**. To do this, it has an inverse function ``erfinv`` that allows the engine to calculate the input from the output and the output from the input as required.
 
 However, it too has some limitations, so let's see a list of important things to know about this pair:
 
 * Definition: ``a = erf(b)`` where ``a`` and ``b`` are variables.
-* Definition: ``b = erfinv(a)``. For the same ``a`` and ``b`` as above.
+* [Optional] Defining the inverse function ``b = erfinv(a)`` for the same ``a`` and ``b`` as above. 
 * To ensure proper behaviour, ``erf`` and ``erfinv`` should be implemented using ``omni.define`` in such a way that ``erf(erfinv(a)) == a``.
 * Names **MUST BE** only ``erf`` and ``erfinv`` as any other function names will not enable "two-way" calculations.
 * Both ``erf`` and ``erfinv`` must have **one and only one** input.
 * Like other ``omni.define`` functions the return type must be a number or a ``decimaljs`` object.
 
+Let's look at a very simple example, where we can convert the ``pow`` function into a "two-way" function as long as we fix the exponent. We will take the simplest root of defining only one equation:
+
+``result = erf(base)``
+
+Our cJS code will look like this (fixed exponent being 3.4):
+
+.. code-block:: javascript
+
+  omni.define('erf', function(base) {
+    return mathjs.pow (base.toNumber(), 3.4);
+  });
+
+  omni.define('erfinv', function(base) {
+    return mathjs.pow (base.toNumber(), 1/3.4);
+  });
+
+We need to define ``erfinv`` in cJS even if we haven't explicitly done so in the equations tab. If we fail to define ``erfinv`` in cJS all variables will be shown as "input-output" but calculations will only work in one way.
+
+.. seealso::
+  You can check this implementation and compare it with the classic ``a = pow(b, 3.4)`` in a sample calculator we made. Find it as `[docs] Inverse functions <https://bb.omnicalculator.com/#/calculators/2615>`__ on BB.
+
+All these limitations (only one input variables, fixed name...) limit the usability of the ``erf`` function so we would not recommend to plan your calculator to use it. We advice to use it as an elegant way to solve a problem when/if you find such.
+
+*Special thanks to Jasmine for bringing this function to our attention.*
 
 
 .. rubric:: tl;dr
