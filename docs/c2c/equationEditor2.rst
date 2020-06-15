@@ -22,7 +22,7 @@ where `k` and `k'` are fixed constants. From this simplification one can easily 
 To fix an issue like this, we simply need to re-write the equations so that, for any input, there will always be at least one equation with only one unknown. Here is an example:
 
 #. `R = k * M`
-#. `g = k' * M / {k*M}^2`
+#. `g = k' * M / (k*M)^2`
 
 Now, when the user inputs `g` there is only one unknown in the second equation, so `M` can be computed, which allows `R` to be computed as well. The same thing happens for any other input, just in different order.
 
@@ -59,6 +59,21 @@ The takeaway from this sections is that computers are not as smart as they seem.
 
 [Trick/Hack] Defining two-way custom function
 ---------------------------------------------
+
+As great as defining our own functions is, doing that limits the usability of our calculator. This is because custom functions make variables "output-only" which... sub-optimal. There are workarounds that use value selects and selectively hiding/showing variables can restore some of that functionality, but we all wish there was a better way.
+
+And there is! ...kind of. There is one special function called ``erf`` that keeps the *input-output behaviour of variables*. To do this, it has an inverse function ``erfinv`` that allows the engine to calculate the input from the output and the output from the input as required.
+
+However, it too has some limitations, so let's see a list of important things to know about this pair:
+
+* Definition: ``a = erf(b)`` where ``a`` and ``b`` are variables.
+* Definition: ``b = erfinv(a)``. For the same ``a`` and ``b`` as above.
+* To ensure proper behaviour, ``erf`` and ``erfinv`` should be implemented using ``omni.define`` in such a way that ``erf(erfinv(a)) == a``.
+* Names **MUST BE** only ``erf`` and ``erfinv`` as any other function names will not enable "two-way" calculations.
+* Both ``erf`` and ``erfinv`` must have **one and only one** input.
+* Like other ``omni.define`` functions the return type must be a number or a ``decimaljs`` object.
+
+
 
 .. rubric:: tl;dr
 The functions `erf` and `erfinv` have the special characteristic that they can be defined in cJS and keep variables reversible (they work as input and output). However, they only allow one input parameter. Use them as a trick to get out of a difficult situation, but don't plan your calculator around them.
