@@ -64,6 +64,9 @@ As great as defining our own functions is, doing that limits the usability of ou
 
 And there is! ...kind of. There is one special function called ``erf`` that keeps the **input-output behaviour of variables**. To do this, it has an inverse function ``erfinv`` that allows the engine to calculate the input from the output and the output from the input as required.
 
+.. warning::
+  The ``erf`` and ``erfinv`` functions should not be used as the standard way to define a custom function to get two-way calculations. The use desribe here is not the intended one and this should, therefore, be considered only a hack/trick to get out of a sticky situation.
+
 However, it too has some limitations, so let's see a list of important things to know about this pair:
 
 * **Definition**: ``a = erf(b)`` where ``a`` and ``b`` are variables.
@@ -103,4 +106,4 @@ All these limitations (only one input variables, fixed name...) limit the usabil
 The functions `erf` and `erfinv` have the special characteristic that they can be defined in cJS and keep variables reversible (they work as input and output). However, they only allow one input parameter. Use them as a trick to get out of a difficult situation, but don't plan your calculator around them.
 
 .. rubric:: Footnotes
-.. [#f1] As long as we use sensible inputs that don't cause of the type `1/0`, `0x = 0`...
+.. [#f1] As long as we use sensible inputs that don't cause problems like `1/0`, `0x = 0`...
