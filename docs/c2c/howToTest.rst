@@ -41,7 +41,7 @@ By dividing each equation into smaller parts, we create **intermediate points th
 
 This ``dev`` variable would have a value setter or value select assigned with "Yes"/ "No" options in the form of ``1`` and ``0`` internal values. Inside of ``onResult`` we can **hide/show variables according to the selection**, as shown in the sample code below:
 
-.. codeblock:: javascript
+.. code-block:: javascript
 
   omni.onResult ([], function (ctx) {
     // ctx.hideVariables('dev'); // Uncomment for publishing
@@ -60,7 +60,7 @@ This ``dev`` variable would have a value setter or value select assigned with "Y
 
 Just like with the testing value setter, by simply uncommenting one line we can move to the publishing version.
 
-If we **combine this trick with the ``tests`` trick** we can easily and quickly perform tests and spot problems in our calculator without much effort. We have created a dummy calculator on BB to showcase this implementation: `[docs] TEsting with Vsetter <https://bb.omnicalculator.com/#/calculators/1643>`__ 
+If we **combine this trick with the ``tests`` trick** we can easily and quickly perform tests and spot problems in our calculator without much effort. We have created a dummy calculator on BB to showcase this implementation: `[docs] Testing with Vsetter <https://bb.omnicalculator.com/#/calculators/1643>`__ 
 
 .. seealso::
   A real-world example of how to use these tricks is available on BB as `[docs] testing with Vsetter - real world <https://bb.omnicalculator.com/#/calculators/2708>`__ The tests used there were provided by the client as part of the verification process.
