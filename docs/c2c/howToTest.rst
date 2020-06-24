@@ -79,3 +79,7 @@ To avoid such problems we have several option:
 #. Whatever else you can think of...
 
 This should reduce greatly the number of problems you encounter in your testing value setter, but if you find big issues, don't bother. **There is no point in saving 10 minutes testing by spending 3 hours making the tests work**.
+
+.. rubric:: tl;dr
+
+You can automate the testing process by creating value setters that will be hidden for publication. You can also use a value setter/select to create a "developer" and a "release" version of the calculator to help you spot and fix problems. This requires planning ahead but can save you a lot of time and effort in complex and tricky calculators.
