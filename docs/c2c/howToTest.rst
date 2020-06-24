@@ -70,7 +70,7 @@ Complications and how to avoid them
 
 One thing to keep in mind when using Value Setters is that setting default values for them can result in **crashes and misbehaviours** of the calculator as it is loaded (in particular during ``onInit`` execution).
 
-To avoid such problems we have several option:
+To avoid such problems we have several options:
 
 #. Not setting default values for debugging value setters / value selects.
 #. Use value selects when possible (they create less problems).
