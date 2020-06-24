@@ -44,8 +44,8 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    nestedVSetterExtra
    equationEditor
    equationEditor2
+   howToTest
 ..   howVSettersWork (undefined, value changing...)
-..   howToTest
 ..   clearFieldAfterSelect
 ..   calculateButton
 ..   setValueFromJSHack
