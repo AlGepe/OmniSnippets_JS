@@ -1,6 +1,6 @@
 .. _comparisons:
-Comparisons, why NaN is not NaN
-===============================
+Comparisons, staying sane a little longer
+=========================================
 
 Some say that "comparisons are odious", but we calculatorians know they are just unnavoidable. Thus, we must master the art of comparing not only apples to apples, but apples to oranges and even apples to fear.
 
@@ -50,7 +50,7 @@ Simple enough, right? For comparing numbers we have other operators available li
 Up to here everything is well and good, but things get complicated quickly. Arrays (and objects in general) don't work well with ``==`` and ``===`` so even if they are the same type of variable with the same content you might find they are not *'equal'*. Moreover, what if I compare to other types like an Array, or ``undefined`` or ``NaN`` [#f1]_ ... The answer is *havoc*, unless you are prepared in advanced.
 
 Truthy, flasy and why 0 and '0' are kinda the same but not really
-=================================================================
+-----------------------------------------------------------------
 
 It is now the time to compare apples to oranges. Obviously this is not striaght foward and the way javascript deals with it makes it even more complicated at times. First, let's mix variable types.
 
@@ -64,7 +64,7 @@ Things get even more bizarre when we mix in weird types like ``NaN``, ``undefind
   We talked about "truthy" and "falsy" values when exploring condition so we recomend going back and reading that article again. Find it as :ref:`Better Conditions<betterConditions>` in the documentation.
 
 When 'equals' are not enough, why ``NaN`` is not the same as ``NaN``
-====================================================================
+--------------------------------------------------------------------
 
 When comparing special types using the ``==`` and ``===`` things can quickly break down. A clear example of this is the fact that ``[1,2] === [1,2] -> false`` and the most extreme version can be found with ``NaN === NaN -> false``. 
 
