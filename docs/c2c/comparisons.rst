@@ -103,7 +103,7 @@ There are even more weird things going on with javascript (also ouside of pure c
 
 .. _JSMakesNoSense:                  
 .. figure:: imgs/4skcofasa1p01.png
-    :scale: 50%
+    :scale: 25%
     :alt: noSenseJs
     :align: center
 
