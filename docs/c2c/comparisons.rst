@@ -63,7 +63,7 @@ Things get even more bizarre when we mix in weird types like ``NaN``, ``undefind
 .. seealso::
   We talked about "truthy" and "falsy" values when exploring condition so we recomend going back and reading that article again. Find it as :ref:`Better Conditions<betterConditions>` in the documentation.
 
-When 'equals' are not enough, why ``NaN`` is not the same as ``NaN``
+When 'equals' are not enough, how ``NaN`` is not the same as ``NaN``
 --------------------------------------------------------------------
 
 When comparing special types using the ``==`` and ``===`` things can quickly break down. A clear example of this is the fact that ``[1,2] === [1,2] -> false`` and the most extreme version can be found with ``NaN === NaN -> false``. 
