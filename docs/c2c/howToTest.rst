@@ -22,7 +22,7 @@ We can automate the input process by creating a new variable (let's call it ``te
 .. seealso::
   We have created a dummy calculator to showcase the usefulness of Value Setters for testing weird scenarios. You can find it on BB as `[docs] Testing with vSetter <https://bb.omnicalculator.com/#/calculators/2045>`__ .
 
-After finishing the calculator, all you have to do is hide the ``tests`` variable and nobody using the calculator will know it was ever there. 
+After finishing the calculator, all you have to do is hide the ``tests`` variable and nobody using the calculator will know it was ever there. To prevent anyone embedding your calculator to "uncover" these hidden features, simply set a default value via ``setDefault`` inside ``onInit`` as it overrides any embed options.
 
 As an **added bonus** if anyone has to modify or change something in the calculator, having those tests ready to be used will be very convenient and they will thank you for it (even if they don't say it out loud).
 

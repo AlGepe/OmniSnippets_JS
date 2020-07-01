@@ -22,9 +22,8 @@ This section is meant to solve the problems you will find. You can expect to fin
    scope
    orderOfExecution
    omniFunctionInputs
+   comparisons
 ..   variableTypes
-..   debuggingDev
-..   strangerConditions
 
 
 
@@ -46,7 +45,6 @@ Here we will collect all those clever *hacks* and tricks that make our lives eas
    equationEditor2
    howToTest
 ..   howVSettersWork (undefined, value changing...)
-..   clearFieldAfterSelect
 ..   calculateButton
 ..   setValueFromJSHack
 ..   structureData
