@@ -23,6 +23,9 @@ Let's start with the most basic comparisons we can make in javascrit: apples to 
 
 Comparisons in javascript are typically done by using the comparison operator ``==`` or ``===`` which act exactly in the same way as long as the variables compared are of the same type. A second feature of comparisons is that they return a boolen stating whether the comparison is ``true`` or ``false``.
 
+.. tip::
+  To avoid unexpected problems ``===`` is preferred to ``==`` for comparing values. The double equal (``==``) should only be used when we explicitly want to compare variables of different type. 
+
 Let's take a look at a few examples using text:
 
 .. code-block:: javascript
