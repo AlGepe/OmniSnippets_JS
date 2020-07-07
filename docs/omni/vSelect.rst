@@ -56,6 +56,9 @@ corresponding life expectancy value.
       US: { name: 'United States', value: '79.68' }
     });
 
+.. warning::
+  If more than one options in the value select have the same ``value`` the user selection will no be displayed correctly. To fix that you can use a :ref:`Value setter <vSetter>` or make the options differ by a negligible amount, e.g.: 1e-12.
+
 Once you have created your value select, you will need to bind it to a variable in your calculator. To do this, please refer to :ref:`Bind Value Select <bindVSelect>` in the :ref:`Inititalization <onInit>` section.
 
 
