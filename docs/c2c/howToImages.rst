@@ -122,6 +122,7 @@ If you find yourself storing more than 4 (arbitrary number to be used as referen
 I don't mean camelCasing (though I'd love to have it that way). What we mean is that you should give your pictures descriptive, clear and unique names. It never hurts following some kind of naming scheme. This is the one I use personally, feel free to copy.
 
 *File name logic*: ``[INITIALS]_[CalculatorIdentifier]_[pictureDescriptor].[Extension]``
+
 *File name example*: ``Al_hist_histogramExample.png``
 
 
