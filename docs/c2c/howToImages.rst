@@ -109,15 +109,15 @@ To try to fix this problem, or at least prevent it from getting even messier tha
 A guide on storing files in our FTP server 
 ..........................................
 
-#. **Folders to organize common topics**
+1. **Folders to organize common topics**
 
 If you are storing images for a calculator that belongs to a broader topic for which we have multiple calculators, find/create a folder for that topic. Examples can be things like *Geometry*, *Cube*, *Astronomy*, *Ecology*, *Coronavirus*... If necessary, subfolders should be created/used to keep things organised. 
 
-#. **If your calculator has many images, it needs a folder**
+2. **If your calculator has many images, it needs a folder**
 
 If you find yourself storing more than 4 (arbitrary number to be used as reference) images for a single calculator, it's a good idea to create a new folder to group them all.
 
-#. **Name pictures like they are variables**
+3. **Name pictures like they are variables**
 
 I don't mean camelCasing (though I'd love to have it that way). What we mean is that you should give your pictures descriptive, clear and unique names. It never hurts following some kind of naming scheme. This is the one I use personally, feel free to copy.
 
