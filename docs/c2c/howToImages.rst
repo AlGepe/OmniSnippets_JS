@@ -1,4 +1,4 @@
-.. _howToImages:
+.. -howToImages:
 
 How to deal with images
 -----------------------
@@ -81,6 +81,8 @@ Here are some online and offline tools to help you shrink, compress and crop ima
 
 #. https://pixlr.com/es/editor/ [Online]
 #. https://www.befunky.com/create/photo-editor/ [Online]
+#. https://tinyjpg.com/ [Compression Only]
+#. https://tinypng.com/ [Compression Only]
 #. https://www.fotor.com/app.html#/editor [Online]
 #. https://www.gimp.org/ [Offline]
 
@@ -120,11 +122,11 @@ If you find yourself storing more than 4 (arbitrary number to be used as referen
 
 3. **Name pictures like they are variables**
 
-I don't mean camelCasing (though I'd love to have it that way). What we mean is that you should give your pictures descriptive, clear and unique names. It never hurts following some kind of naming scheme. This is the one I use personally, feel free to copy.
+I don't mean camelCasing (though I'd love to have it that way). What we mean is that you should give your pictures descriptive, clear and unique names. It never hurts following some kind of naming scheme. This is the one we recommend you use, so feel free to use it.
 
-*File name logic*: ``[INITIALS]_[CalculatorIdentifier]_[pictureDescriptor].[Extension]``
+*File name logic*: ``[INITIALS]-[CalculatorIdentifier]-[pictureDescriptor].[Extension]``
 
-*File name example*: ``Al_hist_histogramExample.png``
+*File name example*: ``Al-hist-histogramExample.png``
 
 
 .. rubric:: tl;dr
