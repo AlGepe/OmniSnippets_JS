@@ -42,6 +42,7 @@ Here is a list of some common site where you can find usable pictures:
 #. https://www.pexels.com/
 #. https://unsplash.com/
 #. https://kaboompics.com/
+#. https://sp.depositphotos.com/ [We have payed account here]
 
 Lastly, I wanted to add a bit of an odd-ball here: **Wikipedia** It is technically not a stock-image website, but all their picture fall under the Creative Commons license (that allows for free reuse with attribution) and they have some amazing visuals for many complicated and scientific topics.
 
