@@ -23,6 +23,7 @@ This section is meant to solve the problems you will find. You can expect to fin
    orderOfExecution
    omniFunctionInputs
    comparisons
+   practicalEq
 ..   variableTypes
 
 
