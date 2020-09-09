@@ -75,7 +75,7 @@ You might be tempted to do something like this:
   omni.onResult ([], function (ctx) {
     if (contry === 'US') {
       ctx.addTextInfo("In god we trust!");
-    } else if (country === 'UK') {
+    } else if (country === 'GB') {
       ctx.addTextInfo('God save the Queen');
     } else if (country === 'CA') {
       ctx.addTextInfo('Sorry, eh?');
@@ -96,7 +96,7 @@ To fix this unwanted behaviour, we simply define ``country`` outside of any cont
   omni.onResult ([], function (ctx) {
     if (contry === 'US') {
       ctx.addTextInfo("In god we trust!");
-    } else if (country === 'UK') {
+    } else if (country === 'GB') {
       ctx.addTextInfo('God save the Queen');
     } else if (country === 'CA') {
       ctx.addTextInfo('Sorry, eh?');
