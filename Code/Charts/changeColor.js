@@ -1,8 +1,8 @@
 /*
- * Changes colour of chart-formatted array from a given position.
+ * =Changes colour of chart-formatted array from a given position=
  * If no starting position is given, the whole array is changed
  * Array must be in chart-ready format
- * Starting position is not check for out-of-bounds errors
+ * If starting position is not valid, zero is used instead
  *
  * INPUTS: array (chart-ready original data set)
  * 				 number (position indicating the desired colour)
@@ -13,6 +13,7 @@
 
 function changeColor(ogChart, pos, start) {
   if (start === undefined) {start = 0;}
+  if (start >= ogChart.length) {start = 0;}
   var output = [];
   var ogPos = 1;
   while (ogChart[start][ogPos] == null) {
