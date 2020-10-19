@@ -12,7 +12,7 @@
  */
 
 function changeColor(ogChart, pos, start) {
-	if (start === undefined) {start = 0}
+	if (start === undefined) {start = 0;}
 	var output = [];
 	var ogPos = 1;
 	while (ogChart[start][ogPos] == null) {
