@@ -13,6 +13,5 @@
 function numberToBin (number, binWidth, minimum) { 
   var binPosition = mathjs.round((number-minimum)/binWidth);
   if (binPosition < 0) {binPosition = 0;}
-  console.log(binPosition)
   return binPosition;
 }
