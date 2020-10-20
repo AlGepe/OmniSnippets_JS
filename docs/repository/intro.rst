@@ -30,6 +30,7 @@ Each function has its own dedicated page where you can see the code and read a q
 
 Charts and Arrays
 ~~~~~~~~~~~~~~~~~
+
 .. toctree::
    :maxdepth: 1
 
@@ -67,7 +68,7 @@ Here are some functions to help you manage time variables easily. Mostly time fo
 .. toctree::
    :maxdepth: 1
 
-    sec2time
+   sec2time
 ..    FormatTime
 ..    daysToDate
 ..    secondsToDate
