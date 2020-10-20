@@ -5,6 +5,7 @@
 */
 function roundToPrecision(number, precision)
 {
+	precision = precision > 0 ? precision : 2;
   var str = number.toPrecision(precision).toString();
   return Number(str);
 }
