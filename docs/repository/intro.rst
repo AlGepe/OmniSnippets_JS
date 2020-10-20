@@ -28,6 +28,23 @@ The functions
 
 Each function has its own dedicated page where you can see the code and read a quick explanation of how to use it. The code has been organized in sections matching the folders in the repository for easy access. Enjoy!
 
+Charts and Arrays
+~~~~~~~~~~~~~~~~~
+.. toctree::
+  :maxdepth: 1
+
+ ..arrayEquals
+ ..changeColor
+ ..combineData
+ ..customFunctions
+ ..dataToChart
+ ..evenSpacedX
+ ..linespace
+ ..numberToBin
+ ..numberToPosition
+ ..removedUndefined
+ ..roundArray
+
 Miscellaneous
 ~~~~~~~~~~~~~
 
@@ -36,8 +53,8 @@ These are the functions that don't fall into any of the other categories.
 .. toctree::
    :maxdepth: 1
 
+ ..nm2RGB
  ..numberWithCommas
- ..linespace
  ..getNameFromVSetter
  
 
@@ -50,9 +67,12 @@ Here are some functions to help you manage time variables easily. Mostly time fo
 .. toctree::
    :maxdepth: 1
 
+  ..FormatTime
+  ..daysToDate
    sec2time
-..   year2month
-..   year2Quarters
+  ..secondsToDate
+  ..year2month
+  ..yearQuarters
 
 
 Symbolic library
