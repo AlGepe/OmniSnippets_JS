@@ -1,4 +1,4 @@
-.. repo::
+.. _repo:
 Repository and usage
 ====================
 
