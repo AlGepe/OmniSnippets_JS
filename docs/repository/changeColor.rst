@@ -26,22 +26,22 @@ Here is the javscript code of the function, ready to be used:
 .. code-block:: javascript
 
     function changeColor(ogChart, pos, start) {
-      if (start === undefined) {start = 0;}
-      if (start >= ogChart.length) {start = 0;}
-      var output = [];
-      var ogPos = 1;
-      while (ogChart[start][ogPos] == null) {
-        ogPos++;
-      }
-      for (var i = 0; i < ogChart.length; i++) {
-        output.push([ogChart[i][0], , , , , , , , , , , ]);
-        if (i < start) {
-          output[i][ogPos] = ogChart[i][ogPos];
-        } else {      
-          output[i][pos] = ogChart[i][ogPos];
+        if (start === undefined) {start = 0;}
+        if (start >= ogChart.length) {start = 0;}
+        var output = [];
+        var ogPos = 1;
+        while (ogChart[start][ogPos] == null) {
+            ogPos++;
         }
-      }
-      return output;
+        for (var i = 0; i < ogChart.length; i++) {
+            if (i < start) {
+              output[i] = ogChart[i];
+            } else { 
+              output.push([ogChart[i][0], , , , , , , , , , , ]);     
+              output[i][pos] = ogChart[i][ogPos];
+            }
+        }
+        return output;
     }
 
 .. note::
