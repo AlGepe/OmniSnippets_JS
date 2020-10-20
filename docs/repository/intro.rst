@@ -31,19 +31,19 @@ Each function has its own dedicated page where you can see the code and read a q
 Charts and Arrays
 ~~~~~~~~~~~~~~~~~
 .. toctree::
-  :maxdepth: 1
+   :maxdepth: 1
 
- ..arrayEquals
- ..changeColor
- ..combineData
- ..customFunctions
- ..dataToChart
- ..evenSpacedX
- ..linespace
- ..numberToBin
- ..numberToPosition
- ..removedUndefined
- ..roundArray
+   changeColor
+..   arrayEquals
+..   combineData
+..   customFunctions
+..   dataToChart
+..   evenSpacedX
+..   linespace
+..   numberToBin
+..   numberToPosition
+..   removedUndefined
+..   roundArray
 
 Miscellaneous
 ~~~~~~~~~~~~~
@@ -53,9 +53,9 @@ These are the functions that don't fall into any of the other categories.
 .. toctree::
    :maxdepth: 1
 
- ..nm2RGB
- ..numberWithCommas
- ..getNameFromVSetter
+..   nm2RGB
+..   numberWithCommas
+..   getNameFromVSetter
  
 
 
@@ -67,12 +67,12 @@ Here are some functions to help you manage time variables easily. Mostly time fo
 .. toctree::
    :maxdepth: 1
 
-  ..FormatTime
-  ..daysToDate
-   sec2time
-  ..secondsToDate
-  ..year2month
-  ..yearQuarters
+    sec2time
+..    FormatTime
+..    daysToDate
+..    secondsToDate
+..    year2month
+..    yearQuarters
 
 
 Symbolic library
@@ -83,11 +83,11 @@ Functions designed to perform symbolic mathematical operations. Useful for step 
 .. toctree::
    :maxdepth: 1
 
- ..cleanFraction
- ..findPerfectSquare
- ..findRoot
- ..reduceFraction
- ..roundToPrecision
+..    cleanFraction
+..    findPerfectSquare
+..    findRoot
+..    reduceFraction
+..    roundToPrecision
 
 Value Selects and Value Setters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -97,5 +97,5 @@ Collection of useful information formatted as value select or value setter. This
 .. toctree::
    :maxdepth: 1
 
- ..EngineEmissions
- ..canSize
+..    EngineEmissions
+..    canSize
