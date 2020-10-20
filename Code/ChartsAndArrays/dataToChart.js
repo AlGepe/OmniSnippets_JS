@@ -10,15 +10,21 @@
  * REQUIRES: user must provide their own function efofex(x) [y = f(x)] 
  *
  */
-
-function dataToChart (xValues, efofex) {
-  var chartData = [];
-	var dataPoint = [];
-
-	for(var i = 0; i < xValues.length; i++){
-		dataPoint[0] = xValue[i];
-		dataPoint[1] = efofex(xValue[i]);
-		chartdataSet.push(dataPoint);
+function dataToChart (xValues, whichFunction) {
+	whichFunction = whichFunction || 0;
+	var chartData = [];
+	switch (whichFunction) {
+		case 1:
+			for(var i = 0; i < xValues.length; i++){
+				chartData.push([xValues[i], geeofex(xValues[i])]);
+			}
+			break;
+		default:
+			for(var i = 0; i < xValues.length; i++){
+				chartData.push([xValues[i], efofex(xValues[i])]);
+			}
+			break;
 	}
 	return chartData;
 }
+
