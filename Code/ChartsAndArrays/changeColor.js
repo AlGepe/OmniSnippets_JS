@@ -10,7 +10,6 @@
  *
  * OUTPUT: array (chart-ready data set with new colours)
  */
-
 function changeColor(ogChart, pos, start) {
   if (start === undefined) {start = 0;}
   if (start >= ogChart.length) {start = 0;}
@@ -20,10 +19,10 @@ function changeColor(ogChart, pos, start) {
     ogPos++;
   }
   for (var i = 0; i < ogChart.length; i++) {
-    output.push([ogChart[i][0], , , , , , , , , , , ]);
     if (i < start) {
-      output[i][ogPos] = ogChart[i][ogPos];
-    } else {      
+      output[i] = ogChart[i];
+    } else { 
+      output.push([ogChart[i][0], , , , , , , , , , , ]);     
       output[i][pos] = ogChart[i][ogPos];
     }
   }
