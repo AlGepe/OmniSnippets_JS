@@ -1,5 +1,5 @@
 .. _changeColor:
-Change color of a chart from an arbitraty point
+Change color of a chart from an arbitrary point
 ===============================================
 
 This function takes a chart-ready array of any size and color and changes its color to a new one, as specified to the function. The change in color can be done to the whole array or from one point onwards.
