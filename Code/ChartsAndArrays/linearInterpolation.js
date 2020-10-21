@@ -2,6 +2,9 @@
  * Takes a chart-ready array with uneven spacing on X-value
  * and converts is to an even spaced X-value chart-ready array
  * [linear interpolation]
+ * startValue must be greater or equal than the lowest x-value in inputData
+ * finalValue must be smaller or equal than the highest x-value in inputData
+ *
  *
  * INPUTS: array (chart-ready data to be interpolated)
  * 	   number (smallest X-value to be shown in the chart)
@@ -10,14 +13,18 @@
  *
  * OUTPUT: array (chart-ready data with evenly spaced X-values)
  *
+ * REQUIRES: You must include the function "linespace" in your code.
+ *
+ * -Needs cleaning and optimising but works-
+ *
  */
-function evenSpacedX(inputData, startValue, finalValue, nPoints) {
+function linearInterpolation (inputData, startValue, finalValue, nPoints) {
   // Convert to 1D arrays  
   var oldX = [];
   var oldY = [];  
   if (isNaN(inputData[0][0]) && isNaN(inputData[inputData.length - 1][0]))
   {
-    return inputData;
+    return "input data is not valid";
   }
   var i = 2;  
   while (i < inputData.length/2 && (isNaN(finalValue) || isNaN(startValue))) {
