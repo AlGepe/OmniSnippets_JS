@@ -34,7 +34,7 @@ To get the values of all variables in the calculator use:
 
 .. code-block:: javascript
 
-    var objMyVar = ctx.getAllValues(varName);
+    var objMyVar = ctx.getAllValues();
     // returns an array of decimal.js objects
 
 
