@@ -8,7 +8,7 @@
 
 function removeUndefined (inputArray){
   var outputArray = [];
-  if (inputArray == undefined) {return [];}
+  if (inputArray == undefined) {return 'input is undefined';}
   for (var i = 0; i < inputArray.length; i++ ) {
     if (inputArray[i] != undefined) {
       outputArray.push(inputArray[i]);
