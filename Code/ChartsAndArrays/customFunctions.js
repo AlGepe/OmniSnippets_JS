@@ -6,11 +6,11 @@
  * Custom function f(x)
  */
 function efofex (x) {
-	  return mathjs.cos(x)*x;
+	  return Math.cos(x)*x;
 }
 
 /*
  * Custom function g(x)
  */function geeofex (x) {
-	    return mathjs.sin(x)*mathjs.sin(x);
+	    return Math.sin(x)*Math.sin(x);
 	  }
