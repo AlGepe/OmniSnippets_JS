@@ -9,10 +9,10 @@
  * OUTPUT: array (rounded array)
  */
 function roundArray (ogArray, roundTo) {
-	roundTo = roundTo > 0 ? roundTo : 2;
+  roundTo = roundTo >= 0 ? roundTo : 0;
 	for (var i = 0; i < ogArray.length; i++) {
 		for (var j = 0; j < ogArray[i].length; j++) {
-			ogArray[i][j] = mathjs.round(ogArray[i][j], roundTo);
+			ogArray[i][j] = Math.round(ogArray[i][j], roundTo);
 		}
 	}
 	return ogArray;
