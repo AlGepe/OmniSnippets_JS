@@ -18,7 +18,7 @@ Omni's programming guide and documentation
 All things programming at Omni
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
    customJS/intro.rst
 
