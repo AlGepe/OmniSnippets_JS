@@ -1,4 +1,5 @@
 /*
+ * AUTHOR: Maciej Kowalski
  * This function creates a html code for showing a pretty function 
  * as the output of the calculator
  * INPUTS: "numerator" String or number to be placed as the numerator
