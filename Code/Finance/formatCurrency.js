@@ -105,46 +105,46 @@ var autoFormatCountries = {
 	AI: ['en-AI', 'XCD'], //Anguilla
 	AG: ['en-AG', 'XCD'], //Antigua AndBarbuda
 	AR: ['es-AR', 'ARS'], //Argentina
-	/                                                                                                                                                                                       AM: ['hy-AM', 'AMD'], //Armenia
+	AM: ['hy-AM', 'AMD'], //Armenia
 	AW: ['nl-AW', 'AWG'], //Aruba
-	/                                                                                                                                                                                           AU: ['en-AU', 'AUD'], //Australia
+	AU: ['en-AU', 'AUD'], //Australia
 	AT: ['de-AT', 'EUR'], //Austria
 	AZ: ['az-AZ', 'AZN'], //Azerbaijan
 	BS: ['en-BS', 'BSD'], //Bahamas
 	BB: ['en-BB', 'BBD'], //Barbados
 	BE: ['de-BE', 'EUR'], //Belgium
-	/                                                                                                                                                                                                       BZ: ['en-BZ', 'BZD'], //Belize
+	BZ: ['en-BZ', 'BZD'], //Belize
 	BM: ['en-BM', 'BMD'], //Bermuda
-	/                                                                                                                                                                                                           BA: ['bs-BA', 'BAM'], //Bosnia And Herzegovina
-	/                                                                                                                                                                                                             BW: ['en-BW', 'BWP'], //Botswana
-	/                                                                                                                                                                                                               BV: ['no-BV', 'NOK'], //Bouvet Island
-	/                                                                                                                                                                                                                 BR: ['pt-BR', 'BRL'], //Brazil
-	/                                                                                                                                                                                                                   IO: ['en-IO', 'USD'], //British Indian Ocean Territory
-	/                                                                                                                                                                                                                     BN: ['ms-BN', 'BND'], //Brunei Darussalam
-	/                                                                                                                                                                                                                       BG: ['bg-BG', 'BGN'], //Bulgaria
-	/                                                                                                                                                                                                                         BI: ['en-BI', 'BIF'], //Burundi
-	/                                                                                                                                                                                                                           KH: ['km-KH', 'KHR'], //Cambodia
-	/                                                                                                                                                                                                                             CM: ['agq-CM', 'XAF'], //Cameroon
-	/                                                                                                                                                                                                                               CA: ['en-CA', 'CAD'], //Canada
-	/                                                                                                                                                                                                                                 KY: ['en-KY', 'KYD'], //Cayman Islands
-	/                                                                                                                                                                                                                                   CF: ['fr-CF', 'XAF'], //Central African Republic
-	/                                                                                                                                                                                                                                     CL: ['es-CL', 'CLF'], //Chile
-	/                                                                                                                                                                                                                                       CX: ['en-CX', 'AUD'], //Christmas Island
-	/                                                                                                                                                                                                                                         CC: ['en-CC', 'AUD'], //Cocos (Keeling) Islands
-	/                                                                                                                                                                                                                                           CO: ['es-CO', 'COP'], //Colombia
-	/                                                                                                                                                                                                                                             CG: ['fr-CG', 'XAF'], //Congo
+	BA: ['bs-BA', 'BAM'], //Bosnia And Herzegovina
+	BW: ['en-BW', 'BWP'], //Botswana
+	BV: ['no-BV', 'NOK'], //Bouvet Island
+	BR: ['pt-BR', 'BRL'], //Brazil
+	IO: ['en-IO', 'USD'], //British Indian Ocean Territory
+	BN: ['ms-BN', 'BND'], //Brunei Darussalam
+	BG: ['bg-BG', 'BGN'], //Bulgaria
+	BI: ['en-BI', 'BIF'], //Burundi
+	KH: ['km-KH', 'KHR'], //Cambodia
+	CM: ['agq-CM', 'XAF'], //Cameroon
+	CA: ['en-CA', 'CAD'], //Canada
+	KY: ['en-KY', 'KYD'], //Cayman Islands
+	CF: ['fr-CF', 'XAF'], //Central African Republic
+	CL: ['es-CL', 'CLF'], //Chile
+	CX: ['en-CX', 'AUD'], //Christmas Island
+	CC: ['en-CC', 'AUD'], //Cocos (Keeling) Islands
+	CO: ['es-CO', 'COP'], //Colombia
+	CG: ['fr-CG', 'XAF'], //Congo
 	CK: ['en-CK', 'NZD'], //Cook Islands
-	/                                                                                                                                                                                                                                                 CR: ['es-CR', 'CRC'], //Costa Rica
-	/                                                                                                                                                                                                                                                   HR: ['hr-HR', 'HRK'], //Croatia
-	/                                                                                                                                                                                                                                                     CU: ['es-CU', 'CUC'], //Cuba
-	/                                                                                                                                                                                                                                                       CY: ['el-CY', 'EUR'], //Cyprus
-	/                                                                                                                                                                                                                                                         CZ: ['cs-CZ', 'CZK'], //Czech Republic
-	/                                                                                                                                                                                                                                                           DK: ['da-DK', 'DKK'], //Denmark
-	/                                                                                                                                                                                                                                                             DM: ['en-DM', 'XCD'], //Dominica
-	/                                                                                                                                                                                                                                                               DO: ['es-DO', 'DOP'], //Dominican Republic
-	/                                                                                                                                                                                                                                                                 EC: ['es-EC', 'USD'], //Ecuador
-	/                                                                                                                                                                                                                                                                   SV: ['es-SV', 'SVC'], //El Salvador
-	/                                                                                                                                                                                                                                                                     GQ: ['es-GQ', 'XAF'], //Equatorial Guinea
+	CR: ['es-CR', 'CRC'], //Costa Rica
+	HR: ['hr-HR', 'HRK'], //Croatia
+	CU: ['es-CU', 'CUC'], //Cuba
+	CY: ['el-CY', 'EUR'], //Cyprus
+	CZ: ['cs-CZ', 'CZK'], //Czech Republic
+	DK: ['da-DK', 'DKK'], //Denmark
+	DM: ['en-DM', 'XCD'], //Dominica
+	DO: ['es-DO', 'DOP'], //Dominican Republic
+	EC: ['es-EC', 'USD'], //Ecuador
+	SV: ['es-SV', 'SVC'], //El Salvador
+	GQ: ['es-GQ', 'XAF'], //Equatorial Guinea
 	EE: ['et-EE', 'EUR'], //Estonia
 	FO: ['fo-FO', 'DKK'], //Faroe Islands
 	FJ: ['en-FJ', 'FJD'], //Fiji
@@ -262,4 +262,3 @@ var autoFormatCountries = {
 	EH: ['ar-EH', 'MAD'], //Western Sahara
 	ZM: ['bem-ZM', 'ZMW'] //Zambia
 };
-/
