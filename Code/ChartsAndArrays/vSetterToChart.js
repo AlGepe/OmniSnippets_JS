@@ -12,7 +12,7 @@
  * 									directly using ctx.addChart
  * WARNING: It only take one Y-input, see `combineData` for multiple Y-datasets
  */
-function valueSetterDataToChart(VSData, column_name){
+function vSetterToChart(VSData, column_name){
 	var tempChart = [];
 	if(VSData === undefined){return tempChart;}
 	if(VSData[0].values[column_name] === undefined){return tempChart;}
