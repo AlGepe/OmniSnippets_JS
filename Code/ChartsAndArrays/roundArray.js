@@ -1,5 +1,5 @@
 /*
- * Rounds all the values in an array (up to 2D)
+ * Rounds all the values in an 2D Array
  * Rounding by default is 2 decimal places
  * Designed for chart-ready arrays (works with other formats)
  *
@@ -9,13 +9,18 @@
  *		  				false-> treats array as chart, doesn't round X values)
  * 
  * OUTPUT: array (rounded array)
+ *
+ * ERROR behaviour: if an element cannot be rounded (string, undefined, NaN...)
+ *                  it leaves the value untouched
  */
 function roundArray (ogArray, roundTo, roundX) {
 	roundTo = roundTo >= 0 ? roundTo : 0;
 	roundX = roundX !== undefined ? roundX : 1;
 	for (var i = 0; i < ogArray.length; i++) {
 		for (var j = 1*roundX; j < ogArray[i].length; j++) {
-			ogArray[i][j] = isNaN(ogArray[i][j]) ? NaN : mathjs.round(ogArray[i][j], roundTo);
+			if (typeof(ogArray[i][j]) === 'number') {
+				ogArray[i][j] = mathjs.round(ogArray[i][j], roundTo);
+			} 
 		}
 	}
 	return ogArray;
