@@ -12,17 +12,17 @@
  */
 
 function combineData (dataSetA, dataSetB) {
-  if (dataSetA === undefined) {return dataSetB;}
-  if (dataSetB === undefined) {return dataSetA;}
-  var dataLength = dataSetA.length;
-  if (dataLength !== dataSetB.length) {return [];}
-  var combinedData = [];
-  for (var i = 0; i < dataLength; i++) {
-    var dataPoint = [];
-    for (var j = 0; j < 36; j++) {
-      dataPoint.push(dataSetA[i][j] || dataSetB[i][j]);
-    }
-    combinedData.push(dataPoint);
-  }
-  return combinedData;
+	if (dataSetA === undefined) {return dataSetB;}
+	if (dataSetB === undefined) {return dataSetA;}
+	var dataLength = dataSetA.length;
+	if (dataLength !== dataSetB.length) {return [];}
+	var combinedData = [];
+	for (var i = 0; i < dataLength; i++) {
+		var dataPoint = [];
+		for (var j = 0; j < 36; j++) {
+			dataPoint.push(dataSetA[i][j] !== undefined ? dataSetA[i][j] :dataSetB[i][j]);
+		}
+		combinedData.push(dataPoint);
+	}
+	return combinedData;
 }
