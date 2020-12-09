@@ -9,6 +9,8 @@
  * 				 number (position in the data set from which to change colour)
  *
  * OUTPUT: array (chart-ready data set with new colours)
+ *
+ * HINT: to change labels use chartLabels[pos] = "Label"
  */
 function changeColor(ogChart, pos, start) {
   if (start === undefined) {start = 0;}
