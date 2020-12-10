@@ -7,7 +7,7 @@ Allows to set a predetermined value for a variable.
 When the calculator is loaded the variable chosen will have the desired value before the user interacts with it. This is the customJS version of an option available on BB inside the tab `Current variable`.
 
 .. note::
-   This function overrides any modification on the **Groups and variables** tab. It should only be used for internal, constant variables.
+   This function overrides any modification on the *Groups and variables* tab. It should only be used for internal, constant variables.
 
 Using `setDefault` inside of customJS locks the initial value of the variable meaning that users cannot change their value when embedding the calculator. It is therefore **NOT RECOMMENDED** for standard usage.
 
