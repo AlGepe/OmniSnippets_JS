@@ -9,7 +9,7 @@ It can also be used to **give the user extra options** or functionality in certa
 In our example the calculator performs two different operations with completely different sets of variables, the **user selects between behaviours with a value select** and the variables are shown/hidden as required.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Show/Hide Variables <https://bb.omnicalculator.com/#/calculators/1942>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Show/Hide Variables <https://www.omnicalculator.com/adminbb/calculators/1942>`__ on BB.
 
 .. code-block:: javascript
     :linenos:

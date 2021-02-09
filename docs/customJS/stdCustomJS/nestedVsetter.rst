@@ -8,10 +8,10 @@ Nesting is a fancy word to say that you can make one value setter change the opt
 
 Instead, what you can do is simply create many javascript variables each with different data (different options to show the user) and **create/assign this data to a calculator variable** inside the ``onResult`` context.
 
-Let's take a look at an example from the `Chill Drinks Calculator <https://bb.omnicalculator.com/#/calculators/1556>`__. Here all value setters are dependant on the drink selected by the user. For our example we will focus only on the *drink-temperature* connection.
+Let's take a look at an example from the `Chill Drinks Calculator <https://www.omnicalculator.com/adminbb/calculators/1556>`__. Here all value setters are dependant on the drink selected by the user. For our example we will focus only on the *drink-temperature* connection.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Nested) <https://bb.omnicalculator.com/#/calculators/2037>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Nested) <https://www.omnicalculator.com/adminbb/calculators/2037>`__ on BB.
 
 Here is how to nest value setters so that one's options depends on the other's selected option:
 

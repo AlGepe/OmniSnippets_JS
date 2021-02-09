@@ -15,7 +15,7 @@ The messages can be static (always the same) or dynamic (reacting to user input)
 For our **first example** we will look at the simplest version: the static message that is always shown.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Custom Message <https://www.omnicalculator.com/adminbb/calculators/1940>`__ on BB
 
 Static messages
 ---------------

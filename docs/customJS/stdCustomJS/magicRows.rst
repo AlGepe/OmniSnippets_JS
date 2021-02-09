@@ -16,7 +16,7 @@ Here is a quick example of how to implement **magic rows** in your calculator.  
 Whenever a value is introduced in a variable, the one below will appear. If the value is erased, the previous field will disappear. To avoid hiding user input values, if any field has a defined value, all the fields above it will still be shown, even if they are all empty.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Magic Rows <https://bb.omnicalculator.com/#/calculators/1987>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Magic Rows <https://www.omnicalculator.com/adminbb/calculators/1987>`__ on BB.
 
 Here is the code used in the calculator:
 
@@ -73,7 +73,7 @@ This is the **OG** magic rows calculator. It has up to 30 different input values
 This calculator only hides variables once, so even if the user deleted all the values, **it will not hide any of the fields** that it dynamically showed.
 
 .. seealso::
-    Check it out at `Average <https://bb.omnicalculator.com/#/calculators/265>`__ on BB.
+    Check it out at `Average <https://www.omnicalculator.com/adminbb/calculators/265>`__ on BB.
 
 To avoid problems with ``undefined`` values, the calculator checks the value of each variable during operation and only takes into account numerical values.
 
@@ -85,7 +85,7 @@ In this case the variables behave in a very similar manner to the *Average* exam
 The code in this one is messy and not the best example to copy [#f2]_ but it exemplifies how to create magic rows with default values present.
 
 .. seealso::
-    Check it out at `Magic Rows <https://bb.omnicalculator.com/#/calculators/260>`__ on BB.
+    Check it out at `Magic Rows <https://www.omnicalculator.com/adminbb/calculators/260>`__ on BB.
 
 To allow for easy processing of the data and graphical representation, in this calculator **all the hidden variables have a default value 0 (zero)**. The new fields only appear as the previous variable gets a value different than zero.
 

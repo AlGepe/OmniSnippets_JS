@@ -9,7 +9,7 @@ It is important to remember that the ``addUnmetCondition`` function only provide
 Theoretically **the sky is the limit**, you can get *cwazy* and implement anything you'd like, but in reality you will be doing the same thing we always do: **hide the conflicting variables**.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Error Message <https://bb.omnicalculator.com/#/calculators/1956>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Error Message <https://www.omnicalculator.com/adminbb/calculators/1956>`__ on BB
 
 Let's take a look at an example of how to do this and then go over the key points.  
 

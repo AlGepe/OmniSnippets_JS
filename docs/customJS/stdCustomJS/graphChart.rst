@@ -22,12 +22,12 @@ The code that we create in customJS is run by the user's computer, which means w
 
 You will have to make the final call yourself as to how many points your chart needs, but you really shouldn't go over 10,000 points as it will take so much time that it **will trigger an error message in the browser**.
 
-To prevent users from creating charts with too many points there are several strategies. One of them is simply to **limit the maximum number the user can input** with a simple condition like in the `Binomial Distribution <https://bb.omnicalculator.com/#/calculators/461>`__.
+To prevent users from creating charts with too many points there are several strategies. One of them is simply to **limit the maximum number the user can input** with a simple condition like in the `Binomial Distribution <https://www.omnicalculator.com/adminbb/calculators/461>`__.
 
 There are also ways to allow any input values while **keeping the number of points in the graph under control**. We will show here the simplest way to define a constant number of steps that will be independent of the input parameters.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points) <https://bb.omnicalculator.com/#/calculators/1968>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graph (number of points) <https://www.omnicalculator.com/adminbb/calculators/1968>`__ on BB.
 
 Let's look at the code now:
 
@@ -69,7 +69,7 @@ A word on user defined chart type
 Another useful thing in certain calculators could be letting the user decide what type of chart they prefer. This only works for  ``line``, ``area`` and ``bar`` charts, since ``pie`` charts use a different data format.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (chart types) <https://bb.omnicalculator.com/#/calculators/1969>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (chart types) <https://www.omnicalculator.com/adminbb/calculators/1969>`__ on BB.
 
 Let's take a look at an example:
 
@@ -135,7 +135,7 @@ We will now look at a little special |ss| problem |se| feature of our charts: **
 This is generally a handicap, but it can be turned around by using **strings as x-data**.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (X-axis) <https://bb.omnicalculator.com/#/calculators/1970>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamic Graphs (X-axis) <https://www.omnicalculator.com/adminbb/calculators/1970>`__ on BB.
 
 The code for this example is rather long due to the setup process, so it will be omitted from the documentation. Instead, we will show you an image of what it would look like when using **non-standard numerical values**:
 
@@ -165,7 +165,7 @@ One way to apply this, specially useful in finance, is to show negative values i
    Example of a bar chart with negative values in red
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Chart (red for negative) <https://bb.omnicalculator.com/#/calculators/1996>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Chart (red for negative) <https://www.omnicalculator.com/adminbb/calculators/1996>`__ on BB.
 
 For our example we have chose a function that goes above and below 0 (zero) fairly often: ``f(x) = cos(x)*x+offset1`` from ``x=a``` to ``x=b``. The values of ``a``, ``b``, and ``offset1`` being defined by the user.
 

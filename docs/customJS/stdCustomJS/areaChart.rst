@@ -30,7 +30,7 @@ We have chosen the following colours for this chart: **blue2** (for ``n1`` and `
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://bb.omnicalculator.com/#/calculators/1991>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (area) <https://www.omnicalculator.com/adminbb/calculators/1991>`__ on BB.
 
 Code and comments
 -----------------

@@ -153,4 +153,4 @@ your own combinations.
 
 .. seealso::
     Jenga/Stack calculator is available as `Charts (Jenga)
-    <https://bb.omnicalculator.com/#/calculators/1999>`__ in BB.
+    <https://www.omnicalculator.com/adminbb/calculators/1999>`__ in BB.

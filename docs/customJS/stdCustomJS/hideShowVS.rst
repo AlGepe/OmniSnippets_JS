@@ -12,7 +12,7 @@ We will use the same example as in the :ref:`Value Setter Basics<vSetterBasic>` 
 
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Custom Option) <https://bb.omnicalculator.com/#/calculators/2039>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter (Custom Option) <https://www.omnicalculator.com/adminbb/calculators/2039>`__ on BB.
 
 Here is the code needed to create said behaviour:
 

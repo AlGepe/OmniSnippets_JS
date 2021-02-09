@@ -7,7 +7,7 @@ We will now take a look at how to operate with numbers to change their appearanc
 Technically there are infinite ways to format numbers according to our needs.  To keep this documentation finite and relevant, we have chosen a couple of typical scenarios you might find useful when making a calculator.
 
 .. seealso::
-    We have created a calculator showcasing this techniques. Check it out at `Custom Message <https://bb.omnicalculator.com/#/calculators/1940>`__ on BB.
+    We have created a calculator showcasing this techniques. Check it out at `Custom Message <https://www.omnicalculator.com/adminbb/calculators/1940>`__ on BB.
 
 .. rubric:: Word of caution: String vs Number types
 
@@ -107,4 +107,4 @@ Beware that the output is always a **string**, so always perform this action whe
 
 
 .. seealso::
-    We have created a calculator to let you play around with different types of formatting. Feel free to check it out as `Format Numbers <https://bb.omnicalculator.com/#/calculators/2041>`__ in BB.
+    We have created a calculator to let you play around with different types of formatting. Feel free to check it out as `Format Numbers <https://www.omnicalculator.com/adminbb/calculators/2041>`__ in BB.

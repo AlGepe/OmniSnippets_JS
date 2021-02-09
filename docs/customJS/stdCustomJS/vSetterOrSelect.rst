@@ -22,7 +22,7 @@ To create a value select you can use the interface on BB (*plx don't*) or define
 Since the **BB interface is not recommended**, and also meant to be intuitive we will only explain how to create a value select using customJS. For that we need to call the function :ref:`omni.createValueSelect <vSelect>`. We have already seen the technical aspects of that function so we will **jump right into a practical example**.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://bb.omnicalculator.com/#/calculators/2036>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Select <https://www.omnicalculator.com/adminbb/calculators/2036>`__ on BB.
 
 In this example we will create a very useful *yes / no* value select. This type of value select comes in very handy for **selecting between 2 options** and you can reuse this code simply changing the *value* under key ``name``:
 
@@ -64,7 +64,7 @@ Though both value setters and value selects can be created in one command, we te
 A value setter is different to a value select in that is also **controls the value of other variables**, not just the one it's been bound to.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter <https://bb.omnicalculator.com/#/calculators/2035>`__ on BB
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Value Setter <https://www.omnicalculator.com/adminbb/calculators/2035>`__ on BB
 
 This feature makes the value setter a sort of *superset* of value select. The main use-case for value setters is situations in which the displayed option (the one the users sees) has an impact on the value of many variables. 
 

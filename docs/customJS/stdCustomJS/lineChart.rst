@@ -26,7 +26,7 @@ Our goal here is to create a line chart that will show two different functions t
 We have chosen the following colours for this chart: **red** (for ``n1`` and ``offset1``) and **yellow2** (for ``n2`` and ``offset2``) which corresponds to positions **10** and **7** in the array of data [#f1]_ as shown in the :ref:`color coding in charts<colorChart>` picture we showed in a previous section.
 
 .. seealso::
-    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (line) <https://bb.omnicalculator.com/#/calculators/1967>`__ on BB.
+    We have created a calculator using this code so that you can see the results for yourself. Check it out at `Charts (line) <https://www.omnicalculator.com/adminbb/calculators/1967>`__ on BB.
 
 Code and comments
 -----------------

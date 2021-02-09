@@ -25,7 +25,7 @@ Array method
 This method is typically used to show images at the top of the calculator. For it to be applicable we need to **be able to predict all the possible values** of the variable controlling which image we will show.
 
 .. seealso::
-    Check out the resulting calculator at `Dynamic Image (Array) <https://bb.omnicalculator.com/#/calculators/1945>`__ on BB.
+    Check out the resulting calculator at `Dynamic Image (Array) <https://www.omnicalculator.com/adminbb/calculators/1945>`__ on BB.
 
 This method is ideal for value selects and value setters with custom ``uid``.  In the example we use a value select for simplicity, to do the same with a value setter you need to apply the procedure to :ref:`Use a Value Setter as a Value Select <customVsetter>`.
 
@@ -79,7 +79,7 @@ This method is the most useful and less elegant. It is probably the one you have
 Simply code your conditions and requirements in a series of ``if...else`` statements and run the function ``addHtml`` with the desired arguments.
 
 .. seealso::
-    Check out the resulting calculator at `Dynamic Image (IF ELSE) <https://bb.omnicalculator.com/#/calculators/1950>`__ on BB.
+    Check out the resulting calculator at `Dynamic Image (IF ELSE) <https://www.omnicalculator.com/adminbb/calculators/1950>`__ on BB.
 
 We have included a couple tricks so that **you write less text when using this method**. In short it's just setting up strings containing those parts of the html call that would be shared across all outputs.
 
@@ -115,7 +115,7 @@ Name Method
 This method is very similar to the *Array method* in concept. The main difference is that in this method you need to do a bit more **prep-work when uploading the pictures** and in return you get a simpler code to write.
 
 .. seealso::
-    Check out the resulting calculator at `Dynamic Image (Name Method) <https://bb.omnicalculator.com/#/calculators/1951>`__ on BB.
+    Check out the resulting calculator at `Dynamic Image (Name Method) <https://www.omnicalculator.com/adminbb/calculators/1951>`__ on BB.
 
 In particular your preparation will consist in anticipating what images will be paired with what values and name the files appropriately.
 
