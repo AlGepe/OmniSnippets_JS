@@ -99,4 +99,4 @@ tl;dr
 #. ``omni.onResult`` gets triggered after a change in the value of the triggering variables. It is executed once per change and per variable. If more than one ``onResult`` is triggered, they run from top to bottom
 
 .. tip:
-  We have created a calculator to showcase the order of execution. You can check it out as `[docs] Execution Order unpublishedDocs <https://bb.omnicalculator.com/#/calculators/2046>`__ . Simpy bring up the Developer Tools in you r browser and check the order in which the ``console.log`` output is presented.
+  We have created a calculator to showcase the order of execution. You can check it out as `[docs] Execution Order unpublishedDocs <https://www.omnicalculator.com/adminbb/calculators/2046>`__ . Simpy bring up the Developer Tools in you r browser and check the order in which the ``console.log`` output is presented.

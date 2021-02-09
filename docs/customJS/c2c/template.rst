@@ -8,7 +8,7 @@ To avoid all that hassle, we have created the **Template Calculator**, a calcula
 Let's see what this template contains and how to use it efficiently, so that we can work less while doing more.
 
 .. note::
-  You can find the template calculator on BB as the `[docs] Template big calculator <https://bb.omnicalculator.com/#/calculators/2050>`__ Clone it and start using it!
+  You can find the template calculator on BB as the `[docs] Template big calculator <https://www.omnicalculator.com/adminbb/calculators/2050>`__ Clone it and start using it!
 
 What is in the template
 -----------------------

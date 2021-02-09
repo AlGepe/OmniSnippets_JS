@@ -3,7 +3,7 @@
 Changing Value Setters on runtime
 =================================
 
-Changing value setters during runtime is nothing new, we have already covered it in the :ref:`dynamically changing value setters on result<dynamicVsetter>` and made a calculator to illustrate the principle: `[docs] Value Setter (Dynamic) <https://bb.omnicalculator.com/#/calculators/2038>`__.
+Changing value setters during runtime is nothing new, we have already covered it in the :ref:`dynamically changing value setters on result<dynamicVsetter>` and made a calculator to illustrate the principle: `[docs] Value Setter (Dynamic) <https://www.omnicalculator.com/adminbb/calculators/2038>`__.
 
 .. note::
   We will present examples with each method. These examples are not the only possible use-cases. Feel free to modify and play with them to get the behaviour you want.
@@ -50,7 +50,7 @@ Here is the how to do it:
 By having two different value setters we can make the user selection clear the variable field upon selection. To avoid having *Custom* displayed when the user fills in the data, we can use a value setter without any value assigned to that variable. Switching between them an be done easily inside of ``onResult``. If needed, the value setter could even be dynamically created inside of ``onResult`` as well; handy for situations with plenty of options or value setters.
 
 .. seealso::
-  We have created a calculator where you can see and interact with the whole code. Check it out at `Value Setter (Empty Custom) <https://bb.omnicalculator.com/#/calculators/2047>`__ on BB.
+  We have created a calculator where you can see and interact with the whole code. Check it out at `Value Setter (Empty Custom) <https://www.omnicalculator.com/adminbb/calculators/2047>`__ on BB.
 
 
 Nesting with default values
@@ -117,7 +117,7 @@ This option is not limited to two total levels, you can keep nesting forever. Ju
 As you can see, we need one value setter variable for each option in the *Level 0* value setter. This can get pretty big pretty fast [#f1]_. If you are planning to use this trick using value setters with a big number of options, it would be useful to create the value setter variables automatically every time ``onResult`` is triggered.
 
 .. seealso::
-    Thanks to Jasmine, you can see the code in action and play with it. Check it out at `Value Setter (Nested with Default Values) <https://bb.omnicalculator.com/#/calculators/2593>`__ on BB.
+    Thanks to Jasmine, you can see the code in action and play with it. Check it out at `Value Setter (Nested with Default Values) <https://www.omnicalculator.com/adminbb/calculators/2593>`__ on BB.
     
 
 .. rubric:: Footnotes
