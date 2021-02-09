@@ -40,7 +40,7 @@ You can select the type of date variable in the calculator under the option **Fi
 The implications of having one base unit or another are just to do with the value you will get when using ``ctx.getNumberValue`` and the conversions you might need to do when operating with them mathematically (adding, subtracting, multiplying...)
 
 .. tip::
-  If this all sounds slightly confusing, Dominik has created a calculator to showcase the usage of dates in Omni Calculators. Check it out as `[docs] Dates <https://bb.omnicalculator.com/#/calculators/2066>`__ on BB.
+  If this all sounds slightly confusing, Dominik has created a calculator to showcase the usage of dates in Omni Calculators. Check it out as `[docs] Dates <https://www.omnicalculator.com/adminbb/calculators/2066>`__ on BB.
 
 Useful tricks to format time
 ----------------------------

@@ -100,7 +100,7 @@ As you can see the behaviour of ``isNaN`` and ``Number.isNaN`` is slightly diffe
 
 .. seealso::
 
-  You can check the outcome of the most common comparison in javascript by playing with the `[docs] Stranger comparisons <https://bb.omnicalculator.com/#/calculators/2043>`__ on BB.
+  You can check the outcome of the most common comparison in javascript by playing with the `[docs] Stranger comparisons <https://www.omnicalculator.com/adminbb/calculators/2043>`__ on BB.
 
 There are even more weird things going on with javascript (also ouside of pure comparisons), but that's a topic for another day. For now, as a prize for making it this far without your head exploding, one last meme: 
 
@@ -116,7 +116,7 @@ There are even more weird things going on with javascript (also ouside of pure c
 
 Comparisons in javascript are only easy if you compare variables of the same type or if the conversion is straight forward, so always try to do that. Outside of that, learn about truthy and falsy values for the best compromise between confusing and useful. 
 
-Comparing weird types of variables (``null``, ``NaN``, ...) requires the use of special functions. If in doubt, check `the calculator we made <https://bb.omnicalculator.com/#/calculators/2043>`__ to understand what you can expect from each comparison.
+Comparing weird types of variables (``null``, ``NaN``, ...) requires the use of special functions. If in doubt, check `the calculator we made <https://www.omnicalculator.com/adminbb/calculators/2043>`__ to understand what you can expect from each comparison.
 
 Just remember that javascript, just like flat earthers, doesn't make sense.
 

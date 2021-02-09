@@ -20,7 +20,7 @@ In an **ideal world, you should plan in advance** and manage these troublesome s
 We can automate the input process by creating a new variable (let's call it ``tests``) and assigning it a :ref:`Value Setter<vSetter>` containing all the troublesome scenarios.
 
 .. seealso::
-  We have created a dummy calculator to showcase the usefulness of Value Setters for testing weird scenarios. You can find it on BB as `[docs] Testing with vSetter <https://bb.omnicalculator.com/#/calculators/2045>`__ .
+  We have created a dummy calculator to showcase the usefulness of Value Setters for testing weird scenarios. You can find it on BB as `[docs] Testing with vSetter <https://www.omnicalculator.com/adminbb/calculators/2045>`__ .
 
 After finishing the calculator, all you have to do is hide the ``tests`` variable and nobody using the calculator will know it was ever there. To prevent anyone embedding your calculator to "uncover" these hidden features, simply set a default value via ``setDefault`` inside ``onInit`` as it overrides any embed options.
 
@@ -60,10 +60,10 @@ This ``dev`` variable would have a value setter or value select assigned with "Y
 
 Just like with the testing value setter, by simply uncommenting one line we can move to the publishing version.
 
-If we **combine this trick with the ``tests`` trick** we can easily and quickly perform tests and spot problems in our calculator without much effort. We have created a dummy calculator on BB to showcase this implementation: `[docs] Testing with Vsetter <https://bb.omnicalculator.com/#/calculators/1643>`__ 
+If we **combine this trick with the ``tests`` trick** we can easily and quickly perform tests and spot problems in our calculator without much effort. We have created a dummy calculator on BB to showcase this implementation: `[docs] Testing with Vsetter <https://www.omnicalculator.com/adminbb/calculators/1643>`__ 
 
 .. seealso::
-  A real-world example of how to use these tricks is available on BB as `[docs] testing with Vsetter - real world <https://bb.omnicalculator.com/#/calculators/2708>`__ The tests used there were provided by the client as part of the verification process.
+  A real-world example of how to use these tricks is available on BB as `[docs] testing with Vsetter - real world <https://www.omnicalculator.com/adminbb/calculators/2708>`__ The tests used there were provided by the client as part of the verification process.
 
 Complications and how to avoid them
 ------------------------------------

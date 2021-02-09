@@ -61,7 +61,7 @@ And here we can see the two relevant functions for the trick to work (``deleteIn
 These two functions can also be handy for other applications, which is why they have been added to the repository. In particular ``getIndexFromVSetter`` is a great way to add the user selection into an HTML output.
 
 .. seealso::
-  We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamically shrinking VSetter <https://bb.omnicalculator.com/#/calculators/2296>`__ on BB.
+  We have created a calculator using this code so that you can see the results for yourself. Check it out at `Dynamically shrinking VSetter <https://www.omnicalculator.com/adminbb/calculators/2296>`__ on BB.
   
 
 .. rubric:: Footnotes

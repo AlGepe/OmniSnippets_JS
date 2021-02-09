@@ -27,7 +27,7 @@ To fix an issue like this, we simply need to re-write the equations so that, for
 Now, when the user inputs `g` there is only one unknown in the second equation, so `M` can be computed, which allows `R` to be computed as well. The same thing happens for any other input, just in different order.
 
 .. seealso::
-  The most clear example of this lack of interconnection between equations is to compare the published version of the `Schwarzschild radius calculator <https://www.omnicalculator.com/physics/schwarzschild-radius>`__ with the `"limited" version of that same calculator <https://bb.omnicalculator.com/#/calculators/2617>`__ made for demonstration purposes. Pay close attention to how the 'Gravitational field' can (not) change the values of the other variables depending on the implementation.
+  The most clear example of this lack of interconnection between equations is to compare the published version of the `Schwarzschild radius calculator <https://www.omnicalculator.com/physics/schwarzschild-radius>`__ with the `"limited" version of that same calculator <https://www.omnicalculator.com/adminbb/calculators/2617>`__ made for demonstration purposes. Pay close attention to how the 'Gravitational field' can (not) change the values of the other variables depending on the implementation.
 
 
 However, this is not a silver bullet, at least not in such a simple form. If we take a look at a calculator that can solve any system of equations [#f1]_  we can see how achieving the omni-solving potential promised by Matt and his disciples (read: developers) can be more effort than we would hope for.
@@ -50,7 +50,7 @@ Which our calculator can use to find the values of `x` and `y`. However, this wi
 In most cases it will not be needed to go to such lengths to add functionality, since we might not even want it. In the previous case, for example, if `x` and `y` are known but `a1` and `b1` are not, the user should probably recognise that the easiest solution is to rename the unknowns to the standard `x`, `y` and re-write the problem in a way that makes more sense.
 
 .. seealso::
-  This example can be found in calculator form as the `Systems of Equations calculator <https://bb.omnicalculator.com/#/calculators/2654>`__ in BB.
+  This example can be found in calculator form as the `Systems of Equations calculator <https://www.omnicalculator.com/adminbb/calculators/2654>`__ in BB.
 
 
 .. rubric:: tl;dr
@@ -95,7 +95,7 @@ Our cJS code will look like this (fixed exponent being 3.4):
 We need to define ``erfinv`` in cJS even if we haven't explicitly done so in the equations tab. If we fail to define ``erfinv`` in cJS all variables will be shown as "input-output" but calculations will only work in one way.
 
 .. seealso::
-  You can check this implementation and compare it with the classic ``a = pow(b, 3.4)`` in a sample calculator we made. Find it as `[docs] Inverse functions <https://bb.omnicalculator.com/#/calculators/2615>`__ on BB.
+  You can check this implementation and compare it with the classic ``a = pow(b, 3.4)`` in a sample calculator we made. Find it as `[docs] Inverse functions <https://www.omnicalculator.com/adminbb/calculators/2615>`__ on BB.
 
 All these limitations (only one input variables, fixed name...) limit the usability of the ``erf`` function so we would not recommend to plan your calculator to use it. We advice to use it as an elegant way to solve a problem when/if you find such.
 

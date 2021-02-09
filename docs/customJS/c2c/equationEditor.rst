@@ -50,7 +50,7 @@ Technically, there is a third custom function available to us, called ``source_o
 Additionally there is also the possibility of creating an entirely custom function by using :ref:`omni.define<omniDefine>` in customJS. This also creates an *output-only* variable, so whenever possible avoid using it.
 
 .. seealso::
-  We have created a calculator to illustrate the usage of custom equation-functions. You can find it on BB as `[docs] custom equations <https://bb.omnicalculator.com/#/calculators/2655>`__
+  We have created a calculator to illustrate the usage of custom equation-functions. You can find it on BB as `[docs] custom equations <https://www.omnicalculator.com/adminbb/calculators/2655>`__
 
 .. rubric:: Footnotes
 
