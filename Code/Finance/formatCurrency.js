@@ -14,7 +14,7 @@
  * 	REQUIRES: numberWithCommas  (in folder "Miscelaneous")
  * 	WARNING: Don't forget to copy the data arrays/objects bellow the function
 */
-:x
+function formatCurrency (number, currencySymbol, country) {
 	if (!country || !currencySymbol) {
 		return '$' + numberWithCommas(Math.round(number, 2));
 	}
