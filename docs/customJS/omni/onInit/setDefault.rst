@@ -46,7 +46,7 @@ units
 
 Units in which ``value`` was defined. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://www.omnicalculator.com/adminbb/unit-switchers>`__ in the BB.
 =======
-Units in which ``value`` was input. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://bb.omnicalculator.com/#/unit-switchers>`__ in the BB.
+Units in which ``value`` was input. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://www.omnicalculator.com/adminbb/unit-switchers>`__ in the BB.
 
 
 .. warning::
