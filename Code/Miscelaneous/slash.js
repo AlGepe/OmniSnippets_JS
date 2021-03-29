@@ -1,4 +1,6 @@
 /*
+ * Author: Dominik Czernia 
+ *
  * SLASH - Adds a slash at the end of a number. Useful for crossing our numbers
  *
  * It comes as a double function for modularity

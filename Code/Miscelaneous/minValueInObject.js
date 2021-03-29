@@ -1,4 +1,6 @@
 /*
+ * Authors: Dominik Czernia & Alvaro Diez
+ *
  * Finds the minimum value in an object and returns an object containing the minimum value and the associated key
  *
  * INPUT: Object of key-value pairs
