@@ -48,7 +48,7 @@ Here is the code used in the calculator:
                 stopHiding = true;
             }
         }
-        ctx.addHtml("Number of `magic variables` displayed: " + (fieldsFilled ||defaultVariablesShown));
+        ctx.addHtml("Number of `magic variables` displayed: " + (fieldsFilled ||defaultShown));
     });
 
 This version of the magic rows is basically a **drop-in addition to your calculator**. If you want exactly this behaviour you can simply copy and paste the code into your calculator and just change the configuration values according to your needs.
