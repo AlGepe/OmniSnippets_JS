@@ -1,5 +1,5 @@
 .. _customJs:
-CustomJs tab
+CustomJs
 =====================
 
 [description]
