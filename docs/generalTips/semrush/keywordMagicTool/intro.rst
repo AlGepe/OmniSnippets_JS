@@ -4,7 +4,7 @@ Keyword Magic Tool
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     keywordMatch
     related
