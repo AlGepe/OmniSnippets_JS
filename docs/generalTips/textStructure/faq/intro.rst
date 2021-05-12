@@ -4,6 +4,6 @@ FAQ
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     
