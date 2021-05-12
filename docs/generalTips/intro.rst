@@ -7,6 +7,7 @@ Can I modify it immediately?
 .. toctree::
     :maxdepth: 4
 
+    introduction/intro
     usefulStuff/intro
     calculatorPage/intro
     calculatorStructure/intro
