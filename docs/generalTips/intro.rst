@@ -12,3 +12,6 @@ Can I modify it immediately?
     adminBB/intro
     semrush/intro
     trello/intro
+    slack/intro
+    grammarly/intro
+    mastermind/intro
