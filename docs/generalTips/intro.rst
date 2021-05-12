@@ -5,7 +5,7 @@ Welcome to Omni's general tips for Calculatorians
 Can I modify it immediately?
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 4
 
     calculatorStructure/intro
     textStructure/intro
