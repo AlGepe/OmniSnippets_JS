@@ -1,5 +1,5 @@
 .. _alternatives:
-Conditions
+Alternatives for SEMRush - e.g. Google Trends
 =====================
 
 [description]
