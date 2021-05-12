@@ -4,4 +4,4 @@ Calculator styling guide
 [Description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 5
