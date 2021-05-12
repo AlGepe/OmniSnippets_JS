@@ -1,0 +1,5 @@
+.. _symbols:
+Symbols
+=====================
+
+[description]
