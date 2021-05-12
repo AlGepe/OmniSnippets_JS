@@ -6,6 +6,7 @@ Edit calculator
 .. toctree::
     :maxdepth: 2
 
+    nameSlugType
     equations
     groupsAndVariables
     customJs
