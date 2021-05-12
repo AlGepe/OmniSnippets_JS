@@ -1,5 +1,5 @@
 .. _equations:
-Equations tab
+Equations
 =====================
 
 [description]
