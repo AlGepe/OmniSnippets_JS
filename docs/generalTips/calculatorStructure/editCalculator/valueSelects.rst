@@ -1,5 +1,5 @@
 .. _valueSelects:
-Value selects tab
+Value selects
 =====================
 
 [description]
