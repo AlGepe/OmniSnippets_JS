@@ -9,5 +9,5 @@ Trello
     instruction
     reviewing/intro
     faq
-    link
+    links
     
