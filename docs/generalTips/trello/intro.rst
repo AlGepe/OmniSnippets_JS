@@ -4,7 +4,7 @@ Trello
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 3
 
     instruction
     reviewing/intro
