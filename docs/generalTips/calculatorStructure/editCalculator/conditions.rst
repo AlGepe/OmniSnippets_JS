@@ -1,5 +1,5 @@
 .. _conditions:
-Conditions tab
+Conditions
 =====================
 
 [description]
