@@ -6,4 +6,4 @@ Calculator structure
 .. toctree::
     :maxdepth: 2
 
-    generalTips/intro
+    
