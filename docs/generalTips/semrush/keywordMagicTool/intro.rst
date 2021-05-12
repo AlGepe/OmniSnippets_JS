@@ -1,4 +1,4 @@
-Keyword Magic tool
+Keyword Magic Tool
 =================================================
 
 [Description]
