@@ -11,4 +11,4 @@ Can I modify it immediately?
     :maxdepth: 3
 
     calculatorStructure/intro
-    textStricture/intro
+    textStructure/intro
