@@ -4,7 +4,7 @@ Edit calculator
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     nameSlugType
     equations
