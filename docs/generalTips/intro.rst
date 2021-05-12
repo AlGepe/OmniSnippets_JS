@@ -8,7 +8,7 @@ Title
 Can I modify it immediately?
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 4
 
     calculatorStructure/intro
     textStructure/intro
