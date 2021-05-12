@@ -1,5 +1,5 @@
 .. _tests:
-Tests tab
+Tests
 =====================
 
 [description]
