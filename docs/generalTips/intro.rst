@@ -8,6 +8,6 @@ Title
 Can I modify it immediately?
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     calculatorStructure/intro
