@@ -4,7 +4,7 @@ Edit calculator text
 [Description]
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     title
     textEditor/intro
