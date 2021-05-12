@@ -4,7 +4,7 @@ SEMrush
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 3
 
     keywordGoogle
     keywordMagicTool/intro
