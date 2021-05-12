@@ -1,0 +1,5 @@
+.. _collections:
+Collections
+=====================
+
+[description]
