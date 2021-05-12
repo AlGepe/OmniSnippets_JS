@@ -8,3 +8,4 @@ Text structure
 
     editCalculatorText/intro
     textStylingGuide/intro
+    faq/intro
