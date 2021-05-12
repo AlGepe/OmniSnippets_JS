@@ -4,7 +4,7 @@ Text structure
 [Description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
 
     editCalculatorText/intro
     textStylingGuide/intro
