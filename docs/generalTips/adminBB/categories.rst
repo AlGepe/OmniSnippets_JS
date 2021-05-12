@@ -1,0 +1,5 @@
+.. _categories:
+Categories
+=====================
+
+[description]
