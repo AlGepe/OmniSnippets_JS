@@ -7,4 +7,5 @@ Calculator structure
     :maxdepth: 3
 
     editCalculator/intro
+    calculatorStylingGuide/intro
     
