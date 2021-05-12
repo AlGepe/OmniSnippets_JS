@@ -1,5 +1,5 @@
 .. _instruction:
-Instruction
+How to use?
 =====================
 
 [description]
