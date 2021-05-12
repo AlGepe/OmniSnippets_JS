@@ -7,7 +7,7 @@ General tips
 [description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 6
 
     generalTips/intro.rst
 
