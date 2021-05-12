@@ -10,4 +10,4 @@ Can I modify it immediately?
 .. toctree::
     :maxdepth: 2
 
-    calculatorStructure/intro.rst
+    calculatorStructure/intro
