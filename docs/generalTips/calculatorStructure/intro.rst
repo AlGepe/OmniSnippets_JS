@@ -6,5 +6,5 @@ Calculator structure
 .. toctree::
     :maxdepth: 2
 
-    editCalculator/intro.rst
+    editCalculator/intro
     
