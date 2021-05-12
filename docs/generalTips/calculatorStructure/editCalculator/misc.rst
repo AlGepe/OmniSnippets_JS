@@ -1,5 +1,5 @@
 .. _misc:
-Misc tab
+Misc (attributes waiting for better placement)
 =====================
 
 [description]
