@@ -1,0 +1,5 @@
+.. _equations:
+Equations
+=====================
+
+[description]
