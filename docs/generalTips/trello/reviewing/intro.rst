@@ -4,7 +4,7 @@ Reviewing procedure
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 2
 
     members
     labels
