@@ -1,5 +1,5 @@
 .. _otherElements:
-Other elements tab
+Other elements
 =====================
 
 [description]
