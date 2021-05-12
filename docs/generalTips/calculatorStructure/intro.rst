@@ -4,7 +4,7 @@ Calculator structure
 [Description]
 
 .. toctree::
-    :maxdepth: 5
+    :maxdepth: 3
 
     editCalculator/intro
     calculatorStylingGuide/intro
