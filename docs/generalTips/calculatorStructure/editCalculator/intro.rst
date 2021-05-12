@@ -4,7 +4,7 @@ Edit calculator
 [Description]
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     equations
     groupsAndVariables
