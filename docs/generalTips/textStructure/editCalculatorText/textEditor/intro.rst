@@ -1,4 +1,4 @@
-Simple editor and Syntax highlight editor
+Simple editor and syntax highlight editor
 =================================================
 
 [Description]
@@ -6,4 +6,14 @@ Simple editor and Syntax highlight editor
 .. toctree::
     :maxdepth: 1
 
-    editCalculator/intro
+    markdown
+    symbols
+    equations
+    links
+    anchors
+    pictures
+    tables
+    videos
+    HTML
+    
+    
