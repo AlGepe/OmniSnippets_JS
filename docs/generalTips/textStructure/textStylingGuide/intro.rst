@@ -4,7 +4,7 @@ Text styling guide
 [Description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 5
     
     textLength
     capitalisation
