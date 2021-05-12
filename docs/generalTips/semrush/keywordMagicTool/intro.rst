@@ -6,4 +6,7 @@ Keyword Magic tool
 .. toctree::
     :maxdepth: 5
 
-    
+    keywordMatch
+    related
+    filters
+    keywordFAQ
