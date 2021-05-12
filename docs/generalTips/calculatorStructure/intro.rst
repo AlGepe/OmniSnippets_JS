@@ -1,7 +1,7 @@
 Calculator structure
 =================================================
 
-[Description of the section and the table of contents + elements outside tabs]
+[Description]
 
 .. toctree::
     :maxdepth: 2
