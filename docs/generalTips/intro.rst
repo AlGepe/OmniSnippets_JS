@@ -9,4 +9,4 @@ Title
 .. toctree::
     :maxdepth: 2
 
-    generalTips/calculatorStructure/intro.rst
+    calculatorStructure/intro.rst
