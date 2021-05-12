@@ -15,5 +15,6 @@ Can I modify it immediately?
     slack/intro
     grammarly/intro
     mastermind/intro
+    monitoring/intro
     marketing/intro
     projects/intro
