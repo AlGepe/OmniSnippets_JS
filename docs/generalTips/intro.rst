@@ -5,8 +5,9 @@ Title
 -----
 
 [description will be soon]
+Can I modify it immediately?
 
 .. toctree::
     :maxdepth: 2
 
-    generalTips/intro
+    calculatorStructure/intro.rst
