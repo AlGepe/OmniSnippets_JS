@@ -4,7 +4,7 @@ Simple editor and syntax highlight editor
 [Description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     markdown
     symbols
