@@ -4,7 +4,7 @@ SEO Check
 [Description]
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     keywords
     links
