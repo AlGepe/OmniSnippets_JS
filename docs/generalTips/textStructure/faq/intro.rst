@@ -5,6 +5,14 @@ This is a guide on **how to write FAQs for calculators to maximise their chances
 
 As with all things SEO, **getting the best results is not an exact science**. Because of this, the guide cannot supply you with all of the answers, and much of the time you will have to make your own call on how to proceed. These are **the key points** to consider when writing FAQs:
 
+.. featuredSnippets::
+.. figure:: featuredSnippets.jpg
+   :scale: 70%
+   :alt: Example of Google's featured snippets
+   :align: center
+   
+   Example of Google's featured snippets
+
 * Is this question **something someone would ask**, and is this how they would say it aloud?
 * How **related to calculations and Omni** is this question, and does Google trust our answers to this topic?
 * Does the answer answer the question immediately, and **how would it sound when read out loud**?
