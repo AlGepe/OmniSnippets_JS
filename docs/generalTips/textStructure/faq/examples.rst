@@ -1,0 +1,5 @@
+.. _examples:
+Examples
+=====================
+
+[description]
