@@ -1,4 +1,4 @@
-Text structure
+Writing texts
 =================================================
 
 [Description]
