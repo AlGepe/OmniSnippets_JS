@@ -27,5 +27,10 @@ As this is a new project, **the advice contained within this guide is subject to
 
 .. toctree::
     :maxdepth: 2
-
     
+    goodQuestions
+    pickQuestions
+    answers
+    integratedFAQ
+    examples
+    checkResults
