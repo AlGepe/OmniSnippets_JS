@@ -1,4 +1,4 @@
-.. _goodQuestion:
+.. _goodQuestions:
 What makes a good question?
 =====================
 
