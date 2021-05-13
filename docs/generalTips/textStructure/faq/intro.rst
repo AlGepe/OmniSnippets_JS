@@ -1,5 +1,7 @@
-FAQ
+FAQ guide
 =================================================
+
+This FAQ guide provides information regarding compulsory FAQ sections in created calculators.
 
 .. toctree::
     :maxdepth: 2
