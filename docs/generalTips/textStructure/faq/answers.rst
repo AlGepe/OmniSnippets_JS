@@ -1,4 +1,4 @@
-.. _writingAnswers:
+.. _answers:
 Writing answers
 =====================
 
