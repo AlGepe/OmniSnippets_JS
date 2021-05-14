@@ -3,6 +3,8 @@ Welcome to Omni's general tips for Calculatorians
 
 This table of contents should be probably divided into groups like here: https://omni-documentation.readthedocs.io/en/documentation/index.html
 
+Will it appear automatically?
+
 .. toctree::
     :maxdepth: 4
 
