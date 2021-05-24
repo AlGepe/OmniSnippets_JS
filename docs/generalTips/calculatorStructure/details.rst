@@ -1,7 +1,7 @@
 .. _details:
 
-Details section
-===============
+Details
+=======
 
 The **Details** section of calculator edit contains all of its main properties, such as name, author, category, etc. Let's go through each field and describe each one in detail.
 

@@ -7,7 +7,7 @@ Edit calculator
     :maxdepth: 2
 
     upperPanel
-    nameSlugType
+    details
     equations
     groupsAndVariables
     customJs
