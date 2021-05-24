@@ -1,9 +1,6 @@
 Equations
 =========
 
-Introduction
-------------
-
 The equations section is the heart of most calculators. It defines variables and how they relate to each other mathematically. Let's look at a simple example; the circumference calculator.
 
 .. _equationsExample:
