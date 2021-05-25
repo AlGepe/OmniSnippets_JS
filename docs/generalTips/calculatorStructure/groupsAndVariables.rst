@@ -117,7 +117,7 @@ Unit switcher
 
 Choose the units for the variable from the list. Start typing in the unit switcher name to find the one you are looking for.
 
-Unit switchers can be edited and added on the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to ask someone before making any changes, as they might affect other calculators. You can find more information about unit switchers here: :ref:`unitSwitchers`.
+:ref:`Unit switchers <unitSwitchers>` can be edited and added on the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to ask someone before making any changes, as they might affect other calculators.
 
 Works in reverse checkbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^
