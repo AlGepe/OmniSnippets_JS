@@ -24,7 +24,7 @@ When adding, deleting and editing equations, you need to **save the calculator**
 Additional variable names field
 -------------------------------
 
-If you want to introduce any variables that are not related to the variables in the equations, you can add them here (see in the :ref:`figure above <equationsExample>`). Here are some common reasons you might want to do that:
+If you want to introduce any variables that are not related to the variables in the equations, you can add them here (see in the :ref:`figure above <equationsExample>`) as a comma separated list. Here are some common reasons you might want to do that:
 
 * Add a variable for the sole purpose of **displaying an image or message** below the variable. This dummy variable should be **hidden** for this purpose.
 * The calculator has a lot of **JavaScript** to handle the calculations, instead of using equations. So to create the variables in the calculator without writing them as equations, they need to be listed here.
@@ -33,6 +33,10 @@ Variable names
 --------------
 
 Generally, you should try to use **descriptive names** so someone else reading your calculator quickly knows what it is. For common equations, such as the circumference of a circle, it's OK to use the common algebraic representation (e.g. ``r`` rather than ``radius``).
+
+.. warning::
+  DON'T name any of your variable with a name from this list: https://www.tutorialspoint.com/What-are-Reserved-Keywords-in-Python
+
 
 Reserved variable names
 -----------------------
