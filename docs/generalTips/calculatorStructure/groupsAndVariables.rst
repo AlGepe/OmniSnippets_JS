@@ -107,6 +107,8 @@ When choosing **magic rounding** and you don't like the default setting, have a 
 .. tip::
   🤑 For monetary values, it's usually a good idea to round to two decimal places.
 
+.. _advancedCheckbox:
+
 Advanced checkbox
 ^^^^^^^^^^^^^^^^^
 
