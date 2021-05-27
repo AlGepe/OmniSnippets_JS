@@ -68,10 +68,22 @@ Here you can decide which calculators' attributes you want to see. **Name** is a
 .. note::
   You can always come back to *default* setting by pressing **Reset** button.
 
-Deleting calculator 🗑️
+Editing and deleting calculator 
 ----
 
-The rightmost icon for each calculator lets you **remove the calculator**. To do so, click the trash bin and confirm by entering the calculator's slug.
+.. _calculatorsLinks:
+.. figure:: calculators_links.png
+    :alt: The calculator's clickable attributes on adminBB.
+    :align: center
+
+    The calculator's clickable attributes on adminBB.
+
+There are a few clickable elements that let you interact with a calculator:
+
+* **Calculator's name** — a link to  `calculator's edit page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorStructure/intro.html>`__; 
+* **Paragraph symbol** — a link to  `calculator's text edit page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/editCalculatorText/intro.html>`__; 
+* **Internet Explorer symbol** — a link to  `calculator's web page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorPage/intro.html>`__; 
+* **Trash bin icon** 🗑️ — lets you **remove the calculator**. To do so, you need to confirm the action by entering the calculator's slug.
 
 .. warning::
   **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change it's purpose to **temporary** as these will disapear sometime in the future.
