@@ -78,6 +78,7 @@ Here are step-by-step instructions to merge a cloned calculator with its origina
 
 The cloned calculator will **not be automatically deleted**. If you are not planning to add another feature to the calculator, please go ahead an delete the calculator to keep our BB nice and tidy.
 
+.. _calculatorPreview:
 Preview
 -------
 
