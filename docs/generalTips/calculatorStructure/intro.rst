@@ -18,8 +18,6 @@ Each section of the edit calculator page is explored below:
     equations
     groupsAndVariables
     customJs
-    otherElements
     valueSelects
     tests
     conditions
-    misc
