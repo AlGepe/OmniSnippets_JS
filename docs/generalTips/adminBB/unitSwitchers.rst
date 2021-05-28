@@ -49,7 +49,7 @@ Here is the list of units' fields you can edit:
 * **Available by default** — check the box for commonly used variables or leave it empty for less popular ones.
 
 .. note::
-  **Name, slug, and value** are **obligatory** fields for every unit. The remaining attributes are optional.
+  **Name**, **slug**, and **value** are **obligatory** fields for every unit. The remaining attributes are optional.
 
 
 When you choose **Collapse all** only the name, full name, and slug will be visible. To see all of the others, you need to select **Show all** option.
