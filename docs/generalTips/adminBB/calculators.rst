@@ -32,7 +32,7 @@ You can search a calculator by the **name** or **id**:
     :alt: The example of using the search panel.
     :align: center
 
-    The example of using the search panel. See that names with words containing the phrase *car*, e.g. *carrier*, show up as well.
+    The example of using the search panel. See that names with words containing the phrase **car**, e.g. **carrier**, show up as well
 
 Filters
 ----
@@ -76,7 +76,7 @@ Editing and deleting calculator
     :alt: The calculator's clickable attributes on adminBB.
     :align: center
 
-    The calculator's clickable attributes on adminBB.
+    The calculator's clickable attributes on adminBB
 
 There are a few clickable elements that let you interact with a calculator:
 
