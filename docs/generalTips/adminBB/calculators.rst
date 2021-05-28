@@ -86,4 +86,4 @@ There are a few clickable elements that let you interact with a calculator:
 * **Trash bin icon** 🗑️ — lets you **remove the calculator**. To do so, you need to confirm the action by entering the calculator's slug.
 
 .. warning::
-  **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change it's purpose to **temporary** as these will disapear sometime in the future.
+  **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change its purpose to **temporary** as these will disapear sometime in the future.
