@@ -45,6 +45,8 @@ A string containing the error message you want the user to see. Since the positi
     confused by it. A typical way to handle and error is to hidden the variable
     that will have a strange value such as ``NaN`` or ``Infinity``.
 
+    .. _customCondition:
+
 Adding custom conditions that stop the calculator
 -------------------------------------------------
 
