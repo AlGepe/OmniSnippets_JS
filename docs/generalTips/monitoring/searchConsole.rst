@@ -1,5 +1,6 @@
 .. _searchConsole:
-Search console
+
+Google Search Console
 =====================
 
 [description]
