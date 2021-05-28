@@ -33,6 +33,7 @@ Here is the list of units' fields you can edit:
 
 .. _calculatorsLinks:
 .. figure:: unitSwitchers_unit_names.png
+    :scale: 50 %
     :alt: Units' attributes visible on a calculator page.
     :align: right
 
