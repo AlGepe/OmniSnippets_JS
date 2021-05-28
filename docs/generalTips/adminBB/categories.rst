@@ -2,7 +2,7 @@
 Categories
 =====================
 
-In this tab you can see a **list of all categories and their ids**. Categories and subcategories **help us organize calculators by similar topics** and **navigate them on the main page**.
+In this tab you can see a **list of all categories and their ids**. Categories and subcategories **help us organize calculators by similar topics** and **navigate them on the main page**. A calculator can be assigned only to **one category**.
 
 The list of current categories:
 
