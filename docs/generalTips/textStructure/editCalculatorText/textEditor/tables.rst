@@ -9,7 +9,7 @@ Tables can be embedded in the text using standard HTML table tags. Here, we will
 
   If you want to use the table from another website, you **don't need to rewrite it** - tools exists which can do it for you, e.g., https://codebeautify.org/csv-to-html-converter.
 
-  However, sometimes the formatting fails and ``Ctrl-C``, ``Ctrl-V`` doesn't work so nicely, then first copy the table to the spreadsheet and from there to the converter tool.
+  However, sometimes the formatting fails and copy & paste doesn't work so nicely. Then, first copy the table to the spreadsheet and from there to the converter tool.
 
 **The most important tags:**
 
