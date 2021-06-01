@@ -59,5 +59,12 @@ Tables can be embedded in the text using standard HTML table tags. Here, we will
     </tbody>
   </table>
 
+.. _tablesExample:
+.. figure:: tables-example.png
+    :alt: rendering of the above example table HTML
+    :align: center
+
+    Here's how the above HTML table is rendered.
+
 Another example: `Vapor Pressure of Water Calculator <https://bb.omnicalculator.com/content-editor/edit/1183>`_.
 
