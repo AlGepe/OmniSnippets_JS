@@ -15,7 +15,7 @@ The procedure for the given converter:
 .. tip::
   To remove extra spaces after pasting, select `Syntax highlight editor <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/editCalculatorText/textEditor/intro.html>`__ view, highlight the whole table, and press ``Shift`` + ``Tab`` combination several times.
   
- The most important tags:
+The most important tags:
 
  - ``<table>`` … ``</table>`` — creating table;
  - ``<thead>`` … ``</thead>`` — grouping header content;
