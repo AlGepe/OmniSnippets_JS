@@ -89,5 +89,5 @@ You can simply drag and drop the image or load it from a folder. tiny.jpg will d
 You can see that some piece of image size was cut off.
 
 
-Now, the image is ready for uploading via Omni FTP!
+Now, the image is ready for `uploading via Omni FTP <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/editCalculatorText/textEditor/pictures.html#how-to-upload-pictures)>`__!
 
