@@ -8,7 +8,7 @@ In this unit switchers menu, you can check all of the existing unit switchers or
 
 By clicking a unit switcher's name, you enter the unit switcher tab:
 
-.. _calculatorsLinks:
+.. _unitSwitchersBasics:
 .. figure:: unitSwitchers_basics.png
     :alt: The unit switcher's edit page.
     :align: center
@@ -31,7 +31,7 @@ Units' attributes
 
 Here is the list of units' fields you can edit:
 
-.. _calculatorsLinks:
+.. _unitSwitchersNames:
 .. figure:: unitSwitchers_unit_names.png
     :scale: 50 %
     :alt: Units' attributes visible on a calculator page.
