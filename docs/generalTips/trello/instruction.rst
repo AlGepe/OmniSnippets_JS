@@ -2,7 +2,7 @@
 Instruction
 =====================
 
-How to add a new calculator on your Trello card:
+How to add a new calculator on your Trello list:
 
 1. Copy the card **TEMPLATE** to your list.
 2. Change the title.
