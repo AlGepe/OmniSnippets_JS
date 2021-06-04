@@ -29,6 +29,8 @@ To enrich your text, you can add pictures:
     </figure>
   </center>
 
+You may also use :ref:`Markdown syntax to add images <markdownImages>` to your texts.
+
 How to upload pictures?
 -----------------------
 
