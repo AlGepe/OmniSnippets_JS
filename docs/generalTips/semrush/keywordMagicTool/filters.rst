@@ -9,4 +9,7 @@ Filters
   
     The Keyword Magic Tool in SEMrush: filters.
     
-content
+Popular topics 
+
+
+SEMrush filters save the day when the topic keywords 
