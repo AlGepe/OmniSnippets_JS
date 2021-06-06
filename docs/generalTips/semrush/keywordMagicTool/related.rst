@@ -3,7 +3,7 @@ Related keywords
 =====================
 
 .. _semrushRelated:
-.. figure:: semrush_rekated.png
+.. figure:: semrush_related.png
   :alt: shows the related keyword option
   :align: center 
   
