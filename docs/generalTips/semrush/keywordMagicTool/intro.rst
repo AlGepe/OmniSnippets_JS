@@ -2,7 +2,7 @@ How to use SEMrush?
 =================================================
 
 .. _semrushDashboard:
-.. figure:: semrush-dashboard.png
+.. figure:: semrush_dashboard.png
   :alt: shows the most interesting buttons for keywords research and new calculators ideas
   :align: center 
   
