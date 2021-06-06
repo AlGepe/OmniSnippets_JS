@@ -9,7 +9,7 @@ The traffic at our calculators comes mostly from three sources:
 
 The first source comprises over 90% of incoming traffic, so we want to be as high in search engines results as possible. Google is the most common search engine with many available tools for analyzing the traffic. For that reason, we focus our efforts to be attractive for it. 
 
-:rubric:: How does Google think?
+.. :rubric:: How does Google think?
 
 Google decides whether to show our sites in top results by checking if the content answers the user's request. It does it in terms of many of many factors including **keywords**. If the site contains frequently searched keywords, then there is high probability that users would find what they are looking for.
 
