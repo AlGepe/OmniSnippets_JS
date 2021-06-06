@@ -1,4 +1,4 @@
-Keyword Magic Tool
+How to use SEMrush?
 =================================================
 
 [Description]
