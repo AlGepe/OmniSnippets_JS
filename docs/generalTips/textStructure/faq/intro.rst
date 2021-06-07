@@ -8,6 +8,7 @@ This FAQ guide provides information regarding compulsory FAQ sections in created
 .. toctree::
     :maxdepth: 2
     
+    intro
     goodQuestions
     pickQuestions
     answers
