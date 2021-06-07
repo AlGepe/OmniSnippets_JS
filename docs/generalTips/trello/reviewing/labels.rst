@@ -6,7 +6,7 @@ We use labels to indicate the status of the calculator. Some of the labels may a
 
 .. _labelsColors:
 .. figure:: labels_colors.png
-    :scale: 50%
+    :scale: 80%
     :alt: The labels' colors we use on Trello. 
     :align: right
 
