@@ -6,6 +6,7 @@ A good question should be something that is very much **related to calculations 
 .. toctree::
     :maxdepth: 3
     
+    .../textStructure/faq/goodQuestions/intro.rst
     relatedness
     firstword
     topics
