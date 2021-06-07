@@ -24,4 +24,3 @@ In Omni Calculator, we use SEMrush for the United States only and assume other l
     keywordMatch
     related
     filters
-    keywordFAQ
