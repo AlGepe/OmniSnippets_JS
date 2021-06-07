@@ -1,5 +1,5 @@
 .. _alternatives:
-Alternatives for SEMRush - e.g. Google Trends
+Google Trends
 =====================
 
 [description]
