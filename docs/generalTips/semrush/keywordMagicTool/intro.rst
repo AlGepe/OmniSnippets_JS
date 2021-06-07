@@ -1,4 +1,4 @@
-How to use SEMrush?
+SEMrush - how to use it?
 =================================================
 
 .. _semrushDashboard:
