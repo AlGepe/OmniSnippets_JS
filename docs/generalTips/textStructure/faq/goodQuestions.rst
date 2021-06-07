@@ -12,3 +12,4 @@ A good question should be something that is very much **related to calculations 
     Qlength
     Qexamples
     popular
+    Qsummary
