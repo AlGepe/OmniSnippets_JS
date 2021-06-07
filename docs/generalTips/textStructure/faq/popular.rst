@@ -5,7 +5,6 @@ Picking the 7 most popular questions might seem like a good idea as they’re ve
 
 
 ### Number of question that do or do not have FS or gFAQ vs. the question’s volume in SEMrush
----------------------------
 
 .. _popular_graph:
 .. figure:: popular_graph.jpg
