@@ -4,7 +4,7 @@ Don’t pick all of the most popular questions
 Picking the 7 most popular questions might seem like a good idea as they’re very heavily searched for, but this isn’t always the case. This is because everyone else is also trying to write about them, and so **we are often outcompeted**. Therefore, about **half of your questions can be highly searched ones** and those integral to the calculator, e.g. “How to find density?” in the density calculator, but **the other half should be slightly more obscure**, such as how to’s for specific questions, e.g. “How to calculate the density of 1 m^3 of water?”, or where a specific answer is required, e.g., “What is the density of 1.5 m^3 of sea water?”. 
 
 
-:underline:`Number of question that do or do not have FS or gFAQ vs. the_question’s volume in SEMrush`
+**Number of question that do or do not have FS or gFAQ vs. the_question’s volume in SEMrush**
 
 .. _popular_graph:
 .. figure:: popular_graph.jpg
