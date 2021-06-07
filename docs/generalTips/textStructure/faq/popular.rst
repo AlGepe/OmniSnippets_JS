@@ -12,4 +12,4 @@ Picking the 7 most popular questions might seem like a good idea as they’re ve
    :alt: Graph of questions by popularity
    :align: center
 
-   This does **change with our calculator’s popularity**, however. If we have a tool that **scores very highly in positioning** (ranks first or second for its main keywords on Google Search Console), then you can write **more of the high popularity** ones, because Google trusts us. If the **calculator is extremely unpopular**, you might only want to write **one or two popular questions**.
+This does **change with our calculator’s popularity**, however. If we have a tool that **scores very highly in positioning** (ranks first or second for its main keywords on Google Search Console), then you can write **more of the high popularity** ones, because Google trusts us. If the **calculator is extremely unpopular**, you might only want to write **one or two popular questions**.
