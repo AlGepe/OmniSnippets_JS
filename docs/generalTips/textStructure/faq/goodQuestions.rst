@@ -10,6 +10,5 @@ A good question should be something that is very much **related to calculations 
     firstword
     topics
     Qlength
-    Qexamples
     popular
     Qsummary
