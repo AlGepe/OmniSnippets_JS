@@ -8,7 +8,12 @@ This FAQ guide provides information regarding compulsory FAQ sections in created
 .. toctree::
     :maxdepth: 2
     
-    goodQuestions
+    goodQuestions/relatedness
+    goodQuestions/firstword
+    goodQuestions/topics
+    goodQuestions/Qlength
+    goodQuestions/popular
+    goodQuestions/Qsummary
     pickQuestions
     answers
     integratedFAQ
