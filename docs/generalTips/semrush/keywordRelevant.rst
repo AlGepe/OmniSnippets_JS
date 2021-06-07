@@ -1,5 +1,5 @@
 .. _keywordRelevant:
-The most relevant keywords
+The most relevant keywords for Omni
 =====================
 
 SEMrush often provide large lists of keywords to choose from, but we cannot use them all. Which should we pick then? There are two main criteria that might help you to decide:
