@@ -8,7 +8,7 @@ The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared the
 .. rubric:: Most useful links and copy-paste stuff (work in progress)
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     
     usefulStuff/omniLinks
     usefulStuff/textWriting
