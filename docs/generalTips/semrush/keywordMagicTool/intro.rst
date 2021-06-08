@@ -15,7 +15,10 @@ In Omni Calculator, we use SEMrush for the United States only and assume other l
 - **Keyword Gap** - allows the comparison between competitors and us. Our :ref:`Masterminders<mastermind>` team uses it to find ideas for the new calculators by looking at missing keywords. 
 
 .. tip::
-  The volume of the keywords is an average value that might evolve with time. If you have two keywords with similar traffic and you're not sure how you should name the calculator, using different tools, e.g., Google Trends, might make your decision easier.
+  The volume of the keywords is an average value that might **evolve with time**. If you have two keywords with similar traffic and you're not sure how you should name the calculator, using different tools, e.g., Google Trends, might make your decision easier.
+  
+  
+In the following pages, we focus on the three features of the **Keyword Magic Tool**:
   
 .. toctree::
 
