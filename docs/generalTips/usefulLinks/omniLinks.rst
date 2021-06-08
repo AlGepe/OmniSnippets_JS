@@ -18,8 +18,6 @@ Here is the list of most useful and most frequently used links:
 
 3. Meeting rooms (max capacity):
  * `Omni Zoom <http://bit.ly/omnizoomzoom>`__ (100) — for general and calculatorians' calls.
- * `Whereby omnistaff <https://whereby.com/omnistaff>`__ or `omnistaff2 <https://whereby.com/omnistaff2>`__ (12) — for **medium-sized meetings** or as alternatives for the Zoom one.
- * `Whereby omnitemp1 <https://whereby.com/omnitemp1>`__ or `omnitemp2 <https://whereby.com/omnitemp2>`__ or `omnitemp3 <https://whereby.com/omnitemp3>`__ (4) — for **small meetings**, ideal for marketing projects.
- * `Whereby leisure <https://whereby.com/matt-mucha>`__ (12) — leisure room, anyone can meet there for **non-work chat**.
- * `Whereby official <https://whereby.com/omnicalculator>`__ (12) — external calls' room, mostly used for **talking to non-Omni people**.
+ * `Whereby omnitemp1 <https://whereby.com/omnitemp1>`__ or `omnitemp2 <https://whereby.com/omnitemp2>`__ or `omnitemp3 <https://whereby.com/omnitemp3>`__ (100) — for **small/medium meetings**, ideal for marketing projects or as alternatives for the Zoom one.
+ * `Whereby official <https://whereby.com/omnicalculator>`__ (100) — external calls' room, mostly used for **talking to non-Omni people**.
  
