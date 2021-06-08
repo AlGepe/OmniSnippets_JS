@@ -4,6 +4,7 @@ SEMrush
 .. _semrushDashboard:
 .. figure:: semrush_dashboard.png
   :alt: shows the most interesting buttons for keywords research and new calculators ideas
+  :width: 400
   :align: center 
   
     The main view of the SEMrush dashboard as for June, 2021.
