@@ -23,5 +23,5 @@ The first option returns the broadest results and is the **recommended one**. Ho
 On the left-hand side of the keyword match window, there is a **list of all words present in the found keywords**, sorted by the number of occurrences or volume. You can use this list, e.g., if you're looking for some inspiration for calculator texts.
 
 .. tip:: 
-  If you're interested in **question-based keywords** for an :ref:`FAQ section<faqGuide>`, consider changing option *All* to *Questions* next to the *Broad Match* button.
+  If you're interested in **question-based keywords** for an FAQ section, consider changing option *All* to *Questions* next to the *Broad Match* button.
 
