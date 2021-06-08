@@ -1,7 +1,7 @@
 Text styling guide
 =================================================
 
-[Description]
+The style of writing should be someone consistant across Omni. These are the rules.
 
 .. toctree::
     :maxdepth: 2
