@@ -6,7 +6,7 @@ SEMrush
   :alt: shows the most interesting buttons for keywords research and new calculators ideas
   :align: center 
   
-    The main view of the SEMrush dashboard as for June, 2021.
+  The main view of the SEMrush dashboard as for June, 2021.
 
 In Omni Calculator, we use `SEMrush <https://www.semrush.com/>`_ for the United States only and assume other languages to have similar corresponding keywords' traffic. SEMrush offers at least three features that might be helpful for calculatorians:
 
