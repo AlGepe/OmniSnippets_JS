@@ -18,6 +18,10 @@ The **Preview tab** gives you a preview of the rendered HTML, so you can check y
 
 Finally, there is the **Global SEO** that performs other checks on your text, such as length, bullet list quality and alt text for images.
 
+.. warning::
+    The SEO checker **takes a few seconds to run when** you first open the calculator text editor page. Give it a chance to finish running before drawing any conclusions from the SEO checks.
+
+
 To learn more about each of these tabs, use these links:
 
 .. toctree::
