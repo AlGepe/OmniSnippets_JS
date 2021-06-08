@@ -5,7 +5,6 @@ Keyword match
 .. _semrushMatch:
 .. figure:: semrush_match.png
   :alt: shows the keyword match option
-  :width: 400
   :align: center 
   
     The Keyword Magic Tool in SEMrush: Broad Match option.
