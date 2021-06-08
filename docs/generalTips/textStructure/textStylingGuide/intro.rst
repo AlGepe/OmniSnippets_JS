@@ -11,5 +11,7 @@ Text styling guide
     capitalisation
     sectionNames
     lists
+    equations
+    tables
     internalLinks
     externalLinks
