@@ -1,5 +1,5 @@
 .. _unicodeSymbols:
-Unicode symbols (copy-paste)
+Unicode symbols
 =====================
 
 Here is the list of most commonly used symbols that you can simply copy and paste to the text:
