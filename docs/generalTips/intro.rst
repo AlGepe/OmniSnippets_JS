@@ -10,7 +10,12 @@ The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared the
 .. toctree::
     :maxdepth: 3
     
-    usefulStuff/intro
+    usefulStuff/omniLinks
+    usefulStuff/textWriting
+    usefulStuff/dictionaries
+    usefulStuff/unicodeSymbols
+    usefulStuff/tables
+    usefulStuff/pictures
     
 .. rubric:: Calculator and text
 
