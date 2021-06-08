@@ -13,7 +13,7 @@ SEMrush may provide large lists of keywords to choose from, but you cannot use t
   
 It would be best if you avoided keywords that our calculators cannot answer. These can be phrases asking about **real-time data**, e.g., the current temperature or currency conversion. Another kind of keywords you shouldn't use are those which ask for **specific products**, e.g., trademarked drugs or construction material.
 
-.. rubric:: Examples of good keywords
+.. rubric:: Examples of good keywords:
 
 - acceleration **formula**
 - mortgage **definition**
@@ -29,7 +29,7 @@ It would be best if you avoided keywords that our calculators cannot answer. The
 - square root **of 2**
 
 
-.. rubric:: Examples of bad keywords
+.. rubric:: Examples of bad keywords:
 
 - velocity (too general)
 - dividend synonym (we aren't a dictionary)
