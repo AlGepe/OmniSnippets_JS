@@ -63,6 +63,8 @@ To make a new unit switcher, go to *Add Unit Switcher* on the top panel. You nee
 .. note::
   If you want to create a new unit switcher, make sure **there isn't any similar, already existing one**. Sometimes you may only need to add one or more units to one of the current unit switchers.
   
+.. warning::
+  If you **add a unit** to an existing unit switcher, make sure **it's NOT available by default** (otherwise it'll appear in all calculators).
   
 Unit Switchers naming convension
 ----
