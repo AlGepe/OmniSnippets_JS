@@ -5,7 +5,11 @@ The following handbook aims to **gather all the knowledge** about the tools that
 
 The handbook was created by Dominik, Jack, Steve, and Wojtek, who shared the experience they gained during the work at Omni Calculator as calculatorians, reviewers, or proofreaders. We will update it regularly with all new features that come out at Omni Calculator with time. Any **feedback or requests** for new content should be directed to ..., the current editor of this guide. Enjoy the handbook!
 
+
+
 .. rubric:: Most useful links and copy-paste stuff
+
+The content of this section provides links and templates that every calculatorian may need during everyday work.
 
 .. toctree::
     :maxdepth: 2
@@ -15,13 +19,15 @@ The handbook was created by Dominik, Jack, Steve, and Wojtek, who shared the exp
     
 .. rubric:: Calculator and text
 
+This section will undoubtedly help you if you don't remember some onboarding information about how our calculator's creator works, or you just want to remind it. You can also find there the text styling and FAQ guides.
+
 .. toctree::
     :maxdepth: 2
     
+    adminBB/intro
     calculatorPage/intro
     calculatorStructure/intro
     textStructure/intro
-    adminBB/intro
 
 .. rubric:: Omni tools
  
