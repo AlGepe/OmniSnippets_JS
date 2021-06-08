@@ -10,3 +10,4 @@ How to pick questions?
     interesting
     order
     google_check
+    pickSummary
