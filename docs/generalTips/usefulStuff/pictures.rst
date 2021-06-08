@@ -1,5 +1,5 @@
 .. _pictures:
-Pictures (copy-paste)
+Pictures
 =====================
 
 Check the following sites to download and edit images:
