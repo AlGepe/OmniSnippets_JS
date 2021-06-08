@@ -36,6 +36,3 @@ You should avoid keywords that our calculators cannot answer. These can be phras
 - acceleration clause (unrelated to the main topic)
 - quilting fabric (we're not a shop)
 - best weight loss pills (trademarked products)
-
-.. tip::
-  To be sure you won't miss good keywords, prepare the list of relevant words and use the *include keywords* filter in SEMrush with *Any keywords* option. Below is an example of such a list that you can copy-paste into the SEMrush: [formula]\[definition]\[equation]\[meaning]\[unit]\[graph]\[chart]\[example]\[how]\[calculate]\[calculator]\[what]. However, be sure to check other phrases as well! Maybe you will find some more interesting keywords which we haven't included here. 
