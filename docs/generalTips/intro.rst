@@ -31,6 +31,8 @@ This section will undoubtedly help you if you don't remember some onboarding inf
 
 .. rubric:: Omni tools
  
+Apart from the calculator's creator, we also use plenty of other tools. Here you can find the purpose, descriptions, and instructions of all of them.
+ 
 .. toctree::
     :maxdepth: 2
 
@@ -43,6 +45,8 @@ This section will undoubtedly help you if you don't remember some onboarding inf
     
     
 .. rubric:: Miscellaneous
+
+The other topics the calculatorians might be interested in.
  
 .. toctree::
     :maxdepth: 2
