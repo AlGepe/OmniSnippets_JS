@@ -5,17 +5,17 @@ The following handbook's purpose is to gather all the knowledge about the tools 
 
 The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared their experience they gained during the work at Omni Calculator as calculatorians, reviewers, and/or proofreaders. We will update it regularly with all new features that comes out at Omni Calculator with time. Any feedback or requests for new content should be directed to NAME OF THE EDITOR who is the editor of this guide. Enjoy the handbook!
 
-.. rubric:: Most useful links and copy-paste stuff
+.. rubric:: Most useful links and copy-paste stuff (work in progress)
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 3
     
     usefulStuff/intro
     
 .. rubric:: Calculator and text
 
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
     
     calculatorPage/intro
     calculatorStructure/intro
@@ -25,7 +25,7 @@ The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared the
 .. rubric:: Omni tools
  
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
     semrush/intro
     trello/intro
@@ -38,7 +38,7 @@ The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared the
 .. rubric:: Miscellaneous
  
 .. toctree::
-    :maxdepth: 4
+    :maxdepth: 2
 
     marketing/intro
     projects/intro
