@@ -1,5 +1,5 @@
 .. _tables:
-Tables (copy-paste)
+Tables
 =====================
 
 If you want to **use the table from the other website or your spreadsheet**, you don't need to rewrite it - tools exist which can do it for you, e.g. `CSV to HTML converter <https://codebeautify.org/csv-to-html-converter>`__. Sometimes the formatting fails and ctrl-c, ctrl-v from website doesn't work so nicely, then first copy the table to the spreadsheet and from there to the converter tool.
