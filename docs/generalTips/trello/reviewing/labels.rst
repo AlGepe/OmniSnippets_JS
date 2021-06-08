@@ -21,5 +21,5 @@ These are currently used labels (person who adds):
 * **Violet** — Kick-Ass Project (calculatorian if the calculator is a part of this project);
 * **Blue** — not published yet (proofreader, this calculator is done and proofread but sometimes we want to postpone the publishing for a specific date);
 * **Pale Green** — Speed run (calculatorian if the calculator is a part of this project) ;
-* **Pink** — add links & FAQ (proofreader, a **week after publishing the tool**; calculatorian adds links **to this new calculator** in at least 3 old, published tools, and **does the FAQs snippets and questions check**);
+* **Pink** — add links & FAQ (proofreader; a **week after publishing the tool** the calculatorian adds links **to this new calculator** in at least 3 old, published tools, and **does the FAQs snippets and questions check**);
 * **Black** — Under development (calculatorian, optional - e.g., you can distinguish between calculators you're currently working on and the ones you're planning to make in the future).
