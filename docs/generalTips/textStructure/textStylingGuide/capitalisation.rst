@@ -1,3 +1,6 @@
+Capitalisation
+---------------
+
 There a few rules regarding capitalisation:
 * Any new line, including new paragraphs, a new line after a colon, new entries in a bullet point list, etc, should begin with a capital.
 * When describing the variables of an equation, please capitalise the first letter after the hyphen (you can check the “Equations and their variables” section for an example.
