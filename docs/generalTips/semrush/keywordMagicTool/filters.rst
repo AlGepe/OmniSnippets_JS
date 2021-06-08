@@ -17,7 +17,7 @@ The most popular topics often comprise thousands of keywords to choose from. To 
 
 .. tip::
   To be sure you won't miss good keywords, prepare the list of relevant words and use the *include keywords* filter in SEMrush with *Any keywords* option. Below is an example of such a list that you can copy-paste into the SEMrush. However, be sure to check other phrases as well! Maybe you will find some more interesting keywords which we haven't included here.
-  [formula]
+  ``[formula]
   [definition]
   [equation]
   [meaning]
@@ -28,4 +28,4 @@ The most popular topics often comprise thousands of keywords to choose from. To 
   [how]
   [calculate]
   [calculator]
-  [what]. 
+  [what]``. 
