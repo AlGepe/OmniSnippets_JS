@@ -5,7 +5,7 @@ The following handbook's purpose is to gather all the knowledge about the tools 
 
 The handbook was created by four Dominik, Jack, Steve, and Wojtek who shared their experience they gained during the work at Omni Calculator as calculatorians, reviewers, and/or proofreaders. We will update it regularly with all new features that comes out at Omni Calculator with time. Any feedback or requests for new content should be directed to NAME OF THE EDITOR who is the editor of this guide. Enjoy the handbook!
 
-.. rubric:: Most useful links and copy-paste stuff (work in progress)
+.. rubric:: Most useful links and copy-paste stuff
 
 .. toctree::
     :maxdepth: 3
