@@ -15,12 +15,15 @@ The **Details** section of calculator edit contains all of its main properties, 
 Slug
 ----
 
-The slug is the end part of the URL of your calculator's page on the website. It usually the same as the name of the calculator, but with all lower case letters and hyphens replacing spaces.
+The slug is the **last part of the URL** of your calculator's page on the website. It's usually the same as the name of the calculator, but with all lower case letters and hyphens replacing spaces.
 
-Slugs are unique site-wide, even if the calculators are in different categories. You will get an error message on saving if the slug is unavailable.
+Slugs are **unique site-wide**, even if the calculators are in different categories. You will get an error message on saving if the slug is unavailable.
 
 .. tip::
   When creating a new calculator, just type in the **name** of the calculator and a slug will be automatically generated based on it. Pretty clever, right?
+
+.. warning::
+  **DON'T change the slug of a published calculator!** Doing so will negatively affect it's ranking on search engines, break any links that have been sent out to journalists or people's bookmarks.
 
 
 Slug rules
