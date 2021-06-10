@@ -3,10 +3,23 @@
 Pictures
 =====================
 
-To enrich your text, you can add pictures:
+To enrich your text, you can add pictures. Here's how.
 
-1. **Directly from a website**, e.g., ``<img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Circle_lines.png">``
-2. **From our FTP server**, e.g., ``<img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png">`` (detailed instruction on uploading images in the next section and  `here <https://docs.google.com/document/d/1zdk0Okjp0mDSbiWrcYOotvjizX-H0NO_hifuoRtkjTU/edit>`_)
+1. **Directly from a website**, e.g.:
+
+   .. code-block:: html
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Circle_lines.png">
+
+   **Please don't do this with any old website.** It has to be able to serve the image quickly to our users, which Wikipedia does. If in doubt, upload the image to our FTP server. 
+
+2. **From our FTP server**, e.g.:
+  
+   .. code-block:: html
+
+    <img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png">
+      
+   Detailed instructions on uploading images are the section `How to upload pictures?`_ below.
 
 **Important attributes**
 
@@ -36,7 +49,7 @@ How to upload pictures?
 
 1. Download Filezilla Client: https://filezilla-project.org
 2. Install it on your computer.
-3. Log in (details in the "`Shared Accounts <https://docs.google.com/document/d/1zdk0Okjp0mDSbiWrcYOotvjizX-H0NO_hifuoRtkjTU/edit>`_" file).
+3. Log in (details in the "`Omni Common <https://drive.google.com/drive/u/0/folders/1CW8H5OP9cdzvHRyO7IJR2tKHkBD20jUy>`_ → Shared Accounts" file).
 4. Put the pictures you want to upload in the “images” folder. Make sure that the pictures are open source (good sources are, e.g., `www.pexels.com <https://www.pexels.com/>`_ or https://unsplash.com) and that they’re not too large (ideally less than 100 KB — you can decrease their file size by using, e.g., https://tinypng.com).
 5. The images are available at the following URL: ``https://uploads-cdn.omnicalculator.com/folder_name/file_name``. For example: https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png
 6. You can now add the image to the text using the ``img`` tag, as discussed in the previous section. Here's another example: 
@@ -55,7 +68,7 @@ Free to use pictures resources
 Stock photo account
 -------------------
 
-Omni has an account with `Depositphotos <https://depositphotos.com/>`_. See the `shared accounts <https://docs.google.com/document/d/1zdk0Okjp0mDSbiWrcYOotvjizX-H0NO_hifuoRtkjTU/edit>`_ file for login details.
+Omni has an account with `Depositphotos <https://depositphotos.com/>`_. See the "`Omni Common <https://drive.google.com/drive/u/0/folders/1CW8H5OP9cdzvHRyO7IJR2tKHkBD20jUy>`_ → Shared Accounts" file for login details.
 
 How to attribute the author?
 ----------------------------
