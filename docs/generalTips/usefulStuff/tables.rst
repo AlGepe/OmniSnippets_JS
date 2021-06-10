@@ -1,4 +1,5 @@
 .. _tables:
+
 Tables
 =====================
 
@@ -17,12 +18,12 @@ The procedure for the given converter:
   
 The most important tags:
 
- - ``<table>`` … ``</table>`` — creating table;
- - ``<thead>`` … ``</thead>`` — grouping header content;
- - ``<tbody>`` … ``</tbody>`` — grouping the body content;
- - ``<th>`` … ``</th>`` — header cell of a table; 
- - ``<tr>`` … ``</tr>`` — row of a table;
- - ``<td>`` … ``</td>`` — cell of a table.
+- ``<table>`` … ``</table>`` — creating table;
+- ``<thead>`` … ``</thead>`` — grouping header content;
+- ``<tbody>`` … ``</tbody>`` — grouping the body content;
+- ``<th>`` … ``</th>`` — header cell of a table; 
+- ``<tr>`` … ``</tr>`` — row of a table;
+- ``<td>`` … ``</td>`` — cell of a table.
 
 Currently, we use ``<center>`` inside ``<th>`` and ``<td>`` tags for centering the text in the cells.
  

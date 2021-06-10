@@ -1,20 +1,21 @@
 .. _pictures:
+
 Pictures
 =====================
 
 Check the following sites to download and edit images:
 
- * `<pexels.com>`__ and `<unsplash.com>`__ — databases with free pictures;
- * `<tinyjpg.com>`__ — reducing the image size.
+* `<pexels.com>`__ and `<unsplash.com>`__ — databases with free pictures;
+* `<tinyjpg.com>`__ — reducing the image size.
 
 
 How to resize an image?
-----
+-----------------------
 
 To resize pictures, you'll need:
 
- * **paint.NET** (desktop application for Windows). You can download it `here <https://www.getpaint.net/>`__.
- * **tinyjpg.com** (web application).
+* **paint.NET** (desktop application for Windows). You can download it `here <https://www.getpaint.net/>`__.
+* **tinyjpg.com** (web application).
  
 Repeat these steps for every image:
  
