@@ -100,9 +100,38 @@ If the variable is to be a dropdown menu, rather than a number, here you select 
 Round to
 ^^^^^^^^
 
-Here you can select the **rounding** of variable values. You have a choice of different levels of relative error (the magic ones) or 0 to 10 decimal places.
+Here you can select the **rounding** of variable values. You have a choice of different levels of **relative rounding** (the magic 1/n ones) or 0 to 10 **decimal places**.
 
-When choosing **magic rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short.
+Magic rounding
+""""""""""""""
+
+**Magic rounding** means that the difference between the rounded and original number may not be larger than 1/nth (for example 1/100) of the original number.
+
+Magic rounding is **relative** — it works differently on large numbers and small ones. The flaw of regular rounding is that while it’s OK to round ``1.55334`` to 2 decimal places, it’s far too precise to round ``9992383829238.234234234`` the same way and far too imprecise to round ``0.0000000000023423`` like that.
+
+Let's have a look at the effect of different magic rounding settings on the number ``2/3`` and ``4444.444 recurring``.
+
++------------------------+--------------------------+-----------------------------------------+
+| **Round to setting**   | **2/3 becomes...**       | **4444.444 recurring becomes...**       |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/10             | 0.7                      | 4,444                                   |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/100            | 0.67                     | 4,444                                   |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/1k             | 0.667                    | 4,444                                   |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/10k            | 0.667                    | 4,444                                   |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/100k           | 0.66667                  | 4,444.4                                 |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/1M             | 0.666667                 | 4,444.44                                |
++------------------------+--------------------------+-----------------------------------------+
+| magic 1/10M            | 0.6666667                | 4,444.444                               |
++------------------------+--------------------------+-----------------------------------------+
+
+The **default setting** for the **Round to** attribute is ``magic 1/10k``, when no option is specifically selected.
+
+When choosing **magic rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short for the typical usage of the calculator.
 
 .. tip::
   🤑 For monetary values, it's usually a good idea to round to two decimal places.
