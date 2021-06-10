@@ -3,7 +3,11 @@
 Videos
 =====================
 
-You can embed videos, for example from YouTube, using this HTML code:
+.. note::
+  While you can embed videos directly in your texts, this **should generally only be done for marketing calculators**, due to the large file sizes associated with the video on first page load. You can of course include a :ref:`link <links>` to the video in your text.
+
+
+You can embed YouTube videos using the following HTML code:
 
 .. code-block:: html
 
@@ -27,3 +31,4 @@ You can embed videos, for example from YouTube, using this HTML code:
     <center>
       <video-embed src="https://www.youtube.com/embed/tpYnRwC1GaU"></video-embed>
     </center>
+
