@@ -308,7 +308,7 @@ Which will rendered like this:
 Code
 ----
 
-To write as code a word or equation within your text, surround the code with backticks (`````).
+To write as code a word or :ref:`equation <equations>` within your text, surround the code with backticks (`````).
 
 .. code::
 
@@ -413,23 +413,6 @@ You can optionally add a title for a link. This will appear as a tooltip when th
 Which results in:
 
 My favorite search engine is :raw-html:`<a href="https://duckduckgo.com" title="The best search engine for privacy">Duck Duck Go</a>`.
-
-URLS and email addresses
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
-
-.. code:: md
-
-  <https://www.markdownguide.org>
-
-  <fake@example.com>
-
-Who's output is:
-
-https://www.markdownguide.org
-
-fake@example.com
 
 Formatting links
 ^^^^^^^^^^^^^^^^
