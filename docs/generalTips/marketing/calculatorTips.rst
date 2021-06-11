@@ -5,7 +5,7 @@ Calculator tips
 
 We've gathered some of the best practices for creating a marketing calculator. Before you read them, I recommend you check out our best marketing calculators such as the `Christmas tree calculator <https://www.omnicalculator.com/other/christmas-tree>`_, `Pay gap calculator <https://www.omnicalculator.com/other/pay-gap-us>`_ or the `Plastic footprint calculator <https://www.omnicalculator.com/ecology/plastic-footprint>`_.
 
-Remember that we are building this tool in order to **help as many people as we can**.  Hence, you may need to **simplify** the calculator and the text as much as needed. And of course, be ready to receive feedback from the Marketing Team. 😉
+Remember that we are building this tool in order to **help as many people as we can**.  Hence, you may need to **simplify** the calculator and the text as much as needed. And of course, be ready to receive feedback from the Marketing Team™. 😉
 
 **Add a brief introduction at the top of the calculator**
 

@@ -35,7 +35,7 @@ We've gathered some of the best practices for writing marketing calculator texts
 
 **Keep it short and sweet.** Try not to go over **1500 words** — people won't read it.
 
-**Lastly, brace yourself for feedback.** This calculator might be your baby, but remember that you are creating it to help others. Hence, you might receive feedback and changes that you might not agree with. Don’t take it personally! **Trust the Marketing Team** 😊 They just want what’s best for your baby. And of course, **they’re open to your feedback too!**
+**Lastly, brace yourself for feedback.** This calculator might be your baby, but remember that you are creating it to help others. Hence, you might receive feedback and changes that you might not agree with. Don’t take it personally! **Trust the Marketing Team™** 😊 They just want what’s best for your baby. And of course, **they’re open to your feedback too!**
 
 Making marketing graphics (simple guidelines)
 ---------------------------------------------
@@ -49,4 +49,4 @@ Following these simple guidelines, you can ensure our graphics look unique from 
 5. Make sure the tone and background color of the graphic blends well with the **theme color of the calculator category**. For example, physics has dark pink, food has blue, everyday-life might have orange… etc. 
 
 .. tip::
-  **Pro-tip**: Go crazy with your imagination :) 
+  **Pro-tip**: Go crazy with your imagination 😀
