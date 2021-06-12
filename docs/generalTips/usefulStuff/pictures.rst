@@ -3,7 +3,7 @@
 Pictures
 =====================
 
-Due to performance issues, we try to keep our images as light as possible. We set our **upper limit to 100 kB for a single illustration**.
+Due to performance issues, we try to keep our images as light as possible. We set our **upper limit to 100 KB for a single illustration**.
 
 Before resizing, check the following sites to download and edit images:
 
@@ -11,7 +11,7 @@ Before resizing, check the following sites to download and edit images:
 * `<tinyjpg.com>`__ — reducing the image size.
 
 .. note::
-  If the image is in **jpg** or **png** format, you should go through the `<tinyjpg.com>`__ **always, even if its size is already below the 100 kB**.
+  If the image is in **jpg** or **png** format, you should go through the `<tinyjpg.com>`__ **always, even if its size is already below the 100 KB**.
 
 
 How to resize an image?
