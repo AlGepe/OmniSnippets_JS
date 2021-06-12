@@ -1,7 +1,20 @@
 Trello
 =================================================
 
-[Description]
+Trello helps us organize our work better. It keeps the *creating-reviewing-publishing calculators* process clear and efficient.
+
+.. _introTrello:
+.. figure:: intro_trello.png
+    :alt: Calculators Schedule Trello page.
+    :align: center
+    
+    Calculators Schedule Trello page
+
+Each calculatorian owns a **personal list**. Every list consists of separate **cards, one for each calculator**.
+
+.. note::
+  Rememeber - Trello information should be always **up to date**.
+
 
 .. toctree::
     :maxdepth: 3
@@ -10,4 +23,5 @@ Trello
     reviewing/intro
     faq
     links
+    archive
     
