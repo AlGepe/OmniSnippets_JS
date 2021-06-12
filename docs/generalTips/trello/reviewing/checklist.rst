@@ -6,8 +6,9 @@ Before sending a calculator to review, make sure to **complete all necessary tas
 
 Most of the tasks are self-explanatory, so here is the list of less obvious ones:
 
-1. **additional text to proofread?** — if you display some text message or the combination of sentences **with customJS**, check this option. You can also mention about all possible calculator outcomes to make proofreaders' lifes easier.
-2. **VPN check** — if you're using different default metric and imperial units, check this task. One of possible ways to do so: 
+1. **Mobile device check** — open the **calculator web page on your mobile device** to check if all the lebels are **well-displayed**, you can input values in every field, choose any option from every Value Select, and see if any additional HTML output is **legible and fits the screen**. Also, skim the text and make sure all the **equations and pictures displays fine**. 
+2. **additional text to proofread?** — if you display some text message or the combination of sentences **with customJS**, check this option. You can also mention about all possible calculator outcomes to make proofreaders' lifes easier.
+3. **VPN check** — if you're using different default metric and imperial units, check this task. One of possible ways to do so: 
  * Open Opera browser;
  * Go to **incognito mode** (``Ctrl`` + ``Shift`` + ``n``);
  * Click *VPN* button on the search bar;
@@ -15,4 +16,4 @@ Most of the tasks are self-explanatory, so here is the list of less obvious ones
  * If you're using **metric units by default - set US as the virtual location**, if you're using **imperial units by default - set Europe**;
  * Open calculator's web page; and
  * Check if everything works as it should.
-3. **FAQ** — add **at least 4** Question-Answer pairs (ideally 5-7) according to the `FAQ guide <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/faq/intro.html>`_.
+4. **FAQ** — add **at least 4** Question-Answer pairs (ideally 5-7) according to the `FAQ guide <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/faq/intro.html>`_.
