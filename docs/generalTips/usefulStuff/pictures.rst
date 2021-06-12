@@ -3,19 +3,27 @@
 Pictures
 =====================
 
-Check the following sites to download and edit images:
+Due to performance issues, we try to keep our images as light as possible. We set our **upper limit to 100 kB for a single illustration**.
+
+Before resizing, check the following sites to download and edit images:
 
 * `<pexels.com>`__ and `<unsplash.com>`__ — databases with free pictures;
 * `<tinyjpg.com>`__ — reducing the image size.
+
+.. note::
+  If the image is in **jpg** or **png** format, you should go through the `<tinyjpg.com>`__ **always, even if its size is already below the 100 kB**.
 
 
 How to resize an image?
 -----------------------
 
-To resize pictures, you'll need:
+Here we present one of the possible ways to change the illustration size. To resize pictures, you'll need:
 
 * **paint.NET** (desktop application for Windows). You can download it `here <https://www.getpaint.net/>`__.
 * **tinyjpg.com** (web application).
+
+.. note::
+  Feel free to use any other image-editing software you're comfortable with. Treat this instruction as an example of what you should pay attention to. 
  
 Repeat these steps for every image:
  
