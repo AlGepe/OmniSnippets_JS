@@ -1,0 +1,5 @@
+.. _archive:
+Archiving cards
+=====================
+
+...
