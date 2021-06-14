@@ -1,6 +1,7 @@
 .. _links:
+
 Links from previous calculators
-=====================
+===============================
 
 One week after publishing a calculator, you should choose **three of our existing tools** and **add internal links to the new calculator**. 
 
@@ -10,3 +11,6 @@ When you’re done, mark the additional point on the checklist "add at least 3 l
 
 .. note::
   In general, older calculators have fewer links than the recent ones so consider **choosing at least one or two tools that were published a long time ago**. It'll help us keep **the saturation of internal links comparable** among all our calculators.
+
+.. tip::
+  You **don't need to be the author** of these previous calculators you link from. It could be one of Matt's original calculators. That's fine.
