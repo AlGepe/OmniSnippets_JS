@@ -57,6 +57,8 @@ Name rules
 
 *Examples of bad names:* bmi calculator, Ideal Transformer Calculator.
 
+.. _detailsPurpose:
+
 Purpose
 -------
 
@@ -96,6 +98,8 @@ This setting controls whether adverts are displayed on the calculator page. You 
 
 .. note::
   Marketing calculators usually start off with not showing ads while pitches are being sent to journalists. Once the traffic picks up, adverts will usually be turned on.
+
+.. _detailsParentRedundantCalc:
 
 Parent of redundant calculator
 ------------------------------

@@ -1,4 +1,5 @@
 .. _calculators:
+
 Calculators
 =====================
 
@@ -20,30 +21,30 @@ The upper panel of the edit calculator page contains the following items on the 
 
 
 Search panel
-----
+------------
 
 You can search a calculator by the **name** or **id**:
 
-* Typing a **string** returns all the calculators with this phrase in their names (it can also be a part of the word, not necessary the exact match).
-* Typing a **number** returns only the calculator with this id (if only it exist).
+* Typing a **string** returns all the calculators with this phrase in their names (it can also be a part of the word, not necessarily an exact match).
+* Typing a **number** returns only the calculator with this id (only if it exists).
 
 .. _calculatorsSearchExample:
 .. figure:: calculators_search_example.png
     :alt: The example of using the search panel.
     :align: center
 
-    The example of using the search panel. See that names with words containing the phrase **car**, e.g. **carrier**, show up as well
+    The example of using the search panel. See that names with words containing the phrase **car**, e.g. **carrier**, show up as well.
 
 Filters
-----
+-------
 
-By defininig some of these filters you can limit the search results depending on your needs:
+By defining some of these filters you can limit the search results depending on your needs:
 
 * **Is published** — *Yes* shows published calculators, *No* shows unpublished ones.
-* **Purpose** — you can choose between *production*, *non production*, *temporary*, or *unassigned*. You can check the descriptions `here  <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorStructure/details.html#purpose>`__.  
+* **Purpose** — you can choose between *production*, *non production*, *temporary*, or *unassigned*. You can check the descriptions :ref:`here  <detailsPurpose>`.  
 * **Categories** — shows calculators within chosen category.
 * **Author** — shows calculators of selected author. 
-* **Redundant** — *Yes* shows `redundant  <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorStructure/details.html#parent-of-redundant-calculator>`_ calculators, *No* shows all the others.
+* **Redundant** — *Yes* shows :ref:`redundant  <detailsParentRedundantCalc>` calculators, *No* shows all the others.
 * **Faq count** — shows calculators with FAQs in given range.
 * **Updated at** — shows calculators which were updated between given dates.
 * **Published at** — shows calculators published between given dates.
@@ -51,7 +52,7 @@ By defininig some of these filters you can limit the search results depending on
 Selecting multiple options for one field shows every calculator that matches **at least one of them**. For instance, if you choose two authors, you'll see **all** of their calculators - they don't have to be co-authors of any 😉.
 
 Columns
-----
+-------
 
 Here you can decide which calculators' attributes you want to see. **Name** is always visible and you can choose which of the remaining ones are important for you. These are:
 
@@ -69,7 +70,7 @@ Here you can decide which calculators' attributes you want to see. **Name** is a
   You can always come back to *default* setting by pressing **Reset** button.
 
 Editing and deleting calculator 
-----
+-------------------------------
 
 .. _calculatorsLinks:
 .. figure:: calculators_links.png
@@ -80,10 +81,10 @@ Editing and deleting calculator
 
 There are a few clickable elements that let you interact with a calculator:
 
-* **Calculator's name** — a link to  `calculator's edit page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorStructure/intro.html>`__; 
-* **Paragraph symbol** — a link to  `calculator's text edit page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/editCalculatorText/intro.html>`__; 
-* **Internet Explorer symbol** — a link to  `calculator's web page <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorPage/intro.html>`__; 
+* **Calculator's name** — a link to  :ref:`calculator's edit page <editCalculator>`;
+* **Paragraph symbol** — a link to  :ref:`calculator's text edit page <editCalculatorText>`;
+* **Internet Explorer symbol** — a link to  :ref:`calculator's web page <calculatorPage>`;
 * **Trash bin icon** 🗑️ — lets you **remove the calculator**. To do so, you need to confirm the action by entering the calculator's slug.
 
 .. warning::
-  **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change its purpose to **temporary** as these will disapear sometime in the future.
+  **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change its purpose to **temporary** as these will disappear sometime in the future.

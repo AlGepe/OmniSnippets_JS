@@ -44,6 +44,8 @@ To enrich your text, you can add pictures. Here's how.
 
 You may also use :ref:`Markdown syntax to add images <markdownImages>` to your texts.
 
+.. _textEditorPicturesUpload:
+
 How to upload pictures?
 -----------------------
 

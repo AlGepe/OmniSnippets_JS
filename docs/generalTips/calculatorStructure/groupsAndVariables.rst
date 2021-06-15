@@ -150,6 +150,8 @@ Choose the units for the variable from the list. Start typing in the unit switch
 
 :ref:`Unit switchers <unitSwitchers>` can be edited and added on the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to ask someone before making any changes, as they might affect other calculators.
 
+.. _groupsAndVariablesWorksInReverse:
+
 Works in reverse checkbox
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 

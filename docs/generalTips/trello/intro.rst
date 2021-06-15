@@ -5,6 +5,7 @@ Trello helps us organize our work better. It keeps the *creating-reviewing-publi
 
 .. _introTrello:
 .. figure:: intro_trello.png
+    :width: 100%
     :alt: Calculators Schedule Trello page.
     :align: center
     
@@ -13,7 +14,7 @@ Trello helps us organize our work better. It keeps the *creating-reviewing-publi
 Each calculatorian owns a **personal list**. Every list consists of separate **cards, one for each calculator**.
 
 .. note::
-  Rememeber - Trello information should be always **up to date**.
+  Remember — Trello information should be always **up to date**.
 
 
 .. toctree::

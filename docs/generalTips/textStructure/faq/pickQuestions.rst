@@ -1,6 +1,7 @@
 .. _pickQuestions:
+
 How to pick questions?
-=====================
+======================
 
 .. toctree::
     :maxdepth: 3

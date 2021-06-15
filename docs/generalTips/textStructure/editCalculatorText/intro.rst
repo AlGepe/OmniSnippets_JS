@@ -1,3 +1,5 @@
+.. _editCalculatorText:
+
 Edit calculator text
 =================================================
 
@@ -5,10 +7,11 @@ This section of the Handbook is about how to **technically** write your calculat
 
 .. _editCalculatorTextIntroImg:
 .. figure:: intro.png
-   :alt: an example of the edit calculator text page 
-   :align: center
+  :width: 100%
+  :alt: an example of the edit calculator text page 
+  :align: center
 
-   An example of the edit calculator text page.
+  An example of the edit calculator text page.
 
 
 It explains each section of the edit text page in detail:

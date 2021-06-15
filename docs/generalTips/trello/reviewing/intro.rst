@@ -1,3 +1,5 @@
+.. _reviewingProcedure:
+
 Reviewing procedure
 =================================================
 

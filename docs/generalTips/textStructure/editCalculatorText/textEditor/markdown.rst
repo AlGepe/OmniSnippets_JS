@@ -75,6 +75,8 @@ Lists
 
 Lists can either be ordered (numbered) or unordered (bullet point list).
 
+.. _markdownOrderedLists:
+
 Ordered lists
 ^^^^^^^^^^^^^
 
@@ -131,6 +133,8 @@ While you can define an ordered list using a parenthesis instead of a period, it
 |   3. Third item        |   3) Third item        |
 |   4. Fourth item       |   4) Fourth item       |
 +------------------------+------------------------+
+
+.. _markdownUnorderedLists:
 
 Unordered lists
 ^^^^^^^^^^^^^^^

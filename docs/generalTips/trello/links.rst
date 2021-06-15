@@ -1,4 +1,4 @@
-.. _links:
+.. _trelloLinks:
 
 Links from previous calculators
 ===============================

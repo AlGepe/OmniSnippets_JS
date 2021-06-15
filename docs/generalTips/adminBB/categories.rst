@@ -1,14 +1,15 @@
 .. _categories:
+
 Categories
 =====================
 
-In this tab you can see a **list of all categories and their ids**. Categories and subcategories **help us organize calculators by similar topics** and **navigate them on the main page**. A calculator can be assigned only to **one category**.
+In this tab you can see a **list of all categories and their ids**. Categories and subcategories **help us organize calculators by similar topics** and **navigate to them from the main page**. A calculator can be assigned only to **one category**.
 
 The list of current categories:
 
 * Biology;
 * Chemistry;
-* Constraction;
+* Construction;
 * Conversion;
 * Ecology;
 * Everyday life;
@@ -18,7 +19,7 @@ The list of current categories:
 * Math;
 * Other;
 * Physics;
-* Sports;
+* Sports; and
 * Statistics.
 
 .. note::

@@ -1,5 +1,0 @@
-.. _users:
-Users
-=====================
-
-[description]

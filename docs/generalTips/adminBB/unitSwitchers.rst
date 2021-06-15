@@ -1,8 +1,9 @@
 .. _unitSwitchers:
+
 Unit switchers
 =====================
 
-Unit switchers make our life easier as they provide us the **list of units we can switch between without worrying about proper conversion rates**.
+Unit switchers make our life easier as they provide us with the **list of units we can switch between without worrying about proper conversion rates**.
 
 In this unit switchers menu, you can check all of the existing unit switchers or create new ones.
 
@@ -27,7 +28,7 @@ There are the following fields:
 
 
 Units' attributes
-----
+-----------------
 
 Here is the list of units' fields you can edit:
 
@@ -43,7 +44,7 @@ Here is the list of units' fields you can edit:
 * **Full name** — expansion of the abbreviation/acronym.
 * **Slug** — a unique attribute that helps distinguish between units and prevents duplicates.
 * **Vaule** — a conversion rate between units. The default unit has value ``v``. For instance, if the default unit is ``meter (m)``, then the value for ``centimeter (cm)`` is ``100*v``. 
-* **Reversed name (singular)** — usually the same as **Name** unless there is a difference between singular and plural. It's used when the box `Works in reverse <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/calculatorStructure/groupsAndVariables.html#works-in-reverse-checkbox>`__ is checked.
+* **Reversed name (singular)** — usually the same as **Name** unless there is a difference between singular and plural. It's used when the box ":ref:`Works in reverse <groupsAndVariablesWorksInReverse>`" is checked.
 * **Reversed full name** — the analogous relationship as between **Full name** and **Name**.
 * **Comment** — use it, e.g., to explain a specific application of the unit.
 * **Available by default** — check the box for commonly used variables or leave it empty for less popular ones.
@@ -52,11 +53,11 @@ Here is the list of units' fields you can edit:
   **Name**, **slug**, and **value** are **obligatory** fields for every unit. The remaining attributes are optional.
 
 
-When you choose **Collapse all** only the name, full name, and slug will be visible. To see all of the others, you need to select **Show all** option.
+When you choose **Collapse all**, only the name, full name, and slug will be visible. To see all of the others, you need to select **Show all** option.
 
 
 Add Unit Switcher
-----
+-----------------
 
 To make a new unit switcher, go to *Add Unit Switcher* on the top panel. You need to **input the obligatory fields for at least one unit**. Click the *Save* button and a brand new unit switcher comes to live!
 
@@ -66,12 +67,12 @@ To make a new unit switcher, go to *Add Unit Switcher* on the top panel. You nee
 .. warning::
   If you **add a unit** to an existing unit switcher, make sure **it's NOT available by default** (otherwise it'll appear in all calculators).
   
-Unit Switchers naming convension
-----
+Unit Switchers naming convention
+--------------------------------
 
 Ideally, the unit switcher's name should be self-explanatory and easy to find. A good name may also involve:
 
-* Most common units;
+* Most common units; and
 * Default unit.
 
-Sometimes, we add a prefix *zzz*, *xxx*, or others, to the unit swhitcher's name. It indicates that this unit switcher is **designed for a specific calculator** and it's **pretty unlikely it'll be used more often in the future**.
+Sometimes, we add a prefix *zzz*, *xxx*, or others, to the unit switcher's name. It indicates that this unit switcher is **designed for a specific calculator** and it's **pretty unlikely it'll be used more often in the future**.

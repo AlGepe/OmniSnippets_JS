@@ -1,5 +1,7 @@
+.. _relatednessToOmni:
+
 Relatedness to Omni
-------------
+-------------------
 
 While this is unfortunately not an easily quantifiable variable, there are some guidelines to follow. Questions that are related to **how to do things, calculations, specific examples and where a specific answer is required** are all extremely desirable because Google trusts us to be good suppliers of this kind of material. For example, the question “How do you calculate wavelength from wavenumber?” is better than “What colour is the longest visible wavelength?”, even though the latter is concerned with science as well. 
 

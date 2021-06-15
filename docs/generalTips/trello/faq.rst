@@ -1,8 +1,9 @@
 .. _faq:
+
 FAQ check
 =====================
 
-One week after publishing a calculator, you should make the `FAQ check <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/faq/checkResults.html>`__. 
+One week after publishing a calculator, you should make the :ref:`FAQ check <checkResults>`. 
 
 When you're done, remove the label from the card.
 

@@ -1,3 +1,5 @@
+.. _textEditorIntro:
+
 Simple editor and syntax highlight editor
 =================================================
 

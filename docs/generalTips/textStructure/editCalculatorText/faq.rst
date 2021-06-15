@@ -49,6 +49,8 @@ Deleting an FAQ
 
 Press the **cross icon** to delete an FAQ. You will be asked if you are sure you wish to delete it, to avoid mistakenly deleting FAQs.
 
+.. _faqReferencingFAQinMainText:
+
 Referencing an FAQ in the main text
 -----------------------------------
 

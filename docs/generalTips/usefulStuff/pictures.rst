@@ -7,19 +7,19 @@ Due to performance issues, we try to keep our images as light as possible. We se
 
 Before resizing, check the following sites to download and edit images:
 
-* `<pexels.com>`__ and `<unsplash.com>`__ — databases with free pictures;
-* `<tinyjpg.com>`__ — reducing the image size.
+* `pexels.com <https://www.pexels.com/>`_ and `unsplash.com <https://unsplash.com/>`_ — databases with free pictures;
+* `tinyjpg.com <https://tinyjpg.com/>`_ — reducing the image size.
 
 .. note::
-  If the image is in **jpg** or **png** format, you should go through the `<tinyjpg.com>`__ **always, even if its size is already below the 100 KB**.
+  If the image is in **jpg** or **png** format, you should go through the `tinyjpg.com <https://tinyjpg.com/>`_ **always, even if its size is already below the 100 KB**.
 
 
 How to resize an image?
 -----------------------
 
-Here we present one of the possible ways to change the illustration size. To resize pictures, you'll need:
+Here we present **one** of the possible ways to change the illustration size. To resize pictures, you'll need:
 
-* **paint.NET** (desktop application for Windows). You can download it `here <https://www.getpaint.net/>`__.
+* **paint.NET** (desktop application for Windows). You can download it `here <https://www.getpaint.net/>`_.
 * **tinyjpg.com** (web application).
 
 .. note::
@@ -77,7 +77,7 @@ Use **JPEG format** and **name the image understandably**. If the image is not a
     
 In the boxes you can see **quality level** (``0-100``) and **predicted file size**. We suggest to **set the quality around 50-60** → image quality is still good and its size is acceptable. If the image quality will be bad in that range, set its higher value. **Remember to not exceed 100 KB image size** (200 KB in extreme cases).
 
-6. Open `<tinyjpg.com>`__ and **upload the resized image**.
+6. Open `tinyjpg.com <https://tinyjpg.com/>`_ and **upload the resized image**.
 
 .. _picturesUpload:
 .. figure:: pictures_upload.png
@@ -98,5 +98,5 @@ You can simply drag and drop the image or load it from a folder. tiny.jpg will d
 You can see that some piece of image size was cut off.
 
 
-Now, the image is ready for `uploading via Omni FTP <https://omnigeneraltips.readthedocs.io/en/latest/generalTips/textStructure/editCalculatorText/textEditor/pictures.html#how-to-upload-pictures>`__!
+Now, the image is ready for :ref:`uploading via Omni FTP <textEditorPicturesUpload>`!
 
