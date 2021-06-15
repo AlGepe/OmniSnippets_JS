@@ -1,3 +1,5 @@
+.. _marketingCalculators:
+
 Marketing calculators
 =================================================
 
