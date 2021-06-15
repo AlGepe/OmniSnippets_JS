@@ -68,3 +68,5 @@ Tables can be embedded in the text using standard HTML table tags. Here, we will
 
 Another example: `Vapor Pressure of Water Calculator <https://bb.omnicalculator.com/content-editor/edit/1183>`_.
 
+For more information on the style required for tables, please check out the :ref:`Tables <textStructure/textStylingGuide/tables>` section in the Style Guide.
+
