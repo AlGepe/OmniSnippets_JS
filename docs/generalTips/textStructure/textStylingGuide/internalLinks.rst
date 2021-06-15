@@ -19,4 +19,4 @@ You can also explicitly state that the link to one of our tools, e.g., “if you
 
 Tip: You can also include a list of internal links as a “If you enjoyed this tool, you may also enjoy…” section.
 
-You should also go back to at least three already published calculators and add a link to your new calculator after it has been published. This is to ensure users can find our new tool. You’ll be prompted to do this on Trello.
+You should also go back to at least three already published calculators and add a link to your new calculator after it has been published. This is to ensure users can find our new tool. You’ll be prompted to do this on Trello. You can find more about this in the :ref:`Links from previous calculators <links>` section.
