@@ -10,7 +10,7 @@ Here are some general DOs and DON'Ts when creating any link from your text.
     :alt: example of the SEO title being too long
     :align: center
     
-For more tips on adding internal links, please visit the :ref:`Internal Link <generalTips/textStructure/textStylingGuide/internalLinks>` section
+For more tips on adding internal links, please visit the :ref:`Internal Link <internalLinks>` section
 
 Internal links — linking to other calculators
 ---------------------------------------------
