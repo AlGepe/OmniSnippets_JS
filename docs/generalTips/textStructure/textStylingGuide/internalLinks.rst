@@ -3,7 +3,7 @@
 Internal links
 --------------------
 
-For how to create links, please check out the :ref:`Links <links>` section.
+For how to create links, please check out the :ref:`Links <generalTips/textStructure/editCalculatorText/textEditor/links>` section.
 
 To improve the user’s experience and google’s ranking of our website, you are expected to include a minimum of 4-5 links to our other calculators. These calculators should generally be of a similar topic to your current tool, but feel free to get creative with links if you see a possible connection (e.g., a link from area of a circle to pizza). 
 
