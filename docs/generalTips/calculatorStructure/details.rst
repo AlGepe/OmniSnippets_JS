@@ -12,6 +12,9 @@ The **Details** section of calculator edit contains all of its main properties, 
 
     Example of the details section from the circumference calculator.
 
+
+.. _detailsSlug:
+
 Slug
 ----
 
@@ -40,6 +43,8 @@ Here are the rules to help you create a great slug:
 *Examples of good slugs*: ``sphere``, ``roi``, ``sodium-correction``
 
 *Examples of bad slugs*: ``spherevolumecalculator``, ``Return_on_Equity``, ``sodium-correction-for-hyper-and-hyponatremia``
+
+.. _detailsName:
 
 Name
 ----

@@ -1,4 +1,4 @@
-.. _equations:
+.. _calculatorStructureEquations:
 
 Equations
 =========
