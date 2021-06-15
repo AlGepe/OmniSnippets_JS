@@ -1,3 +1,5 @@
+.. _internalLinks:
+
 Internal links
 --------------------
 
