@@ -1,7 +1,7 @@
 Equation and their variables
 -----------------------
 
-Since here at Omni we calculate a lot of things, you will write a lot of equations. For a guide on how to write equations specifically, check out this :ref:`Equations <equations>` section.
+Since here at Omni we calculate a lot of things, you will write a lot of equations. For a guide on how to write equations specifically, check out this :ref:`Equations <textStructure/editCalculatorText/textEditor/equations>` section.
 
 Equations should be enclosed in the <code> tag or a backtick (`) to distinguish them. Subscript and superscript should be used as appropriate. Some equations are important and essential for proper understanding of the concept. These should also be on its own line in the text, not as part of a paragraph and include a description of the variables underneath, separated by a “where:”. The variables should be listed as bullet points, with the variables also surrounded with <code> or `. Then follows a hyphen and a description of the variable, with the first letter capitalised. If the values in the list are a sentence or less, use the “; and” convention; if not, use fullstops throughout. Here’s an example: 
 
