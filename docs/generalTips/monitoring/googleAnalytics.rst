@@ -14,6 +14,10 @@ Here's what we'll cover in this section of the Handbook.
 .. contents:: :local:
   :depth: 2
 
+.. tip::
+  If you prefer, you can **view** this content (apart from the last section) in `this presentation <https://omnic.slack.com/files/U2SDL2Z8E/F01NSB7D6PR/gmt20210224-125611_bogna-szyk_2560x1440.mp4>`_ given by Bogna. Please **skip to time code 17m:20s** to see the start of the presentation on GA. 
+
+
 Where did the traffic come from?
 --------------------------------
 
