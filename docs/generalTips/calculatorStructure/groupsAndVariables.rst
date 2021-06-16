@@ -52,10 +52,10 @@ Click on a variable to select it (turns dark blue) and its properties/attributes
 
 Here are is a summary of the **DOs and DON'TS** when it comes to variables:
 
-* DO **capitalize the first word** in each variable (but not more).
-* DO capitalize the first word in every header.
-* DO try to list the variables in a **logical order**; information supplied by the user should be at the top, the result — at the bottom.
-* DO make sure that you're **not using more units than necessary** - uncheck any you don't need from the variable's unit list.
+* DO **capitalize the first word** in each variable (but not more);
+* DO capitalize the first word in every header;
+* DO try to list the variables in a **logical order**; information supplied by the user should be at the top, the result — at the bottom;
+* DO make sure that you're **not using more units than necessary** - uncheck any you don't need from the variable's unit list; and
 * DO spend a few seconds thinking about the **default unit** and the **Imperial default unit** - which ones will make the most sense?
 
 
@@ -83,7 +83,7 @@ The suffix end text gets placed *after* any units symbol. Again, this is useful 
 Help text
 ^^^^^^^^^
 
-Enter text here to appear in a **tooltip when the user hovers over the variable label**. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. For guidance on help text is :ref:`here <calculatorGuideHelpTexts>`.
+Text inputted here will appear as a **tooltip when the user hovers over the variable label**. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. Guidance on help texts can be found :ref:`here <calculatorGuideHelpTexts>`.
 
 Default value
 ^^^^^^^^^^^^^
@@ -93,7 +93,7 @@ You can specify a default value for the variable, given in its default unit.
 Imperial def. value
 ^^^^^^^^^^^^^^^^^^^
 
-Set a **default value** for users in countries who use the Imperial measurement system (e.g., the US). The value should be given in the Imperial default unit.
+Set a **default value** for users in countries who use the Imperial measurement system (e.g., the US). The value should be given as the Imperial default unit.
 
 Generally, if you have set a **default unit** and you have specified an **Imperial default unit**, you should set an Imperial default value. Otherwise, your calculator may not work as expected in Imperial unit countries.
 
@@ -153,7 +153,7 @@ Unit switcher
 
 Choose the units for the variable from the list. Start typing in the unit switcher name to find the one you are looking for.
 
-:ref:`Unit switchers <unitSwitchers>` can be edited and added on the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to ask someone before making any changes, as they might affect other calculators.
+:ref:`Unit switchers <unitSwitchers>` can be edited and added to the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to ask someone before making any changes, as they might affect other calculators.
 
 .. _groupsAndVariablesWorksInReverse:
 
@@ -170,7 +170,7 @@ Set the default unit of the variable from the dropdown list. **A default unit al
 Imperial def. unit
 ^^^^^^^^^^^^^^^^^^
 
-Set an optional Imperial default unit. This will be the default unit displayed to users in countries who use the Imperial measurement system, e.g., the US.
+Set an optional Imperial default unit. This will be the default unit displayed to users in countries that use the Imperial measurement system, e.g., the US.
 
 Base unit
 ^^^^^^^^^
@@ -211,7 +211,7 @@ Click on the blue **More attributes** button to show even more variable attribut
 Auto saved
 ^^^^^^^^^^
 
-When checked, the **variable value will be saved** in a cookie on the user's browser. So next time the user comes back to the calculator, the last value they entered will be already displayed.
+When checked, the **variable value will be saved** in a cookie on the user's browser. So, next time the user comes back to the calculator, the last value they entered will be already displayed.
 
 This is useful for things that are not likely to change very often or by much, such as a person's **age**, **weight**, etc.
 
@@ -239,10 +239,10 @@ Field type
 
 This sets the type of the variable. Here are the currently available types:
 
-* ``default`` — regular **numbers**. This is the setting for the majority of variables.
-* ``date`` — allows the user to enter a **date**, using a calendar date picker or typing one in manually.
-* ``date \ time`` — allows the user to enter a **date and time**.
-* ``time`` — allows a user to enter a **time**, either using a time picker or entering it manually.
+* ``default`` — Regular **numbers**. This is the setting for the majority of variables.
+* ``date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually.
+* ``date \ time`` — Allows the user to enter a **date and time**.
+* ``time`` — Allows a user to enter a **time**, either using a time picker or entering it manually.
 
 .. note::
   Dates and times are actually numbers in the `UNIX time format <https://www.omnicalculator.com/conversion/unix-time>`_. 
@@ -262,7 +262,7 @@ Don't worry! The **Copy attributes** button is here to save you a load of time.
 
   Click on the **Copy attributes** button to be able to copy most of the current variable's attributes to other variables.
 
-After clicking the **Copy attributes** button, a list of the other variables in the calculator will appear. Check each one you want to copy this variables attributes to. Then click the **Copy** to copy the attributes.
+After clicking the **Copy attributes** button, a list of the other variables in the calculator will appear. Check each one you want to copy this variables attributes to. Then click the **Copy** button to copy the attributes.
 
 .. note::
   This feature will copy most of the attributes, but **not all of them**. [WAITING FOR A LIST]
