@@ -3,7 +3,7 @@
 Simple editor and syntax highlight editor
 =================================================
 
-This is main the text of your calculator gets written. You will mainly use Markdown to format the text, plus some HTML (though the use of HTML will soon be deprecated).
+This is where most of the text for your calculator gets written. You will mainly use Markdown to format the text, plus some HTML (though the use of HTML will soon be deprecated).
 
 .. _textEditorSimple:
 .. figure:: intro-simple-editor.png
