@@ -5,7 +5,7 @@ Tests
 
 The **Tests** section allows you to set-up tests for your calculator. This is useful for double checking that your calculator gives the correct result and to check that any future changes you make still give the same correct result.
 
-The test section is also the way a preview image is generated, which maybe used to show the user what the calculator will look like before they embed it.
+The test section is also the way a preview image is generated, which may be used to show the user what the calculator will look like before they embed it.
 
 .. _testsExample:
 .. figure:: tests-example.png
