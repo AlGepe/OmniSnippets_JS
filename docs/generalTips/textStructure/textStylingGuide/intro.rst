@@ -17,4 +17,3 @@ The style of writing should be somewhat consistent across Omni. These are the ru
     tables
     internalLinks
     externalLinks
-    calculatorGuide
