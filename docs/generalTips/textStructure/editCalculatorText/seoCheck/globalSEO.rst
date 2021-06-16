@@ -3,7 +3,7 @@
 Global SEO
 =====================
 
-The **Global SEO** tab gives you general feedback on your calculator text, such as word length, bullet list quality and have you remember to include alt text in all your images?
+The **Global SEO** tab gives you general feedback on your calculator text, such as word length, bullet list quality, and have you remember to include alt text in all your images?
 
 .. _globalSEOExample:
 .. figure:: global-seo-eg.png
@@ -48,7 +48,7 @@ Keywords in headings
 
 Are there enough keywords in the **level 2 headings**? The target amount will depend on the number of keywords and text length. The first number is how many you have currently, while the second number is your target.
 
-In the :ref:`example above <globalSEOExample>`, it tells us there are **9** keywords used in level 2 headings out of a required 11 keywords. Oh, no. Target not met. 👎 Try to add a new header or expand an existing one.
+In the :ref:`example above <globalSEOExample>`, it tells us there are **9** keywords used in level 2 headings out of a required 11 keywords. Oh, no. Target not met. 👎 Try to add a new header or expand an existing one. Its okay to have 2 keywords in a header, as long as it still looks sensible.
 
 All images alt text
 -------------------
