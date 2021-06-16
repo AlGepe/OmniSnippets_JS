@@ -1,8 +1,9 @@
 .. _idea:
-How to add an idea?
-=====================
 
-The new ideas are not always doable or worth doing at Omni Calculator. For that reason, they should be added by the Mastermind team or other experienced people or after their permission. If you have your ideas for calculators, contact your reviewer and describe your idea: name, SEMrush traffic, link to the example. But before you do it, check the following points:
+How to add an idea?
+===================
+
+The new ideas are not always doable or worth doing at Omni Calculator. For that reason, they should be **added by the Mastermind team** or other experienced people or after their permission. If you have your ideas for calculators, contact your reviewer and describe your idea: name, SEMrush traffic, link to the example. But before you do it, check the following points:
 
 1. Is this idea already on the **Mastermind spreadsheet**? (remember to turn off filters)
 2. Do we already have this calculator **published**?
