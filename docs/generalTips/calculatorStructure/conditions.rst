@@ -1,7 +1,7 @@
 .. _conditions:
 
 Conditions
-=====================
+==========
 
 We can enforce conditions on what the user can input for certain variables. We might want to do this for a variety of reasons:
 
@@ -15,10 +15,11 @@ How to define a condition
 
 .. _conditionsExample:
 .. figure:: conditions-example.png
-    :alt: example of the conditions section of the edit calculator page 
-    :align: center
+  :width: 100%
+  :alt: example of the conditions section of the edit calculator page 
+  :align: center
 
-    Example of the conditions section of the edit calculator page. 
+  Example of the conditions section of the edit calculator page. 
 
 Type a rule you **don't** want users to break and a message they'll see if they do.
 For example: rule ``a < 5`` enforces ``a`` to be smaller than 5. This means user will see warning (message) when they input ``a`` greater than or equal to 5.

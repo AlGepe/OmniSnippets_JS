@@ -5,6 +5,7 @@ Quick links and page age
 
 .. _buttonsExample:
 .. figure:: buttons-example.png
+  :width: 100%
   :alt: example of the tools available on the calculator page
   :align: center 
 

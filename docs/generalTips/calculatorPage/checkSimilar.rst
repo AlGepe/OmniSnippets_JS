@@ -5,10 +5,11 @@ Check out similar calculators
 
 .. _checkSimilarExample:
 .. figure:: check-similar-example.png
-    :alt: example of the check out similar calculators links under the calculator
-    :align: center
+  :width: 100%
+  :alt: example of the check out similar calculators links under the calculator
+  :align: center
 
-    Below the calculator, there are links to the subcategory and similar calculators.
+  Below the calculator, there are links to the subcategory and similar calculators.
 
 To help the user discover more useful related calculators, links are displayed underneath the calculator.
 

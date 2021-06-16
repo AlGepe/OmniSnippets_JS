@@ -12,6 +12,7 @@ How to define a value select
 
 .. _valueSelectsExample:
 .. figure:: value-selects-example.png
+  :width: 100%
   :alt: example of a value select
   :align: center
 
@@ -52,6 +53,7 @@ Make sure no variables are associated with this value select. If there are, you 
 
 .. _valueSelectsError:
 .. figure:: value-selects-error.png
+   :width: 100%
   :alt: example of the error you get if a variable is using the value select you are trying to delete
   :align: center
 

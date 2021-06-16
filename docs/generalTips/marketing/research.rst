@@ -7,10 +7,11 @@ When you sign-up to create a marketing calculator, you should be sent a research
 
 .. _researchExample:
 .. figure:: research-eg.png
-    :alt: example of a research document for a marketing calculator 
-    :align: center
+  :width: 100%
+  :alt: example of a research document for a marketing calculator 
+  :align: center
 
-    Example of a research document for a marketing calculator.
+  Example of a research document for a marketing calculator.
 
 
 It will have the following main sections, which we'll briefly summarize.

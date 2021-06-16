@@ -9,6 +9,7 @@ The test section is also the way a preview image is generated, which maybe used 
 
 .. _testsExample:
 .. figure:: tests-example.png
+  :width: 100%
   :alt: example of a calculator test
   :align: center
 

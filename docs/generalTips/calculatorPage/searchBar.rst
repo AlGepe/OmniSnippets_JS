@@ -5,6 +5,7 @@ Search bar
 
 .. _searchBarLocation:
 .. figure:: search-bar-location.png
+  :width: 100%
   :alt: shows the search bar location in the top-right of the calculator page
   :align: center 
 
@@ -17,8 +18,9 @@ Start typing in a keyword and the search results will appear underneath. The 10 
 .. tip::
   To find more internal links for your calculator text, enter words from your text into the search bar to see if we have a calculator based on that word. Below is an example when entering the word "car".
 
-  .. _searchBarExample:
+.. _searchBarExample:
 .. figure:: search-bar-example.png
+  :width: 100%
   :alt: an example of using the search bar on the calculator page
   :align: center 
 

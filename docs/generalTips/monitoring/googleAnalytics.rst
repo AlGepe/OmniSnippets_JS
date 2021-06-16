@@ -36,6 +36,7 @@ Click on the gear cog icon and select **Google Analytics** from the menu.
 
 .. _googleAnalyticsOpen:
 .. figure:: google-analytics-open.png
+  :width: 100%
   :alt: how to open Google Analytics of a particular calculator
   :align: center
 
@@ -45,6 +46,7 @@ If you are logged into Google and you have been given access to see Omni's GA, y
 
 .. _googleAnalyticsExample:
 .. figure:: google-analytics-eg.png
+  :width: 100%
   :alt: example of the  Google Analytics page of a particular calculator
   :align: center
 
@@ -62,6 +64,7 @@ You do this by clicking on **Secondary dimension**, start typing in ``source``, 
 
 .. _googleAnalyticsSource:
 .. figure:: google-analytics-source.png
+  :width: 100%
   :alt: how to view the source of the page visits
   :align: center
 
@@ -69,6 +72,7 @@ This will give the following results:
 
 .. _googleAnalyticsSourceResult:
 .. figure:: google-analytics-source-result.png
+  :width: 100%
   :alt: the results of viewing traffic sorted by source/medium
   :align: center
 
@@ -83,6 +87,7 @@ We can do that by changing the secondary dimension to **Full Referrer**.
 
 .. _googleAnalyticsFullRef:
 .. figure:: google-analytics-full-ref.png
+  :width: 100%
   :alt: how to change the secondary dimension to Full Referrer
   :align: center
 
@@ -90,6 +95,7 @@ And this is the result:
 
 .. _googleAnalyticsFullRefResult:
 .. figure:: google-analytics-full-ref-result.png
+  :width: 100%
   :alt: example of displaying the  Full Referrer
   :align: center
 
@@ -102,6 +108,7 @@ So far we have been looking at landing pages, but there is also an **All pages**
 
 .. _googleAnalyticsAllPageviewsExample:
 .. figure:: google-analytics-all-pageviews-eg.png
+  :width: 100%
   :alt: an example of an all pageviews report
   :align: center
 
@@ -114,6 +121,7 @@ A session consists of multiple pages visited by a single user.
 
 .. _googleAnalyticsSessions:
 .. figure:: google-analytics-sessions.png
+  :width: 100%
   :alt: shows groups of pages in two sessions separated by 30 minutes that one user visits
   :align: center
 
@@ -135,6 +143,7 @@ The unique page views report counts the number of non-repeating page views. So n
 
 .. _googleAnalyticsUniquePageViews:
 .. figure:: google-analytics-unique-page-views.png
+  :width: 100%
   :alt: show unique page views with the repeated pages greyed out
   :align: center
 
@@ -149,6 +158,7 @@ The landing pages report counts the number of landing pages (which is the same a
 
 .. _googleAnalyticsLandingPages:
 .. figure:: google-analytics-landing-pages.png
+  :width: 100%
   :alt: shows the landing pages, with the other pages greyed out
   :align: center
 
@@ -161,6 +171,7 @@ Each of these reports are useful for different situations and people.
 
 .. _googleAnalyticsWhen:
 .. figure:: google-analytics-when.png
+  :width: 100%
   :alt: show when each report is useful to know and by whom
   :align: center
 
@@ -195,6 +206,7 @@ Click on **Add segment**.
 
 .. _googleAnalyticsAddSegment:
 .. figure:: google-analytics-add-segment.png
+  :width: 100%
   :alt: shows where the add segment button is
   :align: center
 
@@ -202,6 +214,7 @@ Pick your segment (you can find it easily in the “Starred” ones ⭐️).
 
 .. _googleAnalyticsPickSegment:
 .. figure:: google-analytics-pick-segment.png
+  :width: 100%
   :alt: pick your segment (use the starred ones)
   :align: center
 
@@ -209,6 +222,7 @@ To see only your segment, remove the segment **All Users**.
 
 .. _googleAnalyticsRemoveSegment:
 .. figure:: google-analytics-remove-segment.png
+  :width: 100%
   :alt: remove the All Users segment
   :align: center
 
@@ -216,6 +230,7 @@ Under the graph, you can see all your calculators, and how well they are doing: 
 
 .. _googleAnalyticsPersonalResults:
 .. figure:: google-analytics-personal-results.png
+  :width: 100%
   :alt: stats on all of your calculators
   :align: center
 
@@ -223,6 +238,7 @@ Click on the dates at the top-right to set the time frame to analyse and/or comp
 
 .. _googleAnalyticsDates:
 .. figure:: google-analytics-dates.png
+  :width: 100%
   :alt: click on the dates in the top right to change the range and/or compare between time periods
   :align: center
 
@@ -230,6 +246,7 @@ If this symbol is yellow (see below), it means that Google Analytics is extrapol
 
 .. _googleAnalyticsYellowSymbol:
 .. figure:: google-analytics-yellow-symbol.png
+  :width: 100%
   :alt: example of a yellow shield symbol that means the data is not complete
   :align: center
 
@@ -237,6 +254,7 @@ You can check where the traffic comes from by choosing **Secondary dimension -> 
 
 .. _googleAnalyticsPersonalSource:
 .. figure:: google-analytics-personal-source.png
+  :width: 100%
   :alt: how to add a secondary dimension and set it to source/medium
   :align: center
 

@@ -3,6 +3,7 @@ SEMrush
 
 .. _semrushDashboard:
 .. figure:: semrush_dashboard.png
+  :width: 100%
   :alt: shows the most interesting buttons for keywords research and new calculators ideas
   :align: center 
   

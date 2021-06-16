@@ -15,7 +15,8 @@ How to add a new calculator on your Trello list:
 
 .. _instructionLinkDescription:
 .. figure:: instruction_link_description.png
-    :alt: A link to the calculator in Trello's card description.
-    :align: center
+  :width: 100%
+  :alt: A link to the calculator in Trello's card description.
+  :align: center
 
-    A link to the calculator in Trello's card description.
+  A link to the calculator in Trello's card description.

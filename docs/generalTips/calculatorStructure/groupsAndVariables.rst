@@ -7,6 +7,7 @@ The **Groups and variables** section defines the layout of the calculator variab
 
 .. _groupsAndVariablesExample:
 .. figure:: groups-and-variables-example.png
+  :width: 100%
   :alt: example of the groups and variables section of the edit calculator page
   :align: center
 
@@ -21,6 +22,7 @@ Groups
 
 .. _groupsAndVariablesAddGroup:
 .. figure:: groups-and-variables-add-group.png
+  :width: 100%
   :alt: groups and variables section after the add group button has been pressed
   :align: center
 
@@ -40,6 +42,7 @@ Variable attributes
 
 .. _groupsAndVariablesVarAttributes:
 .. figure:: groups-and-variables-var-attributes.png
+  :width: 100%
   :alt: basic attributes of a variable
   :align: center
 
@@ -196,6 +199,7 @@ Click on the blue **More attributes** button to show even more variable attribut
 
 .. _groupsAndVariablesMoreAttr:
 .. figure:: groups-and-variables-more-attr.png
+  :width: 100%
   :alt: more attributes interface
   :align: center
 
@@ -252,6 +256,7 @@ Don't worry! The **Copy attributes** button is here to save you a load of time.
 
 .. _groupsAndVariablesCopyAttributes:
 .. figure:: groups-and-variables-copy-attr.png
+  :width: 100%
   :alt: copy variable attributes interface
   :align: center
 

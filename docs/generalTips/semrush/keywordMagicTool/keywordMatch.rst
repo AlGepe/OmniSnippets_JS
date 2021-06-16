@@ -5,6 +5,7 @@ Keyword match
 
 .. _semrushMatch:
 .. figure:: semrush_match.png
+  :width: 100%
   :alt: shows the keyword match option
   :align: center 
   

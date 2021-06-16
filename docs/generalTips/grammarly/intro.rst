@@ -27,10 +27,11 @@ Another way to check through the text is to click on **See more in Grammarly**. 
 
 .. _grammarlyFullUI:
 .. figure:: grammarly-full-ui.png
-    :alt: Grammarly's full browser extension user interface
-    :align: center
+  :width: 100%
+  :alt: Grammarly's full browser extension user interface
+  :align: center
 
-    Grammarly's full browser extension user interface.
+  Grammarly's full browser extension user interface.
 
 By default it shows you the top suggestions. To see all the suggestions, click on where it says **top suggestions** and then select **all suggestions**. Hey, you can never have enough suggestions.
 

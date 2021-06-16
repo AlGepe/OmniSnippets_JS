@@ -5,6 +5,7 @@ Related keywords
 
 .. _semrushRelated:
 .. figure:: semrush_related.png
+  :width: 100%
   :alt: shows the related keyword option
   :align: center 
   

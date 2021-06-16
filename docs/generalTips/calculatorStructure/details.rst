@@ -7,10 +7,11 @@ The **Details** section of calculator edit contains all of its main properties, 
 
 .. _detailsExample:
 .. figure:: details-example.png
-    :alt: example of details section from the circumference calculator
-    :align: center
+  :width: 100%
+  :alt: example of details section from the circumference calculator
+  :align: center
 
-    Example of the details section from the circumference calculator.
+  Example of the details section from the circumference calculator.
 
 
 .. _detailsSlug:

@@ -17,6 +17,7 @@ To open up the GSC for a calculator, load it up and **click on the gear cog icon
 
 .. _searchConsoleOpen:
 .. figure:: search-console-opening.png
+  :width: 100%
   :alt: how to open the Google search console of a particular calculator
   :align: center
 
@@ -27,6 +28,7 @@ You will then be greeted with the following page (if you are not, you may need t
 
 .. _searchConsoleExample:
 .. figure:: search-console-eg.png
+  :width: 100%
   :alt: example of a Google Search Console page for a calculator
   :align: center
 
@@ -61,6 +63,7 @@ Now the click through rate and position stats have more meaning. You can see whi
 
 .. _searchConsoleKeywordExample:
 .. figure:: search-console-keyword-eg.png
+  :width: 100%
   :alt: example of a plotting position for a certain keyword
   :align: center
 
@@ -75,6 +78,7 @@ What you can do is to order the keywords so those with the highest impressions a
 
 .. _searchConsoleNewCalcs:
 .. figure:: search-console-new-calcs.png
+  :width: 100%
   :alt: example of a getting ideas for new calculators from Google search console
   :align: center
 

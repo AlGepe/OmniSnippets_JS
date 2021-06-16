@@ -5,6 +5,7 @@ Google Trends
 
 .. _googleTrends:
 .. figure:: semrush_google_trends.png
+  :width: 100%
   :alt: shows the example of use of Google Trends
   :align: center 
   

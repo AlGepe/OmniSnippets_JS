@@ -5,6 +5,7 @@ Filters
 
 .. _semrushFilters:
 .. figure:: semrush_filters.png
+  :width: 100%
   :alt: shows the filters button in SEMrush keyword match
   :align: center 
   

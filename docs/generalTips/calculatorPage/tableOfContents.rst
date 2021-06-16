@@ -5,6 +5,7 @@ Table of contents
 
 .. _tableOfContentsExample:
 .. figure:: table-of-contents-example.png
+  :width: 100%
   :alt: example of a table of contents on the calculator page
   :align: center 
 

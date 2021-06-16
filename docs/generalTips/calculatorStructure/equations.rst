@@ -7,10 +7,11 @@ The equations section is the heart of most calculators. It defines variables and
 
 .. _equationsExample:
 .. figure:: equations-example.png
-    :alt: example of equations section of the circumference calculator
-    :align: center
+  :width: 100%
+  :alt: example of equations section of the circumference calculator
+  :align: center
 
-    Example of the equations section from the circumference calculator.
+  Example of the equations section from the circumference calculator.
 
 We have three equations here, which you should immediately recognize. Each equation has three buttons to the right of them:
 
@@ -167,10 +168,11 @@ For example, let's modify the circumference equation so that circumference is on
 
 .. _equationsOnewayExample:
 .. figure:: equations-oneway-function-example.png
-    :alt: example use of the special function one_way()
-    :align: center
+  :width: 100%
+  :alt: example use of the special function one_way()
+  :align: center
 
-    Example use of the special function ``one_way()``.
+  Example use of the special function ``one_way()``.
 
 The circumference variable is now **greyed out**, and the user cannot edit its value. This doesn't really make sense in this case, but there are a few reasons to do it:
 
