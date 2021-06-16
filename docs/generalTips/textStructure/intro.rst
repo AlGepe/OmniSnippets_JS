@@ -11,5 +11,6 @@ Here's a full table of contents for this section of the Handbook so you can skip
     :maxdepth: 3
 
     editCalculatorText/intro
+    calcStylingGuide/intro
     textStylingGuide/intro
     faq/intro
