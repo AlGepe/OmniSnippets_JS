@@ -7,7 +7,7 @@ We can enforce conditions on what the user can input for certain variables. We m
 
 * Avoid division by zero (an output of ``Infinity`` otherwise appears);
 * Avoid NaN (not a number) results (e.g., certain trigonometry functions and values);
-* Commonsense variable ranges (e.g., a person's age is probably not going to be much than 120 years); and
+* Commonsense variable ranges (e.g., a person's age is probably not going to be more than 120 years); and
 * Math definitions (e.g., percentages run from 0 to 100% – normally, anyway).
 
 How to define a condition
@@ -22,7 +22,7 @@ How to define a condition
   Example of the conditions section of the edit calculator page. 
 
 Type a rule you **don't** want users to break and a message they'll see if they do.
-For example: rule ``a < 5`` enforces ``a`` to be smaller than 5. This means user will see warning (message) when they input ``a`` greater than or equal to 5.
+For example: rule ``a < 5`` enforces ``a`` to be smaller than 5. This means user will see a warning (message) when they input ``a`` greater than or equal to 5.
 
 In more detail, here are step-by-step instructions:
 
@@ -32,7 +32,7 @@ In more detail, here are step-by-step instructions:
 #. To apply a new or changed condition, you **need to save** the calculator before it is reflected in the calculator preview.
 
 .. warning::
-  When a condition is triggered, the **calculator and any CustomJS code you have written is never  run**! The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. E.g., give the range that is accepted.
+  When a condition is triggered, the **calculator and any CustomJS code you have written is never run**! The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. E.g., give the range that is accepted.
 
 .. note::
   An old bug where every message had to be different is now fixed 🥳. It's fine to repeat messages. Though please still make sure that each message is as helpful to the user as possible, so they know how to fix the problem with their input.
@@ -43,10 +43,10 @@ Condition inequality operators
 
 You can use the following inequality operators in your conditions:
 
-* ``<`` – less than;
-* ``>`` – greater than;
-* ``<=`` – less than or equal to; and
-* ``>=`` – greater than or equal to.
+* ``<`` – Less than;
+* ``>`` – Greater than;
+* ``<=`` – Less than or equal to; and
+* ``>=`` – Greater than or equal to.
 
 Specifying multiple conditions
 ------------------------------
@@ -60,8 +60,8 @@ Using math.js functions as condition tests
 
 You can use math.js functions in your condition rules. Two of the most useful are:
 
-* ``isInteger(a)`` – the value ``a`` must be an integer; and
-* ``isPrime(a)`` – the value ``a`` must be a prime number.
+* ``isInteger(a)`` – The value ``a`` must be an integer; and
+* ``isPrime(a)`` – The value ``a`` must be a prime number.
 
 Using Omni.define functions as condition tests
 ----------------------------------------------
