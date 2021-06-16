@@ -13,26 +13,26 @@ Tables can be embedded in the text using standard HTML table tags. Here, we will
 
 **The most important tags:**
 
-* ``<table> ... </table>`` — creating table;
-* ``<thead> ... </thead>`` — group header content;
-* ``<tbody> ... </tbody>`` — group the body content;
-* ``<tr> ... </tr>`` — row of a table;
-* ``<td> ... </td>`` — cell of a table; and
-* ``<th> ... </th>`` — header cell of a table.
+* ``<table> ... </table>`` — Creating table;
+* ``<thead> ... </thead>`` — Group header content;
+* ``<tbody> ... </tbody>`` — Group the body content;
+* ``<tr> ... </tr>`` — Row of a table;
+* ``<td> ... </td>`` — Cell of a table; and
+* ``<th> ... </th>`` — Header cell of a table.
 
 **Formatting tags:**
 
-* ``<i> ... </i>`` —  *italics*;
-* ``<b> ... </b>`` —  **bold**;
-* ``<sup> ... </sup>`` — superscript text;
-* ``<sub> ... </sub>`` — subscript text;
-* ``<small> ... </small>`` — small text;
-* ``<center> ... </center>`` — center text; and
+* ``<i> ... </i>`` —  *Italics*;
+* ``<b> ... </b>`` —  **Bold**;
+* ``<sup> ... </sup>`` — Superscript text;
+* ``<sub> ... </sub>`` — Subscript text;
+* ``<small> ... </small>`` — Small text;
+* ``<center> ... </center>`` — Center text; and
 * Don't use ``<style>``!
 
 **Tips:**
 
-* Table is too big — try resizing the font with ``<small><table></table></small>``
+* Table is too big — Try resizing the font with ``<small><table></table></small>``
 * Aligning the content of a table: ``<table style="font-size: 15px; text-align:center">``
 * Center the contents of a cell: ``<td><center></center></td>``
 
