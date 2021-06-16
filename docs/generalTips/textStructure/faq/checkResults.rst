@@ -3,7 +3,7 @@
 After publication
 =====================
 
-After your tool is published, you will see it tagged with a new pink “FAQ” label, gain a new due date one week after publishing and see a link to a spreadsheet in the description. Once the deadline comes, please check your calculator for FSs and gFAQs as below, record the data in the spreadsheet, and remove the label. Then that’s it, you’re all done!
+After your tool is published, you will see it tagged with a new pink “FAQ” label, gain a new due date one week after publishing and see a link to a spreadsheet in the description. Once the deadline comes, please perform the appropriate FSs and gFAQs checks as below, record the data in the spreadsheet, and remove the label. Then that’s it, you’re all done!
 
 Checking results
 ----------------
@@ -13,7 +13,7 @@ Please, check all results in **incognito mode**, as I’m pretty sure Google kno
 FS
 ----------------
 
-This ones easy, just paste your full question, with question mark, into Google. If your FAQ has the FS slot, count it, if not, move onto the next one.
+This ones easy, just copy and paste all of your questions into the right-most column of the spreadsheet. FSs take many weeks to work, so this will enable me to quickly check them for FSs long after you've moved on from the tool.
 
 gFAQ
 ----------------
