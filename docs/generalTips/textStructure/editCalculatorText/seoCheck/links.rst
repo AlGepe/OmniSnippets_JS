@@ -3,7 +3,7 @@
 Links
 =====================
 
-The links tab is where you manage links to other calculators, based on keywords in your calculator text. The golder rule to remember is to **only include a link once** to each calculator.
+The links tab is where you manage links to other calculators, based on keywords in your calculator text. The golden rule to remember is to **only include a link once** to each calculator.
 
 .. _linksTabExample:
 .. figure:: links-eg.png
@@ -12,7 +12,7 @@ The links tab is where you manage links to other calculators, based on keywords 
 
 In the above example, the green links are present in the text once. The first red one is present twice, so one needs to be removed from the text.
 
-Published calculators are colored blue, whereas unpublished calculators are colored grey. In this example, it isn't mentioned in the text yet
+Published calculators are colored blue, whereas unpublished calculators are colored grey. In this example, it isn't mentioned in the text yet.
 
 .. note:: 
   It's OK to include a link to an **unpublished calculator**. For now the link will not appear in your text on the website. Once the target calculator is published, the link will appear and work as expected.
@@ -64,7 +64,7 @@ To actually add the link code to the text, here's what you do:
 
 
 .. tip::
-  You you want to hide again the list of keywords of a linked calculator, simply click on it again.
+  You you want to hide the list of keywords of a linked calculator again, simply click on it again.
 
 
 Deleting a link
@@ -77,7 +77,7 @@ To delete a link from the list, hover over the link and click on the **red trash
     :alt: example of deleting a calculator from the list of linked calculators
     :align: center
 
-Note that this **does not also delete the link code from your text**. If it exists, make sure to do this manually.
+Note, that this **does not also delete the link code from your text**. If it exists, make sure to do this manually.
 
 .. note::
   Changes to the list of linked calculators are save immediately. There is no need to save the calculator, so you will not see the **Save** button turn yellow.
