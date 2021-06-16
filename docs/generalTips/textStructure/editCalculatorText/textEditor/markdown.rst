@@ -3,7 +3,7 @@
 Markdown
 =====================
 
-The main way to format your texts is to use the **Markdown syntax**. Note that Omni doesn't support everything in Markdown, but it does support the following:
+The main way to format your texts is to use the **Markdown syntax**. Note, that Omni doesn't support everything in Markdown, but it does support the following:
 
 .. contents:: :local:
   :depth: 1
@@ -17,7 +17,7 @@ The usual heading level is level 2, so you add two hash characters:
 
 * ``## Heading level 2``
 
-You can also specify level 3 and 4 headings, though because there isn't much difference visually between 2 and 3, 3 is hardly ever used.
+You can also specify level 3 and 4 headings, which may be useful if you want a heading without an entry in the table of contents. However, this doesn't find much use. There also isn't much difference visually between 2 and 3, and as such 3 is hardly ever used.
 
 You can also use **bold text** as a heading (see next section).
 
@@ -116,7 +116,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 |   4. Fourth item       | 4. Fourth item       |
 +------------------------+----------------------+
 
-For the last example, use **4 spaces** to indent the second level of ordered list.
+For the last example, use **4 spaces** to indent the second level of an ordered list.
 
 Ordered list best practices
 """""""""""""""""""""""""""
@@ -298,7 +298,7 @@ You can nest an unordered list in an ordered list, or vice versa.
       * Indented item
   4. Fourth item
 
-Which will rendered like this:
+Which will be rendered like this:
 
 1. First item
 2. Second item
@@ -378,7 +378,7 @@ Will render as:
 ----
 
 .. warning::
-  Make sure you have **blank lines before and after** the horizontal rule. Otherwise, if you use ``---`` to intend to create a horizontal rule, you will make the line above a level 2 heading.
+  Make sure you have **blank lines before and after** the horizontal rule. Otherwise, if you use ``---`` as the intend to create a horizontal rule, you will make the line above a level 2 heading.
 
 +-------------------------------------+-------------------------------------------------+
 | ✅ Do this                          | ❌ Don't do this                                |
