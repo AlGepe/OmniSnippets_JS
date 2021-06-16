@@ -14,5 +14,5 @@ There are two places where you can post ideas for marketing calculators:
 2. **Brainstorm tab** in the mastermind spreadsheet — here come all the ideas for marketing calculators that can wait.
  
    - The idea should be **well-defined**, and as precise as possible (there are some additional questions in the Brainstorm tab that will help you).
-   - The marketing team will discuss on tools and **give feedback** ~once per 2 weeks.
-   - If the idea is approved, the idea may wait e.g. a week but also many months (e.g. till it's the right time to promote).
+   - The marketing team will discuss the tools and **give feedback** ~once per 2 weeks.
+   - If the idea is approved, the idea can wait e.g. a week but also many months (e.g. until it's the right time to promote).
