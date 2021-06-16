@@ -75,6 +75,8 @@ Suffix end
 
 The suffix end text gets placed *after* any units symbol. Again, this is useful for creating compound units where the second part doesn't change. E.g., dollars per day ($/d) — so suffix end would equal "/d".
 
+.. _groupsAndVariablesHelpText:
+
 Help text
 ^^^^^^^^^
 
