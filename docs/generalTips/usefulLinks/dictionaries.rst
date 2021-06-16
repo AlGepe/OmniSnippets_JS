@@ -3,10 +3,10 @@
 Dictionaries
 =====================
 
-Here is the list of tools that **help you write better quality english texts**:
+Here is a list of tools that can **help you write better quality English texts**:
 
-* `Dictionary.com <https://www.dictionary.com>`_ — definitions of words.
-* `Thesaurus.com <https://www.thesaurus.com/>`_ — synonyms' list.
-* `Linguee.com <https://www.linguee.com/>`_ — great dictionary with examples of use.
-* `Deepl.com <https://www.deepl.com/translator>`_ — translator **better than google translate**.
-* `Ludwig.guru <https://ludwig.guru/>`_ — examples of use of certain phrases.
+* `Dictionary.com <https://www.dictionary.com>`_ — Definitions of words.
+* `Thesaurus.com <https://www.thesaurus.com/>`_ — Synonyms' list.
+* `Linguee.com <https://www.linguee.com/>`_ — Great dictionary with examples of use.
+* `Deepl.com <https://www.deepl.com/translator>`_ —   A translator that is **better than google translate**.
+* `Ludwig.guru <https://ludwig.guru/>`_ — Provides examples of how to use certain phrases.
