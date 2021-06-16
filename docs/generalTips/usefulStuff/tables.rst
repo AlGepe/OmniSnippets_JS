@@ -3,29 +3,29 @@
 Tables
 =====================
 
-If you want to **use the table from the other website or your spreadsheet**, you don't need to rewrite it - tools exist which can do it for you, e.g. `CSV to HTML converter <https://codebeautify.org/csv-to-html-converter>`_. Sometimes the formatting fails and ctrl-c, ctrl-v from website doesn't work so nicely, then first copy the table to the spreadsheet and from there to the converter tool.
+If you want to **use tables from other websites or from a spreadsheet**, you don't need to rewrite it - tools exist that can convert it for you, e.g. the `CSV to HTML converter <https://codebeautify.org/csv-to-html-converter>`_. Sometimes the formatting fails or copy and pasting from the website doesn't work. In this case, first copy the table to the spreadsheet and from there to the converter tool.
 
-The procedure for the given converter:
+The procedure for the converter linked above:
 
-1. Copy data in CSV format to the Input field;
-2. Select **Convert to HTML**;
-3. Go to **Show Output**;
-4. Copy everything between ``<table>`` and ``</table>`` tags (you don't need the remaining lines);
-5. Paste it to the :ref:`text editor <editCalculatorText>`.
+1. Copy the data in CSV format and paste it into the Input field.
+2. Select **Convert to HTML**.
+3. Go to **Show Output**.
+4. Copy everything between the ``<table>`` and ``</table>`` tags (you don't need the remaining lines).
+5. Paste it into the :ref:`text editor <editCalculatorText>`.
 
 .. tip::
-  To remove extra spaces after pasting, select :ref:`Syntax highlight editor <textEditorIntro>` view, highlight the whole table, and press ``Shift`` + ``Tab`` combination several times.
+  To remove any extra spaces after pasting, select the :ref:`Syntax highlight editor <textEditorIntro>` view, highlight the whole table, and press the ``Shift`` + ``Tab`` combination several times.
   
 The most important tags:
 
-- ``<table>`` … ``</table>`` — creating table;
-- ``<thead>`` … ``</thead>`` — grouping header content;
-- ``<tbody>`` … ``</tbody>`` — grouping the body content;
-- ``<th>`` … ``</th>`` — header cell of a table; 
-- ``<tr>`` … ``</tr>`` — row of a table;
-- ``<td>`` … ``</td>`` — cell of a table.
+- ``<table>`` … ``</table>`` — Creating table.
+- ``<thead>`` … ``</thead>`` — Grouping header content.
+- ``<tbody>`` … ``</tbody>`` — Grouping the body content.
+- ``<th>`` … ``</th>`` — Header cell of a table.
+- ``<tr>`` … ``</tr>`` — Row of a table.
+- ``<td>`` … ``</td>`` — Cell of a table.
 
-Currently, we use ``<center>`` inside ``<th>`` and ``<td>`` tags for centering the text in the cells.
+Currently, we use ``<center>`` inside the ``<th>`` and ``<td>`` tags for centering the text in the cells.
  
 .. tip::
   The table is too big? - try resizing the font ``<small><table> … </table></small>``.
