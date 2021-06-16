@@ -11,7 +11,6 @@ You can add external links to particular words or phrases within a sentence that
 
 .. _links_guide:
 .. figure:: links_guide.jpg
-   :scale: 70%
    :alt: Where to add links
    :align: center
 
