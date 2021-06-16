@@ -1,5 +1,5 @@
 Title, slug, and equation
--------------------------
+=========================
 
 * For a guide on titles, :ref:`click here <detailsName>`.
 * For a guide on slug, :ref:`click here <detailsSlug>`.
