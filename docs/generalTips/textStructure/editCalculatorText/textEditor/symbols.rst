@@ -29,7 +29,7 @@ You can also use alt codes to type special characters. More details on this `Mic
 Windows 7
 ^^^^^^^^^
 
-You can use the Character Map program to search for symbols and characters. To launch it, press the Start menu (or press ``WinKey``) and type ``charmap`` in the search box, and press Enter.
+You can use the Character Map program to search for symbols and characters. To launch it, press the Start menu (or press ``WinKey``), type ``charmap`` in the search box, and press Enter.
 
 You can then select the symbols you need and copy them to the clipboard, then paste them into your text. Here is a `short guide <https://www.dummies.com/computers/operating-systems/windows-7/how-to-insert-special-characters-with-windows-7-character-map/>`_ with further details.
 
@@ -53,10 +53,10 @@ Here is a `guide to entering symbols <https://www.groovypost.com/howto/type-spec
 Emoji
 -----
 
-We've mentioned a few times already, but Emoji are sort of symbols too, but a bit more fun. Omni loves Emojis, but we have to be a bit careful when using them.
+We've mentioned it a few times already, but Emoji are sort of symbols too, but a bit more fun. Omni loves Emojis, but we have to be a bit careful when using them.
 
 We don't want to use the very latest ones, otherwise most people will only see an empty square instead of a gorgeous emoji.
 
 As a rule of thumb, **don't use** and emoji or Unicode characters that have been released in the last **4 years**.
 
-To check the age of an emoji, search for it on `Emojipedia <https://emojipedia.org/>`_. You can either search by its name or the emoji itself (how cool 😎). This site also gives you a handy copy button for each emoji, in case any other the methods above fail.
+To check the age of an emoji, search for it on `Emojipedia <https://emojipedia.org/>`_. You can either search by its name or the emoji itself (how cool 😎). This site also gives you a handy copy button for each emoji, in case any of the methods above fail.
