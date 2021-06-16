@@ -9,9 +9,9 @@ Search bar
   :alt: shows the search bar location in the top-right of the calculator page
   :align: center 
 
-  You can find the search bar in the top-right corner of the calculator page (highlighted in red).
+  You can find the search bar in the top-right corner of the calculator page (highlighted in red)
 
-To find and discover other calculators that might help you or you want to link to, the best way is to use the **search bar** at the top-right of the calculator page.
+To find and discover other calculators that might help you or you might want to link to, the best way is to use the **search bar** at the top-right of the calculator page.
 
 Start typing in a keyword and the search results will appear underneath. The 10 best calculators are shown.
 
