@@ -21,13 +21,13 @@ Here's what we'll cover in this section of the Handbook.
 Where did the traffic come from?
 --------------------------------
 
-In GA, it talks about the medium of a visitor to a webpage. Let's look at the different types:
+In GA, it describes how a visitor came to a webpage. Let's look at the different types:
 
 * **Organic** — Google search and other search engines. This is basically the traffic as discussed in the :ref:`Google Search Console <searchConsole>` section of the Handbook.
-* **Referral** — links from other websites. In the case of marketing calculators, links on newspaper websites, Reddit, etc.
-* **(none)** — direct traffic or unknown. The visitor directly typed the URL into the browser or it is an unknown source. It is also common for some newspaper sites to be sneaky and **hide their links** from GA.
-* **Emails** — newsletters, etc. We won't get much in this category, as we don't send out newsletters any more.
-* **Social** — social media, such as Facebook, Twitter, etc. 
+* **Referral** — Links from other websites. In the case of marketing calculators, links on newspaper websites, Reddit, etc.
+* **(none)** — Direct traffic or unknown. The visitor directly typed the URL into the browser or it is an unknown source. It is also common for some newspaper sites to be sneaky and **hide their links** from GA.
+* **Emails** — Newsletters, etc. We won't get much in this category, as we don't send out newsletters any more.
+* **Social** — Social media, such as Facebook, Twitter, etc. 
 
 Opening Google Analytics for a calculator
 -----------------------------------------
@@ -58,7 +58,7 @@ The default is to display the **Landing Pages** tab for the calculator. This hel
 Viewing the source/medium of page visits
 ----------------------------------------
 
-To get a break down of the source of all this traffic, we need to add a **Secondary dimension** of which to look at the data.
+To get a break down of the source of all this traffic, we need to add a **Secondary dimension** by which we'll look at the data.
 
 You do this by clicking on **Secondary dimension**, start typing in ``source``, then click on **Source/Medium**, as illustrated below.
 
@@ -76,7 +76,7 @@ This will give the following results:
   :alt: the results of viewing traffic sorted by source/medium
   :align: center
 
-You can then see the different medium mentioned above, as well as the specific sources. For example, ``google / organic`` means Google search traffic, while ``index.hu / referral`` means the source is a link on a Hungarian news website.
+You can then see the different mediums mentioned above, as well as the specific sources. For example, ``google / organic`` means Google search traffic, while ``index.hu / referral`` means the source is a link from a Hungarian news website.
 
 Full source links
 -----------------
@@ -99,7 +99,7 @@ And this is the result:
   :alt: example of displaying the  Full Referrer
   :align: center
 
-You can now see (in some cases) the **page on which the link** is that points to this calculator. Useful for reporting the link to the Media channel on :ref:`Slack <slack>` or checking on the story that was written about the calculator.
+You can now see (in some cases) the **page on which the link** that points to this calculator is. This is useful for reporting the link to the Media channel on :ref:`Slack <slack>` or reading the story that was written about the calculator.
 
 All pages report
 ----------------
@@ -134,7 +134,7 @@ They then go somewhere else for **more than 30 minutes** (this time away trigger
 All page views
 ^^^^^^^^^^^^^^
 
-The number of hits in the all page views report will include all of the pages visits, even the non-unique ones. Every page is counted, without any filtering.
+The number of hits in the all page views report will include all of the pages visits, even non-unique ones. Every page is counted, without any filtering.
 
 Unique page views
 ^^^^^^^^^^^^^^^^^
@@ -162,7 +162,7 @@ The landing pages report counts the number of landing pages (which is the same a
   :alt: shows the landing pages, with the other pages greyed out
   :align: center
 
-  The landing pages start each session, to they are the same as the number of sessions.
+  The landing pages start each session, so they are the same as the number of sessions.
 
 When to use each report
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -177,7 +177,7 @@ Each of these reports are useful for different situations and people.
 
 The **All page views** basically measures the ad impressions on the site, which is linked to revenue. So this is a **business metric** (for people like Matt).
 
-The **Unique page views** report captures the internal linking between calculators. It is also useful for marketing to know if the user first visitor another calculator before hitting a marketing calculator.
+The **Unique page views** report captures the internal linking between calculators. It is also useful for **marketing** to know if the user first visitor another calculator before hitting a marketing calculator.
 
 The **Landing pages** report reflects the SEO efforts made by the **calculatorian**, the growth in the visitors to the calculator and how user acquisition is going. If you were to look at the unique page views, this includes the internal linking, which the individual calculatorian has less control over.
 
@@ -186,12 +186,12 @@ How is Omni doing in general?
 
 To measure how well Omni is doing in general, we compare one time period with another one (e.g. this month with last month). However, we need to be careful when making such comparisons. We need to watch out for:
 
-* **Non-organic traffic** — very successful marketing calculators can skew the general traffic data. They need to be weeded out when making general comparisons.
-* **Seasonality** — comparing a month in the summer wih one in the winter will give different results simply because people work less in the summer, trying to solve problems.
-* **Weekdays vs. weekends** — traffic tends to be significantly down on the weekends and people are not working and trying to solve problems. So the minimum period of comparison should be a week and in blocks of 7 days (so not, for example, 12 days).
-* **Holidays** — website traffic will be down at times like Christmas and New Year. Apparently, there are more important things to do that calculate stuff.
-* **Google updates** — from time to time Google updates its search algorithm. This can have a large effect to the up or down side to Omni's traffic depending on how lucky we are.
-* **Weird things happening in America** — since 70% of our traffic comes from the US, if something odd is happening there, could affect our traffic.
+* **Non-organic traffic** — Very successful marketing calculators can skew the general traffic data. They need to be weeded out when making general comparisons.
+* **Seasonality** — Comparing a month in the summer wih one in the winter will give different results simply because people work less in the summer, trying to solve problems.
+* **Weekdays vs. weekends** — Traffic tends to be significantly down on the weekends and people are not working and trying to solve problems. So, the minimum period of comparison should be a week and in blocks of 7 days (so not, for example, 12 days).
+* **Holidays** — Website traffic will be down at times like Christmas and New Year. Apparently, there are more important things to do than calculate stuff.
+* **Google updates** — From time to time Google updates its search algorithm. This can have a large effect to the up or down side to Omni's traffic depending on how lucky we are.
+* **Weird things happening in America** — Since 70% of our traffic comes from the US, if something odd is happening there, it can affect our traffic.
 
 How well are my calculators doing?
 ----------------------------------
@@ -262,7 +262,7 @@ You can check where the traffic comes from by choosing **Secondary dimension -> 
 
 * See how the performance of your calculators **changes over time**;
 * See how **long people stay on the page**, and how often they bounce (go back immediately);
-* Compare performance of your calculators **now vs in the past**;
+* Compare performance of your calculators **now vs. in the past**;
 * Check which of your calculators are the most popular; and
 * Check **where** the traffic comes from.
 
