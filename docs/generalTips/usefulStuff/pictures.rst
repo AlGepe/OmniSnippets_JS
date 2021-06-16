@@ -7,11 +7,11 @@ Due to performance issues, we try to keep our images as light as possible. We se
 
 Before resizing, check the following sites to download and edit images:
 
-* `pexels.com <https://www.pexels.com/>`_ and `unsplash.com <https://unsplash.com/>`_ — databases with free pictures;
-* `tinyjpg.com <https://tinyjpg.com/>`_ — reducing the image size.
+* `pexels.com <https://www.pexels.com/>`_ and `unsplash.com <https://unsplash.com/>`_ — Databases with free pictures;
+* `tinyjpg.com <https://tinyjpg.com/>`_ — Reducing the image size.
 
 .. note::
-  If the image is in **jpg** or **png** format, you should go through the `tinyjpg.com <https://tinyjpg.com/>`_ **always, even if its size is already below the 100 KB**.
+  If the image is in **jpg** or **png** format, you should **always** put it through `tinyjpg.com <https://tinyjpg.com/>`_ **, even if its size is already below 100 KB**.
 
 
 How to resize an image?
@@ -37,7 +37,7 @@ Repeat these steps for every image:
     :align: center
 
     
-3. **Resize the image**. Set the image **width to 1000 pixels** (if the image is smaller, no need). The height will resize automatically. Click *OK* button.
+3. **Resize the image**. Set the image **width to 1000 pixels** (if the image is smaller, no need). The height will resize automatically. Click the *OK* button.
 
 .. _picturesResize1:
 .. figure:: pictures_resize1.png
@@ -59,7 +59,7 @@ Repeat these steps for every image:
     :alt: Saving an image in paint.NET.
     :align: center
     
-Use **JPEG format** and **name the image understandably**. If the image is not as detailed as a photo (chart, table, etc.), PNG might be a better saving format. Click *Save*.
+Use **JPEG format** and **name the image appropriately**. If the image is not as detailed as a photo (chart, table, etc.), PNG might be a better saving format. Click *Save*.
 
 .. _picturesSave2:
 .. figure:: pictures_save2.png
@@ -75,7 +75,7 @@ Use **JPEG format** and **name the image understandably**. If the image is not a
     :alt: Setting an image quality in paint.NET.
     :align: center
     
-In the boxes you can see **quality level** (``0-100``) and **predicted file size**. We suggest to **set the quality around 50-60** → image quality is still good and its size is acceptable. If the image quality will be bad in that range, set its higher value. **Remember to not exceed 100 KB image size** (200 KB in extreme cases).
+In the boxes you can see **quality level** (``0-100``) and **predicted file size**. We suggest that you **set the quality around 50-60** → this image quality is still good and its size is acceptable. If this image quality produces an unintelligable image, select a higher value. **Remember to not exceed 100 KB in image size** (200 KB is the absolute limit in extreme cases).
 
 6. Open `tinyjpg.com <https://tinyjpg.com/>`_ and **upload the resized image**.
 
@@ -95,7 +95,7 @@ You can simply drag and drop the image or load it from a folder. tiny.jpg will d
     :alt: Downloading a resized image from tinyjpg.com.
     :align: center
 
-You can see that some piece of image size was cut off.
+You can see that this removed part of the image size.
 
 
 Now, the image is ready for :ref:`uploading via Omni FTP <textEditorPicturesUpload>`!
