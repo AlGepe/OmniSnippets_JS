@@ -1,9 +1,9 @@
 Omni Calculator's handbook for calculatorians©
 =================================================
 
-The following handbook aims to **gather all the knowledge** about the tools that calculatorians can use at Omni Calculator. We hope this guide would become a precious source of information that you can revisit whenever you have doubts about the calculator's engine, text writing, and any other Omni-related stuff.
+The following handbook aims to **gather all the knowledge** about the tools that calculatorians can use at Omni Calculator. We hope this guide will become a precious source of information that you can revisit whenever you have doubts about the calculator's engine, text writing, and any other Omni-related stuff.
 
-The handbook was created by Dominik, Jack, Steve, and Wojtek, who shared the experience they gained during the work at Omni Calculator as calculatorians, reviewers, or proofreaders. We will update it regularly with all new features that come out at Omni Calculator with time. Any **feedback or requests** for new content should be directed to **Steve**, the current editor of this guide. Enjoy the handbook!
+The handbook was created by Dominik, Steve, Wojtek, and Jack, who have shared the experience they gained during the work at Omni Calculator as calculatorians, reviewers, or proofreaders. They will update it regularly with all new features that come out at Omni Calculator with time. Any **feedback or requests** for new content should be directed to **Steve**, the current editor of this guide. Enjoy the handbook!
 
 
 
@@ -19,7 +19,7 @@ The content of this section provides links and templates that every calculatoria
     
 .. rubric:: Calculator and text
 
-This section will undoubtedly help you if you don't remember some onboarding information about how our calculator's creator works, or you just want to remind it. You can also find there the text styling and FAQ guides.
+This section will undoubtedly help you if you don't remember some onboarding information about how our calculator's creator works, or you just want a reminder of it. Here you can also find the calculator styling, text styling, and FAQ guides.
 
 .. toctree::
     :maxdepth: 2
@@ -46,7 +46,7 @@ Apart from the calculator's creator, we also use plenty of other tools. Here you
     
 .. rubric:: Miscellaneous
 
-The other topics the calculatorians might be interested in.
+The other topics calculatorians might be interested in.
  
 .. toctree::
     :maxdepth: 2
