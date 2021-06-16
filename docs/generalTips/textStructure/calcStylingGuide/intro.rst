@@ -8,8 +8,9 @@ For the sake of consitancy, its good that all of our calculators look the same. 
 .. toctree::
     :maxdepth: 3
 
-    editCalculatorText/intro
-    calcStylingGuide/intro
-    textStylingGuide/intro
-    faq/intro
-
+    title.rst
+    variableName.rst
+    groupHeadings.rst
+    helpTexts.rst
+    valueSelects.rst
+    conditions.rst
