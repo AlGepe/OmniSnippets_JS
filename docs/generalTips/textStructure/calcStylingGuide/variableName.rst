@@ -10,7 +10,9 @@ Choosing the correct variable name is an important part of calculator design, as
 .. note::
   If you have to differentiate between the same variable applied to two different things, e.g., “A’s widths” & “B’s width”, it is generally better to place the distinction in the heading/group and leave the variable in its simple form, in this case “Width”. However, if the result doesn't look good, e.g., you have many groups with only one entry, the former example will suffice.
 
-Variable names are not merely limited to a description of the variable, they can also be **questions**. As above, these should be as brief as possible and end with a question mark. You may also want to create a variable that is a **sentence** completed by the different options of a value select, e.g., “I want to find the… area/volume/height”. In this case, the variable should end with ellipses (unless the question is very long already and you’re looking for ways to drop characters).
+Variable names can also be **questions** in specific circumstances. Questions are useful for creating a chatty tone, but should be limited to Yes/No questions or asking people what they want from the calculator, e.g., "What do you want to find?".  As above, these should be as brief as possible and end with a question mark. 
+
+You may also want to create a variable that is a **sentence** completed by the different options of a value select, e.g., “I want to find the… area/volume/height”. In this case, the variable should end with ellipses (unless the question is very long already and you’re looking for ways to drop characters).
 
 There are often **symbols** associated with particular variables you may also want to display next to the variable name. In this case they should be displayed after the variable and surrounded by brackets, e.g, “Height (h)”. If your symbol already has brackets around it and adding additional ones would be confusing, then you can replace the brackets with a comma, space, then symbol. So “Concentration ([M])” is better as “Concentration, [M]”.
 
