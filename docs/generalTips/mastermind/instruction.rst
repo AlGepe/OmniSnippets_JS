@@ -13,8 +13,8 @@ The mastermind worksheet consists of eleven columns:
 7. **Author 1** - this a place where you can **type in your name** to reserve the calculator for yourself. Before you do it, make sure this calculator is not already created or in progress by checking the `adminBB calculators list <calculators>`. We don't want to create the same calculator twice!
 8. **Author 2 (opt.)** - if you create a calculator with another person, this is a place to mention it.
 9. **Published?** - it says whether a calculator was already published. Blank box means the work is in progress, the word *yes* indicate that the calculator is already published (don't forget to add it!).
-10. **Very difficult?**
-11. **Comment**
+10. **Very difficult?** - if you see there *yes*, then a calculator might be difficult or even impossible to create with current capability of Omni Calculator's calculators creator. If there is a blank box and after reviewing the idea you think the calculator is too difficult, then feel free to input *yes*. Masterminders are not experts in every field and they might add some too ambitious ideas.
+11. **Calculatorians comments** - if you have your own reflections about the idea, here's the right place to put them.
 
 .. tip::
   tip message
