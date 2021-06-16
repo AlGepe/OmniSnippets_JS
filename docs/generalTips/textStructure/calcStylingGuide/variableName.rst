@@ -5,7 +5,7 @@ You can find a general overview of variables :ref:`here <groupsAndVariables>`.
 
 Variables should all **begin with a capital** but have no capitalization after, unless it’s necessary by convention, e.g., proper nouns. They also should **not end in a full stop**, but can end with a question mark for a question, or ellipses if the value select completes the sentence (see more below).
 
-Choosing the correct variable name is an important part of calculator design, as it is what the user interacts with most directly. Therefore the variable name **should be as short as possible** while still conveying all of the important information. For example, in the circle calculator, the name “The circle’s circumference” would be much too long. The name “Circumference” is much better, as the fact it is the circle’s is implicit. Remember, you can always use `help texts`_ to explain things.
+Choosing the correct variable name is an important part of calculator design, as it is what the user interacts with most directly. Therefore the variable name **should be as short as possible** while still conveying all of the important information. For example, in the circle calculator, the name “The circle’s circumference” would be much too long. The name “Circumference” is much better, as the fact it is the circle’s is implicit. Remember, you can always use :ref:`help texts <calcStylingGuideHelpTexts>` to explain things.
 
 If you have to differentiate between the same variable applied to two different things, e.g., “A’s widths” & “B’s width”, it is generally better to place the distinction in the heading/group and leave the variable in its simple form, in this case “Width”. If this looks ridiculous, however, the former example will suffice.
 
