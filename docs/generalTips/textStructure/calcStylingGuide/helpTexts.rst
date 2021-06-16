@@ -1,3 +1,5 @@
+.. _calcStylingGuideHelpTexts:
+
 Help texts
 ----------
 
@@ -8,6 +10,9 @@ Help texts can useful to provide the user with **extra information** that may he
 * An expected **range of inputs** (if you’d rather not use the hard limits of conditions).
 * A reference to where the variable is better explained in the text.
 * A note to use the **advanced mode** if you’d like a default changed, or any other reason someone may need to use the advanced mode.
+
+.. note::
+  If you want to know how to add help texts to your variables, check out :ref:`this section <groupsAndVariablesHelpText>` of the calculator guide.
 
 There are of course many other reasons that a help text may be used, but these are some of the common ones. 
 
