@@ -11,4 +11,5 @@ Help texts can useful to provide the user with **extra information** that may he
 
 There are of course many other reasons that a help text may be used, but these are some of the common ones. 
 
-However, **please do not use a help text to merely rephrase the variable**, e.g., for “Circumference”, the help text reads “The circumference of a circle.” Such a help text is redundant and doesn’t add anything to the user’s experience.
+.. warning::
+**Please do not use a help text to merely rephrase the variable**, e.g., for “Circumference”, the help text reads “The circumference of a circle.” Such a help text is redundant and doesn’t add anything to the user’s experience.
