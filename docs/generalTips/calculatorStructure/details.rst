@@ -70,9 +70,9 @@ Purpose
 
 The purpose attribute of a calculator helps us organize them in terms of why they were created. The purpose attribute has the following options:
 
-* ``production`` – this is the option to use for regular calculators that are to be published on the site.
-* ``non production`` – used for testing, documentation, etc., calculators. Non-production are not destined to be published on the site.
-* ``temporary`` – the calculator is not meant to be around for very long. This is the **default** purpose when you **clone** a calculator. Bear in mind that your old temporary calculators may be deleted in the future. This label will also help you clear up old temporary calculators that you no longer need.
+* ``production`` – This is the option to use for regular calculators that are to be published on the site.
+* ``non production`` – Calculators used for testing, documentation, etc. Non-production are not destined to be published on the site.
+* ``temporary`` – The calculator is not meant to be around for very long. This is the **default** purpose when you **clone** a calculator. Bear in mind that your old temporary calculators may be deleted in the future. This label will also help you clear up old temporary calculators that you no longer need.
 
 Authors
 -------
@@ -86,21 +86,21 @@ Category and subcategory
 
 Select the main category that your calculator falls into best. If you are not sure, ask on Slack. If that doesn't help, there is always the "**Other**" category for subjects that are hard to categorize.
 
-Once you select a category, the field "**Subcategory**" will appear and you go through the same process again. Note that you don't have to set a subcategory if your calculator doesn't fit any of them.
+Once you select a category, the field "**Subcategory**" will appear and you go through the same process again. Note, that you don't have to set a subcategory if your calculator doesn't fit any of them.
 
 Kind
 ----
 
-This setting is used to include a calculator in a special collection of calculators (e.g. the `Discover Omni <https://www.omnicalculator.com/discover>`_ collection). You most probably should leave this setting to default, unless you are told otherwise.
+This setting is used to include a calculator in a special collection of calculators (e.g. the `Discover Omni <https://www.omnicalculator.com/discover>`_ collection). You should  probably leave this setting to the default, unless you are told otherwise.
 
 Show ads
 --------
 
-This setting controls whether adverts are displayed on the calculator page. You should only generally change this setting if you are told to do so. This setting has the following three options:
+This setting controls whether adverts are displayed on the calculator page. You should generally only change this setting if you are told to do so. This setting has the following three options:
 
-* ``default`` — the calculator will use the current site-wide setting of whether ads are shown;
-* ``yes`` — forces adverts to be shown; and
-* ``no`` — force adverts not to be shown.
+* ``default`` — The calculator will use the current site-wide setting of whether ads are shown.
+* ``yes`` — Forces adverts to be shown.
+* ``no`` — Force adverts not to be shown.
 
 .. note::
   Marketing calculators usually start off with not showing ads while pitches are being sent to journalists. Once the traffic picks up, adverts will usually be turned on.
@@ -114,7 +114,7 @@ For search engine optimization reasons, we might want to have sub-calculators th
 
 This setting is used to organize a redundant calculator so we know which main calculator it belongs to. Specifying a parent will **make the current calculator redundant** and hide it from its category index page. You should only set a parent if you have been told to do so.
 
-You can search for the parent calculator either by starting to **type its name**, or by entering its **id number**.
+You can search for the parent calculator either by starting to **type its name**, or by entering its **ID number**.
 
 Is published
 ------------
@@ -122,7 +122,7 @@ Is published
 This checkbox indicates whether the calculator is currently published.
 
 .. warning::
-  Checking this box will **publish** the calculator. This should only be done once the calculator has been reviewed and proofread. Your proofreading will be the person who usually checks this box.
+  Checking this box will **publish** the calculator. This should only be done once the calculator has been reviewed and proofread. Your proofreader will be the person who usually checks this box.
   
   Unchecking this box will **unpublish** the calculator.
 
