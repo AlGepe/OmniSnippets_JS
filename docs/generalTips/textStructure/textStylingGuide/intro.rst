@@ -1,3 +1,5 @@
+.. _textStylingGuide:
+
 Text styling guide
 =================================================
 
