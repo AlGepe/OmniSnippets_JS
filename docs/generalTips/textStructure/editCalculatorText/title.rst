@@ -23,8 +23,8 @@ Marketing calculators may have any title, as long as it is agreed with the marke
 
 Here are some points to considered when choosing a title for your calculator:
 
-* DO **capitalize** the title according to `these rules <http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html>`_.
-* DO use the word **"Calculator"** in the title (unless it's a converter, counter, etc.)
+* DO **capitalize** the title according to `these rules <http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html>`_;
+* DO use the word **"Calculator"** in the title (unless it's a converter, counter, etc.); and
 * DO make sure the first keyword is at the **beginning** of the title.
 
 *Examples of good titles ✔️:* ROI Calculator – Return on Equity, Pressure at Altitude Calculator, Length Converter.
@@ -51,9 +51,9 @@ There is a **length restriction** with the SEO title though. It can be no longer
 
 Here are to dos and don'ts when writing the SEO title for your calculator:
 
-* DO **capitalize** the SEO title according to `these rules <http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html>`_.
-* DO use the **most searched phrase** at the beginning of the SEO title.
-* DO add other phrases, if they **rank high** in SEO.
+* DO **capitalize** the SEO title according to `these rules <http://grammar.yourdictionary.com/capitalization/rules-for-capitalization-in-titles.html>`_;
+* DO use the **most searched phrase** at the beginning of the SEO title;
+* DO add other phrases, if they **rank high** in SEO; and
 * DON'T exceed the length limit, as advised by BB.
 
 *Examples of good SEO titles ✔️:* Circumference Calculator, Acceleration Calculator, BMI Calculator - What's Your Body Mass Index?
