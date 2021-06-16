@@ -16,24 +16,24 @@ It would be best if you avoided keywords that our calculators cannot answer. The
 
 .. rubric:: Examples of good keywords:
 
-- Acceleration **formula**
-- Mortgage **definition**
-- Ideal weight **equation**
-- BMI **meaning**
-- **Unit** of pressure
-- Velocity **graph**
-- Sock size **chart**
-- Dividing exponents **example**
-- **How to find** absolute value
-- **What is** margin of safety
-- **How to calculate** future value
-- Square root **of 2**
+- Acceleration **formula**;
+- Mortgage **definition**;
+- Ideal weight **equation**;
+- BMI **meaning**;
+- **Unit** of pressure;
+- Velocity **graph**;
+- Sock size **chart**;
+- Dividing exponents **example**;
+- **How to find** absolute value;
+- **What is** margin of safety;
+- **How to calculate** future value; and
+- Square root **of 2**.
 
 
 .. rubric:: Examples of bad keywords:
 
-- Velocity (too general)
-- Dividend synonym (we aren't a dictionary)
-- Acceleration clause (unrelated to the main topic)
-- Quilting fabric (we're not a shop)
-- Best weight loss pills (trademarked products)
+- Velocity (too general);
+- Dividend synonym (we aren't a dictionary);
+- Acceleration clause (unrelated to the main topic);
+- Quilting fabric (we're not a shop); and
+- Best weight loss pills (trademarked products).
