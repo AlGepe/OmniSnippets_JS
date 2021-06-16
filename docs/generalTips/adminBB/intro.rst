@@ -10,5 +10,4 @@ Here you can read about all of the crucial features you can find on our adminBB 
     categories
     collections
     unitSwitchers
-    users
     tools
