@@ -27,7 +27,6 @@ Sometimes you may want to input an equation for some lesser reason, perhaps to r
 
 .. _equations_example2:
 .. figure:: equations_example2.jpg
-   :scale: 70%
    :alt: An equation in a paragraph
    :align: center
 
