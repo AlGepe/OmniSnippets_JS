@@ -8,9 +8,9 @@ For the sake of consitancy, its good that all of our calculators look the same. 
 .. toctree::
     :maxdepth: 3
 
-    title.rst
-    variableName.rst
-    groupHeadings.rst
-    helpTexts.rst
+    title
+    variableName
+    groupHeadings
+    helpTexts
     valueSelects.rst
-    conditions.rst
+    conditions
