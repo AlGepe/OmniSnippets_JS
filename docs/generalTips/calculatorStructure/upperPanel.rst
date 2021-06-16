@@ -69,7 +69,7 @@ Here are step-by-step instructions to merge a cloned calculator with its origina
 
 .. _upperPanelMerge:
 .. figure:: upper-panel-merge.png
-   :width: 100%
+  :width: 100%
   :alt: merge calculator dialog
   :align: center
 
@@ -92,7 +92,7 @@ On the right-hand side of the page, a **full preview** of your calculator is sho
 
 .. _upperPanelPreviewError:
 .. figure:: upper-panel-preview-error.png
-   :width: 100%
+  :width: 100%
   :alt: edit calculator page with the upper panel highlighted
   :align: center
 
