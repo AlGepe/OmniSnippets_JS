@@ -24,7 +24,7 @@ Pitch phase
 Now the calculator has been built, it needs to be promoted to journalists by sending emails to them. Journalists are always looking for ideas for stories, so they are generally glad of these emails.
 
 * The emails could be **sent in your name**. Of course, you will be informed beforehand. **Two email pitches** are usually sent per campaign.
-* There will be at least two versions of the email pitch that you can choose from. You can view them through a document that they will send you. You are most welcome to give your comments.
+* There will be at least two versions of the email pitch that you can choose from. You can view them through a document that the marketing team will send you. You are most welcome to give your comments.
 * If you prefer, the marketing team can **show you their replies to journalists first**, but keep in mind that they need to reply ASAP, so if you can’t reply within an hour, then you can expect that reply to be sent.
 * Email campaigns are sent on **Tuesdays-Thursdays, at 4 PM**. Hence, we need the calculator **published before 4 PM** (5 PM at the latest). Otherwise, it will be sent out on the next day.
 * The marketing team works from **9 AM - 5 PM on weekdays**, but when there is a running campaign, the campaign leader could contact you **after these hours** as well.
