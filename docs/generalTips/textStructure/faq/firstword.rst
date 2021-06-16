@@ -1,7 +1,7 @@
 Question’s first word
 =====================
 
-Linked to what I’ve just said about :ref:`relatedness to Omni<relatednessToOmni>`, **certain question types (“How…”, “Can…”, etc) work better for us than others**. Here is a breakdown of the questions I wrote by first word and their success: 
+Linked to what I’ve just said about :ref:`relatedness to Omni<relatednessToOmni>`, **certain question types (“How…”, “Can…”, etc) work better for us than others**. Here is a breakdown of the questions written by first word and their success: 
 
 .. _firstword_table:
 .. figure:: firstword_table.jpg
