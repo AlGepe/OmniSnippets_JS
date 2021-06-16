@@ -5,20 +5,20 @@ Equations
 
 Equations in your text should use the code font (monospace). This can either be achieved by enclosing the equation in **double backticks** or by using the ``<code>`` HTML tag.
 
-Generally, we use an asterisk as the multiplication symbol. So the equation for the area of a circle would be typed as:
+Generally, we use an asterisk as the multiplication symbol. So, the equation for the area of a circle would be typed as:
 
 ````A = 𝜋 * r²````
 
-And render as:
+And rendered as:
 
 ``A = 𝜋 * r²``
 
-As a rule, leave space around each operator to aid readability.
+As a rule, leave a space around each operator to aid readability.
 
 Superscripts and subscripts
 ---------------------------
 
-For superscripts and subscripts, you can either use Unicode characters (if available) or use the HTML tags ``<sup>`` and ``<sub>``. Note however, that you can only use these when using the ``<code>`` HTML tag method.
+For superscripts and subscripts, you can either use Unicode characters (if available) or use the HTML tags ``<sup>`` and ``<sub>``. Note, however, that you can only use these when using the ``<code>`` HTML tag method.
 
 Here's an example:
 
@@ -39,7 +39,7 @@ Which would render like this:
 Centering short equations
 -------------------------
 
-For very short equations, you should consider centering them to make them standout more to th reading. You can currently do this with the ``<center>`` HTML tag. Therefore, you'll need to also use the ``<code>`` tag to display the equation as code text. So for the area of a circle example, the text would be:
+For very short equations, you should consider centering them to make them standout more to the reader. You can currently do this with the ``<center>`` HTML tag. Therefore, you'll need to also use the ``<code>`` tag to display the equation as code text. So, for the area of a circle example, the text would be:
 
 .. code:: html
 
