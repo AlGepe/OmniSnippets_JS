@@ -19,7 +19,7 @@ It will have the following main sections, which we'll briefly summarize.
 Background
 ----------
 
-Features some key **background information** that supports why making this calculator is a good idea and what you might like to in your text.
+Features some key **background information** that supports why making this calculator is a good idea and what you might like to put in your text.
 
 Idea
 ----
@@ -29,7 +29,7 @@ A brief, **general idea** for the calculator. States the problem that it solves 
 Target groups
 -------------
 
-Lists what **target audience groups** the calculator is aim at, and what type of journalists serve these groups.
+Lists what the **target audience** of the calculator is, and what type of journalists serve these groups.
 
 Calculator ideas
 ----------------
@@ -42,4 +42,4 @@ Marketing campaigns
 Describes how the Marketing Team™ see the campaigns going for this calculator. Answers questions like: How many phases will there be? Who will it be sent to? What's the timing for each mailing.
 
 .. note::
-  The research document may also contain notes of things to **include in your text** to make it appealing to both user and journalists alike.
+  The research document may also contain notes of things to **include in your text** to make it appealing to user and journalists alike.
