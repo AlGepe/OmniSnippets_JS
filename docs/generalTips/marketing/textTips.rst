@@ -18,16 +18,16 @@ We've gathered some of the best practices for writing marketing calculator texts
 
 **Make sure the text answers these questions:**
 
-* Why this topic is important for people now — in the lead.
-* Why the tool is useful/helpful for people — in the lead.
-* How the tool works.
-* How can we apply it in our lives (tips).
+* Why this topic is important for people now — in the lead;
+* Why the tool is useful/helpful for people — in the lead;
+* How the tool works;
+* How can we apply it in our lives (tips); and
 * Bonus: If possible, include a fun factor for readers.
 
 
-**Keep the tone light, optimistic, and upbeat.** If it's possible to make it funny, make it funny. If not, try to convey the message of how much we **help you** and make your life wonderful, don't focus on what sucks. If the calculator is only about what sucks (e.g. how smoking reduces your lifetime), **give some hands-on advice** about what the user can do about it and how he can change the world for the better.
+**Keep the tone light, optimistic, and upbeat.** If it's possible to make it funny, make it funny. If not, try to convey the message of how much we **help you** and make your life wonderful. Don't focus on what sucks. If the calculator is only about what sucks (e.g. how smoking reduces your lifetime), **give some hands-on advice** about what the user can do about it and how he can change the world for the better.
 
-**Be mindful of your audience.** We strive to make a tool that can be used universally, but in rare cases, wherein our target audience are just in the US, UK, etc., remember to use examples and data from that region.
+**Be mindful of your audience.** We strive to make a tool that can be used universally, but in rare cases, such as when our target audience are just in the US, UK, etc., remember to use examples and data from that region.
 
 **Make sure that it is understandable for everyone.** Imagine that a person without a mathematical mind or scientific expertise will read it. Use Grammarly to check its level of difficulty. We aim for text that is understandable for those 13-14 years old.
 
@@ -40,7 +40,7 @@ We've gathered some of the best practices for writing marketing calculator texts
 Making marketing graphics (simple guidelines)
 ---------------------------------------------
 
-Following these simple guidelines, you can ensure our graphics look unique from our competition and are easily identifiable as Omni’s graphics.
+Following these simple guidelines, you can ensure our graphics look unique compared to our competition and are easily identifiable as Omni’s graphics.
 
 1. We use `this logo <https://drive.google.com/drive/folders/1jedzqji5fXavTLHVDFFRz0Iok3IV_Wfz?usp=sharing>`_ in all our graphics which goes in the bottom-right corner.
 2. In case the image goes inside the calculator section, you don’t need to add a logo.
