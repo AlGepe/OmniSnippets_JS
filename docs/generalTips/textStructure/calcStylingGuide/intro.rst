@@ -12,5 +12,5 @@ For the sake of consitancy, its good that all of our calculators look the same. 
     variableName
     groupHeadings
     helpTexts
-    valueSelects.rst
+    valueSelects
     conditions
