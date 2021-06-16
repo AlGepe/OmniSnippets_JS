@@ -13,25 +13,25 @@ The **Keywords tab** is probably the most important tab of the SEO checking tool
     An example of an all-green keywords tab.
 
 
-The SEO checking then gives you feedback using a number of checks. Each check is abbreviated by a letter sequence:
+The SEO check then gives you feedback using a number of checks. Each check is abbreviated by a letter sequence:
 
-* **SAT** — keyword saturation. The first number tells you how many times that keyword appears in the text. The second figure is your target to make this check green.
+* **SAT** — Keyword saturation. The first number tells you how many times that keyword appears in the text. The second figure is your target to make this check green.
 
-* **L** — lead text. Is this keyword in the lead (section of text before first ``##`` level 2 heading)? The lead should contain at **least four** keywords.
+* **L** — Lead text. Is this keyword in the lead (section of text before first ``##`` level 2 heading)? The lead should contain at **least four** keywords.
 
-* **H** — heading text. Is this keyword used as part of a **level 2 heading**? Hover your mouse over an **H** to see how many keywords in headings you need.
+* **H** — Heading text. Is this keyword used as part of a **level 2 heading**? Hover your mouse over an **H** to see how many keywords in headings you need.
 
 The following checks are only performed in the main keyword of the calculator:
 
-* **T** — title should contain the main keyword at the beginning;
+* **T** — Title should contain the main keyword at the beginning;
 
 * **ST** — SEO title should contain the main keyword at the beginning;
 
-* **1S** — first sentence should contain the main keyword;
+* **1S** — First sentence should contain the main keyword;
 
-* **D** — description should contain the main keyword; and
+* **D** — Description should contain the main keyword; and
 
-* **C** — the first keyword should contain the word "calculator" or "converter".
+* **C** — The first keyword should contain the word "calculator" or "converter".
 
 If you are currently not passing all the keyword tests, these will be shown in the color red.
 
