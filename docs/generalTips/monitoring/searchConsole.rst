@@ -3,9 +3,9 @@
 Google Search Console
 =====================
 
-The Google Search Console (GSC) is a website provided by Google that tells you statistics on visitors your you calculator that come from **Google search results, only**.
+The Google Search Console (GSC) is a website provided by Google that gives you statistics on the visitors to your calculator that come from **Google search results, only**.
 
-It can show you how many times your calculator appeared in search results (**impressions**). How many **clicks** it got and where on the list of links it appears.
+It can show you how many times your calculator appeared in search results (**impressions**), how many **clicks** it got, and where on the list of links it appears.
 
 .. tip::
   If you prefer, you can view this content in `this presentation <https://omnic.slack.com/files/U2SDL2Z8E/F01NSB7D6PR/gmt20210224-125611_bogna-szyk_2560x1440.mp4>`_ given by Bogna. Please **skip to time code 7m:30s** to see the start of the presentation on GSC. 
@@ -23,7 +23,7 @@ To open up the GSC for a calculator, load it up and **click on the gear cog icon
 
   Click on the menu item highlighted in yellow to open the GSC for this calculator.
 
-You will then be greeted with the following page (if you are not, you may need to ask Bogna for access, and make sure you are logged into your Google account):
+You will then be greeted by the following page (if you are not, you may need to ask Bogna for access, and make sure you are logged into your Google account):
 
 
 .. _searchConsoleExample:
@@ -32,17 +32,17 @@ You will then be greeted with the following page (if you are not, you may need t
   :alt: example of a Google Search Console page for a calculator
   :align: center
 
-By default it shows you the **last 28 days**. If you want to see longer term trends, click on the **date filter** at the top and select another time period to analyse.
+By default it shows you the **last 28 days**. If you want to see longer term trends, click on the **date filter** at the top and select another time period to analyze.
 
 The four stats of GSC
 ---------------------
 
 Four stats are shown by default on the graph (click on the colored boxes to remove them from the graph):
 
-* **Total clicks** — how many times people clicked on your calculator's search result.
-* **Total impressions** — how many times your calculator appeared in search results.
-* **Average CTR** — the number of clicks divided by the number of impressions, given as a percentage.
-* **Average position** — where in the search results does your calculator appear, on average. The smaller the number the better.
+* **Total clicks** — How many times people clicked on your calculator's search result.
+* **Total impressions** — How many times your calculator appeared in search results.
+* **Average CTR** — The number of clicks divided by the number of impressions, given as a percentage.
+* **Average position** — Where in the search results does your calculator appear, on average. The smaller the number the better.
 
 .. tip::
   If your calculator is very new, there probably will not being enough data to make any meaningful conclusions. It is recommended to wait until it is at **least 2 months old**.
@@ -59,7 +59,7 @@ Below the graph, you will see the **queries section**. This is a list of queries
 
 The default is to order the list by clicks, but you can **click on the headings** to order by the other three stats.
 
-Now the click through rate and position stats have more meaning. You can see which keywords are working. If you **click on a keyword**, you get the graphs again, but for just that keyword. What you want to see is a rising position and CTR.
+Now the click through rate and position stats have more meaning - you can see which keywords are working. If you **click on a keyword**, you get the graphs again, but for just that keyword. What you want to see is a rising position and CTR.
 
 .. _searchConsoleKeywordExample:
 .. figure:: search-console-keyword-eg.png
@@ -84,4 +84,4 @@ What you can do is to order the keywords so those with the highest impressions a
 
   The keywords with their positions highlighted in yellow are not ranking so high as the rest, so might be suitable for the basis of spin-off calculators.
 
-If you find an idea using this method, check with Hania about adding to :ref:`Mastermind <mastermind>`.
+If you find an idea using this method, check with Hania about adding it to :ref:`Mastermind <mastermind>`.
