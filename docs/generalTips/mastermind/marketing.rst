@@ -1,5 +1,5 @@
 .. _marketing:
-Marketing calculators
+Ideas for marketing calculators
 =====================
 
 There are two places where you can post the ideas for marketing calculators:
