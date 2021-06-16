@@ -11,7 +11,7 @@ Table of contents
 
 Each calculator has a table of contents section at the top. This is created from the level 2 (``##``) heading names.
 
-Clicking on one of these links allows the user to quickly get to that part of the text that interests them.
+Clicking on one of these links allows the user to quickly get to the part of the text that interests them.
 
 It is also useful for you when you want to **link from one section of your text to another** (an anchor link). You can do this by following these steps:
 
