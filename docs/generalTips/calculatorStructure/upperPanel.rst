@@ -13,16 +13,16 @@ Upper panel, shortcut, preview
 
 The upper panel of the edit calculator page contains the following items on the left, from left to right:
 
-* **Three-bar hamburger menu** — access other parts of adminBB.
-* **Omni logo** — clicking the logo will take you to the calculator index page.
-* **Name** — name of the calculator, followed by the word "calculator".
-* **Text** — takes you to the text editing page.
-* **www** — takes you to frontend web page rendering of the calculator.
+* **Three-bar hamburger menu** — Access other parts of adminBB.
+* **Omni logo** — Clicking the logo will take you to the calculator index page.
+* **Name** — Name of the calculator, followed by the word "calculator".
+* **Text** — Takes you to the text editing page.
+* **www** — Takes you to frontend web page rendering of the calculator.
 
 Save button
 -----------
 
-On the right-hand side there is the all important **save** button. When you first open a calculator, this button will be **grey**. If you make a change to the calculator, it will turn **yellow**, indicating that there are unsaved changes. Once you press the button to save the changes, the button then turns **green**.
+On the right-hand side there is the all-important **save** button. When you first open a calculator, this button will be **grey**. If you make a change to the calculator, it will turn **yellow**, indicating that there are unsaved changes. Once you press the button to save the changes, the button then turns **green**.
 
 When you press the save button, look out for the **message** in the bottom right corner, which tells you whether the save was successful, or if there is an error that needs correcting.
 
@@ -34,17 +34,17 @@ Calculator tools ⚙️
 
 The little gear icon opens a menu with the following items:
 
-* **Clone** — makes a temporary copy of the current calculator. Useful for testing a change out before saving it to the live calculator.
-* **Merge to other calculator** — allows you to merge this calculator with another one. Useful for copying some changes from a cloned calculator to a published calculator. *If you can't see this option, get your reviewer/proofreader to do the merge.*
-* **Show revisions (soon)** — will allow you to see all the different revisions of a calculator. A revision will be stored each time the calculator is saved.
-* **Show redundant children (soon)** — will show the redundant, sub-calculators that are associated with this calculator.
+* **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator.
+* **Merge to other calculator** — Allows you to merge this calculator with another one. Useful for copying some changes from a cloned calculator to a published calculator. *If you can't see this option, get your reviewer/proofreader to do the merge.*
+* **Show revisions (soon)** — Will allow you to see all the different revisions of a calculator. A revision will be stored each time the calculator is saved.
+* **Show redundant children (soon)** — Will show the redundant, sub-calculators that are associated with this calculator.
 
 Let's explore each of these tools in detail next.
 
 Clone
 ^^^^^
 
-Cloning a calculator is useful if you need to add a new feature to an existing calculator. Here are step-by-step instructions to clone a calculator:
+Cloning a calculator is useful if you need to add a new feature to an existing calculator. Here are the step-by-step instructions to clone a calculator:
 
 1. Click on the gear cog icon and select **Clone**.
 2. A draft of the new cloned calculator is then displayed. The slug and name are pre-filled with today's date and current time. You are free to **change the slug/name to something more meaningful**. You can also make changes to the calculator at this stage, but it's probably best to save first.
@@ -63,7 +63,7 @@ After cloning a calculator and implementing its new feature(s), it's time to **a
 Here are step-by-step instructions to merge a cloned calculator with its original:
 
 1. Click on the gear cog icon and select **Merge to other calculator**.
-2. Search for the original calculator; you can either search by name or id number. Click **Continue**.
+2. Search for the original calculator; you can either search by name or ID number. Click **Continue**.
 3. To avoid any mistakes, enter the slug of the original calculator that will be changed, then press **Confirm**.
 4. You should then see a green success feedback message.
 
@@ -76,7 +76,7 @@ Here are step-by-step instructions to merge a cloned calculator with its origina
   Choose the original calculator to copy the current calculator to.
 
 .. note::
-  Properties in the **Details section** are not changed in the original calculator. So all attributes except Name, Slug, Type, Is published, Status, Authors, Category & Subcategory, Kind, Show ads, and Is redundant.
+  Properties in the **Details section** are not changed in the original calculator, so all attributes except Name, Slug, Type, Is published, Status, Authors, Category & Subcategory, Kind, Show ads, and Is redundant.
 
 The cloned calculator will **not be automatically deleted**. If you are not planning to add another feature to the calculator, please go ahead an delete the calculator to keep our BB nice and tidy.
 
