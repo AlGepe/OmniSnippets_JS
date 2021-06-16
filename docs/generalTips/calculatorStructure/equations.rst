@@ -22,7 +22,7 @@ We have three equations here, which you should immediately recognize. Each equat
 Always save after making changes to the equations section
 ---------------------------------------------------------
 
-When adding, deleting and editing equations, you need to **save the calculator** for these changes to be reflected in the calculator preview. Note that this is not the case for changes made to the following sections: *Groups and variables*; *CustomJS*, *Value selects and Tests*.
+When adding, deleting and editing equations, you need to **save the calculator** for these changes to be reflected in the calculator preview. Note, that this is not the case for changes made to the following sections: *Groups and variables*; *CustomJS*, *Value selects and Tests*.
 
 Additional variable names field
 -------------------------------
@@ -30,7 +30,7 @@ Additional variable names field
 If you want to introduce any variables that are not related to the variables in the equations, you can add them here (see in the :ref:`figure above <equationsExample>`) as a comma separated list. Here are some common reasons you might want to do that:
 
 * Add a variable for the sole purpose of **displaying an image or message** below the variable. This dummy variable should be **hidden** for this purpose.
-* The calculator has a lot of **JavaScript** to handle the calculations, instead of using equations. So to create the variables in the calculator without writing them as equations, they need to be listed here.
+* The calculator has a lot of **JavaScript** to handle the calculations, instead of using equations. So, to create the variables in the calculator without writing them as equations, they need to be listed here.
 
 Variable names
 --------------
@@ -44,7 +44,7 @@ Generally, you should try to use **descriptive names** so someone else reading y
 Reserved variable names
 -----------------------
 
-You may find that using a certain variable name gives an error. For example, trying to use the variable name`EulerGamma`gives the following error:
+You may find that using a certain variable name gives an error. For example, trying to use the variable name `EulerGamma` gives the following error:
 
 * ``Undefined symbol EulerGamma``
 
@@ -57,21 +57,21 @@ Constants
 
 In the equations section, you have access to a few special constants. One example is ``pi`` that gives you the value pi. Here's the full list:
 
-* ``pi`` — the ratio of the diameter to the circumference of a circle (3.1416...).
-* ``E`` — base of the natural logarithm e (2.7183...). 
+* ``pi`` — The ratio of the diameter to the circumference of a circle (3.1416...).
+* ``E`` — Base of the natural logarithm e (2.7183...). 
 
 Operators
 ---------
 
 The following operators are available to you in the equations you write:
 
-* ``=`` — equals operator;
-* ``+`` — addition operator;
-* ``-`` — subtraction operator;
-* ``*`` — multiplication operator; 
-* ``/`` — divide operator;
-* ``^`` — power operator (e.g. ``2^2 = 4``); and
-* ``!`` — factorial operator (one way).
+* ``=`` — Equals operator;
+* ``+`` — Addition operator;
+* ``-`` — Subtraction operator;
+* ``*`` — Multiplication operator; 
+* ``/`` — Divide operator;
+* ``^`` — Power operator (e.g. ``2^2 = 4``); and
+* ``!`` — Factorial operator (one way).
 
 Math functions
 --------------
@@ -81,83 +81,83 @@ The following math functions are supported equations, organized by type.
 Trigonometric Functions
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-* ``sin(x)`` — sine function;
-* ``cos(x)`` — cosine function;
-* ``tan(x)`` — tangent function;
-* ``cot(x)`` — cotangent function;
-* ``sec(x)`` — secant function; and
-* ``csc(x)`` — cosecant function.
+* ``sin(x)`` — Sine function;
+* ``cos(x)`` — Cosine function;
+* ``tan(x)`` — Tangent function;
+* ``cot(x)`` — Cotangent function;
+* ``sec(x)`` — Secant function; and
+* ``csc(x)`` — Cosecant function.
 
 Inverse trigonometric functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* ``asin(x)`` — inverse sine function (arcsin, sin\ :sup:`-1`);
-* ``acos(x)`` — inverse cosine function (arccos, cos\ :sup:`-1`);
-* ``atan(x)`` — inverse tangent function (arctan, tan\ :sup:`-1`);
-* ``acot(x)`` — inverse cotangent function (arccot, cot\ :sup:`-1`);
-* ``asec(x)`` — inverse secant function (arcsec, sec\ :sup:`-1`);
-* ``acsc(x)`` — inverse cosecant function (arcscs, csc\ :sup:`-1`);
-* ``atan2(y, x)`` — computes atan(𝑦/𝑥) taking two arguments 𝑦 and 𝑥. Signs of both 𝑦 and 𝑥 are considered to determine the appropriate quadrant of atan(𝑦/𝑥). The range is (−𝜋,𝜋].
+* ``asin(x)`` — Inverse sine function (arcsin, sin\ :sup:`-1`);
+* ``acos(x)`` — Inverse cosine function (arccos, cos\ :sup:`-1`);
+* ``atan(x)`` — Inverse tangent function (arctan, tan\ :sup:`-1`);
+* ``acot(x)`` — Inverse cotangent function (arccot, cot\ :sup:`-1`);
+* ``asec(x)`` — Inverse secant function (arcsec, sec\ :sup:`-1`);
+* ``acsc(x)`` — Inverse cosecant function (arcscs, csc\ :sup:`-1`);
+* ``atan2(y, x)`` — Computes atan(𝑦/𝑥) taking two arguments 𝑦 and 𝑥. Signs of both 𝑦 and 𝑥 are considered to determine the appropriate quadrant of atan(𝑦/𝑥). The range is (−𝜋,𝜋].
 
 Hyperbolic Functions
 ^^^^^^^^^^^^^^^^^^^^
 
-* ``sinh(x)`` — hyperbolic sine of ``x``;
-* ``cosh(x)`` — hyperbolic cosine of ``x``;
-* ``tanh(x)`` — hyperbolic tangent of ``x``;
-* ``coth(x)`` — hyperbolic cotangent of ``x``;
-* ``sech(x)`` — hyperbolic secant of ``x``; and
-* ``csch(x)`` — hyperbolic cosecant of ``x``.
+* ``sinh(x)`` — Hyperbolic sine of ``x``;
+* ``cosh(x)`` — Hyperbolic cosine of ``x``;
+* ``tanh(x)`` — Hyperbolic tangent of ``x``;
+* ``coth(x)`` — Hyperbolic cotangent of ``x``;
+* ``sech(x)`` — Hyperbolic secant of ``x``; and
+* ``csch(x)`` — Hyperbolic cosecant of ``x``.
 
 Hyperbolic Inverses
 ^^^^^^^^^^^^^^^^^^^
 
-* ``asinh(x)`` — inverse hyperbolic sine function;
-* ``acosh(x)`` — inverse hyperbolic consine function;
-* ``atanh(x)`` — inverse hyperbolic tangent function;
-* ``acoth(x)`` — inverse hyperbolic cotangent function;
-* ``asech(x)`` — inverse hyperbolic secant function; and
-* ``acsch(x)`` — inverse hyperbolic cosecant function;
+* ``asinh(x)`` — Inverse hyperbolic sine function;
+* ``acosh(x)`` — Inverse hyperbolic consine function;
+* ``atanh(x)`` — Inverse hyperbolic tangent function;
+* ``acoth(x)`` — Inverse hyperbolic cotangent function;
+* ``asech(x)`` — Inverse hyperbolic secant function; and
+* ``acsch(x)`` — Inverse hyperbolic cosecant function;
 
 Rounding functions
 ^^^^^^^^^^^^^^^^^^
 
-* ``round(x)`` — rounds ``x`` to the nearest integer (e.g. 2.5 become 3);
-* ``ceiling(x)`` — rounds ``x`` up to the nearest integer (e.g. 2.3 becomes 3); and
-* ``floor(x)`` — rounds ``x`` down to the nearest integer (e.g. 8.8 becomes 8).
+* ``round(x)`` — Rounds ``x`` to the nearest integer (e.g. 2.5 become 3);
+* ``ceiling(x)`` — Rounds ``x`` up to the nearest integer (e.g. 2.3 becomes 3); and
+* ``floor(x)`` — Rounds ``x`` down to the nearest integer (e.g. 8.8 becomes 8).
 
 All rounding functions return a **one-way variable** (user can't edit the variable).
 
 Exponential function
 ^^^^^^^^^^^^^^^^^^^^
 
-* ``exp(x)`` — exponential function, e\ :sup:`x`.
+* ``exp(x)`` — Exponential function, e\ :sup:`x`.
 
 Logarithm functions
 ^^^^^^^^^^^^^^^^^^^
 
-* ``log(x)`` and ``ln(x)`` — natural logarithm function ln(𝑥) or log(𝑥); and
-* ``log10(x)`` — base 10 logarithm function. *One-way function.*
+* ``log(x)`` and ``ln(x)`` — Natural logarithm function ln(𝑥) or log(𝑥); and
+* ``log10(x)`` — Base 10 logarithm function. *One-way function.*
 
 Minimum and maximum functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* ``min(x, y, z, ...)`` — returns the minimum from the list of variables (any quantity); and
-* ``max(x, y, z, ...)`` — returns the maximum from the list of variables (any quantity).
+* ``min(x, y, z, ...)`` — Returns the minimum from the list of variables (any quantity); and
+* ``max(x, y, z, ...)`` — Returns the maximum from the list of variables (any quantity).
 
 These are one-way functions.
 
 Root functions
 ^^^^^^^^^^^^^^
 
-* ``sqrt(x)`` — returns the principal square root of ``x``.
-* ``cbrt(x)`` — returns the principal cube root of ``x``.
-* ``root(x, n, k)`` — returns the *k*-th *n*-th root of ``x``. E.g., the cube root of 27 is ``root(27, 3)``.
+* ``sqrt(x)`` — Returns the principal square root of ``x``;
+* ``cbrt(x)`` — Returns the principal cube root of ``x``; and
+* ``root(x, n, k)`` — Returns the *k*-th *n*-th root of ``x``. E.g., the cube root of 27 is ``root(27, 3)``.
 
 Factorial function
 ^^^^^^^^^^^^^^^^^^
 
-* ``factorial(x)`` — returns the factorial of the non-negative integer ``x``.
+* ``factorial(x)`` — Returns the factorial of the non-negative integer ``x``.
 
 Forcing a one-way function
 --------------------------
