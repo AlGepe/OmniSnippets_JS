@@ -9,6 +9,5 @@ Links should be applied to the text in a certain way too, as outlined in the ima
 
 .. _links_guide:
 .. figure:: links_guide.jpg
-   :scale: 70%
    :alt: Where to add links
    :align: center
