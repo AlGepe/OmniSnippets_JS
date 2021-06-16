@@ -19,12 +19,12 @@ To enrich your text, you can add pictures. Here's how.
 
     <img src=https://uploads-cdn.omnicalculator.com/images/pentagon-h-d.png">
       
-   Detailed instructions on uploading images are the section `How to upload pictures?`_ below.
+   Detailed instructions on uploading images in are the section `How to upload pictures?`_ below.
 
 **Important attributes**
 
-*  MUST DO: **alt** -  alternate text for an image. Provides alternative information for an image if a user for some reason cannot view it (slow connection, an error, using a screen reader). e.g., ``<img src="xxx.png" alt="image of pentagon with its diagonal and height">``
-* Height, width — specifies dimension. E.g.: ``<img src="xxx.png" width="45%">``
+*  MUST DO: **alt** -  Alternate text for an image. Provides alternative information for an image if a user for some reason cannot view it (slow connection, an error, using a screen reader). e.g., ``<img src="xxx.png" alt="image of pentagon with its diagonal and height">``
+* Height, width — Specifies dimension. E.g.: ``<img src="xxx.png" width="45%">``
 * Aligning the image (right, left). E.g.: ``<img src ="aaa.svg" align="right">``
 * Centering the image — ``<center><figure><img src="aaa.JPG" width="40%"></figure></center>``
 * A good example of formatting an image with a caption you can shamelessly copy:
