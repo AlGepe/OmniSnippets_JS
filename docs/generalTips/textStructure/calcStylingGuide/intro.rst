@@ -3,12 +3,16 @@
 Calculator style guide
 =================================================
 
-For the sake of consistency, its good that all of our calculators look the same. Heres the guide on how to do that.
+For the sake of consistency, its good that all of our calculators look the same. Here's the guide on how to do that.
 
 .. toctree::
     :maxdepth: 3
 
-    ../editCalculatorText/intro
-    ../textStylingGuide/intro
-    ../faq/intro
+    groupHeadings
+    title
+    variableName
+
+* :ref:`Edit calculator text <editCalculatorText>` — how to edit calculator texts.
+* :ref:`Text styling guide <textStylingGuide>` — Omni's in-house style guide.
+* :ref:`FAQ guide <faqGuide>` — a guide to writing FAQs for your texts.
 
