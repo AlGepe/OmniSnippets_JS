@@ -9,9 +9,9 @@ Check out similar calculators
   :alt: example of the check out similar calculators links under the calculator
   :align: center
 
-  Below the calculator, there are links to the subcategory and similar calculators.
+  Below the calculator, there are links to the subcategory and similar calculators
 
-To help the user discover more useful related calculators, links are displayed underneath the calculator.
+To help the user discover more useful, related calculators, links are displayed underneath the calculator.
 
 The first one is a link to the **same subcategory** that the current calculator belongs to. If the calculator doesn't belong to a subcategory, then this is a link to its **category**.
 
