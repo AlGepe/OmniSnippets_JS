@@ -42,6 +42,8 @@ By selecting an option from the drop-down list, the variable takes the value def
     foo_number = foo_valueSelect
 
   If the calculator is then too cluttered, put the ``foo_number`` variable in :ref:`advanced mode <advancedCheckbox>`.
+ 
+For the required value select style, check the :ref:`value select<valueSelects>` section of the calculator style guide.
 
 
 How to delete a value select
@@ -53,7 +55,7 @@ Make sure no variables are associated with this value select. If there are, you 
 
 .. _valueSelectsError:
 .. figure:: value-selects-error.png
-   :width: 100%
+  :width: 100%
   :alt: example of the error you get if a variable is using the value select you are trying to delete
   :align: center
 
