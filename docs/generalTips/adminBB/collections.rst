@@ -12,7 +12,7 @@ A few of the **other calculators from the same collection are displayed below th
     :alt: The example of a collection.
     :align: center
 
-    The calculators from "Bike calculators" collection show up below speed calculator. See that speed belongs to "Everyday life" category, while bike size is the one of "Sports"
+    The calculators from "Bike calculators" collection show up below speed calculator. See that speed belongs to "Everyday life" category, while bike size is part of "Sports".
 
 
 .. note::
