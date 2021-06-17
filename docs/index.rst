@@ -4,7 +4,7 @@ Welcome to Omni's repository of all knowledge
 General tips
 -------------
 
-[description]
+A handy guide on how Omni works, calculators and all 
 
 .. toctree::
     :maxdepth: 6
