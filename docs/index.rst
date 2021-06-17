@@ -4,7 +4,7 @@ Welcome to Omni's repository of all knowledge
 General tips
 -------------
 
-[description]
+A Handbook for Calculatorians — everything you need to know about building calculators at Omni (apart from CustomJS, which is in the next section ⬇).
 
 .. toctree::
     :maxdepth: 6
