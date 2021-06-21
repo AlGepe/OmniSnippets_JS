@@ -78,7 +78,14 @@ Here are step-by-step instructions to merge a cloned calculator with its origina
 .. note::
   Properties in the **Details section** are not changed in the original calculator, so all attributes except Name, Slug, Type, Is published, Status, Authors, Category & Subcategory, Kind, Show ads, and Is redundant.
 
+.. note::
+  You may also merge a clone of a calculator to an unpublished calculator.
+
 The cloned calculator will **not be automatically deleted**. If you are not planning to add another feature to the calculator, please go ahead an delete the calculator to keep our BB nice and tidy.
+
+.. warning::
+  The merge process does not copy across any information from the :ref:`Edit calculator text <editCalculatorText>` page.
+
 
 .. _calculatorPreview:
 
