@@ -5,7 +5,7 @@ All lists should have their entries **begin with a capital** (unless that word n
 
 * Beginning;
 * Middle; and
-* End
+* End.
 
 If a single entry is **more than one sentence**, all entries should end with a **full stop**. 
 
