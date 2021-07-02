@@ -5,7 +5,7 @@ Archiving cards
 
 Once every month, we do a cleanup to keep Trello information transparent — namely **archiving Trello**. How is it done?
 
-The Head of Calculatorians, Hania, goes through every list and **archives every card of a calculator that is published and has all the final checks done** (FAQs and links). The card disappears from the schedule.
+We go through every list and **archive every card of a calculator that is published and has all the final checks done** (FAQs and links). The card disappears from the schedule.
 
 .. rubric:: What should a calculatorian do?
 
