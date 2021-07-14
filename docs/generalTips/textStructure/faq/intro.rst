@@ -5,17 +5,6 @@ FAQ guide
 
 This FAQ guide provides information regarding compulsory FAQ sections in created calculators.
 
-.. toctree::
-    :maxdepth: 3
-    
-    goodQuestions
-    pickQuestions
-    answers
-    integratedFAQ
-    examples
-    checkResults
-
-
 This is a guide on **how to write FAQs for calculators to maximise their chances of getting Featured Snippets (FS) and Google FAQs (gFAQs)** appearing below calculators to maximise our SEO potential.
 
 These both serve a purpose. FSs are the result Google returns when you perform a voice search, and FAQs take up more space on Google. In terms of hierarchy, **getting FSs is more important than gFAQs**, and it should be thought of that “FAQs give us a nice way of writing and presenting questions primed to get FSs, with the added benefit of taking up more space on Google as gFAQs”.
@@ -45,3 +34,13 @@ It should also be noted that **any text written in the FAQ section counts toward
 
 As this is a new project, **the advice contained within this guide is subject to change**, especially as we collect more and more data. Any changes will be outlined in a **changelog**, available on Slack (`#faq-project <https://omnic.slack.com/archives/C01PWUV7GTX>`_).
 
+.. toctree::
+    :caption: Table of contents
+    :maxdepth: 3
+    
+    goodQuestions
+    pickQuestions
+    answers
+    integratedFAQ
+    examples
+    checkResults
