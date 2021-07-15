@@ -1,4 +1,5 @@
 .. _betterConditions:
+
 Better conditions in your code
 ==============================
 

@@ -1,4 +1,5 @@
 .. _c2c:
+
 From Calculatorian to Calculatorian (tips and tricks)
 =====================================================
 
@@ -64,6 +65,7 @@ This is the section dedicated to everyone else, including future-you. This is wh
 
    naming_variables
    howToImages
+   addingEquationsToCalculator
 ..   clickVsCode
 ..   codeOrganization
 ..   comments
