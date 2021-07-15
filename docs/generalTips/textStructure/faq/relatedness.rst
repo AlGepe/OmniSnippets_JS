@@ -22,3 +22,5 @@ And here are some that didn’t make the cut:
 For a full list of questions sorted by their successfulness, click here: https://docs.google.com/spreadsheets/d/1GLstb9Psgw0AjuKaX-dhoD7CghbOyJPNlT2jlP7vzNc/edit#gid=1617440575.
 
 **You should try to incorporate questions that prime themselves for instructions**, “How do I calculate discount percentage?”, and those that are looking for **a specific answer to a common problem**, “What is a 10 % discount on $45?”. The exact ratio of this mixture will depend on what people search for, which will be discussed in the “How to find questions” section, but you should always try to write some of each.
+
+Also, it is now a requirement that you **include at least one question that is a specific example, e.g., "What is the midpoint of 30 and 60?"**.
