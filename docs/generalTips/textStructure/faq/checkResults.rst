@@ -3,22 +3,23 @@
 After publication
 =====================
 
-After your tool is published, you will see it tagged with a new pink “FAQ” label, gain a new due date one week after publishing and see a link to a spreadsheet in the description. Once the deadline comes, please perform the appropriate FSs and gFAQs checks as below, record the data in the spreadsheet, and remove the label. Then that’s it, you’re all done!
+After your tool is published, you will see it tagged with a new pink “FAQ” label and there will be a link to a spreadsheet in the description. When you see this label appear, please perform the appropriate checks set out below, record the data in the spreadsheet, and remove the label. Then that’s it, you’re all done!
 
 Checking results
 ----------------
 
 Please, check all results in **incognito mode**, as I’m pretty sure Google knows we work for Omni ;)
 
-FS
-----------------
-
-This ones easy, just copy and paste all of your questions into the right-most column of the spreadsheet. FSs take many weeks to work, so this will enable me to quickly check them for FSs long after you've moved on from the tool.
 
 gFAQ
 ----------------
 
 Search for the main keyword, e.g., acceleration calculator, and find Omni's result. If Google changes its layout, i.e., adds “Overview” or “Formula” to a left hand panel, **do not click them**. You can however click to page 2 and 3 and so on of Google’s results if we are not on the first page (hopefully that’s not the case though). Record the **number** and **type** of gFAQs, if any. 
+
+Data to be recorded
+----------------
+
+As well as the number of gFAQs, if any, two additional pieces of data are required on the spreadsheet. First, if you could please provide the types of answers that you have written in the appropriate column. In this case, if your answer has an ordered list/unordered list/table as well as a line of text or two, then please count it as an ordered list/unordered list/table. Secondly, if you could provide all of the questions that you answered to the right of the table, that would be greatly appreciated. 
 
 
 Rich results test
