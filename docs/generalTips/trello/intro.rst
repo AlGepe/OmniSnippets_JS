@@ -22,6 +22,7 @@ Each calculatorian owns a **personal list**. Every list consists of separate **c
     
     instruction
     reviewing/intro
+    proofreading
     faq
     links
     archive
