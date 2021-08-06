@@ -1,7 +1,7 @@
 .. _calculators:
 
 Calculators
-=====================
+===========
 
 The calculators tab is the **default one** when logging into `adminBB
 <https://www.omnicalculator.com/adminbb>`__. You can create a new calculator or find any existing one by its name or ID, go to its edit page, or check some of its basic information.
@@ -19,6 +19,11 @@ The upper panel of the edit calculator page contains the following items, from l
 * **Omni logo** and **Calculators** — The link to the current page, you can use it as a refresh button 🔄.
 * **Add calculator** — Creates a new calculator and takes you there.
 
+.. tip::
+  Columns that contain arrows can be used to **sort the calculator list**. Simply click on the column heading to sort ascending, descending and back to no sorting.
+
+.. tip::
+  Hover your mouse over a date in the **Updated** and **Published** columns to see the **timestamp** for that date.
 
 Search panel
 ------------
@@ -57,7 +62,8 @@ Columns
 Here you can decide which calculators' attributes you want to see. **Name** is always visible and you can choose which of the remaining ones are important for you. These are:
 
 * Slug;
-* ID;
+* Path — Shows the path after the domain name (basically category plus slug);
+* Id;
 * Category;
 * Subcategory;
 * Authors;
