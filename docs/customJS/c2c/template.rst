@@ -23,7 +23,7 @@ The first thing you will find is a block of comments at the top indicating the p
    :alt: template
    :align: center
 
-After that, the calculator starts with the compulsory ``'use strict';`` statement. Then we can see a common structure in which a block of comment describes what is (or should) appear right below it. Each block comment has a number assigned to it. 
+After that, the calculator starts with the optional ``'use strict';`` statement. Then we can see a common structure in which a block of comment describes what is (or should) appear right below it. Each block comment has a number assigned to it. 
 
 The number might seem random, but for those experienced in the ways of cJS, they will know is the :ref:`Order of Execution<orderOfExecution>`. It indicates in which order that code is executed. So 3 will be executed before 4 and 7 will come after 6... I think you get it.
 
@@ -42,7 +42,7 @@ This is where you place any *configurarion* variables that should be visible for
 
 The code placed here will be run once. Here is where you initialise your calculator with things like ``bindValueSelect``, ``setDefault`` and perform any operations necessary before the user can interact with the calculator.
 
-.. rubri:: 6 - omni.onResult  *[Show/Hide]*
+.. rubric:: 6 - omni.onResult  *[Show/Hide]*
 
 If you have a lot of variables to hide/show during the interaction with the calculator it is worth placing them in their own ``omni.onResult`` context. Almost always you will want this context to be triggered by any result so use ``[]`` as the triggering condition. Keep this function to **only show/hide variables**.
 
@@ -58,7 +58,7 @@ Just like we did with the show/hide ``onResult``, it is often convenient to sepa
 
 .. rubric:: 5 - omni.define
 
-Any custom functions that we need will go here, between ``omni.onResult`` and javascript functions due to their importances. Once again, good naming practices guarantee that we don't need to read the code inside of them to know what they do.
+Any custom functions that we need will go here, between ``omni.onResult`` and javascript functions due to their importance. Once again, good naming practices guarantee that we don't need to read the code inside of them to know what they do.
 
 .. rubric:: 2 - Extra functions
 
@@ -90,7 +90,7 @@ How to use the template
    :alt: template
    :align: center
 
-To use the template is very simple. The first thing you need to do is to **CLONE THE CALCUALTOR**. Never work on the original version as you could create inconveniences for the next calculatorian that wants to use it.
+To use the template is very simple. The first thing you need to do is to **CLONE THE CALCULATOR**. Never work on the original version as you could create inconveniences for the next calculatorian that wants to use it.
 
 Once you have clones it, you can work on it as you like, it is yours. Modify, change, delete, add functions and code as you need or want. All the features, orders, naming schemes and behaviours are proposed ones, you don't need to use them if you don't want them. 
 
@@ -98,7 +98,7 @@ Once you have clones it, you can work on it as you like, it is yours. Modify, ch
 tl;dr
 ~~~~~
 
-When you want to create a new calcualtor with a lot of cJS, the Template Calcualtor is a good starting point. It contains a suggested organization and several examples of the most common functions. **Clone it first** and modify it to your heart's desire afterwards. 
+When you want to create a new calcualtor with a lot of cJS, the Template Calculator is a good starting point. It contains a suggested organization and several examples of the most common functions. **Clone it first** and modify it to your heart's desire afterwards. 
 
 
 .. rubric:: Footnote

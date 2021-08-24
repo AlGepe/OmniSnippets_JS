@@ -24,8 +24,3 @@ In this section we will take a look at all of them from a technical point of vie
 
 If you are looking for a practical explanation and practical usage guide, head to the section :ref:`STD usage of customJS<stdCJS>` were we will take a look at how to achieve the desired behaviour in our calculator by using and combining the different elements available.
 
-.. warning::
-    
-    Whenever you edit customJS for your calculator you should add ``'use strict';`` at the very top of the code. Don't ask why, don't question it, just **follow instructions**. This bit of code has been omitted from most snippets of code in this documentation, but you **must remember** to put it.
-
-
