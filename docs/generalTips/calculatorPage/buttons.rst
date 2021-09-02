@@ -1,7 +1,7 @@
 .. _buttons:
 
-Quick links, page age and locale
-================================
+Quick links, page age, locale and revisions
+===========================================
 
 Quick links
 -----------
@@ -53,3 +53,17 @@ To **reset back to your regular settings**, press the **[Reset]** button.
 
 .. warning::
   Changed local settings apply **site-wide, to all calculators** and will remain for 24 hours or until reset.
+
+Revisions
+---------
+
+Here you can specify the revision number of the calculator to display. Enter a number in the **Calculator serial** box and click on the **Set** link. The page will reload with that revision of the calculator.
+
+The revisions section of the menu will be **shaded mustard** to indicate you are on a numbered revision and not the default live revision.
+
+.. note::
+  If you enter a number of a revision that **doesn't exist**, you will get a 404 error page. Just hit the back button to get back to the calculator. You can see which revisions are available on the :ref:`edit calculator page <calcRevisions>`.
+
+Press the **Reset** link to go back to the default live revision.
+
+Learn more about the revisions here: :ref:`calcRevisions`.
