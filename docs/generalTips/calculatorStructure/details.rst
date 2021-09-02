@@ -115,15 +115,3 @@ For search engine optimization reasons, we might want to have sub-calculators th
 This setting is used to organize a redundant calculator so we know which main calculator it belongs to. Specifying a parent will **make the current calculator redundant** and hide it from its category index page. You should only set a parent if you have been told to do so.
 
 You can search for the parent calculator either by starting to **type its name**, or by entering its **ID number**.
-
-Is published
-------------
-
-This checkbox indicates whether the calculator is currently published.
-
-.. warning::
-  Checking this box will **publish** the calculator. This should only be done once the calculator has been reviewed and proofread. Your proofreader will be the person who usually checks this box.
-  
-  Unchecking this box will **unpublish** the calculator.
-
-  In general, it's best to **leave this setting alone**, unless you are told to change it.

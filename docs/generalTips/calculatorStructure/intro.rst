@@ -21,3 +21,4 @@ Each section of the edit calculator page is explored below:
     valueSelects
     tests
     conditions
+    revisions

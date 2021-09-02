@@ -34,12 +34,14 @@ Calculator tools ⚙️
 
 The little gear icon opens a menu with the following items:
 
+* **Show revisions** — Shows the list of revisions of the calculator. Learn all about the revisions feature here: :ref:`Revisions <calcRevisions>`.
+* **Publish** — Publishes a calculator to the public website. Full details on the publishing procedure can be found here: :ref:`Live revision and Publishing a calculator <revisionsLiveRevision>`.
 * **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator.
 * **Merge to other calculator** — Allows you to merge this calculator with another one. Useful for copying some changes from a cloned calculator to a published calculator. *If you can't see this option, get your reviewer/proofreader to do the merge.*
-* **Show revisions (soon)** — Will allow you to see all the different revisions of a calculator. A revision will be stored each time the calculator is saved.
-* **Show redundant children (soon)** — Will show the redundant, sub-calculators that are associated with this calculator.
 
-Let's explore each of these tools in detail next.
+Let's explore the remaining items in detail next.
+
+.. _upperPanelClone:
 
 Clone
 ^^^^^

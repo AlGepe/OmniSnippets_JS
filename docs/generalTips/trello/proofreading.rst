@@ -18,7 +18,7 @@ Once the calculator has been honed to perfection, it's time to publish it and up
 Publish the calculator
 ----------------------
 
-Go to the :ref:`Details section <details>` of the edit calculator page and tick the **Is published** checkbox. Hit the **Save** button and now the calculator is **published**!
+Make the correct revision of the calculator the :ref:`live revision <revisionsLiveRevision>`, then use the **Publish** item in the gear icon drop-down menu to publish the calculator. Further details on the publishing process can be found here: :ref:`revisionsPublishingACalculator`.
 
 Update Trello card
 ------------------
