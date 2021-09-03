@@ -30,7 +30,7 @@ To see the list of revisions, you can either **click on the gear icon** in the t
   :alt: open gear menu
   :align: center
 
-  Use the gear icon menu to show the revision list.
+  Use the gear icon menu and click on **Show revisions** to show the revision list.
 
 .. _revisionsStatus:
 .. figure:: revisions-status.png
@@ -138,12 +138,12 @@ You just need to load the revision you had **before** you stated adding the new 
 .. note::
   Saving further revisions based on c-7 will not have the **P** icon.
 
-Cloned revisions
-----------------
+Revisions with other calculators as parents
+-------------------------------------------
 
-If you decide to :ref:`clone <upperPanelClone>` the contents of another calculator to your calculator, a new revision is created with a special yellow **P** icon, indicating that the parent of this revision is another calculator and revision.
+If you :ref:`clone <upperPanelClone>` a calculator or merge the contents of another calculator to a calculator, a new revision is created with a special yellow **P** icon, indicating that the parent of a revision is another calculator (at a particular revision).
 
-Hovering your mouse over this icon with tell you the name and id of the other calculator, as well as the revision that was cloned. You may click on the yellow **P** icon to be taken to that other calculator.
+Hovering your mouse over this icon with tell you the name and id of the other calculator, as well as the revision that was cloned/merged. You may click on the yellow **P** icon to be taken to that other calculator and revision.
 
 .. _revisionsCloned:
 .. figure:: revisions-cloned.png
@@ -153,7 +153,30 @@ Hovering your mouse over this icon with tell you the name and id of the other ca
 
   Example of a revision which has been cloned from another calculator.
 
-.. _revisionsLiveRevision:  
+.. _revisionsNameARevision:
+
+Naming a revision
+-----------------
+
+Naming revisions is an important part of creating a calculator as only named revisions can be made live and eventually published. You'll also name a revision for your reviewer to review, or you could name a revision after a key feature has been completed for large calculators.
+
+.. warning::
+  Any revisions that are **not named** are **deleted after 90 days**. This gives enough time for you to go back to any revision while you are actively developing your calculator, but cuts down on clutter in the long term.
+
+Note however that the **latest revision is never deleted**, even if it is unnamed. So if you start creating a calculator but then leave it for a few months, the last revision will remain for you to pick up again. 
+
+To **name a revision**, click in the **Name** field of the revision and give it a meaningful name, such as "To review", if you are marking it for your reviewer to assess. Click the tick icon to save the name.
+
+.. _revisionsName:
+.. figure:: revisions-name.png
+  :width: 100%
+  :alt: example of naming a revision
+  :align: center
+
+  Example of naming a revision of draft a calculator.
+
+
+.. _revisionsLiveRevision:
 
 Live revision
 -------------
@@ -165,23 +188,10 @@ The concept of the live revision depends on whether the calculator is published 
 
 Once a calculator is **published**, the live revision will be the one that loads when the user navigates to ``category/calculator-slug`` (i.e., from a link on the website).
 
-To make a revision live, you **click on the star icon** that appears next to the revision number when you hover over it. However, **only named revisions** are allowed to made live.
+To make a revision live, **click on the star icon** that appears next to the revision number when you hover over it. However, **only named revisions** are allowed to made live.
 
 .. warning::
-  You need to **name a revision** to be able to make it **live** and a calculator needs a live revision in order to be **published**.
-
-.. _revisionsNameARevision:
-
-To **name a revision**, click in the name field of the revision and give it a meaningful name, such as "To review", if you are marking it for your reviewer to assess.
-
-.. _revisionsName:
-.. figure:: revisions-name.png
-  :width: 100%
-  :alt: example of naming a revision
-  :align: center
-
-  Example of naming a revision of draft a calculator.
-
+  You need to :ref:`name a revision <revisionsNameARevision>` to be able to make it **live**, and a calculator needs a live revision in order to be **published**.
 
 .. note::
   While the calculator author should name revisions, generally, **only reviewers and proofreads** should make a revision live and publish calculators.
