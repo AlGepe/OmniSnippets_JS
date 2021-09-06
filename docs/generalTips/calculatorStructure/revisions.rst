@@ -22,6 +22,9 @@ Each time you click the save button, **a new revision is born** and given a sequ
 
   Example of revisions of draft a calculator.
 
+.. note::
+  Changes to anything in the **Details** section of the calculator does not generate a new revision and changes are not tracked. This matches the behavior of cloning/merger calculators.
+
 To see the list of revisions, you can either **click on the gear icon** in the top-right of the screen and click **Show revisions**, or click on the current revision status in the **bottom left-hand corner**.
 
 .. _revisionsMenu:
