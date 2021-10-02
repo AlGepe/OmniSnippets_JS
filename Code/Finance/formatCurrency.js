@@ -26,8 +26,8 @@ function formatCurrency (number, currencySymbol, country) {
 		// currency symbol after the value
 		return numberWithCommas(Math.round(number, 2)) + ' ' + currencySymbol;
 	} else {
-		var currencyCode = autoFormatCountries[country][1] || 'USD';
-		var userLang = autoFormatCountries[country][0] || 'en-US';
+		currencyCode = autoFormatCountries[country] ? autoFormatCountries[country][1] : 'USD';
+		userLang = autoFormatCountries[country] ? autoFormatCountries[country][0] : 'en-US';		
 		return number.toLocaleString(userLang, {
 			style: 'currency',
 			currency: currencyCode
