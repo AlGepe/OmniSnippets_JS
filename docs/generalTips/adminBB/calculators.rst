@@ -92,5 +92,10 @@ There are a few clickable elements that let you interact with a calculator:
 * **Internet Explorer symbol** — A link to the :ref:`calculator's web page <calculatorPage>`.
 * **Trash bin icon** 🗑️ — Lets you **remove the calculator**. To do so, you need to confirm the action by entering the calculator's slug.
 
+.. note::
+  At the moment, deleting a calculator simply **de-lists it from the calculator index pages**. It can still be reached via its URL. This can cause issues if you later create the same calculator again and try to use the same name, slug, keywords, etc. In that case, you will have to go back to the "deleted" calculator and change all of these fields so there are free for the new calculator to use.
+
+  Given the current behavior, **only "delete" calculators if you are absolutely sure you are never going to complete it**. Otherwise, feel free to leave the calculator in BB.
+
 .. warning::
   **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change its purpose to **temporary** as these will disappear sometime in the future.
