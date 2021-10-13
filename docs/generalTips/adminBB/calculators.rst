@@ -98,4 +98,4 @@ There are a few clickable elements that let you interact with a calculator:
   Given the current behavior, **only "delete" calculators if you are absolutely sure you are never going to complete it**. Otherwise, feel free to leave the calculator in BB.
 
 .. warning::
-  **DO NOT delete published calculators!** You may want to remove one of those you've started but you're no longer working on. However, it's usually safer to simply change its purpose to **temporary** as these will disappear sometime in the future.
+  **You cannot delete published calculators!** Given this, extra care should be taken when publishing a calculator. If it really needs to be removed from the website, please speak with your team leader.
