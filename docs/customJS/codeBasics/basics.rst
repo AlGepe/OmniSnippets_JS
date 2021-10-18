@@ -1,4 +1,5 @@
 .. _basics:
+
 Basics of coding
 ================
 
@@ -8,7 +9,7 @@ In this part we will talk about variables and other types of *information contai
 
 We have divided this containers into two different sections of increasing complexity:
 
-.. toctree:: Basics of coding
+.. toctree::
    :maxdepth: 2
 
    simpleVars

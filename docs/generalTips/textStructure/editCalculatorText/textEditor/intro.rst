@@ -40,6 +40,6 @@ In this section of the handbook, we will cover the following topics on how to cr
     pictures
     tables
     videos
-    HTML
+    html
     
     

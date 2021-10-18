@@ -22,7 +22,6 @@ In Omni Calculator, we use `SEMrush <https://www.semrush.com/>`_ for the **Unite
 In the following pages, we focus on the three features of the **Keyword Magic Tool**:
   
 .. toctree::
-
     :maxdepth: 2
 
     keywordMatch
