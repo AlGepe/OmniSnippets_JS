@@ -1,0 +1,5 @@
+.. _textEditorImageBlock:
+
+Image block
+===========
+

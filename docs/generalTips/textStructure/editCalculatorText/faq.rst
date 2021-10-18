@@ -3,9 +3,13 @@
 FAQ
 =====================
 
-The frequently asked questions (FAQ) section of the calculator is an opportunity for you to answer directly questions around the topic of your calculator.
+Adding frequently asked questions (FAQ) to a calculator is an opportunity for you to answer directly questions around the topic of your calculator.
 
 Questions and answers in this section are formatted in such a way as to make it easier for Google to extract and display them as **featured snippets** and **Google FAQs**.
+
+FAQs (frequently asked questions) are defined using two buttons to the right of the section title; **Schema** and **FAQ**.
+
+The **Schema** button adds the section to the FAQ schema, but does not include it in the separate FAQ section. This is good when a section heading is naturally a question and you would like to include it with in the main text. For example, answering a question that helps you introduce a topic.
 
 This section of the handbook will focus on how to technically use the FAQ section's buttons and options. To read about FAQs in general, checkout this section of the handbook: :ref:`FAQ Guide <faqGuide>`.
 

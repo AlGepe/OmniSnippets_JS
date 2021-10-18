@@ -11,7 +11,7 @@ This section of the Handbook is about how to **technically** write your calculat
   :alt: an example of the edit calculator text page 
   :align: center
 
-  An example of the edit calculator text page.
+  An example of the edit calculator text page. [SCREENSHOT NEEDS UPDATING!!!!!!!!!!!!!!!!]
 
 
 It explains each section of the edit text page in detail:
@@ -20,8 +20,8 @@ It explains each section of the edit text page in detail:
     :maxdepth: 2
 
     title
-    textEditor/intro
     description
+    textEditor/intro
     faq
     revisions
     seoCheck/intro

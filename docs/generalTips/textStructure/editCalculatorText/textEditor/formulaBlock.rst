@@ -1,0 +1,4 @@
+.. _textEditorFormulaBlock:
+
+Formula block
+=============

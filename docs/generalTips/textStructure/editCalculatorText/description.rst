@@ -8,7 +8,7 @@ Description
     :alt: shows the location of the calculator description, just below the main text box
     :align: center
 
-    The calculator description text input box is after the main text input box and before the FAQ section.
+    The calculator description text input box is after the main text input box and before the FAQ section. [SCREENSHOT NEEDS UPDATING!!!!!!!!!!!!!!!!]
 
 Each calculator must have a short description, which is shown to the user of the calculator **category page** when they hover their mouse over a calculator.
 

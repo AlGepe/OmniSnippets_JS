@@ -8,7 +8,7 @@ Title and SEO title
     :alt: example of the calculator title and SEO title at the top of the edit text page
     :align: center
 
-    You'll find the **Title** and **SEO title** fields at the very top of the edit text page.
+    You'll find the **Title** and **SEO title** fields at the very top of the edit text page. [SCREENSHOT NEEDS UPDATING!!!!!!!!!!!!!!!!]
 
 The **title** and **SEO title** input fields are two of the most important settings on the text editor page. Let's look at each one in detail.
 
