@@ -3,37 +3,42 @@
 Markdown
 =====================
 
-The main way to format your texts is to use the **Markdown syntax**. Note, that Omni doesn't support everything in Markdown, but it does support the following:
+The main way to format your texts is to use **Markdown syntax**. Omni has developed its own flavor of Markdown. This section is divided up into what is supported in text blocks and other text inputs (e.g., image captions) and what you shouldn't use.
 
 .. contents:: :local:
-  :depth: 1
+  :depth: 2
 
-Headings
---------
+Supported Markdown
+------------------
+
+Headings — ``### Heading level 3``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create a heading, place hash characters in front of the word or phrase.
 
-The usual heading level is level 2, so you add two hash characters:
+The usual heading level in a text block is level 3, so you add three hash characters:
 
-* ``## Heading level 2``
+* ``### Heading level 3``
 
-You can also specify level 3 and 4 headings, which may be useful if you want a heading without an entry in the table of contents. However, this doesn't find much use. There also isn't much difference visually between 2 and 3, and as such 3 is hardly ever used.
+You can also specify level 4 headings, etc., but try to keep the organization of your text as flat and simple as possible.
 
-You can also use **bold text** as a heading (see next section).
+You can also use **bold text** as a heading, if you wish (see next section).
 
 .. warning::
   Never use a level 1 heading (``#``). This is the heading level of the title of the calculator article.
 
-Bold
-----
+  Never user a level 2 heading (``##``). This is the heading level of the name of a section block.
+
+Bold — ``**bold text**``
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create bold text, surround it with two asterisks, like this:
 
 * ``**bold text**`` → **bold text**
 
 
-Italic
-------
+Italic — ``*italicized text*``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To italicize text, surround the text with a single asterisk or underscore character, like this:
 
@@ -45,8 +50,8 @@ To italicize text, surround the text with a single asterisk or underscore charac
 
   * ``A*cat*meow`` → A\ *cat*\ meow
 
-Bold and italic
----------------
+Bold and italic — ``***bold and italic text***``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 You can combine the two syntaxes and use three asterisks around text you wish to bold and italicize:
 
@@ -61,8 +66,50 @@ You can combine the two syntaxes and use three asterisks around text you wish to
 
 Note that for the last example, only asterisks will work, not underscores.
 
-Blockquotes
------------
+Overline — ``--overline--``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Puts a line above text that appears between two dashes. This is useful in some mathematical notations. For example, a line above a value in statistics indicates the sample mean:
+
+* ``--x-- is the average value of x==i==.`` → :raw-html:`<span style="text-decoration:overline">x</span> is the average value of x<sub>i</sub>`.
+
+Strikethrough — ``~~strikethrough~~``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Puts an line through text that appears between two tilde characters. Maybe used for comic effect or some math equation maybe? How knows, but we have it.
+
+* ``~~This was mistaken text.~~`` → :raw-html:`<span style="text-decoration:line-through">This was mistaken text.</span>`
+
+Underline — ``!!underline!!``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Underlines the text placed between exclamation marks. Good for underlining important text and maybe variables in equations.
+
+* ``This point is !!very important!!.`` → :raw-html:`This point is <span style="text-decoration:underline">very important</span>.`
+
+Subscript — ``==subscript==``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Makes the text placed within two equals sign characters render as subscript. This is very often needed for referring to variables in equations, physics, chemistry, etc.
+
+* ``The molecular formula for glucose is C==6==H==12==O==6==.`` → :raw-html:`The molecular formula for glucose is C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>.`
+
+Superscript — ``^^superscript^^``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Makes the text placed within two carrot characters render as superscript. Used in math equations, physics, chemistry, etc.
+
+.. code-block:: none
+
+  In symbolic form, the number of nucleons is denoted as a superscripted prefix to the
+  chemical symbol (for example ^^3^^He, ^^12^^C, ^^13^^C, ^^131^^I, and ^^238^^U).
+
+:raw-html:`<center>⬇</center>`
+
+:raw-html:`In symbolic form, the number of nucleons is denoted as a superscripted prefix to the chemical symbol (for example <sup>3</sup>He, <sup>12</sup>C, <sup>13</sup>C, <sup>131</sup>I, and <sup>238</sup>U).`
+
+Blockquotes — ``> Quoted text``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To create a blockquote, add a > in front of a paragraph.
 
@@ -70,15 +117,17 @@ To create a blockquote, add a > in front of a paragraph.
 
 Currently, the style of the website means blockquotes are **only indented**. This might change in the future though, so if you **just want to indent text** to include it as part of a list item, use 4 spaces to indent instead.
 
+Another way to indent text is to use a separate text block and use the :ref:`indent <textBlockIndent>` option of a text block.
+
 Lists
------
+^^^^^
 
 Lists can either be ordered (numbered) or unordered (bullet point list).
 
 .. _markdownOrderedLists:
 
 Ordered lists
-^^^^^^^^^^^^^
+"""""""""""""
 
 To create an ordered list, add line items with numbers followed by periods. The numbers don’t have to be in numerical order, but the list should start with the number one.
 
@@ -118,8 +167,7 @@ To create an ordered list, add line items with numbers followed by periods. The 
 
 For the last example, use **4 spaces** to indent the second level of an ordered list.
 
-Ordered list best practices
-"""""""""""""""""""""""""""
+**Ordered list best practices**
 
 While you can define an ordered list using a parenthesis instead of a period, it's not supported by all Markdown libraries. So in case Omni ever change the Markdown library, use period only.
 
@@ -137,7 +185,7 @@ While you can define an ordered list using a parenthesis instead of a period, it
 .. _markdownUnorderedLists:
 
 Unordered lists
-^^^^^^^^^^^^^^^
+"""""""""""""""
 
 To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items. Indent one or more items to create a nested list. 
 
@@ -178,8 +226,7 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
 .. warning::
   Don't mix and match delimiters, as it won't work. Choose one (``*`` is preferred) and stick to it.
 
-Starting unordered list items with numbers
-""""""""""""""""""""""""""""""""""""""""""
+**Starting unordered list items with numbers**
 
 If you need to start an item with a number and a period, you can escape the period with the backslash (``\``) character.
 
@@ -193,12 +240,11 @@ If you need to start an item with a number and a period, you can escape the peri
 +-----------------------------------+---------------------------------+
 
 Adding elements to list items
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""""""
 
-To add another element to a list item while preserving the continuity of the list, indent the element by four spaces or one tab. Here are some examples.
+To add another element to a list item while preserving the continuity of the list, indent the element by three spaces or one tab. Here are some examples.
 
-Paragraphs
-""""""""""
+**Paragraphs**
 
 .. code:: md
 
@@ -218,8 +264,7 @@ This will be rendered as:
 
 * And here's the third list item.
 
-Blockquotes
-"""""""""""
+**Blockquotes**
 
 .. code:: md
 
@@ -233,14 +278,13 @@ Blockquotes
 Currently, the Omni website style will just add an indent when using a blockquote. So it will look like this:
 
 .. _markdownBlockquoteExample:
-.. figure:: markdown-blockquote-example.png
+.. figure:: img/markdown-blockquote-example.png
     :alt: example of blockquote added to a list item
     :align: center
 
 However, using a blockquote to only indent text may look different in the future, so use with caution.
 
-Code blocks
-"""""""""""
+**Code blocks**
 
 To place a code block as part of a list item, indent them with eight spaces or two tabs.
 
@@ -259,33 +303,12 @@ To place a code block as part of a list item, indent them with eight spaces or t
 Here's how that is currently rendered:
 
 .. _markdownListCodeblockExample:
-.. figure:: markdown-codeblock-example.png
+.. figure:: img/markdown-codeblock-example.png
     :alt: example of code block added to a list item
     :align: center
 
-Images
-^^^^^^
-
-Indent the image code with 4 spaces or a tab:
-
-.. code:: md
-
-  1.  Open the file containing the Linux mascot.
-  2.  Marvel at its beauty.
-
-      ![Tux, the Linux mascot](https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png)
-
-  3.  Close the file.
-
-Which will render as:
-
-.. _markdownListImageExample:
-.. figure:: markdown-list-images-eg.png
-    :alt: example of an image added to a list item
-    :align: center
-
 Lists
-^^^^^
+"""""
 
 You can nest an unordered list in an ordered list, or vice versa.
 
@@ -309,8 +332,8 @@ Which will be rendered like this:
   
 4. Fourth item
 
-Code
-----
+Code — ```var ans = 42```
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To write as code a word or :ref:`equation <equations>` within your text, surround the code with backticks (`````).
 
@@ -323,7 +346,7 @@ Which renders as:
 Where ``c`` is the speed of light in vacuum - 299,792.46 km/s
 
 Escaping backticks
-^^^^^^^^^^^^^^^^^^
+""""""""""""""""""
 
 If you need to write backtick characters in your code, use double backticks.
 
@@ -336,7 +359,7 @@ Which will render as:
 ``Use `code` in your calculator text.``
 
 Code blocks
-^^^^^^^^^^^
+"""""""""""
 
 The Omni website doesn't really support code blocks, but here's how to do it.
 
@@ -354,14 +377,31 @@ The best way is to use triple backticks. For example:
 This will render like this:
 
 .. _markdownCodeblockExample:
-.. figure:: markdown-codeblock-eg.png
+.. figure:: img/markdown-codeblock-eg.png
     :alt: example of a codeblock in Markdown
 
 You can also **indent** by at least **4 spaces** or a tab to create a codeblock.
 
+Inline LaTeX-style formula — ``$$E = mc^2$$``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To include a LaTeX-style formula within your text (single line only), place the LaTeX code within two dollar sign characters. For example:
+
+* ``The sum to infinity is $$\sum_{i=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}$$.``
+
+will produce this output:
+
+.. _markdownLatexExample:
+.. figure:: img/markdown-latex-eg.png
+    :alt: example of an inline LaTeX formula
+    :align: center
+
+    Example of an inline LaTeX formula.
+
+Learn more about LaTeX in the :ref:`Formula block <textEditorFormulaBlock>`.
 
 Horizontal rules
-----------------
+^^^^^^^^^^^^^^^^
 
 To create a horizontal rule, use three or more asterisks (``***``), dashes (``---``), or underscores (``___``) on a line by themselves.
 
@@ -383,7 +423,7 @@ Will render as:
 +-------------------------------------+-------------------------------------------------+
 | ✅ Do this                          | ❌ Don't do this                                |
 +-------------------------------------+-------------------------------------------------+
-| .. code:: plain                     | .. code:: plain                                 |
+| .. code:: none                      | .. code:: none                                  |
 |                                     |                                                 |
 |   Try to put a blank line before... |   Without blank lines, this would be a heading. |
 |                                     |   ---                                           |
@@ -393,7 +433,7 @@ Will render as:
 +-------------------------------------+-------------------------------------------------+
 
 Links
------
+^^^^^
 
 To create a link using Markdown, enclose the link text in square brackets, then immediately follow this with the URL in parentheses.
 
@@ -405,8 +445,24 @@ The rendered output looks like this:
 
 My favorite search engine is `Duck Duck Go <https://duckduckgo.com>`_.
 
+Linking to other calculators — ``[link text](calc:id)``
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+To manually link to another calculator using its id number you can use a specially formatted url. So for example, to link to the percentage calculator you would write:
+
+* ``Have to checked out our [percentage calculator](calc:404)?`` → Have to checked out our `percentage calculator <https://www.omnicalculator.com/math/percentage>`_?
+
+You may also **link to a section within a calculator**, by adding the anchor after the id number. For example:
+
+* ``Here you can [see all rectangle formulas](calc:749#rectangle-formulas).`` → Here you can `see all rectangle formulas <https://www.omnicalculator.com/math/rectangle#rectangle-formulas>`_
+
+Check out the :ref:`anchors<anchors>` and :ref:`links<links>` sections for further details.
+
+.. tip::
+  It is probably more convenient to use the :ref:`links tab<linksTab>` to search for a calculator your want to link to and have it automatically added to the text with the correct formatting. Plus you will get credit for adding the internal link.
+
 Adding titles
-^^^^^^^^^^^^^
+"""""""""""""
 
 You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
 
@@ -419,7 +475,7 @@ Which results in:
 My favorite search engine is :raw-html:`<a href="https://duckduckgo.com" title="The best search engine for privacy">Duck Duck Go</a>`.
 
 Formatting links
-^^^^^^^^^^^^^^^^
+""""""""""""""""
 
 To bold or italicize link text, enclose the text with two or one asterisks, respectively. You can also use backticks to make the link look like code.
 
@@ -444,7 +500,7 @@ See the section on :raw-html:`<a ref="#code"><code>code</code></a>`.
 
 
 Reference-style links
-^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""
 
 Reference-style links are a way of separating the target text and the URL. So, for example, all of the links can be stored at the bottom of the text.
 
@@ -474,7 +530,7 @@ And this would render as normal (inline URL link):
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a `hobbit-hole <https://en.wikipedia.org/wiki/Hobbit#Lifestyle>`_, and that means comfort.
 
 Spaces in URLs
-^^^^^^^^^^^^^^
+""""""""""""""
 
 Any spaces in URLs will need to be replaced with ``%20`` in order for them to work. So, for example:
 
@@ -488,56 +544,13 @@ Now the link will work as expected.
 
 .. _markdownImages:
 
-Images
-------
-
-You can add an image using the following syntax:
-
-* ``![alt text](URL to image "title")``
-
-Let's look at an example:
-
-.. code:: md
-
-  ![Kraków - main market square](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Krakow_Rynek_Glowny_panorama_2.jpg/640px-Krakow_Rynek_Glowny_panorama_2.jpg "Panorama of Kraków's main market square")
-
-This will render as:
-
-:raw-html:`<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Krakow_Rynek_Glowny_panorama_2.jpg/640px-Krakow_Rynek_Glowny_panorama_2.jpg" alt="Kraków - main market square" title="Panorama of Kraków's main market square">`
-
-The HTML generated is:
-
-.. code:: html
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Krakow_Rynek_Glowny_panorama_2.jpg/640px-Krakow_Rynek_Glowny_panorama_2.jpg" alt="Kraków - main market square" title="Panorama of Kraków's main market square">
-
-Linking on images
-^^^^^^^^^^^^^^^^^
-
-To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
-
-.. code:: md
-
-  [![Egyptian pyramids](https://uploads-cdn.omnicalculator.com/images/alien_pyramids.jpg "Egyptian pyramids - nice!")](https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg)
-
-:raw-html:`<a href="https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg">
-<img src="https://uploads-cdn.omnicalculator.com/images/alien_pyramids.jpg" alt="Egyptian pyramids" title="Egyptian pyramids - nice!">
-</a>`
-
-And here is the HTML that is generated:
-
-.. code:: html
-
-  <a href="https://commons.wikimedia.org/wiki/File:All_Gizah_Pyramids.jpg">
-    <img src="https://uploads-cdn.omnicalculator.com/images/alien_pyramids.jpg" alt="Egyptian pyramids" title="Egyptian pyramids - nice!">
-  </a>
-
 Escaping characters
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (\) in front of the character.
 
 .. code:: md
+
   \* Without the backslash, this would be a bullet in an unordered list.
 
 Which would render as:
@@ -545,7 +558,7 @@ Which would render as:
 \* Without the backslash, this would be a bullet in an unordered list.
 
 Characters You Can Escape
-^^^^^^^^^^^^^^^^^^^^^^^^^
+"""""""""""""""""""""""""
 
 You can use a backslash to escape the following characters.
 
@@ -582,14 +595,17 @@ You can use a backslash to escape the following characters.
 | ``|``       | Pipe                      |
 +-------------+---------------------------+
 
+Unsupported input
+-----------------
+
+Images
+^^^^^^
+
+Images should be adding to your text by using an :ref:`image block <textEditorImageBlock>`. Please do not use Markdown syntax to add images to text.
+
 HTML
-----
+^^^^
 
-At the moment, you can use raw HTML in your calculator texts (though this is due to change in the not too distance future).
+HTML is now **deprecated** within the text editor. New calculator texts should not use any HTML tags. You will receive a **warning when saving** a calculator text that contains HTML. Later, you will be **prevented from saving** a text if HTML is present.
 
-For images, :ref:`HTML is the preferred <pictures>` method of adding them.
-
-Use **blank lines** to separate block-level HTML elements like <div>, <table>, <pre>, and <p> from the surrounding content.
-
-.. warning::
-  You can’t use Markdown syntax inside block-level HTML tags. For example, ``<p>italic and **bold**</p>`` won’t work.
+If you are updating an old calculator, please try to convert any HTML to Markdown, use image blocks, etc.

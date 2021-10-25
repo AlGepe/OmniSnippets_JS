@@ -1,12 +1,12 @@
 .. _links:
 
 Links
-=====================
+=====
 
 Here are some general DOs and DON'Ts when creating any link from your text.
 
 .. _linksBestPractice:
-.. figure:: links-good-practice.jpeg
+.. figure:: img/links-good-practice.jpeg
     :alt: example of the SEO title being too long
     :align: center
     
@@ -17,15 +17,21 @@ Internal links — linking to other calculators
 
 To link to another calculator, the easiest way is to use the **Links tab**. You can find out how to do that on the :ref:`links tab<linksTab>` page of this handbook.
 
-You can add a link manually using the ``<portal>`` tag, like this:
+You can add a link manually using Markdown, like this:
 
-* ``<portal cid="xxx">link text</portal>``
+* ``[link text](calc:xxx)``
 
 where ``xxx`` is the ID number of the calculator you wish to link to.
 
 An example is:
 
-* ``<portal cid="630">sleep</portal>``
+* ``[sleep](calc:630)``
+
+You may also **link to a section within a calculator**, by adding the anchor after the id number. For example:
+
+* ``Here you can [see all rectangle formulas](calc:749#rectangle-formulas).`` → Here you can `see all rectangle formulas <https://www.omnicalculator.com/math/rectangle#rectangle-formulas>`_
+
+.. _linksMarkdown:
 
 Markdown
 --------

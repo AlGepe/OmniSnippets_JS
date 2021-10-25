@@ -4,11 +4,11 @@ Title and SEO title
 =====================
 
 .. _titleExample:
-.. figure:: title-example.png
+.. figure:: img/title-example.png
     :alt: example of the calculator title and SEO title at the top of the edit text page
     :align: center
 
-    You'll find the **Title** and **SEO title** fields at the very top of the edit text page. [SCREENSHOT NEEDS UPDATING!!!!!!!!!!!!!!!!]
+    You'll find the **Title** and **SEO title** fields at the very top of the edit text page.
 
 The **title** and **SEO title** input fields are two of the most important settings on the text editor page. Let's look at each one in detail.
 
@@ -41,7 +41,7 @@ For most calculators, the SEO title can be the same as the title. However, if th
 There is a **length restriction** with the SEO title though. It can be no longer than 600 pixels wide when using a 20 pt font. Don't worry. BB will let you know if your SEO title is too long, though it takes a few seconds to react to your changes.
 
 .. _titleSEOtitleTooLong:
-.. figure:: title-seo-title-too-long.png
+.. figure:: img/title-seo-title-too-long.png
     :alt: example of the SEO title being too long
     :align: center
 

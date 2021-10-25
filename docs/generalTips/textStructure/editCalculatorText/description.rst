@@ -1,19 +1,19 @@
 .. _description:
 
 Description
-=====================
+===========
 
 .. _descriptionExample:
-.. figure:: description-eg.png
-    :alt: shows the location of the calculator description, just below the main text box
+.. figure:: img/description-eg.png
+    :alt: shows the location of the calculator description, just below the title and SEO title
     :align: center
 
-    The calculator description text input box is after the main text input box and before the FAQ section. [SCREENSHOT NEEDS UPDATING!!!!!!!!!!!!!!!!]
+    The calculator description text input box is after the title and SEO title.
 
-Each calculator must have a short description, which is shown to the user of the calculator **category page** when they hover their mouse over a calculator.
+Each calculator must have a **short description**, which is shown to the user of the calculator **category page** when they hover their mouse over a calculator.
 
 .. _descriptionRenderedExample:
-.. figure:: description-rendered.png
+.. figure:: img/description-rendered.png
     :alt: shows how the description looks to the user as they hover over the calculator title
     :align: center
 
