@@ -13,6 +13,7 @@ Before resizing, check the following sites to download and edit images:
 .. note::
   If the image is in **jpg** or **png** format, you should **always** put it through `tinyjpg.com <https://tinyjpg.com/>`_ **, even if its size is already below 100 KB**.
 
+.. _picturesHowToResize:
 
 How to resize an image?
 -----------------------

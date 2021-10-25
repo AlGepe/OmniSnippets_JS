@@ -1,45 +1,124 @@
 .. _textEditorIntro:
 
-Simple editor and syntax highlight editor
-=================================================
+Text editing with sections and content blocks
+=============================================
 
-This is where most of the text for your calculator gets written. You will mainly use Markdown to format the text, plus some HTML (though the use of HTML will soon be deprecated).
+The calculator text editor consists of a number of sections (equivalent to level 2 ## headings) and content blocks (different block types for different content types).
 
-.. _textEditorSimple:
-.. figure:: intro-simple-editor.png
-    :alt: example of the simple text editor
-    :align: center
+.. figure:: img/intro-text-editor-eg.png
+  :alt: Text editor
+  :align: center
+  :width: 70%
 
-    The **Simple editor** is a regular text area input field.
+  Example of the text editor page.
 
-.. _textSyntaxSimple:
-.. figure:: intro-syntax-editor.png
-    :alt: example of the syntax highlight editor
-    :align: center
+Section blocks
+--------------
 
-    The **Syntax highlight editor** highlights Markdown and HTML syntax.
+A section is the top-level building block of your calculator text. Each section has a title and a number of content blocks.
 
-You can choose between two views of the calculator text: **simple editor** and **syntax highlight editor**. Each has it's advantages and disadvantages. Here are a few:
+.. note::
+  The section title is what you used to denote with ## in the previous text editor.
 
-* The :ref:`Grammarly <grammarly>` spelling and grammar checker only works in the simple editor.
-* The syntax highlight editor uses the same interface as the CustomJS code editor, so you can do things like find and replace. Right-click on the text and select **Command Palette** to explore the functions available.
-* Having the Markdown and HTML coloured might help you to quickly navigate your text and spot syntax issues.
+Every calculator has a special "Lead" section, with at least one text content block. While you cannot delete this text block, you can add more blocks to the lead section.
 
-As you make changes in one view, these will be reflected in the other view. So feel free to **switch between them** at any time.
+.. _addNewSection:
 
-In this section of the handbook, we will cover the following topics on how to create the perfectly formatted text.
+To **add a new section**, click on the three-dots icon to the right of the section title and click **Add section**. For other sections that come after the lead section, you can delete the section by selecting **Delete section** from the section drop-down menu.
+
+.. figure:: img/intro-add-del-section.png
+  :alt: Adding and deleting a section block
+  :align: center
+
+  Adding and deleting a section block.
+
+.. tip::
+  The number after the title of a section indicates the **number of words** contained within that section.
+
+.. seealso::
+  FAQs (frequently asked questions) are defined using two buttons to the right of the section title; **Schema** and **FAQ**.
+
+  Learn more about managing FAQs in the :ref:`FAQs technical section <faq>`  of the manual. 
+
+Content blocks
+--------------
+
+Content blocks are the heart of the text editor. There are currently five different types:
+
+* :ref:`Text block <textEditorTextBlock>` — Entering paragraphs of text.
+* :ref:`Image block <textEditorImageBlock>` — Adding images to text.
+* :ref:`Video block <videos>` — Adding embedding videos in text (marketing/SciComm calculators only really).
+* :ref:`Table block <textEditorTables>` — Adding tables to text.
+* :ref:`Formula block <textEditorFormulaBlock>` — Adding fancy LaTeX-style equations to text.
+
+.. note::
+  To delete a content block, click on the **three-dot icon** and click on **Delete block**. Note that the first text block of a section cannot be deleted.
+
+.. warning::
+  Blocks are currently **deleted right away** and you are not asked whether you are sure. To avoid losing text, it might be a good idea to write your text in another application initially.
 
 .. toctree::
-    :maxdepth: 1
+  :hidden:
+  :maxdepth: 1
 
-    markdown
-    symbols
-    equations
-    links
-    anchors
-    pictures
-    tables
-    videos
-    html
-    
-    
+  textBlock
+  imageBlock
+  videos
+  tables
+  formulaBlock
+
+Reordering sections and content blocks
+--------------------------------------
+
+To change the ordering of content blocks or sections, use the up and down arrow icon to drag the block up or down.
+
+.. figure:: img/intro-move-block.png
+  :alt: How to reorder sections and content blocks.
+  :align: center
+
+  Move a section or content block by clicking and dragging on the up and down arrow icon.
+
+Collapsing and expanding section and content blocks
+---------------------------------------------------
+
+To collapse a section or content block, click on the up arrow icon.
+
+.. figure:: img/intro-collapse-section.png
+  :alt: How to collapse a section
+  :align: center
+
+  Collapse a section by clicking the up arrow icon.
+
+To expand a collapsed section or content block, click on the down arrow icon.
+
+.. figure:: img/intro-expand-block.png
+  :alt: How to expand a section
+  :align: center
+
+  Expand a block by clicking the down arrow icon. It's orange to indicate that it is collapsed.
+
+
+Formatting text
+---------------
+
+The following topics help you to create perfectly formatted text.
+
+* :ref:`Markdown <markdown>` — Basic formatting of text, such as bold, italic, subscript, etc.
+* :ref:`Symbols <symbols>` — How to add mathematical symbols, emojis, etc.
+* :ref:`Equations <equations>` — How to format equations using code (instead of LaTeX-style formula blocks).
+* :ref:`Links <links>` — How to add internal and external links to text.
+* :ref:`Anchors <anchors>` — Add anchors to jump to a section of the calculator or go back to the top of the calculator.
+* :ref:`HTML <html>` — Details on how HTML tags will be **phased out** of calculator texts.
+
+
+.. toctree::
+  :hidden:
+  :maxdepth: 1
+
+  markdown
+  symbols
+  equations
+  links
+  anchors
+  html
+

@@ -1,7 +1,7 @@
 .. _anchors:
 
 Anchors
-=====================
+=======
 
 If you want to make an anchor (or link) to the other paragraph within your text, all you need to do is:
 
@@ -28,14 +28,15 @@ You can simply add the following Markdown to your text:
 
 The user will be taken back to the top of the calculator. An example of where this is used is the `UK Vaccine Queue <https://www.omnicalculator.com/all/vaccine-queue-uk>`_ calculator.
 
-Creating named anchors
-----------------------
+.. 
+   Creating named anchors
+   ----------------------
 
-You can also create named anchors by adding the ``id`` attribute to HTML tags. Here is an example of doing so:
+   You can also create named anchors by adding the ``id`` attribute to HTML tags. Here is an example of doing so:
 
-``<h4 id="atrisk">Underlying health conditions</h4>``
+   ``<h4 id="atrisk">Underlying health conditions</h4>``
 
-So now we can link to this level 4 heading using the same Markdown syntax as above.
+   So now we can link to this level 4 heading using the same Markdown syntax as above.
 
-.. warning::
-  HTML support might be withdrawn in a future update, so created named anchors might change.
+   .. warning::
+     HTML support might be withdrawn in a future update, so created named anchors might change.

@@ -1,13 +1,13 @@
 .. _equations:
 
 Equations
-=====================
+=========
 
-Equations in your text should use the code font (monospace). This can either be achieved by enclosing the equation in **double backticks** or by using the ``<code>`` HTML tag.
+Equations in your text can either use the code font (monospace) or the :ref:`Formula block <textEditorFormulaBlock>` for LaTeX-style equations. Here we will focus on use of the monospaced code font. This can be achieved by enclosing the equation in **backtick** characters.
 
 Generally, we use an asterisk as the multiplication symbol. So, the equation for the area of a circle would be typed as:
 
-````A = 𝜋 * r²````
+```A = 𝜋 * r²```
 
 And rendered as:
 
@@ -15,39 +15,16 @@ And rendered as:
 
 As a rule, leave a space around each operator to aid readability.
 
+.. note::
+  In an answer to an FAQ, please use the multiplication sign character ``×`` instead of an asterisk character. This is to keep Google happy.
+
 Superscripts and subscripts
 ---------------------------
 
-For superscripts and subscripts, you can either use Unicode characters (if available) or use the HTML tags ``<sup>`` and ``<sub>``. Note, however, that you can only use these when using the ``<code>`` HTML tag method.
-
-Here's an example:
-
-.. code:: html
-
-  <code>N = R<sub>*</sub> * f<sub>p</sub> * n<sub>e</sub> * f<sub>l</sub> * f<sub>s</sub> * f<sub>t</sub> * L</code>
-
-Which would render like this:
-
-.. role:: raw-html(raw)
-   :format: html
-
-:raw-html:`<code>N = R<sub>*</sub> * f<sub>p</sub> * n<sub>e</sub> * f<sub>l</sub> * f<sub>s</sub> * f<sub>t</sub> * L</code>`
+For superscripts and subscripts, please either use Unicode characters (`here is a good resource of these <https://lingojam.com/TinyTextGenerator>`_) or use a :ref:`Formula block <textEditorFormulaBlock>` if no suitable Unicode character is available or the results look bad.
 
 .. tip::
-  When you use multiple Unicode super and subscript numbers together, the spacing can look odd. One solution is to the HTML ``<sub>`` and ``<sup>`` tags instead.
-
-Centering short equations
--------------------------
-
-For very short equations, you should consider centering them to make them standout more to the reader. You can currently do this with the ``<center>`` HTML tag. Therefore, you'll need to also use the ``<code>`` tag to display the equation as code text. So, for the area of a circle example, the text would be:
-
-.. code:: html
-
-  <center><code>A = 𝜋 * r²</code></center>
-
-Which will render like this:
-
-:raw-html:`<center><code>A = 𝜋 * r²</code></center>`
+  If you use multiple Unicode superscript and subscript numbers together, the spacing can look odd. In such cases, please use a :ref:`Formula block <textEditorFormulaBlock>` to present the equation.
 
 Symbols
 -------
