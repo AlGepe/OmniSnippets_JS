@@ -7,13 +7,14 @@ Again, we have divided the section into a more basic and a more advanced one, ba
 
 For the advanced section we will talk about special version of those behaviours that might save you time and make your life easier if very concrete scenarios.
 
-.. toctree:: Basics of coding
+.. toctree::
    :maxdepth: 1
 
    compoundedVars
    specialCousins
 
-..  _execOrder:
+..
+   _execOrder:
       The basic loops and conditions
       ------------------------------
 
@@ -28,7 +29,7 @@ For the advanced section we will talk about special version of those behaviours 
 
       .. _advExec:
       Advanced version: A bunch of more words that might or might not mean stuff
-      --------------------------------------------------------
+      --------------------------------------------------------------------------
 
       for each
       ++++++++

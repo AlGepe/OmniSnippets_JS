@@ -69,7 +69,9 @@ Here you can decide which calculators' attributes you want to see. **Name** is a
 * Authors;
 * Faq count;
 * Created;
-* Updated; and
+* Updated;
+* 🔗 from — Links in this calculator pointing to other calculators;
+* 🔗 to — Links to this calculator in other calculators; and
 * Published.
 
 .. note::

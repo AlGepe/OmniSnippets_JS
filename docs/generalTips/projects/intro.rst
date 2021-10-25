@@ -9,4 +9,4 @@ We run a number of different projects at Omni, so here’s a brief description o
     speedruns
     kickAss
     omniTube
-    FAQ
+    faq

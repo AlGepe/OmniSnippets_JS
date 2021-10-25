@@ -27,7 +27,7 @@ To add a calculator link, you have two options. You can either start typing the 
     :alt: example adding a calculator link by name
     :align: center
 
-Once you see the calculator you wish to add, simply click on it.
+Once you see the calculator you wish to add, simply click on it. Calculators with a **light grey background** are calculators that are **not published**. These maybe be old calculators or ones in development that will be published in future. You can **add unpublished calculators** to your text, but the link will not become active until the calculator being linked to is published.
 
 .. note::
   When entering an ID number and there are **no results**, it means that there is no calculator with that ID. It must have been deleted. In that case, double check the ID of the calculator you wish to add.

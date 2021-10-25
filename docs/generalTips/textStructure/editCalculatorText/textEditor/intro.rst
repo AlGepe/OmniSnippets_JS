@@ -122,5 +122,3 @@ The following topics help you to create perfectly formatted text.
   anchors
   html
 
-
-  
