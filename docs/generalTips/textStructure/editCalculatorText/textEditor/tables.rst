@@ -108,7 +108,7 @@ As well as defining the look of the table as a whole, you do have some options w
   At the start of specifying options, start with a pipe character ``|``. Then to separate multiple options, use a semicolon ``;``. So for example, to set the cell width to 100 pixels and center align the text, you would enter ``42|width=100;center``, where ``42`` is the cell content.
 
 Width — ``width=n``
-^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 You can control the width of a column by adding ``width=n``, where ``n`` is the number of pixels wide you wish the column to be. You can set this attribute is any cell within the column, but it probably makes the most sense to place it in the first row of a column.
 
@@ -136,7 +136,7 @@ In this case, setting the width to a value smaller than content forces it to wra
   The preview of the table may look different when rendered on the website, so always save and double check, on desktop and mobile.
 
 Text align — ``left``, ``center``, ``right``
-^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Within a cell, you can align the text to the left (default), center or right. As an example:
 
@@ -203,7 +203,7 @@ Empty cell — ``empty``
 When creating tables that contain colspans and rowspans, you should **keep the number of elements per row the same**. The ``empty`` element is available to help you do this, as shown in the example in the previous section.
 
 Background color — ``aliceblue``, ``lightskyblue``, etc.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each cell of a table can have a **custom background color**, which can be used to increase readability of the table. However, as we don't want too many colors on the website, you can only pick from a handful of colors, most of which fit in with the Omni website color scheme.
 

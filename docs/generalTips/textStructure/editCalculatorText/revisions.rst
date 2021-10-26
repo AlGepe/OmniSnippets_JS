@@ -31,7 +31,7 @@ Diff checking
 
 As an example, lets see how to do a difference check between two text revisions. First click the base of the diff check, but hovering your mouse over the revision and click on the **DD** icon. Then hover over a later revision and do the same.
 
-.. _revisionsDiffEg:
+.. _editCalcTextRevisionsDiffEg:
 .. figure:: img/revisions-diff-eg.png
   :width: 100%
   :alt: An example of a text diff check.

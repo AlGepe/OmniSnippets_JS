@@ -1,4 +1,4 @@
-.. _faq:
+.. _faqs:
 
 FAQs
 ====
@@ -25,7 +25,7 @@ The **Schema** button adds the section to the FAQ schema, but does not include i
 Adding an FAQ
 -------------
 
-To add a new FAQ, :ref:`add a new section <addNewSection>`` and click on the **FAQ button**. Then type in the question as the section heading and the answer in a text block below it (as shown in the example above). Your answer can include a :ref:`table block <textEditorTables>`.
+To add a new FAQ, :ref:`add a new section <addNewSection>` and click on the **FAQ button**. Then type in the question as the section heading and the answer in a text block below it (as shown in the example above). Your answer can include a :ref:`table block <textEditorTables>`.
 
 If you want the FAQ to appear in the main part of the text and not in the FAQ section at the end, click on the FAQ buttons again to deselect it, leaving only the schema button activated.
 

@@ -12,5 +12,5 @@ The rules for choosing the length of a text:
 * You should also try **not to go over 2000 words**. Longer texts do not see a proportional increase in clicks, so writing very long texts is usually not worth your time. The only case when you really should exceed 2k words is if the main phrase is really searched for (let's say, 10k+), and our competition has long, high-quality texts.
 
 .. note::
-Remember that the SEO phrases have a required concentration in the text; as you **write more**, the **more keywords** you will have to include. 
+  Remember that the SEO phrases have a required concentration in the text; as you **write more**, the **more keywords** you will have to include. 
 

@@ -38,7 +38,7 @@ To **add a new section**, click on the three-dots icon to the right of the secti
 .. seealso::
   FAQs (frequently asked questions) are defined using two buttons to the right of the section title; **Schema** and **FAQ**.
 
-  Learn more about managing FAQs in the :ref:`FAQs technical section <faq>`  of the manual. 
+  Learn more about managing FAQs in the :ref:`FAQs technical section <faqs>`  of the manual.
 
 
 .. _textEditorIntroContentBlocks:
