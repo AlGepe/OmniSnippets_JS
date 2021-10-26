@@ -1,12 +1,15 @@
 .. _markdown:
 
 Markdown
-=====================
+========
 
 The main way to format your texts is to use **Markdown syntax**. Omni has developed its own flavor of Markdown. This section is divided up into what is supported in text blocks and other text inputs (e.g., image captions) and what you shouldn't use.
 
 .. contents:: :local:
   :depth: 2
+
+.. tip::
+  You can find a **quick cheat sheet** of available Markdown commands and syntax by clicking on the **Cheat sheet** tab in the right half of the text editor page.
 
 Supported Markdown
 ------------------

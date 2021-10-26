@@ -15,7 +15,7 @@ The calculator text editor consists of a number of sections (equivalent to level
 Section blocks
 --------------
 
-A section is the top-level building block of your calculator text. Each section has a title and a number of content blocks.
+A section is the top-level building block of your calculator text. Each section has a title and contains a several :ref:`content blocks<textEditorIntroContentBlocks>`.
 
 .. note::
   The section title is what you used to denote with ## in the previous text editor.
@@ -39,6 +39,9 @@ To **add a new section**, click on the three-dots icon to the right of the secti
   FAQs (frequently asked questions) are defined using two buttons to the right of the section title; **Schema** and **FAQ**.
 
   Learn more about managing FAQs in the :ref:`FAQs technical section <faq>`  of the manual. 
+
+
+.. _textEditorIntroContentBlocks:
 
 Content blocks
 --------------
@@ -78,6 +81,12 @@ To change the ordering of content blocks or sections, use the up and down arrow 
 
   Move a section or content block by clicking and dragging on the up and down arrow icon.
 
+.. tip::
+  You might find it easier to **collapse all** the sections when **moving sections around**. You can do this by clicking on the gear cog icon next to the save button and selecting **Collapse all sections**.
+
+  Also, when moving content blocks within a section, collapsing them all first is better. See next section for how to collapse and expand content blocks.
+
+
 Collapsing and expanding section and content blocks
 ---------------------------------------------------
 
@@ -96,7 +105,6 @@ To expand a collapsed section or content block, click on the down arrow icon.
   :align: center
 
   Expand a block by clicking the down arrow icon. It's orange to indicate that it is collapsed.
-
 
 Formatting text
 ---------------

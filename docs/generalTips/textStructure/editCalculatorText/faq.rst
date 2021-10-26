@@ -3,15 +3,17 @@
 FAQs
 ====
 
-Adding frequently asked questions (FAQ) to a calculator is an opportunity for you to answer directly questions around the topic of your calculator.
+Adding frequently asked questions (FAQs) to a calculator is an opportunity for you to answer directly questions around the topic of your calculator.
 
-Questions and answers in this section are formatted in such a way as to make it easier for Google to extract and display them as **featured snippets** and **Google FAQs**.
+Questions and answers are formatted in such a way as to make it easier for Google to extract and display them as **featured snippets** and **Google FAQs**.
+
+This section of the handbook will focus on how to **technically define FAQs** for your text. To read about FAQs in general and how to write them, please checkout the :ref:`FAQ guide <faqGuide>` section of the handbook.
 
 FAQs (frequently asked questions) are defined using two buttons to the right of the section title; **Schema** and **FAQ**.
 
-The **Schema** button adds the section to the FAQ schema, but does not include it in the separate FAQ section. This is good when a section heading is naturally a question and you would like to include it with in the main text. For example, answering a question that helps you introduce a topic.
+The **Schema** button adds the section to the FAQ schema, but does not include it in the separate FAQ section. This is good to use when a section heading is naturally a question and you would like to include it with in the main text. For example, answering a question that helps you introduce a topic.
 
-This section of the handbook will focus on how to technically use the FAQ section's buttons and options. To read about FAQs in general, checkout this section of the handbook: :ref:`FAQ Guide <faqGuide>`.
+
 
 .. _faqExample:
 .. figure:: img/faq-eg.png
@@ -49,7 +51,7 @@ If you would like to insert an FAQ into the main body of the text (instead of ap
 
 This means that **important parts of the calculator’s text can be written in the appropriate place of the calculator as well as being an FAQ**. 
 
-Additionally, if you need to write more on that same topic, but don't want included on Google, create a new section that doesn't have a title. This means that you can add a whole host of additional text after the answer that you couldn’t/didn’t want to put into the FAQ answer, and it won’t appear in Google.
+Additionally, if you need to write more on that same topic, but **don't want included on Google** (e.g. to keep to recommended length), create a new section that doesn't have a title. This means that you can add a whole host of additional text after the answer that you couldn’t/didn’t want to put into the FAQ answer, and it won’t appear in Google.
 
 For example:
 
@@ -60,6 +62,6 @@ For example:
 
   Example of an FAQ in the main text with additional information not include in Google FAQ result (in this example the image will not appear in the FAQ answer on Google).
 
-All of this should make integrating FAQs into your text much easier than first imagined.
+All of this should make **integrating FAQs** into your text much easier than first imagined.
 
 

@@ -14,6 +14,9 @@ You then need to specify the URL of the image, be it on Omni's FTP server or hos
 
     Example of an image block with a URL to the image you want to use.
 
+.. tip::
+  For images hosted on the **Omni FTP server**, you can just specify the path and filename that comes after ``http://uploads-cdn.omnicalculator.com/images/``. So for a file in the images folder, you can just specify the filename: ``sw-drake-eqation.png``. For an image within a folder, give the folder name before the image; ``square-footage/circle.svg``.
+
 .. warning::
   **Please don't link directly to images on any old website.** It has to be able to serve the image quickly to our users, which, for example, Wikipedia does. If in doubt, upload the image to our FTP server.
 
@@ -27,7 +30,7 @@ You then need to specify the URL of the image, be it on Omni's FTP server or hos
 Click on the three-dot icon to display the options menu for an image block, which are covered next.
 
 .. note::
-  Please only use an image block to add an image to your text. Use of Markdown and HTML have been deprecated.
+  **Please only use an image block to add an image to your text.** Use of Markdown and HTML have been deprecated.
 
 Alt text
 --------
@@ -82,6 +85,38 @@ How to upload pictures?
 4. Put the pictures you want to upload in the “images” folder. Make sure that the pictures are open source (good sources are, e.g., `www.pexels.com <https://www.pexels.com/>`_ or https://unsplash.com) and that they’re not too large (ideally less than 100 KB — you can decrease their file size by using, e.g., https://tinypng.com). Here is :ref:`how to resize images <picturesHowToResize>`.
 5. The images are available at the following URL: ``https://uploads-cdn.omnicalculator.com/folder_name/file_name``. For example: https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png
 6. You can now add the image to the image block, as discussed in the previous section.
+
+Omni's in-house graphic artist
+------------------------------
+
+If you can't easily find the image or diagram you need for your calculator, or you've found a nice one but you can't use it due to licensing issues, why not use our **in-house graphic artist**.
+
+You can request a graphic by posting on the `#graphics <https://slack.com/app_redirect?channel=C02JPRQ1RKL>`_ Slack channel. Please follow these guidelines when requesting graphics:
+
+* **One calculator per form**
+  
+  * If you request more than 1 please fill multiple instances of the form! This makes it easier for me to track progress and keep the files separate.
+* **Show & tell me what you want**
+
+  * Draw simple diagrams for new requests / include old diagrams for revisions and make little notes on what we can improve on.
+  * If the relationship between elements is important (scale/size/color/length), please mention this so it can include it.
+  * Don't stress too much over making it presentable. The important thing is you get the idea across, even if it's a super rough sketch on the back of a receipt 😆
+  * You can also reference other diagrams you found on the internet, if you feel like that will help make things clearer.
+  * Don't be afraid to use super simple language to explain more complex concepts 🤣
+* **After receiving graphics, double-check your calculator text**
+
+  * Make sure any references to the new diagrams make sense with the text, especially for revised graphics. We wouldn't want your text saying 'red circle' when the image now shows a 'blue square' 😳
+
+Here is the **request form** for you to copy, paste, fill in, then post in the #graphics channel 🙂
+
+.. code-block::
+
+  Calculator: [Link]
+  Category:
+  Request Type: [Revision and/or New Images?]
+  How Many Images: [Number]
+  Examples/Diagrams: [Attach File]
+  Additional Details:
 
 Free to use pictures resources
 ------------------------------

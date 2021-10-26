@@ -104,10 +104,13 @@ Cell attributes
 
 As well as defining the look of the table as a whole, you do have some options when it comes to the look of each cell, column and row. Let's go through the options.
 
-Width — ``|width=n``
+.. note::
+  At the start of specifying options, start with a pipe character ``|``. Then to separate multiple options, use a semicolon ``;``. So for example, to set the cell width to 100 pixels and center align the text, you would enter ``42|width=100;center``, where ``42`` is the cell content.
+
+Width — ``width=n``
 ^^^^^
 
-You can control the width of a column by adding ``|width=n``, where ``n`` is the number of pixels wide you wish the column to be. You can set this attribute is any cell within the column, but it probably makes the most sense to place it in the first row of a column.
+You can control the width of a column by adding ``width=n``, where ``n`` is the number of pixels wide you wish the column to be. You can set this attribute is any cell within the column, but it probably makes the most sense to place it in the first row of a column.
 
 Let's look at an example:
 
@@ -132,7 +135,7 @@ In this case, setting the width to a value smaller than content forces it to wra
 .. warning::
   The preview of the table may look different when rendered on the website, so always save and double check, on desktop and mobile.
 
-Text align — ``|left``, ``|center``, ``|right``
+Text align — ``left``, ``center``, ``right``
 ^^^^^^^^^^
 
 Within a cell, you can align the text to the left (default), center or right. As an example:
@@ -145,15 +148,15 @@ Within a cell, you can align the text to the left (default), center or right. As
 
 So the headings will be centered, the first column of data is left aligned and the second column is right aligned.
 
-Vertical align — ``|top``, ``|middle``, ``|bottom``
+Vertical align — ``top``, ``middle``, ``bottom``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can vertically align the contents of a cell by adding ``|top``, ``|middle`` (default), and ``|bottom`` after the cell's content.
+You can vertically align the contents of a cell by adding ``top``, ``middle`` (default), and ``bottom`` after the cell's content.
 
-Column span — ``|colspan=n``
+Column span — ``colspan=n``
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The column span attribute allows to you **merge two or more cells in the horizontal direction** (across columns). We do this by adding ``|colspan=n`` to the cell's contains, where ``n`` is the number of columns to span. Let's have a look at an example to see colspan in action.
+The column span attribute allows to you **merge two or more cells in the horizontal direction** (across columns). We do this by adding ``colspan=n`` to the cell's contains, where ``n`` is the number of columns to span. Let's have a look at an example to see colspan in action.
 
 .. code-block::
 
@@ -170,10 +173,10 @@ This table is rendered as:
 
   An example of a table with colspan cell attributes.
 
-Row span — ``|rowspan=n``
+Row span — ``rowspan=n``
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The row span attribute allows to you to **merge two or more cells in the vertical direction** (i.e., down rows). We do this by adding ``|rowspan=n`` to the cell's contains, where ``n`` is the number of rows to span. Let's have a look at an example to see colspan in action.
+The row span attribute allows to you to **merge two or more cells in the vertical direction** (i.e., down rows). We do this by adding ``rowspan=n`` to the cell's contains, where ``n`` is the number of rows to span. Let's have a look at an example to see colspan in action.
 
 .. code-block::
 
@@ -192,21 +195,21 @@ The row span attribute allows to you to **merge two or more cells in the vertica
 
   An example of a table with rowspan cell attributes.
 
-Note that in order to get the headings of Bob and Alice to appear in the correct column, we add ``|colspan=2`` to merge the two cells and an ``|empty`` element. There is more about the ``|empty`` attribute in the following section.
+Note that in order to get the headings of Bob and Alice to appear in the correct column, we add ``colspan=2`` to merge the two cells and an ``empty`` element. There is more about the ``empty`` attribute in the following section.
 
-Empty cell — ``|empty``
+Empty cell — ``empty``
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-When creating tables that contain colspans and rowspans, you should **keep the number of elements per row the same**. The ``|empty`` element is available to help you do this, as shown in the example in the previous section.
+When creating tables that contain colspans and rowspans, you should **keep the number of elements per row the same**. The ``empty`` element is available to help you do this, as shown in the example in the previous section.
 
-Background color — ``|aliceblue``, ``|lightskyblue``, etc.
+Background color — ``aliceblue``, ``lightskyblue``, etc.
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Each cell of a table can have a **custom background color**, which can be used to increase readability of the table. However, as we don't want too many colors on the website, you can only pick from a handful of colors, most of which fit in with the Omni website color scheme.
 
 To add a background color, you just **add the color name** as an attribute of the cell. Here are the colors that are available:
 
-``|aliceblue``, ``|lightskyblue``, ``|deepskyblue``, ``|mediumblue``, ``|cornflowerblue``, ``|darkblue``, ``|white``, ``|black``, ``|gainsboro``, ``|omnigrey``, ``|grey``, ``|darkseagreen``, ``|lemonchiffon``, ``|lightsalmon``, ``|lightpink``, ``|crimson``, ``|chocolate``.
+``aliceblue``, ``lightskyblue``, ``deepskyblue``, ``mediumblue``, ``cornflowerblue``, ``darkblue``, ``white``, ``black``, ``gainsboro``, ``omnigrey``, ``grey``, ``darkseagreen``, ``lemonchiffon``, ``lightsalmon``, ``lightpink``, ``crimson``, ``chocolate``.
 
 And here is how they look on the website:
 
