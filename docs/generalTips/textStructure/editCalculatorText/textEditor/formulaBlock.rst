@@ -117,6 +117,9 @@ Notice how the equation has been squashed down to fit on a single line of text. 
 
   An example of an inline LaTeX-style formula.
 
+.. warning::
+  Please don't put LaTeX-style formulas in FAQ answers, as they won't appear correctly on Google. Use :ref:`backticks<equations>` or bold text instead.
+
 Errors
 ------
 

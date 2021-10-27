@@ -32,6 +32,9 @@ If you want the FAQ to appear in the main part of the text and not in the FAQ se
 .. tip::
   If you know an FAQ will be in the main text, you can click on the **Schema** button when creating the FAQ, instead of the FAQ button.
 
+.. warning::
+  Please don't put LaTeX-style formulas in FAQ answers, as they won't appear correctly on Google. Use :ref:`backticks<equations>` or bold text instead.
+
 Changing the order of FAQs
 --------------------------
 
