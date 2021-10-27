@@ -3,7 +3,10 @@
 Formula block
 =============
 
-A formula block allows you to enter a mathematical formula using **LaTex formula notation** (thanks to a library called KaTeX). If you are a mathematician or write you academic papers using LaTeX, you'll feel right at home. For everyone else, here is a brief introduction.
+.. contents:: Table of contents:
+  :local:
+
+A formula block allows you to enter a mathematical formula using **LaTex formula notation** (thanks to a library called KaTeX). If you are a mathematician or write your academic papers using TeX, you'll feel right at home. For everyone else, here is a brief introduction.
 
 Let's start with something simple. The following input:
 
@@ -124,3 +127,12 @@ Errors
 ------
 
 If there are syntax errors in the input, these will be **displayed in the preview as red text**. Double-check with the KaTeX documentation to see if the function is supported or you are using a function correctly. If you need help resolving an error, just ask!
+
+Useful LaTeX resources
+----------------------
+
+Here are some resources that will help you create LaTeX equations.
+
+* `KaTeX Support Table <https://katex.org/docs/support_table.html>`_ — Double-check what is supported by KaTeX, the LaTeX library Omni uses.
+* `Detexify LaTeX handwritten symbol recognition <https://detexify.kirelabs.org/classify.html>`_ — Allows you to draw a math symbol and gives you the LaTeX code.
+* `Mathpix Snip <https://mathpix.com/>`_ — Convert images (including handwritten formulas) and PDFs into LaTeX code.
