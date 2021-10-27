@@ -3,6 +3,9 @@
 Image block
 ===========
 
+.. contents:: Table of contents:
+  :local:
+
 To enrich your text, you can add pictures, graphs and diagrams using an **image block**. To add an image block to a section, click on the three-dot icon of the block where you would like the image to appear and select **Add image block** from the first section of the menu.
 
 You then need to specify the URL of the image, be it on Omni's FTP server or hosted on Wikimedia.
