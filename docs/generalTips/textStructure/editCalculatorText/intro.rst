@@ -24,3 +24,12 @@ It explains each section of the edit text page in detail:
     faq
     revisions
     seoCheck/intro
+
+
+
+.. tip::
+  You can also view a **video demonstration** of the calculator text editor by Maciek, our product owner, below:
+
+  .. raw:: html
+
+    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/C6-rKlJSU40?start=109" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
