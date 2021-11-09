@@ -1,3 +1,13 @@
+# -- Project information
+
+project = 'Omni Calculator Handbook'
+copyright = '2021, Omni Calculator'
+author = 'Álvaro Díez, Dominik Czernia, Jack Bowater, Wojciech Sas, Steve Wooding'
+
+release = '2.0.0'
+version = '2.0.0'
+
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
