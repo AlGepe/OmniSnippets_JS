@@ -1,4 +1,4 @@
-.. _instruction:
+.. _mastermindInstruction:
 
 How to use mastermind worksheet?
 ================================

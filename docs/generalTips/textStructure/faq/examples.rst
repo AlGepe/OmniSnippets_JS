@@ -26,9 +26,9 @@ How do I add a percentage increase to a number?
 If you want to **increase a number by a certain percentage**, follow these steps:
 
 1. **Divide** the number you wish to increase by 100 to find 1% of it.
-1. **Multiply 1% by your chosen percentage**.
-1. **Add** this number to your original number.
-1. There you go, you have just added a **percentage increase to a number!**
+2. **Multiply 1% by your chosen percentage**.
+3. **Add** this number to your original number.
+4. There you go, you have just added a **percentage increase to a number!**
 
 How do you find arc length without the radius?
 ----------------------------------------------
@@ -36,15 +36,15 @@ How do you find arc length without the radius?
 To calculate arc length without radius, you **need the central angle and the sector area**:
 
 1. **Multiply** the area by 2 and divide the result by the central angle in radians.
-1. **Find** the square root of this division.
-1. **Multiply** this root by the central angle again to get the arc length.
-1. The units will be the **square root of the sector area units**.
+2. **Find** the square root of this division.
+3. **Multiply** this root by the central angle again to get the arc length.
+4. The units will be the **square root of the sector area units**.
 
 Or **the central angle and the chord length**:
 
 1. **Divide** the central angle in radians by 2 and perform the sine function on it.
-1. **Divide** the chord length by double the result of step 1. This calculation gives you the radius.
-1. **Multiply** the radius by the central angle to get the arc length.
+2. **Divide** the chord length by double the result of step 1. This calculation gives you the radius.
+3. **Multiply** the radius by the central angle to get the arc length.
 
 How do you check your body fat?
 -------------------------------

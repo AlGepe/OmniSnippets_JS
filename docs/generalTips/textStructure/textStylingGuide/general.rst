@@ -18,7 +18,7 @@ You should also **never refer to yourself in the first person** when writing tex
 We also use the **Oxford comma** when constructing lists, e.g., “There were three boys: Tom, Dick, and Harry.” If you have only two objects in the list, you don't need to include a comma after the and.
 
 .. warning::
-**Please do not copy and paste text from other websites.** While you can, of course, check other websites, anything you want to use from them should be written in your own words. The only exception is if it is a direct quote from someone, in which case it should be surrounded in “quotation marks” and referenced after, ideally with a quote if it was first written on a website.
+  **Please do not copy and paste text from other websites.** While you can, of course, check other websites, anything you want to use from them should be written in your own words. The only exception is if it is a direct quote from someone, in which case it should be surrounded in “quotation marks” and referenced after, ideally with a quote if it was first written on a website.
 
 You may want to tell users to **visit the advanced mode**, in which case ``advanced mode`` should be backticked for visibility. 
 

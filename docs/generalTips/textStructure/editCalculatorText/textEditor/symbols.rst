@@ -1,7 +1,10 @@
 .. _symbols:
 
 Symbols
-=====================
+=======
+
+.. contents:: Table of contents:
+  :local:
 
 You may use most Unicode and Emoji symbols in your texts. Let's explore how to get them into your texts.
 
