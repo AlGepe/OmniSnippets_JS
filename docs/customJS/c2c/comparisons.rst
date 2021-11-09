@@ -1,4 +1,5 @@
 .. _comparisons:
+
 Comparisons, staying sane a little longer
 =========================================
 

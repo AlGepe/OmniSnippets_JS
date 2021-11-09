@@ -7,6 +7,7 @@
    </strike>
 
 .. _jsHtml:
+
 Javascript vs HTML
 ==================
 

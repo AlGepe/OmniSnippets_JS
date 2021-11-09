@@ -1,4 +1,5 @@
 .. _areaChart:
+
 How to create an area chart
 ===========================
 
@@ -78,7 +79,10 @@ As you can see, there is little to no difference between making a basic ``area``
 The area chart is a very useful alternative to the ``bar`` chart for continuous values. It is also a very good way to show percentages over time as a kind of time-dependant ``pie`` chart.
 
 .. tip::
-    For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`__.
+    For cleaner code that is easy to understand consider using functions when performing complex operations inside the *for* loop. You might also want to look up the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`_.
+
+    ..
+        You might also want to look up the :ref:`Advanced uses of arrays<advArray>` section or the `map method <https://www.w3schools.com/jsref/jsref_map.asp>`_.
 
 .. rubric:: Footnotes
 

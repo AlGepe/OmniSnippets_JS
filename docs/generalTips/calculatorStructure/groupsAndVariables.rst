@@ -83,7 +83,7 @@ The suffix end text gets placed *after* any units symbol. Again, this is useful 
 Help text
 ^^^^^^^^^
 
-Text inputted here will appear as a **tooltip when the user hovers over the variable label**. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. Guidance on help texts can be found :ref:`here <calculatorGuideHelpTexts>`.
+Text inputted here will appear as a **tooltip when the user hovers over the variable label**. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. Guidance on help texts can be found :ref:`here <calcStylingGuideHelpTexts>`.
 
 Default value
 ^^^^^^^^^^^^^

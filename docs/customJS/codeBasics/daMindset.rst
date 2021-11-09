@@ -1,4 +1,5 @@
 .. _damindset:
+
 The coding mindset
 ==================
 

@@ -1,8 +1,9 @@
 .. _repo:
+
 Repository and usage
 ====================
 
-The [repository](https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code) is collection of useful functions and data available for anyone that needs it. It is built by calculatorians for calculatorians so feel free to contribute.
+The `repository <https://github.com/AlGepe/OmniSnippets_JS/tree/master/Code>`_ is collection of useful functions and data available for anyone that needs it. It is built by calculatorians for calculatorians so feel free to contribute.
 
 These functions are ones that we commonly use in different calculators. From changing the color of a chart, to combining several chart-formatted arrays into one, to converting time in seconds to a human-readable format, anything that is useful should end up here.
 

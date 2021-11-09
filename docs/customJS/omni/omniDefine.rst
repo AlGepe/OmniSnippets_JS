@@ -1,4 +1,5 @@
 .. _omniDefine:
+
 Define custom calculator functions
 ----------------------------------
 
@@ -11,6 +12,7 @@ Creates a custom function that can be used from the `Equations` tab on bb. It al
 
 .. tip::
   Custom functions can also be used to set custom conditions on variables. To learn more check :ref:`Add custom conditions<addumet>`.
+
 Syntax
 ~~~~~~
 

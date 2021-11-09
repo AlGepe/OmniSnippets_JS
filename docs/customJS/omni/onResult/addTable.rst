@@ -35,9 +35,10 @@ To create a graph you need to create at least one 2D array containing the data. 
                 {afterVariable: 'myVarible', alwaysShown: false}
                 );
 
-.. tip::
+..
+    .. tip::
 
-    To create and operate with multidimensional arrays dynamically (so that the data can be calculated in customJS) check out the section :ref:`Arrays: More data, less hassle<multidimArray>`
+        To create and operate with multidimensional arrays dynamically (so that the data can be calculated in customJS) check out the section :ref:`Arrays: More data, less hassle<multidimArray>`.
 
 .. warning::
 

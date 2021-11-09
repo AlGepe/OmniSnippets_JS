@@ -1,10 +1,11 @@
 .. _orderOfExecution:
+
 When is what executed?
 ======================
 
 When writing code for you next calculator, it can be strange the way it runs. The order in which each block of code is executed can be hard to understand and make things more difficult than they need to be. 
 
-To help you undersand better what is going on and how to take advantage of it, we have created this text. We will go into the different types of code block, organized by what they do, rather than proximity. We will see which pieces of code get executed when and also why that is. 
+To help you understand better what is going on and how to take advantage of it, we have created this text. We will go into the different types of code block, organized by what they do, rather than proximity. We will see which pieces of code get executed when and also why that is. 
 
 Let's get going!
 
@@ -31,7 +32,7 @@ When the website gets loaded and the calcualtor is initialised, only certain par
 
 First of all, *regular javascript* gets executed before any other part of the code. It only gets executed once and the program skips over any *omni-specific* code. The code gets executed from top to bottom.
 
-.. note:
+.. note::
   When working on BB the calculator gets initialised twice, that means all the actions we mention in this section are performed twice. In the website this does not happen and the calculator is only loaded once.
 
 
@@ -41,7 +42,7 @@ After the *regular javascript* code is fully executed, ``onInit`` gets triggered
 
 If we have any default values set in the  **Current Variables** tab, they will also be set at this point.
 
-.. warning:
+.. warning::
   When we set default values in our variables, certain behaviours can be triggered. ``omni.define`` and ``omni.onResult`` will be run if the required variables have been given default values.
 
 
@@ -54,13 +55,13 @@ The functions ``omni.onResult`` and ``omni.define`` will be executed according t
 
 Our custom functions created using ``omni.define`` will be ran whenever all of its inputs have a defined value, and again every time there is a change in any of them. If any of the inputs is (or becomes) ``undefined`` your custom functions will not be executed.
 
-.. warning:
+.. warning::
   For ``omni.define`` functions, make sure you have set the same number of inputs with the same names both in customJS and in the **Equations** tab.
 
 The conditions for ``omni.onResult`` are set inside the ``[]`` part of the function call. It is not necessary to include the triggering variables as an input to the function. The code inside ``omni.onResult`` will be executed last and will be executed once for every change in a variable's value, as long as that variables is a trigger.
 
 
-.. note:
+.. note::
   If the conditions for both ``omni.define`` and ``omni.onResult`` are fulfilled, ``omni.define`` will be executed first. ``omni.onResult`` is always the last part of customJS to be executed.
 
   If there are several ``omni.onResult`` statements in your code, and more than one is triggered by a given state of the calculator, they will be executed from top to bottom.
@@ -80,7 +81,7 @@ More importantly, Value Setters can change the values of many variables at once.
     :alt: value setter triggers multiple times
     :align: center
 
-     Console output from selecting a value setter option affecting 3 variables.
+    Console output from selecting a value setter option affecting 3 variables.
 
 
 .. You can learn more about :ref:`how Value Setters work<_vSetterBEhaviour>` 
@@ -98,5 +99,5 @@ tl;dr
 #. ``omni.define`` all custom functions get executed if the required variables are not ``undefined`` (could trigger ``omni.onResult``
 #. ``omni.onResult`` gets triggered after a change in the value of the triggering variables. It is executed once per change and per variable. If more than one ``onResult`` is triggered, they run from top to bottom
 
-.. tip:
-  We have created a calculator to showcase the order of execution. You can check it out as `[docs] Execution Order unpublishedDocs <https://www.omnicalculator.com/adminbb/calculators/2046>`__ . Simpy bring up the Developer Tools in you r browser and check the order in which the ``console.log`` output is presented.
+.. tip::
+  We have created a calculator to showcase the order of execution. You can check it out as `[docs] Execution Order unpublishedDocs <https://www.omnicalculator.com/adminbb/calculators/2046>`__ . Simply bring up the Developer Tools in your browser and check the order in which the ``console.log`` output is presented.

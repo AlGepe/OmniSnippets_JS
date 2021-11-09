@@ -2,7 +2,9 @@ Authors
 ========
 
 - **Alvaro Diez** *Not an Astrophysicist™*
-.. - **Dominik Czernia** *Mr. customJS wizzard himseld*
+
+..
+  - **Dominik Czernia** *Mr. customJS wizzard himseld*
   Proofread by:
   $$$$$$$$$$
   * **Jack Bowater** *It's you're not your*

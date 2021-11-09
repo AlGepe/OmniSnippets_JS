@@ -1,4 +1,5 @@
 .. _brokenStacking:
+
 Stack a.k.a. playing Jenga in customJS
 ======================================
 
@@ -9,13 +10,13 @@ With *stacking* you face the same situation, you will only use it in a very spec
 The problems can appear when we want to do something fancy instead of *stacking* 2 variables placed in the first two positions in the array. Allow me to explain by taking a look at some scenarios:
 
 Expected use case or how to make it work
----------------------------------------
+----------------------------------------
 
 Before we get into the problems that might arise when doing strange combinations, we need to take a look at how it actually works in the **expected scenario**.
 
 For example, here is a real-world example taken from the `Investment Calculator <https://www.omnicalculator.com/finance/investment>`__ by Tibor:
 
-.. _lineChartIMG:
+.. _stackChartIMG:
 .. figure:: stackChart.png
    :scale: 70%
    :alt: Example of stacking data

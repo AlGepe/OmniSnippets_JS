@@ -57,7 +57,7 @@ Let's take a look at an example. We want to know if we are dealing with a car (4
 
 In contrast, if we use the ternary operator we can do it in a single line:
 
-.. code-block:: javscript
+.. code-block:: javascript
 
   var wheels = (isCar) ? 4 : 2;
 
@@ -67,6 +67,8 @@ The general syntax of the ternary (also called conditional) operator is: ``condi
 
 .. note::
   You can learn more about the `Ternary operator <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator>`__ on Mozilla's JS Documentation.
+
+.. _implicitConditions:
 
 Stealthy conditions (Implicit conditions to avoid errors)
 ---------------------------------------------------------

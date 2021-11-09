@@ -1,10 +1,10 @@
 .. |ss| raw:: html
 
-   <strike>
+    <strike>
 
 .. |se| raw:: html
 
-   </strike>
+    </strike>
 
 .. _vSetter:
 
@@ -65,15 +65,15 @@ To do this you can add a column to you spreadsheet table when using the online t
 Alternatively you can manually do it inside customJS by simply replacing ``$defaultValueSetterUid`` with the ``uid`` value of the option you want to be default.
 
     
-+-------------------+--------------------+----------+------------------------------------------------------------------------+----------+
-| Argument          | Name               | Type     | Description                                                            | Required |
-+===================+====================+==========+========================================================================+==========+
-| ``variableName``  | ``variableName``   | string   | Name of the variable to which you will associate the value setter      | Yeah     |
-+-------------------+--------------------+----------+------------------------------------------------------------------------+----------+
-| ``data``          | ``data``           | object   | Dictionary containing the values related to each selection             | Yeah     |
-+-------------------+--------------------+----------+------------------------------------------------------------------------+----------+
++-------------------+--------------------+----------+--------------------------------------------------------------------------+----------+
+| Argument          | Name               | Type     | Description                                                              | Required |
++===================+====================+==========+==========================================================================+==========+
+| ``variableName``  | ``variableName``   | string   | Name of the variable to which you will associate the value setter        | Yeah     |
++-------------------+--------------------+----------+--------------------------------------------------------------------------+----------+
+| ``data``          | ``data``           | object   | Dictionary containing the values related to each selection               | Yeah     |
++-------------------+--------------------+----------+--------------------------------------------------------------------------+----------+
 | ``options``       | ``defaultUid``     | string   | ``uid`` of the default option in the calculator. Can be set in the tool. | Nope     |
-+-------------------+--------------------+----------+------------------------------------------------------------------------+----------+
++-------------------+--------------------+----------+--------------------------------------------------------------------------+----------+
 
 
 

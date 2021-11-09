@@ -1,4 +1,5 @@
 .. _howToHelp:
+
 How to ask for help
 ===================
 
@@ -42,7 +43,7 @@ If you have tried different solutions before asking, include a short description
 
 If you have a guess as to what it could be, also include it, even if you wouldn't know how to solve such issue.
 
-Needless to say, when you ask for help you should be polite, respectful and patience. This doesn't mean necessarily saying _please_ and _thank you_ after every sentence, but they never harm. There is a good enough vibe between us that this point needs no emphasis, but just remember not to take you coding-frustration with others. :)
+Needless to say, when you ask for help you should be polite, respectful and patience. This doesn't mean necessarily saying *please* and *thank you* after every sentence, but they never harm. There is a good enough vibe between us that this point needs no emphasis, but just remember not to take you coding-frustration with others. :)
 
 The perfect question
 --------------------

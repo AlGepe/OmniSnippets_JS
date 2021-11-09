@@ -1,3 +1,5 @@
+.. _naming_variables:
+
 Naming Variables: a proposal for a common standard
 ==================================================
 
@@ -92,7 +94,7 @@ At Omni we have never supported any kind of authoritarian regime, and naming con
 So, even if the rules above seems like a very strict system, you should feel free to do differently if you so wish. Treat each point as a strong suggestion rather. If you ever feel like you have a better system, go use it! We beg you to, at least, stay consistent with your own rules within the same calculator and we are very grateful that you kept the names of variables simple, yet descriptive so that we don't need to spend 30min deciphering each of your *"clever"* acronyms and abbreviations.
 
 .. rubric:: tl;dr
-In short: know the rules, do what you want, but please, please, try to be mindful of others. We all thank you for that.
+  In short: know the rules, do what you want, but please, please, try to be mindful of others. We all thank you for that.
 
 .. rubric:: Footnote
 .. [#f2] Then again, in an ideal world we would all communicate telepathically and I wouldn't have to write this. ¯\_(ツ)_/¯

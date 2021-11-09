@@ -1,4 +1,5 @@
 .. _changeColor:
+
 Change color of a chart from an arbitrary point
 ===============================================
 
@@ -19,9 +20,10 @@ The functions and its parameters
 * \ **start**: ``number`` corresponding to the position from which color should be changed. [optional]
 
 .. rubric:: Output
+
 * \ **output**: *Chart-ready* ``array`` with the colors changed as desired.
 
-Here is the javscript code of the function, ready to be used:
+Here is the javascript code of the function, ready to be used:
 
 .. code-block:: javascript
 

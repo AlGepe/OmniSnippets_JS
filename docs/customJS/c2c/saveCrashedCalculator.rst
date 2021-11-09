@@ -28,7 +28,7 @@ This is a powerful tool that helps real developers test, debug and improve their
 
 .. rubric:: Navigate throught the folders
 
-.. _devConsole:
+.. _crashSave:
 .. figure:: imgs/crashSave.jpg
    :scale: 100%
    :alt: Find the file in the developer tools

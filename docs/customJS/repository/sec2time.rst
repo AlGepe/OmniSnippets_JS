@@ -1,5 +1,7 @@
 .. _sec2time:
+
 .. |ms| replace:: m\ :sub:`s`\
+
 Convert Seconds to formatted time
 =================================
 

@@ -1,4 +1,5 @@
 .. _magicRows:
+
 Magic Rows (Advanced show/hide)
 ===============================
 

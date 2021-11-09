@@ -1,4 +1,5 @@
 .. _compounding:
+
 Compounding variables like I have interest
 ==========================================
 
@@ -9,6 +10,7 @@ By compounded variables we mean variables that not only store data but also have
 Functions can be though of as variables that instead of storing data they store actions. We will see in more detail now where these can be used and how they become very useful.
 
 .. _array:
+
 Arrays
 ------
 
@@ -43,6 +45,7 @@ To access the actual values of the array you simply keep adding numbers correspo
 Arrays can get conceptually very complicated very quickly but are also very useful in many many scenarios. So here more than ever we encourage you to check out the `Mozilla JS documentation <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array>`__ and in particular the methods and operations you can perform with arrays. A prime example would be ``Array.push`` which adds a new entry at the end of the array.
 
 .. _functions:
+
 Functions
 ---------
 
@@ -76,6 +79,7 @@ In this instance the example is so basic that there is little to no advantage in
 One thing to note is the **scope** of variables. Variables created inside a function cannot be accessed from outside of it, they *"dissappear"* once the function ends. If you want to use a variable inside multiple functions you can declare it outside of all the functions so that it will always be available and accessible. This variables are called global variables and you should be careful when using them since they might have been modified my a function without you realising it. When possible, the advice is to avoid global variables.
 
 .. _object:
+
 Objects
 -------
 
@@ -86,6 +90,7 @@ Very loosely speaking, an object is a compounded variable that contains not only
 Objects in javascript are slightly different than objects in Java, C++, Python... But we will not go into details about them. The only important type of object we need to understand is the **dictionary** [#f1]_. This is used mainly for :ref:`Value Setters<vSetter>` and :ref:`Value Selects<vSelect>`. 
 
 .. _dictionary:
+
 Dictionaries
 ~~~~~~~~~~~~
 

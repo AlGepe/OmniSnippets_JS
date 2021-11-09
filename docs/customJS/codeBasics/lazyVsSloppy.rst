@@ -1,4 +1,5 @@
 .. _lazySloppy:
+
 Lazy code vs sloppy code
 ========================
 
@@ -10,6 +11,7 @@ The type of laziness we are encouraging here is the long term kind of laziness. 
 
 The important thing to remember when coding for a calculator is that no matter how obscure or complete you think your calculator is, it will eventually be checked, used and modified by other people (this includes future you). When that time comes, any time invested in making your code more sensible, more flexible, more understandable and well organised will pay back greatly. 
 
-We don't need to take any particular example (though `Sig Fig Calculator <https://www.omnicalculator.com/adminbb/calculators/392>`__ is a great one) for everyone to picture calculator code that was sloppy, cryptic and did not make much sense. When you encounter such code you often need to spend many hours just to understand what the calculator is doing and why. When we encounter the opposite, a well coded calculator with proper structure and style [#f1]_ , reading code can be almost as quick as reading instructions written in plain English. This second type of calculator is the one that saves time in the long run, makes you feel proud and makes everyone love you. So aim to be that kind of programmer, aim to be the lazy programmer, not the sloppy one.
+We don't need to take any particular example for everyone to picture calculator code that was sloppy, cryptic and did not make much sense. When you encounter such code you often need to spend many hours just to understand what the calculator is doing and why. When we encounter the opposite, a well coded calculator with proper structure and style, reading code can be almost as quick as reading instructions written in plain English. This second type of calculator is the one that saves time in the long run, makes you feel proud and makes everyone love you. So aim to be that kind of programmer, aim to be the lazy programmer, not the sloppy one.
 
-.. [#f1] We have a style guide to help everyone at Omni have a similar way of writing code. Check it out in the :ref:`How to be friends with other calculatorians <bestpractices>` section.
+..
+  .. [#f1] We have a style guide to help everyone at Omni have a similar way of writing code. Check it out in the :ref:`How to be friends with other calculatorians <bestpractices>` section.

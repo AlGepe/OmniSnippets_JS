@@ -1,4 +1,5 @@
 .. _imgBasic:
+
 How to insert an image in the calculator
 ========================================
 

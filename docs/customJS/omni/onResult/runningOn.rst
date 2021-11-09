@@ -20,7 +20,7 @@ Arguments
 ~~~~~~~~~
 
 platform ("embed")
-'''''''''''''''''
+''''''''''''''''''
 
 A string containing the type of platform you to check. For now the function
 only supports ``"embed"``.

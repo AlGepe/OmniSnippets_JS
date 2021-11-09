@@ -1,4 +1,5 @@
 .. _marketingcalc:
+
 *Le* Marketing (surrender your freedom for a greater good)
 ----------------------------------------------------------
 

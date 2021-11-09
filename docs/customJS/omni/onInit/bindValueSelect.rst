@@ -1,4 +1,5 @@
 .. _bindVselect:
+
 Bind a Value Select
 -------------------
 
@@ -21,7 +22,7 @@ Arguments
 This function takes at least two arguments ``myValueSelect`` and ``variable1``.  If several variables share the same :ref:`value select <vSelect>` they can be added after the first one separated by commas as show in the snippet above.
 
 myValueSelect (value select)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This must be the name of a javascript variable containing a value select
 previously created. If you are here and don't know how to create a value select

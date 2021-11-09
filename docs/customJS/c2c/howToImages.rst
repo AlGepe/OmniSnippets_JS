@@ -1,4 +1,4 @@
-.. -howToImages:
+.. _howToImages:
 
 How to deal with images
 -----------------------
@@ -20,7 +20,7 @@ In legal terms we have to use images with no copyright restrictions on usage. Ho
 
 When searching images on Google, Yandex (awesome for finding similar images) or any other search engine, you will find all types of images from many different sources. Searching like that can lead to falling in love with a picture that has restricted use and cannot be included in your calculator. Sad. 
 
-Many of these engines, however, can filter images based on their license. Let's look at Google as an example. If you search for images and the click on **Tools-> Usage Rights** you will be greeted with several options to select from. For our purposes both *"Labeled for Reuse"* and *"Labeled for reuse with modification"* [#1]_ will fit our requirements. Just remember to modify the image you took if the license requires it.
+Many of these engines, however, can filter images based on their license. Let's look at Google as an example. If you search for images and the click on **Tools-> Usage Rights** you will be greeted with several options to select from. For our purposes both *"Labeled for Reuse"* and *"Labeled for reuse with modification"* [#f1]_ will fit our requirements. Just remember to modify the image you took if the license requires it.
 
 .. _gSearchPic:                  
 .. figure:: imgs/gSearch.png
@@ -97,7 +97,7 @@ Nevertheless, GIFs are subject to the same restrictions as the rest of the image
 #. https://ezgif.com/ [Online]
 
 How to store your images
-=======================
+========================
 
 When storing images we can either link to the website where we find it, or upload it to our FTP server. The easiest one is to link directly from another website, but it's also the most dangerous one as we will be dependent on that website staying alive for as long as we need their image. The general advice is **don't do this** with Wikipedia being a notable exception to the rule.
 
@@ -109,6 +109,7 @@ To try to fix this problem, or at least prevent it from getting even messier tha
 
 
 .. _storingFTP:
+
 A guide on storing files in our FTP server 
 ..........................................
 

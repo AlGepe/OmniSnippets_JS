@@ -1,4 +1,5 @@
-.. _tables:
+.. _dynamicTables:
+
 Dynamic table under calculator
 ==============================
 

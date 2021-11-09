@@ -27,7 +27,7 @@ Arguments
 ~~~~~~~~~
 
 myVar (string)
-'''''
+''''''''''''''
 As input you should provide the name of the variable from which you'd like to
 get the `Label`.
     

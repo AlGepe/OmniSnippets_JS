@@ -1,4 +1,5 @@
 .. _scope:
+
 The life cycle of a variable
 ============================
 

@@ -1,4 +1,5 @@
 .. _variables:
+
 Simple Variables
 ================
 
@@ -24,6 +25,7 @@ This is both comfortable (less writing/thinking) if everything goes according to
    If in doubt you can always use ``typeof(variableName)`` to find out the type of ``variableName``.
 
 .. _bool:
+
 Booleans
 --------
 Booleans are the simplest of all variables as they can only have two values: **TRUE** or **FALSE**. Booleans are logical yes/no variables that allow for flow control (see more on section :ref:`Flow Control<execOrder>`).
@@ -52,6 +54,7 @@ Reference
 For more information visit `Mozilla's Javascript documentation on Booleans <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean>`__
 
 .. _string:
+
 Strings
 -------
 
@@ -93,7 +96,7 @@ To declare a numerical value is as simple as one can imagine:
 
 As it is the case with other variables, you can declare a numerical variable using an expression:
 
-.. code-block:: javscript
+.. code-block:: javascript
 
    var myOtherNumber = 8.45 + 3 / 56
 

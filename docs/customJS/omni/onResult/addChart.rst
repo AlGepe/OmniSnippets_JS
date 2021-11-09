@@ -1,4 +1,5 @@
 .. _addchart:
+
 Add a Chart to the Calculator
 -----------------------------
 
@@ -46,8 +47,8 @@ The argument of this function is by far the most complicated. It is a dictionary
 +---------------+----------------------------+----------+----------------------------------------------------------+
 | afterVariable | string                     | No       | Location and behaviour                                   |
 +---------------+----------------------------+----------+----------------------------------------------------------+
-| alwaysShown   | boolean                    | No       | **false** : Text is hidden if variable is hidden //       |
-|               |                            |          |  **true** : Text is always shown                          |
+| alwaysShown   | boolean                    | No       | **false** : Text is hidden if variable is hidden //      |
+|               |                            |          |  **true** : Text is always shown                         |
 +---------------+----------------------------+----------+----------------------------------------------------------+
 
 .. note::
@@ -55,16 +56,18 @@ The argument of this function is by far the most complicated. It is a dictionary
     The data for the x-axis in all but ``pie`` charts is taken as a string, not as a number. The values will always appear equally distributed. All y-values are represented in order of input from left to right regardless of their associated x-values.
 
 
+.. _colorChart:
+
 Colours of the datasets
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Omni calculator doesn't support explicitly choosing colours for each of the datasets. The colours are assigned automatically from first to last dataset following their order in the input. The following chart represents the relation between position and colour.
 
-.. _colorChart:
+.. _colorsChart:
 .. figure:: OmniColors.png
-   :scale: 80%
-   :alt: list of colours available for Omni charts
-   :align: center
+    :scale: 80%
+    :alt: list of colours available for Omni charts
+    :align: center
 
     Colour assigned to each position of data
 
@@ -153,7 +156,7 @@ Here is an example of how ``chartData`` has to be created for this chart. And ho
     Bar chart resulting from the data defined above
 
 Area Chart
-'''''''''
+''''''''''
 
 The ``area`` chart is a hybrid between the ``line`` and the ``bar`` charts. The syntax calling and options are the same as the bar chart and the only difference when calling ``addChart`` is the obvious substitution of ``bar`` to ``line``. 
 

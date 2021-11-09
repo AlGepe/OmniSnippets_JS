@@ -1,4 +1,5 @@
 .. _debug:
+
 Standard debugging procedure (step by step)
 ===========================================
 
@@ -9,12 +10,13 @@ When we stumble upon an error in our code, we want to locate where that error is
 We will take a look at a basic and an advanced way to solve your issues (with the code, we're not psychologists here). The philosophy behind both approaches is similar so the level corresponds to the knowledge required to perform the steps.
 
 .. _debugCtx:
+
 Basic approach: the power of ``ctx``
 ------------------------------------
 
 We've all been there, you've coded everything *correctly* and like a bratty teenager the calculator refuses to obey. The variable isn't hiding, the html text is not showing as it should... It means that we've made a mistake somewhere and we need to fix it. 
 
-.. _debugCtx:
+.. _debugCtxFig:
 .. figure:: imgs/addTxt.png
    :scale: 100%
    :alt: Using ctx methods to debug
@@ -34,17 +36,18 @@ You might not be able to fix the issue right again, but you can keep investigati
 Once you find where the mistake was made, you can rectify it. If the problem still persists it just means that you caught another error that wasn't showing up yet. That's good news, you're getting closer to the final fix, just repeat the procedure until your calculator learns who's the boss and starts obeying your commands.
 
 .. _debugConsole:
+
 The calculator disappeared (``console.log`` the sh** out of your code)
 ----------------------------------------------------------------------------
 
 Sometimes, however, the whole calculator disappears rendering our ctx-based methods ineffective. Sometimes it might display an error message and other not even that. Either way the procedure is always the same.
 
 .. note:: 
-   After a Javscript error like the ones mentined here you will need to restart the calculator. Simply reload the page (be careful you might lose your changes) or simply modify a character on the customJS text editor (adding/removing a space will do).
+   After a Javascript error like the ones mentioned here you will need to restart the calculator. Simply reload the page (be careful you might lose your changes) or simply modify a character on the customJS text editor (adding/removing a space will do).
 
 First open the developer options on your browser (typically by pressing F12). Then navigate to the "Console" and look for error messages (generally highlighted in red). Once you find the error message try to make sense of it. You might know what's wrong right away or you might need to consult Google first, but most of the times you'll get some good information about what went wrong.
 
-.. _debugConsole:
+.. _debugConsoleFig:
 .. figure:: imgs/console.png
    :scale: 100%
    :alt: Developer console shows full error messages
@@ -96,6 +99,7 @@ We are all willing to help, so the best idea is to post directly on the channel.
 If you want to ask questions, please :ref:`read our guide<howToHelp>` and how and when to do that before posting. I know it sounds passive aggressive and you might be thinking I'm a Dick, but the reality is that a well asked question is easier to understand and answer meaning it saves everyone time. Oh, and my name is not Richard.
 
 .. _debugAvoid:
+
 A word on prevention
 --------------------
 

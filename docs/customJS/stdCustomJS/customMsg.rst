@@ -1,4 +1,5 @@
 .. _custommsg:
+
 Custom Message in Calculator
 =============================
 

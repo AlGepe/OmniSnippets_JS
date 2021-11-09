@@ -1,8 +1,9 @@
 .. _advExec:
+
 Advanced version: A bunch of more words that might or might not mean stuff
 ==========================================================================
 
-Here we will have a short list of more iterative and execution control statements. These might or might not be ever useful for you, but if they do, you will consider them godsents. 
+Here we will have a short list of more iterative and execution control statements. These might or might not be ever useful for you, but if they do, you will consider them godsends. 
 
 We will not describe them in detail here, instead opting for recommending you to google them or check the documentation.
 
@@ -129,9 +130,10 @@ This is an example of the ``continue`` statement used without a label and inside
 References
 ----------
 
-As with all other technical information about javscript, we recommend you to check out the official documentations. We suggest you check out `Loops and Iterations section <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`__ for all but the switch statement. 
+As with all other technical information about javascript, we recommend you to check out the official documentations. We suggest you check out `Loops and Iterations section <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration>`_ for all but the switch statement. 
 
-If you are interested in learning more about the ``switch ... case`` statementm, you can visit the corresponding `page on the MDN site <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch?`__
+If you are interested in learning more about the ``switch ... case`` statementm, you can visit the corresponding `page on the MDN site <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch?>`_
 
 .. rubric:: Footnotes
+
 .. [#f1] There are ways to implement this behaviour using only a while loop.

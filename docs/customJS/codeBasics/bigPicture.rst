@@ -7,6 +7,7 @@
    </strike>
 
 .. _bigpicture:
+
 Programming vs Witchcraft, how to tell them apart
 =================================================
 
@@ -26,9 +27,10 @@ Another crucial part of a language's syntax is how it conveys the **end of an in
 
 Instead use this flexibility to **write code that's easy to understand** at first look. Your fellow calculatorians and your future self will thank you for that. 
 
-.. seealso::
-    
-    If you want to learn more about the recommendations and conventions take a look at the section on :ref:`Programming best practices<bestpractices>`
+..
+   .. seealso::
+      
+      If you want to learn more about the recommendations and conventions take a look at the section on :ref:`Programming best practices<bestpractices>`
 
 
 .. rubric:: footnotes

@@ -103,6 +103,7 @@ All these limitations (only one input variables, fixed name...) limit the usabil
 
 
 .. rubric:: tl;dr
+
 The functions `erf` and `erfinv` have the special characteristic that they can be defined in cJS and keep variables reversible (they work as input and output). However, they only allow one input parameter. Use them as a trick to get out of a difficult situation, but don't plan your calculator around them.
 
 .. rubric:: Footnotes

@@ -1,4 +1,5 @@
 .. _setDef:
+
 Set default value
 -----------------
 
@@ -32,7 +33,7 @@ Arguments
 ~~~~~~~~~
 
 varName
-^^^^^^^^
+^^^^^^^
 
 Name of the variable for which you want to set the default value. It must be input as a string and it must match the name (not the `Label`) of the variable on the `Current variables` tab on BB.
 
@@ -45,7 +46,7 @@ units
 ^^^^^
 
 Units in which ``value`` was defined. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://www.omnicalculator.com/adminbb/unit-switchers>`__ in the BB.
-=======
+
 Units in which ``value`` was input. The string ``units`` must correspond with the `slug` of the units. If you are in doubt consult the `Unit Switcher <https://www.omnicalculator.com/adminbb/unit-switchers>`__ in the BB.
 
 

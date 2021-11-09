@@ -7,6 +7,7 @@
    </strike>
 
 .. _stdCJS:
+
 Standard usage of customJS
 ==========================
 
@@ -28,6 +29,7 @@ to work around the implicit limitations of the current system, then head to
 ways to write better code and do more by working less [#f1]_.
 
 .. _basicCJS:
+
 Basics
 ------
 
@@ -51,6 +53,7 @@ Here we have the examples of the most basic options from customJS that are not j
 
 
 .. _advCJS:
+
 Advanced
 --------
 
@@ -68,6 +71,7 @@ These are usages of customJS that go further, and effectively create new functio
 
 
 .. _vSetterADV:
+
 Value Setter/Select
 -------------------
 

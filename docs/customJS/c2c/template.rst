@@ -36,7 +36,7 @@ According to the order of execution, these are the sections of the Template calc
 
 .. rubric:: 1 - Global variables
 
-This is where you place any *configurarion* variables that should be visible for any other function and must not disappear or be reset. We explained how this works in :ref:`The life and death of a variable<scope>`.
+This is where you place any *configuration* variables that should be visible for any other function and must not disappear or be reset. We explained how this works in :ref:`The life and death of a variable<scope>`.
 
 .. rubric::  4 - omni.onInit
 
@@ -98,8 +98,9 @@ Once you have clones it, you can work on it as you like, it is yours. Modify, ch
 tl;dr
 ~~~~~
 
-When you want to create a new calcualtor with a lot of cJS, the Template Calculator is a good starting point. It contains a suggested organization and several examples of the most common functions. **Clone it first** and modify it to your heart's desire afterwards. 
+When you want to create a new calculator with a lot of cJS, the Template Calculator is a good starting point. It contains a suggested organization and several examples of the most common functions. **Clone it first** and modify it to your heart's desire afterwards. 
 
 
 .. rubric:: Footnote
-.. _[#f1] For vegetarians it would be the... "tofu and potatoes", I gues
+
+.. [#f1] For vegetarians it would be the... "tofu and potatoes", I guess.

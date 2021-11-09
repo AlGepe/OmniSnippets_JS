@@ -1,4 +1,5 @@
 .. _lazy:
+
 A programmer strives to be lazy (and you should, too)
 =====================================================
 

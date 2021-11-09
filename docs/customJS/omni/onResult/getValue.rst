@@ -52,4 +52,29 @@ For each syntax the input and output types are shown in the table. The input (if
 | getAllValues | [None]           | Array of obj (decimal.js) |
 +--------------+------------------+---------------------------+
 
+.. _filterarray:
 
+Filtering out undefined values
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Suppose we have a calculator with variables ``value_1``, ``value_2``, ``value_3``, from which we would like to calculate the arithmetic mean, but which may contain ``undefined`` values. We can remove these from the array returned by ``ctx.getValues()`` using the ``filter`` method and supplying the appropriate function (line 4):
+
+.. code-block:: javascript
+    :linenos:
+
+    omni.onResult(function(ctx) {
+      var values = ctx.getValues(['value_1', 'value_2', 'value_3']);
+      var nonEmptyValues = values.filter(function(value) {
+        return value !== undefined;
+      });
+
+      var sumOfValues = nonEmptyValues.reduce(function(a, b) {
+        return a.plus(b);
+      }, mathjs.bignumber(0));
+
+      if (nonEmptyValues.length) {
+        ctx.addTextInfo(
+          'The average is ' + sumOfValues.dividedBy(nonEmptyValues.length)
+        );
+      }
+    });

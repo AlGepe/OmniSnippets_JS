@@ -1,6 +1,7 @@
 .. _getCC:
+
 Get country code
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 This function allows you to get the code of the country the user is connected from according to the `standard ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`__. Examples of the output are: *PL*, *US*, *GB*, *ES*. If the country cannot be determined, it will return ``--``. 
 

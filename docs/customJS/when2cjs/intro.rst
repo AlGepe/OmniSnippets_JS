@@ -1,4 +1,5 @@
 .. _cjs:
+
 A quick guide on customJS use cases
 ===================================
 
