@@ -56,7 +56,7 @@ Here is another example:
 
 Hopefully you can see that a lot is possible by using LaTeX-style formula blocks. However, a full course on learning LaTeX is beyond the scope of this manual.
 
-Instead, review the `full list of supported symbols and functions <https://katex.org/docs/support_table.html>`_ on the KaTeX website to learn more. 
+Instead, review the `full list of supported symbols and functions <https://katex.org/docs/supported.html>`_ on the KaTeX website to learn more. 
 
 .. note::
   There are no options associated with formula blocks.

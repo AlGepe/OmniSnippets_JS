@@ -77,6 +77,11 @@ Caption
 
 Allows a caption to be written below the image to help describe it to the user. This is also a good place to specify the source of the image, if necessary. You can link to the source using :ref:`Markdown link syntax <linksMarkdown>`.
 
+Omni copyright checkbox
+-----------------------
+
+If you or a colleague has created the image, tick the "© by Omni" checkbox. Otherwise, if the image has been obtained from an external source, leave it unchecked.
+
 .. _textEditorPicturesUpload:
 
 How to upload pictures?

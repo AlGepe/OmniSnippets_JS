@@ -33,6 +33,11 @@ To **add a new section**, click on the three-dots icon to the right of the secti
   Adding and deleting a section block.
 
 .. tip::
+
+  .. figure:: img/intro-section-word-count.png
+    :alt: Section word count indicator
+    :align: center  
+
   The number after the title of a section indicates the **number of words** contained within that section.
 
 .. seealso::
