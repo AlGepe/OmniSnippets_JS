@@ -19,3 +19,5 @@ There are a few tips you should take on board when **structuring** each of the a
 
 * **List** — Lists have several ways of being structured. One is like this list, with a lead word separated from the following text by a hyphen. Another is a simple shopping list, and the last is sentences that are bullet pointed. Choose which is best for you.
 * **Tables** — There are no special rules for tables, just write them in the **simplest** way possible and that should be fine.
+
+You can also include a list within another list, such as for `"How do I calculate a goat's due date?"<https://www.omnicalculator.com/biology/goat-gestation>`. You can do this for any combination of unordered and ordered lists. However, when determining the list item total for the word count, every list item counts as one towards the total. 
