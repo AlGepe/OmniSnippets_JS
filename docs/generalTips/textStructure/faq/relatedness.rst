@@ -3,24 +3,25 @@
 Relatedness to Omni
 -------------------
 
-While this is unfortunately not an easily quantifiable variable, there are some guidelines to follow. Questions that are related to **how to do things, calculations, specific examples and where a specific answer is required** are all extremely desirable because Google trusts us to be good suppliers of this kind of material. For example, the question “How do you calculate wavelength from wavenumber?” is better than “What colour is the longest visible wavelength?”, even though the latter is concerned with science as well. 
+While this is unfortunately not an easily quantifiable variable, there are some guidelines to follow. Google has its own database about every website and what they are authoritative on. If a website writes about something Google thinks it knows a lot about, it will be more likely to get a Featured Snippet. Therefore, it is good to think about **what Omni provides that other websites don't**. In general, this boils down to one thing, **how to calculate things**! Therefore, good questions tend to be about:
 
-To better illustrate this point, here is a list of questions that have both FS and gFAQs:
+* How do I calculate/convert this thing?
+* What is the answer to this specific calculation/question?
 
-* How do you find the antilog of a number?
+Most of our Featured Snippets tend to be some variation on these two points, so **you are required to include at least one of each in every calculator**. Some examples of the former include:
+
+* How do I estimate the heat index? 
+* How do I find shear wave velocity?
+* How do I do partial products by hand?
+
+And for the latter:
+
 * What is the midpoint of 30 and 60?
-* How do I calculate a 30% margin?
-* Can basis points be negative?
+* What are the partial products of 123 × 45?
+* What is the sum of digits from 1 to 1000?
 
-And here are some that didn’t make the cut:
+Some questions combine the two, e.g., "How do I calculate a 30% margin?". In this case, you can use it as one of either category. For more questions, sorted by their successfulness, `click here <https://docs.google.com/spreadsheets/d/1GLstb9Psgw0AjuKaX-dhoD7CghbOyJPNlT2jlP7vzNc/edit#gid=1617440575>`_.
 
-* What is a typical commission?
-* Does a keto diet affect your RMR?
-* Are all right triangles similar?
-* What does fat do for your body?
 
-For a full list of questions sorted by their successfulness, click here: https://docs.google.com/spreadsheets/d/1GLstb9Psgw0AjuKaX-dhoD7CghbOyJPNlT2jlP7vzNc/edit#gid=1617440575.
+You are required to write at least four FAQs for each calculator, and while you should try to write all four about the two topics mentioned above, this isn't always possible or desirable. Sometimes it's better for the user to have a term explained in the FAQ section, or perhaps you'd like to talk about an interesting topic that doesn't deserve its own section in the text. You are free to write about what you want, but try to remember that **FAQs are a way for the user to answer any relevant questions they might have.**
 
-**You should try to incorporate questions that prime themselves for instructions**, “How do I calculate discount percentage?”, and those that are looking for **a specific answer to a common problem**, “What is a 10 % discount on $45?”. The exact ratio of this mixture will depend on what people search for, which will be discussed in the “How to find questions” section, but you should always try to write some of each.
-
-Also, it is now a requirement that you **include at least one question that is a specific example, e.g., "What is the midpoint of 30 and 60?"**.
