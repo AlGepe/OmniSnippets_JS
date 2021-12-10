@@ -23,4 +23,5 @@ And for the latter:
 Some questions combine the two, e.g., "How do I calculate a 30% margin?". In this case, you can use it as one of either category. For more questions, sorted by their successfulness, `click here <https://docs.google.com/spreadsheets/d/1GLstb9Psgw0AjuKaX-dhoD7CghbOyJPNlT2jlP7vzNc/edit#gid=1617440575>`_.
 
 
-You are required to write at least four FAQs for each calculator, and while you should try to write all four about the two topic mentioned above, this isn't always possible or desirable. Sometimes its better for the user to have a term explained in the FAQ section, or perhaps you'd like to talk about an interesting topic that doesn't deserve its own section in the text. You are free to write about what you want, but try to remember that **FAQs are a way for the user to answer any relevant questions he might have.**
+You are required to write at least four FAQs for each calculator, and while you should try to write all four about the two topics mentioned above, this isn't always possible or desirable. Sometimes it's better for the user to have a term explained in the FAQ section, or perhaps you'd like to talk about an interesting topic that doesn't deserve its own section in the text. You are free to write about what you want, but try to remember that **FAQs are a way for the user to answer any relevant questions they might have.**
+
