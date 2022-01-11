@@ -35,8 +35,6 @@ You are still allowed to use different tools for equations, e.g. `Mathcha <https
 Examples
 --------
 
-(the images are modified a little here, because transparent background may look strange on Trello, and that's way the resolution may be worse than for original ones :wink:):
-
 * Symbolic notation vs. full variable names:
   
   .. figure:: imgs/equationsEgSpeed.png
