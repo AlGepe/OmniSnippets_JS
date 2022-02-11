@@ -43,4 +43,3 @@ As this is a new project, **the advice contained within this guide is subject to
     answers
     integratedFAQ
     examples
-    checkResults
