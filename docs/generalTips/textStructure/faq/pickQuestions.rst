@@ -8,7 +8,5 @@ How to pick questions?
     
     SEMrush
     Qtopics
-    interesting
-    order
     google_check
     pickSummary
