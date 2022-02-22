@@ -22,4 +22,4 @@ It is often the case that you could answer the question with any number of the a
 .. tip::
   Remember, if some steps have to be in a specific order, then use an ordered list. If not, an unordered list will do.
 
-You can combine both types of list, e.g. `How do I calculate a goat's due date? <https://www.omnicalculator.com/biology/goat-gestation#faq>` . If you do so, please count each ordered and unordered item towards the item total (so there are 6 items in the example).
+You can combine both types of list, e.g. `How do I calculate a goat's due date? <https://www.omnicalculator.com/biology/goat-gestation#faq>`_ . If you do so, please count each ordered and unordered item towards the item total (so there are 6 items in the example).
