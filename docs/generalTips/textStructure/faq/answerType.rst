@@ -18,6 +18,8 @@ You should however always choose the most relevant answer type to the question:
 
 It is often the case that your answer could be any of the types. In this case, **lists, either ordered or unordered, take priority**. This is because google likes information shown in lists the most. The lowest priority is a table, as it's not very useful for voice searches. The overall priority is therefore **Instruction > List > Paragraph > Table**.
 
+Tip
+
 Remember, if some steps have to be in a specific order, then use an ordered list. If not, an unordered list will do.
 
 You can combine both types of list, e.g. 
