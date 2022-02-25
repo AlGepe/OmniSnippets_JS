@@ -86,12 +86,160 @@ Reviewers
 
 Reviewers and proofreaders should add their name to this field. Your name will be added underneath the author list and appear as "Reviewed by Your Name". This will help us show Google that we are a website that takes quality seriously.
 
+Sources
+-------
+
+Here you can add details of any research papers or other external sources that the calculator is based upon. This is good for users and Google to increase own trustworthiness. You only need to add sources where you've directly based the calculator on one or more particular sources. There is no need to add sources to all calculators or go looking for sources.
+
+.. _detailsSources:
+.. figure:: details-sources.png
+  :width: 100%
+  :alt: example of the sources section of the edit calculator page
+  :align: center
+
+  Example of the sources section of the edit calculator page.
+
+Click the **Add source** button and a form will appear with the following input fields:
+
+* Authors(s)
+   * List the authors of the source.
+* Title
+   * The title of the source (required)
+* Publication
+   * The name of the publication, journal, website, etc.
+* Date
+   * Publication date, but it's just a string. Use a date format that isn't confusing.
+* Url
+   * Link to the publication, if it is available online.
+
+If you have more than one source, click the **Add source** button again.
+
+To delete a source, click on the trash can icon.
+
 Category and subcategory
 ------------------------
 
 Select the main category that your calculator falls into best. If you are not sure, ask on Slack. If that doesn't help, there is always the "**Other**" category for subjects that are hard to categorize.
 
 Once you select a category, the field "**Subcategory**" will appear and you go through the same process again. Note, that you don't have to set a subcategory if your calculator doesn't fit any of them.
+
+Full list of available categories and subcategories
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Biology
+   * Horticulture
+   * Agriculture
+   * Pets
+   * Genetics
+   * Other
+* Chemistry
+   * Biochemistry
+   * Physical chemistry
+   * Stoichiometry and solutions
+   * Other
+* Construction
+   * Construction converters
+   * Construction materials
+   * Home and garden
+   * Roofing
+   * Driveway
+   * Other
+* Conversion
+   * *No subcategories*
+* Ecology
+   * Eco footprint
+   * Renewable energy
+   * Other
+* Everyday life
+   * Everyday savings
+   * Transportation
+   * Time and productivity
+   * Clothing and sewing
+   * Other
+* Finance
+   * Business planning
+   * Investment
+   * Sales
+   * Tax and salary
+   * Real estate
+   * Personal finance
+   * Debt management
+   * Microeconomics
+   * Macroeconomics
+   * Indian finance
+   * Other
+* Food
+   * Cooking converters
+   * Breakfast
+   * Party
+   * Other
+* Health
+   * Body measurements
+   * Dietary
+   * Metabolic disorders
+   * Fertility & pregnancy
+   * Addiction medicine
+   * Diabetes
+   * Cardiovascular system
+   * Electrolytes & fluids
+   * Urology & nephrology
+   * Hematology
+   * Pediatric
+   * Percentile
+   * Pulmonary
+   * Dosage
+   * General health
+   * Covid-19 vaccine
+   * Other
+* Math
+   * Percentages
+   * Algebra
+   * Arithmetic
+   * Coordinate geometry
+   * Fractions
+   * Linear algebra
+   * Trigonometry
+   * 2D geometry
+   * Triangle
+   * 3D geometry
+   * Sequences
+   * Other
+* Physics
+   * Classical mechanics
+   * Rotational and periodic motion
+   * Waves
+   * Optics
+   * Fluid mechanics
+   * Atmospheric thermodynamics
+   * Thermodynamics
+   * Electromagnetism
+   * Quantum mechanics
+   * Relativity
+   * Astrophysics
+   * DIY experiments
+   * Other
+* Sports
+   * Running
+   * Cycling
+   * Baseball
+   * Calories burned
+   * Triathlon
+   * Other
+* Statistics
+   * Risk & probability
+   * Distributions
+   * Descriptive statistics
+   * Inferential statistics
+   * Other
+* Other
+   * Photo and video
+   * Tech and electronics
+   * Education
+   * Music
+   * Logistics
+   * Video games
+   * Seasons and holidays
+   * Other
 
 Kind
 ----

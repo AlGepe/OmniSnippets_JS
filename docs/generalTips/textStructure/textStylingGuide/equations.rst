@@ -1,7 +1,7 @@
 .. _equationsAndVariables:
 
-Equation and their variables
-============================
+Equations and their variables
+=============================
 
 Since here at Omni we calculate a lot of things, you will write a lot of equations. For a guide on how to write equations specifically, check out this :ref:`Equations <equations>` section and the :ref:`Formula block <textEditorFormulaBlock>`
 
