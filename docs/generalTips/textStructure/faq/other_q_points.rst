@@ -16,7 +16,7 @@ It seems that longer questions, around the 6-9 words mark, work best. Try to aim
 Don’t pick all of the most popular questions
 ============================================
 
-**Please don't pick all of the most common/ popular questions from SEMrush as we are often outcompeted**.
+**Please don't pick all of the most common / popular questions from SEMrush as we are often outcompeted**.
 
 Therefore, about **half of your questions can be highly searched ones** and those integral to the calculator, e.g. “How to find density?” in the density calculator, but **the other half should be slightly more obscure**, such as how to’s for specific instructions or specific questions.
 
@@ -29,6 +29,8 @@ Therefore, about **half of your questions can be highly searched ones** and thos
    :alt: Graph of questions by popularity
    :align: center
    
+   Graph of questions by popularity.
+
 As you can see, our rate of getting FS or gFAQs tails off at the highest search volume.   
 
 When adding FAQs to old calculators, **look at calculator’s popularity**. If we the first result for loads of keywords, then you can write **more high popularity** questions, because Google trusts us. If the **calculator is extremely unpopular**, you might only want to write **one or two popular questions**.

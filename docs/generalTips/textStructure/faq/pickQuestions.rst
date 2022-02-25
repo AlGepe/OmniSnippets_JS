@@ -7,6 +7,7 @@ How to pick questions?
     :maxdepth: 3
     
     SEMrush
+    people-also-ask
     Q-Topics-and-Order
     google_check
     pickSummary

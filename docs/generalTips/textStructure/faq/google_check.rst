@@ -9,4 +9,4 @@ It's often a good idea to **google your question** before you start writing abou
 * **Someone else has a FS** — Look at who has it and the question, if the question is “What’s the best type of lumber?” and it's written by lumberyard.com, no chance. Most other competitors, e.g., khanacademy, investopedia, wikipedia, we can beat it, although the rules regarding popularity and relatedness still apply.
 * **There’s a video/selection of videos** — We can actually replace these with FSs, so don’t rule them out entirely. Essentially, treat them the same as the previous point.
 
-Since google is constantly changing how it presents search results, there is a chance that you will search for a question and get none of the above. If so, please send a message to the head of the FAQ project on Slack with the question you searched for.
+Since Google is constantly changing how it presents search results, there is a chance that you will search for a question and get none of the above. If so, please send a message to the head of the FAQ project on Slack with the question you searched for.
