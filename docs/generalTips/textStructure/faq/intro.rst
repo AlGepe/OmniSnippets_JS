@@ -7,7 +7,7 @@ This FAQ guide provides information regarding compulsory FAQ sections in created
 
 This is a guide on **how to write FAQs for calculators to maximize their chances of getting Featured Snippets (FS) and Google FAQs (gFAQs)** appearing below calculators to maximize our SEO potential.
 
-These both serve a purpose. FSs are the result Google returns when you perform a voice search, and FAQs take up more space on Google. In terms of hierarchy, **getting FSs is more important than gFAQs**, and it should be thought of that “FAQs give us a nice way of writing and presenting questions primed to get FSs, with the added benefit of taking up more space on Google as gFAQs”.
+These both serve a purpose. FSs are the result Google returns when you perform a voice search, and gFAQs take up more space on Google. In terms of hierarchy, **getting FSs is more important than gFAQs**, and it should be thought of that “FAQs give us a nice way of writing and presenting questions primed to get FSs, with the added benefit of taking up more space on Google as gFAQs”.
 
 **This guide deals with the best way to get both**, but the philosophy of this being about voice searching should be kept in mind at all times.
 

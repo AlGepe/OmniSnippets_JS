@@ -8,7 +8,5 @@ A good question should be something that is very much **related to calculations 
     
     relatedness
     firstword
-    topics
-    Qlength
-    popular
+    other_q_points
     Qsummary
