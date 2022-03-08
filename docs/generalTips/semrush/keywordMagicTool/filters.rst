@@ -1,7 +1,7 @@
 .. _filters:
 
 Filters
-=====================
+=======
 
 .. _semrushFilters:
 .. figure:: semrush_filters.png

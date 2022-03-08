@@ -30,6 +30,8 @@ Page age
 
 After the list of links, information about **when the page was generated** is shown. This is so you know whether you are looking at a version of the calculator that includes the changes you just made, or an old version. Try **reloading the page** to get the latest version (this can take ~10 minutes).
 
+.. _buttonsOverwrite:
+
 Overwrite locale data
 ---------------------
 

@@ -86,12 +86,14 @@ Reviewers
 
 Reviewers and proofreaders should add their name to this field. Your name will be added underneath the author list and appear as "Reviewed by Your Name". This will help us show Google that we are a website that takes quality seriously.
 
+.. _detailsSources:
+
 Sources
 -------
 
 Here you can add details of any research papers or other external sources that the calculator is based upon. This is good for users and Google to increase own trustworthiness. You only need to add sources where you've directly based the calculator on one or more particular sources. There is no need to add sources to all calculators or go looking for sources.
 
-.. _detailsSources:
+.. _detailsSourcesEg:
 .. figure:: details-sources.png
   :width: 100%
   :alt: example of the sources section of the edit calculator page
@@ -104,17 +106,19 @@ Click the **Add source** button and a form will appear with the following input 
 * Authors(s)
    * List the authors of the source.
 * Title
-   * The title of the source (required)
+   * The title of the source (required).
 * Publication
-   * The name of the publication, journal, website, etc.
+   * The name of the publication, journal, website, etc. **DO NOT** enter a URL here. It will look ugly and the user can't click on it.
 * Date
-   * Publication date, but it's just a string. Use a date format that isn't confusing.
+   * Publication date, but the input field is a string. Use a date format that isn't confusing (e.g., June 2021).
 * Url
-   * Link to the publication, if it is available online.
+   * Link to the publication, if it is available online. **DO NOT** link to an external file store (e.g., Dropbox).
 
 If you have more than one source, click the **Add source** button again.
 
 To delete a source, click on the trash can icon.
+
+.. _detailsCategory:
 
 Category and subcategory
 ------------------------

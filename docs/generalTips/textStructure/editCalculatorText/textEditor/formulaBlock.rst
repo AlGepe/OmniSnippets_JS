@@ -67,6 +67,8 @@ A common situation is that you are working through a calculation and you would l
 
 The ``\\`` starts a new line and the ampersand ``&`` tells LaTeX that we want to align the two formulas on the equals sign. If the equations are too close together, you can add an extra blank line by adding another ``\\`` at the end of an equation.
 
+.. _textEditorFormulaBlockLaTexFormatting:
+
 LaTeX formatting rules
 ----------------------
 

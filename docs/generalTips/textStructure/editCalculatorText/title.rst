@@ -12,6 +12,8 @@ Title and SEO title
 
 The **title** and **SEO title** input fields are two of the most important settings on the text editor page. Let's look at each one in detail.
 
+.. _titleTitle:
+
 Title
 -----
 
@@ -30,6 +32,8 @@ Here are some points to considered when choosing a title for your calculator:
 *Examples of good titles ✔️:* ROI Calculator – Return on Equity, Pressure at Altitude Calculator, Length Converter.
 
 *Examples of bad titles ❌:* Return on Equity (ROI) calculator, Pressure at altitude, Length Converter Calculator.
+
+.. _titleSEO:
 
 SEO title
 ---------

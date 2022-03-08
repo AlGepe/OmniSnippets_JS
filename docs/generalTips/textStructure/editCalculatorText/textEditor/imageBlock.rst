@@ -35,6 +35,8 @@ Click on the three-dot icon to display the options menu for an image block, whic
 .. note::
   **Please only use an image block to add an image to your text.** Use of Markdown and HTML have been deprecated.
 
+.. _textEditorImageBlockAltText:
+
 Alt text
 --------
 

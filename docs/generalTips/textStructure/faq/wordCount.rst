@@ -1,3 +1,5 @@
+.. _faqWordCount:
+
 Word count
 ==========
 

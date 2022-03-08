@@ -1,3 +1,5 @@
+.. _faqStructure:
+
 Structure
 =========
 

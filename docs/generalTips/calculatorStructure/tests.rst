@@ -1,7 +1,7 @@
 .. _tests:
 
 Tests
-=====================
+=====
 
 The **Tests** section allows you to set-up tests for your calculator. This is useful for double checking that your calculator gives the correct result and to check that any future changes you make still give the same correct result.
 
@@ -39,6 +39,8 @@ Specifying values in different units
 If you want to give any values in units that are not in the default unit of the variable, you can use the command **Select unit**. Then choose the variable and the unit you would like to use.
 
 Then when you specify the **Input/Expect** value, the number should be given in the unit you selected above.
+
+.. _testsScreenshot:
 
 Taking a screenshot
 -------------------

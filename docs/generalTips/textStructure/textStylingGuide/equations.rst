@@ -13,7 +13,7 @@ The variables should be listed as **bullet points**, with the variables also sur
 
 .. _equations_example1:
 .. figure:: equations_example1.jpg
-   :scale: 70%
+   :scale: 80%
    :alt: An ideal equation
    :align: center
 
