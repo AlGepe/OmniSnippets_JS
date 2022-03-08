@@ -1,7 +1,7 @@
 .. _checklist:
 
-Checklist
-=========
+Checklists
+==========
 
 Before sending a calculator to review, make sure to **complete all necessary tasks on each checklist**. By doing so, we ensure that all key elements of a calculator are completed to our specification.
 

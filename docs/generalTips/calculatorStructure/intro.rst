@@ -22,3 +22,4 @@ Each section of the edit calculator page is explored below:
     tests
     conditions
     revisions
+    addingSources

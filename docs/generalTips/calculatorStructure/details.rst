@@ -91,7 +91,9 @@ Reviewers and proofreaders should add their name to this field. Your name will b
 Sources
 -------
 
-Here you can add details of any research papers or other external sources that the calculator is based upon. This is good for users and Google to increase own trustworthiness. You only need to add sources where you've directly based the calculator on one or more particular sources. There is no need to add sources to all calculators or go looking for sources.
+Here you can add details of any research papers or other external sources that the calculator is based upon. It is essential for SEO purposes to get authority and credibility. But it's for sure important for our users too 😀 You only need to add sources you've directly based the calculator on. **It's OKAY not to have sources**, so don't force it. Probably most of our calculators won't need them.
+
+For further guidance on what sources to include, see section :ref:`addingSources`.
 
 .. _detailsSourcesEg:
 .. figure:: details-sources.png
