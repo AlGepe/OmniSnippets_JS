@@ -31,8 +31,11 @@ In more detail, here are step-by-step instructions:
 #. Provide a **helpful message** to the user about why their input was rejected and what they can do to correct it. For this age condition, the message is "Age should be 120 or less."
 #. To apply a new or changed condition, you **need to save** the calculator before it is reflected in the calculator preview.
 
+.. note::
+  You need to **define the condition in terms of the base unit** of the variable. So if you change a variable's base unit, the values in its conditions would need to be converted to the new base unit.
+
 .. warning::
-  When a condition is triggered, the **calculator and any CustomJS code you have written is never run**! The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. E.g., give the range that is accepted.
+  When a condition is triggered, the **calculator and any CustomJS code you have written is never run!** The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. E.g., give the range that is accepted.
 
 .. note::
   An old bug where every message had to be different is now fixed 🥳. It's fine to repeat messages. Though please still make sure that each message is as helpful to the user as possible, so they know how to fix the problem with their input.
