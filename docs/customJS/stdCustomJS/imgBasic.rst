@@ -31,10 +31,10 @@ Here is the code you need for you images to be shown on top of the calculator:
 
     'use strict';
 
-    omni.onResult(function(ctx){
-        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_img_basic.jpg>"
-                    /*, {afterVariable: 'a'}*/
-                    ); 
+    omni.onResult(function(ctx) {
+      ctx.addHtml('<img src="https://uploads-cdn.omnicalculator.com/images/Al_img_basic.jpg">'
+                  /*, {afterVariable: 'a'}*/
+                 ); 
     });
 
 You can see that the code is very straight-forward to write. The only tricky part is to decide after which variable you want your image to be show. If none is selected (as in the example) the image will appear at the bottom of the calculator.
@@ -62,14 +62,17 @@ Here is the code you need for you images to be shown on top of the calculator:
 
     'use strict';
 
-    omni.onResult(function(ctx){
-        ctx.hideVariables('top');  // Hide extra variable
-        ctx.addHtml("<img src=https://uploads-cdn.omnicalculator.com/images/Al_img_basic.jpg>",
-                    {afterVariable: 'top'}
-                   ); 
+    omni.onResult(function(ctx) {
+      ctx.hideVariables('top');  // Hide extra variable
+      ctx.addHtml('<img src="https://uploads-cdn.omnicalculator.com/images/Al_img_basic.jpg">',
+                  {afterVariable: 'top'}
+                 ); 
     });
 
 As you can see the code for showing an image on top almost the same as to have an image in any other place in the calculator. The only trick is to place a *ghost* variable on top, **hide it and set the image to appear after it**.
+
+.. tip::
+    Remember to **set a default value** for the ``top`` variable — it can be any number, but zero is good. This will ensure that this ``onResult`` function is triggered and runs the call to ``addHtml``.
 
 .. note::
     You can create extra variables writing the variables names in the ``Extra variable names`` field on BB. Separate each variable name by commas and save the calculator to see results.
