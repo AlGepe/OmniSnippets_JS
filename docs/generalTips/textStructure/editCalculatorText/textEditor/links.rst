@@ -12,6 +12,8 @@ Here are some general DOs and DON'Ts when creating any link from your text.
     
 For more tips on adding internal links, please visit the :ref:`Internal Link <internalLinks>` section
 
+.. _linksInternal:
+
 Internal links — linking to other calculators
 ---------------------------------------------
 
@@ -33,8 +35,8 @@ You may also **link to a section within a calculator**, by adding the anchor aft
 
 .. _linksMarkdown:
 
-Markdown
---------
+External links — linking to other websites
+------------------------------------------
 
 To create a link to an external website using :ref:`Markdown <markdown>` syntax, use the following syntax:
 
