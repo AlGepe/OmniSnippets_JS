@@ -84,7 +84,7 @@ For linking to your new calculators after publication
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. seealso::
-   You should also go back to **at least three** already published calculators and **add a link** pointing to your new calculator after it has been published. You can find more about this in the :ref:`Links from previous calculators <trelloLinks>` section.
+   You should also go back to **at least one, at most three** already published calculators and **add a link** pointing to your new calculator after it has been published. You can find more about this in the :ref:`Links from previous calculators <trelloLinks>` section.
 
 10. Sometimes, if you are lucky, you will find relevant keywords in old calculators. But most of the time, you will have to **add one or two lines to include a link** to your newly created calculators. Try to follow the same guidelines as mentioned above in doing so.
 
