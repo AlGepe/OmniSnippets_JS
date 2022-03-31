@@ -15,19 +15,31 @@ You should also quickly check that the calculator is working as expected and tha
 
 Once the calculator has been honed to perfection, it's time to publish it and update the Trello card.
 
-Publish the calculator
-----------------------
+Trello workflow
+---------------
 
-Make the correct revision of the calculator the :ref:`live revision <revisionsLiveRevision>`, then use the **Publish** item in the gear icon drop-down menu to publish the calculator. Further details on the publishing process can be found here: :ref:`revisionsPublishingACalculator`.
+Here is the workflow you should follow to **find new calculators to proofread** (or other proofreading tasks) and how the card should be updated at each stage.
 
-Update Trello card
-------------------
-
-1. Change the card's label from the **orange "to proofread"** label, to the **green "published"** label.
-2. Click on the **"FAQ-links" button**, which can be found under the **"Automation" section** on the right of Trello card.
+1. On the main Trello board, go to the **"Available to proofread"** list and see if there are any calculators to proofread (indicated by a number larger than 0).
+2. If there are calculators to proofread, click on the Dashcard and choose one to proofread now. **Pick the one with the oldest due date** (or "created date" if no due date is set). If you see a calculator with **URGENT** in its name, then prioritize that calculator ahead of the others in the queue.
    
-   This will add a link to the FAQ performance tracking spreadsheet and add a task to the checklist to add links to this calculator from three existing calculators.
-3. Add a comment to the card saying you've **proofread and published** the calculator. Add any other comments you think the author might benefit from for future calculators.
+   **Tip:** For more details about the calculators, click on the **Explore and view** button.
+3. Open the card and add the label **"proofreader added"**. Doing this removes the card from the available calculators to proofread.
+   
+   **Tip:** If you can't see the "proofreader added" label, search for it or press the **Show more labels** button. Its color is grey.
+4. Proofread the calculator, make any comments and :ref:`publish the calculator<proofreadingPublishing>`.
+5. Remove the orange "to proofread" label and **add the green "published" label**. You should also **add the pink "add links" label** to let the author know they need to add links from one to three existing related calculators.
 
-.. tip::
-  Always choose the Trello card with the **oldest date** to proofread next.
+.. note::
+   You should only **take one calculator to proofread at a time** that has the oldest due date (or creation date, if there is no due date set). Do not reserve lots of calculators to proofread or cherry-pick.
+
+The idea is to share out the workload equally across the proofreader team. A good rule of thumb when planning your proofreading work at the start of a workday or proofreading session is to **divide the number of calculators to proofread by the size of the proofreading team** (and feel free to round up). And if you know someone is away on holiday, for example, don't include them in that calculation.
+
+In addition, the review coordinator will **monitor the overall progress of the proofreading team** and advise if you need to increase the number of calculators you are proofreading.
+
+.. _proofreadingPublishing:
+
+Publishing the calculator
+-------------------------
+
+Once saved, **name** the text and calculator latest revisions **"proofread"** and make them :ref:`live<revisionsLiveRevision>`. Then use the **Publish** menu item in the gear icon drop-down menu to publish the calculator. You'll need to **enter the slug** of the calculator to confirm the publish action. Further details on the publishing process can be found here: :ref:`revisionsPublishingACalculator`.
