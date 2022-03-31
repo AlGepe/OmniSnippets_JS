@@ -28,6 +28,8 @@ Here is the workflow you should follow to **find new calculators to proofread** 
    
    **Tip:** If you can't see the "proofreader added" label, search for it or press the **Show more labels** button. Its color is grey.
 4. Proofread the calculator, make any comments and :ref:`publish the calculator<proofreadingPublishing>`.
+
+   **Note:** Add yourself as a reviewer in the :ref:`details section<detailsReviewers>` of the calculator.
 5. Remove the orange "to proofread" label and **add the green "published" label**. You should also **add the pink "add links" label** to let the author know they need to add links from one to three existing related calculators.
 
 .. note::

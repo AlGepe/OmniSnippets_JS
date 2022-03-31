@@ -81,6 +81,8 @@ When you create a calculator, this field will be filled in with your name. If yo
 
 If you need to delete an author from a calculator, click the cross at the end of their name. Clicking the large cross at the end of the field will delete all the authors.
 
+.. _detailsReviewers:
+
 Reviewers
 ---------
 
