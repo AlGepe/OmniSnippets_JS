@@ -180,6 +180,17 @@ The circumference variable is now **greyed out**, and the user cannot edit its v
 * You need to simplify the system of equations because the calculator can't be saved; and
 * To make a variable read-only (another way is to lock the variable (see variable section)).
 
+Basic conditional statement
+---------------------------
+
+Within an equation, we can have a basic ``if-else`` block using the ``if_else()`` function. Its basic syntax is:
+
+``variable1 = if_else(variable2 > n, [expr_true], [expr_false])``
+
+where ``n`` is some value, ``[expr_true]`` is what to evaluate if the condition is true, and ``[expr_false]`` is the value to return if the condition is false. These can be any expression we want: numbers, variable, formulas and even another ``if_else`` function call.
+
+For more information on using ``if_else()``, see :ref:`this part<customFunctionsIfElse>` of the customJS part of this handbook.
+
 Troubleshooting
 ---------------
 

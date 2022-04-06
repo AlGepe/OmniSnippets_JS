@@ -33,6 +33,8 @@ A classic example is BMI, that depends on height and weight; if the user inputs 
 
 The ``one_way`` statement tells the engine that whatever is inside its brackets shouldn't be recalculated using this equation. For our BMI example we would simply write: ``BMI = weight / one_way(height * height)`` [#f1]_ . 
 
+.. _customFunctionsIfElse:
+
 There is also another useful custom "equation-function" available: ``if_else()``. As its syntax implies, it allows for assigning different values to one variable, depending on a condition. Here is how to use it:
 
 
