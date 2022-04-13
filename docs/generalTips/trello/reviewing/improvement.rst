@@ -7,5 +7,5 @@ If there is anything to change or improve in the calculator, the reviewer will *
 
 If you've improved a calculator that had a yellow label, **set the label color to red once again** (don't use the button *First review*!).
 
-This ping pong game continues until the calculator is polished and ready to proofread and publish.
+This ping pong game continues until the calculator is polished and ready to go to :ref:`proofreading<proofreadingPublishing>`.
 

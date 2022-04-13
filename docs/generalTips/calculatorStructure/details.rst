@@ -45,6 +45,13 @@ Here are the rules to help you create a great slug:
 
 *Examples of bad slugs*: ``spherevolumecalculator``, ``Return_on_Equity``, ``sodium-correction-for-hyper-and-hyponatremia``
 
+.. note::
+   For **conversion calculators**, follow this additional guidance:
+
+   * If it's a **one-word/short calculator name**, and from the slug you can't recognize if it's a converter or calculator (and potentially it can be both), then **use the word "converter" within slug**. For example: ``area-converter``, ``celsius-converter``, and ``square-feet-converter``.
+   * If it's a **long calculator name**, and it clearly shows it's a converter (most probably by using word 'to'), we **don't** need the word 'converter' in a slug. Such as: ``square-miles-to-square-km`` and ``centigrade-to-celsius``.
+
+
 .. _detailsName:
 
 Name

@@ -1,7 +1,7 @@
 .. _proofreading:
 
-Proofreading procedure
-======================
+Proofreading procedure (for proofreaders)
+=========================================
 
 The general goal of proofreading is to catch typos, make sure clear American English (for now, anyway) is used, and to check that the calculator and text are styled correctly.
 

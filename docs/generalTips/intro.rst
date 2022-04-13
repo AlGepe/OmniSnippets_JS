@@ -53,3 +53,4 @@ The other topics calculatorians might be interested in.
 
     marketing/intro
     projects/intro
+    reviewersGuide/intro
