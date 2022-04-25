@@ -47,7 +47,7 @@ To make a change:
 
 1. Make the changes you want.
 2. Click the **[Save]** button.
-3. Click the **Reset defaults** button, in order to see the imperial units update.
+3. Click the **Reset defaults** button (located below the calculator), in order to see the imperial units update.
 
 Changes will remain in effect for **24 hours**.
 
