@@ -12,4 +12,4 @@ The new ideas are not always doable or worth doing at Omni Calculator. For that 
 5. Does the calculator require **features we don't have**?
 6. Can the calculator **compete with other sites**?
 
-Of course, this list isn't strict. If you feel your idea might be worth creating, ask your reviewer, who will help you decide. 
+Of course, this list isn't strict. If you feel your idea might be worth creating, ask a Masterminder (currently Hania, Dominik and Steve), who will help you decide.
