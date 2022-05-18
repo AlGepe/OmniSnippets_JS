@@ -22,7 +22,7 @@ These are currently used labels (person who adds):
 * **Violet** — Kick-Ass Project (calculatorian if the calculator is a part of this project);
 * **Blue** — Not published yet (proofreader, this calculator is done and proofread but sometimes we want to postpone the publishing for a specific date);
 * **Pale Green** — Speed run, Redundant (calculatorian if the calculator is a part of this project);
-* **Pink** — Add links (proofreader; a signal to the calculatorian to add links **to this new calculator** in at least 1 to 3 old, published calculators);
+* **Pink** — Add links (proofreader; a signal to the calculatorian to add links **to this new calculator** in at least 1 to 3 old, published calculators); FAQ (a task adding FAQs to old calculators);
 * **Black** — Under development (calculatorian, optional - e.g., you can distinguish between calculators you're currently working on and the ones you're planning to make in the future).
 * **Grey** — These help with the review and proofreading procedure. Every calculator card should have one of these a supercategory labels:
 
