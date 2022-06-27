@@ -39,6 +39,7 @@ Apart from the calculator's creator, we also use plenty of other tools. Here you
     semrush/intro
     trello/intro
     slack/intro
+    dashboard/intro
     grammarly/intro
     mastermind/intro
     monitoring/intro
