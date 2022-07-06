@@ -7,5 +7,4 @@ Here we present some useful information for your calculators that you can copy a
     :maxdepth: 3
 
     unicodeSymbols
-    tables
     pictures

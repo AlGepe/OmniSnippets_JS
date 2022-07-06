@@ -1,7 +1,7 @@
 .. _unicodeSymbols:
 
 Unicode symbols
-=====================
+===============
 
 Here is the list of the most commonly used symbols that you can simply copy and paste into your text:
 
@@ -10,3 +10,7 @@ Here is the list of the most commonly used symbols that you can simply copy and 
 * × — The multiplication sign required in `FAQs <faqGuide>`_.
 * … (ellipsis), ¶
  
+.. warning::
+  **Don't use** Unicode symbols in backticked (code) formatted text, as some symbols are not supported on mobile phones.
+
+  Either use normal text with bold or italic, or a LaTeX formula block (non-FAQ text).
