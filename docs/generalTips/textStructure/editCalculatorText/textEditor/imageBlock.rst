@@ -128,6 +128,11 @@ Here is the **request form** for you to copy, paste, fill in, then post in the #
   Examples/Diagrams: [Attach File]
   Additional Details:
 
+Creating SVG images
+-------------------
+
+For compatibility reasons, please **DO NOT USE** the Arial font in SVG image files. Please choose another sans font.
+
 Free to use pictures resources
 ------------------------------
 
