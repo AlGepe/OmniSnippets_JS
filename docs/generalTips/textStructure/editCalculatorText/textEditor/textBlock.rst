@@ -71,4 +71,5 @@ Sets the indent depth of the text block allowing you to align and place where th
 
     Example indenting a text box to preceding bullet point text.
 
-  
+.. note::
+  Indent depth **does not** change the indent of bullet point or numbered lists.
