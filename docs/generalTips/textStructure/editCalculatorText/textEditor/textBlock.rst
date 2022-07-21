@@ -59,4 +59,16 @@ Replaces the emoji with the custom title. Useful if you would like to use a diff
 Indent depth
 ^^^^^^^^^^^^
 
-Sets the indent depth of the text block allowing you to align and place where the text starts. Be careful though; setting the indent level too high will mean the text could disappear. 
+Sets the indent depth of the text block allowing you to align and place where the text starts. Be careful though; setting the indent level too high will mean the text could disappear.
+
+.. tip::
+  You can use a **decimal number** for the indent value (e.g., 1.5). To properly align a text box with the bullet point text in a preceding text box, use an indent value of **1.5**. This is perfect if you have a LaTeX equation as part of a bullet list item and need to put text after the equation.
+
+  .. figure:: img/indent-to-bulletpoint-text.png
+    :alt: Example indenting a text box to preceding bullet point text
+    :align: center
+    :width: 100%
+
+    Example indenting a text box to preceding bullet point text.
+
+  
