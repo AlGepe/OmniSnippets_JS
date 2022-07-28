@@ -218,9 +218,9 @@ This is useful for things that are not likely to change very often or by much, s
 Locked
 ^^^^^^
 
-The variable will not be recalculated as other variables are changed and the user cannot enter its value. This is good for variables that are meant to be **outputs only**.
+The variable will not be recalculated as other variables are changed. This is good for variables that are meant to be **inputs only**. For example, we don't want our calculators re-calculating someones measured height, weight, etc.
 
-The **user can override this setting** in the variable menu (displayed when you click the grey area to the right of the variable.
+The **user can override this setting** in the variable menu (displayed when you click the grey area to the right of the variable).
 
 Locked permanently
 ^^^^^^^^^^^^^^^^^^
