@@ -58,10 +58,15 @@ To save writing serval rules, all with the same message, you can combine them in
 
 You do this by using a **comma** to separate each rule. For example, ``a > 3, a < 5`` means than ``a`` should be greater than 3, but less than 5.
 
+Using functions in conditions
+-----------------------------
+
+You can use all of the :ref:`functions<calculatorStructureEquationsMath>` and :ref:`constants<calculatorStructureEquationsConstants>` that are available in the main :ref:`equations section<calculatorStructureEquations>` of the calculator.
+
 Using math.js functions as condition tests
 ------------------------------------------
 
-You can use math.js functions in your condition rules. Two of the most useful are:
+You can use some `math.js functions <https://mathjs.org/docs/reference/functions.html>`_ in your condition rules. Two of the most useful are:
 
 * ``isInteger(a)`` – The value ``a`` must be an integer; and
 * ``isPrime(a)`` – The value ``a`` must be a prime number.

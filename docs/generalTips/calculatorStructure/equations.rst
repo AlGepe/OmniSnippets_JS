@@ -52,6 +52,8 @@ This is because it is present in the underlining Python library, but not availab
 
 You should **change your variable name** to avoid this kind of name collision.
 
+.. _calculatorStructureEquationsConstants:
+
 Constants
 ---------
 
@@ -73,10 +75,22 @@ The following operators are available to you in the equations you write:
 * ``^`` — Power operator (e.g. ``2^2 = 4``); and
 * ``!`` — Factorial operator (one way).
 
+.. _calculatorStructureEquationsMath:
+
 Math functions
 --------------
 
 The following math functions are supported equations, organized by type.
+
+Arithmetic functions
+^^^^^^^^^^^^^^^^^^^^
+
+* ``abs(x)`` — Takes the absolute value of ``x`` (e.g., -4 becomes 4);
+* ``round(x)`` — Rounds ``x`` to the nearest integer (e.g., 2.5 becomes 3);
+* ``ceiling(x)`` — Rounds ``x`` up to the nearest integer (e.g., 2.3 becomes 3); and
+* ``floor(x)`` — Rounds ``x`` down to the nearest integer (e.g., 8.8 becomes 8).
+
+All these functions return a **one-way variable** (user can't edit the variable).
 
 Trigonometric Functions
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -113,20 +127,11 @@ Hyperbolic Inverses
 ^^^^^^^^^^^^^^^^^^^
 
 * ``asinh(x)`` — Inverse hyperbolic sine function;
-* ``acosh(x)`` — Inverse hyperbolic consine function;
+* ``acosh(x)`` — Inverse hyperbolic cosine function;
 * ``atanh(x)`` — Inverse hyperbolic tangent function;
 * ``acoth(x)`` — Inverse hyperbolic cotangent function;
 * ``asech(x)`` — Inverse hyperbolic secant function; and
 * ``acsch(x)`` — Inverse hyperbolic cosecant function;
-
-Rounding functions
-^^^^^^^^^^^^^^^^^^
-
-* ``round(x)`` — Rounds ``x`` to the nearest integer (e.g. 2.5 become 3);
-* ``ceiling(x)`` — Rounds ``x`` up to the nearest integer (e.g. 2.3 becomes 3); and
-* ``floor(x)`` — Rounds ``x`` down to the nearest integer (e.g. 8.8 becomes 8).
-
-All rounding functions return a **one-way variable** (user can't edit the variable).
 
 Exponential function
 ^^^^^^^^^^^^^^^^^^^^
