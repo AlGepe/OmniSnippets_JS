@@ -23,3 +23,12 @@ We also use the **Oxford comma** when constructing lists, e.g., “There were th
 You may want to tell users to **visit the advanced mode**, in which case ``advanced mode`` should be backticked for visibility. 
 
 You are encouraged to **use emojis** but please be somewhat reserved with them, i.e., no emojis after every sentence, three of them together, etc. They can also be used instead of punctuation, e.g., full stops and commas, if you think that it looks good 😎
+
+.. warning::
+  When using the monospaced font (backticked text), **please do not use the follow characters**:
+
+  * No superscript numbers or letters, except 1, 2, 3, and n.
+  * No superscript plus or minus sign. 
+  * No subscript letters or numbers.
+
+  This is because these characters do not show up on some Android phones. Instead use bold text or LaTeX (though no LaTeX in FAQ answers).
