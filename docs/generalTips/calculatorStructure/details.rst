@@ -116,8 +116,11 @@ Click the **Add source** button and a form will appear with the following input 
 
 * Authors(s)
    * List the authors of the source.
+   * Format the author list using the Vancouver method – surname and then initials:
+      * Surname AB, Lastname CD, et al.
 * Title
    * The title of the source (required).
+   * Title should be capitalized (e.g., American Journal of Public Health).
 * Publication
    * The name of the publication, journal, website, etc. **DO NOT** enter a URL here. It will look ugly and the user can't click on it.
 * Date
