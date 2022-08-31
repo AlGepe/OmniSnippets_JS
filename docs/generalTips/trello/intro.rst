@@ -29,6 +29,6 @@ For each sprint, first place cards in the **"To Do"** list for calculators and t
     reviewing/intro
     reviewers
     proofreading
-    links
+    .. links
     archive
     faq-tasks

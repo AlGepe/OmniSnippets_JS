@@ -30,7 +30,9 @@ Here is the workflow you should follow to **find new calculators to proofread** 
 4. Proofread the calculator, make any comments and :ref:`publish the calculator<proofreadingPublishing>`.
 
    **Note:** Add yourself as a reviewer in the :ref:`details section<detailsReviewers>` of the calculator.
-5. Remove the orange "to proofread" label and **add the green "published" label**. You should also **add the pink "add links" label** to let the author know they need to add links from one to three existing related calculators.
+5. Remove the orange "to proofread" label and **add the green "published" label**.
+   
+.. You should also **add the pink "add links" label** to let the author know they need to add links from one to three existing related calculators.
 
 .. note::
    You should only **take one calculator to proofread at a time** that has the oldest due date (or creation date, if there is no due date set). Do not reserve lots of calculators to proofread or cherry-pick.

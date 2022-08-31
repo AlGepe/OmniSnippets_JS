@@ -80,19 +80,21 @@ For linking from your new calculator
 .. warning::
    **Do not add a list of links** to your calculator text, as this would lead to a clustering of links. It is better to have the links more uniformly distributed, with a bias for internal links higher up the page, where possible.
 
-For linking to your new calculators after publication
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+.. For linking to your new calculators after publication
+.. ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. seealso::
-   You should also go back to **at least one, at most three** already published calculators and **add a link** pointing to your new calculator after it has been published. You can find more about this in the :ref:`Links from previous calculators <trelloLinks>` section.
+..   You should also go back to **at least one, at most three** already published calculators and **add a link** pointing to your new calculator after it has been published. You can find more about this in the :ref:`Links from previous calculators <trelloLinks>` section.
 
-10. Sometimes, if you are lucky, you will find relevant keywords in old calculators. But most of the time, you will have to **add one or two lines to include a link** to your newly created calculators. Try to follow the same guidelines as mentioned above in doing so.
+.. 10. Sometimes, if you are lucky, you will find relevant keywords in old calculators. But most of the time, you will have to **add one or two lines to include a link** to your newly created calculators. Try to follow the same guidelines as mentioned above in doing so.
 
-11.   If an old calculator already has 100s of outlinks, try not to add a new link from that old calculator to your calculator. **The maximum number of links in an old calculator should be 20-25.** Try to **find tools that do not have many outgoing links**, but if you can't find any other relevant tools, go ahead and add the link. Better still, if it is a marketing calculator with lots of backlinks, a link from a tool with high backlink authority will help your tool rank better in Google.
+.. 11.   If an old calculator already has 100s of outlinks, try not to add a new link from that old calculator to your calculator. **The maximum number of links in an old calculator should be 20-25.** Try to **find tools that do not have many outgoing links**, but if you can't find any other relevant tools, go ahead and add the link. Better still, if it is a marketing calculator with lots of backlinks, a link from a tool with high backlink authority will help your tool rank better in Google.
 
-12.   A simple hack to check for any existing tools with relevant keywords to add a link to your new calculator is to type ``site:omnicalculator.com “keyword”`` in Google. In the example below, you find that three calculators relevant to the keyword "how to calculate maintenance calories".
+.. 12.   A simple hack to check for any existing tools with relevant keywords to add a link to your new calculator is to type ``site:omnicalculator.com “keyword”`` in Google. In the example below, you find that three calculators relevant to the keyword "how to calculate maintenance calories".
 
-.. figure:: links-old-calcs.png
+.. .. figure:: links-old-calcs.png
    :alt: Example of looking for old calculators to link from
    :align: center
 
