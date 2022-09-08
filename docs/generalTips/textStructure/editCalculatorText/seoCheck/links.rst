@@ -1,7 +1,7 @@
 .. _linksTab:
 
 Links
-=====================
+=====
 
 The links tab is where you manage links to other calculators, based on keywords in your calculator text. The golden rule to remember is to **only include a link once** to each calculator.
 
@@ -16,6 +16,14 @@ Published calculators are colored blue, whereas unpublished calculators are colo
 
 .. note:: 
   It's OK to include a link to an **unpublished calculator**. For now the link will not appear in your text on the website. Once the target calculator is published, the link will appear and work as expected.
+
+.. note::
+  Links to a calculator that has been deleted are colored red with the text "Calculator link not found" and cannot be removed. You are free to ignore it.
+  
+  .. figure:: img/links-deleted.png
+    :alt: links to deleted calculators are colored red
+    :align: center
+
 
 Adding a link
 -------------
