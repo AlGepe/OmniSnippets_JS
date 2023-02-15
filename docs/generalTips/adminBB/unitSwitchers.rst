@@ -1,7 +1,7 @@
 .. _unitSwitchers:
 
 Unit switchers
-=====================
+==============
 
 Unit switchers make our life easier as they provide us with the **list of units we can switch between without worrying about proper conversion rates**.
 
