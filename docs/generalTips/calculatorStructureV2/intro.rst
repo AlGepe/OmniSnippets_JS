@@ -1,6 +1,6 @@
 .. _editCalculatorV2:
 
-Edit calculator (Engine V2)
+Edit calculator (engine v2)
 ===========================
 
 .. warning::
