@@ -162,4 +162,3 @@ Review process checklist
 * Name the revisions (calculator & text) that should be reviewed as "to review".
 * Click the 'First review' button.
 * Set label from "to improve" back to "ready to review" after you've made improvements.
-.. * After publication, **add** 1 to 3 links in old calculators - :ref:`ℹ️<internalLinks>`.

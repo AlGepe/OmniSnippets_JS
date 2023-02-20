@@ -1,4 +1,4 @@
-.. _proofreadingPublishing:
+.. _reviewingProofreadingPublishing:
 
 Proofreading and publishing
 ===========================

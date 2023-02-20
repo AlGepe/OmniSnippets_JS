@@ -1,7 +1,10 @@
-.. _editCalculator:
+.. _editCalculatorV2:
 
-Edit calculator (v1)
-====================
+Edit calculator (Engine V2)
+===========================
+
+.. warning::
+  *This section contains early documentation for Engine V2 and will be updated often. Where a feature has not yet been implemented yet in Engine V2, it is noted.*
 
 The page is the heart of any Omni calculator. It defines the name and category, equations and code, variables and units, conditions and tests of the calculator. And much more!
 

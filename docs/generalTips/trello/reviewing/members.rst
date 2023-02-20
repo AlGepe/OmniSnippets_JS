@@ -1,7 +1,7 @@
 .. _members:
 
 Members
-=====================
+=======
 
 This is the list of all calculatorians (and a few more Omni people). **Everybody who joins (or is added to) the card receives notifications** whenever there are some changes (e.g., someone writes a comment).
 
