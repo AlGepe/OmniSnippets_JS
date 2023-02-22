@@ -36,6 +36,8 @@ Generally, you should try to use **descriptive names** so someone else reading y
 Reserved variable names
 -----------------------
 
+**V2 note: No error is currently displayed in Engine V2 if you use a reserved variable name.**
+
 You may find that using a certain variable name gives an error. For example, trying to use the variable name `EulerGamma` gives the following error:
 
 * ``Undefined symbol EulerGamma``

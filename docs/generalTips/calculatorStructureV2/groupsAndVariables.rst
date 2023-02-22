@@ -1,3 +1,9 @@
+.. |plus icon| image:: img/plus-icon.png
+  :alt: Plus icon
+
+.. |eye icon| image:: img/eye-icon.png
+  :alt: Eye icon
+
 .. _groupsAndVariablesV2:
 
 Groups and blocks
@@ -52,49 +58,46 @@ Variable type
 This sets the type of the variable. Here are the currently available types:
 
 * ``Numerical`` — Regular **numbers**. This is the setting for the majority of variables.
-* ``Date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually.
-* ``Date \ time`` — Allows the user to enter a **date and time**.
-* ``Time`` — Allows a user to enter a **time**, either using a time picker or entering it manually.
+* ``Date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually. **NOT IN V2 YET!**
+* ``Date \ time`` — Allows the user to enter a **date and time**. **NOT IN V2 YET!**
+* ``Time`` — Allows a user to enter a **time**, either using a time picker or entering it manually. **NOT IN V2 YET!**
 * ``Value select`` — Allows a value select to be associated with the variable.
-
-.. note::
-  Dates and times are actually numbers in the `UNIX time format <https://www.omnicalculator.com/conversion/unix-time>`_. 
 
 Rounding
 ^^^^^^^^
 
-Here you can select the **rounding** of variable values. You have a choice of different levels of **relative rounding** (the magic 1/n ones) or 0 to 10 **decimal places**.
+Here you can select the **rounding** of variable values. You have a choice of different levels of **relative rounding** (e.g., 1/10K) or 0 to 10 **decimal places**.
 
-Magic rounding
-""""""""""""""
+Omni rounding
+"""""""""""""
 
-**Magic rounding** means that the difference between the rounded and original number may not be larger than 1/nth (for example 1/100) of the original number.
+**Omni rounding** means that the difference between the rounded and original number may not be larger than 1/nth (for example 1/100) of the original number.
 
-Magic rounding is **relative** — it works differently on large numbers and small ones. The flaw of regular rounding is that while it’s OK to round ``1.55334`` to 2 decimal places, it’s far too precise to round ``9992383829238.234234234`` the same way and far too imprecise to round ``0.0000000000023423`` like that.
+Omni rounding is **relative** — it works differently on large numbers and small ones. The flaw of regular rounding is that while it’s OK to round ``1.55334`` to 2 decimal places, it’s far too precise to round ``9992383829238.234234234`` the same way and far too imprecise to round ``0.0000000000023423`` like that.
 
-Let's have a look at the effect of different magic rounding settings on the number ``2/3`` and ``4444.444 recurring``.
+Let's have a look at the effect of different Omni rounding settings on the number ``2/3`` and ``4444.444 recurring``.
 
 +------------------------+--------------------------+-----------------------------------------+
 | **Round to setting**   | **2/3 becomes...**       | **4444.444 recurring becomes...**       |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/10             | 0.7                      | 4,444                                   |
+| 1/10                   | 0.7                      | 4,444                                   |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/100            | 0.67                     | 4,444                                   |
+| 1/100                  | 0.67                     | 4,444                                   |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/1k             | 0.667                    | 4,444                                   |
+| 1/1K                   | 0.667                    | 4,444                                   |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/10k            | 0.667                    | 4,444                                   |
+| 1/10K                  | 0.667                    | 4,444                                   |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/100k           | 0.66667                  | 4,444.4                                 |
+| 1/100K                 | 0.66667                  | 4,444.4                                 |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/1M             | 0.666667                 | 4,444.44                                |
+| 1/1M                   | 0.666667                 | 4,444.44                                |
 +------------------------+--------------------------+-----------------------------------------+
-| magic 1/10M            | 0.6666667                | 4,444.444                               |
+| 1/10M                  | 0.6666667                | 4,444.444                               |
 +------------------------+--------------------------+-----------------------------------------+
 
-The **default setting** for the **Round to** attribute is ``magic 1/10k``, when no option is specifically selected.
+The **default setting** for the **Round to** attribute is ``1/10K``, when no option is specifically selected.
 
-When choosing **magic rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short for the typical usage of the calculator.
+When choosing **Omni rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short for the typical usage of the calculator.
 
 Unit switcher
 ^^^^^^^^^^^^^
@@ -105,6 +108,28 @@ Choose the units for the variable from the list. Start typing in the unit switch
 
 .. tip::
   🤑 For monetary values, it's usually a good idea to round to two decimal places.
+
+
+
+Imperial default unit
+^^^^^^^^^^^^^^^^^^^^^
+
+Set an optional Imperial default unit. This will be the default unit displayed to users in countries that use the Imperial measurement system, e.g., the US.
+
+In v2, this is set using a combination of a default unit variant and the available helper function ``userUsesImperialUnits()``.
+
+To set an imperial default unit, follow these steps:
+
+#. Create a default unit variant by clicking the |plus icon| symbol next to that field ('Default unit').
+#. Select the appropriate imperial default unit.
+#. For this 'Alterative default unit', click the “eye” icon |eye icon| to specify the trigger condition.
+#. In the condition box that shows up, enter ``userUsesImperialUnits()``.
+
+.. figure:: img/imperial-default-unit.png
+  :alt: setting a default imperial unit
+  :align: center
+
+  Setting a default imperial unit after following the above steps.
 
 .. _groupsAndVariablesWorksInReverseV2:
 
@@ -166,6 +191,27 @@ You can specify a default value for the variable, given in its default unit.
 
 **DETAILS COMING SOON!** About adding more default values.
 
+Imperial default value
+^^^^^^^^^^^^^^^^^^^^^^
+
+Set a **default value** for users in countries who use the Imperial measurement system (e.g., the US). The value should be given as the Imperial default unit.
+
+Generally, if you have set a **default unit** and you have specified an **Imperial default unit**, you should set an Imperial default value. Otherwise, your calculator may not work as expected in Imperial unit countries.
+
+In v2, this is set using a combination of default value variant and the available helper function ``userUsesImperialUnits()``
+To set an imperial default value, follow these steps:
+
+#. Create a default value variant by clicking the |plus icon| symbol next to that field ('Default value').
+#. Input the appropriate imperial default value.
+#. For this 'Alterative default value', click the “eye” icon |eye icon| to specify the trigger condition.
+#. In the condition box that shows up, enter ``userUsesImperialUnits()``.
+
+
+.. figure:: img/imperial-default-value.png
+  :alt: setting a default imperial value
+  :align: center
+
+  Setting a default imperial value after following the above steps.
 
 Suffix
 ^^^^^^
@@ -197,26 +243,10 @@ This is useful for things that are not likely to change very often or by much, s
 Other attributes not yet implemented in V2
 ------------------------------------------
 
-Imperial def. unit
-^^^^^^^^^^^^^^^^^^
-
-**NOT IN V2 YET**
-
-Set an optional Imperial default unit. This will be the default unit displayed to users in countries that use the Imperial measurement system, e.g., the US.
-
-Imperial def. value
-^^^^^^^^^^^^^^^^^^^
-
-**NOT IN V2 YET**
-
-Set a **default value** for users in countries who use the Imperial measurement system (e.g., the US). The value should be given as the Imperial default unit.
-
-Generally, if you have set a **default unit** and you have specified an **Imperial default unit**, you should set an Imperial default value. Otherwise, your calculator may not work as expected in Imperial unit countries.
-
 Locked
 ^^^^^^
 
-**NOT IN V2 YET**
+**NOT IN V2 YET!**
 
 The variable will not be recalculated as other variables are changed. This is good for variables that are meant to be **inputs only**. For example, we don't want our calculators re-calculating someones measured height, weight, etc.
 
@@ -225,16 +255,15 @@ The **user can override this setting** in the variable menu (displayed when you 
 Locked permanently
 ^^^^^^^^^^^^^^^^^^
 
-**NOT IN V2 YET**
+**NOT IN V2 YET!**
 
 Same as the locked function above, but now the **user cannot override** the setting.
 
 Don't format
 ^^^^^^^^^^^^
 
-**NOT IN V2 YET**
+**NOT IN V2 YET!**
 
 When checked, **formatting will not be applied to the number** after the user has finished entering the number. For example, the number 123456 is usual displayed as 123,456. With formatting turned off, it's displayed as 123456.
 
 This is useful, for example, if you have a binary input variable, so using the thousand separator doesn't make sense.
-
