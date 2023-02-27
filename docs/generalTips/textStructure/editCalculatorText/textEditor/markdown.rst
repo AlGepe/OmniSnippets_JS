@@ -455,9 +455,7 @@ To manually link to another calculator using its id number you can use a special
 
 * ``Have to checked out our [percentage calculator](calc:404)?`` → Have to checked out our `percentage calculator <https://www.omnicalculator.com/math/percentage>`_?
 
-You may also **link to a section within a calculator**, by adding the anchor after the id number. For example:
-
-* ``Here you can [see all rectangle formulas](calc:749#rectangle-formulas).`` → Here you can `see all rectangle formulas <https://www.omnicalculator.com/math/rectangle#rectangle-formulas>`_
+You may NOT **link to a section within another calculator**. This is due to issues as we move toward a multilingual website.
 
 Check out the :ref:`anchors<anchors>` and :ref:`links<links>` sections for further details.
 
@@ -484,7 +482,7 @@ To bold or italicize link text, enclose the text with two or one asterisks, resp
 
 .. code:: md
 
-  I love supporting the [**EFF**](https://eff.org).
+  I love supporting the **[EFF](https://eff.org)**.
 
   This is the [*Markdown Guide*](https://www.markdownguide.org).
   
@@ -497,9 +495,6 @@ I love supporting the :raw-html:`<a ref="https://eff.org"><b>EFF</b></a>`.
 This is the :raw-html:`<a ref="https://www.markdownguide.org"><i>Markdown Guide</i></a>`.
 
 See the section on :raw-html:`<a ref="#code"><code>code</code></a>`.
-
-.. note::
-  The standard Markdown syntax to bold a link is to enclose the **whole link in two asterisks**. However, due to a CSS bug with the Omni website, that currently doesn't work. Hence the workaround above of enclosing just the link text. Sorry about that.
 
 
 Reference-style links

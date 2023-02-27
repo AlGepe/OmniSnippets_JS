@@ -56,17 +56,13 @@ To actually add the link code to the text, here's what you do:
 2. Now place your cursor in the text where you want the link to appear.
 3. Click on the **keyword** you wish to use as the link text. Don't worry! If you want to use some link text that **isn't listed as a keyword**, you can change in a minute.
 
-.. _linksTabAddLinkCode:
-.. figure:: links-add-link-code.png
-    :alt: example of adding the link code to the calculator text
-    :align: center
 
-4. If you want to change the link text, simply change the text enclosed by the ``<portal>`` tag.
+4. If you want to change the link text, simply change the text enclosed by ``[]`` in the Markdown link.
 
 .. note::
   A link to a related calculator has the following format:
   
-  ``<portal cid="calculator-id">link-text</portal>``
+  ``[link-text](calc:calculator-id])``
 
   It is perfectly possible to add the links manually, though the clicking on the keyword method is much easier.
 
@@ -85,7 +81,7 @@ To delete a link from the list, hover over the link and click on the **red trash
     :alt: example of deleting a calculator from the list of linked calculators
     :align: center
 
-Note, that this **does not also delete the link code from your text**. If it exists, make sure to do this manually.
+Note, that this **does not also delete the link code from your text**. If it exists, make sure to do this manually. If you don't a warning will be given in the links tab.
 
 .. note::
   Changes to the list of linked calculators are save immediately. There is no need to save the calculator, so you will not see the **Save** button turn yellow.

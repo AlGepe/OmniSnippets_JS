@@ -8,8 +8,8 @@ What are internal links?
 
 Internal links are hyperlinks between pages on the same website. We can classify them into two categories:
 
-* Inlinks: Internal links to a URL
-* Outlinks: Internal links from a URL
+* Inlinks: Internal links to a URL; and
+* Outlinks: Internal links from a URL.
 
 .. note::
 
@@ -46,12 +46,12 @@ For linking from your new calculator
    * Your own creativity: You can use phrasings like “If you want to do xxx, visit the yyy calculator”. You can occasionally use infoboxes as well but don't overuse them. If you can think of ways to include more links naturally, do share your tips with others! 
 
 2. Always try to **link to calculators that are contextually relevant** to the tool you are creating. For example, linking the ideal gas law calculator to the other calculators in the Physics/thermodynamics category, especially Charles' law, Boyle's law, compressibility, Gay Lussac's law, etc.
-
 3. While linking to a tool, try to **use one of the keywords as the anchor text**. For instance, for linking to the maintenance calorie calculator, the list of relevant anchor text is shown in the figure below.
 
 .. figure:: links-keywords-anchor.png
    :alt: Example of keywords for anchor text to the maintenance calorie calculator
    :align: center
+
 
 4. Always give preference to exact match anchor text (i.e., maintenance calorie calculator) and then to long-tail keywords (i.e., how to calculate maintenance calories) or keywords involving the word “formula”. **Avoid using just the word “maintenance calorie” as the anchor text.**
 
@@ -65,6 +65,8 @@ For linking from your new calculator
 
 9. Another thing that we should strictly **avoid is using only part of a tool's name as the anchor text**. For example, in “length conversion calculator”, using “conversion” as the anchor text and linking to some other converter.
 
+10. **Do not link to headings within another calculator.** For example, do not use links such as ``(anchor text)[calc:000#heading-in-other-calc]``. This is due to issues that arise as we move towards a multilingual website.
+
 .. note::
    You can add internal links to particular words or phrases within a sentence that provide a description of the tool. The following image serves as a guide:
 
@@ -76,6 +78,24 @@ For linking from your new calculator
        
 
    You can also explicitly state that the **link is one of our tools**, e.g., “if you want to know more, check out our circumference calculator”. In this case, always refer to the calculator as “our” or “Omni's” or some similar way to let people know they're staying on the site. The link should be on the title of the calculator, e.g. “circumference calculator” in this example.
+
+Linking to category and subcategory pages
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You may **link to category pages** to encourage the user to check out different calculators in the linked category. For example:
+
+  Furthermore, we invite you to check all our [financial calculators](https://www.omnicalculator.com/finance).
+
+You may also **link to a subcategory** for narrower targeting using the section reference link (see URL bar after clicking on a subcategory link). Here are a couple of examples:
+
+  1. Check our other useful calculators about [diabetes](https://www.omnicalculator.com/health#s-185).
+  2. Visit our [2D geometry section](https://www.omnicalculator.com/math#s-66) to see all the calculators we have to offer.
+
+  
+Do not link to collections
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You **must not link** to the collection pages of the website. For example, do not link to the page ``https://www.omnicalculator.com/collections/real-estate``.
 
 .. warning::
    **Do not add a list of links** to your calculator text, as this would lead to a clustering of links. It is better to have the links more uniformly distributed, with a bias for internal links higher up the page, where possible.

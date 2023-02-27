@@ -29,9 +29,7 @@ An example is:
 
 * ``[sleep](calc:630)``
 
-You may also **link to a section within a calculator**, by adding the anchor after the id number. For example:
-
-* ``Here you can [see all rectangle formulas](calc:749#rectangle-formulas).`` → Here you can `see all rectangle formulas <https://www.omnicalculator.com/math/rectangle#rectangle-formulas>`_
+You must NOT **link to a section within another calculator**. This is due to issues that arise as we move toward a multilingual.
 
 .. _linksMarkdown:
 
