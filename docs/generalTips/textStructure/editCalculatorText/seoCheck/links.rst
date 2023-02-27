@@ -64,7 +64,9 @@ To actually add the link code to the text, here's what you do:
   
   ``[link-text](calc:calculator-id])``
 
-  It is perfectly possible to add the links manually, though the clicking on the keyword method is much easier.
+  It is perfectly possible to add the links manually, though you have to add the link to the links tab. Otherwise you will get the following error:
+
+    *"Link to calculator of id XXX is included in the text but not listed in links panel. Either add it to links panel manually or remove it from the text."*
 
 
 .. tip::
