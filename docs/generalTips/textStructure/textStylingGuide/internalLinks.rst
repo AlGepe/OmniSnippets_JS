@@ -48,7 +48,7 @@ For linking from your new calculator
 2. Always try to **link to calculators that are contextually relevant** to the tool you are creating. For example, linking the ideal gas law calculator to the other calculators in the Physics/thermodynamics category, especially Charles' law, Boyle's law, compressibility, Gay Lussac's law, etc.
 3. While linking to a tool, try to **use one of the keywords as the anchor text**. For instance, for linking to the maintenance calorie calculator, the list of relevant anchor text is shown in the figure below.
 
-.. figure:: links-keywords-anchor.png
+.. figure:: img/links-keywords-anchor.png
    :alt: Example of keywords for anchor text to the maintenance calorie calculator
    :align: center
 
@@ -71,7 +71,7 @@ For linking from your new calculator
    You can add internal links to particular words or phrases within a sentence that provide a description of the tool. The following image serves as a guide:
 
    .. _links_guide:
-   .. figure:: links_guide.jpg
+   .. figure:: img/links_guide.jpg
       :alt: Where to add links
       :align: center
 
@@ -86,7 +86,19 @@ You may **link to category pages** to encourage the user to check out different 
 
   Furthermore, we invite you to check all our [financial calculators](https://www.omnicalculator.com/finance).
 
-You may also **link to a subcategory** for narrower targeting using the section reference link (see URL bar after clicking on a subcategory link). Here are a couple of examples:
+You may also **link to a subcategory** for narrower targeting using the section reference link.
+
+To get the link to the subcategory of the current calculator, right-click on the first link underneath the calculator ("Check out X similar ... calculators") and select *"Copy Link Address"*.
+
+.. figure:: img/how-to-get-subcat-link.jpg
+      :alt: How to find a subcategory link
+      :align: center
+      
+      Right-click on the first link under the calculator and select "Copy Link Address".
+
+|
+
+Here are a couple of examples:
 
   1. Check our other useful calculators about [diabetes](https://www.omnicalculator.com/health#s-185).
   2. Visit our [2D geometry section](https://www.omnicalculator.com/math#s-66) to see all the calculators we have to offer.

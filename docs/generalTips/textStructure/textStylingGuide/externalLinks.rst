@@ -8,6 +8,6 @@ There are a few things to consider though. External links send the user away fro
 Links should be applied to the text in a certain way too, as outlined in the image below:
 
 .. _links_guide:
-.. figure:: links_guide.jpg
+.. figure:: img/links_guide.jpg
    :alt: Where to add links
    :align: center
