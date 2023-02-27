@@ -96,7 +96,8 @@ To get the link to the subcategory of the current calculator, right-click on the
       
       Right-click on the first link under the calculator and select "Copy Link Address".
 
-|
+
+Alteratively, you can click that link and **copy the link address from the URL bar**.
 
 Here are a couple of examples:
 
