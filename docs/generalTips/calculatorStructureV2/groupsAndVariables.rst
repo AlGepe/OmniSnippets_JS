@@ -9,261 +9,233 @@
 Groups and blocks
 =================
 
-The **Groups and variables** section defines the layout of the calculator variables, their units and other properties and attributes. 
-
-**UPDATE FOR V2 COMING SOON...**
+The **Groups and blocks** section of the V2 edit calculator page defines the layout of calculator variables, their units and other properties and attributes. 
 
 Groups
 ------
 
-**UPDATE FOR V2 COMING SOON...**
+Groups hold a number of variables that are logically related or should appear under a heading within the calculator. A group can be **collapsible** so the user can hide/show its variables (this replaces "advanced mode" in Engine V1).
 
-Variable attributes
--------------------
+Creating a group
+^^^^^^^^^^^^^^^^
 
-.. _groupsAndVariablesVarAttributesV2:
-.. figure:: img/variable-attributes.png
-  :width: 100%
-  :alt: basic attributes of a variable
+1. To create an additional group for the variable/text/image blocks, click the "**Add a new group**" button.
+
+.. figure:: img/create-group-1.png
+  :alt: Click "add new group" button
   :align: center
 
-  Click on a variable to display its basic attributes.
+  ؜
 
-Click on a variable to select it (turns white) and its properties/attributes will be displayed (as above). If you click on another variable, then its attributes will be displayed. To **hide** the attributes, click on the variable label again.
+2. Click the header of the newly-formed group ("**[Unnamed group]**") to edit its name.
 
-Here are is a summary of the **DOs and DON'TS** when it comes to variables:
-
-* DO **capitalize the first word** in each variable (but not more);
-* DO capitalize the first word in every header;
-* DO try to list the variables in a **logical order**; information supplied by the user should be at the top, the result — at the bottom;
-* DO make sure that you're **not using more units than necessary** - uncheck any you don't need from the variable's unit list; and
-* DO spend a few seconds thinking about the **default unit** and the **Imperial default unit** - which ones will make the most sense?
-
-
-Let's now go through each of the variable attributes to see what then do.
-
-Name
-^^^^
-
-The name of the variable in the equations section of the calculator. This cannot be edited.
-
-Label
-^^^^^
-
-This is the name of the variable as **displayed to the user**. Make sure it will be easily understood by the user and starts with a capital letter (but no more). If the variable is associated with an equation in the calculator text, it's a good idea to put the algebraic reference in brackets after the name.
-
-Variable type
-^^^^^^^^^^^^^
-
-This sets the type of the variable. Here are the currently available types:
-
-* ``Numerical`` — Regular **numbers**. This is the setting for the majority of variables.
-* ``Date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually. **NOT IN V2 YET!**
-* ``Date \ time`` — Allows the user to enter a **date and time**. **NOT IN V2 YET!**
-* ``Time`` — Allows a user to enter a **time**, either using a time picker or entering it manually. **NOT IN V2 YET!**
-* ``Value select`` — Allows a value select to be associated with the variable.
-
-Rounding
-^^^^^^^^
-
-Here you can select the **rounding** of variable values. You have a choice of different levels of **relative rounding** (e.g., 1/10K) or 0 to 10 **decimal places**.
-
-Omni rounding
-"""""""""""""
-
-**Omni rounding** means that the difference between the rounded and original number may not be larger than 1/nth (for example 1/100) of the original number.
-
-Omni rounding is **relative** — it works differently on large numbers and small ones. The flaw of regular rounding is that while it’s OK to round ``1.55334`` to 2 decimal places, it’s far too precise to round ``9992383829238.234234234`` the same way and far too imprecise to round ``0.0000000000023423`` like that.
-
-Let's have a look at the effect of different Omni rounding settings on the number ``2/3`` and ``4444.444 recurring``.
-
-+------------------------+--------------------------+-----------------------------------------+
-| **Round to setting**   | **2/3 becomes...**       | **4444.444 recurring becomes...**       |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/10                   | 0.7                      | 4,444                                   |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/100                  | 0.67                     | 4,444                                   |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/1K                   | 0.667                    | 4,444                                   |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/10K                  | 0.667                    | 4,444                                   |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/100K                 | 0.66667                  | 4,444.4                                 |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/1M                   | 0.666667                 | 4,444.44                                |
-+------------------------+--------------------------+-----------------------------------------+
-| 1/10M                  | 0.6666667                | 4,444.444                               |
-+------------------------+--------------------------+-----------------------------------------+
-
-The **default setting** for the **Round to** attribute is ``1/10K``, when no option is specifically selected.
-
-When choosing **Omni rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short for the typical usage of the calculator.
-
-Unit switcher
-^^^^^^^^^^^^^
-
-Choose the units for the variable from the list. Start typing in the unit switcher name to find the one you are looking for.
-
-:ref:`Unit switchers <unitSwitchers>` can be edited and added to the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to **ask someone before making any changes**, as they might affect other calculators.
-
-.. tip::
-  🤑 For monetary values, it's usually a good idea to round to two decimal places.
-
-
-
-Imperial default unit
-^^^^^^^^^^^^^^^^^^^^^
-
-Set an optional Imperial default unit. This will be the default unit displayed to users in countries that use the Imperial measurement system, e.g., the US.
-
-In v2, this is set using a combination of a default unit variant and the available helper function ``userUsesImperialUnits()``.
-
-To set an imperial default unit, follow these steps:
-
-#. Create a default unit variant by clicking the |plus icon| symbol next to that field ('Default unit').
-#. Select the appropriate imperial default unit.
-#. For this 'Alterative default unit', click the “eye” icon |eye icon| to specify the trigger condition.
-#. In the condition box that shows up, enter ``userUsesImperialUnits()``.
-
-.. figure:: img/imperial-default-unit.png
-  :alt: setting a default imperial unit
+.. figure:: img/create-group-2.png
+  :alt: Click "add new group" button
   :align: center
 
-  Setting a default imperial unit after following the above steps.
+  ؜
 
-.. _groupsAndVariablesWorksInReverseV2:
+3. Set an appropriate **name** for the group in the "**Name**" field. This will be visible to users.
 
-Inversed checkbox
-^^^^^^^^^^^^^^^^^
+.. figure:: img/create-group-3.png
+  :alt: Add a name for the new group
+  :align: center
 
-Check this box if you have a variable where the unit is the reciprocal unit. For example, wavenumber has units of m\ :sup:`-1`. This example can be found in the `wavelength calculator <https://www.omnicalculator.com/adminbb/calculators/421>`_.
+  ؜
+
+4. You may also make the group name conditionally visible by clicking the "eye" icon next to the Name field, and enter the trigger condition. The group name will show up only when the condition evaluates to "True".
+
+.. figure:: img/group-conditional-visible.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
+5. You may also **add a short description** about the group in the "**Description**" field. This will also be visible to users.
+
+.. figure:: img/create-group-4.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
+6. Decide if the group will be **collapsable** by the user using the collapse/uncollapse icon. 
+
+.. |collapsible| image:: img/group-collapsible.png
+  :alt: Example of a collapsable group
+  :width: 49%
+  :align: bottom
+
+.. |collapsed| image:: img/group-collapsed.png
+  :alt: Example of a collapsable group
+  :width: 49%
+  :align: top
+
+|collapsible| |collapsed|
+
+If the collapsable option is **not checked**, then no such icon is display and the group's contents is always displayed (baring other conditional visibility settings).
+
+.. figure:: img/group-not-collapsible.png
+   :alt: Example of a non-collapsable group
+   :align: center
+
+   How the group will look if its contents is not collapsable.
+
+7. Once you've added the appropriate group name and description as needed, **click "Done"**.
+
+.. figure:: img/create-group-5.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
+Moving blocks (e.g., variables) between groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You may drag and drop the blocks to move them between groups or within a
+group.
+
+.. figure:: img/move-group.png
+  :alt: Click and drag a block to another group
+  :align: center
+
+  ؜
+
+.. figure:: img/move-group-2-delete-1.png
+  :alt: Block has been moved to another group
+  :align: center
+
+  ؜
 
 
-Unit prefix
-^^^^^^^^^^^
+Deleting a group
+^^^^^^^^^^^^^^^^
 
-The unit prefix is a piece of text that is placed *before* any units symbol. This can be useful when creating a compound unit where the first one is fixed.
+1. To delete a group, click on the group header.
 
-It can also be used to quickly **add a unit** where there is **only one choice**.
+.. figure:: img/move-group-2-delete-1.png
+  :alt: Click on the group header you wish to delete
+  :align: center
 
-Unit suffix
-^^^^^^^^^^^
+  ؜
 
-The suffix end text gets placed *after* any units symbol. Again, this is useful for creating compound units where the second part doesn't change. E.g., dollars per day ($/d) — so suffix end would equal "/d".
+2. Then click "**Remove item**" to remove the group.
 
-Base unit
-^^^^^^^^^
+.. figure:: img/delete-group-2.png
+  :alt: Click remove item button
+  :align: center
 
-This is the base unit in which **calculations are performed**. Usually this can be left to the default base unit of the unit switcher (e.g., meters for the length unit switcher).
-
-However, if you have an equation based on feet, you can specify to **use feet as the base unit**. This has the advantage of not having to rewrite the equation for meters (a problem if the equation contains constants).
+  ؜
 
 .. warning::
-  If the calculator contains a value setter in the CustomJS code, you should **explicitly set the base unit**, if even it is the default (e.g., specify meters for the length unit switcher). This makes sure that those users in Imperial unit countries will get the correct value for variables set by the value setter.
+  If you delete a group that **contains some variable/image/text blocks**, those blocks will **NOT be deleted**. They will automatically move to the group above the deleted one.
 
-Default unit
-^^^^^^^^^^^^
+Reviewing changes to groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Set the default unit of the variable from the dropdown list. **A default unit always needs to be specified.**
+At any time, you may click the "**Refresh**" button to preview how the group will look like to the user.
 
-
-Default unit list
-^^^^^^^^^^^^^^^^^
-
-For each unit switcher, a list of all its units are displayed. Depending on the application, some units will make sense, while others won't (e.g., somebodies weight in terms of solar masses). Check the units you want the user to be able to choose from, and uncheck others to hide them.
-
-.. note::
-  You will see that the **default unit** and **Imperial unit** (if set) are greyed out and cannot be unchecked.
-
-If you make a change to the list of units, a **reset** button will appear at the top. This resets the unit list to the default list for that unit switcher.
-
-
-Second unit switcher
-^^^^^^^^^^^^^^^^^^^^
-
-**DETAILS COMING SOON!**
-
-Default value
-^^^^^^^^^^^^^
-
-You can specify a default value for the variable, given in its default unit.
-
-
-**DETAILS COMING SOON!** About adding more default values.
-
-Imperial default value
-^^^^^^^^^^^^^^^^^^^^^^
-
-Set a **default value** for users in countries who use the Imperial measurement system (e.g., the US). The value should be given as the Imperial default unit.
-
-Generally, if you have set a **default unit** and you have specified an **Imperial default unit**, you should set an Imperial default value. Otherwise, your calculator may not work as expected in Imperial unit countries.
-
-In v2, this is set using a combination of default value variant and the available helper function ``userUsesImperialUnits()``
-To set an imperial default value, follow these steps:
-
-#. Create a default value variant by clicking the |plus icon| symbol next to that field ('Default value').
-#. Input the appropriate imperial default value.
-#. For this 'Alterative default value', click the “eye” icon |eye icon| to specify the trigger condition.
-#. In the condition box that shows up, enter ``userUsesImperialUnits()``.
-
-
-.. figure:: img/imperial-default-value.png
-  :alt: setting a default imperial value
+.. figure:: img/group-reload.png
+  :alt: Click the refresh button to see the changes in the calculator preview
   :align: center
 
-  Setting a default imperial value after following the above steps.
+**UPDATE FOR V2 COMING SOON...**
 
-Suffix
-^^^^^^
+Blocks
+------
 
-**DOES NOT CURRENTLY DO ANYTHING**
+Along with variable blocks that are created automatically when a new equation is added to the calculator, there are also text and image blocks. Let's start with exploring variable blocks.
 
-.. _groupsAndVariablesHelpTextV2:
+Variable blocks
+^^^^^^^^^^^^^^^
 
-Help text
-^^^^^^^^^
+Variable blocks handle the core component of out calculators where inputs are entered and results are displayed. For more information about all of the attributes that are available for variables, visit the variable attributes section of the handbook:
 
-Text inputted here will appear **when the user clicks on the info icon** after the variable name. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. Guidance on help texts can be found :ref:`here <calcStylingGuideHelpTexts>`.
+.. toctree::
+    :maxdepth: 2
+
+    variableAttributes
+
+Creating a variable block
+"""""""""""""""""""""""""
+
+Besides variable blocks beginning created automatically from equations, you may also manually create them (for example, for selecting different modes of a calculator and displaying different variables). *This feature replaces the Additional variables feature on the V1 Engine.*
+
+1. Click the **+ icon** on the header bar of the group in which you want to add your additional variable block.
+
+.. figure:: img/add-variable-block-1.png
+  :alt: Click on the plus icon in the group header you wish to add a block variable to
+  :align: center
+
+  ؜
+
+2. Click the "Add variable block" option.
+
+.. figure:: img/add-variable-block-2.png
+  :alt: Click on the Add variable block option.
+  :align: center
+
+  ؜
+
+3. Select the newly-created variable block to edit its name and label.
+
+.. figure:: img/add-variable-block-3.png
+  :alt: Select the newly-created variable block
+  :align: center
+
+  ؜
+
+4. Give the variable a name (required field), which will be used to refer to the variable in all other places of the calculator based on your need.
+
+.. figure:: img/add-variable-block-4.png
+  :alt: Give the variable a name
+  :align: center
+
+  ؜
+
+5. The **Label** field is optional. If left blank, no label would show up for that variable.
+
+.. figure:: img/add-variable-block-5.png
+  :alt: Add optional Label
+  :align: center
+
+  ؜
+
+6. You could also **provide variants for the variable label** that trigger a different choice based on some condition. To do this, click the + icon next to the label field ("**Add an item variant**").
+
+.. figure:: img/add-variable-block-6.png
+  :alt: Add label variants
+  :align: center
+
+  ؜
+
+7. Provide an alternative label in the "**Alternative label**" field.
+
+.. figure:: img/add-variable-block-7.png
+  :alt: Provide an alternative label
+  :align: center
+
+  ؜
+
+8. To set the trigger condition for the label variant, click the |eye icon| icon ("**Open item condition settings**").
+
+.. figure:: img/add-variable-block-8.png
+  :alt: Add trigger condition
+  :align: center
+
+  ؜
+
+9. Enter an **appropriate condition** statement in the condition box that appears. When this condition evaluates to "True", the corresponding label variant will be displayed.
+
+.. figure:: img/add-variable-block-9.png
+  :alt: Add trigger condition
+  :align: center
+
+  ؜
+
+.. note::
+  The choice of variant to be used is evaluated in a **bottom-up fashion**. So the first variant from the bottom whose condition evaluates to true will be used, in case more than one variant's conditions evaluate to true.
 
 
-Monetary
-^^^^^^^^
+**MORE UPDATES FOR V2 COMING SOON...**
 
-Check this checkbox if the variable is a monetary amount. This will add the user's currency symbol as the main unit.
-
-Auto saved by default
-^^^^^^^^^^^^^^^^^^^^^
-
-When checked, the **variable value will be saved** in a cookie on the user's browser. So, next time the user comes back to the calculator, the last value they entered will be already displayed.
-
-This is useful for things that are not likely to change very often or by much, such as a person's **age**, **weight**, etc.
-
-
-
-Other attributes not yet implemented in V2
-------------------------------------------
-
-Locked
-^^^^^^
-
-**NOT IN V2 YET!**
-
-The variable will not be recalculated as other variables are changed. This is good for variables that are meant to be **inputs only**. For example, we don't want our calculators re-calculating someones measured height, weight, etc.
-
-The **user can override this setting** in the variable menu (displayed when you click the grey area to the right of the variable).
-
-Locked permanently
-^^^^^^^^^^^^^^^^^^
-
-**NOT IN V2 YET!**
-
-Same as the locked function above, but now the **user cannot override** the setting.
-
-Don't format
-^^^^^^^^^^^^
-
-**NOT IN V2 YET!**
-
-When checked, **formatting will not be applied to the number** after the user has finished entering the number. For example, the number 123456 is usual displayed as 123,456. With formatting turned off, it's displayed as 123456.
-
-This is useful, for example, if you have a binary input variable, so using the thousand separator doesn't make sense.
