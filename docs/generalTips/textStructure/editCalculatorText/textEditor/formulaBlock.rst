@@ -216,5 +216,6 @@ Useful LaTeX resources
 Here are some resources that will help you create LaTeX equations.
 
 * `KaTeX Support Table <https://katex.org/docs/support_table.html>`_ — Double-check what is supported by KaTeX, the LaTeX library Omni uses.
+* `LaTeX best practice EdApp course <https://web.edapp.com/#course/63d92b7d8d1fd702937473b3>`_ — Omni in-house course on LaTeX basics and how we use LaTeX at Omni.
 * `Detexify LaTeX handwritten symbol recognition <https://detexify.kirelabs.org/classify.html>`_ — Allows you to draw a math symbol and gives you the LaTeX code.
 * `Mathpix Snip <https://mathpix.com/>`_ — Convert images (including handwritten formulas) and PDFs into LaTeX code.
