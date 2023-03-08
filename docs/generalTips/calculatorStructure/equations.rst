@@ -192,7 +192,9 @@ Within an equation, we can have a basic ``if-else`` block using the ``if_else()`
 
 ``variable1 = if_else(variable2 > n, [expr_true], [expr_false])``
 
-where ``n`` is some value, ``[expr_true]`` is what to evaluate if the condition is true, and ``[expr_false]`` is the value to return if the condition is false. These can be any expression we want: numbers, variable, formulas and even another ``if_else`` function call.
+where ``n`` is some value, variable or function, ``[expr_true]`` is what to evaluate if the condition is true, and ``[expr_false]`` is the value to return if the condition is false. These can be any expression we want: numbers, variable, formulas and even another ``if_else`` function call.
+
+For the condition, you can only have either ``>`` or ``<``, but not equals.
 
 For more information on using ``if_else()``, see :ref:`this part<customFunctionsIfElse>` of the customJS part of this handbook.
 

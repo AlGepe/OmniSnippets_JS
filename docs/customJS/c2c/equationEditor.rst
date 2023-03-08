@@ -38,12 +38,16 @@ The ``one_way`` statement tells the engine that whatever is inside its brackets 
 There is also another useful custom "equation-function" available: ``if_else()``. As its syntax implies, it allows for assigning different values to one variable, depending on a condition. Here is how to use it:
 
 
-``variable1 = if_else(variable_2, [expr_true], [expr_false])`` 
+``variable1 = if_else(variable_2 [>|<] n, [expr_true], [expr_false])`` 
 
-Here ``[expr_true]`` and ``[expr_false]`` can be any expression we want: numbers, variable, formulas and even ``if_else`` statement.
+where:
+
+* ``[>|<]`` — Either the greater than ``>`` or smaller than ``<`` inequality. Note that you can't have equals to;
+* ``n`` — Can be a number, variable or function call (include Omni customJS defined functions); and
+* ``[expr_true]`` and ``[expr_false]`` — Can be any expression we want: numbers, variable, formulas and even ``if_else`` statement.
 
 .. warning::
-  While the expressions inside an ``if_else`` can be any value, variable or formula, the condition can only be a number (why would you do that, though?) or a variable. If you use something else as a condition you will probably get a saving error without a message explaining what went wrong; be careful!
+  While the expressions inside an ``if_else`` can be any value, variable or formula, the condition must be a comparison between two numbers, variables or the output of functions. If you use something else as a condition you will probably get a saving error without a message explaining what went wrong; be careful!
 
 The usage of ``if_else`` invariably causes the variable assigned to the result (``variable1`` as written above) to be output-only, due to the inability of the engine to revert an *if ... else* statement.
 
