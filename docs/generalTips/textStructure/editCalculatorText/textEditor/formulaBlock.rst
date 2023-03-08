@@ -10,7 +10,7 @@ A formula block allows you to enter a mathematical formula using **LaTex formula
 
 Let's start with something simple. The following input:
 
-.. code-block::
+.. code-block:: latex
 
   f(a,b,c) = (a^2+b^2+c^2)^3
 
@@ -25,7 +25,7 @@ will be rendered as:
 
 Here is another example:
 
-.. code-block::
+.. code-block:: latex
 
   \sum_{i=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6}
 
@@ -51,7 +51,7 @@ Aligning multiple equations in one formula block
 
 A common situation is that you are working through a calculation and you would like the equals sign to line up. Here is an example of how you do that:
 
-.. code-block::
+.. code-block:: latex
 
   \begin{aligned}
     a&=b+c \\
@@ -66,6 +66,31 @@ A common situation is that you are working through a calculation and you would l
   An example of aligning the equals signs of multiple equations.
 
 The ``\\`` starts a new line and the ampersand ``&`` tells LaTeX that we want to align the two formulas on the equals sign. If the equations are too close together, you can add an extra blank line by adding another ``\\`` at the end of an equation.
+
+Wrapping text in equations
+--------------------------
+
+If you want to use a small chuck of text as a variable but the equation ends up being too wide, you can try wrapping the text with the ``{gather*}`` environment.
+
+Here is an example:
+
+.. code-block:: latex
+
+   \begin{gather*}\rm Concrete\\[-2px]\rm volume \end{gather*} =
+   \begin{gather*}\rm Hole\\[-2px]\rm volume \end{gather*}\ - \ 
+   \begin{gather*}\rm Post\\[-2px]\rm volume \end{gather*}
+
+Which produces:
+
+.. figure:: img/formula-wrap-text.png
+  :alt: Example of wrapping text within an equation
+  :align: center
+
+Note that:
+
+* ``\rm`` or ``\mathrm`` needs to go on each line within the ``{gather*}`` environment to achieve non-italic text.
+* ``[-2px]`` is used to reduce the vertical space between the lines of the wrapped text.
+* ``\<space>`` is use around the minus sign to add a little space and clarity.
 
 .. _textEditorFormulaBlockLaTexFormatting:
 
@@ -119,11 +144,6 @@ Here are some basic formatting rules for using LaTeX and formula blocks, designe
 
   This technic helps avoid potential confusion between the LaTeX and other fonts used on the page.
 
-
-
-
-
-
 Issues with spacing
 -------------------
 
@@ -138,7 +158,9 @@ The convention with LaTeX-style formula is to have no multiplication sign (thoug
 
 You will find that LaTeX with ignore any extra spaces. You need to input one of the space codes instead, such as ``\``. So to add some spaces to the above formula, you have the input:
 
-``N = R_* \ f_p \ n_e  \ f_l  \ f_s  \ f_t  \ L``
+.. code-block:: latex
+
+   N = R_* \ f_p \ n_e  \ f_l  \ f_s  \ f_t  \ L
 
 Which gives the result:
 
@@ -166,7 +188,7 @@ Inline LaTeX formulas
 
 You can also put LaTeX-style formulas in a text block by surrounding the LaTeX with two dollar signs, like this:
 
-.. code-block::
+.. code-block:: latex
 
   This is an inline LaTeX formula: $$\sum_{i=1}^\infty\frac{1}{n^2}=\frac{\pi^2}{6}$$
 
