@@ -10,7 +10,7 @@ This is great for specifying **common presets for a variable**, or to create swi
 How to define a value select
 ----------------------------
 
-In Engine V2, there are 2 ways to define a value select:
+In Engine v2, there are 2 ways to define a value select:
 
 * Create a value select specific to the calculator from scratch; or
 * Import from a Global Value Select to store a **local copy** of it within the calculator.
@@ -18,7 +18,7 @@ In Engine V2, there are 2 ways to define a value select:
 Creating a value select
 -----------------------
 
-In Engine V2, you can create 2 different kinds of value selects:
+In Engine v2, you can create 2 different kinds of value selects:
 
 * Simple value select; and
 * Multi-level value select (documentation coming soon), of which there are two types:

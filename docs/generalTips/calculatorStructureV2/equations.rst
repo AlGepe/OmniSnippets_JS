@@ -17,7 +17,7 @@ We have three equations here, which you should immediately recognize. Each equat
 
 * A **plus button** to **add** another equation underneath the current one;
 * A **minus button** to **remove** the equation from the calculator (this may also delete the variables, if they don't appear in other equations or the additional variable names section); and
-* A **reorder button** to **move** the current equation (useful for grouping similar equations). **NOT CURRENTLY WORKING IN V2**
+* A **reorder button** to **move** the current equation (useful for grouping similar equations). **NOT CURRENTLY WORKING IN Engine v2**
 
 Always refresh the preview or save after making changes to the equations section
 --------------------------------------------------------------------------------
@@ -32,11 +32,13 @@ Generally, you should try to use **descriptive names** so someone else reading y
 .. warning::
   DON'T name any of your variable with a name from this list: https://www.tutorialspoint.com/What-are-Reserved-Keywords-in-Python
 
+.. note::
+  The default label of a newly created variable consists of the variable name with underscores replaced with spaces and only the first letter is capitalized.
 
 Reserved variable names
 -----------------------
 
-**V2 note: No error is currently displayed in Engine V2 if you use a reserved variable name.**
+**Engine v2 note: No error is currently displayed in Engine v2 if you use a reserved variable name.**
 
 You may find that using a certain variable name gives an error. For example, trying to use the variable name `EulerGamma` gives the following error:
 
@@ -67,7 +69,7 @@ The following operators are available to you in the equations you write:
 * ``*`` — Multiplication operator; 
 * ``/`` — Divide operator;
 * ``^`` — Power operator (e.g. ``2^2 = 4``); and
-* ``!`` — Factorial operator (one way). **NOT CURRENTLY WORKING IN V2**
+* ``!`` — Factorial operator (one way). **NOT CURRENTLY WORKING IN Engine v2**
 
 .. _calculatorStructureEquationsMathV2:
 
@@ -161,7 +163,7 @@ Factorial function
 Forcing a one-way function
 --------------------------
 
-**NOT CURRENTLY WORKING IN V2**
+**NOT CURRENTLY WORKING IN Engine v2**
 
 There is a special function, ``one_way()``, that turns whatever is inside into a variable that the user cannot edit. So instead of the default case where the user can edit both inputs and outputs, the user can only edit the inputs.
 
@@ -170,7 +172,7 @@ There is a special function, ``one_way()``, that turns whatever is inside into a
 Basic conditional statement
 ---------------------------
 
-**NOT CURRENTLY WORKING IN V2**
+**NOT CURRENTLY WORKING IN Engine v2**
 
 Within an equation, we can have a basic ``if-else`` block using the ``if_else()`` function. Its basic syntax is:
 

@@ -144,7 +144,7 @@ You just need to load the revision you had **before** you stated adding the new 
 Revisions with other calculators as parents
 -------------------------------------------
 
-If you :ref:`clone <upperPanelClone>` a calculator (clone no yet available in Engine V2) or merge the contents of another calculator to a calculator, a new revision is created with a special yellow **P** icon, indicating that the parent of a revision is another calculator (at a particular revision).
+If you :ref:`clone <upperPanelClone>` a calculator (clone no yet available in Engine v2) or merge the contents of another calculator to a calculator, a new revision is created with a special yellow **P** icon, indicating that the parent of a revision is another calculator (at a particular revision).
 
 Hovering your mouse over this icon with tell you the name and id of the other calculator, as well as the revision that was cloned/merged. You may click on the yellow **P** icon to be taken to that other calculator and revision.
 

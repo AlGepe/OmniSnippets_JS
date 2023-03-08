@@ -46,9 +46,9 @@ Variable type
 This sets the type of the variable. Here are the currently available types:
 
 * ``Numerical`` — Regular **numbers**. This is the setting for the majority of variables.
-* ``Date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually. **NOT IN V2 YET!**
-* ``Date \ time`` — Allows the user to enter a **date and time**. **NOT IN V2 YET!**
-* ``Time`` — Allows a user to enter a **time**, either using a time picker or entering it manually. **NOT IN V2 YET!**
+* ``Date`` — Allows the user to enter a **date**, using the calendar date picker or by typing one in manually. **NOT IN Engine v2 YET!**
+* ``Date \ time`` — Allows the user to enter a **date and time**. **NOT IN Engine v2 YET!**
+* ``Time`` — Allows a user to enter a **time**, either using a time picker or entering it manually. **NOT IN Engine v2 YET!**
 * ``Value select`` — Allows a value select to be associated with the variable.
 
 Rounding
@@ -117,7 +117,7 @@ Imperial default unit
 
 Set an optional Imperial default unit. This will be the default unit displayed to users in countries that use the Imperial measurement system, e.g., the US.
 
-In v2, this is set using a combination of a default unit variant and the available helper function ``userUsesImperialUnits()``.
+In Engine v2, this is set using a combination of a default unit variant and the available helper function ``userUsesImperialUnits()``.
 
 To set an imperial default unit, follow these steps:
 
@@ -199,7 +199,7 @@ Set a **default value** for users in countries who use the Imperial measurement 
 
 Generally, if you have set a **default unit** and you have specified an **Imperial default unit**, you should set an Imperial default value. Otherwise, your calculator may not work as expected in Imperial unit countries.
 
-In v2, this is set using a combination of default value variant and the available helper function ``userUsesImperialUnits()``
+In Engine v2, this is set using a combination of default value variant and the available helper function ``userUsesImperialUnits()``
 To set an imperial default value, follow these steps:
 
 #. Create a default value variant by clicking the |plus icon| symbol next to that field ('Default value').
@@ -247,7 +247,7 @@ Other attributes not yet implemented in V2
 Locked
 ^^^^^^
 
-**NOT IN V2 YET!**
+**NOT IN Engine v2 YET!**
 
 The variable will not be recalculated as other variables are changed. This is good for variables that are meant to be **inputs only**. For example, we don't want our calculators re-calculating someones measured height, weight, etc.
 
@@ -256,15 +256,15 @@ The **user can override this setting** in the variable menu (displayed when you 
 Locked permanently
 ^^^^^^^^^^^^^^^^^^
 
-**NOT IN V2 YET!**
+**NOT IN Engine v2 YET!**
 
 Same as the locked function above, but now the **user cannot override** the setting.
 
 Don't format
 ^^^^^^^^^^^^
 
-**NOT IN V2 YET!**
+**NOT IN Engine v2 YET!**
 
-When checked, **formatting will not be applied to the number** after the user has finished entering the number. For example, the number 123456 is usual displayed as 123,456. With formatting turned off, it's displayed as 123456.
+When checked, **formatting will not be applied to the number** after the user has finished entering the number. For example, the number 123456 is usually displayed as 123,456. With formatting turned off, it's displayed as 123456.
 
 This is useful, for example, if you have a binary input variable, so using the thousand separator doesn't make sense.

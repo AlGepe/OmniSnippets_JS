@@ -1,6 +1,6 @@
 .. _editCalculator:
 
-Edit calculator (engine v1)
+Edit calculator (Engine v1)
 ===========================
 
 The page is the heart of any Omni calculator. It defines the name and category, equations and code, variables and units, conditions and tests of the calculator. And much more!

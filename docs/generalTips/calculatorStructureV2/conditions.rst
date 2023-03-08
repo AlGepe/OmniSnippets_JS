@@ -3,7 +3,7 @@
 Conditions
 ==========
 
-**NOT FULLY WORKING YET IN V2**
+**NOT FULLY WORKING YET IN Engine v2**
 
 We can enforce conditions on what the user can input for certain variables. We might want to do this for a variety of reasons:
 

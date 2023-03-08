@@ -3,7 +3,7 @@
 Value setters
 =============
 
-In Engine V2, value setting is achieved by **adding extra data to value selects**, rather than using customJS, as was the case in Engine V1.
+In Engine v2, value setting is achieved by **adding extra data to value selects**, rather than using customJS, as was the case in Engine V1.
 
 Let's go through an example of setting the population density by continent.
 

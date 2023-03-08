@@ -18,7 +18,7 @@ The upper panel of the edit calculator page contains the following items on the 
 * **Name** — Name of the calculator.
 * **Calculator** — This becomes a clickable link back to the edit calculator page in the text editor.
 * **Text** — Takes you to the text editing page.
-* **www** — Takes you to frontend web page rendering of the calculator. Two links will be shown if the published revision is different to the current revision. **NOT YET WORKING IN V2**
+* **www** — Takes you to frontend web page rendering of the calculator. Two links will be shown if the published revision is different to the current revision. **NOT YET WORKING IN Engine v2**
 
 .. |save button| image:: img/save-button.png
   :alt: Save button
@@ -30,6 +30,13 @@ On the right-hand side there is the all-important **save** button. When you firs
 
 When you press the save button, look out for the **message** in the bottom right corner, which tells you whether the save was successful, or if there is an error that needs correcting.
 
+Saving adds a new revision to the revision history and saves the calculator to Omni servers.
+
+In a change from Engine v1, a save is no longer required change adding or making changes to the Equations or Conditions section of the calculator editor page. You can use the reload button instead (see next section).
+
+.. note::
+  You may also use the keyboard shortcut ``Ctrl+S`` (``Cmd+S`` on Macs) to save the calculator.
+
 .. |reload button| image:: img/reload-button.png
   :alt: Reload button
 
@@ -37,6 +44,9 @@ Reload preview button |reload button|
 -------------------------------------
 
 After making a change to the calculator, you need to **press the Refresh calculator preview button** to see the change reflected in the calculator preview.
+
+.. note::
+  You may also use the keyboard shortcut ``Ctrl+E`` (``Cmd+E`` on Macs) to reload the calculator.
 
 Calculator tools ⚙️
 -------------------

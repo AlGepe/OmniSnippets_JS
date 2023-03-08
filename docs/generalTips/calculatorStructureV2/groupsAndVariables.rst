@@ -51,6 +51,14 @@ Creating a group
 
   ؜
 
+  The group name will show up only when the condition evaluates to "True".
+
+.. figure:: img/group-conditional-visible-2.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
 5. You may also **add a short description** about the group in the "**Description**" field. This will also be visible to users.
 
 .. figure:: img/create-group-4.png
@@ -139,7 +147,7 @@ At any time, you may click the "**Refresh**" button to preview how the group wil
   :alt: Click the refresh button to see the changes in the calculator preview
   :align: center
 
-**UPDATE FOR V2 COMING SOON...**
+**UPDATE FOR Engine v2 COMING SOON...**
 
 Blocks
 ------
@@ -237,5 +245,5 @@ Besides variable blocks beginning created automatically from equations, you may 
   The choice of variant to be used is evaluated in a **bottom-up fashion**. So the first variant from the bottom whose condition evaluates to true will be used, in case more than one variant's conditions evaluate to true.
 
 
-**MORE UPDATES FOR V2 COMING SOON...**
+**MORE UPDATES FOR Engine v2 COMING SOON...**
 
