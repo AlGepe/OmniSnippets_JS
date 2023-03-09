@@ -86,11 +86,13 @@ Which produces:
   :alt: Example of wrapping text within an equation
   :align: center
 
-Note that:
+Notes on this example:
 
 * ``\rm`` or ``\mathrm`` needs to go on each line within the ``{gather*}`` environment to achieve non-italic text.
 * ``[-2px]`` is used to reduce the vertical space between the lines of the wrapped text.
 * ``\<space>`` is use around the minus sign to add a little space and clarity.
+
+You can also use this method to split a sentence up on to more lines.
 
 .. _textEditorFormulaBlockLaTexFormatting:
 
