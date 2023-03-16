@@ -230,10 +230,14 @@ Text inputted here will appear **when the user clicks on the info icon** after t
 Monetary
 --------
 
+**NOT YET WORKING IN Engine v2**
+
 Check this checkbox if the variable is a monetary amount. This will add the user's currency symbol as the main unit.
 
 Auto saved by default
 ---------------------
+
+**NOT YET WORKING IN Engine v2**
 
 When checked, the **variable value will be saved** in a cookie on the user's browser. So, next time the user comes back to the calculator, the last value they entered will be already displayed.
 

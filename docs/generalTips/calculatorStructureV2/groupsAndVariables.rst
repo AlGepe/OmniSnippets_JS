@@ -157,7 +157,7 @@ Along with variable blocks that are created automatically when a new equation is
 Variable blocks
 ^^^^^^^^^^^^^^^
 
-Variable blocks handle the core component of out calculators where inputs are entered and results are displayed. For more information about all of the attributes that are available for variables, visit the variable attributes section of the handbook:
+Variable blocks handle the core component of our calculators where inputs are entered and results are displayed. For more information about all of the attributes that are available for variables, visit the variable attributes section of the handbook:
 
 .. toctree::
     :maxdepth: 2
