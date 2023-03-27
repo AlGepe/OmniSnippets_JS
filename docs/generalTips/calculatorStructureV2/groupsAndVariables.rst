@@ -154,6 +154,42 @@ Blocks
 
 Along with variable blocks that are created automatically when a new equation is added to the calculator, there are also text and image blocks. Let's start with exploring variable blocks.
 
+Showing and hiding blocks
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+To show or hide blocks depending on the output of a condition, click on the :eye-icon: at the end of the block name.
+
+.. figure:: img/show-hide-blocks-1.png
+  :alt: Click on the eye icon at the end of the block name
+  :align: center
+
+  ؜
+
+Then enter a condition for when this block show be shown. It can refer to any of the other variables in the calculator.
+
+.. figure:: img/show-hide-blocks-3.png
+  :alt: Enter a condition for when the block should be visible
+  :align: center
+
+  ؜
+
+.. tip::
+  To only show a block if another variable is equal to a specific value (such as a variable acting as a switch with a value select), use the ``==`` operator.
+
+So in this very simple case, variable C is only shown when its value is less than 10.
+
+.. figure:: img/show-hide-blocks-4.png
+  :alt: Variable c shows when its value is less than 10
+  :align: center
+
+  Variable C is shown when its value is less than 10.
+
+.. figure:: img/show-hide-blocks-5.png
+  :alt: Variable c is hidden when its value is 10 or more
+  :align: center
+
+  It is hidden if its value is greater is 10 or more.
+
 Variable blocks
 ^^^^^^^^^^^^^^^
 
@@ -244,6 +280,59 @@ Besides variable blocks beginning created automatically from equations, you may 
 .. note::
   The choice of variant to be used is evaluated in a **bottom-up fashion**. So the first variant from the bottom whose condition evaluates to true will be used, in case more than one variant's conditions evaluate to true.
 
+
+Copying variable attributes to other variables
+""""""""""""""""""""""""""""""""""""""""""""""
+
+To help you save time when creating similar variables, you can copy attributes to other variables. Here's how to do it:
+
+1. Click the "COPY ATTRIBUTES TO" button.
+
+.. figure:: img/copy-attributes-step-1.png
+  :alt: Click on copy attribute to button
+  :align: center
+
+  ؜
+
+2. Click the down-pointing arrow icon to select the target variables to copy attributes to.
+
+.. figure:: img/copy-attributes-step-2.png
+  :alt: Click the down-pointing arrow icon to select the target variables to copy attributes to.
+  :align: center
+
+  ؜
+
+3. Click checkboxes corresponding to each variable that you want to copy to.
+
+.. figure:: img/copy-attributes-step-3.png
+  :alt: Click checkboxes corresponding to each variable that you want to copy to.
+  :align: center
+
+  ؜
+
+4. Select the attributes to copy. All attributes apart from help text and variable label are selected by default. To remove any attributes, **click the cross next** to each attribute name. To select other attributes, click the down-pointing icon.
+
+.. figure:: img/copy-attributes-step-4.png
+  :alt: Select the attributes to copy.
+  :align: center
+
+  ؜
+
+5. Then you have the list of variable attributes to select from.
+
+.. figure:: img/copy-attributes-step-5.png
+  :alt: Select from list of variable attributes
+  :align: center
+
+  ؜
+
+6. Click the "APPLY" button to perform the copying of the selected attributes to the target variables.
+
+.. figure:: img/copy-attributes-step-6.png
+  :alt: Click the "APPLY" button to perform the copying
+  :align: center
+
+  ؜
 
 **MORE UPDATES FOR Engine v2 COMING SOON...**
 
