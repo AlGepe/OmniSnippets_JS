@@ -230,8 +230,6 @@ Text inputted here will appear **when the user clicks on the info icon** after t
 Monetary
 --------
 
-**NOT YET WORKING IN Engine v2**
-
 Check this checkbox if the variable is a monetary amount. This will add the user's currency symbol as the main unit.
 
 Auto saved by default
@@ -243,7 +241,10 @@ When checked, the **variable value will be saved** in a cookie on the user's bro
 
 This is useful for things that are not likely to change very often or by much, such as a person's **age**, **weight**, etc.
 
+Output only
+-----------
 
+This setting forces the variable to be output only and not allow the user to input values. You can use this setting instead of employing the ``one_way()`` function in the equations section.
 
 Other attributes not yet implemented in V2
 ------------------------------------------
