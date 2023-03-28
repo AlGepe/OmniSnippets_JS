@@ -157,7 +157,7 @@ Along with variable blocks that are created automatically when a new equation is
 Showing and hiding blocks
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To show or hide blocks depending on the output of a condition, click on the :eye-icon: at the end of the block name.
+To show or hide blocks depending on the output of a condition, click on the |eye icon| icon at the end of the block name.
 
 .. figure:: img/show-hide-blocks-1.png
   :alt: Click on the eye icon at the end of the block name
@@ -165,7 +165,7 @@ To show or hide blocks depending on the output of a condition, click on the :eye
 
   ؜
 
-Then enter a condition for when this block show be shown. It can refer to any of the other variables in the calculator.
+Then enter a condition for when this block will be shown. It can refer to any of the other variables in the calculator.
 
 .. figure:: img/show-hide-blocks-3.png
   :alt: Enter a condition for when the block should be visible
