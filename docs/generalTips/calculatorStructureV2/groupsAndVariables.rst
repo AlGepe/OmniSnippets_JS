@@ -174,21 +174,21 @@ Then enter a condition for when this block show be shown. It can refer to any of
   ؜
 
 .. tip::
-  To only show a block if another variable is equal to a specific value (such as a variable acting as a switch with a value select), use the ``==`` operator.
+  To only show a block if another variable is **equal** to a specific value (such as a variable acting as a switch with a value select), use the ``==`` operator.
 
-So in this very simple case, variable C is only shown when its value is less than 10.
+In this example, we have radio buttons that switch the calculator between addition mode and multiplication mode. When the variable ``operator`` equals 1, the result for addition is shown. When it equals 2, the variable that contains the result for multiplication is shown.
 
 .. figure:: img/show-hide-blocks-4.png
   :alt: Variable c shows when its value is less than 10
   :align: center
 
-  Variable C is shown when its value is less than 10.
+  The variable holding the result for addition is shown when **operator == 1** is true.
 
 .. figure:: img/show-hide-blocks-5.png
   :alt: Variable c is hidden when its value is 10 or more
   :align: center
 
-  It is hidden if its value is greater is 10 or more.
+  The variable holding the result for multiplication is shown when **operator == 2** is true.
 
 Variable blocks
 ^^^^^^^^^^^^^^^
