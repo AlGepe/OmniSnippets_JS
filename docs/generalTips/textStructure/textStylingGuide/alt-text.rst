@@ -1,3 +1,5 @@
+.. _textStylingGuideAltText:
+
 Alt text for images
 ===================
 
@@ -43,7 +45,9 @@ Now that we know how important alt text is, let us see how we can optimize them.
 
 5. **Don't** use the words “image of”, “picture of”, etc in the alt text.
 
-6. It is not a hard and fast rule, but the Web Accessibility Initiative **recommends using punctuations** in the alt text. It makes the information easier to understand when read by a screen reader. Capitalization is also recommended but not necessary. 
+6. It is not a hard and fast rule, but the Web Accessibility Initiative **recommends using punctuations** in the alt text. It makes the information easier to understand when read by a screen reader. Capitalization is also recommended but not necessary.
+
+7. **Don't** include LaTeX or Markdown syntax in alt texts.
 
 What does a good alt text look like? 
 ------------------------------------

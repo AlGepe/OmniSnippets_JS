@@ -25,6 +25,8 @@ Let's take a look at how to add an image in your calculator. For this example we
                 {afterVariable:'myVariable', alwaysShown: false}
                 );
 
+For information on the **rules for writing alt texts**, please see the :ref:`Alt text for images <textStylingGuideAltText>` section of the Text Styling Guide.
+
 .. tip::
     
     If you want to add a picture on top of the calculator create a dummy variable with any default value, place it at the top and hide it using :ref:`hideVariables<hidevars>`. Then place your image after the dummy variable.

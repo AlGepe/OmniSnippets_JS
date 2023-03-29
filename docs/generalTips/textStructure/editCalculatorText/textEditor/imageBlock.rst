@@ -40,7 +40,9 @@ Click on the three-dot icon to display the options menu for an image block, whic
 Alt text
 --------
 
-Every image **needs** to have some alternative text (alt text) to display to the user if the image can't loaded, or to be read out to user who use screen readers. Describe what the image is about in a short sentence, for example, "pentagon shape with its diagonal (d) and height (h) marked".
+Every image **needs** to have some alternative text (alt text) to display to the user if the image can't loaded, or to be read out to user who use screen readers. Describe what the image is about in a short sentence, for example, "Pentagon shape with its diagonal (d) and height (h) marked.".
+
+For more rules for writing alt texts, please see the :ref:`Alt text for images <textStylingGuideAltText>` section of the Text Styling Guide.
 
 .. warning::
   **You cannot save the calculator text if an image is missing its alt text.** The three-dot menu button of the image block without alt text will be highlighted in red and when you open it, you should see an error message asking you to provide an alt text.
