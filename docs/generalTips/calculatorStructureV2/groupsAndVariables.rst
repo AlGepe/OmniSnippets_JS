@@ -154,8 +154,8 @@ Blocks
 
 Along with variable blocks that are created automatically when a new equation is added to the calculator, there are also text and image blocks. Let's start with exploring variable blocks.
 
-Showing and hiding blocks
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Showing and hiding blocks and groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To show or hide blocks depending on the output of a condition, click on the |eye icon| icon at the end of the block name.
 
@@ -189,6 +189,12 @@ In this example, we have radio buttons that switch the calculator between additi
   :align: center
 
   The variable holding the result for multiplication is shown when **operator == 2** is true.
+
+.. tip::
+  If you need to have a variable that is always hidden, set the condition to ``false``.
+
+.. tip::
+  A similar method can be used to show and hide groups of blocks conditionally.
 
 Variable blocks
 ^^^^^^^^^^^^^^^

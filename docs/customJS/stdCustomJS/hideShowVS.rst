@@ -60,6 +60,13 @@ As you can see, the only necessary steps are to create a new entry with a differ
 
 Because the custom option has **no values assigned** to it and the actual variables are no shown unless the user selects ``Enter your own`` we are guaranteed that the value setter will never fall into an undefined ``uid``.
 
+.. note::
+    If you want the variables to be empty so the user is encouraged to fill it in, set the value to `null`. For example:
+
+    .. code-block:: javascript
+        
+        {"name": "Enter your own", "uid": "0", "values": {"m_star": null, "r_star": null}}}
+
 .. rubric:: Footnotes
 
 .. [#f1] Unless you have infinite time and resources in which case, can you please help me? ^^
