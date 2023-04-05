@@ -99,6 +99,20 @@ You may configure the value select in different ways depending on your need. The
         1. You will **not** be able to use this option when there are **more than 5 options**.
         2. You will have to **set a default value** for the variable when using the radio button option.
 
+.. _valueSelectsV2CheckboxOption:
+
+   c. **Checkbox** — If there is only one option (later also two), you can select the checkbox option, which looks like this:
+
+      .. figure:: img/checkbox-example.png
+       :alt: example of a checkbox value select
+       :width: 50%
+       :align: center
+
+      .. note::
+        For Value Selects with only one option, that option's value represents the value of the connected variable in the "checked" state. The unchecked state is by default associated with a **NULL value**. So use value select checkbox with a single option only if you "want" the unchecked state to be NULL. If you need the unchecked state to be a different value such as 0, we need a value select with 2 options, which will be implemented later.
+
+      For instructions on how to create a checkbox, see :ref:`Checkbox value select<valueSelectsV2Checkbox>` below.
+
 2. **Optional additional columns**: You may configure additional columns to hold additional data about each choice. For example, if you are listing car models, you could use additional columns to configure each model's mileage, color, etc. *More about this option at a later date in the value setter section.*
 
 .. figure:: img/vs-optional-columns.png
@@ -107,3 +121,73 @@ You may configure the value select in different ways depending on your need. The
        :align: center
 
 |
+
+.. _valueSelectsV2Checkbox:
+
+Checkbox value select
+^^^^^^^^^^^^^^^^^^^^^
+
+To create a checkbox type variable, we first need to **create a value select of type checkbox**. A value select with one option is configurable as a checkbox. *[Future update: In future, value selects with either one option or two options will be configurable as checkbox.]*
+
+1. Create the value select checkbox by clicking "Add first value select".
+
+.. figure:: img/checkbox-step1.png
+  :align: center
+
+  ؜
+
+2. Configure the value select with **only one** option.
+
+.. figure:: img/checkbox-step2.png
+  :align: center
+
+  ؜
+
+3. The value of the option will represent the value of the connected variable in the **"checked" state**.
+
+.. figure:: img/checkbox-step3.png
+  :align: center
+
+  ؜
+
+4. From the "Type" dropdown, choose **"checkbox"**. This option will show up **only if** the value select has a single value. *[Future update: we plan to show it for value selects with 2 options too.]*
+
+.. figure:: img/checkbox-step4.png
+  :align: center
+
+  ؜
+
+5. Click on the variable that should be tied to the value select checkbox.
+
+.. figure:: img/checkbox-step5.png
+  :align: center
+
+  ؜
+
+6. Choose "Value select" option in the "Variable type" attribute.
+
+.. figure:: img/checkbox-step6.png
+  :align: center
+
+  ؜
+
+7. Choose the value select checkbox that was created.
+
+.. figure:: img/checkbox-step7.png
+  :align: center
+
+  ؜
+
+8. Reload the calculator preview and now the variable will show up as a checkbox in the calculator panel.
+
+.. figure:: img/checkbox-step8.png
+  :align: center
+
+  ؜
+
+9. Checking the checkbox will set the value of the variable to the one configured in the value select.
+
+.. figure:: img/checkbox-step9.png
+  :align: center
+
+  ؜
