@@ -191,3 +191,11 @@ To create a checkbox type variable, we first need to **create a value select of 
   :align: center
 
   ؜
+
+.. tip::
+  You can either use the variable label to specify what checking a box means or the value select option name. The latter is nice to make a list of checkboxes by removing the label for each variable.
+
+  .. figure:: img/checkbox-tip.png
+    :align: center
+
+    ؜
