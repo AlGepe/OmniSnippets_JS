@@ -77,3 +77,15 @@ On the right-hand side of the page, a **full preview** of your calculator is sho
   :align: center
 
   Calculator preview on the right-hand side of the edit calculator page.
+
+Under the preview of the calculator, there are two useful buttons that **help you in testing your calculator** (resetting it without having to make a change to it).
+
+Reload calculator button
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Pressing this button will **reload the calculator** but keep default and auto-saved values. In future it will also remember the last units set by the user.
+
+Clear all changes button
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+This button **clears all of the user data**, including auto-saved values and user selected units. It does not clear default values. 

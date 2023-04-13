@@ -276,8 +276,6 @@ Check this checkbox if the variable is a monetary amount. This will add the user
 Auto saved by default
 ---------------------
 
-**NOT YET WORKING IN Engine v2**
-
 When checked, the **variable value will be saved** in a cookie on the user's browser. So, next time the user comes back to the calculator, the last value they entered will be already displayed.
 
 This is useful for things that are not likely to change very often or by much, such as a person's **age**, **weight**, etc.
