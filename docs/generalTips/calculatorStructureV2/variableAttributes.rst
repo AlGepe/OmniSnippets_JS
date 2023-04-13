@@ -40,6 +40,44 @@ Label
 
 This is the name of the variable as **displayed to the user**. Make sure it will be easily understood by the user and starts with a capital letter (but no more). If the variable is associated with an equation in the calculator text, it's a good idea to put the algebraic reference in brackets after the name.
 
+Alterative label
+^^^^^^^^^^^^^^^^
+
+You can conditionally change or hide the label of a variable. Here's how:
+
+1. Click on the |plus icon| icon at the end of the label input box.
+
+.. figure:: img/alternative-label-1.png
+  :alt: Click on the plus icon at the end of the label input box
+  :align: center
+
+  ؜
+
+2. Enter an alternative label to be displayed or leave blank to make the label disappear.
+
+.. figure:: img/alternative-label-2.png
+  :alt: Enter an alternative label
+  :align: center
+
+  ؜
+
+3. Enter a condition when the alternative label should be displayed.
+
+.. figure:: img/alternative-label-condition.png
+  :alt: Enter a condition when the alternative label should be displayed
+  :align: center
+
+  ؜
+
+4. Now if the cost is greater than 100, a cheeky comment is displayed in the label.
+
+.. figure:: img/alternative-label-result.png
+  :alt: End result of displaying an alternative label
+  :align: center
+
+  ؜
+
+
 Variable type
 -------------
 
@@ -54,7 +92,10 @@ This sets the type of the variable. Here are the currently available types:
 Rounding
 --------
 
-Here you can select the **rounding** of variable values. You have a choice of different levels of **relative rounding** (e.g., 1/10K — *see Omni rounding section below*) or up to any number of **decimal places**.
+Here you can select the **rounding** method and amount of variable values. You have a choice of different levels of **relative rounding** (e.g., 1/10K — *see Omni rounding section below*) or up to any number of **decimal places**.
+
+.. note::
+  When the **default option** is selected, the variable will use whatever site-wide default rounding is. You can see what it currently is in brackets. Note that this might change in the future.
 
 .. figure:: img/round-to-decimal.png
   :alt: example of round to a number of decimal places
@@ -246,7 +287,7 @@ Output only
 
 This setting forces the variable to be output only and not allow the user to input values. You can use this setting instead of employing the ``one_way()`` function in the equations section.
 
-Other attributes not yet implemented in V2
+Other attributes not yet implemented in v2
 ------------------------------------------
 
 Locked

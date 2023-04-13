@@ -1,7 +1,7 @@
 .. _testsV2:
 
-Calculator tests
-================
+Tests
+=====
 
 The **Tests** section allows you to set-up tests for your calculator. This is useful for double checking that your calculator gives the correct result and to check that any future changes you make still give the same correct result.
 
