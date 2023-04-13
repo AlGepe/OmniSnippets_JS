@@ -242,6 +242,8 @@ If you need to start an item with a number and a period, you can escape the peri
 |   * I think 1969 was second best. | * I think 1969 was second best. |
 +-----------------------------------+---------------------------------+
 
+.. _markdownAddingElementsToListItems:
+
 Adding elements to list items
 """""""""""""""""""""""""""""
 

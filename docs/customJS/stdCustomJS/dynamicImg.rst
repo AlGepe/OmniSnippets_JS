@@ -28,7 +28,7 @@ This method is typically used to show images at the top of the calculator. For i
 .. seealso::
     Check out the resulting calculator at `Dynamic Image (Array) <https://www.omnicalculator.com/adminbb/calculators/1945>`__ on BB.
 
-This method is ideal for value selects and value setters with custom ``uid``.  In the example we use a value select for simplicity, to do the same with a value setter you need to apply the procedure to :ref:`Use a Value Setter as a Value Select <customVsetter>`.
+This method is ideal for value selects and value setters with custom ``uid``.
 
 .. code-block:: javascript
     :linenos:
