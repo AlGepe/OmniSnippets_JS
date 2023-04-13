@@ -3,7 +3,8 @@
 Conditions
 ==========
 
-**NOT FULLY WORKING YET IN Engine v2**
+.. note::
+  Conditions are currently triggered even for empty/null variable blocks but this behavior will change in future.
 
 We can enforce conditions on what the user can input for certain variables. We might want to do this for a variety of reasons:
 
@@ -34,11 +35,17 @@ In more detail, here are step-by-step instructions:
 #. Select a **variable** to display the error message on.
 #. To apply a new or changed condition, you **need to refresh the preview or save** the calculator before it is reflected in the calculator preview.
 
+.. figure:: img/conditions-example.png
+  :alt: example of the error message displayed on a variable 
+  :align: center
+
+  Example of a condition being triggered where the condition is ``radius > 0``.
+
 .. note::
   You need to **define the condition in terms of the base unit** of the variable. So if you change a variable's base unit, the values in its conditions would need to be converted to the new base unit.
 
 .. warning::
-  When a condition is triggered, the **calculator and any CustomJS code you have written is never run!** The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. E.g., give the range that is accepted.
+  When a condition is triggered, the **calculator and any CustomJS code you have written is never run!** The calculator is stopped until the user enters the correct input the condition is looking for. Therefore, the condition message needs to give enough detail to let the **user know how to fix the problem**. For example, give the range that is accepted.
 
 
 Condition inequality operators
@@ -46,17 +53,19 @@ Condition inequality operators
 
 You can use the following inequality operators in your conditions:
 
-* ``<`` – Less than;
-* ``>`` – Greater than;
-* ``<=`` – Less than or equal to; and
-* ``>=`` – Greater than or equal to.
+* ``<`` — Less than;
+* ``>`` — Greater than;
+* ``<=`` — Less than or equal to;
+* ``>=`` — Greater than or equal to;
+* ``!=`` — Not equal to; and
+* ``==`` — Equal to.
 
 Specifying multiple conditions
 ------------------------------
 
-To save writing serval rules, all with the same message, you can combine them into on rule by specifying more than one inequality in the **Rule** input field.
+To save writing serval rules, all with the same message, you can combine them into one rule by specifying more than one inequality in the **Rule** input field.
 
-You do this by using a **comma** to separate each rule. For example, ``a > 3, a < 5`` means than ``a`` should be greater than 3, but less than 5.
+You do this by using the logical operators ``and`` and ``or`` between each rule. For example, ``a > 3 and a < 5`` means than ``a`` should be greater than 3, but less than 5.
 
 Using functions in conditions
 -----------------------------
@@ -68,8 +77,8 @@ Using math.js functions as condition tests
 
 You can use some `math.js functions <https://mathjs.org/docs/reference/functions.html>`_ in your condition rules. Two of the most useful are:
 
-* ``isInteger(a)`` – The value ``a`` must be an integer;
-* ``isPrime(a)`` – The value ``a`` must be a prime number; and
+* ``isInteger(a)`` — The value ``a`` must be an integer;
+* ``isPrime(a)`` — The value ``a`` must be a prime number; and
 * ``unequal(a, b)`` — The values ``a`` and ``b`` must not be equal. 
 
 Using Omni.define functions as condition tests
