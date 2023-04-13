@@ -139,6 +139,7 @@ Editing and deleting GVS options
 4. Then click "Save" to save the Global Value Select. Now all variable blocks across all calculators that are linked to this specific Global Value Select will have the updated options and values.
 
 .. figure:: ../img/global-vs-19.png
+  :width: 100%
   :align: center
 
   ؜
@@ -154,3 +155,4 @@ Editing and deleting GVS options
     :align: center
 
     ؜
+
