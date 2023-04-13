@@ -3,6 +3,11 @@
 Value selects
 =============
 
+.. toctree::
+  :hidden:
+
+  global-vs/globalValueSelect
+
 Value selects allow you to create a **drop-down menu of textual options** for the user to select from instead of entering a number.
  
 This is great for specifying **common presets for a variable**, or to create switches that turn calculator features on and off.
@@ -13,7 +18,7 @@ How to define a value select
 In Engine v2, there are 2 ways to define a value select:
 
 * Create a value select specific to the calculator from scratch; or
-* Import from a Global Value Select to store a **local copy** of it within the calculator.
+* Import from a :ref:`Global Value Select<globalValueSelectsV2>` to store a **local copy** of it within the calculator.
 
 Creating a value select
 -----------------------
