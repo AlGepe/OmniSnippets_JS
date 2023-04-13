@@ -81,7 +81,7 @@ Creating a group
 
 |collapsible| |collapsed|
 
-If the collapsable option is **not checked**, then no such icon is display and the group's contents is always displayed (baring other conditional visibility settings).
+If the collapsable option is **not checked**, then no such icon is displayed and the group's contents are always displayed (barring other conditional visibility settings).
 
 .. figure:: img/group-not-collapsible.png
    :alt: Example of a non-collapsable group
