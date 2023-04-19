@@ -7,7 +7,7 @@ Numbers, dates and times
 Formatting of numbers
 ---------------------
 
-* **Decimal separator** — Use a comma (not a comma) in decimal numbers:
+* **Decimal separator** — Use a dot (not a comma) in decimal numbers:
 
   * :green:`Calibrators can be 3.1, 4.0, or 4.9 in diameter.`
   * :red:`Calibrators can be 3,1, 4,0, or 4,9 in diameter.`
@@ -43,7 +43,7 @@ To avoid possible confusion for visitors from the UK and Europe, you can opt to 
 If the calculator text is targeting a particular country, use the format used in that country:
 
 * UK & much of Europe - day/month/year - 13/04/19
-* Asia - year/month/day - 13/04/19
+* Asia - year/month/day - 2019/04/13
 
 Use cardinal numbers (1, 2, 3) rather than ordinal numbers (1st, 2nd, 3rd) when writing the date.
 

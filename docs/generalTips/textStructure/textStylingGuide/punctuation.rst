@@ -22,7 +22,7 @@ Spaces
 
 * Don't add space before a question mark, exclamation mark, colon, etc.
 
-  * :red:`How do I calculator margin ?`
+  * :red:`How do I calculate margin ?`
 
 * Add spaces around the operators in equations (e.g., ``+``, ``-``, ``×``, ``/``):
 
@@ -49,7 +49,7 @@ Dashes, hyphens and pauses
 
   * Scientific terms:
 
-    * :green:`b-carotene`
+    * :green:`β-Carotene`
 
   * Multi-word compounds:
 
@@ -63,7 +63,9 @@ Dashes, hyphens and pauses
 
     * :green:`-2 degrees Celsius`
 
-* **Long pause**: In the function of a hyphen, as an interjection, separation, explanation — use a em-dash character (``Alt + 0151``) with spaces either side:
+.. _textStylingGuidePunctuationEmDash:
+
+* **Long pause**: Use as an interjection, separation, explanation — use a em-dash character (``Alt + 0151``) with spaces either side:
 
   * :green:`What type of figure am I — is it an hourglass, a triangle, or a rectangle?`
   * :green:`Slow — or 0.9 m/s (2.8 MET)`
