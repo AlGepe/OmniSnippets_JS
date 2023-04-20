@@ -13,7 +13,7 @@ Some equations are important and essential for proper understanding of a concept
 .. note::
    For several reasons (Latex formatting problems, inconsistency in conventions between different types of patterns, etc.), we don't put punctuation after equations. So we follow the rule that we do not add dots or commas anywhere after formulas.
 
-The variables should be listed as **bullet points**, with the variables also surrounded with backticks ````` or :ref:`inline LaTeX <inlineLatex>`. Then follows a hyphen and a description of the variable, with the first letter capitalized. If the values in the list are a sentence or less, use the “; and” convention; if not, use fullstops throughout. Here's an example:
+The variables should be listed as **bullet points**, with the variables also surrounded with backticks ````` or :ref:`inline LaTeX <inlineLatex>`. Then follows an **em dash** (—) and a description of the variable, with the first letter capitalized. If the values in the list are a sentence or less, use the “; and” convention; if not, use fullstops throughout. Here's an example:
 
 .. _equations_example1:
 .. figure:: img/equations-and-variables-eg1.png
