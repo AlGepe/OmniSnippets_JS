@@ -147,12 +147,18 @@ At any time, you may click the "**Refresh**" button to preview how the group wil
   :alt: Click the refresh button to see the changes in the calculator preview
   :align: center
 
-**UPDATE FOR Engine v2 COMING SOON...**
 
 Blocks
 ------
 
 Along with variable blocks that are created automatically when a new equation is added to the calculator, there are also text and image blocks. Let's start with exploring variable blocks.
+
+.. toctree::
+      :maxdepth: 1
+      :hidden:
+
+      multicolumn-layout
+
 
 Showing and hiding blocks and groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -195,6 +201,10 @@ In this example, we have radio buttons that switch the calculator between additi
 
 .. tip::
   A similar method can be used to show and hide groups of blocks conditionally.
+
+.. seealso::
+
+  To place blocks next to each other on the same row, checkout the page on :ref:`multicolumn layout<multicolumnLayout>`.
 
 Variable blocks
 ^^^^^^^^^^^^^^^

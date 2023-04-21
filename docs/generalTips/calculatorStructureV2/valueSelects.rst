@@ -6,7 +6,7 @@ Value selects
 .. toctree::
   :hidden:
 
-  global-vs/globalValueSelect
+  value-select/globalValueSelect
 
 Value selects allow you to create a **drop-down menu of textual options** for the user to select from instead of entering a number.
  
