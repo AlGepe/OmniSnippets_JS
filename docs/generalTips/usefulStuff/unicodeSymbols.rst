@@ -32,6 +32,20 @@ Here is the list of the most commonly used symbols that you can simply copy and 
   * **·** — Interpunct (used in some units); and
   * For more sophisticated signs, check the `W3school table <https://www.w3schools.com/charsets/ref_utf_math.asp>`_.
 
+* Commonly-used Greek letters:
+
+  * **π** — Pi;
+  * **α** — Alpha;
+  * **β** — Beta;
+  * **γ** — Gamma;
+  * **Δ** — Delta;
+  * **θ** — Theta;
+  * **λ** — Lamdba;
+  * **μ** — Mu;
+  * **Ω ω** — Omega;
+  * **ϱ** — Rho; and
+  * **ϕ** — Phi.
+
 * … (ellipsis), ¶ (pilcrow sign)
  
 .. warning::
