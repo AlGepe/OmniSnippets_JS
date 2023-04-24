@@ -47,18 +47,26 @@ Here is the same calculator with a **1/4 - 3/4 split** for a 2-column layout:
 
   ؜
 
-And here are the rest of the available layouts:
+And here are the rest of the available layouts for 2-columns:
 
-.. image:: img/multicolumn-2-col-13-23.png
-  :width: 32%
+.. list-table::
 
-.. image:: img/multicolumn-2-col-34-14.png
-  :width: 32%
+  * - .. figure:: img/multicolumn-2-col-13-23.png
+        :width: 100%
+  
+        1/3 - 2/3 split.
 
-.. image:: img/multicolumn-2-col-23-13.png
-  :width: 32%
+    - .. figure:: img/multicolumn-2-col-34-14.png
+        :width: 100%
+  
+        3/4 - 1/4 split.
 
-.. centered:: *Left: 1/3 - 2/3 split. ؜؜ Middle: 3/4 - 1/4 split. ؜؜ Right: 2/3 - 1/3 split.*
+    - .. figure:: img/multicolumn-2-col-23-13.png
+        :width: 100%
+      
+        2/3 - 1/3 split.
+
+.. centered:: *Click on an example above to zoom-in. Press the back button to come back here.*
 
 Three-column layouts
 --------------------
@@ -80,19 +88,29 @@ The choices available for 3-column layouts are:
 
 Here is what all the options for a 3-column layout look like:
 
-.. image:: img/multicolumn-3-col-13-13-13.png
-  :width: 49%
+.. list-table::
 
-.. image:: img/multicolumn-3-col-14-14-24.png
-  :width: 49%
+  * - .. figure:: img/multicolumn-3-col-13-13-13.png
+        :width: 100%
+  
+        1/3 - 1/3 - 1/3 split.
 
-.. image:: img/multicolumn-3-col-14-24-14.png
-  :width: 49%
+    - .. figure:: img/multicolumn-3-col-14-14-24.png
+        :width: 100%
+  
+        1/4 - 1/4 - 2/4 split.
 
-.. image:: img/multicolumn-3-col-24-14-14.png
-  :width: 49%
+  * - .. figure:: img/multicolumn-3-col-14-24-14.png
+        :width: 100%
+      
+        1/4 - 2/4 - 1/4 split.
 
-.. centered:: *Top-left: 1/3 - 1/3 - 1/3 split. ؜؜ Top-right: 1/4 - 1/4 - 2/4 split. ؜؜ Bottom-left: 1/4 - 2/4 - 1/4 split.  ؜؜ Bottom-right: 2/4 - 1/4 - 1/4 split.*
+    - .. figure:: img/multicolumn-3-col-24-14-14.png
+        :width: 100%
+      
+        2/4 - 1/4 - 1/4 split.
+
+.. centered:: *Click on an example above to zoom-in. Press the back button to come back here.*
 
 Four-column layouts
 -------------------
@@ -115,19 +133,33 @@ For a 4-column layout, the default column width split is **1/4 - 1/4 - 1/4 - 1/4
 
 Here is what all the options for a 4-column layout look like:
 
-.. image:: img/multicolumn-4-col-14-14-14-14.png
-  :width: 49%
+.. list-table::
 
-.. image:: img/multicolumn-4-col-39-29-29-29.png
-  :width: 49%
+  * - .. figure:: img/multicolumn-4-col-14-14-14-14.png
+        :width: 100%
+  
+        1/4 - 1/4 - 1/4 - 1/4 split.
 
-.. image:: img/multicolumn-4-col-29-39-29-29.png
-  :width: 32%
+    - .. figure:: img/multicolumn-4-col-39-29-29-29.png
+        :width: 100%
+  
+        3/9 - 2/9 - 2/9 - 2/9 split.
 
-.. image:: img/multicolumn-4-col-29-29-29-39.png
-  :width: 32%
+.. list-table::
 
-.. image:: img/multicolumn-4-col-29-29-39-29.png
-  :width: 32%
+  * - .. figure:: img/multicolumn-4-col-29-39-29-29.png
+        :width: 100%
+      
+        2/9 - 3/9 - 2/9 - 2/9 split.
 
-.. centered:: *Top-left: 1/4 - 1/4 - 1/4 - 1/4 split. ؜؜ Top-right: 3/9 - 2/9 - 2/9 - 2/9 split. ؜؜ Bottom-left: 2/9 - 3/9 - 2/9 - 2/9 split.  ؜؜ Bottom-middle: 2/9 - 2/9 - 3/9 - 2/9 split. ؜؜ Bottom-right: 2/9 - 2/9 - 2/9 - 3/9 split.*
+    - .. figure:: img/multicolumn-4-col-29-29-29-39.png
+        :width: 100%
+      
+        2/9 - 2/9 - 3/9 - 2/9 split.
+
+    - .. figure:: img/multicolumn-4-col-29-29-39-29.png
+        :width: 100%
+      
+        2/9 - 2/9 - 2/9 - 3/9 split.
+
+.. centered:: *Click on an example above to zoom-in. Press the back button to come back here.*
