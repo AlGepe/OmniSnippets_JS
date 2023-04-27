@@ -184,14 +184,18 @@ Check this box if you have a variable where the unit is the reciprocal unit. For
 Unit prefix
 -----------
 
-The unit prefix is a piece of text that is placed *before* any units symbol. This can be useful when creating a compound unit where the first one is fixed.
+The **Unit prefix** is a piece of text that is placed *before* any units symbol. This can be useful when creating a compound unit where the first one is fixed.
 
 It can also be used to quickly **add a unit** where there is **only one choice**.
+
+Supports Markdown formatting and inline LaTeX.
+
+.. _variableAttributesV2UnitSuffix:
 
 Unit suffix
 -----------
 
-The suffix end text gets placed *after* any units symbol. Again, this is useful for creating compound units where the second part doesn't change. E.g., dollars per day ($/d) — so suffix end would equal "/d".
+The **Unit suffix** text gets placed *after* any units symbol. Again, this is useful for creating compound units where the second part doesn't change. For example, dollars per day ($/d) — so **Unit suffix** would equal "/d". Supports Markdown formatting and inline LaTeX.
 
 Base unit
 ---------
@@ -231,7 +235,7 @@ Default value
 You can specify a default value for the variable, given in its default unit.
 
 
-**DETAILS COMING SOON!** About adding more default values.
+You may specify more than one default unit to be used when certain conditions are true. The most common is when the user is coming from a country that users imperial units. **See the next section below for instructions** on how to set this up. Other helper functions in the future may also be applicable to multiple default units.
 
 Imperial default value
 ----------------------
@@ -255,10 +259,26 @@ To set an imperial default value, follow these steps:
 
   Setting a default imperial value after following the above steps.
 
+Prefix
+------
+
+.. figure:: img/prefix.png
+  :alt: example output of prefix setting
+  :align: center
+
+This setting **inserts a text string before the variable's value**. Supports Markdown formatting and inline LaTeX.
+
 Suffix
 ------
 
-**DOES NOT CURRENTLY DO ANYTHING**
+.. figure:: img/suffix.png
+  :alt: example output of suffix setting
+  :align: center
+
+If a variable has no unit switcher assigned to it, you can use the **Suffix** setting to **add a text string after the value**. This is can be used when the value only has one unit and it isn't available in an existing unit switcher. Supports Markdown formatting and inline LaTeX.
+
+.. note::
+  If you later add a unit switcher to a variable, the **Suffix** text string defined here will not be shown. If you need some text after the unit, use the :ref:`Unit suffix<variableAttributesV2UnitSuffix>` setting.
 
 .. _groupsAndVariablesHelpTextV2:
 
