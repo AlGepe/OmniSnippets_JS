@@ -152,12 +152,12 @@ Here is what all the options for a 4-column layout look like:
       
         2/9 - 3/9 - 2/9 - 2/9 split.
 
-    - .. figure:: img/multicolumn-4-col-29-29-29-39.png
+    - .. figure:: img/multicolumn-4-col-29-29-39-29.png
         :width: 100%
       
         2/9 - 2/9 - 3/9 - 2/9 split.
 
-    - .. figure:: img/multicolumn-4-col-29-29-39-29.png
+    - .. figure:: img/multicolumn-4-col-29-29-29-39.png
         :width: 100%
       
         2/9 - 2/9 - 2/9 - 3/9 split.
