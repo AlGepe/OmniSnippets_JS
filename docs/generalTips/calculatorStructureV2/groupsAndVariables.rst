@@ -197,10 +197,13 @@ In this example, we have radio buttons that switch the calculator between additi
   The variable holding the result for multiplication is shown when **operator == 2** is true.
 
 .. tip::
-  If you need to have a variable that is always hidden, set the condition to ``false``.
+  If the condition **depends on more than one variable** or function, use the logic operators ``and`` and ``or``.
 
 .. tip::
-  A similar method can be used to show and hide groups of blocks conditionally.
+  If you need to have a variable that is **always hidden**, set the condition to ``false``.
+
+.. tip::
+  A similar method can be used to **show and hide groups** of blocks conditionally. Click on the green group bar and then click on the |eye icon| icon to set when the group should be visible.
 
 .. seealso::
 

@@ -32,7 +32,7 @@ In more detail, here are step-by-step instructions:
 #. Open the **Conditions** tab and press the **Add rule** button.
 #. Use the variable's name and inequality sign and a number to define the condition. For example, ``age <= 120`` says that the variable ``age`` needs to be less than or equal to 120 years.
 #. Provide a **helpful message** to the user about why their input was rejected and what they can do to correct it. For this age condition, the message is "Age should be 120 or less."
-#. Select a **variable** to display the error message on.
+#. Select a **variable** to display the error message on. If the condition only involves a single variable, you can leave the setting as **"Detect variable"** and the correct variable will be selected for you.
 #. To apply a new or changed condition, you **need to refresh the preview or save** the calculator before it is reflected in the calculator preview.
 
 .. figure:: img/conditions-example.png
@@ -84,7 +84,10 @@ You can use some `math.js functions <https://mathjs.org/docs/reference/functions
 Using Omni.define functions as condition tests
 ----------------------------------------------
 
-If the simple inequality operators are not enough for a very complex condition, you can use Omni.define functions, as long as they return ``true`` or ``false``.
+.. note::
+  *CustomJS is not yet available in Engine v2.* 
+
+If the simple inequality operators are not enough for a very complex condition, you can use ``omni.define()`` functions, as long as they return ``true`` or ``false``.
 
 Detailed information on how to do that is covered in the CustomJS documentation section :ref:`customCondition`.
 
