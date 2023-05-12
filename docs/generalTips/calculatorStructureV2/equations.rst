@@ -17,7 +17,12 @@ We have three equations here, which you should immediately recognize. Each equat
 
 * A **plus button** to **add** another equation underneath the current one;
 * A **minus button** to **remove** the equation from the calculator (this may also delete the variables, if they don't appear in other equations or the additional variable names section); and
-* A **reorder button** to **move** the current equation (useful for grouping similar equations). **NOT CURRENTLY WORKING IN Engine v2**
+* A **reorder button** to **move** the current equation (useful for grouping similar equations).
+
+Additional variables
+--------------------
+
+Unlike in Engine v1, there is no additional variables field in v2. Instead, this feature has been moved to the **Groups and blocks** section. To learn how to create a variable that doesn't appear in an equation, see the section :ref:`Creating a variable block<groupsAndVariablesV2CreatingAVariableBlock>`.
 
 Always refresh the preview or save after making changes to the equations section
 --------------------------------------------------------------------------------
@@ -38,8 +43,6 @@ Generally, you should try to use **descriptive names** so someone else reading y
 Reserved variable names
 -----------------------
 
-**Engine v2 note: No error is currently displayed in Engine v2 if you use a reserved variable name.**
-
 You may find that using a certain variable name gives an error. For example, trying to use the variable name `EulerGamma` gives the following error:
 
 * ``Undefined symbol EulerGamma``
@@ -47,6 +50,9 @@ You may find that using a certain variable name gives an error. For example, try
 This is because it is present in the underlining Python library, but not available to us to use.
 
 You should **change your variable name** to avoid this kind of name collision.
+
+.. tip::
+  You can't use the variable name ``test`` in equations. You'll get a parse error if you do.
 
 .. _calculatorStructureEquationsConstantsV2:
 
@@ -69,7 +75,7 @@ The following operators are available to you in the equations you write:
 * ``*`` — Multiplication operator; 
 * ``/`` — Divide operator;
 * ``^`` — Power operator (e.g. ``2^2 = 4``); and
-* ``!`` — Factorial operator (one way). **NOT CURRENTLY WORKING IN Engine v2**
+* ``!`` — Factorial operator (one way).
 
 .. _calculatorStructureEquationsMathV2:
 
@@ -163,16 +169,12 @@ Factorial function
 Forcing a one-way function
 --------------------------
 
-**NOT CURRENTLY WORKING IN Engine v2**
-
 There is a special function, ``one_way()``, that turns whatever is inside into a variable that the user cannot edit. So instead of the default case where the user can edit both inputs and outputs, the user can only edit the inputs.
 
 
 
 Basic conditional statement
 ---------------------------
-
-**NOT CURRENTLY WORKING IN Engine v2**
 
 Within an equation, we can have a basic ``if-else`` block using the ``if_else()`` function. Its basic syntax is:
 

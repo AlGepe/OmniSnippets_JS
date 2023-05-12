@@ -219,6 +219,8 @@ Variable blocks handle the core component of our calculators where inputs are en
 
     variableAttributes
 
+.. _groupsAndVariablesV2CreatingAVariableBlock:
+
 Creating a variable block
 """""""""""""""""""""""""
 
