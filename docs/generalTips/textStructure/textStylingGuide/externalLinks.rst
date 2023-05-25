@@ -11,3 +11,8 @@ Links should be applied to the text in a certain way too, as outlined in the ima
 .. figure:: img/links_guide.jpg
    :alt: Where to add links
    :align: center
+
+   ؜
+
+.. warning::
+   **Don't link to Omni Calculator category or subcategory pages, or the homepage.** This is due to issues with transitioning to a multi-lingual website. 

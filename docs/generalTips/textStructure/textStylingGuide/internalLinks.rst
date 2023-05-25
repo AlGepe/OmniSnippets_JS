@@ -70,7 +70,6 @@ For linking from your new calculator
 .. note::
    You can add internal links to particular words or phrases within a sentence that provide a description of the tool. The following image serves as a guide:
 
-   .. _links_guide:
    .. figure:: img/links_guide.jpg
       :alt: Where to add links
       :align: center
@@ -79,30 +78,10 @@ For linking from your new calculator
 
    You can also explicitly state that the **link is one of our tools**, e.g., “if you want to know more, check out our circumference calculator”. In this case, always refer to the calculator as “our” or “Omni's” or some similar way to let people know they're staying on the site. The link should be on the title of the calculator, e.g. “circumference calculator” in this example.
 
-Linking to category and subcategory pages
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Do not link to category and subcategory pages
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may **link to category pages** to encourage the user to check out different calculators in the linked category. For example:
-
-  Furthermore, we invite you to check all our [financial calculators](https://www.omnicalculator.com/finance).
-
-You may also **link to a subcategory** for narrower targeting using the section reference link.
-
-To get the link to the subcategory of the current calculator, right-click on the first link underneath the calculator ("Check out X similar ... calculators") and select *"Copy Link Address"*.
-
-.. figure:: img/how-to-get-subcat-link.jpg
-      :alt: How to find a subcategory link
-      :align: center
-      
-      Right-click on the first link under the calculator and select "Copy Link Address".
-
-
-Alteratively, you can click that link and **copy the link address from the URL bar**.
-
-Here are a couple of examples:
-
-  1. Check our other useful calculators about [diabetes](https://www.omnicalculator.com/health#s-185).
-  2. Visit our [2D geometry section](https://www.omnicalculator.com/math#s-66) to see all the calculators we have to offer.
+**Don't link to Omni Calculator category or subcategory pages, or the homepage.** This is due to issues with transitioning to a multi-lingual website. 
 
   
 Do not link to collections

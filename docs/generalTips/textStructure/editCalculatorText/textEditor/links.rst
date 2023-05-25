@@ -32,3 +32,5 @@ To create a link to an external website using :ref:`Markdown <markdown>` syntax,
 
 * ``[link text](http://www.example.com)``
 
+.. warning::
+   **Don't link to Omni Calculator category or subcategory pages, or the homepage.** This is due to issues with transitioning to a multi-lingual website. 
