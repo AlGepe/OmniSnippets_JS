@@ -173,6 +173,9 @@ To set an imperial default unit, follow these steps:
 
   Setting a default imperial unit after following the above steps.
 
+.. note::
+  You can **use other conditions to set alternative default units**. However, the default value of another variable cannot be used in the conditions for a default unit variant. 
+
 .. _groupsAndVariablesWorksInReverseV2:
 
 Inversed checkbox
@@ -236,6 +239,9 @@ You can specify a default value for the variable, given in its default unit.
 
 
 You may specify more than one default unit to be used when certain conditions are true. The most common is when the user is coming from a country that users imperial units. **See the next section below for instructions** on how to set this up. Other helper functions in the future may also be applicable to multiple default units.
+
+.. warning::
+  The default value of another variable cannot be used in the conditions for a default value variant. 
 
 Imperial default value
 ----------------------
