@@ -52,6 +52,14 @@ This is because it is present in the underlining Python library, but not availab
 
 You should **change your variable name** to avoid this kind of name collision.
 
+**You cannot use the following variable names:**
+
+* ``N``
+* ``I``
+* ``O``
+* ``S``
+
+
 .. _calculatorStructureEquationsConstants:
 
 Constants
