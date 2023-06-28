@@ -32,5 +32,6 @@ You can find more information on how to autofill passwords for browsers on this 
 Multiple Bitwarden accounts
 ---------------------------
 
-If you are already a Bitwarden user and have an account, it might still prompt you to create a new account. In that case, you can `log in to multiple accounts <https://bitwarden.com/help/cli/#log-in-to-multiple-accounts>`_ and `switch between them <https://bitwarden.com/help/account-switching/>`_. 
+If you are already a Bitwarden user and have an account, it might still prompt you to create a new account. In that case, you can log in to multiple accounts and `switch between them <https://bitwarden.com/help/account-switching/>`_.
 
+Note that you can't switch between accounts on the browser extension. The best solution is to download the `desktop version <https://bitwarden.com/download/>`_ of Bitwarden and copy passwords from there.
