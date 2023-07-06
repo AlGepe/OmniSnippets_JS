@@ -61,9 +61,26 @@ The little gear icon opens a menu with the following items:
 
 * **Update details** — Opens the details of the calculator so that you can edit them. See the :ref:`Details <detailsV2>` section for more information.
 * **Show revisions** — Shows the list of revisions of the calculator. Learn all about the revisions feature here: :ref:`Revisions <calcRevisions>`.
-* **Publish** — *Coming soon.*
-* **Clone** — *Coming soon.*
+* **Publish** — Publishes the calculator onto the website. To avoid accidental publishing, you need to enter the slug of the calculator. **Don't publish any V2 calculators yet, as we don't have the V2 website.**
+* **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator. See :ref:`next section <cloningCalculatorV2>` for more details.
 * **Merge to other calculator** — *Coming soon.*
+
+.. _cloningCalculatorV2:
+
+Cloning a calculator
+^^^^^^^^^^^^^^^^^^^^
+Cloning a calculator is useful if you need to add a new feature to an existing calculator. Here are the step-by-step instructions to clone a calculator:
+
+1. Click on the gear cog icon and select **Clone**.
+
+.. figure:: img/clone-example.png
+  :alt: Details panel of a cloned calculator.
+  :align: center
+
+  Details panel of a cloned calculator.
+
+2. The details panel of the new calculator will be displayed. The slug and name are pre-filled with today's date and current time. You are free to change the slug/name to something more meaningful. The purpose is set to "temporary", as it is assumed this will not be a production calculator. If that's not the case, then change the purpose.
+3. Click the **clone button** and you will be taken to the newly created cloned calculator.
 
 .. _calculatorPreviewV2:
 

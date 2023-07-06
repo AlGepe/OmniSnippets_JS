@@ -159,6 +159,7 @@ Along with variable blocks that are created automatically when a new equation is
 
       multicolumn-layout
 
+.. _showingAndHidingBlocksGroups:
 
 Showing and hiding blocks and groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -354,6 +355,55 @@ To help you save time when creating similar variables, you can copy attributes t
   :align: center
 
   ؜
+
+Image blocks
+^^^^^^^^^^^^
+
+Image blocks allow you to display an image within the calculator widget and is very similar to the image block in the text editor.
+
+Creating an image block
+"""""""""""""""""""""""
+
+To add an image to your calculator:
+
+1. Hover over the group you wish to add the image and **click the plus icon**.
+2. Select **"Add image block"** from the dropdown list. A new empty image block will added to the group.
+3. Click on it and fill in the following details:
+
+  * **Name** — Give the image block a unique name;
+  * **Alt text** — Add a good alt text for the image, according to these :ref:`guidelines<textStylingGuideAltText>`; and
+  * **Image url** — The full URL of the image (short path option currently doesn't work).
+
+4. Other settings for the image can be reached by **clicking on the three-dot icon** after the name field. Here you can set:
+
+  .. figure:: img/image-block-details.png
+    :alt: Image block details
+    :align: center
+
+    ؜
+
+
+  * **Alignment** — Sets the horizontal alignment of the image, which is typically centered.
+  * **Caption** — Add an optional caption to be displayed under the image. This is the place to add any attribution if Omni didn't create the image.
+  * **Copyright by Omni** — Check the box if we created the image.
+  * **Width** — Enter the width of the image as a percentage of the width of the calculator widget.
+
+Showing different images conditionally
+""""""""""""""""""""""""""""""""""""""
+
+To show and hide an image block as a whole, see the instructions in the :ref:`Showing and hiding blocks and groups <showingAndHidingBlocksGroups>` section.
+
+If you want an image block to show different images depending on the value of some variable, here is what you do:
+
+1. Click on the |plus icon| after the image url field and **provide the URL for the alternative image**.
+2. The click the |eye icon| to add a **condition when this alternative image should be shown** instead of the default image of this image block.
+
+.. figure:: img/image-block-alt-example.png
+  :alt: Example of showing an alternative image depending on a condition
+  :align: center
+
+  Example: If the variable diameter is less than 10, then the alternative image will be shown instead of the default.
+
 
 **MORE UPDATES FOR Engine v2 COMING SOON...**
 
