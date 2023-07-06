@@ -38,7 +38,7 @@ The name of the variable in the equations section of the calculator. This cannot
 Label
 -----
 
-This is the name of the variable as **displayed to the user**. Make sure it will be easily understood by the user and starts with a capital letter (but no more). If the variable is associated with an equation in the calculator text, it's a good idea to put the algebraic reference in brackets after the name.
+This is the name of the variable as **displayed to the user**. Make sure it will be easily understood by the user and starts with a capital letter (but no more). If the variable is associated with an equation in the calculator text, it's a good idea to put the algebraic reference in brackets after the name. Read more about styling variables labels :ref:`here<variableLabel>`.
 
 Alterative label
 ^^^^^^^^^^^^^^^^
