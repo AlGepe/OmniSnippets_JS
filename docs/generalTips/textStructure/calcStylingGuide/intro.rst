@@ -14,6 +14,7 @@ For the sake of consistency, its good that all of our calculators look the same.
     helpTexts
     valueSelects
     conditions
+    links
 
 .. rubric:: Other related guides
 
