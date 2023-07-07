@@ -6,7 +6,7 @@ Calculator style guide
 For the sake of consistency, its good that all of our calculators look the same. Here's the guide on how to do that.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
     title
     variableName
