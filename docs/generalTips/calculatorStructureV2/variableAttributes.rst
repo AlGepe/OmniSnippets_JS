@@ -299,6 +299,8 @@ Monetary
 
 Check this checkbox if the variable is a monetary amount. This will add the user's currency symbol as the main unit.
 
+.. _variableAttributesV2AutoSave:
+
 Auto saved by default
 ---------------------
 

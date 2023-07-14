@@ -105,4 +105,4 @@ Pressing this button will **reload the calculator** but keep default and auto-sa
 Clear all changes button
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-This button **clears all of the user data**, including auto-saved values and user selected units. It does not clear default values. 
+This button **clears all of the user data**, including :ref:`auto-saved<variableAttributesV2AutoSave>` values and user selected units. It does not clear default values. 
