@@ -61,7 +61,9 @@ Creating a group
     :alt: Example of the group collapsable disabled setting
     :align: center
 
-  Which looks like...
+    ؜
+
+  An example of which looks like...
 
   .. figure:: img/group-not-collapsible.png
     :alt: Example of a non-collapsable group
@@ -75,11 +77,15 @@ Creating a group
     :alt: Default expanded setting
     :align: center
 
-  Which looks like...
+    ؜
+
+  An example of which looks like...
 
   .. figure:: img/group-collapsible.png
     :alt: Example of a collapsable group
     :align: center
+
+    ؜
 
   c. **Default collapsed** — These groups are always collapsed fully when the calculator is loaded, but the user WILL be able to expand these groups if needed, to view the contents. This addresses some of the use cases surrounding advanced mode in Engine V1.
 
@@ -87,11 +93,15 @@ Creating a group
     :alt: Default collapsed setting
     :align: center
 
-  Which results in...
+    ؜
+
+  An example of which looks like...
 
   .. figure:: img/group-collapsed.png
     :alt: Example of a collapsed group
     :align: center
+
+    ؜
 
 6. Once you've added the appropriate group name and description, and selected the required nature of collapsibility **click "Done"**.
 
