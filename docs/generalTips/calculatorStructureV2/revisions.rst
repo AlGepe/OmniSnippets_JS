@@ -5,22 +5,19 @@ Revisions
 
 The revisions section of the calculator editor page helps you **manage the various revisions** of a calculator that are created as it is developed. You can do things like: go back to old revisions, experiment with a new feature without affecting the published version, see who made a certain change, and see the differences between revisions.
 
-.. tip::
-  Here is a full video demonstration of the revisions feature, as a supplement to this section of the Handbook.
-
-  .. raw:: html
-
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/9uAwERwwHNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-
 Each time you click the save button, **a new revision is born** and given a sequential number, as shown in the example below.
 
 .. _revisionsExampleV2:
 .. figure:: img/revisions.png
   :width: 100%
-  :alt: example of revisions of a draft calculator
+  :alt: example of a calculator migrated to Engine v2
   :align: center
 
-  Example of revisions of draft a calculator.
+  Example of a revision history of a calculator migrated to Engine v2.
+
+* If a calculator has both v1 and v2 revisions, the v2 revisions will have **(v2)** indicator appended to the serial number.
+
+* Currently, it is not possible to compare a v1 revision with a v2 revision. We can only compare differences between two v1 revisions, or between two v2 revisions.
 
 .. note::
   Changes to anything in the **Details** section of the calculator does not generate a new revision and changes are not tracked. This matches the behavior of cloning/merger calculators.

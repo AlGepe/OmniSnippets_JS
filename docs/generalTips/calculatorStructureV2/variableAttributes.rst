@@ -111,6 +111,7 @@ Omni rounding
 .. figure:: img/omni-rounding.png
   :alt: example of Omni rounding setting
   :align: center
+  :width: 85%
 
   Example of an Omni rounding setting.
 
@@ -140,6 +141,21 @@ The **default setting** for the **Round to** attribute is ``1/10K``, when no opt
 
 When choosing **Omni rounding** and you don't like the default setting, have a play around with entering different values into the calculator and seeing the results. We don't want them too long or too short for the typical usage of the calculator.
 
+Number of minimum decimal digits
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This setting pads a number with zeros until we reach the desired number of decimal digits specified.
+
+For example, if you specify **Custom** value of 3 for **Number of minimum decimal digits**, every value of that variable will necessarily show three decimal digits: 12.345, 12.340, 12.300, 12.000, and so on.
+
+If you select variable type as **Monetary**, you'll see that the minimum number of decimal digits is set by default to **2**. This will print monetary variables in the familiar form that shows 2 decimal places (e.g.: $12.50).
+
+.. figure:: img/round-min-decimals.png
+  :alt: example of the minimum decimal setting
+  :align: center
+  :width: 85%
+
+  Example of the minimum decimal setting.
 
 Unit switcher
 -------------
@@ -147,10 +163,6 @@ Unit switcher
 Choose the units for the variable from the list. Start typing in the unit switcher name to find the one you are looking for.
 
 :ref:`Unit switchers <unitSwitchers>` can be edited and added to the `unit switcher page <https://www.omnicalculator.com/adminbb/unit-switchers>`_. However, it is best to **ask someone before making any changes**, as they might affect other calculators.
-
-.. tip::
-  🤑 For monetary values, it's usually a good idea to round to two decimal places.
-
 
 
 Imperial default unit

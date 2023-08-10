@@ -18,7 +18,7 @@ The upper panel of the edit calculator page contains the following items on the 
 * **Name** — Name of the calculator.
 * **Calculator** — This becomes a clickable link back to the edit calculator page in the text editor.
 * **Text** — Takes you to the text editing page.
-* **www** — Takes you to frontend web page rendering of the calculator. Two links will be shown if the published revision is different to the current revision. **NOT YET WORKING IN Engine v2**
+* **www** — Takes you to frontend web page rendering of the calculator. Two links will be shown if the published revision is different to the current revision.
 
 .. |save button| image:: img/save-button.png
   :alt: Save button
@@ -61,7 +61,7 @@ The little gear icon opens a menu with the following items:
 
 * **Update details** — Opens the details of the calculator so that you can edit them. See the :ref:`Details <detailsV2>` section for more information.
 * **Show revisions** — Shows the list of revisions of the calculator. Learn all about the revisions feature here: :ref:`Revisions <calcRevisions>`.
-* **Publish** — Publishes the calculator onto the website. To avoid accidental publishing, you need to enter the slug of the calculator. **Don't publish any V2 calculators yet, as we don't have the V2 website.**
+* **Publish** — Publishes the calculator onto the website. To avoid accidental publishing, you need to enter the slug of the calculator. **Don't publish any V2 calculators unless you're strictly instructed to do so.**
 * **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator. See :ref:`next section <cloningCalculatorV2>` for more details.
 * **Merge to other calculator** — *Coming soon.*
 
@@ -100,7 +100,7 @@ Under the preview of the calculator, there are two useful buttons that **help yo
 Reload calculator button
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Pressing this button will **reload the calculator** but keep default and auto-saved values. In future it will also remember the last units set by the user.
+Pressing this button will **reload the calculator** but keep default, auto-saved values and the last units set by the user.
 
 Clear all changes button
 ^^^^^^^^^^^^^^^^^^^^^^^^

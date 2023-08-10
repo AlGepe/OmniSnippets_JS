@@ -14,7 +14,7 @@ The **Groups and blocks** section of the V2 edit calculator page defines the lay
 Groups
 ------
 
-Groups hold a number of variables that are logically related or should appear under a heading within the calculator. A group can be **collapsible** so the user can hide/show its variables (this replaces "advanced mode" in Engine V1).
+Groups hold a number of variables that are logically related or should appear under a heading within the calculator. A group can be **collapsible** so the user can hide/show its variables (this replaces certain use cases of "advanced mode" in Engine V1).
 
 Creating a group
 ^^^^^^^^^^^^^^^^
@@ -43,23 +43,7 @@ Creating a group
 
   ؜
 
-4. You may also make the group name conditionally visible by clicking the "eye" icon next to the Name field, and enter the trigger condition. The group name will show up only when the condition evaluates to "True".
-
-.. figure:: img/group-conditional-visible.png
-  :alt: Add a name for the new group
-  :align: center
-
-  ؜
-
-  The group name will show up only when the condition evaluates to "True".
-
-.. figure:: img/group-conditional-visible-2.png
-  :alt: Add a name for the new group
-  :align: center
-
-  ؜
-
-5. You may also **add a short description** about the group in the "**Description**" field. This will also be visible to users.
+4. You may also **add a short description** about the group in the "**Description**" field. This will also be visible to users.
 
 .. figure:: img/create-group-4.png
   :alt: Add a name for the new group
@@ -67,29 +51,49 @@ Creating a group
 
   ؜
 
-6. Decide if the group will be **collapsable** by the user using the collapse/uncollapse icon. 
+5. **Group Collapsibility**: Defines if the group should be collapsable, and also the initial state of a collapsable group (collapsed or expanded).
 
-.. |collapsible| image:: img/group-collapsible.png
-  :alt: Example of a collapsable group
-  :width: 49%
-  :align: bottom
+  The different options are explained below:
 
-.. |collapsed| image:: img/group-collapsed.png
-  :alt: Example of a collapsable group
-  :width: 49%
-  :align: top
+  a. **Disabled** — Collapsibility is disabled, so these groups are **always expanded fully** when the calculator is loaded, and the user will **NOT be able to collapse** these groups. Select this option when there is ONLY ONE group in the calculator, as well as under other circumstances where you always want the group to be fully displayed.
 
-|collapsible| |collapsed|
+  .. figure:: img/group-collapse-disabled.png
+    :alt: Example of the group collapsable disabled setting
+    :align: center
 
-If the collapsable option is **not checked**, then no such icon is displayed and the group's contents are always displayed (barring other conditional visibility settings).
+  Which looks like...
 
-.. figure:: img/group-not-collapsible.png
-   :alt: Example of a non-collapsable group
-   :align: center
+  .. figure:: img/group-not-collapsible.png
+    :alt: Example of a non-collapsable group
+    :align: center
 
-   How the group will look if its contents is not collapsable.
+    How the group will look if its contents is not collapsable.
 
-7. Once you've added the appropriate group name and description as needed, **click "Done"**.
+  b. **Default expanded** — These groups are always expanded fully when the calculator is loaded, but the user WILL be able to collapse these groups if needed. This is the default choice for a newly created group.
+
+  .. figure:: img/group-collapse-expanded.png
+    :alt: Default expanded setting
+    :align: center
+
+  Which looks like...
+
+  .. figure:: img/group-collapsible.png
+    :alt: Example of a collapsable group
+    :align: center
+
+  c. **Default collapsed** — These groups are always collapsed fully when the calculator is loaded, but the user WILL be able to expand these groups if needed, to view the contents. This addresses some of the use cases surrounding advanced mode in Engine V1.
+
+  .. figure:: img/group-collapse-collapsed.png
+    :alt: Default collapsed setting
+    :align: center
+
+  Which results in...
+
+  .. figure:: img/group-collapsed.png
+    :alt: Example of a collapsed group
+    :align: center
+
+6. Once you've added the appropriate group name and description, and selected the required nature of collapsibility **click "Done"**.
 
 .. figure:: img/create-group-5.png
   :alt: Add a name for the new group
@@ -116,6 +120,36 @@ group.
   ؜
 
 
+Conditional visibility of a group
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You may also make the group name **conditionally visible** by clicking the |eye icon| icon next to the Name field, and enter the trigger condition. The group name will show up only when the condition evaluates to "True".
+
+.. figure:: img/group-conditional-visible.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
+  The group name will show up only when the condition evaluates to "True".
+
+.. figure:: img/group-conditional-visible-2.png
+  :alt: Add a name for the new group
+  :align: center
+
+  ؜
+
+Reviewing changes to groups
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+At any time, you may click the "**Refresh**" button to preview how the group will look like to the user.
+
+.. figure:: img/group-reload.png
+  :alt: Click the refresh button to see the changes in the calculator preview
+  :align: center
+
+  ؜
+
 Deleting a group
 ^^^^^^^^^^^^^^^^
 
@@ -137,16 +171,6 @@ Deleting a group
 
 .. warning::
   If you delete a group that **contains some variable/image/text blocks**, those blocks will **NOT be deleted**. They will automatically move to the group above the deleted one.
-
-Reviewing changes to groups
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-At any time, you may click the "**Refresh**" button to preview how the group will look like to the user.
-
-.. figure:: img/group-reload.png
-  :alt: Click the refresh button to see the changes in the calculator preview
-  :align: center
-
 
 Blocks
 ------
