@@ -106,15 +106,41 @@ You may configure the value select in different ways depending on your need. The
 
 .. _valueSelectsV2CheckboxOption:
 
-   c. **Checkbox** — If there is only one option (later also two), you can select the checkbox option, which looks like this:
+   c. **Checkbox** — If there are only 1 or 2 options, you can select the Checkbox type, which looks like this:
 
       .. figure:: img/checkbox-example.png
        :alt: example of a checkbox value select
        :width: 50%
        :align: center
 
+      **Use case for “Checkbox” in a Value select with 1 option:**
+      
+      The option's value represents the value of the connected variable in the “checked” state. The unchecked state is by default associated with a NULL value.
+
+      **So use value select checkbox with a single option only if you “want” the unchecked state to be NULL.**
+
+      .. figure:: img/checkbox-1-option.png
+        :alt: example of a checkbox with 1 option
+        :width: 95%
+        :align: center
+
+        ؜
+
+      **Use case for “Checkbox” in a Value select with 2 options:**
+
+      If you need the unchecked state to be a different value such as 0, we need a value select with 2 options. The **first option's value** represents the variable's value in **“checked”** state. The **second option's value** represents the variable's value in **“unchecked”** state.
+
+      Use this option when you want the variable to be included in calculations even in unchecked state, by giving the “unchecked” state a value.
+
+      .. figure:: img/checkbox-2-option.png
+        :alt: example of a checkbox with 2 option
+        :width: 95%
+        :align: center
+
+        ؜
+
       .. note::
-        For Value Selects with only one option, that option's value represents the value of the connected variable in the "checked" state. The unchecked state is by default associated with a **NULL value**. So use value select checkbox with a single option only if you "want" the unchecked state to be NULL. If you need the unchecked state to be a different value such as 0, we need a value select with 2 options, which will be implemented later.
+        If you don't set a default value for the variable it will have a value of **null** on initial loading of the calculator.
 
       For instructions on how to create a checkbox, see :ref:`Checkbox value select<valueSelectsV2Checkbox>` below.
 
@@ -132,7 +158,7 @@ You may configure the value select in different ways depending on your need. The
 Checkbox value select
 ^^^^^^^^^^^^^^^^^^^^^
 
-To create a checkbox type variable, we first need to **create a value select of type checkbox**. A value select with one option is configurable as a checkbox. *[Future update: In future, value selects with either one option or two options will be configurable as checkbox.]*
+To create a checkbox type variable, we first need to **create a value select of type checkbox**. A value select with one or two options is configurable as a checkbox.
 
 1. Create the value select checkbox by clicking "Add first value select".
 
@@ -155,7 +181,7 @@ To create a checkbox type variable, we first need to **create a value select of 
 
   ؜
 
-4. From the "Type" dropdown, choose **"checkbox"**. This option will show up **only if** the value select has a single value. *[Future update: we plan to show it for value selects with 2 options too.]*
+4. From the "Type" dropdown, choose **"checkbox"**. This option will show up **only if** the value select has 1 or 2 values.
 
 .. figure:: img/checkbox-step4.png
   :align: center
