@@ -242,7 +242,35 @@ If you make a change to the list of units, a **reset** button will appear at the
 Second unit switcher
 --------------------
 
-**DETAILS COMING SOON!**
+Use a double unit switcher when you want to give the user the possibility of choosing more options than a defined set of “composite” units.
+
+For example, instead of using a single unit switcher “density”, we can provide double unit switchers, “mass” and “volume”, to provide more flexibility of choices for the user, so they can select options such as “milligrams per cubic micrometer”, which may not be available in the regular “density” unit switcher.
+
+Here are points to consider about when and how to use a double unit switcher:
+
+* **Rule of thumb:** Create a double unit switcher in case the original list of units is **longer than seven units**.
+* Convert to double unit switcher when in the original calculator, there was a **suffix or a prefix**. Be careful about the interplay with base units! As a generic rule, the formula used the base unit corresponding to the unit in the suffix/prefix.
+* **Don't create a double unit switcher if its not strictly necessary:** you can probably leave the torque in N·m in most automotive calculators, for example.
+* Remember to mark any unit switcher at the **denominator** with the **inversed** checkbox.
+* Join **multiplied units** with a · (centered dot (alt+250)), and **divided units** with a slash, using EITHER the prefix field of the second unit or the suffix of the first one. **Never mix them**, as there are still spacing issues.
+* Remember to properly restrict the available units in both lists of a double unit switcher. If you use a double unit switcher for the time worked in a month, allow the user to choose only minutes and hours at the numerator and days, weeks, and months at the denominator (the user can then create minutes/day, hours/day, minutes/week, hours/week, minutes/month, and hours/month. Notice that some units may not be so common: remember to balance between choice and practicality).
+
+Here is an **example** of the settings for a double unit switcher consisting of mass per molar amount:
+
+.. figure:: img/double-unit-switcher-eg-1.png
+  :alt: example of a double unit switcher
+  :align: center
+
+  ؜
+
+Which results in the following in the calculator:
+
+.. figure:: img/double-unit-switcher-eg-2.png
+  :alt: example of a double unit switcher
+  :align: center
+
+  ؜
+
 
 Default value
 -------------

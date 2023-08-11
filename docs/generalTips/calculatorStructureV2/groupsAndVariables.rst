@@ -439,5 +439,144 @@ If you want an image block to show different images depending on the value of so
   Example: If the variable diameter is less than 10, then the alternative image will be shown instead of the default.
 
 
-**MORE UPDATES FOR Engine v2 COMING SOON...**
+Text blocks
+^^^^^^^^^^^
+
+Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
+
+Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through standard visibility rules.
+
+Text block's supports both Markdown and LaTeX. Restrict the use of the latter only in situations where it's the only option left.
+
+Creating a text block
+"""""""""""""""""""""
+
+1. To create a text block, click the + button on the group header.
+
+  .. figure:: img/text-block-create-1.png
+    :alt: Text block step 1 - click on group + icon
+    :align: center
+
+    ؜
+
+2. Click **"Add text block"** to add a new text block within the group.
+
+  .. figure:: img/text-block-create-2.png
+    :alt: Text block step 2 - click on Add text block
+    :align: center
+
+    ؜
+
+3. Click on the newly created text block to edit its details.
+
+  .. figure:: img/text-block-create-3.png
+    :alt: Text block step 3 - click on the new text block
+    :align: center
+
+    ؜
+
+4. Provide a **name** for the text block. This is not visible to the user. Spaces are not allowed in the name.
+
+  .. figure:: img/text-block-create-4.png
+    :alt: Text block step 4 - give the text block a name
+    :align: center
+
+    ؜
+
+5. Each text block has two possible options: **type** and **format**. You can choose **only one** value for each option for all the chunks of a block.
+
+  To define the style of the text block, click the "Type" dropdown.
+
+  .. figure:: img/text-block-create-5.png
+    :alt: Text block step 5 - click the "Type" dropdown
+    :align: center
+
+    ؜
+
+6. There are 5 different types available for a text block.
+
+  .. figure:: img/text-block-create-6.png
+    :alt: Text block step 6 - select type
+    :align: center
+
+    ؜
+
+  Here is information and examples about each type:
+
+  * **Information** — Short paragraph. Inside calculator. To build awareness in user.
+
+    .. figure:: img/text-block-eg-info.png
+      :alt: Example of information text block
+      :align: center
+
+      ؜
+
+  * **Positive** — Short paragraph. A positive message for user.
+
+    .. figure:: img/text-block-eg-pos.png
+      :alt: Example of positive text block
+      :align: center
+
+      ؜
+
+  * **Neutral** — Without icon. Long paragraph. Suitable for text at the top of the calculator.
+
+    .. figure:: img/text-block-eg-nue.png
+      :alt: Example of neutral text block
+      :align: center
+
+      ؜
+
+  * **Negative** — Short paragraph. A negative information for the user.
+
+    .. figure:: img/text-block-eg-neg.png
+      :alt: Example of negative text block
+      :align: center
+
+      ؜
+
+  * **Warning** — Short paragraph. A warning for the user.
+
+    .. figure:: img/text-block-eg-warn.png
+      :alt: Example of warning text block
+      :align: center
+
+      ؜
+
+7. We use 2 different **font sizes** for text, and the choice can be made using the "Format" dropdown.
+
+  .. figure:: img/text-block-create-7.png
+    :alt: Text block step 7 - choose the format of text
+    :align: center
+
+    ؜
+
+  The choices are:
+
+  * **Regular (default)** — Used for introduction, result interpretation, etc.
+  * **Fine print (smaller size)** — Used for minor notes/tips, etc.
+  
+    **Note: Don't use it for validation of inputs.**
+
+  .. figure:: img/text-block-eg-fine.png
+    :alt: Comparing regular and fine print text blocks
+    :align: center
+
+    Comparing regular and fine print text blocks.
+
+8. Add the text content to be displayed to the user in the text chunk box.
+
+  .. figure:: img/text-block-create-8.png
+    :alt: Text block step 8 - enter the content of the text block
+    :align: center
+
+    ؜
+
+9. Once you're done configuring the text block as needed, **click "Done"** and **Refresh** or **Save** the calculator to preview the changes.
+
+  .. figure:: img/text-block-create-9.png
+    :alt: Text block step 9 - click done to close the text block
+    :align: center
+
+    ؜
 
