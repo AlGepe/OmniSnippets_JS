@@ -1,3 +1,18 @@
+.. |thumbs up icon| image:: img/thumbs-up-icon.png
+  :alt: Thumbs up icon
+
+.. |thumbs down icon| image:: img/thumbs-down-icon.png
+  :alt: Thumbs down icon
+
+.. |green tick icon| image:: img/green-tick.png
+  :alt: Green tick icon
+
+.. |red cross icon| image:: img/red-cross.png
+  :alt: Red cross icon
+
+.. |grey circle icon| image:: img/grey-circle.png
+  :alt: Red cross icon
+
 .. _testsV2:
 
 Tests
@@ -39,6 +54,34 @@ Specifying values in different units
 If you want to give any values in units that are not in the default unit of the variable, you can use the command **Select unit**. Then choose the variable and the unit you would like to use.
 
 Then when you specify the **Input/Expect** value, the number should be given in the unit you selected above.
+
+Validation of tests
+-------------------
+
+In the Result column, we will be able to see a visual cue indicating the correctness of inputs, units, and outputs (if any).
+
+**Input validation:**
+
+|thumbs up icon| If the input value is valid.
+
+|thumbs down icon| If the input value is invalid (conflicts with one or more of the conditions). OR: If the input variable conflicts with a visibility condition.
+
+**Select units validation:**
+
+|thumbs up icon| If the selected unit is valid.
+
+|thumbs down icon| If the selected unit is invalid.
+
+**Output validation:**
+
+|green tick icon| If the expected value matches with the actual calculated value.
+
+|red cross icon| If the expected value is different from the actual calculated value.OR: If the output variable conflicts with a visibility condition.
+
+**Generic:**
+
+|grey circle icon| Indicates an incomplete entry.
+
 
 Removing a test
 ---------------
