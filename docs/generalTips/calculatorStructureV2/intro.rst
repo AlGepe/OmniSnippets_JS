@@ -26,3 +26,4 @@ Each section of the edit calculator page is explored below:
     conditions
     revisions
     addingSources
+    markdown

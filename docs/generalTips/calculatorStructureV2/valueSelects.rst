@@ -126,6 +126,9 @@ You may configure the value select in different ways depending on your need. The
 
         ؜
 
+      .. note::
+        If you don't set a default value for the variable it will have a value of **null** on initial loading of the calculator.
+
       **Use case for “Checkbox” in a Value select with 2 options:**
 
       If you need the unchecked state to be a different value such as 0, we need a value select with 2 options. The **first option's value** represents the variable's value in **“checked”** state. The **second option's value** represents the variable's value in **“unchecked”** state.
@@ -138,9 +141,6 @@ You may configure the value select in different ways depending on your need. The
         :align: center
 
         ؜
-
-      .. note::
-        If you don't set a default value for the variable it will have a value of **null** on initial loading of the calculator.
 
       For instructions on how to create a checkbox, see :ref:`Checkbox value select<valueSelectsV2Checkbox>` below.
 
