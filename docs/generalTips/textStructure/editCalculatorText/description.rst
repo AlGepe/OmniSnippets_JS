@@ -84,9 +84,7 @@ Writing a compelling meta description is crucial for attracting users to click o
 
 8. **Use Active Voice**: Active voice tends to be more engaging and direct, making it more compelling for users.
 
-9. **Test and Refine**: Like other aspects of SEO and digital marketing, it's beneficial to A/B test different meta descriptions to see which ones perform better in terms of click-through rates.
-
-10. **Stay Updated**: If the content of our page changes significantly, remember to update the meta description to reflect those changes.
+9. **Stay Updated**: If the content of our page changes significantly, remember to update the meta description to reflect those changes.
 
 **Remember, a well-crafted meta description can significantly improve click-through rates, benefiting our SEO efforts.** These 1-2 lines are our opportunity to “advertise” our tools to the searchers, and the searcher's chance to decide whether our content is likely to be relevant to the information they are trying to get. Therefore, it is important that we put some effort into writing it. 
 
@@ -102,7 +100,8 @@ Can I use AI for creating meta descriptions?
 3. Write a meta description for a landing page about "ml to grams calculator". The description should contain the keywords "ml to grams converter" and "grams to ml".
 
 .. note::
-    The first two prompts are exclusive to ChatGPT 4.0 (premium) with the WebPilot plugin, while the third is accessible with the free version.
+    The first two prompts are exclusive to ChatGPT 4.0 (premium) with the WebPilot plugin, while the third is accessible with the free version. The free version of ChatGPT doesn't have direct access to the web or the ability to crawl web pages. Instead, it analyzes provided URLs to infer and predict the page's title, providing suggestions based on this information.
+
 
 How do I check the meta description of our competitors?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
