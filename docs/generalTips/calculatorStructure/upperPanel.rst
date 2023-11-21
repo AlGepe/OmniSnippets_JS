@@ -37,6 +37,9 @@ The little gear icon opens a menu with the following items:
 * **Show revisions** — Shows the list of revisions of the calculator. Learn all about the revisions feature here: :ref:`Revisions <calcRevisions>`.
 * **Publish** — Publishes a calculator to the public website. Full details on the publishing procedure can be found here: :ref:`Live revision and Publishing a calculator <revisionsLiveRevision>`.
 * **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator.
+* **Migrate this revision to V2** — Starts the migration process from a V1 to a V2 calculator.
+
+Let's explore the last two items in detail next.
 
 .. _upperPanelClone:
 
@@ -49,6 +52,32 @@ Cloning a calculator is useful if you need to add a new feature to an existing c
 2. A draft of the new cloned calculator is then displayed. The slug and name are pre-filled with today's date and current time. You are free to **change the slug/name to something more meaningful**. You can also make changes to the calculator at this stage, but it's probably best to save first.
 3. Click the **Save** button. Your new cloned calculator will then load.
 
+Migrate this revision to V2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Click this menu item to migrate the calculator to Engine V2. You can select which features of the calculator you want to migrate, though note that some elements depend on each other.
+
+.. figure:: migration-options.png
+  :width: 100%
+  :alt: choose which elements of the calculator to migrate to engine V2
+  :align: center
+
+  Select which elements of the calculator you want to migrate to Engine V2.
+
+You can choose to migrate the following elements:
+
+* Custom JS;
+* Conditions;
+* Equations, variables and groups (requires value selects);
+* Tests (requires equations, variables and groups); and
+* Value selects.
+
+Once you have selected the features you want, **press the Migrate button** and a new V2 revision will be created.
+
+You may see messages in the migration log that need attention or validation errors in the newly migrated calculator. You'll need to address these before being able to save the newly created Engine V2 revision.
+
+.. seealso::
+  Please now make your way to the :ref:`engine V2 section<editCalculatorV2>` of this Handbook to get help on fixing validation errors and exploring the features of Engine V2.
 
 .. _calculatorPreview:
 
