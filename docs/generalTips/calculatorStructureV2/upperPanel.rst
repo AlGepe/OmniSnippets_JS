@@ -63,7 +63,6 @@ The little gear icon opens a menu with the following items:
 * **Show revisions** — Shows the list of revisions of the calculator. Learn all about the revisions feature here: :ref:`Revisions <calcRevisions>`.
 * **Publish** — Publishes the calculator onto the website. To avoid accidental publishing, you need to enter the slug of the calculator. **Don't publish any V2 calculators unless you're strictly instructed to do so.**
 * **Clone** — Makes a temporary copy of the current calculator. Useful for testing a change out before saving it to a live calculator. See :ref:`next section <cloningCalculatorV2>` for more details.
-* **Merge to other calculator** — *Coming soon.*
 
 .. _cloningCalculatorV2:
 
