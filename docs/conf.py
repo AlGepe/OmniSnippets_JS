@@ -1,7 +1,7 @@
 # -- Project information
 
 project = 'Omni Calculator Handbook'
-copyright = '2021, Omni Calculator'
+copyright = '2021-2024, Omni Calculator'
 author = 'Álvaro Díez, Dominik Czernia, Jack Bowater, Wojciech Sas, Steve Wooding'
 
 release = '2.0.0'
