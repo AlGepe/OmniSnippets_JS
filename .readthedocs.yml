@@ -13,3 +13,5 @@ python:
 search:
   ranking:
     generalTips/calculatorStructure/*: -10
+    customJS/*: -9
+    customJS/omni/omniDefine.html: 0
