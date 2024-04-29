@@ -1,4 +1,4 @@
-Omni Calculator's handbook for calculatorians©
+Omni Calculator's handbook for calculatorians ©
 =================================================
 
 The following handbook aims to **gather all the knowledge** about the tools that calculatorians can use at Omni Calculator. We hope this guide will become a precious source of information that you can revisit whenever you have doubts about the calculator's engine, text writing, and any other Omni-related stuff.
