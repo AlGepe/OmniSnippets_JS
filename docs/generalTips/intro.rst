@@ -28,6 +28,7 @@ This section will undoubtedly help you if you don't remember some onboarding inf
     calculatorPage/intro
     calculatorStructure/intro
     calculatorStructureV2/intro
+    uxGuidelines/intro
     textStructure/intro
 
 .. rubric:: Omni tools

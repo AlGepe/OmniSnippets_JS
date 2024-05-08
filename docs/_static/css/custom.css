@@ -135,3 +135,23 @@
 .smallpar {
   font-size: small;
 }
+
+p {
+  text-align: justify;
+}
+
+.admonition.red > .admonition-title {
+  background-color: #ad231d;
+}
+
+.admonition.red {
+  background-color: #ea9999;
+}
+
+.admonition.green > .admonition-title {
+  background-color: #1abc9c;
+}
+
+.admonition.green {
+  background-color: #dbfaf4;
+}
