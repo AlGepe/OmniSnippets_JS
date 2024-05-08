@@ -5,7 +5,7 @@ Matrices and columns
 
 Matrices are subdivisions of :ref:`groups <uxGroups>`.
 Each matrix contains one or more columns.
-In most cases, a matrix will contain one column and that column will contain one :ref:`block <uxBlocks>`.
+In most cases, a matrix will contain one column and that column will contain one :ref:`block <uxBlocksSummary>`.
 There are no special guidelines relating to single-column, single-block matrices.  
 
 [TODO example of single column single block matrix]

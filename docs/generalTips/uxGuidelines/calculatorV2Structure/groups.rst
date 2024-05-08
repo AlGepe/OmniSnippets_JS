@@ -4,7 +4,7 @@ Groups
 ======
 
 Groups are the main and most visually obvious way to split content in a calculator.
-A group contains :ref:`blocks <uxBlocks>` (which are grouped in :ref:`columns and matrices<uxMatricesColumns>`) that participate in the same calculations or are contextually connected.
+A group contains :ref:`blocks <uxBlocksSummary>` (which are grouped in :ref:`columns and matrices<uxMatricesColumns>`) that participate in the same calculations or are contextually connected.
 
 [TODO image]
 

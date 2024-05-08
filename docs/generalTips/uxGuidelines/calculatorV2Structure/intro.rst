@@ -19,4 +19,4 @@ A calculator in V2 is structured according to the following hierarchy:
 
     groups
     matricesColumns
-    blocks
+    blocksSummary

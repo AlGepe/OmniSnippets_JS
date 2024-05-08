@@ -9,4 +9,5 @@ UX guidelines
     primer
     calculatorV2Structure/intro
     valueSelects/intro
+    blocks/intro
     conditions
