@@ -4,11 +4,14 @@ Value select types
 Value selects can be presented in one of three visual styles, called “value select types”.
 There are three of these types:
 
-* Dropdown list
-* Radiobutton
-* Checkbox
+* :ref:`Dropdown list <uxDropdown>`
+* :ref:`Radio button <uxRadioButtons>`
+* :ref:`Checkbox <uxCheckbox>`
 
 There are some guidelines for appropriate usage of each type --- these are listed below.
+
+
+.. _uxDropdown:
 
 Dropdown list
 -------------
@@ -36,9 +39,8 @@ It is therefore important to give dropdown lists a default value.
 Consult the previous section [TODO link?] to determine which option is best suited to being the default.
 If none fit the requirements, pick the first option in the list.
 
-[TODO image of synodic period calculator]
 
-
+.. _uxRadioButtons:
 
 Radio buttons
 -------------
@@ -50,31 +52,43 @@ Radio buttons show all the options at once.
 
 A default value is not necessary for a radio button (but can still be valuable depending on the use-case).
 
-[TODO image of Occupancy rate calculator]
+.. figure:: images/synodicPeriodCalculator.png
+  :alt: The synodic period calculator, which features a radio button.
+  :align: center
+  
+  The synodic period calculator allows the user to specify whether they want to select a known planet and use its sidereal period, or to input the period directly.
 
-[TODO image of NOR calculator]
 
-Checkboxes
-----------
+.. _uxCheckbox:
 
-When to use checkboxes
+Checkbox
+--------
+
+When to use a checkbox
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * When a user adds an item with additional variables to the calculation.
 
-    Example: when the user selects an ingredient from ingredient list - (for example tomato) price and amount fields appear below the checkbox.
+    .. figure:: images/checkboxTomato.png
+      :alt: A checkbox labelled "flour" that triggers the visibility of a section allowing the user to enter data specific to their use of flour in a recipe.
+      :align: center
+      :width: 50%
 
-* When the user can only turn an option on and off, not affect the option’s value.
+      Example: when the user selects an ingredient from ingredient list, fields for price and amount appear below the checkbox.
+    
+    * Don't do this for optional sections that provide advanced options (e.g. "Custom gravitational constant"). If you want to allow users to input more custom data, consider instead placing these variables in a :ref:`collapsible group <uxCollapsibleGroups>`.
 
-    Example: When selecting ingredients for a sandwich calorie calculator, an ingredient adds X calories to the calorie calculation, and the user cannot (should not be able to) change that fact.
-    Any ingredient is therefore best captured as a checkbox variable with checked value X and unchecked value 0, and the user can turn it on (includes it in their sandwich) or off (does not add it to their sandwich).
+* When the user can only turn an option on and off, not affect the option's value or meaning.
+
+    .. figure:: images/checkboxRoundTrip.png
+      :alt: A field is labelled "flight cost one way" and a checkbox (labelled "round trip") is on.  The total cost is indicated accordingly.
+      :align: center
+      :width: 50%
+
+      Example: When indicating whether a flight is one-way or round trip, the user cannot change the fact that a round trip ticket is double the cost of a one-way ticket.
+
+  
     
 * When the user can add a specified variable or calculation type by selecting a value. It should be used for optional values that can be answered by “yes” or “no”. In case, when Answer to Yes or No is mandatory to perform a calculation use radio buttons.
 
 * Use for longer lists where the user chooses things that they are adding to their calculation. See the tomato example above.
-
-* Don't use it for handling the visibility of optional sections that provide advanced calculations. If you want to allow users to input more custom data, consider instead placing these variables in a :ref:`collapsible group <uxCollapsibleGroups>`.
-
-Example:
-
-[TODO image example]

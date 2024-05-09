@@ -21,11 +21,6 @@ Multi-column matrices
 You can place up to four columns side by side inside a matrix.
 Additionally, the columns' widths are adjustable.
 
-[TODO another example like this schema or similar]
-X x x
-X    x
-X    x
-
 When to use multi-column matrices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -61,8 +56,6 @@ When to use stacked blocks
 Employ multi-block columns sparingly.
 Their use should be limited to cases where a block with a large height must be placed on one side of the tool, such as an image or some text.
 In this case, the blocks on the other side (often variable blocks) may be stacked.
-
-[TODO new image example]
 
 Avoid
 ^^^^^

@@ -23,4 +23,4 @@ When to use it
 
 .. admonition:: Example
 
-    The variable “Usage time” is well-suited to a double unit switcher of time/time. The user can select hours/day, or day/month, and much more. All for a unit switcher that has not even a clear naming!
+    The variable “Usage time” is well-suited to a double unit switcher of time/time. The user can select hours/day, or day/month, and much more.

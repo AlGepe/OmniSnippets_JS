@@ -16,9 +16,9 @@ Remember that labels are used by screen readers for accessibility reasons.
 
 .. admonition:: Example
 
-    The variable k that describes a parameter that depends on the geometry of an object is better indicated by the label "Geometric parameter (k)" rather than "k".
+    The variable *k* that describes a parameter that depends on the geometry of an object is better indicated by the label "Geometric parameter (k)" rather than "k".
 
-As a special case, checkboxes generally don't need labels.
+As a **special case**, checkboxes generally don't need labels.
 Instead, they should be a self-explanatory item:
 
 .. figure:: images/checkboxGood.png
@@ -26,14 +26,14 @@ Instead, they should be a self-explanatory item:
   :align: center
   :width: 50%
 
-  A good example of a checkbox.
+  An example of a good checkbox.
 
 .. figure:: images/checkboxBad.png
   :alt: A single checkbox with the overhead label "Are taxes included?" and its option labelled "Yes".
   :align: center
   :width: 50%
 
-  A bad example of a checkbox.
+  An example of a bad checkbox.
 
 You may use a label for checkboxes in case you need to add a help text to the checkbox, or if you deem necessary to give more information to the user.
 
@@ -85,9 +85,9 @@ Example #2
 
 **A calculator referencing three side lengths of a triangle**
 
-Here, what makes a label good is dependent on the context of its parent group name.
+Here, what makes a label good is dependent on the context of its parent group.
 
-* If the group name is "Triangle's sides", then labels "a", "b", and "c" are good.
+* If the group's name is "Triangle's sides", then labels "a", "b", and "c" are good.
 * If the group is unnamed, or there is no dedicated group just for the triangle sides, then  labels "side a", "side b", "side c" might be the best option.
 
     This is only valid if the calculator references the fact that there's a triangle somewhere --- if not, you would have to clarify that with the group name, a text block, an image, or otherwise.

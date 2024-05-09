@@ -145,7 +145,8 @@ p {
 }
 
 .admonition.red {
-  background-color: #ea9999;
+  background-color: #e7b5b5;
+  color: #ad231d;
 }
 
 .admonition.green > .admonition-title {

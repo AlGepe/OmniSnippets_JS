@@ -29,5 +29,6 @@ parseArgs "$@"
 if [ "$cache" = true ]; then
     sphinx-build -c $CONFIG . $DEST
 else
+    rm -rf $DEST
     sphinx-build -E -c $CONFIG . $DEST
 fi

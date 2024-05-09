@@ -3,14 +3,15 @@
 Help text
 =========
 
-The help text is a short informative message that compounds the label in explaining the role of a variable. The user can show/hide the help text according to the needs.
+The help text is a short informative message that compounds the label in explaining the role of a variable.
+The user can show/hide the help text according to the needs.
 
 When to use it
 ^^^^^^^^^^^^^^
 
 * When the scope of a variable is not entirely clear. Think of an acronym in a medical calculator.
 
-* When the user may need additional direction in inputting values in that variable.You can also provide the user with an example of the value that they can input (e.g., "The density of water is 997 kg/m³").
+* When the user may need additional direction in inputting values in that variable. You can also provide the user with an example of the value that they can input (e.g., "The density of water is 997 kg/m³").
 
 * To give information about why the user must fill a specific field.
 
@@ -33,8 +34,4 @@ How to use it well
 
 .. admonition:: Example
 
-    The variable with label “Number of adult penguins” doesn't need the help text “Insert only the number of adult penguins in the colony”.
-    [TODO label as "bad example" with colors?]
-
-Examples
-^^^^^^^^
+    The variable with label "Number of adult penguins" doesn't need the help text "Insert only the number of adult penguins in the colony".

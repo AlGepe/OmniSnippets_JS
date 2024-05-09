@@ -17,7 +17,6 @@ A variable block corresponds to some input field (numeric inputs as well as drop
     :maxdepth: 1
     
     label
-    type
     rounding
     minimumDecimalDigits
     unitSwitcher

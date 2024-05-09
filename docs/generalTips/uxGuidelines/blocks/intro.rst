@@ -3,7 +3,7 @@
 Blocks
 ======
 
-[TODO content]
+Blocks are 
 
 .. toctree:: 
     :maxdepth: 3

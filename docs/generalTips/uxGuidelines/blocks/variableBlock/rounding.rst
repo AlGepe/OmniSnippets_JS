@@ -13,8 +13,8 @@ The rounding attribute defines the rounding policy for numerical values. There a
 When to use it
 ^^^^^^^^^^^^^^
 
-Numerical variables are always rounded to a default of 1/10k Omni rounding.
 Change the rounding if the result you want to show to the user requires more or fewer decimal digits/accuracy.
+The default is 1/10k Omni rounding.
 
 .. admonition:: Example
     
