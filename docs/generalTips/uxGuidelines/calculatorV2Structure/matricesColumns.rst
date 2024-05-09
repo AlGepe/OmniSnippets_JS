@@ -8,7 +8,12 @@ Each matrix contains one or more columns.
 In most cases, a matrix will contain one column and that column will contain one :ref:`block <uxBlocksSummary>`.
 There are no special guidelines relating to single-column, single-block matrices.  
 
-[TODO example of single column single block matrix]
+.. figure:: images/matricesMulticolumn.png
+    :alt: A calculator with two rows of inputs, each with two blocks inside.  They are labelled as chemicals' coefficients and concentrations.
+    :align: center
+    :width: 50%
+
+    A good use of multiple columns inside a matrix.
 
 Multi-column matrices
 ---------------------
@@ -20,7 +25,6 @@ Additionally, the columns' widths are adjustable.
 X x x
 X    x
 X    x
-
 
 When to use multi-column matrices
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,13 +62,26 @@ Employ multi-block columns sparingly.
 Their use should be limited to cases where a block with a large height must be placed on one side of the tool, such as an image or some text.
 In this case, the blocks on the other side (often variable blocks) may be stacked.
 
-[TODO image example]
+[TODO new image example]
 
 Avoid
 ^^^^^
 
-* Avoid multiple blocks in a single-column matrix.
-* Avoid side-by-side columns exclusively populated by variable blocks.
+.. image:: images/stackedBad.png
+    :alt: Two matrices, with one matrix containing one double-block column.
+    :width: 49%
+.. image:: images/stackedGood.png
+    :alt: Three matrices with one matrix per 
+    :width: 49%
+
+*Avoid multiple blocks in a single-column matrix.
+The left example below shows poor use of columns, while the right example is proper.*
+
+.. figure:: images/matrix2by2.png
+    :width: 50%
+    :align: center
+    
+    Avoid side-by-side columns exclusively populated by variable blocks.
 
 Considerations
 ^^^^^^^^^^^^^^

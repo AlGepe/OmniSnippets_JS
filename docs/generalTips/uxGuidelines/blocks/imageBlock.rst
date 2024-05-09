@@ -3,8 +3,6 @@
 Image blocks
 ============
 
-*(page under construction as image blocks may change in the near-ish future)*
-
 Image blocks are content blocks that can show one or more images at a time.
 Images make great content, and are extremely useful for many types of tools.
 

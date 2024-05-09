@@ -19,11 +19,15 @@ When to use it
 How to use it well
 ^^^^^^^^^^^^^^^^^^
 
+* Use help text to explain the field itself.
+
+* Use help text to expand upon the :ref:`label <uxVariableBlockLabel>` (which you should keep as short as possible). Add information you couldn't fit in the label. Don't merely repeat the label.
+
 * Avoid very long descriptions. If a longer description is needed, consider adding some guiding text in a :ref:`text block <uxTextBlock>` above the field. 
 
 * Avoid long examples, and don't demonstrate calculations in the help text.
 
-* Use universal examples and avoid examples that are bound to change with time (like price) or/and are very location specific. 
+* Use universal examples --- avoid examples that are bound to change with time (like price), or that are country-specific. 
 
 * As per other text fields of the calculator, use markdown as much as possible, and resort to LaTeX only when necessary.
 
@@ -31,3 +35,6 @@ How to use it well
 
     The variable with label “Number of adult penguins” doesn't need the help text “Insert only the number of adult penguins in the colony”.
     [TODO label as "bad example" with colors?]
+
+Examples
+^^^^^^^^

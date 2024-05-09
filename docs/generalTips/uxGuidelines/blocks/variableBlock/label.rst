@@ -21,16 +21,26 @@ Remember that labels are used by screen readers for accessibility reasons.
 As a special case, checkboxes generally don't need labels.
 Instead, they should be a self-explanatory item:
 
-[TODO bad example]
+.. figure:: images/checkboxGood.png
+  :alt: A single checkbox with no overhead label and its only option labelled "Taxes are included".
+  :align: center
+  :width: 50%
 
-[TODO good example]
+  A good example of a checkbox.
+
+.. figure:: images/checkboxBad.png
+  :alt: A single checkbox with the overhead label "Are taxes included?" and its option labelled "Yes".
+  :align: center
+  :width: 50%
+
+  A bad example of a checkbox.
 
 You may use a label for checkboxes in case you need to add a help text to the checkbox, or if you deem necessary to give more information to the user.
 
 How to use it well
 ------------------
 
-* Use short and informative labels wherever possible. If the label needs further description, use help text.
+* Use short and informative labels wherever possible. If the label needs further description, use :ref:`help text <uxVariableBlockHelpText>`.
 
 * Use :ref:`group <uxGroups>` names to your advantage in reducing redundant information in labels.
 
@@ -49,7 +59,10 @@ How to use it well
 
 * The labels must always match what's referenced in the text. Symbols, terminology, etc. must all be consistent.
 
-**Example #1 --- a calculator for the cost of making a home-made skirt**
+Example #1
+^^^^^^^^^^
+
+**A calculator for the cost of making a home-made skirt**
 
 Good labels: "Cost of textile materials" or "Textile materials' cost".
 
@@ -57,17 +70,20 @@ Bad labels:
 
 * "Type in the price of the materials that you will use for this project"
 
-  * "Type in the price" is already implied action on the user's part
+  * "Type in the price" is already implied action on the user's part.
 
-  * "... the materials that you will use for this project" ← redundant since the context is already the project of making a skirt
+  * "... the materials that you will use for this project" is redundant, since the context is already the project of making a skirt.
 
-* "Cost"  ← too little information — cost of what?
+* "Cost" has too little information --- cost of what?
 
-* "Textile materials" ← unclear what to enter based on label alone (even with a monetary field hinting at it)
+* "Textile materials" --- it's unclear what to enter based on label alone (even with a monetary field hinting at it).
 
-  * However, this label is fine IF this variable appears inside a group called "Cost of components".
+  * However, this label is fine if the variable appears inside a group called "Cost of components".
 
-**Example #2 --- a calculator referencing three side lengths of a triangle**
+Example #2
+^^^^^^^^^^
+
+**A calculator referencing three side lengths of a triangle**
 
 Here, what makes a label good is dependent on the context of its parent group name.
 

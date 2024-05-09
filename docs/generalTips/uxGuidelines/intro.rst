@@ -10,4 +10,8 @@ UX guidelines
     calculatorV2Structure/intro
     valueSelects/intro
     blocks/intro
+
+.. toctree::
+    :maxdepth: 1
+
     conditions

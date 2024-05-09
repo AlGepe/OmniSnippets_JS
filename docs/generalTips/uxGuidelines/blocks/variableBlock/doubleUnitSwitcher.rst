@@ -3,8 +3,15 @@
 Double unit switcher
 ====================
 
+.. figure:: images/doubleUnitSwitcher.png
+  :alt: A variable block labelled "Initial speed", which has a double unit switcher with first unit "meters" and second unit "seconds".
+  :align: center
+  :width: 50%
+
+  A variable block with a double unit switcher to mimic the "speed" single unit switcher.
+
 A double unit switcher is a unit switcher composed of two independent units.
-The conversion factors of each unit are multiplied or divided (according to the user’s need) to create a composite unit.
+The conversion factors of each unit are multiplied or divided (according to the user's need) to create a composite unit.
 We use it in specific situations for quantities like speed (length over time), torque (force times distance), etc.
 They are especially useful when the available units in the Unit Switcher are not the desired ones  — for example, the speed at which nails grow can have unit “nm/day”, which is missing from the “Speed” unit switcher.
 

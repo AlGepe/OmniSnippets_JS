@@ -9,5 +9,5 @@ Blocks
     :maxdepth: 3
 
     variableBlock/intro.rst
-    textBlock
+    textBlock/intro.rst
     imageBlock

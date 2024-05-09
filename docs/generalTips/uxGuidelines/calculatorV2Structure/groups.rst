@@ -6,7 +6,11 @@ Groups
 Groups are the main and most visually obvious way to split content in a calculator.
 A group contains :ref:`blocks <uxBlocksSummary>` (which are grouped in :ref:`columns and matrices<uxMatricesColumns>`) that participate in the same calculations or are contextually connected.
 
-[TODO image]
+.. figure:: images/groups.png
+    :alt: A breakdown of a group's anatomy.
+    :align: center
+
+    A breakdown of a group's anatomy.
 
 Groups have the following attributes:
 
@@ -70,4 +74,9 @@ Think of a set of additional parameters that are unlikely to change: the room te
 
 When one or more variables inside a collapsed block change value (due to inputs changing elsewhere in the calculator), they will show an indicator of the number of variables changed inside the group:
 
-[TODO image]
+.. figure:: images/collapsedGroupIndicator.png
+    :alt: A collapsed group's header indicating that two values have changed inside the group's hidden contents.
+    :align: center
+    :width: 50%
+
+    Above, two values have changed inside the collapsed group.

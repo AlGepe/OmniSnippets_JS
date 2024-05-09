@@ -12,7 +12,11 @@ A calculator in V2 is structured according to the following hierarchy:
 3. A matrix contains columns which split the matrix vertically (you can have from one to four columns).
 4. In each column, you can stack content blocks, following the guidelines for the proper layout of a calculator.
 
-[TODO image]
+.. figure:: images/structure.png
+    :alt: A breakdown of a calculator's structure.  The use of groups, matrices, columns, and blocks are indicated.
+    :align: center
+    
+    A breakdown of a calculator's structure.
 
 .. toctree::
     :maxdepth: 3

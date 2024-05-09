@@ -30,39 +30,64 @@ There are five different text “types” available, each with its own intent an
 
 1. **Information**
 
-    Short paragraph inside calculator. To make users aware of something. It doesn’t contain instructions or require action.
+    Short paragraph inside calculator. To make users aware of something. It doesn't contain instructions or require action.  This type helps the user to use as well as possible the results of the calculator. This type never contains the main results of the calculations.
 
-    [TODO image]
+    .. figure:: images/typeInformation.png
+        :alt: A text box of the "Information" type.
+        :align: center
 
-    This type helps the user to use as well as possible the results of the calculator. This type never contains the main results of the calculations.
+        A good example of a "information" text block.
+    
 
 2. **Positive**
 
-    Short paragraph. A positive message for the user. Don’t use it to communicate results, but to leave a comment on good results.
+    Short paragraph. A positive message for the user. Don't use it to communicate results, but to leave a comment on good results.
 
-    [TODO image]
- 
+    .. figure:: images/typePositive1.png
+        :alt: A text box of the "Positive" type.
+        :align: center
+
+    .. figure:: images/typePositive2.png
+        :alt: A text box of the "Positive" type.
+        :align: center
+
 3. **Neutral**
 
     For long paragraphs.  Does not contain an icon.  Can safely contain calculation results. You can use it to give instructions about how to use the calculator or interpret the results.
     
-    Ex. explaining the calculator's purpose
+    .. figure:: images/typeNeutral1.png
+        :alt: A text box of the "Neutral" type.
+        :align: center
+
+        A good example of a "neutral" text block, explaining the calculator's purpose.
     
-    [TODO image]
+    .. figure:: images/typeNeutral2.png
+        :alt: A text box of the "Neutral" type.
+        :align: center
 
-    Ex. explaining the calculator's results in-depth
-
-    [TODO image]
+        Another suitable example of a "neutral" text block, explaining the calculator's results in-depth.
 
 4. **Negative**
 
     Short paragraph. A piece of negative information for the user, a comment on a result, or additional context. Never use it for printing results.
     
-    [TODO image]
+    .. figure:: images/typeNegative2.png
+        :alt: A text box of the "Negative" type.
+        :align: center
+
+    .. figure:: images/typeNegative2.png
+        :alt: A text box of the "Negative" type.
+        :align: center
 
 5. **Warning**
 
     Short paragraph. A warning for the user. Don't use it to print results. Keep the tone informative.
 
-    [TODO image]
+    .. figure:: images/typeWarning1.png
+        :alt: A text box of the "Warning" type.
+        :align: center
+
+    .. figure:: images/typeWarning2.png
+        :alt: A text box of the "Warning" type.
+        :align: center
 
