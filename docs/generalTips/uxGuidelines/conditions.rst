@@ -3,6 +3,8 @@
 Conditions
 ==========
 
+.. seealso:: :ref:`How to create, edit, and delete conditions <conditionsV2>`
+
 Conditions set limits on variable's values (whether it's a user's input or an output value resulting from a calculation).
 We use conditions and their messages to tell our users that something in their calculation is wrong.
 
@@ -21,6 +23,7 @@ How to use them well?
 * Remember that it is better to tell the users what to do, rather than what's wrong.
 
 .. admonition:: Example
+    :class: yellow
     
     Say your variable “Water temperature” can only take positive or zero values.
     We don't say to our users “The water temperature can't be negative”, we tell them “Make sure that the water temperature you insert is positive or zero.”

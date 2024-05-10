@@ -3,6 +3,8 @@
 Groups
 ======
 
+.. seealso:: :ref:`How to create, edit or delete groups<groupsAndVariablesV2>`
+
 Groups are the main and most visually obvious way to split content in a calculator.
 A group contains :ref:`blocks <uxBlocksSummary>` (which are grouped in :ref:`columns and matrices<uxMatricesColumns>`) that participate in the same calculations or are contextually connected.
 
@@ -21,6 +23,8 @@ Groups have the following attributes:
   * Uncollapsible; OR
   * Collapsable.  A group can be set as expanded or collapsed by default (i.e., when the calculator loads).
 
+.. _uxUncollapsibleGroups:
+
 Uncollapsible groups
 --------------------
 
@@ -33,6 +37,7 @@ We use uncollapsible groups when the content they contain must always be seen by
 The information contained there is fundamental, and the user shouldn't be able to hide it.
 
 .. admonition:: Example
+    :class: green
 
     The calculator Penguin Density Calculator calculates the number of penguins per square meter in a colony.
     It contains (1) a collapsible group of colony parameters, and (2) an uncollapsible group named "Penguin colony density".
@@ -57,6 +62,7 @@ Use this type of group for content you want the user to see, but that it's not f
 This content forms a consistent group, separated from (but not alternative to) the core calculations, and they add value to the tool.
 
 .. admonition:: Example
+    :class: green
 
     The calculator Decking Calculator contains a group called “Deck measurements” that the user can fill once and forget: this group is a default expanded group.
     The group “Results” is an uncollapsible group.
@@ -68,6 +74,7 @@ We use a default collapsed group for additional calculations or parameters that 
 Think of a set of additional parameters that are unlikely to change: the room temperature in a physics calculator, the planet where you are performing an experiment, etc.
 
 .. admonition:: Example
+    :class: green
     
     Jerry is building a calculator: his equations return a bunch of intermediate values of dubious importance.
     Jerry prefers to either hide the variables, or to tweak the equations rather than to use a default collapsed group! 

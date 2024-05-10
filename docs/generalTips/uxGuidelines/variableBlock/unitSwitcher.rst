@@ -20,10 +20,12 @@ When considering the visible result, keep in mind:
 * The list of available units: the units the user will see when opening the dropdown menu. Keep it short but comprehensive and always in scope.
 
 .. admonition:: Example
+    :class: green
 
     The length of a pool will generally be meters, feet (+inches), or yards, and definitely not miles or millimeters.
 
 .. admonition:: Example
+    :class: green
 
     In an everyday life calculator which uses speed, the user doesn't need to see or use the nm/year, or the parsec/second. We limit the choice to a small set of useful units.
 

@@ -3,6 +3,8 @@
 Conditions
 ==========
 
+.. seealso:: :ref:`UX guidelines for conditions <uxConditions>`
+
 .. note::
   Conditions are currently triggered even for empty/null variable blocks but this behavior will change in future.
 

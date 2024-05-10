@@ -3,7 +3,7 @@
 Label
 =====
 
-The labels describe the variable: in the most common form, they match the quantity measured by the variable.
+The label describes the variable: in the most common form, they match the quantity measured by the variable.
 The label is the first and most important way the user can identify which variable does what.
 
 When to use it
@@ -15,8 +15,9 @@ When writing labels, keep them short, but explanatory.
 Remember that labels are used by screen readers for accessibility reasons.
 
 .. admonition:: Example
+  :class: yellow
 
-    The variable *k* that describes a parameter that depends on the geometry of an object is better indicated by the label "Geometric parameter (k)" rather than "k".
+  The variable *k* that describes a parameter that depends on the geometry of an object is better indicated by the label "Geometric parameter (k)" rather than "k".
 
 As a **special case**, checkboxes generally don't need labels.
 Instead, they should be a self-explanatory item:

@@ -3,6 +3,8 @@
 Variable blocks
 ===============
 
+.. seealso:: :ref:`How to create, edit, and delete variable blocks <variableBlocks>`
+
 The variable block is the basic element of a calculator.
 A variable block corresponds to some input field (numeric inputs as well as dropdown lists, radio buttons, checkboxes).
 

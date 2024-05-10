@@ -33,5 +33,6 @@ How to use it well
 * As per other text fields of the calculator, use markdown as much as possible, and resort to LaTeX only when necessary.
 
 .. admonition:: Example
+    :class: green
 
     The variable with label "Number of adult penguins" doesn't need the help text "Insert only the number of adult penguins in the colony".

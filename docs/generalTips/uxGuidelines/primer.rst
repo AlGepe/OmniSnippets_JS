@@ -23,4 +23,5 @@ What this guide is not
 
 This chapter will not cover instructions on how to use the V2 features in the AdminBB interface --- for that, visit the :ref:`Edit calculator (Engine v2) section <editCalculatorV2>`.
 
-This chapter will also not cover the guidelines and steps for migration of V1 calculators to V2 (although you should apply the UX principles from this guide during migration).  Instead, please visit the :ref:`Migration section <migration>`.
+This chapter will also not cover the guidelines and steps for migration of V1 calculators to V2 (although you should apply the UX principles from this guide during migration).
+Instead, please visit the :ref:`Migration section <migration>`.

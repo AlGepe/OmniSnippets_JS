@@ -3,10 +3,12 @@
 Matrices and columns
 ====================
 
+.. seealso:: :ref:`How to manipulate matrices and columns <multicolumnLayout>`
+
 Matrices are subdivisions of :ref:`groups <uxGroups>`.
 Each matrix contains one or more columns.
 In most cases, a matrix will contain one column and that column will contain one :ref:`block <uxBlocksSummary>`.
-There are no special guidelines relating to single-column, single-block matrices.  
+There are no special guidelines relating to single-column, single-block matrices.
 
 .. figure:: images/matricesMulticolumn.png
     :alt: A calculator with two rows of inputs, each with two blocks inside.  They are labelled as chemicals' coefficients and concentrations.

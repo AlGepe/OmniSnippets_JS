@@ -1,7 +1,7 @@
 .. _uxV2Structure:
 
-V2 calculators' structural elements
-===================================
+Structural elements of calculators
+==================================
 
 This section covers the general structure of a V2 calculator from a conceptual standpoint and the related UX principles.
 

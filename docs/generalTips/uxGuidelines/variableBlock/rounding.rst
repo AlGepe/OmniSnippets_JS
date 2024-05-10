@@ -17,5 +17,6 @@ Change the rounding if the result you want to show to the user requires more or 
 The default is 1/10k Omni rounding.
 
 .. admonition:: Example
+    :class: yellow
     
     A cooking calculator will never need to show the user 3.4213834134 cups of flour. Instead, cut it to one decimal place ("3.4 cups of flour" is enough information).

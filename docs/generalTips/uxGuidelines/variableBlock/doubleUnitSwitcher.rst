@@ -22,5 +22,6 @@ When to use it
 * If you need to use more than 7 units in one unit switcher.
 
 .. admonition:: Example
+  :class: green
 
     The variable “Usage time” is well-suited to a double unit switcher of time/time. The user can select hours/day, or day/month, and much more.

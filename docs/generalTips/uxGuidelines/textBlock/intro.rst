@@ -3,11 +3,16 @@
 Text blocks
 ===========
 
-Text blocks contain exclusively text.  You can use them to display results by reading their values, warnings, and additional information.
+.. seealso:: :ref:`How to create, edit, and delete text blocks<textBlocks>`
 
-Text blocks support the addition of multiple chunks of text in sequential order. Each chunk can have multiple alternatives selected through standard visibility rules.
+Text blocks contain exclusively text.
+You can use them to display results by reading their values, warnings, and additional information.
 
-Text blocks support both markdown and LaTeX. Restrict the use of the latter only in situations where it's the only option left.
+Text blocks support the addition of multiple chunks of text in sequential order.
+Each chunk can have multiple alternatives selected through standard visibility rules.
+
+Text blocks support both markdown and LaTeX.
+Restrict the use of the latter only in situations where it's the only option left.
 
 A text block has two attributes: :ref:`format <uxTextBlockFormat>` and :ref:`type <uxTextBlockType>`. You can choose only one value for each option for all the chunks of a block.
 

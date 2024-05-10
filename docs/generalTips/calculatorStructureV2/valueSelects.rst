@@ -3,6 +3,8 @@
 Value selects
 =============
 
+.. seealso:: :ref:`UX guidelines on value selects <uxValueSelect>`
+
 .. toctree::
   :hidden:
 
@@ -84,7 +86,7 @@ You may configure the value select in different ways depending on your need. The
 
 1. **Value select type**: The value select type can be any of the following:
 
-   a. **Dropdown** — recommended when there are more than 5 options. Using this will display your choices as a dropdown menu from which the user can select their required option.
+   a. **Dropdown** — recommended when there are more than 5 options. Using this will display your choices as a dropdown menu from which the user can select their required option. Read more about its UX guidelines :ref:`here <uxDropdown>`.
 
       .. figure:: img/vs-dropdown.png
        :alt: example of a dropdown list value select
@@ -93,7 +95,7 @@ You may configure the value select in different ways depending on your need. The
 
       (You may also feel free to use the dropdown option for **5 or fewer** options as you see fit.)
 
-   b. **Radio button** — recommended when there are **5 or fewer options**. Using this will display all choices as radio buttons from which the user can choose one. With this type, the user will be able to **see all options right away** without requiring them to click the dropdown.
+   b. **Radio button** — recommended when there are **5 or fewer options**. Using this will display all choices as radio buttons from which the user can choose one. With this type, the user will be able to **see all options right away** without requiring them to click the dropdown. Read more about its UX guidelines :ref:`here <uxRadioButtons>`.
 
       .. figure:: img/vs-radio.png
        :alt: example of a radio list value select
@@ -106,7 +108,7 @@ You may configure the value select in different ways depending on your need. The
 
 .. _valueSelectsV2CheckboxOption:
 
-   c. **Checkbox** — If there are only 1 or 2 options, you can select the Checkbox type, which looks like this:
+   c. **Checkbox** — If there are only 1 or 2 options, you can select the Checkbox type. Read more about its UX guidelines :ref:`here <uxCheckbox>`.
 
       .. figure:: img/checkbox-example.png
        :alt: example of a checkbox value select
@@ -144,7 +146,7 @@ You may configure the value select in different ways depending on your need. The
 
       For instructions on how to create a checkbox, see :ref:`Checkbox value select<valueSelectsV2Checkbox>` below.
 
-2. **Optional additional columns**: You may configure additional columns to hold additional data about each choice. For example, if you are listing car models, you could use additional columns to configure each model's mileage, color, etc. *More about this option at a later date in the value setter section.*
+1. **Optional additional columns**: You may configure additional columns to hold additional data about each choice. For example, if you are listing car models, you could use additional columns to configure each model's mileage, color, etc. *More about this option at a later date in the value setter section.*
 
 .. figure:: img/vs-optional-columns.png
        :alt: example of optional columns in a value select
@@ -224,7 +226,7 @@ To create a checkbox type variable, we first need to **create a value select of 
   ؜
 
 .. tip::
-  You can either use the variable label to specify what checking a box means or the value select option name. The latter is nice to make a list of checkboxes by removing the label for each variable.
+  You can either use the variable label to specify what checking a box means or the value select option name. The latter is nice to make a list of checkboxes by removing the label for each variable. Read more about this use-case in the :ref:`UX guidelines <uxDropdown>`.
 
   .. figure:: img/checkbox-tip.png
     :align: center

@@ -8,10 +8,16 @@ This chapter of the handbook tackles guidelines around making good calculators t
 
     primer
     calculatorV2Structure/intro
-    blocks/intro
+
+.. toctree:: 
+    :maxdepth: 2
+
+    variableBlock/intro
     valueSelects/intro
+    textBlock/intro
 
 .. toctree::
     :maxdepth: 1
 
+    imageBlock
     conditions
