@@ -9,6 +9,8 @@
 Groups and blocks
 =================
 
+.. seealso:: :ref:`UX guidelines on groups <uxGroups>`
+
 The **Groups and blocks** section of the V2 edit calculator page defines the layout of calculator variables, their units and other properties and attributes. 
 
 Groups
@@ -55,7 +57,7 @@ Creating a group
 
   The different options are explained below:
 
-  a. **Disabled** — Collapsibility is disabled, so these groups are **always expanded fully** when the calculator is loaded, and the user will **NOT be able to collapse** these groups. Select this option when there is ONLY ONE group in the calculator, as well as under other circumstances where you always want the group to be fully displayed.
+  a. **Disabled** — Collapsibility is disabled, so these groups are **always expanded fully** when the calculator is loaded, and the user will **NOT be able to collapse** these groups. Select this option when there is ONLY ONE group in the calculator, as well as under other circumstances where you always want the group to be fully displayed.  See also the :ref:`UX guidelines on uncollapsible groups <uxUncollapsibleGroups>`.
 
   .. figure:: img/group-collapse-disabled.png
     :alt: Example of the group collapsable disabled setting
@@ -71,7 +73,7 @@ Creating a group
 
     How the group will look if its contents is not collapsable.
 
-  b. **Default expanded** — These groups are always expanded fully when the calculator is loaded, but the user WILL be able to collapse these groups if needed. This is the default choice for a newly created group.
+  b. **Default expanded** — These groups are always expanded fully when the calculator is loaded, but the user WILL be able to collapse these groups if needed. This is the default choice for a newly created group.  See also the :ref:`UX guidelines on collapsible groups <uxCollapsibleGroups>`.
 
   .. figure:: img/group-collapse-expanded.png
     :alt: Default expanded setting
@@ -87,7 +89,7 @@ Creating a group
 
     ؜
 
-  c. **Default collapsed** — These groups are always collapsed fully when the calculator is loaded, but the user WILL be able to expand these groups if needed, to view the contents. This addresses some of the use cases surrounding advanced mode in Engine V1.
+  c. **Default collapsed** — These groups are always collapsed fully when the calculator is loaded, but the user WILL be able to expand these groups if needed, to view the contents. This addresses some of the use cases surrounding advanced mode in Engine V1.  See also the :ref:`UX guidelines on collapsible groups <uxCollapsibleGroups>`.
 
   .. figure:: img/group-collapse-collapsed.png
     :alt: Default collapsed setting
@@ -185,6 +187,8 @@ Deleting a group
 Blocks
 ------
 
+.. seealso:: :ref:`UX guidelines on blocks <uxBlocksSummary>`
+
 Along with variable blocks that are created automatically when a new equation is added to the calculator, there are also text and image blocks. Let's start with exploring variable blocks.
 
 .. toctree::
@@ -244,8 +248,12 @@ In this example, we have radio buttons that switch the calculator between additi
 
   To place blocks next to each other on the same row, checkout the page on :ref:`multicolumn layout<multicolumnLayout>`.
 
+.. _variableBlocks:
+
 Variable blocks
 ^^^^^^^^^^^^^^^
+
+.. seealso:: :ref:`UX guidelines on variable blocks <uxVariableBlock>`
 
 Variable blocks handle the core component of our calculators where inputs are entered and results are displayed. For more information about all of the attributes that are available for variables, visit the variable attributes section of the handbook:
 
@@ -390,8 +398,12 @@ To help you save time when creating similar variables, you can copy attributes t
 
   ؜
 
+.. _imageBlocks:
+
 Image blocks
 ^^^^^^^^^^^^
+
+.. seealso:: :ref:`UX guidelines on image blocks <uxImageBlock>`
 
 Image blocks allow you to display an image within the calculator widget and is very similar to the image block in the text editor.
 
@@ -439,8 +451,12 @@ If you want an image block to show different images depending on the value of so
   Example: If the variable diameter is less than 10, then the alternative image will be shown instead of the default.
 
 
+.. _textBlocks:
+
 Text blocks
 ^^^^^^^^^^^
+
+.. seealso:: :ref:`UX guidelines on text blocks <uxTextBlock>`
 
 Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
 

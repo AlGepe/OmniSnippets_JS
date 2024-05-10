@@ -3,6 +3,8 @@
 Multicolumn layout of blocks
 ============================
 
+.. seealso:: :ref:`UX guidelines on matrices and columns<uxMatricesColumns>`
+
 Multicolumn layouts are useful to **show multiple variable blocks and/or text/image blocks on the same line**. This feature is especially useful for calculators involving matrices (where each row represents all numbers in a row in the matrix), or calculators that require a set of coordinate points in 2D or 3D geometry, etc. (where each row represents all coordinates of a point).
 
 .. warning::
