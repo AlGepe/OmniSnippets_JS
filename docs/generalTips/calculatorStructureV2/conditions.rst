@@ -62,6 +62,8 @@ You can use the following inequality operators in your conditions:
 * ``!=`` — Not equal to; and
 * ``==`` — Equal to.
 
+.. _conditionsV2Multiple:
+
 Specifying multiple conditions
 ------------------------------
 

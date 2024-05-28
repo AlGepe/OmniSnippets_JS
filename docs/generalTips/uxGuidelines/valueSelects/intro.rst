@@ -18,6 +18,8 @@ This belief can be based on the most popular/probable option, or on data you kno
 Alternatively, perhaps you want to push the user for that option.
 In all of these cases, you can set a default value for the value select variable, which will be its initial state.
 
+.. _uxValueSelectTypes:
+
 Value select types
 ------------------
 
