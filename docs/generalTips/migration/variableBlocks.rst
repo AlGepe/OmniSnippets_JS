@@ -1,3 +1,5 @@
+.. _migrationVariableBlocks:
+
 Variable blocks
 ===============
 

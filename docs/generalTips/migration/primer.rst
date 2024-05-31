@@ -22,12 +22,14 @@ This provides you with a solid foundation upon which you can build the more comp
 
 What this guide is
 ------------------
+
 This chapter explains the process of migrating calculators from v1 to v2.
-TODO
+It covers the steps you'll need take to migrate virtually any calculator, and it covers the deeper nitty-gritty details of how you can migrate each v1 feature to v2.
+Where appropriate, it links to other sections of the handbook that explain how to implement v2 features, or to the UX guidelines for making the best use of v2 features from a user's point-of-view.
 
 What this guide is not
 ----------------------
 
-This chapter will not explain how to use engine v2's features in a user-friendly way — for that, refer to our chapter on UX guidelines [TODO link].
+This chapter will not explain how to use engine v2's features in a user-friendly way — for that, refer to our chapter on :ref:`UX guidelines <uxintroduction>`.
 You should regularly refer to the UX guidelines while migrating calculators.
-This chapter will not cover definitions of or instructions on how to use the V2 features in the AdminBB interface — for that, visit the Edit calculator (Engine v2) section [TODO link].
+This chapter will not cover definitions of or instructions on how to use the V2 features in the AdminBB interface — for that, visit the :ref:`Edit calculator (Engine v2) section <editCalculatorV2>`.

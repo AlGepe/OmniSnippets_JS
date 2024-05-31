@@ -37,7 +37,9 @@ After fixing any such issues, you should be able to reload the preview.
 Fix variable visibility
 -----------------------
 
-This is only necessary if the v1 calculator contains :ref:`CustomJS code <CustomJs>`.
+.. note::
+    This is only necessary if the v1 calculator contains :ref:`CustomJS code <CustomJs>`.
+    You can read more about the CustomJS that pertains to the migration project :ref:`here <migrationcustomjs>`.
 
 - **Understand the initial state of the calculator**
 
@@ -63,6 +65,9 @@ This is only necessary if the v1 calculator contains :ref:`CustomJS code <Custom
 Variable properties
 -------------------
 
+.. seealso:: 
+    :ref:`The full migration guidelines for variable blocks and their properties <migrationVariableBlocks>`
+
 It's time to finalize the variables of your tool.
 
 - Check for :ref:`naming issues <migrationVariableNames>`.
@@ -75,6 +80,10 @@ It's time to finalize the variables of your tool.
 Create image blocks and text blocks
 -----------------------------------
 
+.. note::
+    This is only necessary if the v1 calculator contains :ref:`CustomJS code <CustomJs>`.
+    You can read more about the CustomJS that pertains to the migration project :ref:`here <migrationcustomjs>`.
+
 :ref:`Text blocks <textblocks>` and :ref:`image blocks <imageblocks>` replace the HTML outputs usually added with `ctx.addHtml`.
 Set their visibility as it appears in the CustomJS of the original tool.
 Remember that you can (but do not necessarily need to) use alternative URLs and alternative chunks with visibility conditions rather than different blocks.
@@ -83,34 +92,37 @@ Remember that you can (but do not necessarily need to) use alternative URLs and 
 Refine the appearance
 ---------------------
 
+.. seealso:: 
+    :ref:`The UX guidelines for v2 calculators <uxintroduction>`
+
 At this point, the V2 version should look almost like the V1 version.
 Now, refine its appearance.
 We do it in three steps:
 
-- **Groups** — decide what to do with the groups of your tool. Refer to the Groups and Blocks section in this document [TODO link].
+- **Groups** — decide what to do with the groups of your tool. Refer to the :ref:`migration guidelines <migrationGroups>` on Groups and Blocks.
 
-- **Multicolumn layout** — some tools may be enhanced by adopting the multicolumn layout. Jump to the related section to learn everything about it [TODO link].
+- **Multicolumn layout** — some tools may be enhanced by adopting the :ref:`multicolumn layout<migrationMatrices>`.
 
-- **Advanced mode** — V1 had the possibility of hiding variables in the advanced mode. In V2, we generally should put them in a group that is collapsed by default [TODO link]. However, this group must have a descriptive name other than "Advanced mode".
+- **Advanced mode** — V1 had the possibility of hiding variables in the advanced mode. In V2, we generally should put them in a group that is :ref:`collapsed by default <migrationGroupsCollapsed>`. However, this group must have a descriptive name other than "Advanced mode".
 
-- **Value select type** — V1 had only dropdown menus. V2 also has radio buttons [TODO link] (a suitable replacement for dropdown menus with fewer than 5 items) and checkboxes [TODO link]. Be careful when changing a value select's mode — you might accidentally erase some options.
-
-Related: UX guidelines for calculators [TODO link]
-
+- **Value select type** — V1 had only :ref:`dropdown menus <uxdropdown>`. V2 also has :ref:`radio buttons <uxradiobuttons>` (a suitable replacement for dropdown menus with fewer than 5 items) and :ref:`checkboxes <uxcheckbox>`. Be careful when changing a value select's mode — you might accidentally erase some options.
 
 Check the conditions
 --------------------
+
+.. seealso:: 
+    :ref:`The full migration guidelines for conditions <migrationconditions>`
 
 Conditions work slightly differently in V2 and many old tools don't have them.
 So, scrutinize them.
 
 - Be sure that they are comprehensive: if the tool is related to a physical problem, conditions should cover against “unphysical” inputs (i.e. negative masses...). Converters are allowed to have unrealistic inputs.
 
-- In case of conditions with multiple variables, consult the dedicated section of the guidelines [TODO link].
-
-
 Check the tests
 ---------------
+
+.. seealso:: 
+    :ref:`The full migration guidelines for conditions <migrationtests>`
 
 V2 allows for tests with incomplete inputs to be saved.
 Check for them, and be sure that the test completes with all steps green.

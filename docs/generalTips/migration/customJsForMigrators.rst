@@ -101,8 +101,8 @@ Both these functions take multiple arguments (variable names), e.g:
 
 which hid the fields of variables "weight", "height", and "bmi" inside the calculator (although they were still used in calculations and other effects).
 
-In V2, hiding/showing variables relies entirely on the conditional visibility features (indicated with [TODO]).
-With them, you can hide/show blocks and groups entirely or show alternative versions of content, e.g. "your BMI is too high" / "your BMI is just right" / "your BMI is too low".
+In V2, hiding/showing variables relies entirely on the :ref:`conditional visibility <calculatorsV2ConditionalAlternatives>` features.
+With them, you can hide/show blocks and groups entirely or show alternative versions of content, e.g. a variable pertaining only to one "mode" of the calculator.
 
 Keep in mind that showing and hiding variables in V1 was done imperatively:
 the exact circumstances of when a variable was made visible or invisible depended on the flow of the CustomJS code.

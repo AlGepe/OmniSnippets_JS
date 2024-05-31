@@ -1,3 +1,5 @@
+.. _migrationGroups:
+
 Groups, matrices, and columns
 =============================
 
@@ -15,9 +17,13 @@ In V2's mentality, less is more.
 It is fundamental to give the user the chance to reduce what's visible in a calculator.
 Don't force a lengthy tool down our users' throats, give them the chance to make it as small as they want or need.
 
+.. _migrationGroupsCollapsed:
+
 In V2, collapsible groups cover part of the scope of V1's advanced mode.
 If some variables, calculations, or data visualization don't need to be visible from the start (e.g., a table of numbers, an additional set of results, one-way parameters from a value select, etc.), put them in a **default collapsed group**.
 
+
+.. _migrationMatrices:
 
 Matrices, columns, and rearranging variables
 --------------------------------------------
