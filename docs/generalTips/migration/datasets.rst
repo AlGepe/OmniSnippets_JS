@@ -51,4 +51,4 @@ Be sure to follow the :ref:`UX guidelines <uxValueSelectTypes>` for each.
         :alt: A v2 checkbox to indicate whether tax is included or not
         :align: center
 
-        **After migration**: A v2 checkbox to indicate whether tax is included or not.  Note the difference in how the user interacts with this value select now.
+        **After migration**: A v2 checkbox to indicate whether tax is included or not. Note that this variable has no label.

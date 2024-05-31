@@ -3,7 +3,7 @@
 Conditions
 ==========
 
-.. note:: Please note that migration guidelines for conditions are subject to change.
+.. warning:: Please note that migration guidelines for conditions are subject to change.
 
 Conditions in V2 let you specify the place where the error message will appear, thanks to the "display on" field.
 When :ref:`auto-migrated<migrationAuto>`, v1 revisions' conditions are subject to these rules:

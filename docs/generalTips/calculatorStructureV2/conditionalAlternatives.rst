@@ -3,12 +3,15 @@
 Conditional alternatives and visibility
 =======================================
 
+.. warning:: This section is still under construction.
+
 In many cases, you may wish to adjust a calculator based on variable values, on the user's locale data, or on other dynamic data.
+
 * For example, you may want to set variables' default units to metric/imperial units depending on what the user's country uses.
 * Or you may want to display a message that interprets the user's input data in words (such as interpreting in which health category a user's BMI falls).
 
 Conditional alternatives and conditional visibility allows such behaviour by connecting these dynamic behaviours to conditional language.
-This enables you to adjust what is presented to the user with clear language in the calculator editor.
+This lets you adjust what is presented to the user while using clear language in the calculator editor.
 
 Note that conditional alternatives are different from :ref:`input conditions <conditionsv2>`, although the conditional language of alternatives uses the same expressions, syntax, and general rules as input conditions do.
 

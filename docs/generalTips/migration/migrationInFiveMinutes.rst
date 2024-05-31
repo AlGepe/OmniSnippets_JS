@@ -20,7 +20,7 @@ Upon starting a migration, you may see a log appearing at the top of the tool: r
     The migration log of a calculator.
 
 
-There may be errors in the revision --- to fix them, scroll through the BB interface and check for red-bordered panels (conditions, tests, etc.).
+There may be errors in the revision --- to fix them, scroll through the calculator editor and check for red-bordered panels (conditions, tests, etc.).
 
 - Unnamed tests aren't allowed in V2.
 
@@ -116,7 +116,7 @@ Check the conditions
 Conditions work slightly differently in V2 and many old tools don't have them.
 So, scrutinize them.
 
-- Be sure that they are comprehensive: if the tool is related to a physical problem, conditions should cover against “unphysical” inputs (i.e. negative masses...). Converters are allowed to have unrealistic inputs.
+- Be sure that they are comprehensive: if the tool is related to a physical problem, conditions should cover against "unphysical" inputs (i.e. negative masses...). Converters are allowed to have unrealistic inputs.
 
 Check the tests
 ---------------
@@ -132,6 +132,6 @@ Make sure the tests are comprehensive and that they cover all variables needed i
 Perform a final check of the tool
 ---------------------------------
 
-Make sure everything works, especially in reference to the V1 version.
+Make sure everything works, and compare its behaviour and calculations with the V1 version.
 Use common sense, look for edge cases, and test your assumptions of the calc.
 
