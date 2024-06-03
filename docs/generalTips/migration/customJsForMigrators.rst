@@ -121,6 +121,6 @@ In V1, text and images in calculators were achieved by inserting HTML snippets i
 For text, simply rewrite the text content of the HTML into :ref:`text blocks <textblocks>`, keeping in mind the possible need for formatting in Markdown or LaTeX.
 Use text block chunks and variants where useful and appropriate.
 
-For images, you must copy the URL and alt text to an :ref:`image block <imageblocks>` (keeping in mind the guidelines in place for :ref:`image alt texts <textStylingGuideAltText>`.
+For images, you must copy the URL and alt text to an :ref:`image block <imageblocks>` (keeping in mind the guidelines in place for :ref:`image alt texts <textStylingGuideAltText>`).
 Rewrite the alt text to meet guidelines if it doesn't meet them.
 If some text is shown with the image (typically inside a `<caption>` tag), you can use that for the image block's "caption" field.
