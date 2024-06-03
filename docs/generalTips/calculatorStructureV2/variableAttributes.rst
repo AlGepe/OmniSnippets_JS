@@ -30,20 +30,31 @@ Here are is a summary of the **DOs and DON'TS** when it comes to variables:
 
 Let's now go through each of the variable attributes to see what then do.
 
+.. _variableAttributesV2Name:
+
 Name
 ----
 
-The name of the variable in the equations section of the calculator. This cannot be edited.
+The name of the variable, as referenced in the equations, formulas, input conditions, visibility conditions, tests, etc.
+
+To change it:
+
+1. Click on the "name" field and change the name as you wish.
+2. Click the checkmark icon next to the field to commit this change.  The variable's name will be changed everywhere it is referenced.  This may take a few seconds.
+3. To cancel the change, click the cross icon instead.
+
+.. _variableAttributesV2Label:
 
 Label
 -----
 
 This is the name of the variable as **displayed to the user**. Make sure it will be easily understood by the user and starts with a capital letter (but no more). If the variable is associated with an equation in the calculator text, it's a good idea to put the algebraic reference in brackets after the name. Read more about styling variables labels :ref:`here<variableLabel>`.
 
-Alterative label
-^^^^^^^^^^^^^^^^
+Alternative label
+^^^^^^^^^^^^^^^^^
 
-You can conditionally change or hide the label of a variable. Here's how:
+You can conditionally change or hide the label of a variable, using :ref:`conditional alternatives<calculatorsV2ConditionalAlternatives>`.
+Here's how:
 
 1. Click on the |plus icon| icon at the end of the label input box.
 
@@ -156,6 +167,8 @@ If you select variable type as **Monetary**, you'll see that the minimum number 
   :width: 85%
 
   Example of the minimum decimal setting.
+
+.. _variableAttributesV2UnitSwitcher:
 
 Unit switcher
 -------------
@@ -272,6 +285,8 @@ Which results in the following in the calculator:
   ؜
 
 
+.. _variableAttributesV2DefaultValue:
+
 Default value
 -------------
 
@@ -333,6 +348,7 @@ Help text
 
 Text inputted here will appear **when the user clicks on the info icon** after the variable name. This allows you to describe in more detail what input is required, say what limits there are on its value or better explain a result. Guidance on help texts can be found :ref:`here <calcStylingGuideHelpTexts>`.
 
+.. _variableAttributesV2Monetary:
 
 Monetary
 --------
@@ -348,6 +364,8 @@ When checked, the **variable value will be saved** in a cookie on the user's bro
 
 This is useful for things that are not likely to change very often or by much, such as a person's **age**, **weight**, etc.
 
+.. _variableAttributesV2OutputOnly:
+
 Output only
 -----------
 
@@ -355,6 +373,8 @@ This setting forces the variable to be output only and not allow the user to inp
 
 Other attributes not yet implemented in v2
 ------------------------------------------
+
+.. _variableAttributesV2Locked:
 
 Locked
 ^^^^^^

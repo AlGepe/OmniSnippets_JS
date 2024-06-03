@@ -345,6 +345,8 @@ Besides variable blocks beginning created automatically from equations, you may 
   The choice of variant to be used is evaluated in a **bottom-up fashion**. So the first variant from the bottom whose condition evaluates to true will be used, in case more than one variant's conditions evaluate to true.
 
 
+.. _groupsAndVariablesV2CopyingVariableAttributes:
+
 Copying variable attributes to other variables
 """"""""""""""""""""""""""""""""""""""""""""""
 
@@ -460,7 +462,7 @@ Text blocks
 
 Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
 
-Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through standard visibility rules.
+Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through :ref:`standard visibility rules <calculatorsv2conditionalalternatives>`.
 
 Text block's supports both Markdown and LaTeX. Restrict the use of the latter only in situations where it's the only option left.
 

@@ -86,6 +86,8 @@ You may configure the value select in different ways depending on your need. The
 
 1. **Value select type**: The value select type can be any of the following:
 
+.. _valueSelectsV2DropdownOption:
+
    a. **Dropdown** — recommended when there are more than 5 options. Using this will display your choices as a dropdown menu from which the user can select their required option. Read more about its UX guidelines :ref:`here <uxDropdown>`.
 
       .. figure:: img/vs-dropdown.png
@@ -94,6 +96,8 @@ You may configure the value select in different ways depending on your need. The
        :align: center
 
       (You may also feel free to use the dropdown option for **5 or fewer** options as you see fit.)
+
+.. _valueSelectsV2RadioButtonOption:
 
    b. **Radio button** — recommended when there are **5 or fewer options**. Using this will display all choices as radio buttons from which the user can choose one. With this type, the user will be able to **see all options right away** without requiring them to click the dropdown. Read more about its UX guidelines :ref:`here <uxRadioButtons>`.
 

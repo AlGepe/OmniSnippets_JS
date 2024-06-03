@@ -20,6 +20,8 @@ When to use it
 How to use it well
 ^^^^^^^^^^^^^^^^^^
 
+* Help texts are sentences, and so they follow rules of grammar and punctuation. Begin the help text with a capital letter, and close it with a period, exclamation point, or other sentence-terminating punctuation.
+
 * Use help text to explain the field itself.
 
 * Use help text to expand upon the :ref:`label <uxVariableBlockLabel>` (which you should keep as short as possible). Add information you couldn't fit in the label. Don't merely repeat the label.

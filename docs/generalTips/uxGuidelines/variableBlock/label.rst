@@ -58,6 +58,8 @@ How to use it well
 
 * You can use conditional labels, but try to avoid them, in particular for verbose labels (it makes translation more complicated).
 
+* Don't use conditional labels based on the value of that label's own variable. A label changing as its field is typed in will only confuse the user.
+
 * The labels must always match what's referenced in the text. Symbols, terminology, etc. must all be consistent.
 
 Example #1

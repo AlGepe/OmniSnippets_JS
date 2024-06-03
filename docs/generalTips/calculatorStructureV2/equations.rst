@@ -41,6 +41,9 @@ Generally, you should try to use **descriptive names** so someone else reading y
 .. note::
   The default label of a newly created variable consists of the variable name with underscores replaced with spaces and only the first letter is capitalized.
 
+.. _calculatorStructureEquationsV2ReservedKeywords:
+
+
 Reserved variable names
 -----------------------
 
@@ -54,12 +57,24 @@ You should **change your variable name** to avoid this kind of name collision.
 
 **In addition, you cannot use the following variable names:**
 
-* ``N``
 * ``I``
+* ``N``
 * ``O``
+* ``Q``
 * ``S``
+* ``all``
+* ``any``
+* ``composite``
 * ``input``
+* ``len``
+* ``max``
 * ``mean``
+* ``min``
+* ``open``
+* ``rotations``
+* ``round``
+* ``shape``
+* ``sum``
 
 .. tip::
   You can't use the variable name ``test`` in equations. You'll get a parse error if you do.
