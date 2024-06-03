@@ -345,6 +345,8 @@ Besides variable blocks beginning created automatically from equations, you may 
   The choice of variant to be used is evaluated in a **bottom-up fashion**. So the first variant from the bottom whose condition evaluates to true will be used, in case more than one variant's conditions evaluate to true.
 
 
+.. _groupsAndVariablesV2CopyingVariableAttributes:
+
 Copying variable attributes to other variables
 """"""""""""""""""""""""""""""""""""""""""""""
 

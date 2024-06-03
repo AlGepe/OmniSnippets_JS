@@ -33,7 +33,7 @@ Labels
 Rounding and types
 ------------------
 
--  Assign :ref:`monetary types<variableAttributesV2Monetary>` where necessary.
+-  Assign :ref:`monetary types<variableAttributesV2Monetary>` where necessary, removing any rounding settings carried over from v1 in favor of the monetary setting's rounding behavior.
 
 -  Try **not to change the original rounding of the V1 version**. If needed, **standardize** it across variables of the same type.
 
@@ -137,4 +137,6 @@ Shared additional properties ("Others")
 Copying attributes
 ------------------
 
-All these attributes — excluding the name of the variable, and, for the value select type, the name of the value select and its default value can be **copied from one to one or more other variables**. You can easily select which attributes and which variables are interested by the process.
+All these attributes --- excluding the name of the variable and, for the value select type, the name of the value select and its default value --- can be **copied from one to one or more other variables**.
+You can easily select which attributes must be copied to which variables.
+Read how :ref:`here <groupsAndVariablesV2CopyingVariableAttributes>`.

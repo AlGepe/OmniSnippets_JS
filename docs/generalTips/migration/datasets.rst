@@ -18,12 +18,16 @@ Be sure to follow the :ref:`UX guidelines <uxValueSelectTypes>` for each.
         :align: center
 
         **Before migration**: A v1 value select with a list of countries.
-    
+
+    ؜
+
     .. figure:: images/datasetsV2Countries.png
         :alt: A v2 dropdown list with a list of countries 
         :align: center
 
         **After migration**: A v2 dropdown list with a list of countries.
+
+    ؜
 
 * **Radio buttons** (:ref:`how to create <valueSelectsV2RadioButtonOption>`, :ref:`UX guidelines <uxRadioButtons>`). Use them according to guidelines, but in general, consider them for short lists.
 
@@ -33,11 +37,15 @@ Be sure to follow the :ref:`UX guidelines <uxValueSelectTypes>` for each.
 
         **Before migration**: A v1 value select to choose an interest model.
 
+    ؜
+
     .. figure:: images/datasetsV2InterestModel.png
         :alt: A v2 radio button to choose an interest model
         :align: center
 
         **After migration**: A v2 radio button to choose an interest model.
+
+    ؜
 
 * **Checkboxes** (:ref:`how to create <valueSelectsV2CheckboxOption>`, :ref:`UX guidelines <uxCheckbox>`). A checkbox shows only a single option that the user can check and uncheck. Well-suited to "Yes/No" questions.
 
@@ -47,8 +55,12 @@ Be sure to follow the :ref:`UX guidelines <uxValueSelectTypes>` for each.
 
         **Before migration**: A v1 value select to indicate whether tax is included or not.
 
+    ؜
+
     .. figure:: images/datasetsV2TaxIncluded.png
         :alt: A v2 checkbox to indicate whether tax is included or not
         :align: center
 
         **After migration**: A v2 checkbox to indicate whether tax is included or not. Note that this variable has no label.
+
+    ؜

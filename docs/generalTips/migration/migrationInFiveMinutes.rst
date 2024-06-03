@@ -122,7 +122,7 @@ Check the tests
 ---------------
 
 .. seealso:: 
-    :ref:`The full migration guidelines for conditions <migrationtests>`
+    :ref:`The full migration guidelines for tests <migrationtests>`
 
 V2 allows for tests with incomplete inputs to be saved.
 Check for them, and be sure that the test completes with all steps green.
