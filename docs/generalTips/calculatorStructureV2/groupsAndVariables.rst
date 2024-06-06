@@ -462,7 +462,7 @@ Text blocks
 
 Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
 
-Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through :ref:`standard visibility rules <calculatorsv2conditionalalternatives>`.
+Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through :ref:`standard conditional alternative rules <calculatorsv2conditionalalternatives>`.
 
 Text block's supports both Markdown and LaTeX. Restrict the use of the latter only in situations where it's the only option left.
 
