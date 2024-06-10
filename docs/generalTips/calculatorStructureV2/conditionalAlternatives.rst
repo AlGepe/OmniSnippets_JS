@@ -1,4 +1,4 @@
-.. _calculatorsV2ConditionalAlternatives:
+.. _calculatorsV2ConditionalVisibilityAndAlternatives:
 
 Conditional visibility and conditional alternatives
 ===================================================
@@ -13,6 +13,8 @@ Conditional alternatives and conditional visibility allows such behaviour by con
 This lets you adjust what is presented to the user, while using clear language in the calculator editor.
 
 Note that conditional alternatives are different from :ref:`input conditions <conditionsv2>`, although the conditional language of alternatives uses the same expressions, syntax, and general rules as input conditions do.
+
+.. _calculatorsV2ConditionalVisibility:
 
 Conditional visibility
 ----------------------
@@ -41,6 +43,8 @@ Given that the checkbox value-select has a value when it is checked and not when
 
 ؜
 
+
+.. _calculatorsV2ConditionalAlternatives:
 
 Conditional alternatives
 ------------------------
