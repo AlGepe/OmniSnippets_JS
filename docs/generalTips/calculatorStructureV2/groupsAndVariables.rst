@@ -204,7 +204,7 @@ Showing and hiding blocks and groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. seealso::
-  How :ref:`conditional visibility <calculatorsv2conditionalvisibility>` works in general
+  How :ref:`conditional visibility <calculatorsv2conditionalvisibility>` works in general.
 
 To show or hide blocks depending on the output of a condition, click on the |eye icon| icon at the end of the block name.
 
@@ -465,8 +465,9 @@ Text blocks
 .. seealso:: :ref:`UX guidelines on text blocks <uxTextBlock>`
 
 Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
+They support :ref:`markdown <calculatorStructureV2Markdown>`, LaTeX, and :ref:`dynamic prints <calculatorv2dynamicprintfunctions>`.
 
-Text blocks support the use of **multiple chunks of text** in sequential order.
+Text blocks may have **multiple chunks of text** in sequential order.
 Each chunk can have **multiple alternatives ("variants")**, one of which is selected dynamically through :ref:`standard conditional alternative rules <calculatorsV2ConditionalAlternatives>`.
 The selected chunks are stitched together in-line.
 

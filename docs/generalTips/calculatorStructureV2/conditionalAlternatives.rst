@@ -50,7 +50,7 @@ Conditional alternatives
 ------------------------
 
 In this paradigm, one item in the calculator editor is provided with many alternative options, each with an conditional expression attached.
-Upon any change in the calculator, these expressions are evaluated, and **the last option whose expression evaluates to ``true`` is selected**.
+Upon any change in the calculator, these expressions are evaluated, and **the last option whose expression evaluates to** ``true`` **is selected**.
 This option is then used in the calculator, while the rest are ignored.
 
 It may happen that among all alternatives provided, no expression evaluates to ``true``.
@@ -88,7 +88,7 @@ Below, both variants' conditions are not provided, so they are both treated as `
 
 ؜
 
-When conditions are provided, they are evaluated top-to-bottom and the last option that evalautes to ``true`` is selected.
+When conditions are provided, they are evaluated top-to-bottom and the last item whose condition evalautes to ``true`` is selected.
 
 .. figure:: img/conditionalAlternatives/chunksXPositive.png
     :alt: A text block with two chunks. The last chunk's first variant is "active".
@@ -104,7 +104,7 @@ When conditions are provided, they are evaluated top-to-bottom and the last opti
 
 ؜
 
-It may happen that no expression evaluates to ``true`` and no variant is selected:
+It may happen that no expression evaluates to ``true`` and no item is selected:
 
 .. figure:: img/conditionalAlternatives/chunksNone.png
     :alt: A text block with two chunks. No variant from the last chunk's variants is "active".
@@ -113,7 +113,7 @@ It may happen that no expression evaluates to ``true`` and no variant is selecte
 
 ؜
 
-It may happen that multiple variants' expressions all evaluate to ``true``, in which case the last of these variants will be selected:
+It may happen that multiple items' expressions all evaluate to ``true``, in which case the last of these items will be selected:
 
 .. figure:: img/conditionalAlternatives/chunksMultipleTrue.png
     :alt: A text block with two chunks. Only the last chunk is "active", despite multiple expressions evaluating to true.
@@ -121,3 +121,11 @@ It may happen that multiple variants' expressions all evaluate to ``true``, in w
     :align: center
 
 ؜
+
+If a catch-all "fallback" item should be shown when no other item's condition is ``true``, it should be the first item in the list and it should have no condition attached.
+This is contrary to how most programming patterns, where the ``else`` case comes last.
+
+.. figure:: img/conditionalAlternatives/chunksFallback.png
+    :alt: A text block with one chunk with three variants.  The first variant has no condition, so it will be used when no other variant is applicable.
+    :width: 90%
+    :align: center

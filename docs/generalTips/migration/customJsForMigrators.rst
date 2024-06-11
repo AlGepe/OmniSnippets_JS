@@ -118,8 +118,9 @@ Adding text and images with CustomJS
 
 In V1, text and images in calculators were achieved by inserting HTML snippets into the calculator with the :ref:`ctx.addHtml <addhtml>` function.
 
-For text, simply rewrite the text content of the HTML into :ref:`text blocks <textblocks>`, keeping in mind the possible need for formatting in Markdown or LaTeX.
+For text, simply rewrite the text content of the HTML into :ref:`text blocks <textblocks>`, keeping in mind the possible need for formatting in :ref:`Markdown <calculatorStructureV2Markdown>` or LaTeX.
 Use text block chunks and variants where useful and appropriate.
+Remember that you can use :ref:`dynamic prints <calculatorv2dynamicprintfunctions>` to interpolate variable values into text blocks.
 
 For images, you must copy the URL and alt text to an :ref:`image block <imageblocks>` (keeping in mind the guidelines in place for :ref:`image alt texts <textStylingGuideAltText>`).
 Rewrite the alt text to meet guidelines if it doesn't meet them.

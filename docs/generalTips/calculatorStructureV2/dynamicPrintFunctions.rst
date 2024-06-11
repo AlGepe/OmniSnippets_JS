@@ -13,11 +13,11 @@ The following dynamic print functions are available for variables.
 
 - ``{{variable.value}}`` is the raw numeric value.
 
-    E.g. ``1/3`` will be presented as ``0.33333...``.
+    E.g. "1/3" will be presented as "0.33333...".
 
-- ``{{variable.formattedValue}}`` is the numeric value as formatted by the variable's rounding rules, i.e. what the user sees in that variable's input field in the calculator.
+- ``{{variable.formattedValue}}`` is the numeric value as formatted by the user's locale data (which affects the thousands and decimal separators) and the variable's rounding rules --- in other words, ``.formattedValue`` will display what the user sees in the variable's input field.
     
-    E.g. ``1/3`` with :ref:`Omni Rounding <calculatorStructureV2OmniRounding>` 1/10K will be presented as ``0.3333``.
+    E.g. "1/3" with :ref:`Omni Rounding <calculatorStructureV2OmniRounding>` 1/10K will be presented as "0.3333".
 
 - ``{{variable.unit}}`` is the short version of the variable's selected unit, i.e. the unit's text in the unit switcher.
 
@@ -34,10 +34,10 @@ In addition, the following "global" dynamic print function is available:
 - ``{{global.currencySymbol}}`` will be replaced with the currency symbol of the user's location, e.g. "$" for users in the USA.
 
 
-Special behaviours
-------------------
+Edge cases
+----------
 
-If the specified variable and property **exists but has no value yet** (e.g. when its input field is empty), then the template string will be replaced with ``__``.
+If the specified variable and property **exists but has no value yet** (e.g. when its input field is empty), then the template string will be replaced with "__".
 
 If either the variable or the property does not exist, the template string will not be replaced at all.
 
