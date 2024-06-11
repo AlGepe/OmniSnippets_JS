@@ -114,6 +114,8 @@ Here you can select the **rounding** method and amount of variable values. You h
 
   Example of rounding to a number of decimal places. The setting 12 means that no more than 12 figures will appear after the decimal place.
 
+.. _calculatorStructureV2OmniRounding:
+
 Omni rounding
 ^^^^^^^^^^^^^
 

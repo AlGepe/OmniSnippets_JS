@@ -28,3 +28,4 @@ Each section of the edit calculator page is explored below:
     addingSources
     markdown
     conditionalAlternatives
+    dynamicPrintFunctions

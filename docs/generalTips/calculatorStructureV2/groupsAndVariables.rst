@@ -135,7 +135,8 @@ group.
 Conditional visibility of a group
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You may also make the group name **conditionally visible** by clicking the |eye icon| icon next to the Name field, and enter the trigger condition. The group name will show up only when the condition evaluates to "True".
+You may also make the group name :ref:`conditionally visible <calculatorsv2conditionalvisibility>` by clicking the |eye icon| icon next to the Name field, and enter the trigger condition.
+The group name will show up only when the condition evaluates to "True".
 
 .. figure:: img/group-conditional-visible.png
   :alt: Add a name for the new group
@@ -201,6 +202,9 @@ Along with variable blocks that are created automatically when a new equation is
 
 Showing and hiding blocks and groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. seealso::
+  How :ref:`conditional visibility <calculatorsv2conditionalvisibility>` works in general.
 
 To show or hide blocks depending on the output of a condition, click on the |eye icon| icon at the end of the block name.
 
@@ -441,7 +445,7 @@ Showing different images conditionally
 
 To show and hide an image block as a whole, see the instructions in the :ref:`Showing and hiding blocks and groups <showingAndHidingBlocksGroups>` section.
 
-If you want an image block to show different images depending on the value of some variable, here is what you do:
+To show different images with one image block that depends on the value of some variable using :ref:`conditional alternatives <calculatorsv2conditionalalternatives>`, here is what you do:
 
 1. Click on the |plus icon| after the image url field and **provide the URL for the alternative image**.
 2. The click the |eye icon| to add a **condition when this alternative image should be shown** instead of the default image of this image block.
@@ -461,8 +465,17 @@ Text blocks
 .. seealso:: :ref:`UX guidelines on text blocks <uxTextBlock>`
 
 Text blocks are content blocks (the same as variable blocks and image blocks) that contain **exclusively text**.
+They support :ref:`markdown <calculatorStructureV2Markdown>`, LaTeX, and :ref:`dynamic prints <calculatorv2dynamicprintfunctions>`.
 
-Text blocks support the addition of **multiple chunks of text** in sequential order. Each chunk can have **multiple alternatives** selected through :ref:`standard visibility rules <calculatorsv2conditionalalternatives>`.
+Text blocks may have **multiple chunks of text** in sequential order.
+Each chunk can have **multiple alternatives ("variants")**, one of which is selected dynamically through :ref:`standard conditional alternative rules <calculatorsV2ConditionalAlternatives>`.
+The selected chunks are stitched together in-line.
+
+.. figure:: img/text-block-chunks.png
+    :alt: Text block chunks
+    :align: center
+
+    ؜
 
 Text block's supports both Markdown and LaTeX. Restrict the use of the latter only in situations where it's the only option left.
 

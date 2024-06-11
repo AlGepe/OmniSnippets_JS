@@ -38,14 +38,14 @@ Consider this example:
         return weight / (height * height);
     });
 
-With this code, we have made available to the engine a function called *calculateBMI*.
+With this code, we have made available to the engine a function called "calculateBMI".
 It takes two arguments, "weight" and "height", and returns the BMI according to the BMI formula.
 We can now use it in e.g. equations:
 
 `bmi = calculateBMI(weight, height)`
 
-This will create the variables "bmi", "weight", and "height" as normal.
-The crucial drawback is that this equation will not be omni-directional in the calculator, e.g. you could not enter "weight" and "bmi" to obtain "height".
+This will create the variables "bmi", "weight", and "height" in the calculator as normal.
+The crucial drawback: this equation will not be omni-directional in the calculator, e.g. you could not enter "weight" and "bmi" to obtain "height".
 
 If you find any custom functions defined in your migrated CustomJS revision, you should uncomment it so that the equations and conditions can be processed.
 Do not make changes to any such function unless you are sure of what you are doing.
@@ -70,8 +70,8 @@ Consider this example:
 
 Here, the code inside the function (which calculates BMI) would be executed only when both weight and height has values in the calculator, and their values were provided to the function so that they can be used.
 
-Note that this would not set the value of `bmi` in the calculator, where the user would see it.
-The calculations performed inside `omni.onResult()` would not affect any calculator variables.
+Note that this would not set the value of "bmi" in the calculator, where the user would see it.
+The calculations performed inside ``omni.onResult()`` would not affect any calculator variables.
 
 It was also possible to provide an empty array or no array to execute the function when ANY value changes.
 This was often combined with a dummy variable that had a default value --- this ensured that upon the calculator loading, the code inside would always be executed.
@@ -86,7 +86,7 @@ Consider:
 
 It is because of such cases that checking for the existence of any "dummy" / "placeholder" variable is important.
 
-**To summarize:** The circumstances under which each segment of CustomJS code is executed, is easily understandable by looking at how `omni.onResult()` is used.
+**To summarize:** The circumstances under which each segment of CustomJS code is executed, is easily understandable by looking at how ``omni.onResult()`` is used.
 
 Hiding and showing variables with CustomJS
 ------------------------------------------
@@ -99,9 +99,9 @@ Both these functions take multiple arguments (variable names), e.g:
 
     ctx.hideVariables("weight", "height", "bmi");
 
-which hid the fields of variables "weight", "height", and "bmi" inside the calculator (although they were still used in calculations and other effects).
+which hides the fields of variables "weight", "height", and "bmi" inside the calculator (although the variables are still available to calculations and other effects).
 
-In V2, hiding/showing variables relies entirely on the :ref:`conditional visibility <calculatorsV2ConditionalAlternatives>` features.
+In V2, hiding/showing variables relies entirely on the :ref:`conditional visibility <calculatorsV2ConditionalVisibility>` features.
 With them, you can hide/show blocks and groups entirely or show alternative versions of content, e.g. a variable pertaining only to one "mode" of the calculator.
 
 Keep in mind that showing and hiding variables in V1 was done imperatively:
@@ -109,18 +109,19 @@ the exact circumstances of when a variable was made visible or invisible depende
 In contrast, V2 uses a declarative paradigm: a block or group is only shown when its visibility condition evaluates to true.
 For this reason, you might need to adjust the conditions and their logic somewhat.
 
-For the case of alternative content, V1's CustomJS mostly relied on cascaded `if` (or `switch`) statements.
+For the case of alternative content, V1's CustomJS mostly relied on cascaded ``if`` (or ``switch``) statements.
 Understand the logic for each case of alternative content to properly implement it as visibility conditions.
-Likely, the case in the `else`-block of a cascaded conditional statement will be the first piece of alternative content.
+Likely, the case in the ``else``-block of a cascaded conditional statement will be the first piece of alternative content.
 
 Adding text and images with CustomJS
 ------------------------------------
 
 In V1, text and images in calculators were achieved by inserting HTML snippets into the calculator with the :ref:`ctx.addHtml <addhtml>` function.
 
-For text, simply rewrite the text content of the HTML into :ref:`text blocks <textblocks>`, keeping in mind the possible need for formatting in Markdown or LaTeX.
+For text, simply rewrite the text content of the HTML into :ref:`text blocks <textblocks>`, keeping in mind the possible need for formatting in :ref:`Markdown <calculatorStructureV2Markdown>` or LaTeX.
 Use text block chunks and variants where useful and appropriate.
+Remember that you can use :ref:`dynamic prints <calculatorv2dynamicprintfunctions>` to interpolate variable values into text blocks.
 
 For images, you must copy the URL and alt text to an :ref:`image block <imageblocks>` (keeping in mind the guidelines in place for :ref:`image alt texts <textStylingGuideAltText>`).
 Rewrite the alt text to meet guidelines if it doesn't meet them.
-If some text is shown with the image (typically inside a `<caption>` tag), you can use that for the image block's "caption" field.
+If some text is shown with the image (typically inside a ``<caption>`` tag), you can use that for the image block's "caption" field.
