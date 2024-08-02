@@ -88,14 +88,14 @@ If you or a colleague has created the image, tick the "© by Omni" checkbox. Oth
 
 .. _textEditorPicturesUpload:
 
-How to upload pictures?
------------------------
+How to upload pictures
+----------------------
 
-1. Download Filezilla Client: https://filezilla-project.org
+1. Download Filezilla client from: https://filezilla-project.org
 2. Install it on your computer.
-3. Log in (details in the "`Omni Common <https://drive.google.com/drive/u/0/folders/1CW8H5OP9cdzvHRyO7IJR2tKHkBD20jUy>`_ → Shared Accounts" file).
-4. Put the pictures you want to upload in the “images” folder. Make sure that the pictures are open source (good sources are, e.g., `www.pexels.com <https://www.pexels.com/>`_ or https://unsplash.com) and that they’re not too large (ideally less than 100 KB — you can decrease their file size by using, e.g., https://tinypng.com). Here is :ref:`how to resize images <picturesHowToResize>`.
-5. The images are available at the following URL: ``https://uploads-cdn.omnicalculator.com/folder_name/file_name``. For example: https://uploads-cdn.omnicalculator.com/fbimages/car-vs-bike-screenshot.png
+3. Log in (username and password are in Omni's :ref:`Bitwarden vault <Bitwarden>`, and the host is listed in the Website field).
+4. Put the pictures you want to upload in the “images” folder. Make sure that the pictures were either created by us or are open source (good sources are, e.g., `www.pexels.com <https://www.pexels.com/>`_ or https://unsplash.com) and that they're not too large (ideally less than 100 KB — you can decrease their file size by using, e.g., https://tinypng.com). Here is :ref:`how to resize images <picturesHowToResize>`.
+5. The images are available at the following URL: https://uploads-cdn.omnicalculator.com/images/file_name. Tip: You can simply provide the name of the file only, or the folder and file if you uploaded a folder of images.
 6. You can now add the image to the image block, as discussed in the previous section.
 
 Omni's in-house graphic artist
@@ -103,7 +103,7 @@ Omni's in-house graphic artist
 
 If you can't easily find the image or diagram you need for your calculator, or you've found a nice one but you can't use it due to licensing issues, why not use our **in-house graphic artist**.
 
-You can request a graphic by posting on the `#graphics <https://slack.com/app_redirect?channel=C02JPRQ1RKL>`_ Slack channel. Please follow these guidelines when requesting graphics:
+You can request a graphic by filling in this `request form <https://forms.gle/kKrNNTXoMHjd8TRy8>`_. When ready, they will be posted on the `#graphics <https://slack.com/app_redirect?channel=C02JPRQ1RKL>`_ Slack channel. Please follow these guidelines when requesting graphics:
 
 * **One calculator per form**
   
@@ -118,17 +118,6 @@ You can request a graphic by posting on the `#graphics <https://slack.com/app_re
 * **After receiving graphics, double-check your calculator text**
 
   * Make sure any references to the new diagrams make sense with the text, especially for revised graphics. We wouldn't want your text saying 'red circle' when the image now shows a 'blue square' 😳
-
-Here is the **request form** for you to copy, paste, fill in, then post in the #graphics channel 🙂
-
-.. code-block::
-
-  Calculator: [Link]
-  Category:
-  Request Type: [Revision and/or New Images?]
-  How Many Images: [Number]
-  Examples/Diagrams: [Attach File]
-  Additional Details:
 
 Creating SVG images
 -------------------
