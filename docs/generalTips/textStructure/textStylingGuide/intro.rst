@@ -9,6 +9,7 @@ The style of writing should be consistent across Omni. These are the rules for t
     :maxdepth: 1
     
     general
+    useOfAITools
     textLength
     numbers
     capitalisation
