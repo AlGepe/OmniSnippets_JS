@@ -16,3 +16,7 @@ search:
     customJS/c2c/*: -9
     customJS/omni/*: -9
     customJS/omni/omniDefine.html: 0
+
+sphinx:
+  # Path to your Sphinx configuration file.
+  configuration: docs/conf.py
